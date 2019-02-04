@@ -1,0 +1,148 @@
+%--------------------Cambiar captio de las subfiguras -------------------
+\renewcommand*{\thesubfigure}{\alph{subfigure})}
+
+
+
+
+%--------------------ABREVIACION DE NOTACION RECURRENTE ---------------------
+\providecommand{\e}[1]{\ensuremath{\times 10^{#1}}}			%-- *10^x ---
+\providecommand{\rt}{\ensuremath{(\Vec{r},t)}}				%-- (r,t) ---
+\providecommand{\epO}{\ensuremath{\varepsilon_0}}			%-- Epsilon0-
+\providecommand{\eps}{\ensuremath{\varepsilon}}				%-- Epsilon -
+\providecommand{\muO}{\ensuremath{\mu_0}}					%-- Mu0 -----
+
+%--------------------OPERADORES DIFERENCIALES -------------------------------
+
+	%------------------------- OPERADORES VECTORIALES ---------------------
+	\providecommand{\lap}{\ensuremath{\nabla^2}}				%-- laplaciano -
+	\providecommand{\rot}{\ensuremath{\nabla\times}}			%-- rotacional -
+	\providecommand{\dive}{\ensuremath{\nabla\cdot}}			%-- divergencia-
+	\providecommand{\grad}{\ensuremath{\nabla}}					%-- gradiente --
+	\providecommand{\ecOnda}[2]{\ensuremath{\lap #1 
+							- #2 \dparcial{^2 #1}{t^2}}}	%-- ec. de onda -
+	\providecommand{\ecHelm}[2]{\ensuremath{\lap #1 - #2^2 #1}} %-- ec. de Helmholz
+
+	%------------------------------ OPERADORES ESCALARES ----------------------
+	\providecommand{\dparcial}[2]{\ensuremath{\frac{
+								\partial #1}{\partial #2}}} %-- Der. parcial
+	\providecommand{\dtotal}[2]{\ensuremath{\frac{d #1}{d #2}}}	%-- Der. total
+
+%--------------------OPERADORACIONES BINARIAS -------------------------------
+	
+	% ------------------------------ OPERACIONES VECTORIALES ---------------------
+	\providecommand{\inner}[2]{\ensuremath{\vec{#1} \cdot \vec{#2}}} 
+	\providecommand{\inneru}[2]{\ensuremath{\vec{#1} \cdot \hat{#2}}} 
+	\providecommand{\cross}[2]{\ensuremath{\vec{#1} \times \vec{#2}}}
+	\providecommand{\crossu}[2]{\ensuremath{\vec{#1} \times \hat{#2}}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%          Comando para derivadas            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\derivada}[3][]{\ensuremath{\dfrac{\mbox{d}^{#1}#2}{\mbox{d}#3^{#1}}}} 
+%primer argumento(opcional): orden de la derivada
+%segundo argumento: función a derivar
+%tercer argumento: variable respecto a la que se deriva
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%       Comando para la exponencial          %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%primer argumento(opcional): exponente de la exponencial
+
+
+
+
+% insert a centered figure with caption and description
+% parameters 1:filename, 2:title, 3:description and label
+\newcommand{\figuremacro}[3]{
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=1\textwidth]{#1}
+		\caption[#2]{\textbf{#2} - #3}
+		\label{condicion}
+	\end{figure}
+}
+
+% insert a centered figure with caption and description AND WIDTH
+% parameters 1:filename, 2:title, 3:description and label, 4: textwidth
+% textwidth 1 means as text, 0.5 means half the width of the text
+\newcommand{\figuremacroW}[4]{
+	\begin{figure}[htbp]
+		\centering
+		\includegraphics[width=#4\textwidth]{#1}
+		\caption[#2]{\textbf{#2} - #3}
+		\label{#1}
+	\end{figure}
+}
+
+% inserts a figure with wrapped around text; only suitable for NARROW figs
+% o is for outside on a double paged document; others: l, r, i(inside)
+% text and figure will each be half of the document width
+% note: long captions often crash with adjacent content; take care
+% in general: above 2 macro produce more reliable layout
+\newcommand{\figuremacroN}[3]{
+	\begin{wrapfigure}{o}{0.5\textwidth}
+		\centering
+		\includegraphics[width=0.48\textwidth]{#1}
+		\caption[#2]{{\small\textbf{#2} - #3}}
+		\label{#1}
+	\end{wrapfigure}
+}
+
+% predefined commands by Harish
+\newcommand{\PdfPsText}[2]{
+  \ifpdf
+     #1
+  \else
+     #2
+  \fi
+}
+
+\newcommand{\IncludeGraphicsH}[3]{
+  \PdfPsText{\includegraphics[height=#2]{#1}}{\includegraphics[bb = #3, height=#2]{#1}}
+}
+
+\newcommand{\IncludeGraphicsW}[3]{
+  \PdfPsText{\includegraphics[width=#2]{#1}}{\includegraphics[bb = #3, width=#2]{#1}}
+}
+
+\newcommand{\InsertFig}[3]{
+  \begin{figure}[!htbp]
+    \begin{center}
+      \leavevmode
+      #1
+      \caption{#2}
+      \label{#3}
+    \end{center}
+  \end{figure}
+}
+
+
+
+
+
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "~/Documents/LaTeX/CUEDThesisPSnPDF/thesis"
+%%% End:

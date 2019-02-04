@@ -1,0 +1,37 @@
+\chapter*{Introducción}
+\addcontentsline{toc}{chapter}{\protect\numberline{}Introducción}
+
+%
+
+\section*{Presentación} % section headings are printed smaller than chapter names
+\blindtext
+
+
+
+\section*{Objetivo}
+
+Este trabajo tiene por objetivo ...
+\blindtext
+
+
+\section*{Motivación}
+\blindtext
+
+\section*{Planteamiento del problema}
+\blindtext
+
+\section*{Metodología}
+
+Se tiene un objetivo principal, y para llegar a \'el %otra forma de poenr acentos
+\blindtext
+
+\section*{Contribuciones}
+
+La principal contribución de este trabajo es 
+\blindtext
+
+\section*{Estructura de la tesis}
+
+Este trabajo está dividido en XX capítulos. Al principio se encuentra 
+\\\\
+Finalmente se encuentra la parte de 

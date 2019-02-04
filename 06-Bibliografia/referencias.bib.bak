@@ -1,0 +1,27 @@
+% -------------------------------------------
+%---------------------------------------------------------- Bibliography
+% -----------------------------------------------  Books
+
+@BOOK{Griffiths,
+  title={Introduction to electrodynamics},
+  author={Griffiths, David J.},
+  year={1962},
+  publisher={Prentice Hall},
+  edition={4th Ed.}}
+  
+@BOOK{Jackson,
+  title={Classical electrodynamics},
+  author={Jackson, John David},
+  year={1999},
+  publisher={John Wiley \& Sons},
+  edition = {3rd Ed.}
+}  
+  
+@BOOK{Hecht,
+  title={Optics},
+  author={Hecht, Eugene},
+  publisher={Addison Wesley},
+  year={1998},
+  edition={4th Ed.}}
+
+% ------------------------------------------------------------------------
