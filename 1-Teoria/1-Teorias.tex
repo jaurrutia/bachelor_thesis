@@ -505,7 +505,7 @@ Las ecuaciones de Maxwell, considerando una región del espacio sin cargas exter
 	\begin{subequations}
 	\eqhalf{\nabla\cdot \vb{E} = 0, }
 	\eqhalf{\nabla\cdot \vb{H} = 0,}
-	\eqhalf{\nabla \times \vb{E} = i\omega\tilde{\mu} \vb{H}, }
+	\eqhalf{\nabla \times \vb{E} = i\omega\tilde{\mu} \vb{H}, \label{seq:FLArm}}
 	\eqhalf{\nabla\times\vb{H} = - i \omega\tilde{\varepsilon} \vb{E}, }	
 	\label{eqs:MaxwellArm}
 	\end{subequations} \vspace*{-1em}
@@ -865,48 +865,39 @@ con
 	\eqhalf{A_{e1\ell} = \frac{\langle \vb{E}^i, \vb{N}_{e1\ell}^{(1)} \rangle_{\theta,\varphi}}
 						{\langle \vb{N}_{e1\ell}^{(1)},\vb{N}_{e1\ell}^{(1)} \rangle}_{\theta,\varphi}\notag}
 						
-\noindent \vspace*{-1em}
-Empleando la Ec. \eqref{eq:MM} con $m=1$, se calcula el denominador del coeficiente $B_{o1\ell}$, como
+\vspace*{-1em}\noindent 
+Empleando las Ecs. \eqref{eq:MM} y \eqref{eq:NN} con $m=1$, y las condiciones de ortogonalidad de los armónicos esféricos vectoriales, se calcula la expresión de la onda plana en una base esférica, dada por
 	\begin{equation}
-			\langle \vb{M}_{o1\ell}^{(1)} ,\vb{M}_{o1\ell}^{(1)} \rangle_{\theta,\varphi} = \pi \frac{[j_\ell(\rho) \ell(\ell+1)]^2}{2\ell+1},
-			\label{eq:MMm=1}
+	\vb{E}^i = E_0 \sum_{\ell =1}^\infty i^\ell \frac{2\ell+1}{\ell(\ell+1)}\qty(\vb{M}_{o1\ell}^{(1)}-i\vb{N}_{e1\ell}^{(1)}).
+	\label{eq:PlaneWaveESpheric}
 	\end{equation}
-y con la Ec. \eqref{seq:Moml} y la Ec. \eqref{eq:OndaPlanaPolares} se calcula
-	\begin{align}
-		\langle \vb{E}^i, \vb{M}_{o1\ell}^{(1)}  \rangle_{\theta,\varphi} 
-			=& \frac{E_0 \pi}{2} j_\ell(\rho) \int_0^\pi \qty(\cos\theta P_\ell^1(\cos\theta)+\sin\theta \dv{P_\ell^1(\cos\theta)}{\theta})e^{i\rho\cos\theta}\dd\theta,\notag\\
-			=& \frac{E_0 \pi}{2} j_\ell(\rho) \int_0^\pi \dv{\theta}\qty[\sin\theta P_\ell^1(\cos\theta)]e^{i\rho\cos\theta}\dd\theta. \label{eq:EiM_1}
-	\end{align}
-Considerando la relación entre las funciones asociadas de Legendre y los polinomios de Legendre [Ec. \eqref{eq:FAL-PL}] con $m=1$, se cumple que $P_\ell^1(\mu)=-\dd P_\ell(\mu)/\dd\theta$. Además, los polinomios de Legedre cumplen con la Ec. \eqref{eq:Theta} con $m=0$, es decir,
-	\begin{equation*}
-	\dv{\theta}\qty[\sin\theta \dv{P_\ell(\cos\theta)}{\theta}] = - \ell(\ell+1)P_\ell(\cos\theta) \sin\theta,
-	\end{equation*}
-por lo que la Ec. \eqref{eq:EiM_1} es
-	\begin{align}
-	\langle \vb{E}^i, \vb{M}_{o1\ell}^{(1)}  \rangle_{\theta,\varphi}
-			 = & \frac{E_0 \pi}{2} j_\ell(\rho) \int_0^\pi -\dv{\theta}\qty[\sin\theta \dv{P_\ell(\cos\theta)}{\theta}]e^{i\rho\cos\theta}\dd\theta\notag\\
-			  = & \frac{E_0 \pi}{2} j_\ell(\rho) \ell(\ell+1)\int_0^\pi P_\ell(\cos\theta)\sin\theta e^{i\rho\cos\theta}\dd\theta.\label{eq:EiM_2}
-	\end{align}
-La generalización de las integrales de Poisson de Gegenbauer  relaciona a los polinomios de Legendre con la función esférica de Bessel de primer tipo mediante la relación
-	\begin{equation*}
-	j_\ell(\rho) = \frac{1}{2i^\ell}\int_0^\pi P_\ell(\cos\theta)\sin\theta e^{i\rho\cos\theta}\dd\theta,
-	\end{equation*}
-por lo que la Ec. \eqref{eq:EiM_2} se reescribe como
+El campo magnético incidente se calcula empleando la Ley de Farady-Lenz [Ec. \eqref{seq:FLArm}, cuyo resultado es
 	\begin{equation}
-	\langle \vb{E}^i, \vb{M}_{o1\ell}^{(1)}  \rangle_{\theta,\varphi}
-			=  E_0 \pi [j_\ell(\rho)]^2 \ell(\ell+1) i^\ell.\label{eq:EiM}
+	\vb{H}^i =\frac{-k}{\omega\tilde{\mu}} \sum_{\ell =1}^\infty  E_\ell\qty(\vb{M}_{e1\ell}^{(1)}+i\vb{N}_{o1\ell}^{(1)}),
+	\label{eq:PlaneWaveESpheric}
 	\end{equation}
-Calculando el cociente de la Ec.  \eqref{eq:EiM} con \eqref{eq:MMm=1}, se calcula el coeficiente $B_{o1\ell}$, dado por la expresión
-	\begin{equation}
-	B_{o1\ell} = i^\ell  E_0 \frac{ (2\ell+1)}{\ell(\ell+1)}.
-	\end{equation}
+con $E_\ell = E_0 i^\ell (2\ell+1)/[\ell(\ell+1)]$.
 
-El denominador del coeficiente, empleando la Ec. \eqref{eq:NN}, es
-	\begin{equation}
-	\langle \vb{N}_{e1\ell}^{(1)},\vb{N}_{e1\ell}^{(1)} \rangle_{\theta,\varphi} 
-				= \pi \frac{[\ell(\ell+1)]^2}{2\ell+1} 
-				\left\{ \qty[\frac{z_\ell(\rho)}{\rho}]^2 \ell(\ell+1)+  \qty[\frac{1}{\rho}\dv{[\rho z_\ell (\rho)]}{\rho}]^2  \right\}
-	\end{equation}
+Para calcular los campos EMs esparcidos ($\vb{E}^s,\,\vb{H}^s$) y los campos internos ($\vb{E}^1,\,\vb{H}^1$), se emplean las condiciones a la frontera de los campos EMs en una interfaz arbitraria [Ecs. \eqref{eqs:CFrontera}], en donde la componente paralela a la interfaz es continua. Es decir
+	\begin{align}
+	\qty(\vb{E}^i+\vb{E}^s -\vb{E}^1)\times\vu{e}_r =
+	\qty(\vb{H}^i+\vb{H}^s -\vb{H}^1)\times\vu{e}_r = \vb{0}.
+	\end{align}
+De la Ec. \eqref{eq:PlaneWaveESpheric} y de las condiciones de continuidad, se deduce que en la expansión de los campos EMs esparcidos, y los internos, los coeficientes para $m\neq 1$ son nulos. Los campos internos  ($\vb{E}^1,\,\vb{H}^1$) son finitos en la esfera, por lo que se emplea como solución a la ecuación de onda las funciones $j_\ell(k_1 r)$, con $k_1 = 2\pi n_1 /\lambda$ el número de onda dentro de la esfera. Las expresiones para los campos EMs son
+	
+	\eqhalf{\vb{E}^i = \sum_{\ell =1}^\infty E_\ell \qty(c_\ell \vb{M}_{o1\ell}^{(1)}-i d_\ell\vb{N}_{e1\ell}^{(1)}),}
+	\eqhalf{\vb{H}^i = \frac{-k_1}{\omega\tilde{\mu}_1} \sum_{\ell =1}^\infty E_\ell\qty(d_\ell\vb{M}_{e1\ell}^{(1)}+i c_\ell\vb{N}_{o1\ell}^{(1)}),}	
+
+\vspace*{-1em}\noindent
+con $E_\ell =E _0 i^\ell (2\ell+1)/[\ell(\ell+1)]$.
+
+Para los campos esparcidos ($\vb{E}^s,\,\vb{H}^s$) las funciones $j_\ell$ y $y_\ell$ no tienen puntos indeterminados, por lo que se emplearan las funciones de Hankel $h_\ell^{(1)}$ y $h_\ell^{(2)}$. En su límite asintótico ($n^2\ll kr$) estás expresiones son
+	\eqhalf{h_\ell^(1)(kr) \approx -i^\ell \frac{e^{ikr}}{ikr},}
+	\eqhalf{h_\ell^(2)(kr) \approx -i^\ell \frac{e^{-ikr}}{ikr},}	
+
+\vspace*{-1em}\noindent
+por lo que $h_\ell^(1)$ corresponde a una onda esférica saliente, y $h_\ell^(2)$ una entrante.
+
 
 
 	
