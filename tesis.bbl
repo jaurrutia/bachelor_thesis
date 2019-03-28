@@ -1,25 +1,227 @@
-\begin{thebibliography}{1}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem{bohren1998absorption}
-C.~F. Bohren and D.~R. Huffman.
-\newblock {\em Absorption and scattering of light by small particles}.
-\newblock John Wiley \& Sons, 1998.
+\datalist[entry]{none/global//global/global}
+  \entry{griffiths2013electrodynamics}{book}{}
+    \name{author}{1}{}{%
+      {{hash=GDJ}{%
+         family={Griffiths},
+         familyi={G\bibinitperiod},
+         given={David\bibnamedelima J},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Pearson}%
+    }
+    \strng{namehash}{GDJ1}
+    \strng{fullhash}{GDJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Introduction to electrodynamics}
+    \field{year}{2013}
+  \endentry
 
-\bibitem{griffiths2013electrodynamics}
-D.~J. Griffiths.
-\newblock {\em Introduction to electrodynamics}.
-\newblock Pearson, 2013.
+  \entry{hecht1998optics}{book}{}
+    \name{author}{1}{}{%
+      {{hash=HE}{%
+         family={Hecht},
+         familyi={H\bibinitperiod},
+         given={Eugene},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Addison Wesley}%
+    }
+    \strng{namehash}{HE1}
+    \strng{fullhash}{HE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{edition}{4th Ed.}
+    \field{title}{Optics}
+    \field{year}{1998}
+  \endentry
 
-\bibitem{horvath2009historic}
-H.~Horvath.
-\newblock {Gustav Mie and the scattering and absorption of light by particles:
-  Historic developments and basics}.
-\newblock {\em Journal of Quantitative Spectroscopy and Radiative Transfer},
-  110(11):787--799, 2009.
+  \entry{jackson1999electrodynamics}{book}{}
+    \name{author}{1}{}{%
+      {{hash=JJD}{%
+         family={Jackson},
+         familyi={J\bibinitperiod},
+         given={John\bibnamedelima David},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {John Wiley \& Sons}%
+    }
+    \strng{namehash}{JJD1}
+    \strng{fullhash}{JJD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{edition}{3rd Ed.}
+    \field{title}{Classical electrodynamics}
+    \field{year}{1999}
+  \endentry
 
-\bibitem{kwan2002really}
-A.~Kwan, J.~Dudley, and E.~Lantz.
-\newblock Who really discovered snell's law?
-\newblock {\em Physics World}, 15(4):64, 2002.
+  \entry{ibach2003solid}{book}{}
+    \name{author}{2}{}{%
+      {{hash=IH}{%
+         family={Ibach},
+         familyi={I\bibinitperiod},
+         given={Harald},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={L{\"u}th},
+         familyi={L\bibinitperiod},
+         given={Hans},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{IHLH1}
+    \strng{fullhash}{IHLH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Solid-state physics: an introduction to principles of
+  material science}
+    \field{year}{2003}
+  \endentry
 
-\end{thebibliography}
+  \entry{kwan2002really}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KA}{%
+         family={Kwan},
+         familyi={K\bibinitperiod},
+         given={Alistair},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Dudley},
+         familyi={D\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LE}{%
+         family={Lantz},
+         familyi={L\bibinitperiod},
+         given={Eric},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{KADJLE1}
+    \strng{fullhash}{KADJLE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{4}
+    \field{pages}{64}
+    \field{title}{Who really discovered Snell's law?}
+    \field{volume}{15}
+    \field{journaltitle}{Physics World}
+    \field{year}{2002}
+  \endentry
+
+  \entry{mie1908metallosung}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MG}{%
+         family={Mie},
+         familyi={M\bibinitperiod},
+         given={Gustav},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MG1}
+    \strng{fullhash}{MG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1002/andp.19083300302
+    \endverb
+    \field{isbn}{1521-3889}
+    \field{issn}{15213889}
+    \field{number}{3}
+    \field{pages}{377\bibrangedash 445}
+    \field{title}{{Beitr\"age zur Optik tr\"uber Medien, speziell kolloidaler
+  Metall\"osungen}}
+    \field{volume}{330}
+    \field{journaltitle}{Annalen der Physik}
+    \field{year}{1908}
+  \endentry
+
+  \entry{bohren1998absorption}{book}{}
+    \name{author}{2}{}{%
+      {{hash=BCF}{%
+         family={Bohren},
+         familyi={B\bibinitperiod},
+         given={Craig\bibnamedelima F},
+         giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=HDR}{%
+         family={Huffman},
+         familyi={H\bibinitperiod},
+         given={Donald\bibnamedelima R},
+         giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {John Wiley \& Sons}%
+    }
+    \strng{namehash}{BCFHDR1}
+    \strng{fullhash}{BCFHDR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Absorption and scattering of light by small particles}
+    \field{year}{1998}
+  \endentry
+
+  \entry{horvath2009historic}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HH}{%
+         family={Horvath},
+         familyi={H\bibinitperiod},
+         given={Helmuth},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \keyw{Absorption,Mie theory,Polarization,Scattering}
+    \strng{namehash}{HH1}
+    \strng{fullhash}{HH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.jqsrt.2009.02.022
+    \endverb
+    \field{isbn}{0022-4073}
+    \field{issn}{00224073}
+    \field{number}{11}
+    \field{pages}{787\bibrangedash 799}
+    \field{title}{{Gustav Mie and the scattering and absorption of light by
+  particles: Historic developments and basics}}
+    \field{volume}{110}
+    \field{journaltitle}{Journal of Quantitative Spectroscopy and Radiative
+  Transfer}
+    \field{year}{2009}
+  \endentry
+\enddatalist
+\endinput

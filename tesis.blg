@@ -1,66 +1,72 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: tesis.aux
-A level-1 auxiliary file: 0-1-Agradecimientos/1-Dedicatoria.aux
-A level-1 auxiliary file: 0-1-Agradecimientos/2-Agradecimientos.aux
-A level-1 auxiliary file: 0-2-Declaracion/1-Declaracion.aux
-A level-1 auxiliary file: 0-3-Resumen/1-Resumen.aux
-A level-1 auxiliary file: 0-4-Introduccion/1-Estructura.aux
+The style file: biblatex.bst
 A level-1 auxiliary file: 1-Teoria/1-Teorias.aux
-A level-1 auxiliary file: 2-Plasmonica/1-Plasmonica.aux
-A level-1 auxiliary file: 3-Modo/1-Comparacion.aux
-A level-1 auxiliary file: 05-Conclusiones/1-Conclusiones.aux
-The style file: abbrv.bst
 A level-1 auxiliary file: 07-Apendice/1-Teoria_Mie.aux
-Database file #1: 06-Bibliografia/references.bib
-You're missing a field name---line 91 of file 06-Bibliografia/references.bib
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: tesis-blx.bib
+Database file #2: 06-Bibliografia/references.bib
+You're missing a field name---line 119 of file 06-Bibliografia/references.bib
  : @article{barrera2003coherent, 
  :                               %RubenYaugusto
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "algo"
-Warning--I didn't find a database entry for "jackson1999electrodynamics"
 Warning--I didn't find a database entry for "Hecht"
-Warning--I didn't find a database entry for "mie1908metallosung"
-Warning--I didn't find a database entry for "texbook"
-You've used 4 entries,
-            2118 wiz_defined-function locations,
-            539 strings with 4659 characters,
-and the built_in function-call counts, 1089 in all, are:
-= -- 101
-> -- 45
-< -- 0
-+ -- 18
-- -- 14
-* -- 69
-:= -- 195
-add.period$ -- 12
-call.type$ -- 4
-change.case$ -- 17
-chr.to.int$ -- 0
-cite$ -- 4
-duplicate$ -- 46
-empty$ -- 94
-format.name$ -- 14
-if$ -- 222
+Biblatex version: 3.8
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 9 entries,
+            6268 wiz_defined-function locations,
+            1236 strings with 9736 characters,
+and the built_in function-call counts, 37004 in all, are:
+= -- 2295
+> -- 925
+< -- 228
++ -- 876
+- -- 372
+* -- 2283
+:= -- 3446
+add.period$ -- 0
+call.type$ -- 9
+change.case$ -- 137
+chr.to.int$ -- 34
+cite$ -- 16
+duplicate$ -- 3959
+empty$ -- 3620
+format.name$ -- 482
+if$ -- 7801
 int.to.chr$ -- 0
-int.to.str$ -- 4
-missing$ -- 6
-newline$ -- 23
-num.names$ -- 8
-pop$ -- 23
+int.to.str$ -- 22
+missing$ -- 0
+newline$ -- 223
+num.names$ -- 397
+pop$ -- 2724
 preamble$ -- 1
-purify$ -- 15
+purify$ -- 173
 quote$ -- 0
-skip$ -- 27
+skip$ -- 1477
 stack$ -- 0
-substring$ -- 51
-swap$ -- 4
-text.length$ -- 0
+substring$ -- 3380
+swap$ -- 1024
+text.length$ -- 178
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 12
+top$ -- 1
+type$ -- 294
 warning$ -- 0
-while$ -- 11
-width$ -- 5
-write$ -- 44
+while$ -- 412
+width$ -- 0
+write$ -- 215
 (There was 1 error message)

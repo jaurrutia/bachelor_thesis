@@ -1,29 +1,24 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {spanish}{}
-\contentsline {chapter}{\numberline {}Introducci\IeC {\'o}n}{1}{chapter*.5}
-\contentsline {chapter}{\numberline {1}Teor\IeC {\'\i }a}{5}{chapter.1}
-\contentsline {section}{\numberline {1.1}F\IeC {\'o}rmulas de Fresnel}{5}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Coeficientes de amplitud}{7}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Reflectancia y transmitancia}{10}{subsection.1.1.2}
-\contentsline {section}{\numberline {1.2}Soluci\IeC {\'o}n de Mie}{11}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Soluci\IeC {\'o}n a la ecuaci\IeC {\'o}n de onda con simetr\IeC {\'\i }a esf\IeC {\'e}rica}{13}{subsection.1.2.1}
-\contentsline {section}{\numberline {1.3}Modelo de esparcimiento coherente}{21}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Monocapa suspendida}{21}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Monocapa sobre un sustrato}{21}{subsection.1.3.2}
-\contentsline {chapter}{\numberline {2}Respuesta \IeC {\'o}ptica de una monocapa de nanopart\IeC {\'\i }culas esf\IeC {\'e}ricas}{23}{chapter.2}
-\contentsline {section}{\numberline {2.1}Funci\IeC {\'o}n diel\IeC {\'e}ctrica de nanopart\IeC {\'\i }culas plasm\IeC {\'o}nicas}{23}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Modelo de Drude-Sommerfeld}{23}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Correcci\IeC {\'o}n de tama\IeC {\~n}o de datos experimentales}{23}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}Resultados con el modelos de Drude-Sommerfeld}{24}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Variaci\IeC {\'o}n de par\IeC {\'a}metros}{24}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Conservaci\IeC {\'o}n de la energ\IeC {\'\i }a en el sistema}{24}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}Simulaciones con materiales reales}{24}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Variacionde par\IeC {\'a}metros}{24}{subsection.2.3.1}
-\contentsline {chapter}{\numberline {3}Modo plasm\IeC {\'o}nico guiado}{27}{chapter.3}
-\contentsline {section}{\numberline {3.1}Aqu\IeC {\'\i } no s\IeC {\'e} c\IeC {\'o}mo dividirlo}{27}{section.3.1}
-\contentsline {section}{\numberline {3.2}\leavevmode {\color {UNAMblue}CSM vs. Experimento}}{28}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Subsecci\IeC {\'o}n}{28}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Discusi\IeC {\'o}n y an\IeC {\'a}lisis de resultados}{28}{subsection.3.2.2}
-\contentsline {chapter}{\numberline {}Conclusiones}{31}{chapter*.14}
-\contentsline {chapter}{Bibliograf\'{\i }a}{33}{chapter*.15}
-\contentsline {chapter}{\numberline {A}Teor\IeC {\'\i }a de Mie}{35}{appendix.Alph1}
-\contentsline {section}{\numberline {A.1}Ap\IeC {\'e}ndice}{35}{section.Alph1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Teor\IeC {\'\i }a}{1}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}F\IeC {\'o}rmulas de Fresnel}{1}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.1}Coeficientes de amplitud}{3}{subsection.1.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.2}Reflectancia y transmitancia}{6}{subsection.1.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Soluci\IeC {\'o}n de Mie}{8}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.1}Soluci\IeC {\'o}n a la ecuaci\IeC {\'o}n de onda con simetr\IeC {\'\i }a esf\IeC {\'e}rica}{10}{subsection.1.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Modelo de esparcimiento coherente}{17}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.1}Monocapa suspendida}{17}{subsection.1.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.2}Monocapa sobre un sustrato}{17}{subsection.1.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Teor\IeC {\'\i }a de Mie}{21}{appendix.Alph1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Ap\IeC {\'e}ndice}{21}{section.Alph1.1}

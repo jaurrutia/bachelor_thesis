@@ -42,7 +42,7 @@
 
 	%---------------------- Figures ----------------------------
 		\usepackage[margin=10pt,font=scriptsize,labelfont=bf, ]{caption}  
-		\usepackage[labelformat=brace]{subcaption} % labelformat=simple   O brace
+		\usepackage[labelformat=simple]{subcaption} % labelformat=simple   O brace
 %		\usepackage{subcaption}
 %			\captionsetup[subfigure]{labelformat=simple}
 		%\usepackage[bf,SL,BF]{subfigure}         
@@ -77,7 +77,9 @@
 		\usepackage[T1]{fontenc}			 		% 8-bits fonts
 		\usepackage[utf8]{inputenc}           			% Complete latin alfabet: Accents and so on
 		\spanishdecimal{.}
-		\usepackage[ square, comma, sort&compress, numbers]{natbib}
+%		\usepackage[ square, comma, sort&compress, numbers]{natbib}
+		\usepackage[style = trad-abbrv, backend = bibtex, sorting = none, backref=true]{biblatex} %style = trad-abbrv
+		\addbibresource{06-Bibliografia/references.bib}
 		%\usepackage[style = trad-abbrv, backend = bibtex]{biblatex}
 		 % The settings for the hyperref package are found below in the PDF/PS set up section 
 		\addto\captionsspanish{\renewcommand{\figurename}{Fig.}}
@@ -175,7 +177,7 @@
                  bookmarksnumbered = true,
                  breaklinks = true,
                  linktocpage,
-                 pagebackref,
+%                 pagebackref,
                  colorlinks = true,
                  linkcolor = lblue,
                  urlcolor  = lblue,
@@ -197,7 +199,7 @@
                  bookmarksnumbered = true,
                  breaklinks = true,
                  linktocpage,
-                 pagebackref,
+%                 pagebackref,
                  colorlinks = true,
                  linkcolor = lblue,
                  urlcolor  = lblue,

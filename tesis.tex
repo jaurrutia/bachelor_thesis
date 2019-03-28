@@ -31,10 +31,10 @@
 %-------------------------------------------------------------------------------
 \frontmatter
 
-\include{0-1-Agradecimientos/1-Dedicatoria}       
-\include{0-1-Agradecimientos/2-Agradecimientos}    
-\include{0-2-Declaracion/1-Declaracion}           
-\include{0-3-Resumen/1-Resumen}                  
+%\include{0-1-Agradecimientos/1-Dedicatoria}       
+%\include{0-1-Agradecimientos/2-Agradecimientos}    
+%\include{0-2-Declaracion/1-Declaracion}           
+%\include{0-3-Resumen/1-Resumen}                  
 
 %-------------------------------------------------------------------------------
 %                                   Índices                                    |
@@ -56,21 +56,22 @@
 % the main text starts here with the introduction, 1st chapter,...
 \mainmatter
 
-\def\baselinestretch{1.5}                   % Interlineado de 1.5
+\def\baselinestretch{1}                   % Interlineado
 
-\include{0-4-Introduccion/1-Estructura}            
+%\include{0-4-Introduccion/1-Estructura}            
 \include{1-Teoria/1-Teorias}
-\include{2-Plasmonica/1-Plasmonica}          
-\include{3-Modo/1-Comparacion}      
-\include{05-Conclusiones/1-Conclusiones}         
+%\include{2-Plasmonica/1-Plasmonica}          
+%\include{3-Modo/1-Comparacion}      
+%\include{05-Conclusiones/1-Conclusiones}         
 %-------------------------------------------------------------------------------
 %                                   References                                   |
 %-------------------------------------------------------------------------------
 
 %\bibliographystyle{unsrt} % otros estilos pueden ser abbrv, acm, alpha, 
-\bibliographystyle{abbrv}
-\bibliography{06-Bibliografia/references}             % Archivo .bib
-
+%\bibliographystyle{abbrv}
+%\bibliography{06-Bibliografia/references}             % Archivo .bib
+\setlength\bibitemsep{.1\itemsep}
+\printbibliography
 %-------------------------------------------------------------------------------
 %                                   Appendix                                   |
 %-------------------------------------------------------------------------------

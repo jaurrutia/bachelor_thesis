@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.24)  4 FEB 2019 16:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.24)  28 MAR 2019 13:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1309,13 +1309,249 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip71
-\bibsep=\skip72
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count322
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2017/12/19 v3.10 programmable bibliographies (PK/JW/AB)
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count322
+
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write6
+\integerpart=\count323
+\decimalpart=\count324
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count325
+\c@listtotal=\count326
+\c@listcount=\count327
+\c@liststart=\count328
+\c@liststop=\count329
+\c@citecount=\count330
+\c@citetotal=\count331
+\c@multicitecount=\count332
+\c@multicitetotal=\count333
+\c@instcount=\count334
+\c@maxnames=\count335
+\c@minnames=\count336
+\c@maxitems=\count337
+\c@minitems=\count338
+\c@citecounter=\count339
+\c@savedcitecounter=\count340
+\c@uniquelist=\count341
+\c@uniquename=\count342
+\c@refsection=\count343
+\c@refsegment=\count344
+\c@maxextratitle=\count345
+\c@maxextratitleyear=\count346
+\c@maxextradate=\count347
+\c@maxextraalpha=\count348
+\c@abbrvpenalty=\count349
+\c@highnamepenalty=\count350
+\c@lownamepenalty=\count351
+\c@maxparens=\count352
+\c@parenlevel=\count353
+\blx@tempcnta=\count354
+\blx@tempcntb=\count355
+\blx@tempcntc=\count356
+\blx@maxsection=\count357
+\blx@maxsegment@0=\count358
+\blx@notetype=\count359
+\blx@parenlevel@text=\count360
+\blx@parenlevel@foot=\count361
+\blx@sectionciteorder@0=\count362
+\labelnumberwidth=\skip71
+\labelalphawidth=\skip72
+\biblabelsep=\skip73
+\bibitemsep=\skip74
+\bibnamesep=\skip75
+\bibinitsep=\skip76
+\bibparsep=\skip77
+\bibhang=\skip78
+\blx@bcfin=\read3
+\blx@bcfout=\write7
+\c@mincomprange=\count363
+\c@maxcomprange=\count364
+\c@mincompwidth=\count365
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'trad-abbrv.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count366
+\c@savedafterword=\count367
+\c@annotator=\count368
+\c@savedannotator=\count369
+\c@author=\count370
+\c@savedauthor=\count371
+\c@bookauthor=\count372
+\c@savedbookauthor=\count373
+\c@commentator=\count374
+\c@savedcommentator=\count375
+\c@editor=\count376
+\c@savededitor=\count377
+\c@editora=\count378
+\c@savededitora=\count379
+\c@editorb=\count380
+\c@savededitorb=\count381
+\c@editorc=\count382
+\c@savededitorc=\count383
+\c@foreword=\count384
+\c@savedforeword=\count385
+\c@holder=\count386
+\c@savedholder=\count387
+\c@introduction=\count388
+\c@savedintroduction=\count389
+\c@namea=\count390
+\c@savednamea=\count391
+\c@nameb=\count392
+\c@savednameb=\count393
+\c@namec=\count394
+\c@savednamec=\count395
+\c@translator=\count396
+\c@savedtranslator=\count397
+\c@shortauthor=\count398
+\c@savedshortauthor=\count399
+\c@shorteditor=\count400
+\c@savedshorteditor=\count401
+\c@labelname=\count402
+\c@savedlabelname=\count403
+\c@institution=\count404
+\c@savedinstitution=\count405
+\c@lista=\count406
+\c@savedlista=\count407
+\c@listb=\count408
+\c@savedlistb=\count409
+\c@listc=\count410
+\c@savedlistc=\count411
+\c@listd=\count412
+\c@savedlistd=\count413
+\c@liste=\count414
+\c@savedliste=\count415
+\c@listf=\count416
+\c@savedlistf=\count417
+\c@location=\count418
+\c@savedlocation=\count419
+\c@organization=\count420
+\c@savedorganization=\count421
+\c@origlocation=\count422
+\c@savedoriglocation=\count423
+\c@origpublisher=\count424
+\c@savedorigpublisher=\count425
+\c@publisher=\count426
+\c@savedpublisher=\count427
+\c@language=\count428
+\c@savedlanguage=\count429
+\c@origlanguage=\count430
+\c@savedoriglanguage=\count431
+\c@pageref=\count432
+\c@savedpageref=\count433
+\shorthandwidth=\skip79
+\shortjournalwidth=\skip80
+\shortserieswidth=\skip81
+\shorttitlewidth=\skip82
+\shortauthorwidth=\skip83
+\shorteditorwidth=\skip84
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-bibtex.def
+File: blx-bibtex.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
+
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count434
+\c@textcitetotal=\count435
+\c@textcitemaxnames=\count436
+\c@biburlnumpenalty=\count437
+\c@biburlucpenalty=\count438
+\c@biburllcpenalty=\count439
+\c@smartand=\count440
+)
+Package biblatex Info: Trying to load bibliography style 'trad-abbrv'...
+Package biblatex Info: ... file 'trad-abbrv.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-trad/trad-abbrv.bbx
+File: trad-abbrv.bbx 2018/02/17 v0.4a biblatex-trad abbrv bibliography style
+Package biblatex Info: Trying to load bibliography style 'trad-standard'...
+Package biblatex Info: ... file 'trad-standard.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-trad/trad-standard.bbx
+File: trad-standard.bbx 2018/02/17 v0.4a biblatex-trad base bibliography style
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2017/12/19 v3.10 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count441
+\c@bbx:relatedtotal=\count442
+)))
+Package biblatex Info: Trying to load citation style 'trad-abbrv'...
+Package biblatex Info: ... file 'trad-abbrv.cbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-trad/trad-abbrv.cbx
+File: trad-abbrv.cbx 2018/02/17 v0.4a biblatex-trad abbrv citation style
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2017/12/19 v3.10 biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+))
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
@@ -1335,9 +1571,9 @@ Package: mathdots 2014/06/11 v0.9 Improve and add various macros for dots in ma
 th.
 \MDo@unit=\dimen308
 \MDo@dotsbox=\box103
-\MDoprekern=\muskip17
-\MDopostkern=\muskip18
-\MDodotkern=\muskip19
+\MDoprekern=\muskip18
+\MDopostkern=\muskip19
+\MDodotkern=\muskip20
 )
 (/usr/share/texlive/texmf-dist/tex/latex/physics/physics.sty
 Package: physics 
@@ -2297,8 +2533,8 @@ Package: pgfplots 2017/06/05 v1.15 Data Visualization (1.15)
 \t@pgfplots@tokb=\toks46
 \t@pgfplots@tokc=\toks47
 \pgfplots@tmpa=\dimen309
-\c@pgfplots@coordindex=\count323
-\c@pgfplots@scanlineindex=\count324
+\c@pgfplots@coordindex=\count443
+\c@pgfplots@scanlineindex=\count444
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
 .tex))
@@ -2314,7 +2550,7 @@ Package pgfplots: loading complementary arithmetics for your pgf version...
 gfsupp_pgflibraryfpu.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
 gfsupp_pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count325
+\c@pgfmathroundto@lastzeros=\count445
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
@@ -2323,13 +2559,13 @@ tructure.code.tex)
 tructureext.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
 .code.tex
-\c@pgfplotsarray@tmp=\count326
+\c@pgfplotsarray@tmp=\count446
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
 x.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
 d.code.tex
-\c@pgfplotstable@counta=\count327
+\c@pgfplotstable@counta=\count447
 \t@pgfplotstable@a=\toks48
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
@@ -2342,7 +2578,7 @@ de.tex))
 .tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
 fshading.code.tex
-\c@pgfplotslibrarysurf@no=\count328
+\c@pgfplotslibrarysurf@no=\count448
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
 shading.pgfsys-pdftex.def)))
@@ -2374,7 +2610,7 @@ e.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen312
 \pgfdecoratedinputsegmentremainingdistance=\dimen313
 \pgf@decorate@distancetomove=\dimen314
-\pgf@decorate@repeatstate=\count329
+\pgf@decorate@repeatstate=\count449
 \pgfdecorationsegmentamplitude=\dimen315
 \pgfdecorationsegmentlength=\dimen316
 )
@@ -2388,7 +2624,7 @@ decorations.pathmorphing.code.tex))
 zlibrarydecorations.pathreplacing.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
 decorations.pathreplacing.code.tex))
-\pgfplots@numplots=\count330
+\pgfplots@numplots=\count450
 \pgfplots@xmin@reg=\dimen317
 \pgfplots@xmax@reg=\dimen318
 \pgfplots@ymin@reg=\dimen319
@@ -2408,10 +2644,10 @@ File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
 (/usr/share/texlive/texmf-dist/tex/latex/hobby/pgflibraryhobby.code.tex
 (/usr/share/texlive/texmf-dist/tex/latex/hobby/hobby.code.tex
 (/usr/share/texlive/texmf-dist/tex/latex/hobby/pml3array.sty
-\l_array_base_int=\count331
-\l_array_top_int=\count332
-\l_array_tmp_int=\count333
-\g_array_base_int=\count334
+\l_array_base_int=\count451
+\l_array_top_int=\count452
+\l_array_tmp_int=\count453
+\g_array_base_int=\count454
 )
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -2428,8 +2664,8 @@ File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
 . 
 . Defining command \HobbyDisableAux with sig. '' on line 59.
 .................................................
-\l_hobby_npoints_int=\count335
-\l_hobby_draw_int=\count336
+\l_hobby_npoints_int=\count455
+\l_hobby_draw_int=\count456
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -2513,7 +2749,7 @@ zlibrarydecorations.markings.code.tex
 decorations.markings.code.tex))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarymath.code.tex
-\tikz@math@for@depth=\count337
+\tikz@math@for@depth=\count457
 \tikz@math@dimen=\dimen327
 \tikz@math@toks=\toks49
 )
@@ -2619,12 +2855,8 @@ Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
 Package hobsub Info: Skipping package `pdfescape' (already loaded).
@@ -2648,19 +2880,16 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-)
 \@linkdim=\dimen329
-\Hy@linkcounter=\count338
-\Hy@pagecounter=\count339
+\Hy@linkcounter=\count458
+\Hy@pagecounter=\count459
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count340
+\Hy@SavedSpaceFactor=\count460
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -2681,48 +2910,40 @@ Package hyperref Info: Hyper figures ON on input line 4507.
 Package hyperref Info: Link nesting OFF on input line 4514.
 Package hyperref Info: Hyper index ON on input line 4517.
 Package hyperref Info: Plain pages OFF on input line 4524.
-Package hyperref Info: Backreferencing ON on input line 4527.
+Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4762.
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/backref.sty
-Package: backref 2016/05/21 v1.39 Bibliographical back referencing
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
-))
-\c@Hy@tempcnt=\count341
-
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip20
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
+\c@Hy@tempcnt=\count461
 LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen330
-\Fld@menulength=\count342
+\Fld@menulength=\count462
 \Field@Width=\dimen331
 \Fld@charsize=\dimen332
 Package hyperref Info: Hyper figures ON on input line 6367.
 Package hyperref Info: Link nesting OFF on input line 6374.
 Package hyperref Info: Hyper index ON on input line 6377.
-Package hyperref Info: backreferencing ON on input line 6382.
+Package hyperref Info: backreferencing OFF on input line 6384.
 Package hyperref Info: Link coloring ON on input line 6387.
 Package hyperref Info: Link coloring with OCG OFF on input line 6394.
 Package hyperref Info: PDF/A mode OFF on input line 6399.
 LaTeX Info: Redefining \ref on input line 6439.
 LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count343
-\c@Item=\count344
+\Hy@abspage=\count463
+\c@Item=\count464
 )
 Package hyperref Info: Driver: hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count345
-\c@bookmark@seq@number=\count346
-\Hy@SectionHShift=\skip73
+\Fld@listcount=\count465
+\c@bookmark@seq@number=\count466
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip85
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
@@ -2730,24 +2951,24 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count347
-\c@Blindtext=\count348
-\c@blind@countparstart=\count349
-\blind@countxx=\count350
-\blindtext@numBlindtext=\count351
-\blind@countyy=\count352
-\c@blindlist=\count353
-\c@blindlistlevel=\count354
-\c@blindlist@level=\count355
-\blind@listitem=\count356
-\c@blind@listcount=\count357
-\c@blind@levelcount=\count358
-\blind@mathformula=\count359
-\blind@Mathformula=\count360
-\c@blind@randomcount=\count361
-\c@blind@randommax=\count362
-\c@blind@pangramcount=\count363
-\c@blind@pangrammax=\count364
+\c@blindtext=\count467
+\c@Blindtext=\count468
+\c@blind@countparstart=\count469
+\blind@countxx=\count470
+\blindtext@numBlindtext=\count471
+\blind@countyy=\count472
+\c@blindlist=\count473
+\c@blindlistlevel=\count474
+\c@blindlist@level=\count475
+\blind@listitem=\count476
+\c@blind@listcount=\count477
+\c@blind@levelcount=\count478
+\blind@mathformula=\count479
+\blind@Mathformula=\count480
+\c@blind@randomcount=\count481
+\c@blind@randommax=\count482
+\c@blind@pangramcount=\count483
+\c@blind@pangrammax=\count484
 )
 \@input{Latex/Comandos.aux}
 \openout2 = `Latex/Comandos.aux'.
@@ -2756,25 +2977,34 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
+Package biblatex Info: Trying to load language 'spanish'...
+Package biblatex Info: ... file 'spanish.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
+File: spanish.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
+)
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count485
+\@quotereset=\count486
 
 LaTeX Warning: Unused global option(s):
     [pdftex].
 
 (./tesis.aux
-LaTeX Info: Redefining \. on input line 25.
-LaTeX Info: Redefining \% on input line 25.
- (./0-1-Agradecimientos/1-Dedicatoria.aux)
-(./0-1-Agradecimientos/2-Agradecimientos.aux)
-(./0-2-Declaracion/1-Declaracion.aux) (./0-3-Resumen/1-Resumen.aux)
-(./0-4-Introduccion/1-Estructura.aux) (./1-Teoria/1-Teorias.aux
+LaTeX Info: Redefining \sptext on input line 32.
+LaTeX Info: Redefining \. on input line 32.
+LaTeX Info: Redefining \% on input line 32.
+ (./1-Teoria/1-Teorias.aux
 
 LaTeX Warning: Label `eq:R' multiply defined.
 
 
 LaTeX Warning: Label `eq:PlaneWaveESpheric' multiply defined.
 
-) (./2-Plasmonica/1-Plasmonica.aux) (./3-Modo/1-Comparacion.aux)
-(./05-Conclusiones/1-Conclusiones.aux) (./07-Apendice/1-Teoria_Mie.aux))
+) (./07-Apendice/1-Teoria_Mie.aux))
 \openout1 = `tesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
@@ -2791,7 +3021,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
-\c@lstlisting=\count365
+\c@lstlisting=\count487
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -2800,16 +3030,16 @@ Package caption Info: End \AtBeginDocument code.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count366
+\scratchcounter=\count488
 \scratchdimen=\dimen333
 \scratchbox=\box125
-\nofMPsegments=\count367
-\nofMParguments=\count368
+\nofMPsegments=\count489
+\nofMParguments=\count490
 \everyMPshowfont=\toks50
-\MPscratchCnt=\count369
+\MPscratchCnt=\count491
 \MPscratchDim=\dimen334
-\MPnumerator=\count370
-\makeMPintoPDFobject=\count371
+\MPnumerator=\count492
+\makeMPintoPDFobject=\count493
 \everyMPtoPDFconversion=\toks51
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -2828,8 +3058,22 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
+LaTeX Info: Redefining \sptext on input line 26.
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' specified.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout7 = `tesis-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'tesis.bbl' found.
+ (./tesis.bbl)
+Package biblatex Info: Reference section=0 on input line 26.
+Package biblatex Info: Reference segment=0 on input line 26.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
@@ -2838,7 +3082,6 @@ your preamble.
  on input line 26.
 
 \AtBeginShipoutBox=\box126
-Package backref Info: ** backref set up for natbib ** on input line 26.
 Package hyperref Info: Link coloring ON on input line 26.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2846,23 +3089,23 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count372
+\c@section@level=\count494
 )
 LaTeX Info: Redefining \ref on input line 26.
 LaTeX Info: Redefining \pageref on input line 26.
 LaTeX Info: Redefining \nameref on input line 26.
 
 (./tesis.out) (./tesis.out)
-\@outlinefile=\write6
-\openout6 = `tesis.out'.
+\@outlinefile=\write8
+\openout8 = `tesis.out'.
 
-<Latex/Classes/Escudos/UNAM_crest_blue.pdf, id=155, 2007.5pt x 2256.43pt>
+<Latex/Classes/Escudos/UNAM_crest_blue.pdf, id=87, 2007.5pt x 2256.43pt>
 File: Latex/Classes/Escudos/UNAM_crest_blue.pdf Graphic file (type pdf)
 <use Latex/Classes/Escudos/UNAM_crest_blue.pdf>
 Package pdftex.def Info: Latex/Classes/Escudos/UNAM_crest_blue.pdf  used on inp
 ut line 28.
 (pdftex.def)             Requested size: 65.79741pt x 73.97733pt.
-<Latex/Classes/Escudos/FC_crest_blue.pdf, id=156, 1860.9525pt x 2071.74pt>
+<Latex/Classes/Escudos/FC_crest_blue.pdf, id=88, 1860.9525pt x 2071.74pt>
 File: Latex/Classes/Escudos/FC_crest_blue.pdf Graphic file (type pdf)
 <use Latex/Classes/Escudos/FC_crest_blue.pdf>
 Package pdftex.def Info: Latex/Classes/Escudos/FC_crest_blue.pdf  used on input
@@ -2905,124 +3148,69 @@ Overfull \vbox (202.6821pt too high) detected at line 28
 AM_crest_blue.pdf> <./Latex/Classes/Escudos/FC_crest_blue.pdf>] [2
 
 ]
-\openout2 = `0-1-Agradecimientos/1-Dedicatoria.aux'.
+(./tesis.toc
+LaTeX Info: Redefining \sptext on input line 2.
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+)
+\tf@toc=\write9
+\openout9 = `tesis.toc'.
 
-
-(./0-1-Agradecimientos/1-Dedicatoria.texpdfTeX warning (ext4): destination with
- the same identifier (name{page.I}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.6 \end{dedication}
-                     [1
+l.57 \mainmatter
+                 [1
 
-])
-\openout2 = `0-1-Agradecimientos/2-Agradecimientos.aux'.
-
- (./0-1-Agradecimientos/2-Agradecimientos.texpdfTeX warning (ext4): destination
- with the same identifier (name{page.II}) has been already used, duplicate igno
-red
+]pdfTeX warning (ext4): destination with the same identifier (name{page.II}) ha
+s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.4 \begin{acknowledgements}
-                             [2
-
-
-]
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 8.
-
-[3
-
-])
-\openout2 = `0-2-Declaracion/1-Declaracion.aux'.
-
- (./0-2-Declaracion/1-Declaracion.tex [4
-
-
-] [5
-
-])
-\openout2 = `0-3-Resumen/1-Resumen.aux'.
-
- (./0-3-Resumen/1-Resumen.tex [6
-
+l.57 \mainmatter
+                 [2
 
 ]
+\openout2 = `1-Teoria/1-Teorias.aux'.
 
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 10.
-
-[7
-
-]) [8
-\FN@pp@footnotehinttrue 
-
-
-] (./tesis.toc
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
- [9])
-\tf@toc=\write7
-\openout7 = `tesis.toc'.
-
-LaTeX Info: Redefining \. on input line 57.
-LaTeX Info: Redefining \% on input line 57.
-
-
-Package Fancyhdr Warning: \headheight is too small (0.5pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[10]
-\openout2 = `0-4-Introduccion/1-Estructura.aux'.
-
- (./0-4-Introduccion/1-Estructura.tex
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 8.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 15.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 19.
-
+ (./1-Teoria/1-Teorias.tex
+Cap\'{\i }tulo 1.
 [1
 
 
-
 ]
+LaTeX Font Info:    Try loading font information for U+eus on input line 47.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueus.fd
+File: ueus.fd 2013/01/14 v3.01 Euler Script
+)
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 71--75
+$[]$  $[]$
+ []
 
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 22.
 
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 71--75
+[]$  $[]$ 
+ []
 
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 27.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 32.
-
-LaTeX Info: Redefining \. on input line 32.
-LaTeX Info: Redefining \% on input line 32.
+LaTeX Info: Redefining \sptext on input line 75.
+LaTeX Info: Redefining \. on input line 75.
+LaTeX Info: Redefining \% on input line 75.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2])
-Underfull \hbox (badness 10000) in paragraph at lines 35--61
+[2]
+Missing character: There is no ; in font nullfont!
 
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 199--201
+$[]$  $[]$ 
  []
 
-LaTeX Info: Redefining \. on input line 61.
-LaTeX Info: Redefining \% on input line 61.
+LaTeX Info: Redefining \sptext on input line 355.
+LaTeX Info: Redefining \. on input line 355.
+LaTeX Info: Redefining \% on input line 355.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
@@ -3030,46 +3218,61 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [3]
-\openout2 = `1-Teoria/1-Teorias.aux'.
-
- (./1-Teoria/1-Teorias.tex [4
-
-
-
-]
-Cap\'{\i }tulo 1.
-[5]
-
-Package natbib Warning: Citation `algo' on page 6 undefined on input line 47.
-
-LaTeX Font Info:    Try loading font information for U+eus on input line 47.
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueus.fd
-File: ueus.fd 2013/01/14 v3.01 Euler Script
-)
-
-Package natbib Warning: Citation `jackson1999electrodynamics' on page 6 undefin
-ed on input line 47.
-
-
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 50--53
-$[]$  $[]$
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 363--368
+$[]$  $[]$ 
  []
 
 
-Package natbib Warning: Citation `algo' on page 6 undefined on input line 69.
-
-
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 72--76
-$[]$  $[]$
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 375--380
+$[]$  $[]$ 
  []
 
+LaTeX Info: Redefining \sptext on input line 380.
+LaTeX Info: Redefining \. on input line 380.
+LaTeX Info: Redefining \% on input line 380.
 
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 72--76
-[]$  $[]$ 
+Package Fancyhdr Warning: \headheight is too small (0.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4]
+<1-Teoria/figs/0-ampCoefExt.pdf, id=251, 227.85126pt x 157.58875pt>
+File: 1-Teoria/figs/0-ampCoefExt.pdf Graphic file (type pdf)
+<use 1-Teoria/figs/0-ampCoefExt.pdf>
+Package pdftex.def Info: 1-Teoria/figs/0-ampCoefExt.pdf  used on input line 387
+.
+(pdftex.def)             Requested size: 227.8507pt x 157.58835pt.
+
+Overfull \hbox (6.06795pt too wide) in paragraph at lines 386--388
+[]|  [] 
  []
 
-LaTeX Info: Redefining \. on input line 76.
-LaTeX Info: Redefining \% on input line 76.
+<1-Teoria/figs/0-ampCoefInt.pdf, id=253, 366.36874pt x 271.0125pt>
+File: 1-Teoria/figs/0-ampCoefInt.pdf Graphic file (type pdf)
+<use 1-Teoria/figs/0-ampCoefInt.pdf>
+Package pdftex.def Info: 1-Teoria/figs/0-ampCoefInt.pdf  used on input line 391
+.
+(pdftex.def)             Requested size: 221.32527pt x 147.55014pt.
+
+Overfull \hbox (2.38797pt too wide) in paragraph at lines 390--392
+[]|  [] 
+ []
+
+LaTeX Info: Redefining \sptext on input line 405.
+LaTeX Info: Redefining \. on input line 405.
+LaTeX Info: Redefining \% on input line 405.
+
+Package Fancyhdr Warning: \headheight is too small (0.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5 <./1-Teoria/figs/0-ampCoefExt.pdf> <./1-Teoria/figs/0-ampCoefInt.pdf>]
+LaTeX Info: Redefining \sptext on input line 428.
+LaTeX Info: Redefining \. on input line 428.
+LaTeX Info: Redefining \% on input line 428.
+
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
@@ -3077,14 +3280,38 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [6]
-Missing character: There is no ; in font nullfont!
-
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 196--198
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 491--493
 $[]$  $[]$ 
  []
 
-LaTeX Info: Redefining \. on input line 200.
-LaTeX Info: Redefining \% on input line 200.
+<1-Teoria/figs/0-FrsnelExt.pdf, id=330, 227.85126pt x 153.57375pt>
+File: 1-Teoria/figs/0-FrsnelExt.pdf Graphic file (type pdf)
+<use 1-Teoria/figs/0-FrsnelExt.pdf>
+Package pdftex.def Info: 1-Teoria/figs/0-FrsnelExt.pdf  used on input line 501.
+
+(pdftex.def)             Requested size: 227.8507pt x 153.57336pt.
+
+Overfull \hbox (6.06795pt too wide) in paragraph at lines 500--502
+[]|  [] 
+ []
+
+<1-Teoria/figs/0-FrsnelInt.pdf, id=332, 227.85126pt x 153.57375pt>
+File: 1-Teoria/figs/0-FrsnelInt.pdf Graphic file (type pdf)
+<use 1-Teoria/figs/0-FrsnelInt.pdf>
+Package pdftex.def Info: 1-Teoria/figs/0-FrsnelInt.pdf  used on input line 505.
+
+(pdftex.def)             Requested size: 227.8507pt x 153.57336pt.
+
+Overfull \hbox (8.91339pt too wide) in paragraph at lines 504--506
+[]|  [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Info: Redefining \sptext on input line 512.
+LaTeX Info: Redefining \. on input line 512.
+LaTeX Info: Redefining \% on input line 512.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
@@ -3092,91 +3319,43 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [7]
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 353--357
-$[]$  $[]$ 
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 529--535
+$[]$  $[]$
  []
 
 
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 364--369
-$[]$  $[]$ 
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 529--535
+[]$  $[]$
  []
 
-LaTeX Info: Redefining \. on input line 372.
-LaTeX Info: Redefining \% on input line 372.
+LaTeX Info: Redefining \sptext on input line 535.
+LaTeX Info: Redefining \. on input line 535.
+LaTeX Info: Redefining \% on input line 535.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8]
-<1-Teoria/figs/0-ampCoefExt.pdf, id=365, 227.85126pt x 157.58875pt>
-File: 1-Teoria/figs/0-ampCoefExt.pdf Graphic file (type pdf)
-<use 1-Teoria/figs/0-ampCoefExt.pdf>
-Package pdftex.def Info: 1-Teoria/figs/0-ampCoefExt.pdf  used on input line 376
-.
-(pdftex.def)             Requested size: 227.8507pt x 157.58835pt.
-
-Overfull \hbox (6.06795pt too wide) in paragraph at lines 375--377
-[]|  [] 
+[8 <./1-Teoria/figs/0-FrsnelExt.pdf> <./1-Teoria/figs/0-FrsnelInt.pdf>]
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 540--544
+$[]$  $[]$
  []
 
-<1-Teoria/figs/0-ampCoefInt.pdf, id=367, 366.36874pt x 271.0125pt>
-File: 1-Teoria/figs/0-ampCoefInt.pdf Graphic file (type pdf)
-<use 1-Teoria/figs/0-ampCoefInt.pdf>
-Package pdftex.def Info: 1-Teoria/figs/0-ampCoefInt.pdf  used on input line 380
-.
-(pdftex.def)             Requested size: 221.32527pt x 147.55014pt.
-
-Overfull \hbox (2.38797pt too wide) in paragraph at lines 379--381
-[]|  [] 
- []
-
-LaTeX Info: Redefining \. on input line 400.
-LaTeX Info: Redefining \% on input line 400.
+LaTeX Info: Redefining \sptext on input line 578.
+LaTeX Info: Redefining \. on input line 578.
+LaTeX Info: Redefining \% on input line 578.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9 <./1-Teoria/figs/0-ampCoefExt.pdf> <./1-Teoria/figs/0-ampCoefInt.pdf>]
+[9]
+LaTeX Info: Redefining \sptext on input line 658.
+LaTeX Info: Redefining \. on input line 658.
+LaTeX Info: Redefining \% on input line 658.
 
-Package natbib Warning: Citation `Hecht' on page 10 undefined on input line 410
-.
-
-
-LaTeX Warning: Reference `fig:areas' on page 10 undefined on input line 414.
-
-
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 482--484
-$[]$  $[]$ 
- []
-
-<1-Teoria/figs/0-FrsnelExt.pdf, id=417, 227.85126pt x 153.57375pt>
-File: 1-Teoria/figs/0-FrsnelExt.pdf Graphic file (type pdf)
-<use 1-Teoria/figs/0-FrsnelExt.pdf>
-Package pdftex.def Info: 1-Teoria/figs/0-FrsnelExt.pdf  used on input line 490.
-
-(pdftex.def)             Requested size: 227.8507pt x 153.57336pt.
-
-Overfull \hbox (6.06795pt too wide) in paragraph at lines 489--491
-[]|  [] 
- []
-
-<1-Teoria/figs/0-FrsnelInt.pdf, id=419, 227.85126pt x 153.57375pt>
-File: 1-Teoria/figs/0-FrsnelInt.pdf Graphic file (type pdf)
-<use 1-Teoria/figs/0-FrsnelInt.pdf>
-Package pdftex.def Info: 1-Teoria/figs/0-FrsnelInt.pdf  used on input line 494.
-
-(pdftex.def)             Requested size: 227.8507pt x 153.57336pt.
-
-Overfull \hbox (8.91339pt too wide) in paragraph at lines 493--495
-[]|  [] 
- []
-
-LaTeX Info: Redefining \. on input line 497.
-LaTeX Info: Redefining \% on input line 497.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
@@ -3184,51 +3363,92 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [10]
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 680--683
+$[]$  $[]$
+ []
 
-Package natbib Warning: Citation `mie1908metallosung' on page 11 undefined on i
-nput line 501.
 
+Underfull \hbox (badness 10000) in paragraph at lines 680--683
 
-Package natbib Warning: Citation `mie1908metallosung' on page 11 undefined on i
-nput line 501.
+ []
 
-LaTeX Info: Redefining \. on input line 502.
-LaTeX Info: Redefining \% on input line 502.
+LaTeX Info: Redefining \sptext on input line 695.
+LaTeX Info: Redefining \. on input line 695.
+LaTeX Info: Redefining \% on input line 695.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11 <./1-Teoria/figs/0-FrsnelExt.pdf> <./1-Teoria/figs/0-FrsnelInt.pdf>]
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 506--512
+[11]
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 719--725
 $[]$  $[]$
  []
 
 
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 506--512
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 719--725
 []$  $[]$
  []
 
 
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 517--521
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 734--738
 $[]$  $[]$
  []
 
-LaTeX Info: Redefining \. on input line 546.
-LaTeX Info: Redefining \% on input line 546.
+
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 734--738
+[]$  $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 734--738
+
+ []
+
+
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 743--747
+$[]$  $[]$
+ []
+
+LaTeX Info: Redefining \sptext on input line 756.
+LaTeX Info: Redefining \. on input line 756.
+LaTeX Info: Redefining \% on input line 756.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12]
+[12pdfTeX warning (ext4): destination with the same identifier (name{equation.1
+.2.41}) has been already used, duplicate ignored
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.756 	\end{tcolorbox}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.1.2.41}) has been already used, duplicate ignored
 
-LaTeX Info: Redefining \. on input line 637.
-LaTeX Info: Redefining \% on input line 637.
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.756 	\end{tcolorbox}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.1.2.41}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.756 	\end{tcolorbox}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{equation.1.2.41}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.756 	\end{tcolorbox}
+                      ]
+LaTeX Info: Redefining \sptext on input line 796.
+LaTeX Info: Redefining \. on input line 796.
+LaTeX Info: Redefining \% on input line 796.
+
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
@@ -3236,116 +3456,17 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [13]
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 657--660
-$[]$  $[]$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 657--660
-
- []
-
-LaTeX Info: Redefining \. on input line 663.
-LaTeX Info: Redefining \% on input line 663.
-
-Package Fancyhdr Warning: \headheight is too small (0.5pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[14]
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 696--702
-$[]$  $[]$
- []
-
-
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 696--702
-[]$  $[]$
- []
-
-LaTeX Info: Redefining \. on input line 708.
-LaTeX Info: Redefining \% on input line 708.
-
-Package Fancyhdr Warning: \headheight is too small (0.5pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[15]
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 711--715
-$[]$  $[]$
- []
-
-
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 711--715
-[]$  $[]$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 711--715
+Underfull \hbox (badness 10000) in paragraph at lines 796--798
 
  []
 
 
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 720--724
-$[]$  $[]$
- []
-
-LaTeX Info: Redefining \. on input line 751.
-LaTeX Info: Redefining \% on input line 751.
-
-Package Fancyhdr Warning: \headheight is too small (0.5pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[16pdfTeX warning (ext4): destination with the same identifier (name{equation.1
-.2.41}) has been already used, duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.751 	\end{tcolorbox}
-                      \label{eq:AEV}pdfTeX warning (ext4): destination with the
- same identifier (name{equation.1.2.41}) has been already used, duplicate ignor
-ed
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.751 	\end{tcolorbox}
-                      \label{eq:AEV}pdfTeX warning (ext4): destination with the
- same identifier (name{equation.1.2.41}) has been already used, duplicate ignor
-ed
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.751 	\end{tcolorbox}
-                      \label{eq:AEV}pdfTeX warning (ext4): destination with the
- same identifier (name{equation.1.2.41}) has been already used, duplicate ignor
-ed
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.751 	\end{tcolorbox}
-                      \label{eq:AEV}]
-Underfull \hbox (badness 10000) in paragraph at lines 773--775
-
- []
-
-LaTeX Info: Redefining \. on input line 777.
-LaTeX Info: Redefining \% on input line 777.
-
-Package Fancyhdr Warning: \headheight is too small (0.5pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[17]
-Overfull \hbox (21.71455pt too wide) detected at line 802
+Overfull \hbox (21.71455pt too wide) detected at line 825
 []
  []
 
 
-Overfull \hbox (32.40091pt too wide) in paragraph at lines 802--804
+Overfull \hbox (32.40091pt too wide) in paragraph at lines 825--827
 \T1/cmr/m/n/10.95 Asimismo, se cum-ple que $\OMS/cmsy/m/n/10.95 h\OT1/cmr/bx/n/
 10.95 M[]\OML/cmm/m/it/10.95 ; \OT1/cmr/bx/n/10.95 M[]\OMS/cmsy/m/n/10.95 i[] \
 OT1/cmr/m/n/10.95 = \OMS/cmsy/m/n/10.95 h\OT1/cmr/bx/n/10.95 M[]\OML/cmm/m/it/1
@@ -3356,74 +3477,86 @@ mr/bx/n/10.95 N[]\OML/cmm/m/it/10.95 ; \OT1/cmr/bx/n/10.95 N[]\OMS/cmsy/m/n/10.
 95 i[]$\T1/cmr/m/n/10.95 .
  []
 
-LaTeX Info: Redefining \. on input line 816.
-LaTeX Info: Redefining \% on input line 816.
+LaTeX Info: Redefining \sptext on input line 827.
+LaTeX Info: Redefining \. on input line 827.
+LaTeX Info: Redefining \% on input line 827.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18]
-Overfull \hbox (11.30473pt too wide) detected at line 831
+[14]
+Overfull \hbox (11.30473pt too wide) detected at line 854
 []
  []
 
-LaTeX Info: Redefining \. on input line 856.
-LaTeX Info: Redefining \% on input line 856.
+LaTeX Info: Redefining \sptext on input line 877.
+LaTeX Info: Redefining \. on input line 877.
+LaTeX Info: Redefining \% on input line 877.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[19]
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 864--867
+[15]
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 887--890
 $[]$  $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 864--867
+Underfull \hbox (badness 10000) in paragraph at lines 887--890
 
  []
 
 
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 888--890
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 911--913
 $[]$  $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 888--890
+Underfull \hbox (badness 10000) in paragraph at lines 911--913
 
  []
 
-LaTeX Info: Redefining \. on input line 901.
-LaTeX Info: Redefining \% on input line 901.
+LaTeX Info: Redefining \sptext on input line 913.
+LaTeX Info: Redefining \. on input line 913.
+LaTeX Info: Redefining \% on input line 913.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20pdfTeX warning (ext4): destination with the same identifier (name{equation.1
+[16pdfTeX warning (ext4): destination with the same identifier (name{equation.1
 .2.54}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.901 \section{Modelo de esparcimiento coherente}
-                                                 pdfTeX warning (ext4): destina
-tion with the same identifier (name{equation.1.2.54}) has been already used, du
-plicate ignored
+l.913 
+      pdfTeX warning (ext4): destination with the same identifier (name{equatio
+n.1.2.54}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.901 \section{Modelo de esparcimiento coherente}
-                                                 ]
+l.913 
+      ]
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 919--921
+$[]$  $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 919--921
+
+ []
+
 
 Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 903.
+(blindtext)                 on input line 933.
 
 )
+LaTeX Info: Redefining \sptext on input line 62.
 LaTeX Info: Redefining \. on input line 62.
 LaTeX Info: Redefining \% on input line 62.
 
@@ -3433,192 +3566,50 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21]
-\openout2 = `2-Plasmonica/1-Plasmonica.aux'.
-
- (./2-Plasmonica/1-Plasmonica.tex [22
-
+[17] [18
 
 
 ]
-Cap\'{\i }tulo 2.
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 3.
-
-)
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 63.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 63.
-
-[23]
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 63.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 63.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 63.
-
-LaTeX Info: Redefining \. on input line 63.
-LaTeX Info: Redefining \% on input line 63.
-
-Package Fancyhdr Warning: \headheight is too small (0.5pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[24]
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 63.
-
-LaTeX Info: Redefining \. on input line 63.
-LaTeX Info: Redefining \% on input line 63.
-
-Package Fancyhdr Warning: \headheight is too small (0.5pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[25]
-\openout2 = `3-Modo/1-Comparacion.aux'.
-
- (./3-Modo/1-Comparacion.tex [26
-
-
-
-]
-Cap\'{\i }tulo 3.
-
-Package natbib Warning: Citation `texbook' on page 27 undefined on input line 2
-1.
-
-<3-Modo/figs/planta.jpg, id=645, 301.125pt x 301.125pt>
-File: 3-Modo/figs/planta.jpg Graphic file (type jpg)
-<use 3-Modo/figs/planta.jpg>
-Package pdftex.def Info: 3-Modo/figs/planta.jpg  used on input line 27.
-(pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
-[27 <./3-Modo/figs/planta.jpg>]
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 75.
-
-)
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 64.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 64.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 64.
-
-LaTeX Info: Redefining \. on input line 64.
-LaTeX Info: Redefining \% on input line 64.
-
-Package Fancyhdr Warning: \headheight is too small (0.5pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[28]
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 64.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 64.
-
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 64.
-
-LaTeX Info: Redefining \. on input line 64.
-LaTeX Info: Redefining \% on input line 64.
-
-Package Fancyhdr Warning: \headheight is too small (0.5pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[29]
-\openout2 = `05-Conclusiones/1-Conclusiones.aux'.
-
- (./05-Conclusiones/1-Conclusiones.tex [30
-
-
-
-])
-
-Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 65.
-
-[31] (./tesis.bbl (./tesis.brf)
-\tf@brf=\write8
-\openout8 = `tesis.brf'.
-
- [32
-
-
-]) [33]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 74.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [19]
 \openout2 = `07-Apendice/1-Teoria_Mie.aux'.
 
- (./07-Apendice/1-Teoria_Mie.tex
-[34
+
+(./07-Apendice/1-Teoria_Mie.tex [20
 
 
 ]
 Ap\'{e}ndice A.
-) [35]
-
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
-(./tesis.aux
-LaTeX Info: Redefining \. on input line 25.
-LaTeX Info: Redefining \% on input line 25.
- (./0-1-Agradecimientos/1-Dedicatoria.aux)
-(./0-1-Agradecimientos/2-Agradecimientos.aux)
-(./0-2-Declaracion/1-Declaracion.aux) (./0-3-Resumen/1-Resumen.aux)
-(./0-4-Introduccion/1-Estructura.aux) (./1-Teoria/1-Teorias.aux)
-(./2-Plasmonica/1-Plasmonica.aux) (./3-Modo/1-Comparacion.aux)
-(./05-Conclusiones/1-Conclusiones.aux) (./07-Apendice/1-Teoria_Mie.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
+) [21]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 80.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 80.
+ (./tesis.aux
+LaTeX Info: Redefining \sptext on input line 32.
+LaTeX Info: Redefining \. on input line 32.
+LaTeX Info: Redefining \% on input line 32.
+ (./1-Teoria/1-Teorias.aux) (./07-Apendice/1-Teoria_Mie.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 80.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 80.
 Package rerunfilecheck Info: File `tesis.out' has not changed.
-(rerunfilecheck)             Checksum: B3EB0CC69B8FB438A8C4CF8F7AAE4D0E;2251.
-Package rerunfilecheck Info: File `tesis.brf' has not changed.
-(rerunfilecheck)             Checksum: BDB0BC66FC7F14CA7421C7BD2F64B561;757.
-
-
-LaTeX Warning: There were undefined references.
+(rerunfilecheck)             Checksum: AEF79ACE1D60AC70AFDB50489D1EEA32;844.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
+Package logreq Info: Writing requests to 'tesis.run.xml'.
+\openout1 = `tesis.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 50598 strings out of 492982
- 1155687 string characters out of 6134895
- 1398899 words of memory out of 5000000
- 53073 multiletter control sequences out of 15000+600000
- 555285 words of font info for 84 fonts, out of 8000000 for 9000
+ 56220 strings out of 492982
+ 1265602 string characters out of 6134895
+ 1830106 words of memory out of 5000000
+ 58742 multiletter control sequences out of 15000+600000
+ 555599 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,19n,103p,10550b,1218s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,19n,103p,10550b,1991s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/texlive/texmf-dist/
@@ -3651,11 +3642,12 @@ share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/ty
 pe1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/
 sfrm2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0800.pfb></usr/s
 hare/texmf/fonts/type1/public/cm-super/sfti0900.pfb></usr/share/texmf/fonts/typ
-e1/public/cm-super/sfti1095.pfb>
-Output written on tesis.pdf (47 pages, 2650536 bytes).
+e1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
+ftt1095.pfb>
+Output written on tesis.pdf (25 pages, 2648409 bytes).
 PDF statistics:
- 854 PDF objects out of 1000 (max. 8388607)
- 702 compressed objects within 8 object streams
- 178 named destinations out of 1000 (max. 500000)
- 452 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 721 PDF objects out of 1000 (max. 8388607)
+ 591 compressed objects within 6 object streams
+ 139 named destinations out of 1000 (max. 500000)
+ 311 words of extra memory for PDF output out of 10000 (max. 10000000)
 

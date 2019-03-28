@@ -1,28 +1,11 @@
-\BOOKMARK [0][]{chapter*.5}{ Introducci\363n}{}% 1
-\BOOKMARK [0][]{chapter.1}{1 Teor\355a}{}% 2
-\BOOKMARK [1][]{section.1.1}{1.1 F\363rmulas de Fresnel}{chapter.1}% 3
-\BOOKMARK [2][]{subsection.1.1.1}{1.1.1 Coeficientes de amplitud}{section.1.1}% 4
-\BOOKMARK [2][]{subsection.1.1.2}{1.1.2 Reflectancia y transmitancia}{section.1.1}% 5
-\BOOKMARK [1][]{section.1.2}{1.2 Soluci\363n de Mie}{chapter.1}% 6
-\BOOKMARK [2][]{subsection.1.2.1}{1.2.1 Soluci\363n a la ecuaci\363n de onda con simetr\355a esf\351rica}{section.1.2}% 7
-\BOOKMARK [1][]{section.1.3}{1.3 Modelo de esparcimiento coherente}{chapter.1}% 8
-\BOOKMARK [2][]{subsection.1.3.1}{1.3.1 Monocapa suspendida}{section.1.3}% 9
-\BOOKMARK [2][]{subsection.1.3.2}{1.3.2 Monocapa sobre un sustrato}{section.1.3}% 10
-\BOOKMARK [0][]{chapter.2}{2 Respuesta \363ptica de una monocapa de nanopart\355culas esf\351ricas}{}% 11
-\BOOKMARK [1][]{section.2.1}{2.1 Funci\363n diel\351ctrica de nanopart\355culas plasm\363nicas}{chapter.2}% 12
-\BOOKMARK [2][]{subsection.2.1.1}{2.1.1 Modelo de Drude-Sommerfeld}{section.2.1}% 13
-\BOOKMARK [2][]{subsection.2.1.2}{2.1.2 Correcci\363n de tama\361o de datos experimentales}{section.2.1}% 14
-\BOOKMARK [1][]{section.2.2}{2.2 Resultados con el modelos de Drude-Sommerfeld}{chapter.2}% 15
-\BOOKMARK [2][]{subsection.2.2.1}{2.2.1 Variaci\363n de par\341metros}{section.2.2}% 16
-\BOOKMARK [2][]{subsection.2.2.2}{2.2.2 Conservaci\363n de la energ\355a en el sistema}{section.2.2}% 17
-\BOOKMARK [1][]{section.2.3}{2.3 Simulaciones con materiales reales}{chapter.2}% 18
-\BOOKMARK [2][]{subsection.2.3.1}{2.3.1 Variacionde par\341metros}{section.2.3}% 19
-\BOOKMARK [0][]{chapter.3}{3 Modo plasm\363nico guiado}{}% 20
-\BOOKMARK [1][]{section.3.1}{3.1 Aqu\355 no s\351 c\363mo dividirlo}{chapter.3}% 21
-\BOOKMARK [1][]{section.3.2}{3.2 CSM vs. Experimento}{chapter.3}% 22
-\BOOKMARK [2][]{subsection.3.2.1}{3.2.1 Subsecci\363n}{section.3.2}% 23
-\BOOKMARK [2][]{subsection.3.2.2}{3.2.2 Discusi\363n y an\341lisis de resultados}{section.3.2}% 24
-\BOOKMARK [0][]{chapter*.14}{ Conclusiones}{}% 25
-\BOOKMARK [0][]{chapter*.15}{Bibliograf\355a}{}% 26
-\BOOKMARK [0][]{appendix.Alph1}{A Teor\355a de Mie}{}% 27
-\BOOKMARK [1][]{section.Alph1.1}{A.1 Ap\351ndice}{appendix.Alph1}% 28
+\BOOKMARK [0][]{chapter.1}{1 Teor\355a}{}% 1
+\BOOKMARK [1][]{section.1.1}{1.1 F\363rmulas de Fresnel}{chapter.1}% 2
+\BOOKMARK [2][]{subsection.1.1.1}{1.1.1 Coeficientes de amplitud}{section.1.1}% 3
+\BOOKMARK [2][]{subsection.1.1.2}{1.1.2 Reflectancia y transmitancia}{section.1.1}% 4
+\BOOKMARK [1][]{section.1.2}{1.2 Soluci\363n de Mie}{chapter.1}% 5
+\BOOKMARK [2][]{subsection.1.2.1}{1.2.1 Soluci\363n a la ecuaci\363n de onda con simetr\355a esf\351rica}{section.1.2}% 6
+\BOOKMARK [1][]{section.1.3}{1.3 Modelo de esparcimiento coherente}{chapter.1}% 7
+\BOOKMARK [2][]{subsection.1.3.1}{1.3.1 Monocapa suspendida}{section.1.3}% 8
+\BOOKMARK [2][]{subsection.1.3.2}{1.3.2 Monocapa sobre un sustrato}{section.1.3}% 9
+\BOOKMARK [0][]{appendix.Alph1}{A Teor\355a de Mie}{}% 10
+\BOOKMARK [1][]{section.Alph1.1}{A.1 Ap\351ndice}{appendix.Alph1}% 11
