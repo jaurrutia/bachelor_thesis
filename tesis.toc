@@ -15,10 +15,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.3}Modelo de esparcimiento coherente}{17}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1}Monocapa suspendida}{17}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.1}Monocapa suspendida}{18}{subsection.1.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.2}Monocapa sobre un sustrato}{17}{subsection.1.3.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Teor\IeC {\'\i }a de Mie}{21}{appendix.Alph1}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Ap\IeC {\'e}ndice}{21}{section.Alph1.1}
+\contentsline {subsection}{\numberline {1.3.2}Monocapa sobre un sustrato}{18}{subsection.1.3.2}

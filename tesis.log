@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.24)  28 MAR 2019 13:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.24)  2 APR 2019 17:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2838,6 +2838,11 @@ File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
 zlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrary3d.code.tex
+File: tikzlibrary3d.code.tex 2013/07/17 v3.0.1a (rcs-revision 1.2)
+))
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
@@ -3001,10 +3006,7 @@ LaTeX Info: Redefining \% on input line 32.
 
 LaTeX Warning: Label `eq:R' multiply defined.
 
-
-LaTeX Warning: Label `eq:PlaneWaveESpheric' multiply defined.
-
-) (./07-Apendice/1-Teoria_Mie.aux))
+))
 \openout1 = `tesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
@@ -3027,8 +3029,7 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count488
 \scratchdimen=\dimen333
@@ -3099,13 +3100,13 @@ LaTeX Info: Redefining \nameref on input line 26.
 \@outlinefile=\write8
 \openout8 = `tesis.out'.
 
-<Latex/Classes/Escudos/UNAM_crest_blue.pdf, id=87, 2007.5pt x 2256.43pt>
+<Latex/Classes/Escudos/UNAM_crest_blue.pdf, id=79, 2007.5pt x 2256.43pt>
 File: Latex/Classes/Escudos/UNAM_crest_blue.pdf Graphic file (type pdf)
 <use Latex/Classes/Escudos/UNAM_crest_blue.pdf>
 Package pdftex.def Info: Latex/Classes/Escudos/UNAM_crest_blue.pdf  used on inp
 ut line 28.
 (pdftex.def)             Requested size: 65.79741pt x 73.97733pt.
-<Latex/Classes/Escudos/FC_crest_blue.pdf, id=88, 1860.9525pt x 2071.74pt>
+<Latex/Classes/Escudos/FC_crest_blue.pdf, id=80, 1860.9525pt x 2071.74pt>
 File: Latex/Classes/Escudos/FC_crest_blue.pdf Graphic file (type pdf)
 <use Latex/Classes/Escudos/FC_crest_blue.pdf>
 Package pdftex.def Info: Latex/Classes/Escudos/FC_crest_blue.pdf  used on input
@@ -3218,18 +3219,18 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [3]
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 363--368
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 362--367
 $[]$  $[]$ 
  []
 
 
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 375--380
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 373--378
 $[]$  $[]$ 
  []
 
-LaTeX Info: Redefining \sptext on input line 380.
-LaTeX Info: Redefining \. on input line 380.
-LaTeX Info: Redefining \% on input line 380.
+LaTeX Info: Redefining \sptext on input line 378.
+LaTeX Info: Redefining \. on input line 378.
+LaTeX Info: Redefining \% on input line 378.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
@@ -3237,31 +3238,31 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [4]
-<1-Teoria/figs/0-ampCoefExt.pdf, id=251, 227.85126pt x 157.58875pt>
+<1-Teoria/figs/0-ampCoefExt.pdf, id=241, 227.85126pt x 157.58875pt>
 File: 1-Teoria/figs/0-ampCoefExt.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/0-ampCoefExt.pdf>
-Package pdftex.def Info: 1-Teoria/figs/0-ampCoefExt.pdf  used on input line 387
+Package pdftex.def Info: 1-Teoria/figs/0-ampCoefExt.pdf  used on input line 385
 .
 (pdftex.def)             Requested size: 227.8507pt x 157.58835pt.
 
-Overfull \hbox (6.06795pt too wide) in paragraph at lines 386--388
+Overfull \hbox (6.06795pt too wide) in paragraph at lines 384--386
 []|  [] 
  []
 
-<1-Teoria/figs/0-ampCoefInt.pdf, id=253, 366.36874pt x 271.0125pt>
+<1-Teoria/figs/0-ampCoefInt.pdf, id=243, 366.36874pt x 271.0125pt>
 File: 1-Teoria/figs/0-ampCoefInt.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/0-ampCoefInt.pdf>
-Package pdftex.def Info: 1-Teoria/figs/0-ampCoefInt.pdf  used on input line 391
+Package pdftex.def Info: 1-Teoria/figs/0-ampCoefInt.pdf  used on input line 389
 .
 (pdftex.def)             Requested size: 221.32527pt x 147.55014pt.
 
-Overfull \hbox (2.38797pt too wide) in paragraph at lines 390--392
+Overfull \hbox (2.38797pt too wide) in paragraph at lines 388--390
 []|  [] 
  []
 
-LaTeX Info: Redefining \sptext on input line 405.
-LaTeX Info: Redefining \. on input line 405.
-LaTeX Info: Redefining \% on input line 405.
+LaTeX Info: Redefining \sptext on input line 403.
+LaTeX Info: Redefining \. on input line 403.
+LaTeX Info: Redefining \% on input line 403.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
@@ -3269,9 +3270,9 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [5 <./1-Teoria/figs/0-ampCoefExt.pdf> <./1-Teoria/figs/0-ampCoefInt.pdf>]
-LaTeX Info: Redefining \sptext on input line 428.
-LaTeX Info: Redefining \. on input line 428.
-LaTeX Info: Redefining \% on input line 428.
+LaTeX Info: Redefining \sptext on input line 426.
+LaTeX Info: Redefining \. on input line 426.
+LaTeX Info: Redefining \% on input line 426.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -3280,38 +3281,38 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [6]
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 491--493
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 489--491
 $[]$  $[]$ 
  []
 
-<1-Teoria/figs/0-FrsnelExt.pdf, id=330, 227.85126pt x 153.57375pt>
+<1-Teoria/figs/0-FrsnelExt.pdf, id=320, 227.85126pt x 153.57375pt>
 File: 1-Teoria/figs/0-FrsnelExt.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/0-FrsnelExt.pdf>
-Package pdftex.def Info: 1-Teoria/figs/0-FrsnelExt.pdf  used on input line 501.
+Package pdftex.def Info: 1-Teoria/figs/0-FrsnelExt.pdf  used on input line 499.
 
 (pdftex.def)             Requested size: 227.8507pt x 153.57336pt.
 
-Overfull \hbox (6.06795pt too wide) in paragraph at lines 500--502
+Overfull \hbox (6.06795pt too wide) in paragraph at lines 498--500
 []|  [] 
  []
 
-<1-Teoria/figs/0-FrsnelInt.pdf, id=332, 227.85126pt x 153.57375pt>
+<1-Teoria/figs/0-FrsnelInt.pdf, id=322, 227.85126pt x 153.57375pt>
 File: 1-Teoria/figs/0-FrsnelInt.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/0-FrsnelInt.pdf>
-Package pdftex.def Info: 1-Teoria/figs/0-FrsnelInt.pdf  used on input line 505.
+Package pdftex.def Info: 1-Teoria/figs/0-FrsnelInt.pdf  used on input line 503.
 
 (pdftex.def)             Requested size: 227.8507pt x 153.57336pt.
 
-Overfull \hbox (8.91339pt too wide) in paragraph at lines 504--506
+Overfull \hbox (8.91339pt too wide) in paragraph at lines 502--504
 []|  [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Info: Redefining \sptext on input line 512.
-LaTeX Info: Redefining \. on input line 512.
-LaTeX Info: Redefining \% on input line 512.
+LaTeX Info: Redefining \sptext on input line 510.
+LaTeX Info: Redefining \. on input line 510.
+LaTeX Info: Redefining \% on input line 510.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
@@ -3319,18 +3320,10 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [7]
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 529--535
-$[]$  $[]$
- []
+LaTeX Info: Redefining \sptext on input line 526.
+LaTeX Info: Redefining \. on input line 526.
+LaTeX Info: Redefining \% on input line 526.
 
-
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 529--535
-[]$  $[]$
- []
-
-LaTeX Info: Redefining \sptext on input line 535.
-LaTeX Info: Redefining \. on input line 535.
-LaTeX Info: Redefining \% on input line 535.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
@@ -3338,13 +3331,23 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [8 <./1-Teoria/figs/0-FrsnelExt.pdf> <./1-Teoria/figs/0-FrsnelInt.pdf>]
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 540--544
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 528--534
 $[]$  $[]$
  []
 
-LaTeX Info: Redefining \sptext on input line 578.
-LaTeX Info: Redefining \. on input line 578.
-LaTeX Info: Redefining \% on input line 578.
+
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 528--534
+[]$  $[]$
+ []
+
+
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 539--543
+$[]$  $[]$
+ []
+
+LaTeX Info: Redefining \sptext on input line 570.
+LaTeX Info: Redefining \. on input line 570.
+LaTeX Info: Redefining \% on input line 570.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
@@ -3352,9 +3355,9 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [9]
-LaTeX Info: Redefining \sptext on input line 658.
-LaTeX Info: Redefining \. on input line 658.
-LaTeX Info: Redefining \% on input line 658.
+LaTeX Info: Redefining \sptext on input line 661.
+LaTeX Info: Redefining \. on input line 661.
+LaTeX Info: Redefining \% on input line 661.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -3363,18 +3366,13 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [10]
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 680--683
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 686--689
 $[]$  $[]$
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 680--683
-
- []
-
-LaTeX Info: Redefining \sptext on input line 695.
-LaTeX Info: Redefining \. on input line 695.
-LaTeX Info: Redefining \% on input line 695.
+LaTeX Info: Redefining \sptext on input line 703.
+LaTeX Info: Redefining \. on input line 703.
+LaTeX Info: Redefining \% on input line 703.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
@@ -3382,38 +3380,33 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [11]
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 719--725
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 733--739
 $[]$  $[]$
  []
 
 
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 719--725
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 733--739
 []$  $[]$
  []
 
 
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 734--738
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 748--752
 $[]$  $[]$
  []
 
 
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 734--738
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 748--752
 []$  $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 734--738
+Underfull \hbox (badness 10000) in paragraph at lines 748--752
 
  []
 
-
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 743--747
-$[]$  $[]$
- []
-
-LaTeX Info: Redefining \sptext on input line 756.
-LaTeX Info: Redefining \. on input line 756.
-LaTeX Info: Redefining \% on input line 756.
+LaTeX Info: Redefining \sptext on input line 752.
+LaTeX Info: Redefining \. on input line 752.
+LaTeX Info: Redefining \% on input line 752.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
@@ -3421,65 +3414,51 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [12pdfTeX warning (ext4): destination with the same identifier (name{equation.1
-.2.41}) has been already used, duplicate ignored
+.2.42}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.756 	\end{tcolorbox}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.1.2.41}) has been already used, duplicate ignored
+l.752 
+      ]pdfTeX warning (ext4): destination with the same identifier (name{equati
+on.1.2.42}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.756 	\begin{subequations}
+                           
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 757--761
+$[]$  $[]$
+ []
 
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.756 	\end{tcolorbox}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.1.2.41}) has been already used, duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.756 	\end{tcolorbox}
-                      pdfTeX warning (ext4): destination with the same identifi
-er (name{equation.1.2.41}) has been already used, duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.756 	\end{tcolorbox}
-                      ]
-LaTeX Info: Redefining \sptext on input line 796.
-LaTeX Info: Redefining \. on input line 796.
-LaTeX Info: Redefining \% on input line 796.
-
+LaTeX Info: Redefining \sptext on input line 805.
+LaTeX Info: Redefining \. on input line 805.
+LaTeX Info: Redefining \% on input line 805.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 796--798
+[13pdfTeX warning (ext4): destination with the same identifier (name{equation.1
+.2.42}) has been already used, duplicate ignored
 
- []
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.805 	\end{tcolorbox}
+                      \vspace{-.5em}\noindentpdfTeX warning (ext4): destination
+ with the same identifier (name{equation.1.2.42}) has been already used, duplic
+ate ignored
 
-
-Overfull \hbox (21.71455pt too wide) detected at line 825
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.805 	\end{tcolorbox}
+                      \vspace{-.5em}\noindent]
+Overfull \hbox (8.54869pt too wide) detected at line 828
 []
  []
 
-
-Overfull \hbox (32.40091pt too wide) in paragraph at lines 825--827
-\T1/cmr/m/n/10.95 Asimismo, se cum-ple que $\OMS/cmsy/m/n/10.95 h\OT1/cmr/bx/n/
-10.95 M[]\OML/cmm/m/it/10.95 ; \OT1/cmr/bx/n/10.95 M[]\OMS/cmsy/m/n/10.95 i[] \
-OT1/cmr/m/n/10.95 = \OMS/cmsy/m/n/10.95 h\OT1/cmr/bx/n/10.95 M[]\OML/cmm/m/it/1
-0.95 ; \OT1/cmr/bx/n/10.95 M[]\OMS/cmsy/m/n/10.95 i[]$ \T1/cmr/m/n/10.95 y $\OM
-S/cmsy/m/n/10.95 h\OT1/cmr/bx/n/10.95 N[]\OML/cmm/m/it/10.95 ; \OT1/cmr/bx/n/10
-.95 N[]\OMS/cmsy/m/n/10.95 i[] \OT1/cmr/m/n/10.95 = \OMS/cmsy/m/n/10.95 h\OT1/c
-mr/bx/n/10.95 N[]\OML/cmm/m/it/10.95 ; \OT1/cmr/bx/n/10.95 N[]\OMS/cmsy/m/n/10.
-95 i[]$\T1/cmr/m/n/10.95 .
- []
-
-LaTeX Info: Redefining \sptext on input line 827.
-LaTeX Info: Redefining \. on input line 827.
-LaTeX Info: Redefining \% on input line 827.
+LaTeX Info: Redefining \sptext on input line 842.
+LaTeX Info: Redefining \. on input line 842.
+LaTeX Info: Redefining \% on input line 842.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
@@ -3487,13 +3466,24 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [14]
-Overfull \hbox (11.30473pt too wide) detected at line 854
-[]
+Underfull \hbox (badness 10000) in paragraph at lines 860--862
+
  []
 
-LaTeX Info: Redefining \sptext on input line 877.
-LaTeX Info: Redefining \. on input line 877.
-LaTeX Info: Redefining \% on input line 877.
+
+LaTeX Warning: Reference `fig:SistCoor' on page 15 undefined on input line 863.
+
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `fig:SistCoor' on page 15 undefined on input line 967.
+
+
+LaTeX Info: Redefining \sptext on input line 981.
+LaTeX Info: Redefining \. on input line 981.
+LaTeX Info: Redefining \% on input line 981.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
@@ -3501,61 +3491,53 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [15]
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 887--890
-$[]$  $[]$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 887--890
+Underfull \hbox (badness 10000) in paragraph at lines 993--995
 
  []
 
-
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 911--913
-$[]$  $[]$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 911--913
-
- []
-
-LaTeX Info: Redefining \sptext on input line 913.
-LaTeX Info: Redefining \. on input line 913.
-LaTeX Info: Redefining \% on input line 913.
+LaTeX Info: Redefining \sptext on input line 1013.
+LaTeX Info: Redefining \. on input line 1013.
+LaTeX Info: Redefining \% on input line 1013.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16pdfTeX warning (ext4): destination with the same identifier (name{equation.1
-.2.54}) has been already used, duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.913 
-      pdfTeX warning (ext4): destination with the same identifier (name{equatio
-n.1.2.54}) has been already used, duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.913 
-      ]
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 919--921
+[16]
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 1016--1018
 $[]$  $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 919--921
+Underfull \hbox (badness 10000) in paragraph at lines 1016--1018
+
+ []
+
+
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 1024--1026
+$[]$  $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1024--1026
 
  []
 
 
 Package blindtext Warning: spanish not defined, using English instead.
-(blindtext)                 on input line 933.
+(blindtext)                 on input line 1038.
 
-)
+LaTeX Info: Redefining \sptext on input line 1040.
+LaTeX Info: Redefining \. on input line 1040.
+LaTeX Info: Redefining \% on input line 1040.
+
+Package Fancyhdr Warning: \headheight is too small (0.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17])
 LaTeX Info: Redefining \sptext on input line 62.
 LaTeX Info: Redefining \. on input line 62.
 LaTeX Info: Redefining \% on input line 62.
@@ -3566,34 +3548,28 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17] [18
-
-
-]
+[18]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 74.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [19]
-\openout2 = `07-Apendice/1-Teoria_Mie.aux'.
-
-
-(./07-Apendice/1-Teoria_Mie.tex [20
+) [19
 
 
 ]
-Ap\'{e}ndice A.
-) [21]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 80.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 80.
  (./tesis.aux
 LaTeX Info: Redefining \sptext on input line 32.
 LaTeX Info: Redefining \. on input line 32.
 LaTeX Info: Redefining \% on input line 32.
- (./1-Teoria/1-Teorias.aux) (./07-Apendice/1-Teoria_Mie.aux))
+(./1-Teoria/1-Teorias.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 80.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 80.
 Package rerunfilecheck Info: File `tesis.out' has not changed.
-(rerunfilecheck)             Checksum: AEF79ACE1D60AC70AFDB50489D1EEA32;844.
+(rerunfilecheck)             Checksum: 63561C005C16C8C20828821B2E95ABC3;716.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -3603,51 +3579,52 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 56220 strings out of 492982
- 1265602 string characters out of 6134895
- 1830106 words of memory out of 5000000
- 58742 multiletter control sequences out of 15000+600000
- 555599 words of font info for 85 fonts, out of 8000000 for 9000
+ 56614 strings out of 492982
+ 1272198 string characters out of 6134895
+ 1836549 words of memory out of 5000000
+ 59129 multiletter control sequences out of 15000+600000
+ 557440 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,19n,103p,10550b,1991s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,19n,103p,10550b,1985s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cmextra/cmex9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-euler/eusm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbi1095.pfb></u
-sr/share/texmf/fonts/type1/public/cm-super/sfbx0800.pfb></usr/share/texmf/fonts
-/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-sup
-er/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></us
-r/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/
-type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-supe
-r/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1440.pfb></usr
-/share/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/t
-ype1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super
-/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/
-share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/ty
-pe1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/
-sfrm2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0800.pfb></usr/s
-hare/texmf/fonts/type1/public/cm-super/sfti0900.pfb></usr/share/texmf/fonts/typ
-e1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
-ftt1095.pfb>
-Output written on tesis.pdf (25 pages, 2648409 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cmextra/cmex9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler
+/eusm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbi1095.pfb></usr/sh
+are/texmf/fonts/type1/public/cm-super/sfbx0800.pfb></usr/share/texmf/fonts/type
+1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
+bx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/sha
+re/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1
+/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfc
+c1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1440.pfb></usr/shar
+e/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type1/
+public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm
+0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share
+/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/p
+ublic/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2
+488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0800.pfb></usr/share/
+texmf/fonts/type1/public/cm-super/sfti0900.pfb></usr/share/texmf/fonts/type1/pu
+blic/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt10
+95.pfb>
+Output written on tesis.pdf (23 pages, 2654674 bytes).
 PDF statistics:
- 721 PDF objects out of 1000 (max. 8388607)
- 591 compressed objects within 6 object streams
- 139 named destinations out of 1000 (max. 500000)
- 311 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 703 PDF objects out of 1000 (max. 8388607)
+ 574 compressed objects within 6 object streams
+ 141 named destinations out of 1000 (max. 500000)
+ 295 words of extra memory for PDF output out of 10000 (max. 10000000)
 

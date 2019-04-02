@@ -97,7 +97,11 @@
 			\usetikzlibrary{decorations.shapes}
 			\usetikzlibrary{arrows.meta,calc,decorations.markings,math,arrows.meta}
 			\usetikzlibrary{arrows,shapes,positioning}
-			\usetikzlibrary{decorations.markings}
+			\usetikzlibrary{%
+  							decorations.pathreplacing,%
+						    decorations.pathmorphing%
+							}	
+			\usepackage{tikz-3dplot}
 			%-------Dar dirección de las líneas (PONER FLECHITAS)
 				\tikzstyle arrowstyle=[scale=1]
 				\tikzstyle directed=[postaction={decorate,decoration={markings,

@@ -60,7 +60,7 @@ en donde  $c$ es la velocidad de la luz.
 
 Cuando un haz de luz, modelado por una onda plana, se propaga a través de un medio material, la función dieléctrica $\varepsilon$ y la permeabilidad magnética $\mu$ del material determinan sus propiedades EMs. En general, se define el índice de refracción $n$ como       \vspace*{-.5em}
 	\begin{tcolorbox}[title = Índice de refracción, ams align]
-	n = \sqrt{\frac{\varepsilon \mu}{\varepsilon_0 \mu}_0}.
+	n = \sqrt{\frac{\varepsilon \,\mu}{\varepsilon_0 \mu_0}}.
 		\label{eq:indice} 
 	\end{tcolorbox}\vspace*{-.5em}\noindent
 Tanto $n$, como $\varepsilon$ y $\mu$ se determinan de forma experimental y son, en general, cantidades complejas. Para medios no magnéticos ($\mu_0 = \mu$), la parte imaginaria de la función dieléctrica $\Im[\varepsilon]$ se asocia con la absorción de energía por el material \cite{ibach2003solid}.
@@ -354,7 +354,6 @@ en donde $\theta_i$ es el ángulo de incidencia; $\theta_r$, el de reflexión y 
 %
 
 Para polarización \emph{s} y medios no magnéticos ($\mu=\mu_0$),  el campo eléctrico es perpendicular al plano de incidencia y paralelo a la interfaz por lo que, mediante la Ec. \eqref{seq:Epara}, $E_i + E_r = E_t$, en donde se asume que la orientación del campo eléctrico incidente se preserva en el haz reflejado y transmitido, como se observa en la Fig. \ref{sfig:Pols}. Al emplear la continuidad de la componente paralela a la interfaz de $\vb{B}/\mu$ [Ec. \eqref{seq:Bpara}], la relación $E = (c/n) B$ y la ley de la reflexión [Ec. \ref{eq:LeyReflexion}] y de Snell [Ec. \eqref{eq:LeySnell}] se obtienen los coeficientes de amplitud $r$ y $t$ para  polarización \emph{s}, dados por \vspace*{-.5em}
-%
 	\begin{tcolorbox}[title = Coeficientes de amplitud para polarización \emph{s} ]
 	\vspace*{-1em}	
 	\eqhalf{r_s =
@@ -366,8 +365,6 @@ Para polarización \emph{s} y medios no magnéticos ($\mu=\mu_0$),  el campo el�
  			{n_i\cos\theta_i + \sqrt{ n_t^2-n_i^2\sin ^2\theta_i}}.
  			\label{eq:ts}}
 	\end{tcolorbox}	 \vspace*{-.5em}\noindent
-%	
-
 Cuando el campo eléctrico es paralelo al plano de incidencia, y por tanto perpendicular a la interfaz como se observa en la Fig. \ref{sfig:Polp}, se cumple la relación $E_i\cos\theta_i-E_r\cos\theta_r = E_t \cos\theta_t$ por la Ec. \eqref{seq:Epara}. Al asumir nuevamente que la orientación de oscilación del campo eléctrico reflejado y transmitido coincide con la del campo eléctrico incidente, y al emplear las Ecs. \eqref{seq:Bpara},  \eqref{eq:LeyReflexion} y  \eqref{eq:LeySnell}, así como la relación $E = (c/n) B$, se calculan los  coeficientes de amplitud $r$ y $t$ para  polarización \emph{p}, dados por \vspace*{-.5em}
 	\begin{tcolorbox}[title = Coeficientes de amplitud para polarización \emph{p} ]
 	\vspace*{-1em}
@@ -378,7 +375,7 @@ Cuando el campo eléctrico es paralelo al plano de incidencia, y por tanto perpe
 				\frac{ 2 n_i n_t \cos\theta_i}
  				{n_t^2\cos \theta_i+n_i\sqrt{n_t^2-n_i^2\sin^2\theta_i}}.
  				\label{eq:tp}}
-	\end{tcolorbox}	 \vspace*{-1em}\noindent
+	\end{tcolorbox}	
 
 Los coeficientes  de ampltiud dependen de las propiedades ópticas de los medios, descritas por los índices de refracción presentes en sus expresiones, y según el valor de los índices de refracción se presentan distintos fenómenos físicos descritos por las Ecs. \eqref{eq:rs}--\eqref{eq:tp}. Si se comparan dos índices de refracción y uno de ellos es mayor que el otro, se dice que el material correspondiente al índice de refracción mayor posee una densidad óptica mayor. En el caso en el que la luz atraviesa una interfaz, entre dos medios lineales, homogéneos e isótropos, y el medio transmisión es  el más denso ópticamente ($n_t>n_i$), se está en una configuración de incidencia externa, mientras que en caso contrario, $n_t<n_i$, se está en  incidencia interna. En la Fig. \ref{fig:coefAmp} se grafican los coeficientes de amplitud $r$ (líneas continuas) y $t$ (líneas punteadas) como función del ángulo de incidencia $\theta_i$ para una interfaz de entre aire ($n= 1$) y un medio con un índice de refracción $n = 1.5$, en configuración de incidencia externa [Fig. \ref{sfig:coefExt}] e interna [\ref{sfig:coefInt}] para ambas polarizaciones, en donde las líneas azules corresponden a la polarización \emph{s} y las rojas a \emph{p}. Dado que los índices de refracción $n = \sqrt{\varepsilon}$ son cantidades reales, ninguno de los dos medios es absorbente.
 %
@@ -425,7 +422,7 @@ Al considerar campos eléctricos armónicos, es decir, tipo ondas planas, es nec
 	I = \langle S \rangle_t = \frac{nc\varepsilon_0}{2} E_0^2.
 	\label{eq:Irr}
 	\end{equation}
-La irradiancia $I$ corresponde a la energía promedio por unidad de tiempo, por unidad de área, transportada por los campos EMs en la dirección $\vu{k}$ \cite{griffiths2013electrodynamics}. Para calcular la energía por unidad de tiempo $P$ transportada por los campos EMs al cruzar la interfaz se multiplica la Ec. \eqref{eq:Irr} por la sección transversal del haz de luz. En la Fig. \ref{fig:hazcircular} se muestran las secciones transversales de un haz incidente que incide a un ángulo $\theta_i$ sobre la interfaz entre dos medios con índice de refracción $n_i$ y $n_t$, respectivamente. Cuando el haz se refleja, a un ángulo $\theta_r=\theta_i$, y se refracta a un ángulo $\theta_r$, la sección transversal del haz cambia. Si el área de los haces justo en la interfaz es $A$, mediante la ley de la reflexión [Ec. \eqref{eq:LeyReflexion} y la ley de Snell [Ec. \eqref{eq:LeySnell}, la sección transversal del has incidente y el reflejado  es $A\cos\theta_i$, mientras que la del haz transmitido es $A\cos\theta_t$.
+La irradiancia $I$ corresponde a la energía promedio por unidad de tiempo, por unidad de área, transportada por los campos EMs en la dirección $\vu{k}$ \cite{griffiths2013electrodynamics}. Para calcular la energía por unidad de tiempo $P$ transportada por los campos EMs al cruzar la interfaz se multiplica la Ec. \eqref{eq:Irr} por la sección transversal del haz de luz. En la Fig. \ref{fig:hazcircular} se muestran las secciones transversales de un haz incidente que incide a un ángulo $\theta_i$ sobre la interfaz entre dos medios con índice de refracción $n_i$ y $n_t$, respectivamente. Cuando el haz se refleja, a un ángulo $\theta_r=\theta_i$, y se refracta a un ángulo $\theta_r$, la sección transversal del haz cambia. Si el área de los haces justo en la interfaz es $A$, mediante la ley de la reflexión [Ec. \eqref{eq:LeyReflexion}] y la ley de Snell [Ec. \eqref{eq:LeySnell}], la sección transversal del has incidente y el reflejado  es $A\cos\theta_i$, mientras que la del haz transmitido es $A\cos\theta_t$.
 
 	\begin{figure}[h]\centering
 \begin{tikzpicture}[scale=.7]
@@ -490,7 +487,7 @@ La irradiancia $I$ corresponde a la energía promedio por unidad de tiempo, por 
 en donde el ángulo $\theta$ e indice de refracción $n$ toman los valores de $\theta_i$ y $n_i$ para el haz incidente y el reflejado, mientras que  toma los valores de $\theta_t$ y  $n_t$ para el haz transmitido. Cuando se normaliza la energía por unidad de tiempo transportada por el haz reflejado y por el haz transmitido, entre la del haz incidente se obtienen las expresiones de la reflectancia $R$ y la transmitancia $T$ \vspace{-.5em}
 	\begin{tcolorbox}[title = Reflectancia y transmitancia]
 	\eqhalf{ R =  r r^*, \label{eq:R}}
-	\eqhalf{ T = \frac{n_t\sin\theta_i}{n_i \sin\theta_t} t t^*,\label{eq:T}}
+	\eqhalf{ T = \frac{n_t\cos\theta_i}{n_i \cos\theta_t} t t^*,\label{eq:T}}
 	\end{tcolorbox}	 \vspace*{-.5em}\noindent	
 en donde $r$ es el coeficiente de amplitud de reflexión y $t$ el de transmisión, dados por las Ecs. \eqref{eq:rs}--\eqref{eq:tp}, y $*$ el complejo conjugado.
 
@@ -522,9 +519,10 @@ en donde el término $A$ es la energía absorbida por el material, relativa a la
 	
 \section{Solución de Mie}
 
-El problema de la absorción y el esparcimiento de luz por una partícula esférica fue resuelto por el físico alemán Gustav Mie en 1908 \cite{mie1908metallosung}. La solución de Mie consiste en la expansión de una onda plana, que ilumina una esfera, en una base esférica que cumple con las ecuaciones de Maxwell [Ecs. \eqref{eqs:Maxwell}],  y en las condiciones de continuidad que los campos EMs [Ecs. \eqref{eqs:CFrontera}] satisfacen en la superficie de la esfera \cite{bohren1998absorption,mie1908metallosung,horvath2009historic}. Existen publicaciones previas a la de Mie en donde el mismo enfoque es empleado \cite{horvath2009historic} sin embargo, en el trabajo de Mie se  desarrollan relaciones recursivas para la solución general, que facilitan el cálculo numérico, y se discute la convergencia de este resultado \cite{horvath2009historic}. Esto permitió que Mie expusiera diez casos prácticos, a diferencia de otros textos que se limitaban a pocos problemas experimentales \cite{horvath2009historic}.
+	
+El problema de absorción y esparcimiento de luz por una partícula esférica fue resuelto por el físico alemán Gustav Mie en 1908 \cite{mie1908metallosung}.  La solución de Mie consiste en expandir una onda plana, que ilumina a una esfera de tamaño y material arbitrario, en una base de armónicos esféricos vectoriales, que son una base ortogonal esférica cuyos elementos son solución a las ecuaciones de Maxwell \cite{bohren1998absorption}.  Los campos EMs dentro de la partícula y los campos esparcidos por ésta se calculan, en la base de los armónicos esféricos vectoriales, al considerar las condiciones de contorno que satisfacen los campos EMs sobre la superficie de la esfera; los coeficientes de los campos EMs esparcidos e internos se conocen como los coeficientes de Mie \cite{bohren1998absorption}.  Existen publicaciones previas a la de Mie en donde el mismo enfoque es empleado \cite{horvath2009historic} sin embargo, en el trabajo de Mie se  desarrollan relaciones recursivas que facilitan el cálculo numérico y se discute la convergencia de este resultado \cite{horvath2009historic}.  De esta forma, en el artículo de Mie se exponen diez casos prácticos, a diferencia de otros trabajos \cite{horvath2009historic}. 
 
-Las ecuaciones de Maxwell, considerando una región del espacio sin cargas externas, y campos EMs armónicos en el tiempo, se reescriben como
+Las ecuaciones de Maxwell, al considerar una región del espacio sin cargas externas, y campos EMs armónicos en el tiempo, se reescriben como \cite{jackson1999electrodynamics}
 
 	\begin{subequations}
 	\eqhalf{\nabla\cdot \vb{E} = 0, }
@@ -535,21 +533,20 @@ Las ecuaciones de Maxwell, considerando una región del espacio sin cargas exter
 	\end{subequations} \vspace*{-1em}
 	
 \noindent	
-en donde $\vb{H} = \vb{B}/\mu$ es el campo H, la permitividad eléctrica y la permeabilidad magnética del material son funciones continuas. Al desacoplar las ecuaciones de Maxwell, se concluye que los campos EMs son soluciones a la ecuación de Helmholz
+en donde $\vb{H} = \vb{B}/\mu$ es el campo H, y la función dieléctrica $\varepsilon$ y la permeabilidad magnética $\mu$ del material son funciones continuas. Al desacoplar las ecuaciones de Maxwell, se concluye que los campos EMs son soluciones a la ecuación de Helmholz
 
 	\begin{subequations}
 	\eqhalf{\nabla^2 \vb{E}- k^2 \vb{E} = \vb{0},}
-	\eqhalf{\nabla^2 \vb{H}- k^2 \vb{H} = \vb{0}.}
+	\eqhalf{\nabla^2 \vb{H}- k^2 \vb{H} = \vb{0},}
 	\label{eq:Helmholtz}
-	\end{subequations} \vspace*{-1em}
+	\end{subequations} \vspace*{-1em}\noindent	
 	
-\noindent	
-Para proceder con el cálculo de los campos EMs, se propone primero un campo vectorial $\vb{M}$ tal que
+en donde $k = n k_0$ es la magnitud del vector de onda y $n$ es el índice de refracción del material [Ec. \eqref{eq:indice}]. Para proceder con el cálculo de los campos EMs, se propone primero un campo vectorial $\vb{M}$ tal que
 	\begin{align}
 	\vb{M} &= \nabla \times \left(\vb{c} \psi\right),
 	\label{eq:MrotCPsi}
 	\end{align}
-donde $\psi$ es una función escalar y $\vb{c}$ un vector \emph{constante} arbitrario; dado que $\vb{M}$ es el rotacional de  $\vb{c}\psi$, se cumple que $\nabla\cdot \vb{M} = \vb{0}$ y que $\vb{M}$ y $\vb{c}$ son vectores perpendiculares\footnote{Empleando la convención de la suma de Einstein y con $\epsilon_{ijk}$ el símbolo de  Levi-Civita: $M_i = [\nabla\times(\vb{c}\psi)]_i =  \epsilon_{ijk}\partial_jc_k\psi = -\epsilon_{jik}c_k\partial_j\psi = -\epsilon_{ikj}c_k\partial_j\psi  = - [\vb{c}\times\nabla\psi]_i$} . Empleando la Ec. \eqref{eq:MrotCPsi} para calcular la ecuación de Helmhotz para $\vb{M}$ se obtiene
+donde $\psi$ es una función escalar y $\vb{c}$ un vector \emph{constante} arbitrario; dado que $\vb{M}$ es el rotacional de  $\vb{c}\psi$, se cumple que $\nabla\cdot \vb{M} = \vb{0}$ y que $\vb{M}$ y $\vb{c}$ son vectores perpendiculares\footnote{Empleando la convención de la suma de Einstein y con $\epsilon_{ijk}$ el símbolo de  Levi-Civita: $M_i = [\nabla\times(\vb{c}\psi)]_i =  \epsilon_{ijk}\partial_jc_k\psi = -\epsilon_{jik}c_k\partial_j\psi = -\epsilon_{ikj}c_k\partial_j\psi  = - [\vb{c}\times\nabla\psi]_i$}. Al emplear la Ec. \eqref{eq:MrotCPsi} para calcular la ecuación de Helmhotz para $\vb{M}$ se obtiene
 	\begin{equation}
 	\nabla^2 \vb{M} + k^2 \nabla\vb{M} = \nabla^2 \left[ \nabla\times\left(\vb{c} \psi\right) \right]+ 
 			k^2 \nabla \times \left(\vb{c} \psi\right).\label{eq:HelmM1}
@@ -569,7 +566,7 @@ cuyo laplaciano es $\nabla^2 \vb{N} = \nabla^2( \nabla\times \vb{M} /k) =  \nabl
 		 = \frac{1}{k} \nabla\times \left( \nabla^2 \vb{M} + k^2  \vb{M} \right).
 	\end{align}
 
-Los campos $\vb{M}$ y $\vb{N}$ cumplen con la Ec. de la ecuación de Helmholtz vectorial [Ec. \eqref{eq:Helmholtz}] si, y sólo si, la función escalar $\psi$ cumple con la ecuación de Helmholtz escalar $\nabla^2 \psi + k^2 \psi = 0$. Si este es el caso, entonces, el rotacional de $\vb{N}$ está dado por
+Los campos $\vb{M}$ y $\vb{N}$ cumplen con la  ecuación de Helmholtz vectorial [Ec. \eqref{eq:Helmholtz}] si, y sólo si, la función escalar $\psi$ cumple con la ecuación de Helmholtz escalar $\nabla^2 \psi + k^2 \psi = 0$. Si este es el caso, entonces, el rotacional de $\vb{N}$ está dado por
 	\begin{align}
 	\nabla\times \vb{N} &= \nabla\times \qty(\frac{\nabla\times \vb{M}}{k})  
 						= \frac{\nabla\qty(\nabla\cdot\vb{M})-\nabla^2\vb{M}}{k}
@@ -578,95 +575,103 @@ Los campos $\vb{M}$ y $\vb{N}$ cumplen con la Ec. de la ecuación de Helmholtz v
 						= k \vb{M}.\label{eq:rotN}
 	\end{align}
 	
-Los campos vectoriales $\vb{M}$ y $\vb{N}$ son conocidos como los \emph{armónicos  vectoriales}, $\psi$ como su función generadora y $\vb{c}$ como el vector de guía o vector piloto. Los armónicos esféricos vectoriales $\vb{M}$ y $\vb{N}$  cumplen con tener divergencia nula y que el rotacional de uno es porporcional al otro [Ecs. \eqref{eq:NrotM/k} y \eqref{eq:rotN}], es decir, que cumplen con las ecuaciones de Maxwell y con la ecuación de Helmholtz ---por lo que cuentan con las caraterísticas de campos EMs--- siempre que se cumpla que
+Los campos vectoriales $\vb{M}$ y $\vb{N}$ son conocidos como los \emph{armónicos  vectoriales}, $\psi$ como su función generadora y $\vb{c}$ como el vector de guía o vector piloto. Los armónicos esféricos vectoriales $\vb{M}$ y $\vb{N}$  cumplen con tener divergencia nula y que el rotacional de uno es porporcional al otro [Ecs. \eqref{eq:NrotM/k} y \eqref{eq:rotN}], es decir, que cumplen con las ecuaciones de Maxwell y con la ecuación de Helmholtz ---por lo que cuentan con las caraterísticas de campos EMs--- siempre que se cumpla que \vspace*{-.5em}
 	\begin{tcolorbox}[title = $\mathbf{\psi}$: Función generadora de los armónicos  vectoriales, ams align ]
 	\nabla^2 \psi + k^2 \psi  = 0.\label{eq:AV_psi}
 	\end{tcolorbox}
 
 	\subsection{Solución a la ecuación de onda con simetría esférica}
 
-
-Para poder encontrar las soluciones del campo esparcido por una esfera basta entonces con encontrar las soluciones de la Ec. \eqref{eq:AV_psi} con la geometría deseada e imponer las condiciones a la frontera de los campos EMs. Suponiendo una partícula esférica, se escoge el vector piloto $\vb{c}$ como $\vb{r}$ (ver Fig. \ref{fig:EsferaA}), por lo que $\vb{M}$ es solución a la ecuación de Helmholtz en coordenadas esféricas $(r,\theta, \varphi)$, además de que se cumple que $\vb{M}$ será tangencial a cualquier esfera de radio $r=\norm{\vb{r}}$ constante.
-
-	\begin{figure}[h!]\centering
-	\begin{minipage}[c]{.95\linewidth}\centering
-	\begin{tikzpicture}[scale=1.3]
-
-\coordinate (O) at (0,0);
-
-%------------------------------------------------------- Particle
-\shade[ball color=yellow, opacity = 1] (O) circle (1); 
-\draw[dashed] (O) ellipse (.3 and 1);
-
-%------------------------------------------------------- Coordinate system axes
-\draw[- latex, thick] (O) -- (-1.3,-1.3) node[anchor=north ]{$y$};
-\draw[- latex, thick] (O) -- (2,0) node[anchor= west]{$z$};
-\draw[- latex, thick] (O) -- (0,2) node[anchor=south]{$x$};
-
-
-%------------------------------------------------------- Vector \vb{r}
-\draw[thick,red,- latex] (O) -- (35:1.7) node[anchor=south west]{$\vb{r}$}; 
-\draw[-, dashed,red] (O) -- (-.8,.97);		%xy proyection
-\draw[-,dashed,red] (-.8,.97) -- (35:1.7) ;	%normal proyection
-\fill[red,opacity=.2] (O)-- (-.8,.97)--(35:1.7)--(O);  %Shade
-	
-	
-%------------------------------------------------------- polar variables	
-\path (O)++(35/2:1.2)node[anchor=west]{$\theta$};    
-\draw[- latex](0:1.2)arc(0:35:1.2);
-
-\path (O)++(100:1.1)node[anchor=south east]{$\varphi$};    
-\draw[- latex](90:1.2)arc(90:130:1.2);
-	
-
-%------------------------------------------------------- Particule radius & n	
-\draw[thick,green,- latex] (O) -- (-80:1) node[anchor=north]{$\vb{a}$};  
-
-\path (O)++(-25:1) node[anchor=east]{$n_p$};
-\path (O)++(-25:1) node[anchor=west]{$n_m$};
-
-
-%------------------------------------------------------- Plane wave
-
-\def\dx{1.75}
-\def\dy{1}
-\def\dr{.4}
-
-\foreach \i in {-5,...,-1,0}{
-	\fill[opacity=.2,blue] (\i*.25-\dx,-\dy)--(\i*.25-\dx,\dy)--
-							(\i*.25-\dx+\dr, \dy+\dr)--(\i*.25-\dx+\dr, -\dy+\dr);
-	\draw[blue] (\i*.25-\dx,-\dy)--(\i*.25-\dx,\dy)--
-							(\i*.25-\dx+\dr, \dy+\dr)--(\i*.25-\dx+\dr, -\dy+\dr)--
-							(\i*.25-\dx,-\dy);}									
-
-\draw[- latex,thick,blue] (-1.5,0)--(-1.5+1,0) node[anchor=south east]{$\vb{k}_i$};
-
-	
-\end{tikzpicture}
-		\caption{ Esfera de radio $a$ e ínidce de refracción $n_p$, inmersa en una matriz con índice $n_m$. La esfera es iluminada por una onda plana de luz con vector de onda $\vb{k}_i$ que viaja en la dirección $\hat{e}_z$.}\label{fig:EsferaA}
-	\end{minipage}
-	\end{figure}
-	
-En coordenadas esféricas la Ec. \eqref{eq:AV_psi} es
+Para poder encontrar las soluciones del campo esparcido por una esfera, se calculan  las soluciones de la Ec. \eqref{eq:AV_psi} con la geometría deseada y se imponen las condiciones a la frontera de los campos EMs sobre la superficie de la esfera. Al suponer que una partícula esférica de radio $a$ e índice de refracción $n_p$, inmersa en un medio, denominado matriz, con índice de refracción $n_m$, es iluminada por una onda plana propagándose a lo largo del eje $z$, como se muestra en la Fig. \ref{fig:EsferaA}, la Ec. \eqref{eq:AV_psi} tiene la forma
 	\begin{equation}
 	\frac{1}{r^2} \pdv{r}\qty(r^2\pdv{\psi}{r})+ 
 	\frac{1}{r^2\sin\theta}\pdv{\theta}\qty(\sin\theta\pdv{\psi}{\theta})
-	 + \frac{1}{r^2\sin^2\theta}\pdv[2]{\psi}{\varphi} + k^2 \psi =0. \label{eq:AEV_psi}
+	 + \frac{1}{r^2\sin^2\theta}\pdv[2]{\psi}{\varphi} + k^2 \psi =0, \label{eq:AEV_psi}
 	\end{equation}
+en donde $\vb{r}$ se escoge como el vector piloto $\vb{c}$, por lo que $\vb{M}$ será tangencial a cualquier superficie esférica, $\theta$ es el ángulo polar y $\varphi$, el azimutal.
+
+	\begin{figure}[h!]\centering
+	%set the plot display orientation
+	%synatax: \tdplotsetdisplay{\theta_d}{\varphi_d}
+		\tdplotsetmaincoords{60}{110}
+	%define polar coordinates for some vector
+	%TODO: look into using 3d spherical coordinate system
+		\pgfmathsetmacro{\rvec}{1. 3}
+		\pgfmathsetmacro{\thetavec}{30}
+		\pgfmathsetmacro{\varphivec}{60}	
+\begin{tikzpicture}[scale=4,tdplot_main_coords]
+
+%set up some coordinates 
+	\coordinate (O) at (0,0,0);
+
+%determine a coordinate (P) using (r,\theta,\varphi) coordinates.   This command
+%also determines (Pxy), (Pxz), and (Pyz): the xy-, xz-, and yz-projections
+%of the point (P). 
+%syntax: \tdplotsetcoord{Coordinate name without parentheses}{r}{\theta}{\varphi}
+	\tdplotsetcoord{P}{\rvec}{\thetavec}{\varphivec}
+
+%draw figure contents
+%--------------------
+
+%Draw the NP
+	\draw[tdplot_screen_coords,ball color=yellow, opacity = 1] (O) circle (. 25);
+	\draw[color=blue, -, thick] (0,0,0) -- (. 18,-. 18,. 18);	
+	\node at (. 09,-. 09,. 15){\color{blue} $a$};
+	\node at (. 25,-. 25,-. 05){$n_m$};
+	\node at (. 01,-. 18,-. 1){$n_p$};		
+	
+%draw the main coordinate system axes
+	\draw[thick,- latex] (0,0,0) -- (. 8,0,0) node[anchor=north east]{$x$};
+	\draw[thick,- latex] (0,0,0) -- (0,. 8,0) node[anchor=north west]{$y$};
+	\draw[thick,- latex] (0,0,0) -- (0,0,. 8) node[anchor=south]{$z$};
+
+%draw a vector from origin to point (P) 
+	\draw[thick,color=green, - latex] (O) -- (P);
+	\node at (1,. 6,1. 2) {\color{green} $\vb{r}$};
+	
+%draw projection on xy plane, and a connecting line
+	\draw[dashed, color=green] (O) -- (Pxy);
+	\draw[dashed, color=green] (P) -- (Pxy);
+%	\fill[green, opacity = . 3] (O) --(Pxy)-- (P)--(O);	
+
+%draw the angle \varphi, and label it
+	%syntax: \tdplotdrawarc[coordinate frame, draw options]{center point}{r}{angle}{label options}{label}
+	\tdplotdrawarc[- latex]{(O)}{0. 6}{0}{\varphivec}{anchor=north}{$\varphi$}
+
+
+%set the rotated coordinate system so the x'-y' plane lies within the
+	%"theta plane" of the main coordinate system
+	%syntax: \tdplotsetthetaplanecoords{\varphi}
+	\tdplotsetthetaplanecoords{\varphivec}
+
+%draw theta arc and label, using rotated coordinate system
+	\tdplotdrawarc[tdplot_rotated_coords, - latex]{(0,0,0)}{0. 6}{0}{\thetavec}{anchor=north east}{$\theta$}
+
+% Plane Wave
+	\foreach \i in {-3,...,3}{
+		\draw[thick,tdplot_screen_coords,red, - latex] (-.8+\i/10,-.3,0)--(-.8+\i/10,.7,0);}
+	\node[tdplot_screen_coords] at (-8/10,+.8,0){\color{red}$\vb{k}_i$};
+	\node[tdplot_screen_coords] at (-8/10,-.4,0){\color{red}Haz incidente};
+\end{tikzpicture}	
+		\caption{ Esfera de radio $a$ e ínidce de refracción $n_p$, inmersa en una matriz con índice $n_m$. La esfera es iluminada por una onda plana con vector de onda $\vb{k}_i$, que se propaga en la dirección $\hat{e}_z$. Se escoge como vector piloto $\vb{r}$.}\label{fig:EsferaA}
+	\end{figure}	
+	
+
 Para resolver la Ec. \eqref{eq:AEV_psi} se asume que $\psi$ es el producto de tres funciones y cada una de éstas depende únicamente en una variable, es decir,
 	\begin{equation}
 	\psi (r,\theta, \varphi) = R(r)\Theta(\theta) \Phi(\varphi). \label{eq:psiEsf}
 	\end{equation}
-La resolución de la Ec. \eqref{eq:AV_psi} busca construir un conjunto de funciones linealmente independientes que sean una base para los campos EMs incidentes, esparcidos y dentro de la esfera. Al sustituir la Ec. \eqref{eq:psiEsf} en la Ec. \eqref{eq:AEV_psi},  y multiplicar por $r^2/R\Theta\Phi$ y despejando los términos que dependen únicamente de $r$, se obtiene como resultado que una función con dependencia radial es igual a una función con dependencia angular, por lo tanto se igualan a una constante $\ell (\ell +1)$, es decir
+La resolución de la Ec. \eqref{eq:AV_psi} busca construir un conjunto de funciones linealmente independientes que sean una base para los campos EMs incidente, esparcido y dentro de la esfera. Al sustituir la Ec. \eqref{eq:psiEsf} en la Ec. \eqref{eq:AEV_psi},  multiplicar por $r^2/R\Theta\Phi$ y despejar los términos que dependen únicamente de $r$, se obtiene como resultado que una función con dependencia radial es igual a una función con dependencia angular, por lo tanto se igualan a una constante $\ell (\ell +1)$
 	\begin{equation}
 \mathrlap{\overbrace{\phantom{\frac{1}{R} \dv{r}\qty(r^2\dv{R}{r})+  k^2 r^2 = \ell (\ell +1)}}^{\text{radial}}}
-									\frac{1}{R} \dv{r}\qty(r^2\dv{R}{r})+  k^2 r^2 = 
-      \mathrlap{\underbrace{\phantom{\ell (\ell +1)=
-									-\frac{1}{\Theta\sin\theta}\dv{\theta}\qty(\sin\theta\dv{\Theta}{\theta})
-								  \frac{1}{\sin^2\theta}\frac{1}{\Phi}\pdv[2]{\psi}{\varphi} }}_{\text{angular}}}
-						 \ell (\ell +1)=
-						-\frac{1}{\Theta\sin\theta}\dv{\theta}\qty(\sin\theta\dv{\Theta}{\theta})
-					 - \frac{1}{\sin^2\theta}\frac{1}{\Phi}\pdv[2]{\psi}{\varphi}.\label{eq:radAng}
+							 \frac{1}{R} \dv{r}\qty(r^2\dv{R}{r})+  k^2 r^2 = 
+\mathrlap{\underbrace{\phantom{\ell (\ell +1)=
+											-\frac{1}{\Theta\sin\theta}\dv{\theta}\qty(\sin\theta\dv{\Theta}{\theta})
+								 			- \frac{1}{\sin^2\theta}\frac{1}{\Phi}\pdv[2]{\psi}{\varphi}. }}_{\text{angular}}}
+						 	\ell (\ell +1)=
+											-\frac{1}{\Theta\sin\theta}\dv{\theta}\qty(\sin\theta\dv{\Theta}{\theta})
+					 						- \frac{1}{\sin^2\theta}\frac{1}{\Phi}\pdv[2]{\psi}{\varphi}.
+					 		\label{eq:radAng}
 	\end{equation}
 Si la parte angular de la Ec. \eqref{eq:radAng} se multiplica por $\sin^2\theta$, y se despejan los términos que dependen de $\theta$, se obtiene que una función que depende únicamente de $\theta$ es igual a una que depende únicamente de $\varphi$, por lo que ambas partes se igualan a la constante $m^2$. Tanto $\ell$ en la Ec. \eqref{eq:radAng}, como $m$ son constantes que se determinan ante condiciones impuestas a $\psi$. Tras este procedimiento ---llamado separación de variables--- se tiene entonces que las funciones $R(r),\, \Theta(\theta), \mbox{ y } \Phi(\varphi)$ cumplen con las ecuaciones
 \begin{align}
@@ -680,12 +685,19 @@ Dado que $\psi$ debe ser una función con periodicidad $2\pi$ en $\varphi$, es d
 	\begin{subequations}
 	\eqhalf{\Phi_e(\varphi) = \cos(m\varphi),}
 	\eqhalf{\Phi_o(\varphi) = \sin(m\varphi),} 
-	\end{subequations}
+	\end{subequations} \vspace{-.5em}
 	
 \noindent	
-con $m$ un número entero no negativo. Los subíndices $e$ y $o$ hacen referencia a que son funciones pares e impares respectivamente.
+con $m$ un número entero no negativo y donde los subíndices $e$ y $o$ hacen referencia a que son funciones pares (\emph{even}) e impares (\emph{odd}), respectivamente. Adicionalmente, las funciones $\sin(m\varphi)$ y $\cos(m\varphi)$ obedecen las relaciones de ortogonalidad
+ 	\begin{subequations}
+	\begin{align}
+	\int_0^{2\pi} \sin(m\varphi) &\cos(m' \varphi) \dd\varphi = 0 \qquad \forall\, m,m',\label{seq:ortSinCos}\\
+	\int_0^{2\pi} \sin(m\varphi) \sin(m'\varphi)\dd\varphi &=  \int_0^{2\pi} \cos(m\varphi) \cos(m'\varphi)\dd\varphi  = \delta_{m,m'}\frac{\pi}{2},\label{seq:ortCos2}
+	\end{align}\label{eq:SinCos}
+ 	\end{subequations}
+en donde $\delta_{m,m'}$ es la delta de Kronecker.
 
-Haciendo el cambio de variable $\mu = \cos\theta$ en la Ec. \eqref{eq:Theta} , ésta se reescribe como
+Al realizar el cambio de variable $\mu = \cos\theta$ en la Ec. \eqref{eq:Theta} , ésta se reescribe como
 	\begin{equation*}
 	\qty(1-\mu^2) \dv[2]{\Theta}{\mu} - 2 \mu \dv{\Theta}{\mu} + \qty[\ell(\ell+1)-\frac{m^2}{(1-\mu^2)}]\Theta= 0,
 	\end{equation*}
@@ -713,8 +725,9 @@ de donde se obtiene que $\eval{P_\ell^m(\cos\theta)}_{\theta=0,\pi}=0$ para toda
 Para resolver la Ec. \eqref{eq:R} se emplea el cambio de variable $\rho = k r$ y de define la función $Z =R\sqrt{\rho}$, por lo que la Ec. \eqref{eq:R} se reescribe como
 	\begin{equation}
 	\rho \dv{\rho}\qty(\rho\dv{Z}{\rho})+\qty[\rho^2-\qty(\ell+\frac12)^2] Z = 0,
+	\label{eq:rho}
 	\end{equation}
-cuyas soluciones son las \emph{funciones esféricas de Bessel} $j_\ell$ y $y_\ell$ o cualquier combinación lineal de ellas. Por simplificación en futuros cálculos, se toman como soluciones de la Ec. \eqref{eq:R} las funciones
+cuyas soluciones son las \emph{funciones esféricas de Bessel} $j_\ell$ y $y_\ell$ o cualquier combinación lineal de ellas. Por simplificación en futuros cálculos, se toman como soluciones de la Ec. \eqref{eq:rho} las funciones
 
 	\begin{subequations}
 	\eqhalf{j_\ell (\rho) = \sqrt{\frac{\pi}{2\rho}} J_{\ell+1/2}(\rho), \label{eq:jn}}
@@ -747,20 +760,21 @@ Por tanto, las funciones generadoras de los armónicos esféricos vectoriales so
 	\end{subequations}
 	
 \noindent	
-por lo que se construyen cuatro armónicos esféricos vectoriales. Empleando las Ecs. \eqref{eq:psieo} en la Ec. \eqref{eq:MrotCPsi}, con $\vb{r}$ como el vector piloto, se obtiene como resultado $\vb{M}_{em\ell}$ y $\vb{M}_{om\ell}$, dados por las expresiones
+por lo que se construyen cuatro armónicos esféricos vectoriales. Al emplear las Ecs. \eqref{eq:psieo} en la Ec. \eqref{eq:MrotCPsi}, con $\vb{r}$ como el vector piloto, se obtiene como resultado $\vb{M}_{em\ell}$ y $\vb{M}_{om\ell}$, dados por las expresiones \vspace{-.5em}
 	\begin{subequations}
 	\begin{tcolorbox}[title = Armónicos esféricos vectoriales $\vb{M}_{em\ell}$ y $\vb{M}_{om\ell}$, ams align ]
 	\vb{M}_{em\ell} = &-m\sin(m\varphi)z_\ell(kr) \frac{P_\ell^m(\cos\theta)}{\sin\theta} \vu{e}_\theta
 					-\cos(m\theta)z_\ell(kr) \dv{P_\ell^m(\cos\theta)}{\theta}(\cos\theta) \vu{e}_\varphi,\label{seq:Meml} \\
 	\vb{M}_{om\ell} = & m\cos(m\varphi)z_\ell(kr) \frac{P_\ell^m(\cos\theta)}{\sin\theta} \vu{e}_\theta
 					-\sin(m\theta)z_\ell(kr) \dv{P_\ell^m(\cos\theta)}{\theta}(\cos\theta) \vu{e}_\varphi.	\label{seq:Moml}				
-	\end{tcolorbox}
-	
+	\end{tcolorbox} \noindent
+%
 Para el cálculo $\vb{N}_{em\ell}$ y $\vb{N}_{om\ell}$ se sustituyen las Ecs. \eqref{seq:Meml} y \eqref{seq:Moml} en la Ec. \eqref{eq:NrotM/k}. Para simplificar las expresiones de las componentes radiales de  $\vb{N}_{em\ell}$ y $\vb{N}_{om\ell}$, se agrupan los términos que dependen de $\varphi$ y $kr$ y, dado que las funciones asociadas de Legendre cumplen con la relación 
 \begin{equation*}
 -\ell(\ell+1) P_\ell^m (\cos\theta)= \frac{1}{\sin\theta}\dv{\theta}\qty(\sin\theta\dv{P_\ell^m(\cos\theta)}{\theta}) - \frac{m^2}{\sin^2\theta}P_\ell^m(\cos\theta),
 \end{equation*}
-que es una consecuencia de la Ec. \eqref{eq:Theta}, las expresiones de $\vb{N}_{em\ell}$ y $\vb{N}_{om\ell}$ son
+que es una consecuencia de la Ec. \eqref{eq:Theta}, las expresiones de $\vb{N}_{em\ell}$ y $\vb{N}_{om\ell}$ son \vspace*{-.5em}
+%
 	\begin{tcolorbox}[title = Armónicos esféricos vectoriales $\vb{N}_{em\ell}$ y $\vb{N}_{om\ell}$, ams align, breakable ]
 	\vb{N}_{em\ell} =&\cos(m\varphi) \frac{z_\ell(kr)}{kr} \ell(\ell+1)P_\ell^m(\cos\theta) \vu{e}_r \notag\\
 	&+ \cos(m\varphi)  \frac{1}{kr} \dv{(kr)}\qty\Big[kr\, z_\ell(kr)] \dv{P_\ell^m(\cos\theta)}{\theta}(\cos\theta) \vu{e}_\theta
@@ -775,150 +789,239 @@ que es una consecuencia de la Ec. \eqref{eq:Theta}, las expresiones de $\vb{N}_{
 	\end{tcolorbox}\label{eq:AEV}
 	\end{subequations}
 
-Los armónicos esféricos vectoriales son solución a la ecuación de Helmholtz, por lo que cualquier solución de campo EM puede escribirse como una serie infinta en términos de las Ecs. \eqref{eq:AEV}. Para resolver el problema de los campos EMs esparcidos por una partícula esférica, se expande una onda plana $\vb{E}^i$ en la base de los armónicos esféricos vectoriales. Para esto, se emplean sus  condiciones de ortogonalidad.
-
-Las funciones $\sin(m\varphi)$ y $\cos(m\varphi)$ obedecen las relaciones de ortogonalidad
- 	\begin{subequations}
-	\begin{align}
-	\int_0^{2\pi} \sin(m\varphi) &\cos(m' \varphi) \dd\varphi = 0 \qquad \forall\, m,m',\label{seq:ortSinCos}\\
-	\int_0^{2\pi} \sin(m\varphi) \sin(m'\varphi)\dd\varphi &=  \int_0^{2\pi} \cos(m\varphi) \cos(m'\varphi)\dd\varphi  = \delta_{m,m'}\frac{\pi}{2}.\label{seq:ortCos2}
-	\end{align}\label{eq:SinCos}
- 	\end{subequations}
-Por la Ec. \eqref{seq:ortSinCos} se cumple que el producto interior\footnote{Se define el producto interior $\langle \vb{A},\vb{B} \rangle_{\theta,\varphi}$ como $\langle \vb{A},\vb{B} \rangle_{\theta,\varphi} \equiv \int_0^{2\pi}\int_0^\pi \vb{A}\cdot\vb{B} \sin\theta \dd\theta \dd\varphi$} entre $\vb{M}_{em\ell}$ y $\vb{M}_{om'\ell'}$, y $\vb{N}_{em\ell}$ y $\vb{N}_{om'\ell'}$ es
+Los armónicos esféricos vectoriales son solución a la ecuación de Helmholtz, por lo que cualquier solución de los campos EM puede escribirse como una serie infinta en términos de las Ecs. \eqref{eq:AEV}. Para resolver el problema de los campos EMs esparcidos por una partícula esférica, se expande una onda plana $\vb{E}^i$ en la base de los armónicos esféricos vectoriales. Para esto, se emplean sus  condiciones de ortogonalidad, calculadas a partir de la relaciones de ortogonalidad de las Ecs. \eqref{eq:SinCos} y \eqref{eq:ortLegendre}, dando como resultado que los armónicos esféricos vectoriales son ortogonales cuando tienen paridad distinta y cuando se realiza el producto interior entre $\vb{M}$ y $\vb{N}$, es decir \vspace{-.5em}
+%
 	\begin{tcolorbox}[ ams align ]
 		\langle\vb{M}_{em\ell}, \vb{M}_{om'\ell'} \rangle_{\theta,\varphi} =
 		\langle\vb{N}_{em\ell}, \vb{N}_{om'\ell'} \rangle_{\theta,\varphi} = 0
 		&\qquad \forall\,  m,m',\ell, \ell',\\
-		\intertext{así como también}
 		\langle\vb{M}_{om\ell}, \vb{N}_{em'\ell'} \rangle_{\theta,\varphi} = 
 		\langle\vb{M}_{om\ell}, \vb{N}_{om'\ell'} \rangle_{\theta,\varphi} = 	
-		\langle\vb{M}_{em\ell}, \vb{N}_{em'\ell'} \rangle_{\theta,\varphi} = 	0
-		&\qquad \forall\,  m,m',\ell, \ell'.				
-	\end{tcolorbox}\noindent
-pues $\vb{M}$ tiene componente nula en $\vu{e}_r$ y en los demás términos se encuentra la Ec. \eqref{seq:ortSinCos}. Las Ecs. \eqref{eq:SinCos} implican que todos los armónicos esféricos vectoriales orden $m$ distinto  son ortogonales entre sí.\\
-
- El producto interior entre $\vb{M}_{em\ell}$ y $\vb{N}_{om\ell'}$, empleando el resultado de la Ec. \eqref{seq:ortCos2} con $m=m'$, está dado por
-	\begin{align}
-		\langle\vb{M}_{em\ell},  \vb{N}_{om\ell'} \rangle_{\theta,\varphi} &= - \frac{\pi}{2} \frac{z_\ell (\rho)}{\rho}\dv{z_{\ell'}(\rho)}{\rho}	m
-							 \int_0^\pi\qty[P_\ell^m(\cos \theta )\dv{P_{\ell'}^m(\cos \theta )}{\theta}+ 
-							  \dv{P_{\ell}^m(\cos \theta )}{\theta}P_{\ell'}^m(\cos \theta )] \dd\theta \notag\\
-					 &=- \frac{\pi}{2} \frac{z_\ell (\rho)}{\rho}\dv{z_{\ell'}(\rho)}{\rho}	m 
-					 	\int_0^\pi \dv{\theta}\qty[P_\ell^m(\cos\theta)P_{\ell'}^m(\cos\theta)]\dd\theta \notag\\
-					 &=- \frac{\pi}{2} \frac{z_\ell (\rho)}{\rho}\dv{z_{\ell'}(\rho)}{\rho}	m \eval{P_\ell^m(\cos\theta)P_{\ell'}^m(\cos\theta)}_0^\pi.
-					 	\label{eq:MeNo}
-	\end{align}
-Mediante un procedimiento semejante se obtiene que $\langle\vb{M}_{em\ell},  \vb{N}_{om\ell'} \rangle_{\theta,\varphi}=\langle\vb{M}_{om\ell},  \vb{N}_{em\ell'} \rangle_{\theta,\varphi}$. Haciendo uso de la relación entre las funciones asociadas de Legndre con los polinomios de Legendre [Ec. \eqref{eq:FAL-PL}] se obtiene que $P_\ell^m(\cos\theta)=0$ para $\theta=0,\pi$ y $m\neq 0$. Sin embargo, si en la Ec. \eqref{eq:MeNo} $m$ es igual a cero, el producto interior también es nulo, por lo que se cumple que 
-	\begin{tcolorbox}[ ams align ]
-		\langle\vb{M}_{em\ell},  \vb{N}_{om\ell'} \rangle_{\theta,\varphi}=
-		\langle\vb{M}_{om\ell},  \vb{N}_{em\ell'} \rangle_{\theta,\varphi}= 0	
-		\qquad \forall\, \ell, \ell'\, m.
-	\end{tcolorbox}
-Las expresiones del  producto interior entre $\vb{M}_{em\ell}$ y $\vb{M}_{em\ell'}$, y $\vb{N}_{em\ell}$ y $\vb{N}_{em\ell'}$, empleando el resultado de la Ec. \eqref{seq:ortCos2} con $m=m'$, y la relación de ortogonalidad de las funciones asociadas de Legendre [Ec. \eqref{eq:ortLegendre}] son
+		\langle\vb{M}_{em\ell}, \vb{N}_{em'\ell'} \rangle_{\theta,\varphi} = 0
+		&\qquad \forall\,  m,m',\ell, \ell'.	\\
+		\langle\vb{M}_{em\ell},  \vb{N}_{om\ell'} \rangle_{\theta,\varphi} =
+		\langle\vb{M}_{om\ell},  \vb{N}_{em\ell'} \rangle_{\theta,\varphi} = 0	
+		&\qquad \forall\, \ell, \ell'\, m,
+	\end{tcolorbox}\vspace{-.5em}\noindent
+en donde se definió el producto interior como $
+\langle \vb{A},\vb{B} \rangle_{\theta,\varphi}$ como 
 	\begin{align*}
-		\langle\vb{M}_{em\ell},  \vb{M}_{em\ell'} \rangle_{\theta,\varphi} =& 
-				\frac{\pi}{2} z_\ell (\rho) z_{\ell'}(\rho)\times	 \int_0^\pi\qty[\frac{m^2}{\sin^2\theta}P_\ell^m(\cos\theta)P_{\ell'}^m(\cos\theta)
-				 +\dv{P_\ell^m(\cos\theta)}{\theta}\dv{P_{\ell'}^m(\cos\theta)}{\theta}]\sin\theta\dd\theta\\
-		\langle\vb{N}_{em\ell},  \vb{N}_{em\ell'} \rangle_{\theta,\varphi} =&
-				\frac{\pi}{2} \qty[\frac{z_\ell(\rho)}{\rho}\ell(\ell+1)]^2\frac{2}{2\ell+1}\frac{(\ell+m)!}{(\ell-m)!}\delta_\ell^{\ell'}+
-				\frac{\pi}{2} \frac{1}{\rho^2}\dv{\rho}\qty[\rho z_\ell (\rho)]\dv{\rho}\qty[\rho z_{\ell'}(\rho)]\\
-				&\times \int_0^\pi\qty[\frac{m^2}{\sin^2\theta}P_\ell^m(\cos\theta)P_{\ell'}^m(\cos\theta)
-					+\dv{P_\ell^m(\cos\theta)}{\theta}\dv{P_{\ell'}^m(\cos\theta)}{\theta}]\sin\theta\dd\theta.				 
+	\langle \vb{A},\vb{B} \rangle_{\theta,\varphi} 
+	\equiv 
+	\int_0^{2\pi}\int_0^\pi \vb{A}\cdot\vb{B} \sin\theta \dd\theta \dd\varphi.
 	\end{align*}
-Asimismo, se cumple que  $\langle\vb{M}_{em\ell},  \vb{M}_{em\ell'} \rangle_{\theta,\varphi}=\langle\vb{M}_{om\ell},  \vb{M}_{om\ell'} \rangle_{\theta,\varphi}$ y $\langle\vb{N}_{em\ell},  \vb{N}_{em\ell'} \rangle_{\theta,\varphi}=\langle\vb{N}_{om\ell},  \vb{N}_{om\ell'} \rangle_{\theta,\varphi}$. Sustituyendo $P_\ell^m(\cos\theta)$ en la Ec. \eqref{eq:Theta} y multiplicándola por $P_{\ell'}^m(\cos\theta)$, operando de la misma forma intercambiando los papeles de $P_\ell^m(\cos\theta)$  y $P_{\ell'}^m(\cos\theta)$ y sumando ambos resultados se llega a la expresión 
-	\begin{align}
-	2\frac{m^2}{\sin^2\theta}P_\ell^m P_{\ell'}^m \sin\theta =&
-					 P_\ell\dv{\theta}\qty[\sin\theta \dv{P_{\ell'}^m}{\theta}] P_{\ell'}\dv{\theta}\qty[\sin\theta \dv{P_\ell^m}{\theta}]
-					 +	\ell(\ell+1)P_\ell^m P_{\ell'}^m	 \sin\theta  \notag\\
-					 &+ \ell'(\ell'+1)P_\ell^m P_{\ell'}^m\sin\theta, \label{eq:PnPn'}
-	\end{align}
-en donde se obvia el argumento $\cos\theta$. Dado que 
-	\begin{equation*}
-	\dv{\theta}\qty[P_{\ell'}^m\sin\theta  \dv{P_\ell^m}{\theta}] 
-	= P_{\ell'}^m\dv{\theta}\qty[\sin\theta \dv{P_\ell^m}{\theta}] + \sin\theta\dv{P_{\ell'}^m}{\theta}\dv{P_\ell^m}{\theta},
-	\end{equation*}
-sumando $2\sin\theta\dd P_{\ell'}^m\dd\theta \dd P_\ell^m \dd\theta$ de ambos lados de la Ec. \eqref{eq:PnPn'} y agrupando términos, se obtiene que el integrando presente en los productos interiores de  $\vb{M}_{em\ell}$ y $\vb{M}_{em\ell'}$, y $\vb{N}_{em\ell}$ y $\vb{N}_{em\ell'}$ es
-	\begin{align*}
-	\qty[\frac{m^2}{\sin^2\theta}P_\ell^mP_{\ell'}^m	+\dv{P_\ell^m}{\theta}\dv{P_{\ell'}^m}{\theta}]\sin\theta = &
-					 \frac12 \dv{\theta}\qty[\sin\theta \dv{P_{\ell'}^m}{\theta}P_\ell^m + \sin\theta\dv{P_{\ell}^m}{\theta}P_{\ell'}^m ]
-					 +	\frac12 \ell(\ell+1)P_\ell^m P_{\ell'}^m	 \sin\theta  \\
-					 &+ \frac12 \ell'(\ell'+1)P_\ell^m P_{\ell'}^m\sin\theta,
-	\end{align*}
-en donde el primer término de la suma se desvanece al evaluarse en $\theta=0,\pi$ y los últimos cumplen con la relación de ortogonalidad de la Ec. \eqref{eq:ortLegendre}. Por lo tanto
+De igual manera, cuando se realiza el producto interior con elementos de los armónicos esféricos vectoriales de la misma paridad, y considerando las combinaciones de  $\langle \vb{M},\vb{M}\rangle$ y $\langle \vb{N},\vb{N}\rangle$  se obtienen las relaciones \vspace{-.5em}
 	\begin{tcolorbox}[ ams align ]
-		\langle\vb{M}_{em\ell},  \vb{M}_{em\ell'} \rangle_{\theta,\varphi}=&	\langle\vb{M}_{om\ell},  \vb{M}_{om\ell'} \rangle_{\theta,\varphi} 
-										=\delta_\ell^{\ell'}\pi z_\ell (\rho)^2\frac{\ell(\ell+1)}{2\ell+1}\frac{(\ell+m)!}{(\ell-m)!}
-		&\quad \forall\, \ell, \ell',\, m, \label{eq:MM} \\
-		\langle\vb{N}_{em\ell},  \vb{N}_{em\ell'} \rangle_{\theta,\varphi}=&	\langle\vb{N}_{om\ell},  \vb{N}_{om\ell'} \rangle_{\theta,\varphi} \notag\\
-										=&\delta_\ell^{\ell'}\pi\frac{\ell(\ell+1)}{2\ell+1}\frac{(\ell+m)!}{(\ell-m)!}\left\{ \qty[\frac{z_\ell(\rho)}{\rho}]^2 \ell(\ell+1)+
-										   \qty[\frac{1}{\rho}\dv{[\rho z_\ell (\rho)]}{\rho}]^2  \right\}
-		&\quad \forall\, \ell, \ell',\, m.	\label{eq:NN}
+		\langle\vb{M}_{em\ell},  \vb{M}_{em\ell'} \rangle_{\theta,\varphi} = 
+		&\langle\vb{M}_{om\ell},  \vb{M}_{om\ell'} \rangle_{\theta,\varphi} 
+			=\delta_{\ell,\ell'}\pi z_\ell (\rho)^2
+			\frac{\ell(\ell+1)}{2\ell+1}\frac{(\ell+m)!}{(\ell-m)!}
+		\quad \forall\, \ell, \ell',\, m, \label{eq:MM} \\
+		\langle\vb{N}_{em\ell},  \vb{N}_{em\ell'} \rangle_{\theta,\varphi} = 
+		&\langle\vb{N}_{om\ell},  \vb{N}_{om\ell'} \rangle_{\theta,\varphi}
+		 \label{eq:NN}\\
+			=&\delta_{\ell,\ell'}\pi\frac{\ell(\ell+1)}{2\ell+1}
+			\frac{(\ell+m)!}{(\ell-m)!}
+			\left\{ \qty[\frac{z_\ell(\rho)}{\rho}]^2 \ell(\ell+1)+
+			 \qty[\frac{1}{\rho}\dv{[\rho z_\ell (\rho)]}{\rho}]^2  \right\}
+		\quad \forall\, \ell, \ell',\, m.	\notag
 	\end{tcolorbox}
 
 %------------------------------
 
-Una onda plana con longitud de onda $\lambda$, polarizada en la dirección $x$, y caracterizada por el campo eléctrico $\vb{E}^i$ propagándose en la dirección $z$ en un medio con índice de refracción $n_m$, en la base de los vectores ortonormales polares, se escribe como
-	\begin{align}
-	\vb{E}^i E_0 e^{ikz}\vu{e}_x =  E_0 e^{ikr\cos\theta} \qty(\sin\theta\cos\varphi \vu{e}_r + 
-	\cos\theta\cos\varphi\vu{e}_\theta-\sin\varphi\vu{e}_\varphi),\label{eq:OndaPlanaPolares}
-	\end{align}
-donde $E_0$ es la magnitud del campo eléctrico y $k=2\pi n_m/\lambda$. La expansión de la Ec. \eqref{eq:OndaPlanaPolares} en términos de los armónicos esféricos vectoriales [Ecs. \eqref{eq:AEV}] es
+
+Para el estudio del esparcimiento por una partícula arbitraria, se considera que ésta es iluminada por una onda plana, cuya dirección de propagación define la dirección $z$, es decir,
 	\begin{equation}
-	\vb{E}^i = \sum_{m=0}^\infty\sum_{\ell=m}^\infty
-			\qty[B_{em\ell}\vb{M}_{em\ell} + B_{om\ell}\vb{M}_{om\ell} +
-				A_{em\ell}\vb{N}_{em\ell} + A_{om\ell}\vb{N}_{om\ell}].\label{eq:OndaPlanaAEV}
+	\va{E}^i = (E_x^i \vu{e}_x + E_y^i \vu{e}_y)e^{i(k z - \omega t)},
+	\label{eq:Exyi}
 	\end{equation}
-Para determinar los coeficientes $B_{em\ell},\, B_{om\ell},\, A_{em\ell}$ y $ A_{om\ell}$ se requieren las relaciones de ortogonalidad de los armónicos esféricos vectoriales [Ecs. \eqref{eq:NN}] \eqref{eq:MM}].
+donde $k = 2\pi n_m /\lambda$ es el número de onda y $n_m$ es el índice de refracción del medio donde se encuentra la partícula, denominado matriz.\\
 
-Al igualar las Ecs. \eqref{eq:OndaPlanaPolares} y \eqref{eq:OndaPlanaAEV}, se obtiene
+En la fig.  \ref{fig:SistCoor} se muestra  una partícula iluminada ---sobre la cual se posiciona el origen del sistema coordenado cartesiano $(x, y, z)$---, así como las bases de vectores ortonormales retangulares $\{\vu{e}_x,\vu{e}_y,\vu{e}_z \}$ y polares $\{\vu{e}_r, \vu{e}_\theta, \vu{e}_\varphi \}$. Como análogo al plano de incidencia\footnote{En el problema de un haz de luz incidente a una superficie plana, el plano de incidencia se define por el vector normal a la superficie y la dirección de propagación del haz.} se define el \emph{plano de esparcimiento} con el vector de dirección del esparcimiento $\vu{e}_r$ y la dirección del haz incidente $\vu{e}_z$. Con base en el plano de esparcimiento se define la dirección ortogonal $\perp$ y paralela $\parallel$ de polarización.
+
+	\begin{figure}[h!]\centering
+	\tdplotsetmaincoords{60}{110}
+	\pgfmathsetmacro{\rvec}{1. 3}
+	\pgfmathsetmacro{\thetavec}{30}
+	\pgfmathsetmacro{\varphivec}{60}
+\begin{tikzpicture}[scale=3.5,tdplot_main_coords]
+%draw the NP
+	\draw[tdplot_screen_coords,ball color=yellow, opacity = 1] (O) circle (.05);
+
+
+%set up some coordinates 
+	\coordinate (O) at (0,0,0);
+
+%determine a coordinate (P) using (r,\theta,\varphi) coordinates.   This command
+%also determines (Pxy), (Pxz), and (Pyz): the xy-, xz-, and yz-projections
+%of the point (P). 
+%syntax: \tdplotsetcoord{Coordinate name without parentheses}{r}{\theta}{\varphi}
+	\tdplotsetcoord{P}{\rvec}{\thetavec}{\varphivec}
+
+%draw figure contents
+%--------------------
+%draw the main coordinate system axes
+	\draw[thick,- latex] (0,0,0) -- (1. 5,0,0) node[anchor=north east]{$x$};
+	\draw[thick,- latex] (0,0,0) -- (0,1. 5,0) node[anchor=north west]{$y$};
+	\draw[thick,- latex] (0,0,0) -- (0,0,1. 5) node[anchor=south]{$z$};
+
+%draw the main cartesian vector system 
+	\draw[thick,- latex, blue] (0,0,0) -- (1,0,0) node[anchor= south east]{$\vu{e}_x$};
+	\draw[thick,- latex, blue] (0,0,0) -- (0,1,0) node[anchor=north west]{$\vu{e}_y$};
+	\draw[thick,- latex, blue] (0,0,0) -- (0,0,1) node[anchor= east]{$\vu{e}_z$};
+
+%draw a vector from origin to point (P) 
+	\draw[thick,color=green, - latex] (O) -- (P);
+	\node at (1,. 5,1. 1) {\color{green} $\vb{r}$};
+
+%draw projection on xy plane, and a connecting line
+	\draw[dashed, color=green] (O) -- (Pxy);
+	\draw[dashed, color=green] (P) -- (Pxy);
+	\fill[green, opacity = . 3] (O) --(Pxy)-- (P)--(O);
+	\node at (1,1. 5,1. 1) {\color{green}\bf Plano de esparcimiento};
+
+
+%draw the angle \varphi, and label it
+	%syntax: \tdplotdrawarc[coordinate frame, draw options]{center point}{r}{angle}{label options}{label}
+	\tdplotdrawarc[- latex]{(O)}{0. 5}{0}{\varphivec}{anchor=south}{$\varphi$}
+
+
+%set the rotated coordinate system so the x'-y' plane lies within the
+	%"theta plane" of the main coordinate system
+	%syntax: \tdplotsetthetaplanecoords{\varphi}
+	\tdplotsetthetaplanecoords{\varphivec}
+
+%draw theta arc and label, using rotated coordinate system
+	\tdplotdrawarc[tdplot_rotated_coords, - latex]{(0,0,0)}{0. 45}{0}{\thetavec}{anchor=north}{$\theta$}
+
+%draw some dashed arcs, demonstrating direct arc drawing
+	\draw[dashed,tdplot_rotated_coords] (\rvec,0,0) arc (0:90:\rvec);
+	\draw[dashed] (\rvec,0,0) arc (0:90:\rvec);
+
+%set the rotated coordinate definition within display using a translation
+%coordinate and Euler angles in the "z(\alpha)y(\beta)z(\gamma)" euler rotation convention
+%syntax: \tdplotsetrotatedcoords{\alpha}{\beta}{\gamma}
+	\tdplotsetrotatedcoords{\varphivec}{\thetavec}{0}
+
+%translate the rotated coordinate system
+%syntax: \tdplotsetrotatedcoordsorigin{point}
+	\tdplotsetrotatedcoordsorigin{(P)}
+
+%use the tdplot_rotated_coords style to work in the rotated, translated coordinate frame
+	\draw[thick,tdplot_rotated_coords,- latex, purple] (0,0,0) -- (. 3,0,0) node[anchor=north west]{{\color{black}$\vu{e}_\theta,$}$\vu{e}_{\parallel,s}$};
+	\draw[thick,tdplot_rotated_coords,- latex,black] (0,0,0) -- (0,. 3,0) node[anchor=west]{$\vu{e}_\varphi$};
+	\draw[thick,tdplot_rotated_coords,- latex,purple] (0,0,0) -- (0,-. 3,0) node[anchor= north west]{$\vu{e}_{\perp,s}$};
+	\draw[thick,tdplot_rotated_coords,- latex] (0,0,0) -- (0,0,. 3) node[anchor=south]{$\vu{e}_r$ };
+
+
+
+%set the rotated coordinate definition within display using a translation
+%coordinate and Euler angles in the "z(\alpha)y(\beta)z(\gamma)" euler rotation convention
+%syntax: \tdplotsetrotatedcoords{\alpha}{\beta}{\gamma}
+	\tdplotsetrotatedcoords{\varphivec}{0}{0}
+
+%translate the rotated coordinate system
+%syntax: \tdplotsetrotatedcoordsorigin{point}
+	\tdplotsetrotatedcoordsorigin{(Pxy)}
+
+	\draw[thick,tdplot_rotated_coords,- latex, purple] (0,0,0) -- (. 3,0,0) node[anchor= west]{$\vu{e}_{\parallel,i}$};
+	\draw[thick,tdplot_rotated_coords,- latex, blue] (0,0,0) -- (0,0,. 3) node[anchor= west]{$\vu{e}_z$};	
+	\draw[thick,tdplot_rotated_coords,- latex, purple] (0,0,0) -- (0,-. 3,0) node[anchor= north west]{$\vu{e}_{\perp,i}$};
+
+
+
+% Plane Wave
+	\foreach \i in {-7,...,-2}{
+		\draw[thick,tdplot_screen_coords,red, - latex] (\i/10,0,0)--(\i/10,1,0);}
+	\node[tdplot_screen_coords] at (-4.5/10,1.1,0){\color{red}$\vb{k}_i$};
+	\node[tdplot_screen_coords] at (-4.5/10,-.1,0){\color{red}Haz incidente};
+\end{tikzpicture}
+%
+		\caption{  Diagrama del plano de esparcimiento (en verde) definido por el vector $\vb{r}$, posición donde se evalúan los campos EMs, y el vector $\vu{e}_z$.  La base canónica cartesiana para vectores se muestra en azul, mientras que la base canónica esférica se muestra en negro.  Las direcciones paralelas $\parallel$ y perpendiculares $\perp$ al plano de incidencia  para el campo eléctro incidente, denotado por el subíndice $i$ y el esparcido, denotado por el subíndice $s$ se muestran en morado.  En ambas figuras, el haz incidente se muestra en rojo.}\label{fig:PlanoEsparcimiento}
+	\end{figure}	
+
+
+Como se muestra en la fig. \ref{fig:SistCoor}, los vectores unitarios perpendicular y paralelo de la onda incidente, $\vu{e}_{\perp i}$ y $\vu{e}_{\parallel i}$ respectivamente, están dados por
+	\begin{subequations}
+	\begin{align}
+	\vu{e}_{\perp i}=- \hat{e}_\varphi & = \sin\varphi\vu{e}_x - \cos\varphi\vu{e}_y,\\
+	\vu{e}_{\parallel i}= \sin\theta\vu{e}_r + \cos\theta\vu{e}_\theta& = \cos\varphi\vu{e}_x + \sin\varphi\vu{e}_y,\\
+	\vu{e}_z &= \vu{e}_{\perp i} \cross \vu{e}_{\parallel i},
+	\end{align}\label{eq:vecInc}
+	\end{subequations}
+y a su vez, la base de vectores ortonormales con la que se describirán los campos EMs esparcidos $\{\vu{e}_{\perp s},\vu{e}_{\parallel s},\vu{e}_r \}$ por la partícula son
+	\begin{subequations}
+	\begin{align}
+	\vu{e}_{\perp s}&= - \vu{e}_\varphi,\\
+	\vu{e}_{\parallel s} &= \vu{e}_\theta,\\
+	\vu{e}_r& = \vu{e}_{\perp s} \times \vu{e}_{\parallel s}.
+	\end{align}\label{eq:vecScat}
+	\end{subequations}
+Despejando $\vu{e}_x$ y $\vu{e}_y$  de las ecs. \eqref{eq:vecInc}, y reescribiéndolos en la base de los vectores unitarios en la dirección perpendicular y normal de la onda incidente  como
+\begin{align*}
+\vu{e}_x &= \sin\varphi\vu{e}_{\perp i} + \cos\varphi\vu{e}_{\parallel i},\\
+\vu{e}_y &= - \cos\varphi \vu{e}_{\perp i} + \sin\varphi\vu{e}_{\parallel i},
+\end{align*}
+se obtiene que $\va{E}^i$ [ec. \eqref{eq:Exyi}] se puede escribir como
+\begin{align*}
+\va{E}_i &= (\cos\varphi E_{x}^i + \sin\varphi E_{y}^i)\vu{e}_{\perp i} +
+			 (\sin\varphi E_{x}^i - \cos\varphi E_{y}^i)\vu{e}_{\parallel i}\\
+		&= E_{\perp i}  \vu{e}_{\perp i} + E_{\parallel i}\vu{e}_{\parallel i},
+\end{align*}
+en donde se obvia el término de la fase $e^{i(kz - \omega t)}$.\\
+
+
+
+
+
+
+
+Una onda plana con longitud de onda $\lambda$, polarizada en la dirección $x$, y caracterizada por el campo eléctrico $\vb{E}^i$ propagándose en la dirección $z$ en una matriz con índice de refracción $n_m$ (ver Fig. \ref{fig:EsferaA}), en la base de los vectores ortonormales polares canónicos, así como en la base de los armónicos esféricos vectoriales [Ecs. \eqref{eq:AEV}] es
 	\begin{align*}
-\vb{E}^i = & E_0 e^{ikr\cos\theta} \qty(\sin\theta\cos\varphi \vu{e}_r + 
-								\cos\theta\cos\varphi\vu{e}_\theta-\sin\varphi\vu{e}_\varphi)\\
+\vb{E}^i = & E_0 e^{ik_mr\cos\theta} \qty(\sin\theta\cos\varphi \vu{e}_r + 
+								\cos\theta\cos\varphi\vu{e}_\theta-\sin\varphi\vu{e}_\varphi)\notag\\
 	 =& \sum_{m=0}^\infty\sum_{\ell=m}^\infty \qty[ B_{em\ell}\vb{M}_{em\ell} 
-	 	+ B_{om\ell}\vb{M}_{om\ell} +A_{em\ell}\vb{N}_{em\ell} + A_{om\ell}\vb{N}_{om\ell}].
+	 	+ B_{om\ell}\vb{M}_{om\ell} +A_{em\ell}\vb{N}_{em\ell} + A_{om\ell}\vb{N}_{om\ell}].,
 	\end{align*}
-Dado que en la componente radial hay dependencia con $\cos\varphi$, se sigue que $m=1$ al comparar con las expresiones de $\vb{N}_{em\ell}$ [Ec. \eqref{seq:Neml}] y $\vb{N}_{om\ell}$ [Ec. \eqref{seq:Noml}] ---únicos elementos con componente radial---, y además que $A_{om\ell}=0$ pues $\vb{N}_{om\ell}$ es proporcional a $\sin\varphi$ en esta componente. Asimismo, por la dependencia con $\sin\varphi$ en la componente  $\vu{e}_\varphi$, $B_{em\ell}=0$ pues $\vb{M}_{em\ell}$ es proporcional a $\cos\varphi$ en dicha entrada. 
-
-La onda plana no tiene ninguna divergencia, por lo que se escoge $z_\ell = j_\ell$. Esto se denota en los armónicos esféricos vectoriales con el superíndice $(1)$. Se escribe entonces a la onda plana como
+donde se omite la dependencia temporal $e^{-i\omega t}$, $E_0$ es la magnitud del campo eléctrico, $k_m=2\pi n_m/\lambda$ es el número de onda,  y  $B_{em\ell},\, B_{om\ell},\, A_{em\ell}$ y $ A_{om\ell}$ son los coeficientes en la expansión de armónicos esféricos vectoriales de la onda plana, que se determinan a partir de las Ecs. \eqref{eq:NN} y \eqref{eq:MM}. Dado que en la componente radial de la onda plana en la base canónica es proporcional a $\cos\varphi$, se sigue que $m=1$ al comparar con las expresiones de $\vb{N}_{em\ell}$ [Ec. \eqref{seq:Neml}] y $\vb{N}_{om\ell}$ [Ec. \eqref{seq:Noml}] ---únicos elementos con componente radial---, y además que $A_{om\ell}=0$ pues $\vb{N}_{om\ell}$ es proporcional a $\sin\varphi$ en la componente radial. Asimismo, por la dependencia con $\sin\varphi$ en la componente  $\vu{e}_\varphi$, $B_{em\ell}=0$ pues $\vb{M}_{em\ell}$ es proporcional a $\cos\varphi$ en dicha entrada. Puesto que la onda plana es finita en todo el espacio, se escoge $z_\ell = j_\ell$, denotado en los armónicos esféricos vectoriales con el superíndice $(1)$. Entonces, la onda plana en la base de los armónicos esféricos vectoriales se escribe como
 	\begin{equation}
 	\vb{E}^i = \sum_{\ell=1}^\infty \qty[B_{o1\ell}\vb{M}_{o1\ell}^{(1)} + A_{e1\ell}\vb{N}_{e1\ell}^{(1)}],
 	\end{equation}
-con
-
-	\eqhalf{B_{o1\ell} = \frac{\langle \vb{E}^i, \vb{M}_{o1\ell}^{(1)}  \rangle_{\theta,\varphi}}
-						{\langle \vb{M}_{o1\ell}^{(1)} ,\vb{M}_{o1\ell}^{(1)} \rangle}_{\theta,\varphi}\notag}
-	\eqhalf{A_{e1\ell} = \frac{\langle \vb{E}^i, \vb{N}_{e1\ell}^{(1)} \rangle_{\theta,\varphi}}
-						{\langle \vb{N}_{e1\ell}^{(1)},\vb{N}_{e1\ell}^{(1)} \rangle}_{\theta,\varphi}\notag}
-						
-\vspace*{-1em}\noindent 
-Empleando las Ecs. \eqref{eq:MM} y \eqref{eq:NN} con $m=1$, y las condiciones de ortogonalidad de los armónicos esféricos vectoriales, se calcula la expresión de la onda plana en una base esférica, dada por
+con $B_{o1\ell} = \langle \vb{E}^i, \vb{M}_{o1\ell}^{(1)}  \rangle_{\theta,\varphi} / \langle \vb{M}_{o1\ell}^{(1)} ,\vb{M}_{o1\ell}^{(1)} \rangle_{\theta,\varphi}$ y $ A_{e1\ell} = \langle \vb{E}^i, \vb{N}_{e1\ell}^{(1)} \rangle_{\theta,\varphi} / \langle \vb{N}_{e1\ell}^{(1)},\vb{N}_{e1\ell}^{(1)} \rangle_{\theta,\varphi}$. Al emplear las Ecs. \eqref{eq:MM} y \eqref{eq:NN} con $m=1$, y las condiciones de ortogonalidad de los armónicos esféricos vectoriales, se calcula la expresión de la onda plana en una base esférica, dada por
 	\begin{equation}
 	\vb{E}^i = E_0 \sum_{\ell =1}^\infty i^\ell \frac{2\ell+1}{\ell(\ell+1)}\qty(\vb{M}_{o1\ell}^{(1)}-i\vb{N}_{e1\ell}^{(1)}).
 	\label{eq:PlaneWaveESpheric}
 	\end{equation}
-El campo magnético incidente se calcula empleando la Ley de Farady-Lenz [Ec. \eqref{seq:FLArm}, cuyo resultado es
+El campo magnético incidente se calcula empleando la Ley de Farady-Lenz [Ec. \eqref{seq:FLArm}], cuyo resultado es
 	\begin{equation}
 	\vb{H}^i =\frac{-k}{\omega\mu} \sum_{\ell =1}^\infty  E_\ell\qty(\vb{M}_{e1\ell}^{(1)}+i\vb{N}_{o1\ell}^{(1)}),
-	\label{eq:PlaneWaveESpheric}
+	\label{eq:PlaneWaveHSpheric}
 	\end{equation}
 con $E_\ell = E_0 i^\ell (2\ell+1)/[\ell(\ell+1)]$.
 
-Para calcular los campos EMs esparcidos ($\vb{E}^s,\,\vb{H}^s$) y los campos internos ($\vb{E}^1,\,\vb{H}^1$), se emplean las condiciones a la frontera de los campos EMs en una interfaz arbitraria [Ecs. \eqref{eqs:CFrontera}], en donde la componente paralela a la interfaz es continua. Es decir
+
+
+
+
+
+
+Para calcular los campos EMs esparcidos ($\vb{E}^s,\,\vb{H}^s$) y los campos EM dentro de la partícula esférica ($\vb{E}^p,\,\vb{H}^p$), se emplean las condiciones a la frontera de los campos EMs en una interfaz arbitraria [Ecs. \eqref{eqs:CFrontera}], en donde la componente paralela a la interfaz es continua. Es decir
 	\begin{align}
-	\qty(\vb{E}^i+\vb{E}^s -\vb{E}^1)\times\vu{e}_r =
-	\qty(\vb{H}^i+\vb{H}^s -\vb{H}^1)\times\vu{e}_r = \vb{0}.
+	\qty(\vb{E}^i+\vb{E}^s -\vb{E}^p)\times\vu{e}_r =
+	\qty(\vb{H}^i+\vb{H}^s -\vb{H}^p)\times\vu{e}_r = \vb{0}.
 	\end{align}
-De la Ec. \eqref{eq:PlaneWaveESpheric} y de las condiciones de continuidad, se deduce que en la expansión de los campos EMs esparcidos, y los internos, los coeficientes para $m\neq 1$ son nulos. Los campos internos  ($\vb{E}^1,\,\vb{H}^1$) son finitos en la esfera, por lo que se emplea como solución a la ecuación de onda las funciones $j_\ell(k_1 r)$, con $k_1 = 2\pi n_1 /\lambda$ el número de onda dentro de la esfera. Las expresiones para los campos EMs son
+De la Ec. \eqref{eq:PlaneWaveESpheric} y de las condiciones de continuidad, se deduce que en la expansión de los campos EMs esparcidos, y los internos, los coeficientes para $m\neq 1$ son nulos. Los campos EM dentro de la partícula ($\vb{E}^p,\,\vb{H}^p$) son finitos en la esfera, por lo que se emplea como solución a la ecuación de onda las funciones $j_\ell(k_p r)$, con $k_p = 2\pi n_p /\lambda$ el número de onda dentro de la esfera. Las expresiones para los campos EMs son
 	
-	\eqhalf{\vb{E}^i = \sum_{\ell =1}^\infty E_\ell \qty(c_\ell \vb{M}_{o1\ell}^{(1)}-i d_\ell\vb{N}_{e1\ell}^{(1)}),}
-	\eqhalf{\vb{H}^i = \frac{-k_1}{\omega\mu_1} \sum_{\ell =1}^\infty E_\ell\qty(d_\ell\vb{M}_{e1\ell}^{(1)}+i c_\ell\vb{N}_{o1\ell}^{(1)}),}	
+	\eqhalf{\vb{E}^p = \sum_{\ell =1}^\infty E_\ell \qty(c_\ell \vb{M}_{o1\ell}^{(1)}-i d_\ell\vb{N}_{e1\ell}^{(1)}),}
+	\eqhalf{\vb{H}^p = \frac{-k_1}{\omega\mu_1} \sum_{\ell =1}^\infty E_\ell\qty(d_\ell\vb{M}_{e1\ell}^{(1)}+i c_\ell\vb{N}_{o1\ell}^{(1)}),}	
 
 \vspace*{-1em}\noindent
 con $E_\ell =E _0 i^\ell (2\ell+1)/[\ell(\ell+1)]$.
 
 Para los campos esparcidos ($\vb{E}^s,\,\vb{H}^s$) las funciones $j_\ell$ y $y_\ell$ no tienen puntos indeterminados, por lo que se emplearan las funciones de Hankel $h_\ell^{(1)}$ y $h_\ell^{(2)}$. En su límite asintótico ($n^2\ll kr$) estás expresiones son
 
-	\eqhalf{h_\ell^(1)(kr) \approx -i^\ell \frac{e^{ikr}}{ikr},}
-	\eqhalf{h_\ell^(2)(kr) \approx -i^\ell \frac{e^{-ikr}}{ikr},}	
+	\eqhalf{h_\ell^{(1)}(k_m r) \approx -i^\ell \frac{e^{ik_m r}}{ik_m r},}
+	\eqhalf{h_\ell^{(2)}(k_m r) \approx -i^\ell \frac{e^{-ik_m r}}{ik_m r},}	
 
 \vspace*{-1em}\noindent
 por lo que $h_\ell^{(1)}$ corresponde a una onda esférica saliente, y $h_\ell^{(2)}$ una entrante.
