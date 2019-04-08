@@ -3,7 +3,6 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: tesis.aux
 The style file: biblatex.bst
 A level-1 auxiliary file: 1-Teoria/1-Teorias.aux
-A level-1 auxiliary file: 07-Apendice/1-Teoria_Mie.aux
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
@@ -24,49 +23,48 @@ You're missing a field name---line 119 of file 06-Bibliografia/references.bib
  : @article{barrera2003coherent, 
  :                               %RubenYaugusto
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Hecht"
 Biblatex version: 3.8
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 9 entries,
+You've used 10 entries,
             6268 wiz_defined-function locations,
-            1236 strings with 9736 characters,
-and the built_in function-call counts, 37004 in all, are:
-= -- 2295
-> -- 925
-< -- 228
-+ -- 876
-- -- 372
-* -- 2283
-:= -- 3446
+            1238 strings with 9804 characters,
+and the built_in function-call counts, 43038 in all, are:
+= -- 2780
+> -- 1020
+< -- 268
++ -- 962
+- -- 393
+* -- 2696
+:= -- 3959
 add.period$ -- 0
-call.type$ -- 9
-change.case$ -- 137
+call.type$ -- 10
+change.case$ -- 168
 chr.to.int$ -- 34
-cite$ -- 16
-duplicate$ -- 3959
-empty$ -- 3620
-format.name$ -- 482
-if$ -- 7801
+cite$ -- 18
+duplicate$ -- 4424
+empty$ -- 4244
+format.name$ -- 531
+if$ -- 9149
 int.to.chr$ -- 0
-int.to.str$ -- 22
+int.to.str$ -- 25
 missing$ -- 0
-newline$ -- 223
-num.names$ -- 397
-pop$ -- 2724
+newline$ -- 243
+num.names$ -- 461
+pop$ -- 3056
 preamble$ -- 1
-purify$ -- 173
+purify$ -- 207
 quote$ -- 0
-skip$ -- 1477
+skip$ -- 1686
 stack$ -- 0
-substring$ -- 3380
-swap$ -- 1024
-text.length$ -- 178
+substring$ -- 4354
+swap$ -- 1143
+text.length$ -- 196
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 294
+type$ -- 328
 warning$ -- 0
-while$ -- 412
+while$ -- 447
 width$ -- 0
-write$ -- 215
+write$ -- 234
 (There was 1 error message)

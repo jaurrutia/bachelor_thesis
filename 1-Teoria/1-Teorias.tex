@@ -65,7 +65,7 @@ Cuando un haz de luz, modelado por una onda plana, se propaga a través de un me
 	\end{tcolorbox}\vspace*{-.5em}\noindent
 Tanto $n$, como $\varepsilon$ y $\mu$ se determinan de forma experimental y son, en general, cantidades complejas. Para medios no magnéticos ($\mu_0 = \mu$), la parte imaginaria de la función dieléctrica $\Im[\varepsilon]$ se asocia con la absorción de energía por el material \cite{ibach2003solid}.
 
-Las ecuaciones de Maxwell imponen constricciones sobre los campos EMs cuando estos cruzan la frontera entre dos medios distintos, denominada interfaz. En la Fig. \ref{fig:GaussAmpere} se muestra la interfaz entre dos medios arbitrarios caracterizados por la función dieléctrica $\varepsilon_i$ y la permeabilidad magnética $\mu_i$, con $i = 1,\,2$ según sea el caso. Para deducir las constricciones de los campos EMs sobre la interfaz, estos se evalúan en la Fig. \ref{sfig:GaussPillbox}  en el cilindro de área en las caras $A$ y de altura $\delta \to 0$, mientras que en la Fig. \ref{sfig:AmperianLoop} se evalúan los campos EMs en el circuito de largo $l$ y altura $\delta\to 0$; en ambas figuras el vector normal a la interfaz es $\vu{u}$. Al evaluar los campos EMs en el límite $\delta \to 0$, estos se evlúan sobre la interfaz y, al considerar que los medios son lineales, homogéneos e isótropos, así como la ausencia de cargas externas, $\sigma_{ext} = 0$ y $\vb{K}_{ext} = \vb{0}$, los campos EMs obedecen las  expresiones \cite{griffiths2013electrodynamics} \vspace*{-1em}
+Las ecuaciones de Maxwell imponen constricciones sobre los campos EMs cuando estos cruzan la frontera entre dos medios distintos, denominada interfaz. En la Fig. \ref{fig:GaussAmpere} se muestra la interfaz entre dos medios arbitrarios caracterizados por la función dieléctrica $\varepsilon_i$ y la permeabilidad magnética $\mu_i$, con $i = 1,\,2$ según sea el caso. Para deducir las constricciones de los campos EMs sobre la interfaz, estos se evalúan en la Fig. \ref{sfig:GaussPillbox}  en el cilindro de área en las caras $A$ y de altura $\delta \to 0$, mientras que en la Fig. \ref{sfig:AmperianLoop} se evalúan los campos EMs en el circuito de largo $l$ y altura $\delta\to 0$; en ambas figuras el vector normal a la interfaz es $\vu{u}$. Al evaluar los campos EMs en el límite $\delta \to 0$, estos se evlúan sobre la interfaz y, al considerar que los medios son lineales, homogéneos e isótropos, así como la ausencia de cargas externas, $\sigma_{ext} = 0$ y $\vb{K}_{ext} = \vb{0}$, los campos EMs obedecen las  expresiones \cite{griffiths2013electrodynamics} \vspace*{-.5em}
 	\begin{subequations}
 	\begin{tcolorbox}[title = Condiciones de frontera de los campos EM ]
 	\eqhalf{\varepsilon_1 E^\perp_1 - \varepsilon_2 E^\perp_2 = 0, \label{seq:Eperp}}
@@ -353,7 +353,7 @@ en donde $\theta_i$ es el ángulo de incidencia; $\theta_r$, el de reflexión y 
 	\end{figure}	
 %
 
-Para polarización \emph{s} y medios no magnéticos ($\mu=\mu_0$),  el campo eléctrico es perpendicular al plano de incidencia y paralelo a la interfaz por lo que, mediante la Ec. \eqref{seq:Epara}, $E_i + E_r = E_t$, en donde se asume que la orientación del campo eléctrico incidente se preserva en el haz reflejado y transmitido, como se observa en la Fig. \ref{sfig:Pols}. Al emplear la continuidad de la componente paralela a la interfaz de $\vb{B}/\mu$ [Ec. \eqref{seq:Bpara}], la relación $E = (c/n) B$ y la ley de la reflexión [Ec. \ref{eq:LeyReflexion}] y de Snell [Ec. \eqref{eq:LeySnell}] se obtienen los coeficientes de amplitud $r$ y $t$ para  polarización \emph{s}, dados por \vspace*{-.5em}
+Para polarización \emph{s} y medios no magnéticos ($\mu=\mu_0$),  el campo eléctrico es perpendicular al plano de incidencia y paralelo a la interfaz por lo que, mediante la Ec. \eqref{seq:Epara}, $E_i + E_r = E_t$, en donde se asume que la orientación del campo eléctrico incidente se preserva en el haz reflejado y transmitido, como se observa en la Fig. \ref{sfig:Pols}. Al emplear la continuidad de la componente paralela a la interfaz de $\vb{B}/\mu$ [Ec. \eqref{seq:Bpara}], la relación $E = (c/n) B$ y la ley de la reflexión [Ec. \ref{eq:LeyReflexion}] y de Snell [Ec. \eqref{eq:LeySnell}] se obtienen los coeficientes de amplitud $r$ y $t$ para  polarización \emph{s}, dados por\vspace{-.5em}
 	\begin{tcolorbox}[title = Coeficientes de amplitud para polarización \emph{s} ]
 	\vspace*{-1em}	
 	\eqhalf{r_s =
@@ -417,7 +417,7 @@ El análisis del comportamiento de las ondas EMs al cruzar una interfaz plana, e
 	\begin{equation}
 	\vb{S} = n c\varepsilon_0 E_0^2 \vu{k}. \label{eq:PoyntingE}
 	\end{equation}
-Al considerar campos eléctricos armónicos, es decir, tipo ondas planas, es necesario calcular el promedio temporal\footnote{ El promedio temporal $\langle\cdot\rangle_t$ de las funciones $\sin(2\pi t/T)$ y $\cos(2\pi t/T)$, con $T$ el  periodo, se calcula como la integral del cuadrado de las funciones a lo largo de una oscilaci\'on, dividido por el periodo, esto es $\langle \sin(2\pi t/T)\rangle_t =\langle \cos(2\pi t/T)\rangle_t =  \frac{1}{T}\int_0^T\cos^2(2\pi t/T)\dd t = \frac12 $.} de la Ec. (\ref{eq:PoyntingE}), denominado  irradiancia \cite{hecht1998optics}, dada por
+Al considerar campos eléctricos armónicos, es decir, tipo ondas planas, es necesario calcular el promedio temporal\footnote{Al considerar los campos EMs como ondas planas [Ec. \eqref{eq:OndaPlana}], el vector de Poynting es $\vb{S} = \Re(\vb{E})\times\Re(\vb{B}/\mu) = \vb{E}\times\qty(\vb{B}/\mu)^*$, en donde $*$ es el complejo conjugado y $\langle\vb{S}\rangle_t = (1/2) \vb{E}\times\qty(\vb{B}/\mu)^*$.} de la Ec. (\ref{eq:PoyntingE}), denominado  irradiancia \cite{hecht1998optics}, dada por
 	\begin{equation}
 	I = \langle S \rangle_t = \frac{nc\varepsilon_0}{2} E_0^2.
 	\label{eq:Irr}
@@ -522,6 +522,166 @@ en donde el término $A$ es la energía absorbida por el material, relativa a la
 	
 El problema de absorción y esparcimiento de luz por una partícula esférica fue resuelto por el físico alemán Gustav Mie en 1908 \cite{mie1908metallosung}.  La solución de Mie consiste en expandir una onda plana, que ilumina a una esfera de tamaño y material arbitrario, en una base de armónicos esféricos vectoriales, que son una base ortogonal esférica cuyos elementos son solución a las ecuaciones de Maxwell \cite{bohren1998absorption}.  Los campos EMs dentro de la partícula y los campos esparcidos por ésta se calculan, en la base de los armónicos esféricos vectoriales, al considerar las condiciones de contorno que satisfacen los campos EMs sobre la superficie de la esfera; los coeficientes de los campos EMs esparcidos e internos se conocen como los coeficientes de Mie \cite{bohren1998absorption}.  Existen publicaciones previas a la de Mie en donde el mismo enfoque es empleado \cite{horvath2009historic} sin embargo, en el trabajo de Mie se  desarrollan relaciones recursivas que facilitan el cálculo numérico y se discute la convergencia de este resultado \cite{horvath2009historic}.  De esta forma, en el artículo de Mie se exponen diez casos prácticos, a diferencia de otros trabajos \cite{horvath2009historic}. 
 
+Para el estudio del esparcimiento por una partícula arbitraria inmersa en una matriz con índice de refracción $n_m$, se considera que ésta es iluminada por una onda plana, cuya dirección de propagación define la dirección $z$, es decir,
+	\begin{equation}
+	\vb{E}^i = (E_x^i \vu{e}_x + E_y^i \vu{e}_y)e^{i(k z - \omega t)},
+	\label{eq:Exyi}
+	\end{equation}
+donde $k = 2\pi n_m /\lambda$ es el número de onda. En la fig.  \ref{fig:PlanoEsparcimiento} se muestra  una partícula iluminada por una onda plana [Ec. \eqref{eq:Exyi}]; el origen del sistema coordenado se posiciona en el centro de la partícula y la dirección $z$ se alinea con la dirección de propagación de la onda plana, como se indica con el eje cartesiano $(x, y, z)$, así como las bases de vectores ortonormales retangulares $\{\vu{e}_x,\vu{e}_y,\vu{e}_z \}$, mostradas en azul, y polares $\{\vu{e}_r, \vu{e}_\theta, \vu{e}_\varphi \}$, mostrados en negro. De forma análoga al plano de incidencia\footnote{En el problema de un haz de luz incidente a una superficie plana, el plano de incidencia se define por el vector normal a la superficie y la dirección de propagación del haz.} se define el \emph{plano de esparcimiento}, en color verde en la Fig. \ref{fig:PlanoEsparcimiento}, con el vector de dirección del esparcimiento $\vu{e}_r$ y la dirección del haz incidente $\vu{e}_z$. Con base en el plano de esparcimiento se define la dirección ortogonal $\perp$ y paralela $\parallel$ de polarización.
+
+	\begin{figure}[h!]\centering
+	\tdplotsetmaincoords{60}{110}
+	\pgfmathsetmacro{\rvec}{1. 3}
+	\pgfmathsetmacro{\thetavec}{30}
+	\pgfmathsetmacro{\varphivec}{60}
+\begin{tikzpicture}[scale=3.5,tdplot_main_coords]
+%draw the NP
+	\draw[tdplot_screen_coords,ball color=yellow, opacity = 1] (0,0,0) circle (.05);
+
+
+%set up some coordinates 
+	\coordinate (O) at (0,0,0);
+
+%determine a coordinate (P) using (r,\theta,\varphi) coordinates.   This command
+%also determines (Pxy), (Pxz), and (Pyz): the xy-, xz-, and yz-projections
+%of the point (P). 
+%syntax: \tdplotsetcoord{Coordinate name without parentheses}{r}{\theta}{\varphi}
+	\tdplotsetcoord{P}{\rvec}{\thetavec}{\varphivec}
+
+%draw figure contents
+%--------------------
+%draw the main coordinate system axes
+	\draw[thick,- latex] (0,0,0) -- (1. 5,0,0) node[anchor=north east]{$x$};
+	\draw[thick,- latex] (0,0,0) -- (0,1. 5,0) node[anchor=north west]{$y$};
+	\draw[thick,- latex] (0,0,0) -- (0,0,1. 5) node[anchor=south]{$z$};
+
+%draw the main cartesian vector system 
+	\draw[thick,- latex, blue] (0,0,0) -- (1,0,0) node[anchor= south east]{$\vu{e}_x$};
+	\draw[thick,- latex, blue] (0,0,0) -- (0,1,0) node[anchor=north west]{$\vu{e}_y$};
+	\draw[thick,- latex, blue] (0,0,0) -- (0,0,1) node[anchor= east]{$\vu{e}_z$};
+
+%draw a vector from origin to point (P) 
+	\draw[thick,color=green, - latex] (O) -- (P);
+	\node at (1,. 5,1. 1) {\color{green} $\vb{r}$};
+
+%draw projection on xy plane, and a connecting line
+	\draw[dashed, color=green] (O) -- (Pxy);
+	\draw[dashed, color=green] (P) -- (Pxy);
+	\fill[green, opacity = . 3] (O) --(Pxy)-- (P)--(O);
+	\node at (1,1. 5,1. 1) {\color{green}\bf Plano de esparcimiento};
+
+
+%draw the angle \varphi, and label it
+	%syntax: \tdplotdrawarc[coordinate frame, draw options]{center point}{r}{angle}{label options}{label}
+	\tdplotdrawarc[- latex]{(O)}{0. 5}{0}{\varphivec}{anchor=south}{$\varphi$}
+
+
+%set the rotated coordinate system so the x'-y' plane lies within the
+	%"theta plane" of the main coordinate system
+	%syntax: \tdplotsetthetaplanecoords{\varphi}
+	\tdplotsetthetaplanecoords{\varphivec}
+
+%draw theta arc and label, using rotated coordinate system
+	\tdplotdrawarc[tdplot_rotated_coords, - latex]{(0,0,0)}{0. 45}{0}{\thetavec}{anchor=north}{$\theta$}
+
+%draw some dashed arcs, demonstrating direct arc drawing
+	\draw[dashed,tdplot_rotated_coords] (\rvec,0,0) arc (0:90:\rvec);
+	\draw[dashed] (\rvec,0,0) arc (0:90:\rvec);
+
+%set the rotated coordinate definition within display using a translation
+%coordinate and Euler angles in the "z(\alpha)y(\beta)z(\gamma)" euler rotation convention
+%syntax: \tdplotsetrotatedcoords{\alpha}{\beta}{\gamma}
+	\tdplotsetrotatedcoords{\varphivec}{\thetavec}{0}
+
+%translate the rotated coordinate system
+%syntax: \tdplotsetrotatedcoordsorigin{point}
+	\tdplotsetrotatedcoordsorigin{(P)}
+
+%use the tdplot_rotated_coords style to work in the rotated, translated coordinate frame
+	\draw[thick,tdplot_rotated_coords,- latex, purple] (0,0,0) -- (. 3,0,0) node[anchor=north west]{{\color{black}$\vu{e}_\theta,$}$\vu{e}_{\parallel}^s$};
+	\draw[thick,tdplot_rotated_coords,- latex,black] (0,0,0) -- (0,. 3,0) node[anchor=west]{$\vu{e}_\varphi$};
+	\draw[thick,tdplot_rotated_coords,- latex,purple] (0,0,0) -- (0,-. 3,0) node[anchor= north west]{$\vu{e}_{\perp}^s$};
+	\draw[thick,tdplot_rotated_coords,- latex] (0,0,0) -- (0,0,. 3) node[anchor=south]{$\vu{e}_r$ };
+
+
+
+%set the rotated coordinate definition within display using a translation
+%coordinate and Euler angles in the "z(\alpha)y(\beta)z(\gamma)" euler rotation convention
+%syntax: \tdplotsetrotatedcoords{\alpha}{\beta}{\gamma}
+	\tdplotsetrotatedcoords{\varphivec}{0}{0}
+
+%translate the rotated coordinate system
+%syntax: \tdplotsetrotatedcoordsorigin{point}
+	\tdplotsetrotatedcoordsorigin{(Pxy)}
+
+	\draw[thick,tdplot_rotated_coords,- latex, purple] (0,0,0) -- (. 3,0,0) node[anchor= west]{$\vu{e}_{\parallel}^i$};
+	\draw[thick,tdplot_rotated_coords,- latex, blue] (0,0,0) -- (0,0,. 3) node[anchor= west]{$\vu{e}_z$};	
+	\draw[thick,tdplot_rotated_coords,- latex, purple] (0,0,0) -- (0,-. 3,0) node[anchor= north west]{$\vu{e}_{\perp}^i$};
+
+
+
+% Plane Wave
+	\foreach \i in {-7,...,-2}{
+		\draw[thick,tdplot_screen_coords,red, - latex] (\i/10,0,0)--(\i/10,1,0);}
+	\node[tdplot_screen_coords] at (-4.5/10,1.1,0){\color{red}$\vb{k}_i$};
+	\node[tdplot_screen_coords] at (-4.5/10,-.1,0){\color{red}Haz incidente};
+\end{tikzpicture}
+%
+\caption{  Diagrama del plano de esparcimiento (en verde) definido por el vector $\vb{r}$, posición donde se evalúan los campos EMs, y el vector $\vu{e}_z$, cuando una onda plana propagándose en dirección $z$ (en rojo) ilumina a una partícula arbitraria.  La base canónica cartesiana para vectores se muestra en azul, mientras que la base canónica esférica se muestra en negro.  Las direcciones paralelas $\parallel$ y perpendiculares $\perp$ al plano de incidencia  para el campo eléctro incidente, denotado por el subíndice $i$ y el esparcido, denotado por el subíndice $s$ se muestran en morado.  En ambas figuras, el haz incidente se muestra en rojo.}\label{fig:PlanoEsparcimiento}
+	\end{figure}	
+
+Como se muestra en la Fig. \ref{fig:PlanoEsparcimiento}, los vectores unitarios perpendicular y paralelo al plano de esparcimiento de la onda incidente, $\vu{e}_{\perp}^i$  y $\vu{e}_{\parallel}^i$, respectivamente, están dados por
+	\begin{subequations}
+	\begin{align}
+	\vu{e}_{\perp}^i=- \hat{e}_\varphi & = \sin\varphi\vu{e}_x - \cos\varphi\vu{e}_y,\\
+	\vu{e}_{\parallel}^i= \sin\theta\vu{e}_r + \cos\theta\vu{e}_\theta& = \cos\varphi\vu{e}_x + \sin\varphi\vu{e}_y,\\
+	\vu{e}_z &= \vu{e}_{\perp}^i \times \vu{e}_{\parallel}^i,
+	\end{align}\label{eq:vecInc}
+	\end{subequations}
+y a su vez, la base de vectores ortonormales con la que se describirán los campos EMs esparcidos $\{\vu{e}_{\perp}^s,\vu{e}_{\parallel}^s,\vu{e}_r \}$ por la partícula son
+	\begin{subequations}
+	\begin{align}
+	\vu{e}_{\perp}^s&= - \vu{e}_\varphi,\\
+	\vu{e}_{\parallel}^s &= \vu{e}_\theta,\\
+	\vu{e}_r& = \vu{e}_{\perp}^s \times \vu{e}_{\parallel}^s.
+	\end{align}\label{eq:vecScat}
+	\end{subequations}
+Al despejar $\vu{e}_x$ y $\vu{e}_y$  de las Ecs. \eqref{eq:vecInc}, y reescribirlos en la base de los vectores unitarios en la dirección perpendicular y normal al plano de esparcimientocomo
+\begin{align*}
+\vu{e}_x &= \sin\varphi\vu{e}_{\perp}^i + \cos\varphi\vu{e}_{\parallel}^i,\\
+\vu{e}_y &= - \cos\varphi \vu{e}_{\perp}^i + \sin\varphi\vu{e}_{\parallel}^i,
+\end{align*}
+se obtiene que $\vb{E}^i$ [ec. \eqref{eq:Exyi}] se puede escribir como
+\begin{align}
+\vb{E}_i &= [(\cos\varphi E_{x}^i + \sin\varphi E_{y}^i)\vu{e}_{\perp}^i +
+			 (\sin\varphi E_{x}^i - \cos\varphi E_{y}^i)\vu{e}_{\parallel}^i]
+			 e^{ikz}\notag\\
+		&= E_{\perp}^i  \vu{e}_{\perp}^i + E_{\parallel}^i\vu{e}_{\parallel}^i
+		\label{eq:EIncidente}
+\end{align}
+en donde se omite el término de la fase temporal $e^{-i\omega t}$ y la fase espacial $e^{ikz}$ se incluye en los coficientes $E_\perp^i$ y $E_\parallel^i$. Adicionalmente, para el campo eléctrico esparcido se emplea el campo debido a una fuente oscilante en el tiempo, por lo que el campo eléctrico es \cite{jackson1999electrodynamics}
+	\begin{equation}
+\vb{E}  = 	\frac{e^{ikr}}{4\pi\varepsilon_0}   \left[ \underbrace{\frac{k^2}{r} (\vu{e}_r\times\vb{p})\times \vu{e}_r}_{\text{transversal}}
+		 +  \underbrace{[3\vu{e}_r(\vu{e}_r\cdot\vb{p})-\vb{p}] \left(\frac{1}{r^3}-\frac{ik}{r^2}\right) }_{\text{radial}} \right],
+		 \label{eq:ELejanoFull}
+	\end{equation}
+en donde $\vb{p}$ es el momento dipolar. Si de la Ec. \eqref{eq:ELejanoFull} se consideran únicamente los términos que corresponden al campo lejano, es decir, el término con componentes transversales y que decae como $r^{-1}$ y cumple con la relación $k\ll 1$, el campo esparcido $\vb{E}^s$ puede escribirse como \cite{bohren1998absorption}
+\begin{align}
+\vb{E}^s &\propto \frac{e^{ikr}}{-ikr}\vb{E}_0^s \notag \\
+		&=  \frac{e^{ikr}}{-ikr}
+			\qty( E_{\perp}^s  \vu{e}_{\perp}^s + E_{\parallel}^s \vu{e}_{\parallel}^s) \label{eq:ELejano}
+\end{align}
+en donde  $\vb{E}_0^s$ es la amplitud del campo esparcido,  $ E_{\perp}^s$ y  $ E_{\parallel}^s$ sus componentes en la base de los vectores paralelo y perpendicular al plano de esparcimiento, y donde se cumple la propiedad $\vb{E}_0^s\cdot\vu{e}_r = 0$,. De esta forma,  es posible relacionar al campos eléctrico esparcido $\vb{E}^s$ [Ec. \eqref{eq:ELejano}] con el campo eléctrico  incidente $\vb{E}^i$ [Ec. \eqref{eq:EIncidente}  mediante la siguiente relación 
+	\begin{equation}
+	\mqty(E_{\parallel}^s\\E_{\perp}^s) = 
+		\frac{e^{ik(r-z)}}{-ikr} \mqty(S_2&S_3\\S_4&S_1)
+	\mqty(E_{\parallel}^i\\E_{\perp}^i),\label{eq:MEsparcimientoGral}
+	\end{equation}
+en donde la matriz  $\mathbb{S}$ es la matriz de esparcimiento y ,de forma general, $S_j = S_j(\theta,\varphi)$. Las componentes de la matriz de esparcimiento en la Ec. \eqref{eq:MEsparcimientoGral} dependen de la geometría de la partícula iluminada por la onda plano, por lo que al considerar una partícula esférica, se descompone a la onda plana  en una base ortonormal esférica para calcular a los campos esparcidos mediante las condiciones a la frontera de los campos EMs, y así, determinar la forma de la matriz de esparcimiemnto. En la siguiente sección se construye la base ortonormal esférica de los armónicos esféricos vectoriales mediante, la cual se emplea en la solución de Mie para el cálculo de los campos EMs.
+
+	\subsection{Solución a la ecuación de onda con simetría esférica}
+
+
 Las ecuaciones de Maxwell, al considerar una región del espacio sin cargas externas, y campos EMs armónicos en el tiempo, se reescriben como \cite{jackson1999electrodynamics}
 
 	\begin{subequations}
@@ -539,9 +699,12 @@ en donde $\vb{H} = \vb{B}/\mu$ es el campo H, y la función dieléctrica $\varep
 	\eqhalf{\nabla^2 \vb{E}- k^2 \vb{E} = \vb{0},}
 	\eqhalf{\nabla^2 \vb{H}- k^2 \vb{H} = \vb{0},}
 	\label{eq:Helmholtz}
-	\end{subequations} \vspace*{-1em}\noindent	
-	
-en donde $k = n k_0$ es la magnitud del vector de onda y $n$ es el índice de refracción del material [Ec. \eqref{eq:indice}]. Para proceder con el cálculo de los campos EMs, se propone primero un campo vectorial $\vb{M}$ tal que
+	\end{subequations} \vspace*{-1em}
+
+\noindent	
+en donde $k = n k_0$ es la magnitud del vector de onda y $n$ es el índice de refracción del material [Ec. \eqref{eq:indice}].
+
+ Para proceder con el cálculo de los campos EMs, se propone primero un campo vectorial $\vb{M}$ tal que
 	\begin{align}
 	\vb{M} &= \nabla \times \left(\vb{c} \psi\right),
 	\label{eq:MrotCPsi}
@@ -556,16 +719,16 @@ Dado que el operador laplaciano y el rotacional conmutan\footnote{ Para un campo
 	\nabla^2 \vb{M} + k^2 \nabla\vb{M}  = \nabla\times\left[\vb{c}\left( \nabla^2\psi+k^2\psi \right) \right].
 	\end{equation}
 	
-Se define también el vector $\vb{N}$ dado por la expresión
+Adicional a $\vb{M}$, se define el vector $\vb{N}$ dado por 
 	\begin{equation}
 	\vb{N} = \frac{\nabla\times \vb{M}}{k}, \label{eq:NrotM/k}
 	\end{equation}
-cuyo laplaciano es $\nabla^2 \vb{N} = \nabla^2( \nabla\times \vb{M} /k) =  \nabla\times (\nabla^2\vb{M} /k) $, pues el rotacional y el laplaciano son operadores que conmutan entre sí. Por tanto, la ecuación de Helmholtz para $\vb{N}$ es
+cuyo laplaciano es $\nabla^2 \vb{N} = \nabla^2( \nabla\times \vb{M} /k) =  \nabla\times (\nabla^2\vb{M} /k) $, y por tanto la ecuación de Helmholtz para $\vb{N}$ es
 	\begin{align}
 	\nabla^2 \vb{N} + k^2 \vb{N} =  \nabla\times \left( \frac{\nabla^2 \vb{M}}{k} \right) + k \nabla\times \vb{M} 
 		 = \frac{1}{k} \nabla\times \left( \nabla^2 \vb{M} + k^2  \vb{M} \right).
 	\end{align}
-
+	
 Los campos $\vb{M}$ y $\vb{N}$ cumplen con la  ecuación de Helmholtz vectorial [Ec. \eqref{eq:Helmholtz}] si, y sólo si, la función escalar $\psi$ cumple con la ecuación de Helmholtz escalar $\nabla^2 \psi + k^2 \psi = 0$. Si este es el caso, entonces, el rotacional de $\vb{N}$ está dado por
 	\begin{align}
 	\nabla\times \vb{N} &= \nabla\times \qty(\frac{\nabla\times \vb{M}}{k})  
@@ -580,15 +743,13 @@ Los campos vectoriales $\vb{M}$ y $\vb{N}$ son conocidos como los \emph{armónic
 	\nabla^2 \psi + k^2 \psi  = 0.\label{eq:AV_psi}
 	\end{tcolorbox}
 
-	\subsection{Solución a la ecuación de onda con simetría esférica}
-
-Para poder encontrar las soluciones del campo esparcido por una esfera, se calculan  las soluciones de la Ec. \eqref{eq:AV_psi} con la geometría deseada y se imponen las condiciones a la frontera de los campos EMs sobre la superficie de la esfera. Al suponer que una partícula esférica de radio $a$ e índice de refracción $n_p$, inmersa en un medio, denominado matriz, con índice de refracción $n_m$, es iluminada por una onda plana propagándose a lo largo del eje $z$, como se muestra en la Fig. \ref{fig:EsferaA}, la Ec. \eqref{eq:AV_psi} tiene la forma
+Cuando se considera una partícula esférica de radio $a$ e índice de refracción $n_p$, inmersa en un medio, denominado matriz, con índice de refracción $n_m$, como se observa en la Fig. \ref{fig:EsferaA}, y que ésta es iluminada por una onda plana propagándose a lo largo del eje $z$, se emplean coordenadas esféricas $\{ r, \theta, \varphi\}$. La la función generadora de los armónicos vectoriales en coordenadas esféricas es 
 	\begin{equation}
 	\frac{1}{r^2} \pdv{r}\qty(r^2\pdv{\psi}{r})+ 
 	\frac{1}{r^2\sin\theta}\pdv{\theta}\qty(\sin\theta\pdv{\psi}{\theta})
 	 + \frac{1}{r^2\sin^2\theta}\pdv[2]{\psi}{\varphi} + k^2 \psi =0, \label{eq:AEV_psi}
 	\end{equation}
-en donde $\vb{r}$ se escoge como el vector piloto $\vb{c}$, por lo que $\vb{M}$ será tangencial a cualquier superficie esférica, $\theta$ es el ángulo polar y $\varphi$, el azimutal.
+en donde $\vb{r}$ se escoge como el vector piloto $\vb{c}$, por lo que $\vb{M}$ será tangencial a cualquier superficie esférica, $\theta$ es el ángulo polar y $\varphi$, el azimutal. Al resolver la Ec. \eqref{eq:AEV_psi} es posible construir un conjunto de funciones linealmente independientes que sean una base para los campos EMs incidente, esparcido y dentro de la esfera, lo que permite determinar mediante las condiciones a la frontera la forma de la matriz de esparcimiento [Ec. \eqref{eq:MEsparcimientoGral}], resolviendo el problema del esparcimiento de luz debido a la partícula.
 
 	\begin{figure}[h!]\centering
 	%set the plot display orientation
@@ -656,12 +817,11 @@ en donde $\vb{r}$ se escoge como el vector piloto $\vb{c}$, por lo que $\vb{M}$ 
 		\caption{ Esfera de radio $a$ e ínidce de refracción $n_p$, inmersa en una matriz con índice $n_m$. La esfera es iluminada por una onda plana con vector de onda $\vb{k}_i$, que se propaga en la dirección $\hat{e}_z$. Se escoge como vector piloto $\vb{r}$.}\label{fig:EsferaA}
 	\end{figure}	
 	
-
 Para resolver la Ec. \eqref{eq:AEV_psi} se asume que $\psi$ es el producto de tres funciones y cada una de éstas depende únicamente en una variable, es decir,
 	\begin{equation}
 	\psi (r,\theta, \varphi) = R(r)\Theta(\theta) \Phi(\varphi). \label{eq:psiEsf}
 	\end{equation}
-La resolución de la Ec. \eqref{eq:AV_psi} busca construir un conjunto de funciones linealmente independientes que sean una base para los campos EMs incidente, esparcido y dentro de la esfera. Al sustituir la Ec. \eqref{eq:psiEsf} en la Ec. \eqref{eq:AEV_psi},  multiplicar por $r^2/R\Theta\Phi$ y despejar los términos que dependen únicamente de $r$, se obtiene como resultado que una función con dependencia radial es igual a una función con dependencia angular, por lo tanto se igualan a una constante $\ell (\ell +1)$
+Al sustituir la Ec. \eqref{eq:psiEsf} en la Ec. \eqref{eq:AEV_psi},  multiplicar por $r^2/R\Theta\Phi$ y despejar los términos que dependen únicamente de $r$, se obtiene como resultado que una función con dependencia radial es igual a una función con dependencia angular, por lo tanto se igualan a una constante $\ell (\ell +1)$
 	\begin{equation}
 \mathrlap{\overbrace{\phantom{\frac{1}{R} \dv{r}\qty(r^2\dv{R}{r})+  k^2 r^2 = \ell (\ell +1)}}^{\text{radial}}}
 							 \frac{1}{R} \dv{r}\qty(r^2\dv{R}{r})+  k^2 r^2 = 
@@ -673,6 +833,7 @@ La resolución de la Ec. \eqref{eq:AV_psi} busca construir un conjunto de funcio
 					 						- \frac{1}{\sin^2\theta}\frac{1}{\Phi}\pdv[2]{\psi}{\varphi}.
 					 		\label{eq:radAng}
 	\end{equation}
+		
 Si la parte angular de la Ec. \eqref{eq:radAng} se multiplica por $\sin^2\theta$, y se despejan los términos que dependen de $\theta$, se obtiene que una función que depende únicamente de $\theta$ es igual a una que depende únicamente de $\varphi$, por lo que ambas partes se igualan a la constante $m^2$. Tanto $\ell$ en la Ec. \eqref{eq:radAng}, como $m$ son constantes que se determinan ante condiciones impuestas a $\psi$. Tras este procedimiento ---llamado separación de variables--- se tiene entonces que las funciones $R(r),\, \Theta(\theta), \mbox{ y } \Phi(\varphi)$ cumplen con las ecuaciones
 \begin{align}
 \frac{1}{\Phi}\pdv[2]{\psi}{\varphi} &+ m^2 \Phi =0. \label{eq:Phi}\\
@@ -688,12 +849,12 @@ Dado que $\psi$ debe ser una función con periodicidad $2\pi$ en $\varphi$, es d
 	\end{subequations} \vspace{-.5em}
 	
 \noindent	
-con $m$ un número entero no negativo y donde los subíndices $e$ y $o$ hacen referencia a que son funciones pares (\emph{even}) e impares (\emph{odd}), respectivamente. Adicionalmente, las funciones $\sin(m\varphi)$ y $\cos(m\varphi)$ obedecen las relaciones de ortogonalidad
+con $m$ un número entero no negativo y donde los subíndices $e$ y $o$ hacen referencia a que son funciones pares (\emph{even}, $e$) e impares (\emph{odd}, $o$), respectivamente. Las funciones $\sin(m\varphi)$ y $\cos(m\varphi)$ obedecen las relaciones de ortogonalidad
  	\begin{subequations}
 	\begin{align}
 	\int_0^{2\pi} \sin(m\varphi) &\cos(m' \varphi) \dd\varphi = 0 \qquad \forall\, m,m',\label{seq:ortSinCos}\\
 	\int_0^{2\pi} \sin(m\varphi) \sin(m'\varphi)\dd\varphi &=  \int_0^{2\pi} \cos(m\varphi) \cos(m'\varphi)\dd\varphi  = \delta_{m,m'}\frac{\pi}{2},\label{seq:ortCos2}
-	\end{align}\label{eq:SinCos}
+	\end{align}\label{eq:ortSinCos}
  	\end{subequations}
 en donde $\delta_{m,m'}$ es la delta de Kronecker.
 
@@ -743,22 +904,12 @@ en donde $J_\ell$ y $Y_\ell$ son las \emph{funciones de Bessel del primer y segu
 	z_{\ell-1}(\rho) + z_{\ell+1}(\rho) &=\frac{2\ell+1}{\rho} z_\ell(\rho),\\
 	(2\ell + 1) \dv{z_\ell(\rho)}{\rho} &= \ell z_{\ell-1}(\rho) - (\ell+1)z_{\ell+1}(\rho),
 	\end{align}
-en donde los primeros dos órdenes ($\ell=0,1$) de $j_\ell$ y $y_\ell$ son
+en donde los primeros dos órdenes ($\ell=0,1$) de $j_\ell$ son $j_0(\rho) = \sin\rho / \rho$ y $j_1(\rho) = \sin\rho / \rho^2- \cos\rho/\rho$, mientras que los de $y_\ell$ son $y_0(\rho) = -\cos\rho/\rho$ y $y_1(\rho) = -\cos\rho/\rho^2-\sin\rho/\rho$. Por lo tanto, las funciones generadoras de los armónicos esféricos vectoriales son
 
-	\eqhalf{j_0(\rho) = \frac{\sin\rho}{\rho}, \notag}
-	\eqhalf{j_1(\rho) = \frac{\sin\rho}{\rho^2}-\frac{\cos\rho}{\rho},\notag}
-	\eqhalf{y_0(\rho) = -\frac{\cos\rho}{\rho},\notag}
-	\eqhalf{y_1(\rho) = -\frac{\cos\rho}{\rho^2}-\frac{\sin\rho}{\rho}.\notag}
-
-\vspace*{-1em}\noindent
-Por tanto, las funciones generadoras de los armónicos esféricos vectoriales son
-
-	\begin{subequations}
-	\eqhalf{\psi_{em\ell} = \cos(m\varphi) P_\ell^m( \cos \theta) z_\ell(k r),}
+ 	\begin{subequations}	\eqhalf{\psi_{em\ell} = \cos(m\varphi) P_\ell^m( \cos \theta) z_\ell(k r),}
 	\eqhalf{\psi_{om\ell} = \sin(m\varphi) P_\ell^m( \cos \theta) z_\ell(k r),}
-	\label{eq:psieo}
-	\end{subequations}
-	
+	\label{eq:psieo}	\end{subequations}
+
 \noindent	
 por lo que se construyen cuatro armónicos esféricos vectoriales. Al emplear las Ecs. \eqref{eq:psieo} en la Ec. \eqref{eq:MrotCPsi}, con $\vb{r}$ como el vector piloto, se obtiene como resultado $\vb{M}_{em\ell}$ y $\vb{M}_{om\ell}$, dados por las expresiones \vspace{-.5em}
 	\begin{subequations}
@@ -830,204 +981,125 @@ De igual manera, cuando se realiza el producto interior con elementos de los arm
 %------------------------------
 
 
-Para el estudio del esparcimiento por una partícula arbitraria, se considera que ésta es iluminada por una onda plana, cuya dirección de propagación define la dirección $z$, es decir,
-	\begin{equation}
-	\va{E}^i = (E_x^i \vu{e}_x + E_y^i \vu{e}_y)e^{i(k z - \omega t)},
-	\label{eq:Exyi}
-	\end{equation}
-donde $k = 2\pi n_m /\lambda$ es el número de onda y $n_m$ es el índice de refracción del medio donde se encuentra la partícula, denominado matriz.\\
-
-En la fig.  \ref{fig:SistCoor} se muestra  una partícula iluminada ---sobre la cual se posiciona el origen del sistema coordenado cartesiano $(x, y, z)$---, así como las bases de vectores ortonormales retangulares $\{\vu{e}_x,\vu{e}_y,\vu{e}_z \}$ y polares $\{\vu{e}_r, \vu{e}_\theta, \vu{e}_\varphi \}$. Como análogo al plano de incidencia\footnote{En el problema de un haz de luz incidente a una superficie plana, el plano de incidencia se define por el vector normal a la superficie y la dirección de propagación del haz.} se define el \emph{plano de esparcimiento} con el vector de dirección del esparcimiento $\vu{e}_r$ y la dirección del haz incidente $\vu{e}_z$. Con base en el plano de esparcimiento se define la dirección ortogonal $\perp$ y paralela $\parallel$ de polarización.
-
-	\begin{figure}[h!]\centering
-	\tdplotsetmaincoords{60}{110}
-	\pgfmathsetmacro{\rvec}{1. 3}
-	\pgfmathsetmacro{\thetavec}{30}
-	\pgfmathsetmacro{\varphivec}{60}
-\begin{tikzpicture}[scale=3.5,tdplot_main_coords]
-%draw the NP
-	\draw[tdplot_screen_coords,ball color=yellow, opacity = 1] (O) circle (.05);
-
-
-%set up some coordinates 
-	\coordinate (O) at (0,0,0);
-
-%determine a coordinate (P) using (r,\theta,\varphi) coordinates.   This command
-%also determines (Pxy), (Pxz), and (Pyz): the xy-, xz-, and yz-projections
-%of the point (P). 
-%syntax: \tdplotsetcoord{Coordinate name without parentheses}{r}{\theta}{\varphi}
-	\tdplotsetcoord{P}{\rvec}{\thetavec}{\varphivec}
-
-%draw figure contents
-%--------------------
-%draw the main coordinate system axes
-	\draw[thick,- latex] (0,0,0) -- (1. 5,0,0) node[anchor=north east]{$x$};
-	\draw[thick,- latex] (0,0,0) -- (0,1. 5,0) node[anchor=north west]{$y$};
-	\draw[thick,- latex] (0,0,0) -- (0,0,1. 5) node[anchor=south]{$z$};
-
-%draw the main cartesian vector system 
-	\draw[thick,- latex, blue] (0,0,0) -- (1,0,0) node[anchor= south east]{$\vu{e}_x$};
-	\draw[thick,- latex, blue] (0,0,0) -- (0,1,0) node[anchor=north west]{$\vu{e}_y$};
-	\draw[thick,- latex, blue] (0,0,0) -- (0,0,1) node[anchor= east]{$\vu{e}_z$};
-
-%draw a vector from origin to point (P) 
-	\draw[thick,color=green, - latex] (O) -- (P);
-	\node at (1,. 5,1. 1) {\color{green} $\vb{r}$};
-
-%draw projection on xy plane, and a connecting line
-	\draw[dashed, color=green] (O) -- (Pxy);
-	\draw[dashed, color=green] (P) -- (Pxy);
-	\fill[green, opacity = . 3] (O) --(Pxy)-- (P)--(O);
-	\node at (1,1. 5,1. 1) {\color{green}\bf Plano de esparcimiento};
-
-
-%draw the angle \varphi, and label it
-	%syntax: \tdplotdrawarc[coordinate frame, draw options]{center point}{r}{angle}{label options}{label}
-	\tdplotdrawarc[- latex]{(O)}{0. 5}{0}{\varphivec}{anchor=south}{$\varphi$}
-
-
-%set the rotated coordinate system so the x'-y' plane lies within the
-	%"theta plane" of the main coordinate system
-	%syntax: \tdplotsetthetaplanecoords{\varphi}
-	\tdplotsetthetaplanecoords{\varphivec}
-
-%draw theta arc and label, using rotated coordinate system
-	\tdplotdrawarc[tdplot_rotated_coords, - latex]{(0,0,0)}{0. 45}{0}{\thetavec}{anchor=north}{$\theta$}
-
-%draw some dashed arcs, demonstrating direct arc drawing
-	\draw[dashed,tdplot_rotated_coords] (\rvec,0,0) arc (0:90:\rvec);
-	\draw[dashed] (\rvec,0,0) arc (0:90:\rvec);
-
-%set the rotated coordinate definition within display using a translation
-%coordinate and Euler angles in the "z(\alpha)y(\beta)z(\gamma)" euler rotation convention
-%syntax: \tdplotsetrotatedcoords{\alpha}{\beta}{\gamma}
-	\tdplotsetrotatedcoords{\varphivec}{\thetavec}{0}
-
-%translate the rotated coordinate system
-%syntax: \tdplotsetrotatedcoordsorigin{point}
-	\tdplotsetrotatedcoordsorigin{(P)}
-
-%use the tdplot_rotated_coords style to work in the rotated, translated coordinate frame
-	\draw[thick,tdplot_rotated_coords,- latex, purple] (0,0,0) -- (. 3,0,0) node[anchor=north west]{{\color{black}$\vu{e}_\theta,$}$\vu{e}_{\parallel,s}$};
-	\draw[thick,tdplot_rotated_coords,- latex,black] (0,0,0) -- (0,. 3,0) node[anchor=west]{$\vu{e}_\varphi$};
-	\draw[thick,tdplot_rotated_coords,- latex,purple] (0,0,0) -- (0,-. 3,0) node[anchor= north west]{$\vu{e}_{\perp,s}$};
-	\draw[thick,tdplot_rotated_coords,- latex] (0,0,0) -- (0,0,. 3) node[anchor=south]{$\vu{e}_r$ };
-
-
-
-%set the rotated coordinate definition within display using a translation
-%coordinate and Euler angles in the "z(\alpha)y(\beta)z(\gamma)" euler rotation convention
-%syntax: \tdplotsetrotatedcoords{\alpha}{\beta}{\gamma}
-	\tdplotsetrotatedcoords{\varphivec}{0}{0}
-
-%translate the rotated coordinate system
-%syntax: \tdplotsetrotatedcoordsorigin{point}
-	\tdplotsetrotatedcoordsorigin{(Pxy)}
-
-	\draw[thick,tdplot_rotated_coords,- latex, purple] (0,0,0) -- (. 3,0,0) node[anchor= west]{$\vu{e}_{\parallel,i}$};
-	\draw[thick,tdplot_rotated_coords,- latex, blue] (0,0,0) -- (0,0,. 3) node[anchor= west]{$\vu{e}_z$};	
-	\draw[thick,tdplot_rotated_coords,- latex, purple] (0,0,0) -- (0,-. 3,0) node[anchor= north west]{$\vu{e}_{\perp,i}$};
-
-
-
-% Plane Wave
-	\foreach \i in {-7,...,-2}{
-		\draw[thick,tdplot_screen_coords,red, - latex] (\i/10,0,0)--(\i/10,1,0);}
-	\node[tdplot_screen_coords] at (-4.5/10,1.1,0){\color{red}$\vb{k}_i$};
-	\node[tdplot_screen_coords] at (-4.5/10,-.1,0){\color{red}Haz incidente};
-\end{tikzpicture}
-%
-		\caption{  Diagrama del plano de esparcimiento (en verde) definido por el vector $\vb{r}$, posición donde se evalúan los campos EMs, y el vector $\vu{e}_z$.  La base canónica cartesiana para vectores se muestra en azul, mientras que la base canónica esférica se muestra en negro.  Las direcciones paralelas $\parallel$ y perpendiculares $\perp$ al plano de incidencia  para el campo eléctro incidente, denotado por el subíndice $i$ y el esparcido, denotado por el subíndice $s$ se muestran en morado.  En ambas figuras, el haz incidente se muestra en rojo.}\label{fig:PlanoEsparcimiento}
-	\end{figure}	
-
-
-Como se muestra en la fig. \ref{fig:SistCoor}, los vectores unitarios perpendicular y paralelo de la onda incidente, $\vu{e}_{\perp i}$ y $\vu{e}_{\parallel i}$ respectivamente, están dados por
-	\begin{subequations}
-	\begin{align}
-	\vu{e}_{\perp i}=- \hat{e}_\varphi & = \sin\varphi\vu{e}_x - \cos\varphi\vu{e}_y,\\
-	\vu{e}_{\parallel i}= \sin\theta\vu{e}_r + \cos\theta\vu{e}_\theta& = \cos\varphi\vu{e}_x + \sin\varphi\vu{e}_y,\\
-	\vu{e}_z &= \vu{e}_{\perp i} \cross \vu{e}_{\parallel i},
-	\end{align}\label{eq:vecInc}
-	\end{subequations}
-y a su vez, la base de vectores ortonormales con la que se describirán los campos EMs esparcidos $\{\vu{e}_{\perp s},\vu{e}_{\parallel s},\vu{e}_r \}$ por la partícula son
-	\begin{subequations}
-	\begin{align}
-	\vu{e}_{\perp s}&= - \vu{e}_\varphi,\\
-	\vu{e}_{\parallel s} &= \vu{e}_\theta,\\
-	\vu{e}_r& = \vu{e}_{\perp s} \times \vu{e}_{\parallel s}.
-	\end{align}\label{eq:vecScat}
-	\end{subequations}
-Despejando $\vu{e}_x$ y $\vu{e}_y$  de las ecs. \eqref{eq:vecInc}, y reescribiéndolos en la base de los vectores unitarios en la dirección perpendicular y normal de la onda incidente  como
-\begin{align*}
-\vu{e}_x &= \sin\varphi\vu{e}_{\perp i} + \cos\varphi\vu{e}_{\parallel i},\\
-\vu{e}_y &= - \cos\varphi \vu{e}_{\perp i} + \sin\varphi\vu{e}_{\parallel i},
-\end{align*}
-se obtiene que $\va{E}^i$ [ec. \eqref{eq:Exyi}] se puede escribir como
-\begin{align*}
-\va{E}_i &= (\cos\varphi E_{x}^i + \sin\varphi E_{y}^i)\vu{e}_{\perp i} +
-			 (\sin\varphi E_{x}^i - \cos\varphi E_{y}^i)\vu{e}_{\parallel i}\\
-		&= E_{\perp i}  \vu{e}_{\perp i} + E_{\parallel i}\vu{e}_{\parallel i},
-\end{align*}
-en donde se obvia el término de la fase $e^{i(kz - \omega t)}$.\\
 
 
 
 
 
 
-
-Una onda plana con longitud de onda $\lambda$, polarizada en la dirección $x$, y caracterizada por el campo eléctrico $\vb{E}^i$ propagándose en la dirección $z$ en una matriz con índice de refracción $n_m$ (ver Fig. \ref{fig:EsferaA}), en la base de los vectores ortonormales polares canónicos, así como en la base de los armónicos esféricos vectoriales [Ecs. \eqref{eq:AEV}] es
+Al considerar una onda plana con longitud de onda $\lambda$, polarizada en la dirección $x$, y caracterizada por el campo eléctrico $\vb{E}^i$ propagándose en la dirección $z$ en una matriz con índice de refracción $n_m$ (ver Fig. \ref{fig:EsferaA}), en la base de los vectores ortonormales polares canónicos, así como en la base de los armónicos esféricos vectoriales [Ecs. \eqref{eq:AEV}] es
 	\begin{align*}
 \vb{E}^i = & E_0 e^{ik_mr\cos\theta} \qty(\sin\theta\cos\varphi \vu{e}_r + 
 								\cos\theta\cos\varphi\vu{e}_\theta-\sin\varphi\vu{e}_\varphi)\notag\\
 	 =& \sum_{m=0}^\infty\sum_{\ell=m}^\infty \qty[ B_{em\ell}\vb{M}_{em\ell} 
 	 	+ B_{om\ell}\vb{M}_{om\ell} +A_{em\ell}\vb{N}_{em\ell} + A_{om\ell}\vb{N}_{om\ell}].,
 	\end{align*}
-donde se omite la dependencia temporal $e^{-i\omega t}$, $E_0$ es la magnitud del campo eléctrico, $k_m=2\pi n_m/\lambda$ es el número de onda,  y  $B_{em\ell},\, B_{om\ell},\, A_{em\ell}$ y $ A_{om\ell}$ son los coeficientes en la expansión de armónicos esféricos vectoriales de la onda plana, que se determinan a partir de las Ecs. \eqref{eq:NN} y \eqref{eq:MM}. Dado que en la componente radial de la onda plana en la base canónica es proporcional a $\cos\varphi$, se sigue que $m=1$ al comparar con las expresiones de $\vb{N}_{em\ell}$ [Ec. \eqref{seq:Neml}] y $\vb{N}_{om\ell}$ [Ec. \eqref{seq:Noml}] ---únicos elementos con componente radial---, y además que $A_{om\ell}=0$ pues $\vb{N}_{om\ell}$ es proporcional a $\sin\varphi$ en la componente radial. Asimismo, por la dependencia con $\sin\varphi$ en la componente  $\vu{e}_\varphi$, $B_{em\ell}=0$ pues $\vb{M}_{em\ell}$ es proporcional a $\cos\varphi$ en dicha entrada. Puesto que la onda plana es finita en todo el espacio, se escoge $z_\ell = j_\ell$, denotado en los armónicos esféricos vectoriales con el superíndice $(1)$. Entonces, la onda plana en la base de los armónicos esféricos vectoriales se escribe como
-	\begin{equation}
+donde se omite la dependencia temporal $e^{-i\omega t}$, $E_0$ es la magnitud del campo eléctrico, $k_m=2\pi n_m/\lambda$ es el número de onda,  y  $B_{em\ell},\, B_{om\ell},\, A_{em\ell}$ y $ A_{om\ell}$ son los coeficientes en la expansión de armónicos esféricos vectoriales de la onda plana, que se determinan a partir de las Ecs. \eqref{eq:NN} y \eqref{eq:MM}. Dado que en la componente radial de la onda plana en la base canónica es proporcional a $\cos\varphi$, se sigue que $m=1$ al comparar con las expresiones de $\vb{N}_{em\ell}$ [Ec. \eqref{seq:Neml}] y $\vb{N}_{om\ell}$ [Ec. \eqref{seq:Noml}] ---únicos elementos con componente radial---, y además que $A_{om\ell}=0$ pues $\vb{N}_{om\ell}$ es proporcional a $\sin\varphi$ en la componente radial. Asimismo, por la dependencia con $\sin\varphi$ en la componente  $\vu{e}_\varphi$, $B_{em\ell}=0$ pues $\vb{M}_{em\ell}$ es proporcional a $\cos\varphi$ en dicha entrada. Puesto que la onda plana es finita en todo el espacio, se escoge $z_\ell = j_\ell$, denotado en los armónicos esféricos vectoriales con el superíndice $(1)$. Entonces, la onda plana en la base de los armónicos esféricos vectoriales se escribe como 
+	\begin{equation*}
 	\vb{E}^i = \sum_{\ell=1}^\infty \qty[B_{o1\ell}\vb{M}_{o1\ell}^{(1)} + A_{e1\ell}\vb{N}_{e1\ell}^{(1)}],
-	\end{equation}
+	\end{equation*}
 con $B_{o1\ell} = \langle \vb{E}^i, \vb{M}_{o1\ell}^{(1)}  \rangle_{\theta,\varphi} / \langle \vb{M}_{o1\ell}^{(1)} ,\vb{M}_{o1\ell}^{(1)} \rangle_{\theta,\varphi}$ y $ A_{e1\ell} = \langle \vb{E}^i, \vb{N}_{e1\ell}^{(1)} \rangle_{\theta,\varphi} / \langle \vb{N}_{e1\ell}^{(1)},\vb{N}_{e1\ell}^{(1)} \rangle_{\theta,\varphi}$. Al emplear las Ecs. \eqref{eq:MM} y \eqref{eq:NN} con $m=1$, y las condiciones de ortogonalidad de los armónicos esféricos vectoriales, se calcula la expresión de la onda plana en una base esférica, dada por
+	\begin{subequations}
 	\begin{equation}
 	\vb{E}^i = E_0 \sum_{\ell =1}^\infty i^\ell \frac{2\ell+1}{\ell(\ell+1)}\qty(\vb{M}_{o1\ell}^{(1)}-i\vb{N}_{e1\ell}^{(1)}).
-	\label{eq:PlaneWaveESpheric}
+	\label{eqs:EiAEV}
 	\end{equation}
 El campo magnético incidente se calcula empleando la Ley de Farady-Lenz [Ec. \eqref{seq:FLArm}], cuyo resultado es
 	\begin{equation}
 	\vb{H}^i =\frac{-k}{\omega\mu} \sum_{\ell =1}^\infty  E_\ell\qty(\vb{M}_{e1\ell}^{(1)}+i\vb{N}_{o1\ell}^{(1)}),
-	\label{eq:PlaneWaveHSpheric}
-	\end{equation}
+	\label{eqs:HiAEV}
+	\end{equation}\label{eq:EHiAEV}
+	\end{subequations}
 con $E_\ell = E_0 i^\ell (2\ell+1)/[\ell(\ell+1)]$.
 
-
-
-
-
-
-
-Para calcular los campos EMs esparcidos ($\vb{E}^s,\,\vb{H}^s$) y los campos EM dentro de la partícula esférica ($\vb{E}^p,\,\vb{H}^p$), se emplean las condiciones a la frontera de los campos EMs en una interfaz arbitraria [Ecs. \eqref{eqs:CFrontera}], en donde la componente paralela a la interfaz es continua. Es decir
+Para calcular los campos EMs esparcidos ($\vb{E}^s,\,\vb{H}^s$) y los campos EMs dentro de la partícula esférica ($\vb{E}^p,\,\vb{H}^p$), se emplean las condiciones a la frontera de los campos EMs en una interfaz arbitraria [Ecs. \eqref{eqs:CFrontera}], en donde la componente paralela a la interfaz es continua. Es decir
 	\begin{align}
 	\qty(\vb{E}^i+\vb{E}^s -\vb{E}^p)\times\vu{e}_r =
 	\qty(\vb{H}^i+\vb{H}^s -\vb{H}^p)\times\vu{e}_r = \vb{0}.
+	\label{eq:CFEsfera}
 	\end{align}
 De la Ec. \eqref{eq:PlaneWaveESpheric} y de las condiciones de continuidad, se deduce que en la expansión de los campos EMs esparcidos, y los internos, los coeficientes para $m\neq 1$ son nulos. Los campos EM dentro de la partícula ($\vb{E}^p,\,\vb{H}^p$) son finitos en la esfera, por lo que se emplea como solución a la ecuación de onda las funciones $j_\ell(k_p r)$, con $k_p = 2\pi n_p /\lambda$ el número de onda dentro de la esfera. Las expresiones para los campos EMs son
 	
-	\eqhalf{\vb{E}^p = \sum_{\ell =1}^\infty E_\ell \qty(c_\ell \vb{M}_{o1\ell}^{(1)}-i d_\ell\vb{N}_{e1\ell}^{(1)}),}
-	\eqhalf{\vb{H}^p = \frac{-k_1}{\omega\mu_1} \sum_{\ell =1}^\infty E_\ell\qty(d_\ell\vb{M}_{e1\ell}^{(1)}+i c_\ell\vb{N}_{o1\ell}^{(1)}),}	
+	\begin{subequations}
+	\eqhalf{\vb{E}^p = \sum_{\ell =1}^\infty E_\ell \qty(c_\ell \vb{M}_{o1\ell}^{(1)}-i d_\ell\vb{N}_{e1\ell}^{(1)}),	\label{eqs:EpAEV}}
+	\eqhalf{\vb{H}^p = \frac{-k_p}{\omega\mu_p} \sum_{\ell =1}^\infty E_\ell\qty(d_\ell\vb{M}_{e1\ell}^{(1)}+i c_\ell\vb{N}_{o1\ell}^{(1)}),\label{eqs:HpAEV}}
+	\label{eq:EHpAEV}		
+	\end{subequations}
 
-\vspace*{-1em}\noindent
+\noindent
 con $E_\ell =E _0 i^\ell (2\ell+1)/[\ell(\ell+1)]$.
 
-Para los campos esparcidos ($\vb{E}^s,\,\vb{H}^s$) las funciones $j_\ell$ y $y_\ell$ no tienen puntos indeterminados, por lo que se emplearan las funciones de Hankel $h_\ell^{(1)}$ y $h_\ell^{(2)}$. En su límite asintótico ($n^2\ll kr$) estás expresiones son
+Para los campos esparcidos ($\vb{E}^s,\,\vb{H}^s$) las funciones $j_\ell$ y $y_\ell$ no tienen puntos indeterminados, por lo que se emplearan las funciones esféricas de Hankel $h_\ell^{(1)}$ y $h_\ell^{(2)}$,. En su límite asintótico ($\ell^2\ll kr$), las funciones de esféricas de Hankel son \cite{bohren1998absorption}
 
 	\eqhalf{h_\ell^{(1)}(k_m r) \approx -i^\ell \frac{e^{ik_m r}}{ik_m r},}
 	\eqhalf{h_\ell^{(2)}(k_m r) \approx -i^\ell \frac{e^{-ik_m r}}{ik_m r},}	
 
 \vspace*{-1em}\noindent
-por lo que $h_\ell^{(1)}$ corresponde a una onda esférica saliente, y $h_\ell^{(2)}$ una entrante.
+por lo que $h_\ell^{(1)}$ corresponde a una onda esférica saliente, y $h_\ell^{(2)}$ una entrante. Dado que el campo esparcido es una onda saliente, se emplea $h_\ell^{(1)}$ como solución radial a la función generadora de los armónicos esféricos vectoriales. Entonces, los campos EMs esparcidos $(\vb{E}^s,\vb{H}^s)$ son 
+	\begin{subequations}
+	\eqhalf{\vb{E}^s = \sum_{\ell =1}^\infty E_\ell \qty(i a_\ell \vb{N}_{oe\ell}^{(3)}- b_\ell\vb{M}_{o1\ell}^{(3)}),
+		\label{eqs:EsAEV}}
+	\eqhalf{\vb{H}^s = \frac{k}{\omega\mu} \sum_{\ell =1}^\infty E_\ell\qty(ib_\ell\vb{N}_{o1\ell}^{(3)}+a_\ell\vb{M}_{e1\ell}^{(3)}),
+		\label{eqs:HsAEV}}	
+	\label{eq:EHsAEV}		
+	\end{subequations}
+		
+\noindent
+en donde se denota mediante el superíndice $(3)$ que se emplea $h_\ell^{(1)}$ para la solción radial. Dado que para los campos EMs de la onda plana incidente y de los campos EMs esparcidos $m= 1$, se definen las funciones   $\pi_\ell$ y $\tau_\ell$ como  
+	\begin{align*}
+	\pi_\ell(\mu) = \frac{2\ell-1}{\ell-1} \mu \pi_{\ell-1}(\mu) - \frac{\ell}{\ell-1}\pi_{\ell-2}(\mu)
+	\hspace{1cm}\mbox{y}\hspace{1cm}
+	\tau_\ell(\mu) = \ell \mu\pi_\ell(\mu) - (\ell+1)\pi_{\ell-1}(\mu),
+	\end{align*}
+para expresar la dependencia angular polar en los armónicos esféricos vectoriales [Ec. \eqref{eq:AEV}. Las relaciones de recurrencia de 
+las funciones asociadas de Legendre \cite{arfken2001methods} permiten expresar a  $\pi_\ell$ y $\tau_\ell$ como  \cite{bohren1998absorption}
+	\begin{align*}
+	\pi_\ell(\mu) = \frac{2\ell-1}{\ell-1} \mu \pi_{\ell-1}(\mu) - \frac{\ell}{\ell-1}\pi_{\ell-2}(\mu)
+	\hspace{1cm}\mbox{y}\hspace{1cm}
+	\tau_\ell(\mu) = \ell \mu\pi_\ell(\mu) - (\ell+1)\pi_{\ell-1}(\mu),
+	\end{align*}
+en donde se empleó el cambio de variable $\mu = \cos\theta$ y se define   $\pi_0 =0 $ y $\pi_1 = 1$.  Las funciones $\pi_\ell$ y $\tau_\ell$ son funciones pares e impares, respectivamente, y a pesar de no ser orotogonales, sí lo son la suma aritmética de ellas, es decir
+	\begin{equation}
+	\int_{-1}^{1}[\tau_\ell(\mu)\pm\pi_\ell(\mu)]
+	[\tau_{\ell'}(\mu)\pm\pi_{\ell'}(\mu)) = 0, \qquad \ell\neq \ell'. 
+	\label{eq:ortTauPi}
+	\end{equation}
+Empleando las funciones $\tau_\ell$ y $\pi_ell$, los armónicos esféricos son
+	\begin{align*}
+	\vb{M}_{o1\ell} =& \cos\varphi\pi_\ell(\cos\theta)z_\ell(kr)\vu{e}_\theta 
+					- \sin\varphi\tau_\ell(\cos\theta)z_\ell(kr)\vu{e}_\varphi,\\ 
+	\vb{M}_{e1\ell} =& -\sin\varphi\pi_\ell(\cos\theta)z_\ell(kr)\vu{e}_\theta 
+					- \cos\varphi\tau_\ell(\cos\theta)z_\ell(kr)\vu{e}_\varphi,\\ 
+	\vb{N}_{o1\ell} =& \sin\varphi \ell(\ell+1)\sin\theta\pi_\ell(\cos\theta)
+						\frac{z_\ell(kr)}{kr}\vu{e}_r
+					+ \sin\varphi\tau_\ell(\cos\theta)
+						\frac{\qty[(kr) z_\ell(kr)]'}{kr}	\vu{e}_\theta,\\
+					&+ \cos\varphi \pi_\ell(\cos\theta)
+						\frac{\qty[(kr) z_\ell(kr)]'}{kr}	\vu{e}_\varphi,\\	
+	\vb{N}_{e1\ell} =& \cos\varphi \ell(\ell+1)\sin\theta\pi_\ell(\cos\theta)
+						\frac{z_\ell(kr)}{kr}\vu{e}_r
+					+ \cos\varphi\tau_\ell(\cos\theta)
+						\frac{\qty[(kr) z_\ell(kr)]'}{kr}	\vu{e}_\theta,\\
+					&- \sin\varphi \pi_\ell(\cos\theta)
+						\frac{\qty[(kr) z_\ell(kr)]'}{kr}	\vu{e}_\varphi,
+\end{align*}
+en donde se emplea el superíndce $(1)$ para $z_\ell = j_\ell$ y $(3)$ para $z_\ell = h_\ell^{(1)}$.
 
+Para determinar los coeficientes $a_\ell,b_\ell,c_\ell$ y $d_\ell$ de las Ecs. \eqref{eq:EHpAEV} y \eqref{eq:EHsAEV} se emplean las condiciones a la frontera [Ec. \eqref{eq:CFEsfera}], por lo que se deben de satisfaces las ecuaciones
 
+	\eqhalf{E_\theta^i + E_\theta^s = E_\theta^p,}
+	\eqhalf{E_\varphi^i + E_\varphi^s = E_\varphi^p,}
+	\eqhalf{H_\theta^i + H_\theta^s = H_\theta^p,}
+	\eqhalf{H_\varphi^i + H_\varphi^s = H_\varphi^p,}	\vspace{-1em}\noindent
 
+en $r =a$, que es la superficie de la partícula esférica. Al emplear la ortogonalidad de las funciones $\sin\varphi$ y $\cos\varphi$[Ec. \eqref{eq:ortTauPi}], la ortogonalidad de $\tau_\ell\pm\pi_\ell$ [Ec. \eqref{eq:ortTauPi}] y las expresiones de los campos EMs de la onda plana incidente [Ecs. \eqref{eq:EHiAEV}], de los campos EMs dentro de la partícula [Ecs. \eqref{eq:EHpAEV}] y los campos EMs esparcidos [Ecs. \eqref{eq:EHsAEV}] se obtienen el sistema de ecuaciones
+	\begin{align}
+	j_\ell(Nx)c_\ell + h_\ell^{(1)}(x)b_\ell &= j_\ell(x),\\
+	\mu_m\qty[Nj_\ell(Nx)]'c_\ell + \mu_p\qty[xh_\ell^{(1)}(x)]'b_\ell &= \mu_p\qty[xj_\ell(x)]',\\
+	\mu_m N j_\ell(Nx)d_\ell +\mu_p h_\ell^{(1)}(x)a_\ell &=\mu_p j_\ell(x),\\
+	\qty[Nj_\ell(Nx)]'d_\ell + N\qty[xh_\ell^{(1)}(x)]'a_\ell &= N\qty[xj_\ell(x)]',
+	\end{align}
+en donde $'$ es la operación derivada respecto al argumento de las funciones de Bessel, $x = k_m a = 2 \pi n_m a /\lambda$ es el parámetro de tamaño y $N = n_p / n_m$ es el índice de refracción relativo entre la partícula y la matriz.
 	
 	\subsection*{Matriz de esparcimiento}
 	Expansión de una onda plana, y campo esparcido: Coeficientes d Mie, funciones $\tau$ y $\pi$. Modos normales (secciones de extinción??)

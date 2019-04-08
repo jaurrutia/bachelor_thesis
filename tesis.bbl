@@ -223,5 +223,27 @@
   Transfer}
     \field{year}{2009}
   \endentry
+
+  \entry{arfken2001methods}{book}{}
+    \name{author}{1}{}{%
+      {{hash=GBAyHJW}{%
+         family={G.\bibnamedelima B.\bibnamedelima Arfken},
+         familyi={G\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim
+  A\bibinitperiod},
+         given={y\bibnamedelima H. J.\bibnamedelima Weber},
+         giveni={y\bibinitperiod\bibinitdelim H\bibinitperiod
+  J\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Harcourt Academic Press}%
+    }
+    \strng{namehash}{GBAyHJW1}
+    \strng{fullhash}{GBAyHJW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Mathematical methods for physicists}
+    \field{year}{2001}
+  \endentry
 \enddatalist
 \endinput
