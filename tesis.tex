@@ -4,6 +4,7 @@
 \usepackage{blindtext}                        % Para insertar texto dummy, de 
 \include{Latex/Comandos}           % Archivo con funciones útiles
 
+
 \usepackage{setspace}
 
 %%-------------------------------------------------------------------------------
@@ -43,6 +44,8 @@
 \setcounter{secnumdepth}{3} % organisational level that receives a numbers
 \setcounter{tocdepth}{3}    % print table of contents for level 3
 
+\def\baselinestretch{1} 
+
 \tableofcontents            % Genera el índice 
 
 %: ----------------------- list of figures/tables ------------------------
@@ -66,15 +69,20 @@
 %-------------------------------------------------------------------------------
 %                                   References                                   |
 %-------------------------------------------------------------------------------
+\appendix
+%\include{07-Apendice/1-Teoria_Mie}  
 
 %\bibliographystyle{unsrt} % otros estilos pueden ser abbrv, acm, alpha, 
 %\bibliographystyle{abbrv}
 %\bibliography{06-Bibliografia/references}             % Archivo .bib
 \setlength\bibitemsep{.1\itemsep}
 \printbibliography
+
+%\printindex
 %-------------------------------------------------------------------------------
 %                                   Appendix                                   |
 %-------------------------------------------------------------------------------
-\appendix
-%\include{07-Apendice/1-Teoria_Mie}             
+
+
+           
 \end{document}

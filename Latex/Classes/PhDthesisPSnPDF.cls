@@ -31,14 +31,15 @@
 \usepackage{makeidx}						% Add glosaries
 %\usepackage[style=list,toc,number=none]{glossary}
 \raggedbottom								% Makes LaTeX send tha white spaces to the background
-\usepackage[perpage, bottom]{footmisc}			% for the footnotes
+\usepackage[bottom]{footmisc}			% for the footnotes; perpage -> inicia la numeración en la página misma
 \usepackage{fancyhdr}						% for better header layout
 \usepackage{eucal}
 \usepackage{ifthen}
 \usepackage[nottoc]{tocbibind} 					% correct page numbers for bib in TOC, nottoc suppresses an entry for TOC itself
 %\usepackage{nextpage}
 \usepackage{titlesec}
-
+\usepackage{imakeidx}%for indexes
+\makeindex[intoc]
 
 	%---------------------- Figures ----------------------------
 		\usepackage[margin=10pt,font=scriptsize,labelfont=bf, ]{caption}  
@@ -63,6 +64,7 @@
 			\definecolor{lblue}{RGB}{134,165,169}	% light blue
 			\definecolor{lgray}{RGB}{118,118,118}	% light gray
 			\definecolor{dgreen}{RGB}{83,111,80}	% dark green
+			%\definecolor{bblue}{RGB}{56,182,241} % bright blue: Blue of the tunic
 			%UNAM color palette
 			\definecolor{UNAMblue}{RGB}{0,60,113}		% Blue pantone  541 (C)
 			\definecolor{UNAMgold}{RGB}{234,221,150}		% Gold pantone  460  (C) ??
@@ -183,11 +185,11 @@
                  linktocpage,
 %                 pagebackref,
                  colorlinks = true,
-                 linkcolor = lblue,
-                 urlcolor  = lblue,
+                 linkcolor = blue,
+                 urlcolor  = blue,
                  citecolor = lgray,
                  anchorcolor = dgreen,
-		hyperfootnotes = false,
+				hyperfootnotes = true,
                  hyperindex = true,
                  hyperfigures
                  ]{hyperref} 
@@ -205,8 +207,8 @@
                  linktocpage,
 %                 pagebackref,
                  colorlinks = true,
-                 linkcolor = lblue,
-                 urlcolor  = lblue,
+                 linkcolor = blue,
+                 urlcolor  = blue,
                  citecolor = lgray,
                  anchorcolor = dgreen,
                  hyperindex = true,
