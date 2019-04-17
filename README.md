@@ -1,3 +1,19 @@
+# Tesis de licenciatura 
+## Respuesta electromagnética de sistema bidimensionales desordenados de nanopartículas plasmónicas y su uso en el biosensado
+
+Information about the template is found at the end of the README.md file.
+
+### Cosas por hacer
+-[ ] Revisar el índice analítico
+-[ ] Gráficas del ajuste de Drude de Johnson & Christy
+-[ ] Gráficas de la corrección por tamaño para NPs esféricas
+-[ ] Explicación de los plasmones 
+-[ ] Explicación de las extinciín de luz y su relación con los plasmones
+-[ ] CSM
+-[ ] Integrar cálculos con Drude
+-[ ] Realizar cálculos con la corrección de tamaño
+
+
 Thesis template:
 =============
 Modification, of a modification from a LaTeX template (not longer aviable in Overleaf) aimed for the a UNAM's College of Engineering Thesis.
