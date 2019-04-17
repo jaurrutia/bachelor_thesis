@@ -1,64 +1,46 @@
-Tesis FI UNAM
+Thesis template:
 =============
-
-Plantilla de Tesis en LaTeX para la Facultad de Ingeniería de la UNAM.
-
-UNAM's College of Engineering Thesis' LaTeX template.
+Modification, of a modification from a LaTeX template (not longer aviable in Overleaf) aimed for the a UNAM's College of Engineering Thesis.
 
 Based on Harish Bhanderi's PhD/MPhil template, then Uni Cambridge (http://www-h.eng.cam.ac.uk/help/tpl/textprocessing/ThesisStyle/).
 Corrected and extended in 2007 by Jakob Suckale, then MPI-iCBG PhD programme
 and made available through OpenWetWare.org - the free biology wiki
 . Adapted to FI-UNAM by Jesús Velázquez & Marco Ruiz.
+. Adapted to FC-UNAM by Jonathan Urrutia
 
 
-
-Lista de paquetes
+What to modify if you want to use this template
 -----------------
 
-Recomiendo tener la opción "Install packages on the fly" de su distribución de LaTeX, activada. La lista de paquetes usados en la plantilla es:
+All packages, as well as the file properties can be found in
 
-    \usepackage{amssymb, amsmath, amsbsy, amsfonts}
-    \usepackage[utf8]{inputenc}
-    \usepackage{listings}
-    \usepackage{emptypage}
-    \usepackage{caption}
-    \usepackage[bf,SL,BF]{subfigure}
-    \usepackage{mathdots}
-    \usepackage{mathrsfs}
-    \usepackage{fancyhdr}
-    \usepackage{eucal}
-    \usepackage[spanish,mexico]{babel}
-    \usepackage{color}
-    \usepackage[perpage]{footmisc}
-    \usepackage{natbib}
-    \usepackage{ifthen}
-    \usepackage{multicol}
-    \usepackage[nottoc]{tocbibind}
-    \usepackage{titlesec}
+    Latex/Classes/PhDthesisPSnPDF.cls
+
+there, all the packages info is commentes. Additional to the FI-UNAM template, the bibtex package can be used, as well as the imakeidx package. Also the footnote space is now well integrated to the text pages and the margin of the text were diminished.
 
 Compilación
 -----------
 
-Por el momento, sólo funciona si compilan con "PDFLaTeX", aún no tiene funcionalidad completa con otros compiladores.
+"PDFLaTeX"
 
-Opciones para el posgrado
+Grad school (UNAM) options
 --------
-Para empezar, se debe tener el comando
+Uncomment or write in the tesis.tex file
 
     \posgradotrue
 
-La portada tiene dos nuevos elementos: programa y campo, rellenar al gusto
+The programm and field commands are now usable
 
     \programa{Programa de Maestría y Doctorado en Ingeniería}
     \campo{Ingeniería Eléctrica - Control}
     
-El siguiente comando activa la opción de poner hasta dos tutores que conformen el comité tutor
+The tutor comitee can be defeined
 
     \comitetrue
     \ctutoruno{Nombre 1}
     \ctutoruno{Nombre 2}
     
-Para los datos del jurado asignado, se tiene
+As well as the jury
 
     \presidente{Nombre}
     \secretario{Nombre}
@@ -70,8 +52,6 @@ Para los datos del jurado asignado, se tiene
     
 Warnings
 --------
-Marca varias advertencias al compilar, varias de ellas tienen que ver con que el paquete Blindtext no tiene funcionalidad para la lengua española, este paquete únicamente se usa para rellenar la plantilla con texto de ejemplo, por lo que al remover los comandos \blindtext se corrige.
+If used in spanish, the  \blindtext will show errors sinces it is aimed for inglish-based texts. After removal the blind text-related issued should disappear.
 
-Si les da una advertencia de referencias no definidas, compilen el archivo "tesis.tex" con BibTeX.
-
-Las adevrtencias de fuera de margen son de la portada.
+The outside of the margin-warnings are due the cover.
