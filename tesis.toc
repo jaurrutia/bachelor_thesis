@@ -3,15 +3,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Teor\IeC {\'\i }a}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}F\IeC {\'o}rmulas de Fresnel}{1}{section.1.1}
+\contentsline {section}{\numberline {1.1}Nociones b\IeC {\'a}sicas}{1}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}Coeficientes de amplitud}{3}{subsection.1.1.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.2}Reflectancia y transmitancia}{6}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.1}F\IeC {\'o}rmuls de Fresnel}{3}{subsection.1.1.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.2}Soluci\IeC {\'o}n de Mie}{8}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}Soluci\IeC {\'o}n a la ecuaci\IeC {\'o}n de onda con simetr\IeC {\'\i }a esf\IeC {\'e}rica}{10}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.1}Soluci\IeC {\'o}n a la ecuaci\IeC {\'o}n de onda con simetr\IeC {\'\i }a esf\IeC {\'e}rica}{11}{subsection.1.2.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.3}Respuesta electromagn\IeC {\'e}tica de materiales plasm\IeC {\'o}nicos}{21}{section.1.3}
 \defcounter {refsection}{0}\relax 
@@ -19,8 +17,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3.2}Plasmones}{25}{subsection.1.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Modelo de esparcimiento coherente}{26}{section.1.4}
+\contentsline {section}{\numberline {1.4}Modelo de esparcimiento coherente}{27}{section.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.1}Monocapa suspendida}{27}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.1}Monocapa suspendida en el espacio libre}{27}{subsection.1.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.2}Monocapa sobre un sustrato}{27}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.2}Monocapa sobre un sustrato}{32}{subsection.1.4.2}

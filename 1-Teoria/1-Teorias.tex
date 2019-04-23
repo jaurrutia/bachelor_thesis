@@ -3,7 +3,7 @@
 La luz, al pasar de un medio lineal, homogéneo e isótropo a otro medio material con las mismas características, se descompone en dos haces: uno reflejado y otro transmitido. Para calcular la intensidad de los haces reflejado y transmitido se emplean las fórmulas de Fresnel. En su deducción se consideran las condiciones de frontera impuestas por las ecuaciones de Maxwell sobre los campos electromagnéticos (EMs), de las que se deduce, además, la dirección de propagación de los haces reflejado y transmitido.  Una vez determinadas las condiciones de frontera de los campos EMs y la dirección de propagación de la luz, se calcula la relación  entre los campos eléctricos evaluados en la frontera entre ambos medios, resultando en los \emph{coeficientes de amplitud}. Finalmente, la conservación de la energía que es considerada, resultando en las ecuaciones de Fresnel.
 
 
-\section{Fórmulas de Fresnel}
+\section{Nociones básicas}
 
 Las ecuaciones de Maxwell en su forma diferencial son   \cite{griffiths2013electrodynamics}  \index{Ecuaciones de Maxwell} \vspace*{-.5em}
 	\begin{subequations} \label{eqs:Maxwell}
@@ -190,7 +190,7 @@ Las ecuaciones de Maxwell imponen constricciones sobre los campos EMs cuando est
 	\caption{Esquema de una interfaz entre dos medios distintos y arbitrarios con {\bf a)} una densidad de carga superficial $\sigma_{tot}$ y {\bf b)} una densidad de corriente superficial $\vb{K}_{tot}$. Los campos EMs son evaluados en \textbf{a)} en el cilindro de área $A$ y altura $\delta \to 0$ y en \textbf{b)} en el circuito de largo $l$ y altura $\delta\to 0$. En ambas figuras el vector normal a la superficie es $\vu{u}.$}	\label{fig:GaussAmpere}	
 	\end{figure}	
 		
-		\subsection{Coeficientes de amplitud}		
+		\subsection{Fórmuls de Fresnel}		
 		
 Cuando un haz de luz modelado por una onda plana [Ec. \eqref{eq:OndaPlana}] incide sobre la interfaz entre dos medio lineales, homogéneos e isótropos, el haz de luz es descompuesto en un haz reflejado y otro transmitido, también descritos por ondas planas. Los haces incidentes, reflejados y transmitidos se propagan a través del \emph{plano de incidencia}, definido por el vector de onda del haz incidente, y el vector normal a la interfaz. Dado que las condiciones de frontera sobre la onda plana incidente y reflejada en el medio de incidencia, caracterizado por el índice de refracción $n_i$, y la onda transmitida, en el medio de transmisión, con índice de refracción $n_t$, son válidas para todo tiempo y todo punto en la interfaz, la fase de las tres ondas son iguales, por lo que se cumple \vspace*{-.5em} \index{Ley!de la reflexión}\index{Ley!de Snell}
 %
@@ -406,9 +406,6 @@ tanto para incidencia externa [Fig. \ref{sfig:coefExt}], donde $\theta_B \approx
 	\end{equation}
 %
 Al sustituir la Ec. \eqref{eq:Criticp} en la ley de Snell [Ec. \eqref{eq:LeySnell}] se obtiene que $\theta_t = 90^\circ$ por lo que para $\theta_i>\theta_c$ toda la luz es reflejada y no transmitida, es decir, se está en el régimen \emph{reflexión total interna}. En la Fig. \ref{sfig:coefInt} se observa que los coeficientes de amplitud son máximos en $\theta_c \approx 48^\circ$ sin embargo, para $\theta_i>\theta_c$, los coeficientes de amplitud  [Ecs. \eqref{eq:rs}--\eqref{eq:tp}] son cantidades complejas, lo que indica que los campos eléctricos reflejado y transmitido tienen un desfase, distinto de $\pi$ radianes, respecto al campo eléctrico incidente.  Para corroborar que toda la luz es reflejada en incidencia interna para $\theta_i>\theta_c$ se considera la conservación de la energía transportada por los campos EMs al cruzar la interfaz.
-
-
-	\subsection{Reflectancia y transmitancia}
 
 El análisis del comportamiento de las ondas EMs al cruzar una interfaz plana, entre dos medios lineales homogéneos e isótropos, en términos de las amplitudes de los campos eléctricos describen el comportamiento de la magnitud y los cambios de fase en los campos eléctricos  y no la cantidad de luz transmitida o reflejada. Esta información se obtiene al considerar la energía transportada por los campos EMs, por lo que se emplea el vector de Poynting [Ec. (\ref{eq:Poynting})] escrito únicamente en términos del campo eléctrico usando la relación $E = n B/c$ \index{Poynting!vector de}
 	\begin{equation}
@@ -661,7 +658,12 @@ en donde se omite el término de la fase temporal $e^{-i\omega t}$ y la fase esp
 			=  \frac{e^{ikr}}{-ikr}
 			\qty( E_{\perp}^s  \vu{e}_{\perp}^s + E_{\parallel}^s \vu{e}_{\parallel}^s) \label{eq:ELejano}
 	\end{align}
-en donde  $\vb{E}_0^s$ es la amplitud del campo esparcido,  $ E_{\perp}^s$ y  $ E_{\parallel}^s$ sus componentes en la base de los vectores paralelo y perpendicular al plano de esparcimiento [Ec. \eqref{eq:vecScat}]. Es posible relacionar al campo eléctrico esparcido $\vb{E}^s$ [Ec. \eqref{eq:ELejano}] con el  incidente $\vb{E}^i$ [Ec. \eqref{eq:EIncidente}  mediante  la matriz matriz de esparcimiento   $\mathbb{S}$ 
+en donde  $\vb{E}_0^s$ es la amplitud del campo esparcido,  $ E_{\perp}^s$ y  $ E_{\parallel}^s$ sus componentes en la base de los vectores paralelo y perpendicular al plano de esparcimiento [Ec. \eqref{eq:vecScat}]. Asimismo, es posible relacionar al campo eléctrico esparcido por una partícula localizada en el centro de coordenadas$\vb{E}^s$ [Ec. \eqref{eq:ELejano}] con el  campo eléctrico incidente $\vb{E}^i$ [Ec. \eqref{eq:EIncidente}]  mediante  la diadica de esparcimiento de campo lejano  $\mathbb{F}(\vu{k}^i,\vu{k}^s)$ \cite{tsang2000scattering}
+	\begin{equation}
+	\vb{E}^s = \frac{e^{i\vb{k}^s\cdot\vb{r}}}{r}\mathbb{F}(\vu{k}^i,\vu{k}^s)\vb{E}^i
+	\label{eq:FarFieldDyadic}
+	\end{equation}
+donde $\mathbb{F}$ depende de de la dirección de la onda plana incidente $\vu{k}^i$ y la dirección del campo eléctrico esparcido $\vu{k}^s$. Al considerar la forma asintótica del campo eléctrico esparcido [Ec. \eqref{eq:ELejano}] su relación con el campo eléctrico incidente [Ec. \eqref{eq:FarFieldDyadic}], se pueden relacionar las componentes perpendiculares del campo esparcido y el campo incidente de una onda plana en la base de los vectores perpendiculares y paralelos al plano de incidencia mediante la matriz de esparcimiento $\mathbb{S}$ \cite{bohren1998absorption}
 	\begin{equation}
 	\mqty(E_{\parallel}^s\\E_{\perp}^s) = 
 		\frac{e^{ik(r-z)}}{-ikr} \mqty(S_2&S_3\\S_4&S_1)
@@ -1004,9 +1006,6 @@ De las Ecs. \eqref{eq:EHiAEV} y de las condiciones a la frontera [Ec. \eqref{eq:
 	\label{eq:EHpAEV}		
 	\end{subequations}
 
-\noindent
-con $E_\ell =E _0 i^\ell (2\ell+1)/[\ell(\ell+1)]$.
-
 Para los campos esparcidos ($\vb{E}^s,\,\vb{H}^s$) las funciones $j_\ell$ y $y_\ell$ no tienen puntos indeterminados, por lo que se emplearan las funciones esféricas de Hankel $h_\ell^{(1)}$ y $h_\ell^{(2)}$, que en su límite asintótico ($\ell^2\ll kr$), son \cite{bohren1998absorption}
 
 	\eqhalf{h_\ell^{(1)}(k_m r) \approx -i^\ell \frac{e^{ik_m r}}{ik_m r},\notag}
@@ -1064,7 +1063,7 @@ en $r =a$, que es la superficie de la partícula esférica. Al emplear la ortogo
 	\mu_m N j_\ell(Nx)d_\ell +\mu_p h_\ell^{(1)}(x)a_\ell &=\mu_p j_\ell(x),\\
 	\qty[Nj_\ell(Nx)]'d_\ell + N [xh_\ell^{(1)}(x)]'a_\ell &= N [xj_\ell(x)]',
 	\end{align*}
-en donde $'$ denota la derivada respecto al argumento de las funciones de Bessel, $x = k_m a = 2 \pi n_m a /\lambda$ es el parámetro de tamaño y $N = n_p / n_m$ es el índice de refracción relativo entre la partícula y la matriz. Al determinar los coeficientes $a_\ell$ y $b_\ell$, se obtiene una expresión analítica para los campos EMs esparcidos, por lo que es posible determinar las componentes de la matriz de esparcimiento $\mathbb{S}$ en la Ec. \eqref{eq:MEsparcimientoGral}. La solución para los coeficientes $a_\ell$ y $b_\ell$, los coeficientes de los campo EMs esparcidos\footnote{Las expresiones de los coeficientes para los campos EMs dentro de la partícula esférica [Ec. \eqref{eq:EHpAEV} son
+en donde $'$ denota la derivada respecto al argumento de las funciones de Bessel, $x = k_m a = 2 \pi n_m a /\lambda$ es el parámetro de tamaño y $N = n_p / n_m$ es el índice de refracción relativo entre la partícula y la matriz. Al determinar los coeficientes $a_\ell$ y $b_\ell$, se obtiene una expresión analítica para los campos EMs esparcidos, por lo que es posible determinar las componentes de la matriz de esparcimiento $\mathbb{S}$ en la Ec. \eqref{eq:MEsparcimientoGral}. La solución para los coeficientes $a_\ell$ y $b_\ell$, los coeficientes de los campo EMs esparcidos\footnote{Las expresiones de los coeficientes para los campos EMs dentro de la partícula esférica [Ec. \eqref{eq:EHpAEV}] son
 	\begin{align*}
 	c_\ell = \frac{\mu_p j_\ell(x)[xh_\ell^{(1)}(x)]' - \mu_p h_\ell^{(1)}(x) [xj_\ell(x)]'}
 				{\mu_pj_\ell(Nx) [xh_\ell^{(1)}(x)]'-\mu_m h_\ell^{(1)}(x) [N x j_\ell(Nx)]' },
@@ -1159,6 +1158,7 @@ donde $\vu{e}_\perp^s=-\vu{e}_\varphi$. Al emplear la Ec. \eqref{eq:EIncidente} 
 	\mqty(E_{\parallel}^s\\E_{\perp}^s)  =  
 		\frac{e^{ik(r-z)}}{-ikr} \mqty(S_2 & 0\\ 0 & S_1)
 	\mqty(E_{\parallel}^i\\E_{\perp}^i),	
+	\label{eq:MieMatrix}
 	\end{equation}
 	donde \begin{subequations}\\
 	\eqhalf{	S_1 (\theta) = \sum_\ell^\infty\frac{2\ell+1}{\ell(\ell+1)}(a_\ell\pi_\ell+b_\ell\tau_\ell)
@@ -1294,6 +1294,20 @@ En la Fig.  \ref{fig:nJC} se muestran los resultados experimentales para el índ
 
 \subsection{Plasmones}
 
+Los plasmones son oscilaciones colectivas de los electrones en un material metálico,  resultado del  acoplamiento con la radiaci\'on EM a las frecuencias donde ocurren las SPRs \cite{stockman2011nanoplasmonics}.  La clasificación de los plasmones comprende  dos tipos: propagantes y localizados.  Cuando los plasmones se propagan a lo largo de una interfaz plana entre un medio diel\'ectrico y uno met\'alico se denomina  \emph{plasm\'on-polarit\'on de superficie} (Surface Plasmon Polariton, SPP) \cite{maier2007plasmonics}.  Si el plasmón, en cambio, se encuentra en la superficie de una partícula  met\'alica, de tamaño finito, se le conoce como \emph{resonancia de plasm\'on de superficie localizado} (Localized Surface Plasmon Resonance, LSPR) \cite{maier2007plasmonics}. 
+
+
+
+
+
+
+
+
+
+
+
+
+
 	El campo esparcido [Ec.  \eqref{eq:Es}] está en términos de los coeficientes $a_\ell$ y $b_\ell$ [Ecs.  \eqref{eq:MieCoef}], que dependen, entre otros parámetros, del índice de refracción de la partícula.  De la Ec.  \eqref{eq:Es} se observa que, para un multipolo $\ell$ fijo, la contribución del campo eléctrico es máxima cuando el denominador de los coeficientes de Mie es mínimo \cite{novotny2006principles}.  Si se considera que la respuesta óptica de la partícula es 	$\varepsilon_p (\omega) = n_p^2 (\omega)$, y se fijan los parámetros $a$, $n_m$ y $\lambda$, 	entonces a la frecuencia $\omega_\ell = c (2\pi / \lambda_\ell)$, donde el denominador de las Ecs.  \eqref{eq:MieCoef} es nulo, se le denomina \emph{modo normal} de orden $\ell$ \cite{bohren1998absorption,maciel2017momentum}.  Los modos normales eléctricos ocurren a las frecuencias en las que se cumple la condición 
 	\begin{align}
 	\psi_\ell(mx)\xi_\ell'(x)-m\xi_\ell(x)\psi_\ell'(mx) = 0. 
@@ -1305,7 +1319,7 @@ Al considerar el límite de partícula pequeña ($x\ll 1$) para esferas inmersas
 	\label{eq:NormalModes}
 	\end{equation}
 
-	\begin{figure}[b!]\centering
+	\begin{figure}[h!]\centering
 		\includegraphics[scale=1]{1-Teoria/figs/1-4-DrudeMultipoles.pdf}\vspace*{-1em}
 	\caption{Frecuencias de resonancia $\omega_\ell/\omega_p$ para una esfera con una función dieléctrica tipo Drude, como función del parámetro adimensional  $\omega_p a / c$, para los multipolos $\ell = 1,2,3$ y $4$. }
 	\label{fig:NormalModes}
@@ -1321,8 +1335,277 @@ Para partículas esféricas de radio arbitrario $a$ con una función dieléctric
 
 
 \section{Modelo de esparcimiento coherente}
-\blindtext
-	 \subsection{Monocapa suspendida}
-		Desarrollo del CSM y los resultados para una monocapa	 
+
+
+La solución de Mie, en conjunto con la corrección por tamaño de la función dieléctrica para algún material, permite estudiar la respuesta electromagnética (EM) de una nanopartícula (NP) esférica individual, tales como los plasmones localizados de superficies (Localized Surface Plasmons, LSPs), lo cuales son empleados en la espectroscopía \cite{novotny2006principles}, el sensado \cite{jain2008noble}, la litografía \cite{stockman2011nanoplasmonics}. Sin embargo, no siempre es posible emplear la respuesta EM de una partícula individual para la descripción del sistema por lo que se han empleado diversos enfoques entre los que se encuentran la aproximación cuasiestática y las teorías de esparcimiento \cite{pena-gomar2006coherent}. En el caso límite de partícula pequeña, donde el parámetro de tamaño $x=ka= 2\pi n_m$, con $n_m$  el índice de refracción del medio donde se encuentra inmersa NP, es mucho menor que la unidad, es posble emplear  la aproximación cuasiestática, que considera que sólo la excitación dipolar contribuye al campo total. En partícular, para la reflectancia de una monocapa de NPs, la aproximación cuasiestática conduce a una teoría de medio efectivo \cite{pena-gomar2006coherent}. Sin embargo, cuando  el parámetro de tamaño es comparable o mayor a la unidad, una teoría de esparcimiento es necesaria, debido a la inducción de multipolos de ordenes mayores \cite{pena-gomar2006coherent}. El modelo de esparcimiento coeherente (CSM) toma en cuenta la interacción de esparcidores puntuales ante la presencia de un campo eléctrico promedio; este acercamiento además incluye la contribución del esparcimiento múltiple debido a la interacción entre las NPs.
+    
+    El cálculo de las expresiones de reflectancia y transmitancia en el formalismo del CSM considera el campo eléctrico total esparcido por una monocapa de NPs. En general, éste puede descomponerse en una componente coherente ---respuesta promedio con una dirección de propagación bien definida--- y una componente difusa ---causada por las fluctuaciones y cuya propagación es en todas las direcciones--- \cite{tsang2000scattering}. Para definir los coeficientes de amplitud de reflexión y transmisión de la manera usual, se toma en cuenta  únicamente la componente coherente al asumir que la difusa es mucho menor que la coherente. Asimismo, primero se calculan los coeficientes de amplitud de reflexión y transmisión de una monocapa de NPs suspendida en el espacio libre (Free Standing Monolayer, FSM), es decir, inmersa en un medio dieléctrico denominado matriz, seguido del efecto de introducir una interfaz con un medio denominado sustrato. La reflectancia del sistema sustrato-matriz-monocapa se resuelve al considerar  multiples reflexiones en la interfaz entre las superficies dadas por la interfaz sutrato-matriz y matriz-monocapa. Este acercamiento evita el  cálculo de la contribución de partículas \emph{imagen} causadas por la  interfaz entre los dieléctricos y es consistente con la aproximación de campo efectivo ---en donde el campo eléctrico local es aproximado por el campo eléctrico promedio--- \cite{reyes2018analytical}.
+ 
+\subsection{Monocapa suspendida en el espacio libre}
+ 
+Para calcular los coeficientes de amplitud de reflexión y transmisión del CSM se calcula el campo eléctrico promedio esparcido por las NPs dentro de la región del espacio, caracterizado en su totalidad por el índice de refracción real $n_m$, delimitada por  $-d/2<z<d/2$, una placa de longitud $d$ y volumen $V$, en donde se encuentran $N$ NPs esféricas e idénticas y distribuidas espacialmente de forma aleatoria. Si una onda plana $\vb{E}^i = E_0 e^{i\vb{k}^i\cdot\vb{r}}\vu{e}_i$, donde se omite la dependecia temporal, y donde $\vu{e}_i$ es un vector en el plano de polarización de la onda plana y $|\vb{k}^i| = k = 2\pi n_m /\lambda$, incide sobre la placa, el campo eléctrico esparcido  por las NPs dentro de la placa $\vb{E}^s$, al suponer que la densidad $N/V$ es baja, puede calcularse bajo la aproximación de esparcidor individual (Single Scatterer Approximation, SSA), en donde cada NP esparce la luz sin considerar la interacción entre el campo eléctrico esparcido por las otras \cite{barrera2003coherent}. 
+
+\begin{figure}[h!]\centering
+	\begin{tikzpicture}[scale=1]
+\def\a{.15}
+\def\d{.75}
+%----------------------NPs--------------
+\foreach \y in {-4.5,-3.5,...,3.5,4.5}{
+\fill[ball color=yellow, opacity=1] (\y+rand*.5,rand*.45) circle(\a) node[ ]{.};
+}
+
+%----------------------difussed scattered field--------------
+\begin{scope}[opacity=.25, transparency group]
+\foreach \s in {-1,1}{
+	\draw[- latex, red, line width=2.5](0,\s*\d)++(25:\s*1.75)--(35+rand*5:\s*3.5);
+	\draw[- latex, red, line width=2.5](0,\s*\d)++(35:\s*1.3)--(55+rand*5:\s*2.75);
+	\draw[- latex, red, line width=2.5](0,\s*\d)++(165:\s*2)--(155+rand*5:\s*3);
+	\draw[- latex, red, line width=2.5](0,\s*\d)++(120:\s*1.75)--(110+rand*5:\s*3.5);
+	\draw[- latex, red, line width=2.5](0,\s*\d)++(60:\s*1.5)--(60+rand*5:\s*4);}
+\end{scope}
+
+%----------------------coherent scattered field--------------
+\draw[latex -, thick, red, line width=2.5](135:1)--(135:4) node[anchor=south west]{$\vb{k}^i$};
+\draw[- latex, thick, red, line width=2.5](45:1)--(45:4)node[anchor=north west]{$\vb{k}_{coh}^r$};
+\draw[ - latex, thick, red, line width=2.5](-45:1.75)--(-45:3.75) node[anchor=south west]{$\vb{k}_{coh}^t$};
+
+%----------------------Main system--------------
+\draw[- latex, thick, blue] (0,0)--(90:2) node[anchor = south]{$z$};
+\draw[- latex, thick, blue] (0,0)--(-90:2) node[anchor = north]{$-z$};
+\draw[- latex, thick, blue] (0,0)--(0:2) node[anchor = north]{$y$};
+\path (0,0)++(135/2:1.5)node[anchor=south west, blue]{$\theta$}; 
+\draw[- latex, thick, blue](90:1.5)arc(90:45:1.5);
+\path (0,0)++(-135/2:1.5)node[anchor=north west, blue]{$\theta$}; 
+\draw[- latex, thick, blue](-90:1.5)arc(-90:-45:1.5);
+\path (0,0)++(90+45/2:1.5)node[anchor=south east, blue]{$\theta$}; 
+\draw[- latex, thick, blue](90:1.5)arc(90:135:1.5);
+
+----------------------Mie system--------------
+\draw[- latex, thick, purple] (0,0)--(-45:1.75) node[anchor = south west]{$z'$};
+\draw[- latex, thick, purple] (0,0)--(-135:1.75) node[anchor = south east]{$y'$};
+\path (0,0)++(30:1.5)node[anchor=south west, purple]{$\vartheta$}; 
+\path (0,0)++(30:1.5)node[anchor=south west, blue]{$\;\;\; =  \pi - 2\theta$}; 
+\draw[latex - latex, thick, purple](-45:1.5)arc(-45:45:1.5);
+
+%----------------------thickness and slab-------------
+\draw[thick, dashed] (-5,-\d) rectangle (5,\d);
+\draw[thick, dashed] (-5, 0) --  (5,0);
+\draw[ |-|, thick,] (5.5,-\d) node[anchor = north]{$z=-d/2$} -- (5.5,\d) node[anchor = south]{$z=d/2$};
+\node at (-4.5,1) {$\; n_m$};
+\end{tikzpicture}
+	\caption{  Película de grosor $d$ con y volumen $V$ con $N$ partículas esféricas idénticas y una onda incidente en la dirección $\vb{k}^i$. La dirección de los campos esparcidos coeherentes están dadas por $\vb{k}^r_{coh}$ y $\vb{k}^t_{coh}$. Las flechas rojas sólidas representan las componentes coehrentes del campo esparcido mientras que las rosas represetan su componente difusa. }\label{fig:CSM-Slab}
+	\end{figure}
+
+
+Al considerar la interacción del campo eléctrico incidente con las $N$ NPs dentro de la placa, el campo eléctrico esparcido por todas las partículas tiene componentes espaciales en todas las direcciones, por lo que le campo eléctrico esparcido puede descomponerse en una componente coherente y una difusa. El  campo eléctrico esparcido promedio $\langle \vb{E}^s\rangle$, que corresponde a la componente coherente, se calcula al considerar el promedio espacial de las NPs dentro de la placa al suponer que la posición de una NPs es independiente de la de las demás y que la probabilidad de encontrar el centro de una NPs, punto negro dentro de las NPs en la Fig. \ref{fig:CSM-Slab},  dentro del volumen de la placa es uniforme, por lo que la componente coherente del campo esparcido es  \cite{garcia2012multiple} 
+	\begin{equation}
+	\langle \vb{E}^s\rangle =
+	\begin{dcases} 
+	      \langle \vb{E}^s_{r,SSA}\rangle e^{i\vb{k}^r_{coh}\cdot\vb{r}} =
+	    			i \frac{N}{V}  \frac{d E_0}{2} \frac{\sin(k_z^id)}{k_z^i d} 
+				\frac{\mathbb{F}(\vu{k}^r,\vu{k}^i)\cdot \vu{e}_i}{k_z^i }	e^{i\vb{k}^r_{coh}\cdot\vb{r}},									& d/2<z \\
+      \langle \vb{E}^s_{t,SSA}\rangle e^{i\vb{k}^t_{coh}\cdot\vb{r}} =
+ 				i\frac{N}{V} \frac{d E_0}{2}\frac{\mathbb{F}(\vu{k}^i,\vu{k}^i)\cdot \vu{e}_i}{k_z^i}		
+				e^{i\vb{k}^t_{coh}\cdot\vb{r}},
+							& z<-d/2
+   \end{dcases}
+   	\label{eq:AvErEt}
+	\end{equation}
+en donde $k^i_z = k^i\cos\theta$; $\vb{k}^i$ es el vector de onda del campo eléctrico incidente $\vb{E}^i = \vb{E}_0 e^{i\vb{k}^i\cdot\vb{r}}$, polarizado en la dirección $\vu{e}_i$; $\vb{k}^r_{coh}$ es la dirección de propagación de la componente coherente reflejada; $\vb{k}^t_{coh}=\vb{k}^i$, de la componente coherente transmitida; y $\mathbb{F}$ es la diadica de esparcimiento de campo lejano [Ec. \eqref{eq:FarFieldDyadic}] que depende de la dirección de propagación de la onda plana incidente $\vb{k}^i$ y la del campo esparcido $\vb{k}^s$; el término de $\mathbb{F}$ no limita la solución del campo eléctrico esparcido promedio al campo lejano puesto que es un resultado derivado del promediar la respuesta EM \cite{gutierrez2012overview}. En la Fig, \ref{fig:CSM-Slab} se observa que la dirección de propagación de  $\langle \vb{E}^s_{r,SSA}\rangle$ en $d/2<z$ y la de $\langle \vb{E}^s_{t,SSA}\rangle$ en  $z<-d/2$ es de $\theta$ respecto a la dirección normal a la monocapa (sitema coordenado azul). Asimismo, se muestra en rojo claro la componente difusa del campo eléctrico esparcido que, al calcular el campo esparcido promedio, es nula. A diferencia la componente difusa, la componente coherente del campo eléctrico esparcido es distinta de cero ya que los campos eléctricos esparcidos por cada NP en la placa interfieren constructivamente en las direcciones de esparcimiento $\vu{k}^s =\vu{k}^i=\vu{k}^t_{coh}$ y $\vu{k}^s =\vu{k}^r_{coh}$ \cite{garcia2012multiple}. Puesto que las NPs dentro de la placa son esféricas e idénticas, se calcula la expresión de la diadica de esparcimiento $\mathbb{F}(\vu{k}^s,\vu{k}^i)$ al comparar su expresión general [Ec. \eqref{eq:FarFieldDyadic}] con la matriz de esparcimiento de Mie [Ec. \eqref{eq:MieMatrix}], por lo que la diadica de esparcimiento de campo lejano es
+	\begin{equation}
+	\mathbb{F}(\vu{k}^s,\vu{k}^i) = \frac{1}{-ik} 
+	 \mqty(S_2(\vartheta) & 0 \\ 0 & S_1(\vartheta)),
+	 \label{eq:FFDydadic-Mie}
+	\end{equation}
+en donde ángulo entre la dirección del campo esparcido $\vu{k}^s$ y del campo incidente $\vu{k}^i$, se denota con $\vartheta$ que toma los valores $\vartheta = 0$ para $\vu{k}^s = \vu{k}^t_{coh}$ y $\vartheta = \pi-2\theta$  para $\vu{k}^s = \vu{k}^r_{coh}$ como se observa en la Fig. \ref{fig:CSM-Slab}.
+	
+Al sustituir la Ec. \eqref{eq:FFDydadic-Mie} en la Ec. \eqref{eq:AvErEt} y multiplicar las expresiones resultantes por $(3ka^3)/(3ka^3)$, con $a$ el radio de las NPs y $k = 2\pi n_m /\lambda$, y agrupar términos, se llegan a las expresiones 
+	\begin{subequations}\begin{align}
+		\langle \vb{E}^s_{r,SSA}\rangle & = - \frac{E_0}{\cos\theta_i} \frac32  \qty(\frac{N}{V} \frac43\pi a^3)\frac{kd}{(ka)^3}   \frac{\sin(k_z^id)}{k_z^i d}  S_n(\vartheta)\vu{e}_i =
+		-\alpha  \frac{\sin(k_z^id)}{k_z^i d}   S_n(\vartheta) \vb{E}_0,
+		\label{eqs:EsSSAr}\\
+	\langle \vb{E}^s_{t,SSA}\rangle &=  - \frac{E_0}{\cos\theta_i} \frac32
+						 \qty(\frac{N}{V}\frac43\pi a^3  ) \frac{kd}{(ka)^3}  S_n(0) \vu{e}_i  
+						 = - \alpha S(0) \vb{E}_0
+		\label{eqs:EsSSAt}
+	\end{align}\label{eq:EsSSA}\end{subequations}
+donde  se emplea $n=1$ para polarización $s$ y $n_2$ para $p$ en las entradas no nulas de la matriz de esparcimiento de Mie $S_n(\vartheta)$ y donde se define $S(0) \equiv S_1(0)=S_2(0)$. Al sustituir con el parámetro de tamaño $x=ka$ se obtiene que  
+\begin{equation*}
+	\alpha \equiv \frac32 \qty(\frac{N}{V}\frac43 \pi a^3  )\frac{kd}{x^3\cos\theta_i)} = \frac32\frac{kd}{ x^3\cos\theta_i} f,
+	\end{equation*}
+con $f= N 4\pi a^3/(3V)$ la fracción de llenado que es el cociente entre el neto de las NPs entre el volumen de la placa. Si se considera el límite $d\to 0$, lo que equivale a tener una monocapa de partículas esféricas desordenadas y al asumir que la componente difusa del campo esparcido por las partículas es despreciable en comparación a la componente coherente, es posible definir los coeficientes de amplitud de reflexión y transimisión en la SSA a partir de las Ecs. \eqref{eq:EsSSA} como \vspace*{-.5em}	
+	
+	\begin{subequations}\eqhalf{r_{coh}^{SSA} = -\alpha S_n(\vartheta),}
+	\eqhalf{t_{coh}^{SSA} = 1 - \alpha S(0), }
+	\label{eq:rtcohSSA}\end{subequations}\vspace*{-.5em}	
+	
+\noindent en donde para el coeficiente de amplitud de transmisión se suma la contribución de la onda plana a la Ec. \eqref{eqs:EsSSAt}, y al considerar que $V = A d$, el coeficiente $\alpha$ se reescribe como
+	\begin{equation}
+	\alpha = \frac{2\Theta}{x^2 \cos\theta_i}
+	\label{eq:alpha}
+	\end{equation}
+donde $\Theta = N \pi a^2 / A$ es la fracción de cubierta que corresponde al área proyectada por las esferas sobre el área de la placa. Al analizar  las Ecs. \eqref{eq:rtcohSSA} y \eqref{eq:alpha}, para ángulos rasantes $\theta\to \pi/2$ se observa que $\alpha\to \infty$, además de que para partículas pequeñas $x\ll 1$ el producto $r_{coh}^{SSA}r_{coh}^{SSA*}$ puede tomar valores mayores a la unidad. Por tanto los coeficientes de amplitud calculadas a partir de la SSA son válidos únicamente para ángulos de incidencia no rasantes y para partículas grandes. 
+
+Para calcular coeficientes de amplitud a partir de la SSA pero que no estén límitados a ángulos de incidencia bajos ni al tamaño de las partículas que conforman a la monocapa, se deben considerar contribuciones de esparcimiento múltiple (Multiple Scattering, MS) en el cálculo del campo eléctrico $\vb{E}^{exc}$  que excita a las partículas dentro de la placa, el cual se puede descomponer como 
+	\begin{equation}
+	\vb{E}^{exc} = \vb{E}^{exc}_{t} e^{i\vb{k}^t_{coh}\cdot\vb{r}}+
+					\vb{E}^{exc}_{r} e^{i\vb{k}^r_{coh}\cdot\vb{r}}
+	\end{equation}
+donde  $\vb{E}^{exc}_t$ tiene la misma polarización y dirección de propagación de $\langle \vb{E}^s_{t,SSA}\rangle$  y $\vb{E}^{exc}_{r}$, de $\langle \vb{E}^s_{r,SSA}\rangle$, de las Ecs. \eqref{eq:EsSSA}, como se observa en la Fig. \ref{fig:MScatt-slab-MS}. Entonces, el campo eléctrico esparcido promedio considerando el MS $\vb{E}^s_{MS}$, toma en cuenta  las reflexiones y transmisiones de $\vb{E}^{exc}$ según las Ecs. \eqref{eq:EsSSA} en el límite $d\to 0$ \cite{gutierrez2012overview}, y la contribución del campo eléctrico incidente $\vb{E}^i$, por lo que  \cite{reyes2018analytical}
+	\begin{subequations}\begin{align}
+		\langle \vb{E}^s_{r,coh}\rangle & =	\langle \vb{E}^s_{r,MS}\rangle
+					= \qty[-\alpha S_n(\vartheta)E^{exc}_t -\alpha S(0)E^{exc}_r
+					]\vu{e}_i e^{i\vb{k}^r_{coh}\cdot\vb{r}},\\
+		\langle \vb{E}^s_{t,coh}\rangle & =\vb{E}^i+\langle\vb{E}^s_{r,MS}\rangle
+					= \qty[E_0 -\alpha S(0)E^{exc}_t 
+					-\alpha	 S_n(\vartheta)E^{exc}_r
+					]\vu{e}_i e^{i\vb{k}^t_{coh}\cdot\vb{r}}.
+	\end{align} \label{eq:EsMS}\end{subequations}
+
+	\begin{figure}[h!]\centering
+		\begin{tikzpicture}[scale=1]
+\def\a{.15}
+\def\d{.75}
+
+%----------------------NPs--------------
+\foreach \y in {-4.5,-4.5,-2.5,-1.5,-.5,.5,1.5,3.5,4,4.5}{
+\fill[ball color=yellow, opacity=1] (\y+rand*.5,rand*\d) circle(\a) node[ ]{.};
+}
+
+%----------------------averged fields ---------------------
+\draw[latex -, thick, red, line width=2.5](135:1)--(135:4) node[anchor=south west]{$\vb{E}^i$};
+\draw[- latex, thick, red, line width=2.5](45:\d+.5)--(45:4)node[anchor=north west]{$\langle\vb{E}_{r,MS}^s\rangle$};
+\draw[ - latex, thick, red, line width=2.5](-45:1.75)--(-45:3.75) node[anchor=south west]{$\langle\vb{E}_{t,MS}^s\rangle$};
+
+%---------------------- Exciting fields ---------------------
+\draw[- latex , thick,  orange, line width=2.5,shift ={(-3,0)}](152:1.2)node[anchor= north west]{$\;\;\vb{E}^{exc}_t$}--(250:\d);
+\draw[latex - , thick, orange, line width=2.5,shift ={(2,0)}](28:1.2)--(-70:\d) node[anchor= south west]{$\;\;\vb{E}^{exc}_r$};
+
+%-------------- reflected and transmitted exciting fields UP ---------------------
+\draw[latex - , thick, orange, line width=2.5,shift={(2.5, 0)}](-45:3.75)--(-45:1.75) node[anchor=north west]{$\;\;\;\;-\alpha S_n(\vartheta)\vb{E}^{exc}_r$};
+\draw[latex - , thick, orange, line width=2.5,shift={(-4, 0)}](-45:3.75)--(-45:1.75) node[anchor=north west]{$\;\;\;\;-\alpha S(0)\vb{E}^{exc}_t$};
+
+%-------------reflected and transmitted exciting fields DOWN ---------------------
+\draw[latex -, thick, orange, line width=2.5,shift={(2.5, 0)}](45:4)--(45:2)node[anchor=south west]{$\;\;\;\;-\alpha S(0) \vb{E}^{exc}_r$};
+\draw[latex -, thick, orange, line width=2.5,shift={(-5, 0)}](45:3.25)--(45:\d+.5)node[anchor=south west]{$\;\;\;\;-\alpha S_n(\vartheta) \vb{E}^{exc}_t$};
+
+%----------------------main system---------------------
+\draw[- latex, thick, blue] (0,0)--(90:2) node[anchor = south]{$z$};
+\draw[- latex, thick, blue] (0,0)--(0:2) node[anchor = north]{$y$};
+\path (0,0)++(135/2:1.5)node[anchor=south west, blue]{$\theta$}; 
+\draw[- latex, thick, blue](90:1.5)arc(90:45:1.5);
+\path (0,0)++(90+45/2:1.5)node[anchor=south east, blue]{$\theta$}; 
+\draw[- latex, thick, blue](90:1.5)arc(90:135:1.5);
+
+%----------------------Mie system---------------------
+\draw[- latex, thick, purple] (0,0)--(-45:1.75) node[anchor = south west]{$z'$};
+\draw[- latex, thick, purple] (0,0)--(-135:1.75) node[anchor = south east]{$y'$};
+\path (0,0)++(30:1.5)node[anchor=south west, purple]{$\vartheta$}; 
+\path (0,0)++(30:1.5)node[anchor=south west, blue]{$\;\;\; =  \pi - 2\theta$}; 
+\draw[- latex, thick, purple](-45:1.5)arc(-45:45:1.5);
+
+%----------------------thickness and slab ---------------------
+\draw[thick, dashed] (-5,-\d) rectangle (5,\d);
+\draw[thick, dashed] (-5, 0) --  (5,0);
+\draw[ |-|, thick,] (5.5,-\d) node[anchor = north]{$z=-d/2$} -- (5.5,\d) node[anchor = south]{$z=d/2$};
+\node at (-4.5,1) {$\; n_m$};
+\end{tikzpicture}
+		\caption{  Película de grosor $d\to 0$ con y volumen $V$ con $N$ partículas esféricas idénticas y una onda incidente en la dirección $\vb{k}^i$. La dirección de los campos esparcidos coeherentes están dadas por $\vb{k}^r_{coh}$ y $\vb{k}^t_{coh}$. Las flechas rojas sólidas representan las componentes coehrentes del campo esparcido mientras que las rosas represetan su component difusa. }\label{fig:MScatt-slab-MS}
+	\end{figure}	
+	
+	
+Para determinar la expresión del campo eléctrico que excita a las NPs en la placa $\vb{E}^{exc}$ considerando el MS\footnote{El procedimiento descrito en este texto emplea un enfoque heurístico que se publicó en \cite{reyes2018analytical} sin emabargo, un enfoque más riguroso se encuentra en \cite{barrera2003coherent}.}, se divide la placa donde se encuentras las NPs en dos de grosor $d/2$, y se calcula el promedio de  $\vb{E}^{exc}$ en la interfaz entre las dos placas ($z=0$) mediante autoconsistencia, por lo que las NPs en la placa no sólo son iluminadas por el campo eléctrico incidente $\vb{E}^i$, sino también por $\vb{E}^{exc}$ \cite{reyes2018analytical}. La componente de $\vb{E}^{exc}$ que se propaga en la dirección del campo eléctrico incidente $\vb{E}^{exc}_{t}$ se calcula como el campo incidente más los campos esparcidos por las NPs es la placa superior ($0<z<d/2$) que son  igual a la suma del la transmisión del campo $E^{exc}_t$ y a la reflexión del campo $E^{exc}_r$ por la placa superior, es decir,
+	\begin{subequations}\begin{equation}
+		\vb{E}^{exc}_t  e^{i\vb{k}^i\cdot\vb{r}}  =
+				\qty[E_0  - \frac12 \qty(
+					\alpha S(0)E^{exc}_t + \alpha S_n(\vartheta)E^{exc}_r
+				)] e^{i\vb{k}^t_{coh}\cdot\vb{r}}  \vu{e}_i.
+	\end{equation}
+donde el factor de $1/2$ considera que es la respuesta promedio dentro de la placa. Asimismo, el campo $\vb{E}^{exc}_{r}$ se calcula como la reflexión  del campo $E^{exc}_t$ y a la transmisión del campo $E^{exc}_r$ por la placa inferior ($-d/2<z<0$), por lo que su expresión es	
+	\begin{equation}
+	\vb{E}^{exc}_r  e^{i\vb{k}^r\cdot\vb{r}}  =
+				\qty[- \frac12 \qty(
+					\alpha S_n(\vartheta)E^{exc}_t + \alpha S(0)E^{exc}_r
+				)] e^{i\vb{k}^r_{coh}\cdot\vb{r}}  \vu{e}_i.
+	\end{equation} \label{eq:Eexc}\end{subequations}
+En la Fig. \ref{fig:Eexc} se muestra una representación gráfica de las Ecs. \eqref{eq:Eexc}, que són válidas únicamente en $-d/2<z<d/2$.
+
+\begin{figure}[h!]\centering
+	\begin{tikzpicture}[scale=1]
+\def\a{.15}
+\def\d{.75}
+
+%\foreach \y in {-4.5,-3.5,-2.5,-.5,.5,2.5,3.5,4.5}{
+%\fill[ball color=yellow, opacity=1] (\y+rand*.5,rand*\d) circle(\a) node[ ]{.};
+%}
+
+
+\draw[latex -, thick, red, line width=2.5](135:1)--(135:4) node[anchor=south west]{$\vb{E}^i$};
+\draw[- latex, thick, red, line width=2.5](45:\d+.5)--(45:4)node[anchor=north west]{$\langle\vb{E}_{r,MS}^s\rangle$};
+\draw[ - latex, thick, red, line width=2.5](-45:1.75)--(-45:3.75) node[anchor=south west]{$\langle\vb{E}_{t,MS}^s\rangle$};
+
+%---------------------- Exciting transmitted field ---------------------
+\draw[latex - , thick,  orange, line width=2.5,shift={(-3., 0)}](250:\d)--(152:1.2) node[anchor= north east]{$\vb{E}^{exc}_t$};
+
+\draw[- latex , thick,  orange, line width=2.5, shift={(-2.5, 0)}](180:\d)--(250:\d) node[anchor= south west]{$-\frac{\alpha}{2} S(0)\vb{E}^{exc}_t$};
+\draw[- latex , thick,  orange, line width=2.5, shift={(-2.5, 0)}](180:\d)--(110:\d) node[anchor= north west]{$-\frac{\alpha}{2} S_n(\vartheta)\vb{E}^{exc}_t$};
+
+%---------------------- Exciting reflected field ---------------------
+\draw[ latex -, thick, orange, line width=2.5,shift={(1.25, 0)}](28:1.2)--(-70:\d) node[anchor= south east]{$\vb{E}^{exc}_r$};
+
+\draw[- latex , thick,  orange, line width=2.5, shift={(3., 0)}](180:\d)--(250:\d) node[anchor= south west]{$-\frac{\alpha}{2} S_n(\vartheta)\vb{E}^{exc}_r$};
+\draw[- latex , thick,  orange, line width=2.5, shift={(3., 0)}](180:\d)--(110:\d) node[anchor= north west]{$-\frac{\alpha}{2}S(0)\vb{E}^{exc}_r$};
+
+%----------------------Main system---------------------
+\draw[- latex, thick, blue] (0,0)--(90:2) node[anchor = south]{$z$};
+\draw[- latex, thick, blue] (0,0)--(0:2) node[anchor = north]{$y$};
+\path (0,0)++(135/2:1.5)node[anchor=south west, blue]{$\theta$}; 
+\draw[- latex, thick, blue](90:1.5)arc(90:45:1.5);
+\path (0,0)++(90+45/2:1.5)node[anchor=south east, blue]{$\theta$}; 
+\draw[- latex, thick, blue](90:1.5)arc(90:135:1.5);
+
+%----------------------Mie system---------------------
+\draw[- latex, thick, purple] (0,0)--(-45:1.75) node[anchor =south west]{$z'$};
+\draw[- latex, thick, purple] (0,0)--(-135:1.75) node[anchor =south east]{$y'$};
+\path (0,0)++(30:1.5)node[anchor=south west, purple]{$\vartheta$}; 
+\path (0,0)++(30:1.5)node[anchor=south west, blue]{$\;\;\; =  \pi - 2\theta$}; 
+\draw[- latex, thick, purple](-45:1.5)arc(-45:45:1.5);
+
+%----------------------thickness and slab ---------------------
+\draw[thick, dashed] (-5,-\d) rectangle (5,\d);
+\draw[thick, dashed] (-5, 0) --  (5,0);
+\draw[ |-|, thick,] (5.5,-\d) node[anchor = north]{$z=-d/2$} -- (5.5,\d) node[anchor = south]{$z=d/2$};
+\node at (-4.5,1) {$\; n_m$};
+
+\end{tikzpicture}
+	\caption{  Película de grosor $d\to 0$ con y volumen $V$ con $N$ partículas esféricas idénticas y una onda incidente en la dirección $\vb{k}^i$. La dirección de los campos esparcidos coeherentes están dadas por $\vb{k}^r_{coh}$ y $\vb{k}^t_{coh}$. Las flechas rojas sólidas representan las componentes coehrentes del campo esparcido mientras que las rosas represetan su componente difusa. }\label{fig:Eexc}
+	\end{figure}	
+	
+
+Al resolver para $E^{exc}_t$ y $E^{exc}_r$ se obtienen las expresiones
+	\begin{align}
+	\vb{E}^{exc}_t  &= \frac{\qty[1+\frac12\alpha S(0)]}
+				{1+\alpha S(0) +\frac14\alpha^2\qty[S^2(0)-S_n^2(\vartheta)]}\vb{E}_0,\\
+	\vb{E}^{exc}_r  &= \frac{-\frac12\alpha S_n(\vartheta)}
+				{1+\alpha S(0) +\frac14\alpha^2\qty[S^2(0)-S_n^2(\vartheta)]}\vb{E}_0.
+	\end{align}
+por lo que, al sustituilas en las expresiones de los campos esparcidos promedio reflejados y transmitidos [Ecs. \eqref{eq:EsMS}] se obtienen
+	\begin{align*}
+	\langle \vb{E}^s_{r,coh}\rangle &=
+			\frac{-\alpha S_n(\vartheta)}{1+\alpha S(0)+\frac14 \alpha^2 \left[S^2(0)-S_n^2 (\vartheta) \right]} \vb{E}_0 e^{i\vb{k}^r_{coh}\cdot\vb{r}},\\
+	\langle \vb{E}^s_{r,coh}\rangle &=
+			\frac{1-\frac14\alpha^2\qty[S^2(0)-S_n^2(\vartheta)]}{1+\alpha S(0)+\frac14 \alpha^2 \left[S^2(0)-S_n^2 (\vartheta) \right]} \vb{E}_0 e^{i\vb{k}^t_{coh}\cdot\vb{r}},
+	\end{align*}
+de donde es posible calcular los coeficientes de amplitud del CSM al considerar que $\vartheta = \pi-2\theta$, que el campo eléctrico que excita a las NPs toma en cuenta el esparcimiento múltiple y que la componente coherente del campo esparcido es mucho mayor que la contribución de la componente difusa, dando como resultado \vspace*{-.5em}
+	\begin{subequations}\begin{tcolorbox}[title = Coeficientes de amplitud del CSM, ams align, breakable ]
+	r_{coh}&=\frac{-\alpha S_n(\pi-2\theta)}
+				{1+\alpha S(0)+\frac14 \alpha^2 \left[S^2(0)-S_n^2 (\pi-2\theta) \right]},
+			\label{eqs:rcoh}\\
+	t_{coh}&=\frac{1-\frac14\alpha^2\qty[S^2(0)-S_n^2(\pi-2\theta)]}
+				{1+\alpha S(0)+\frac14 \alpha^2 \left[S^2(0)-S_n^2 (\pi-2\theta) \right]}.
+		\label{eqs:tcoh}
+	\end{tcolorbox}\label{eq:rtcoh}\end{subequations}\vspace*{-.5em}\noindent
+
+
 	 \subsection{Monocapa sobre un sustrato}
 	 	Desarrollo de las multiples reflexiones dentro del sistema

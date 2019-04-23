@@ -19,52 +19,47 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: tesis-blx.bib
 Database file #2: 06-Bibliografia/references.bib
-You're missing a field name---line 159 of file 06-Bibliografia/references.bib
- : @article{barrera2003coherent, 
- :                               %RubenYaugusto
-I'm skipping whatever remains of this entry
 Biblatex version: 3.8
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 21 entries,
+You've used 30 entries,
             6268 wiz_defined-function locations,
-            1312 strings with 12047 characters,
-and the built_in function-call counts, 116881 in all, are:
-= -- 8333
-> -- 2531
-< -- 794
-+ -- 2697
-- -- 895
-* -- 7678
-:= -- 10784
+            1375 strings with 14401 characters,
+and the built_in function-call counts, 184883 in all, are:
+= -- 13424
+> -- 3848
+< -- 1130
++ -- 4387
+- -- 1439
+* -- 12914
+:= -- 17774
 add.period$ -- 0
-call.type$ -- 21
-change.case$ -- 551
+call.type$ -- 30
+change.case$ -- 724
 chr.to.int$ -- 40
-cite$ -- 40
-duplicate$ -- 11700
-empty$ -- 11011
-format.name$ -- 1417
-if$ -- 24897
+cite$ -- 58
+duplicate$ -- 18222
+empty$ -- 17196
+format.name$ -- 2315
+if$ -- 38934
 int.to.chr$ -- 0
-int.to.str$ -- 59
+int.to.str$ -- 83
 missing$ -- 0
-newline$ -- 594
-num.names$ -- 1201
-pop$ -- 6895
+newline$ -- 935
+num.names$ -- 1673
+pop$ -- 10141
 preamble$ -- 1
-purify$ -- 660
+purify$ -- 928
 quote$ -- 0
-skip$ -- 4338
+skip$ -- 6270
 stack$ -- 0
-substring$ -- 13920
-swap$ -- 2926
-text.length$ -- 463
-text.prefix$ -- 3
+substring$ -- 23455
+swap$ -- 4443
+text.length$ -- 715
+text.prefix$ -- 2
 top$ -- 1
-type$ -- 699
+type$ -- 1005
 warning$ -- 0
-while$ -- 1158
+while$ -- 1890
 width$ -- 0
-write$ -- 574
-(There was 1 error message)
+write$ -- 906

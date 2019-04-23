@@ -22,7 +22,7 @@
       {{hash=GDJ}{%
          family={Griffiths},
          familyi={G\bibinitperiod},
-         given={David\bibnamedelima J},
+         given={David\bibnamedelima Jeffrey},
          giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
       }}%
     }
@@ -224,22 +224,56 @@
     \field{year}{2009}
   \endentry
 
+  \entry{tsang2000scattering}{book}{}
+    \name{author}{3}{}{%
+      {{hash=TL}{%
+         family={Tsang},
+         familyi={T\bibinitperiod},
+         given={Leung},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=KJA}{%
+         family={Kong},
+         familyi={K\bibinitperiod},
+         given={Jin\bibnamedelima Au},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=DKH}{%
+         family={Ding},
+         familyi={D\bibinitperiod},
+         given={Kung-Hau},
+         giveni={K\bibinitperiod-H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {John Wiley \& Sons}%
+    }
+    \strng{namehash}{TLKJADKH1}
+    \strng{fullhash}{TLKJADKH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Scattering of electromagnetic waves: theories and
+  applications}
+    \field{year}{2000}
+  \endentry
+
   \entry{arfken2001methods}{book}{}
     \name{author}{1}{}{%
-      {{hash=GBAyHJW}{%
-         family={G.\bibnamedelima B.\bibnamedelima Arfken},
-         familyi={G\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim
-  A\bibinitperiod},
-         given={y\bibnamedelima H. J.\bibnamedelima Weber},
-         giveni={y\bibinitperiod\bibinitdelim H\bibinitperiod
-  J\bibinitperiod\bibinitdelim W\bibinitperiod},
+      {{hash=AHJGByW}{%
+         family={Arfken},
+         familyi={A\bibinitperiod},
+         suffix={George Brown y\bibnamedelima Weber},
+         suffixi={G\bibinitperiod\bibinitdelim B\bibinitperiod
+  y\bibinitperiod\bibinitdelim W\bibinitperiod},
+         given={Hans\bibnamedelima J},
+         giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
       {Harcourt Academic Press}%
     }
-    \strng{namehash}{GBAyHJW1}
-    \strng{fullhash}{GBAyHJW1}
+    \strng{namehash}{AGByWHJ1}
+    \strng{fullhash}{AGByWHJ1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{title}{Mathematical methods for physicists}
@@ -247,21 +281,25 @@
   \endentry
 
   \entry{kreibig1995clusters}{book}{}
-    \name{author}{1}{}{%
-      {{hash=yMVUK}{%
-         prefix={y},
-         prefixi={y},
-         family={M.\bibnamedelima Vollmer.},
-         familyi={M\bibinitperiod\bibinitdelim V\bibinitperiod},
-         given={U.\bibnamedelima Kreibig},
-         giveni={U\bibinitperiod\bibinitdelim K\bibinitperiod},
+    \name{author}{2}{}{%
+      {{hash=KU}{%
+         family={Kreibig},
+         familyi={K\bibinitperiod},
+         given={Uwe},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=VM}{%
+         family={Vollmer},
+         familyi={V\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
       {Springer}%
     }
-    \strng{namehash}{yMVUK1}
-    \strng{fullhash}{yMVUK1}
+    \strng{namehash}{KUVM1}
+    \strng{fullhash}{KUVM1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{title}{Optical Properties of Metal Clusters}
@@ -391,8 +429,8 @@
       {{hash=CRW}{%
          family={Christy},
          familyi={C\bibinitperiod},
-         given={R-W\_},
-         giveni={R\bibinitperiod-W\bibinitperiod},
+         given={R\bibnamedelima W},
+         giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
@@ -504,6 +542,35 @@
     \field{year}{2014}
   \endentry
 
+  \entry{ashcroft1976solid}{book}{}
+    \name{author}{2}{}{%
+      {{hash=AN}{%
+         family={Ashcroft},
+         familyi={A\bibinitperiod},
+         given={N.W.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=MN}{%
+         family={Mermin},
+         familyi={M\bibinitperiod},
+         given={N.D.},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Saunders College}%
+    }
+    \strng{namehash}{ANMN1}
+    \strng{fullhash}{ANMN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Solid State Physics}}
+    \list{location}{1}{%
+      {Philadelphia}%
+    }
+    \field{year}{1976}
+  \endentry
+
   \entry{svetovoy2008optical}{article}{}
     \name{author}{4}{}{%
       {{hash=SVB}{%
@@ -556,16 +623,15 @@
 
   \entry{maciel2017momentum}{thesis}{}
     \name{author}{1}{}{%
-      {{hash=ECAM}{%
-         family={Escudero},
-         familyi={E\bibinitperiod},
-         given={Carlos Alberto\bibnamedelima Maciel},
-         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
-  M\bibinitperiod},
+      {{hash=MCA}{%
+         family={{Maciel Escudero}},
+         familyi={M\bibinitperiod},
+         given={Carlos\bibnamedelima Alberto},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{ECAM1}
-    \strng{fullhash}{ECAM1}
+    \strng{namehash}{MCA1}
+    \strng{fullhash}{MCA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{title}{Linear momentum transfer from swift electrons to small
@@ -604,6 +670,287 @@
     }
     \field{type}{phdthesis}
     \field{year}{1998}
+  \endentry
+
+  \entry{jain2008noble}{article}{}
+    \name{author}{4}{}{%
+      {{hash=JPK}{%
+         family={Jain},
+         familyi={J\bibinitperiod},
+         given={Prashant\bibnamedelima K},
+         giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=HX}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Xiaohua},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=ESIH}{%
+         family={El-Sayed},
+         familyi={E\bibinitperiod-S\bibinitperiod},
+         given={Ivan\bibnamedelima H},
+         giveni={I\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=ESMA}{%
+         family={El-Sayed},
+         familyi={E\bibinitperiod-S\bibinitperiod},
+         given={Mostafa\bibnamedelima A},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACS Publications}%
+    }
+    \strng{namehash}{JPKHXESIHESMA1}
+    \strng{fullhash}{JPKHXESIHESMA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{12}
+    \field{pages}{1578\bibrangedash 1586}
+    \field{title}{Noble metals on the nanoscale: optical and photothermal
+  properties and some applications in imaging, sensing, biology, and medicine}
+    \field{volume}{41}
+    \field{journaltitle}{Accounts of chemical research}
+    \field{year}{2008}
+  \endentry
+
+  \entry{stockman2011nanoplasmonics}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SMI}{%
+         family={Stockman},
+         familyi={S\bibinitperiod},
+         given={Mark\bibnamedelima I},
+         giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SMI1}
+    \strng{fullhash}{SMI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{39\bibrangedash 44}
+    \field{title}{Nanoplasmonics: The physics behind the applications}
+    \field{volume}{64}
+    \field{journaltitle}{Phys. Today}
+    \field{year}{2011}
+  \endentry
+
+  \entry{pena-gomar2006coherent}{article}{}
+    \name{author}{5}{}{%
+      {{hash=PGMC}{%
+         family={Pe{\~{n}}a-Gomar},
+         familyi={P\bibinitperiod-G\bibinitperiod},
+         given={Mary\bibnamedelima Carmen},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=CF}{%
+         family={Castillo},
+         familyi={C\bibinitperiod},
+         given={Francisco},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=GVA}{%
+         family={Garc{\'{i}}a-Valenzuela},
+         familyi={G\bibinitperiod-V\bibinitperiod},
+         given={Augusto},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BRG}{%
+         family={Barrera},
+         familyi={B\bibinitperiod},
+         given={Rub{\'{e}}n\bibnamedelima G},
+         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=PE}{%
+         family={P{\'{e}}rez},
+         familyi={P\bibinitperiod},
+         given={El{\'{i}}as},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PGMCCFGVABRGPE1}
+    \strng{fullhash}{PGMCCFGVABRGPE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1364/AO.45.000626
+    \endverb
+    \field{issn}{0003-6935}
+    \field{pages}{626\bibrangedash 632}
+    \field{title}{{Coherent optical reflectance from a monolayer of large
+  particles adsorbed on a glass surface.}}
+    \field{volume}{45}
+    \field{journaltitle}{Applied optics}
+    \field{year}{2006}
+  \endentry
+
+  \entry{reyes2018analytical}{article}{}
+    \name{author}{5}{}{%
+      {{hash=RCA}{%
+         family={Reyes-Coronada},
+         familyi={R\bibinitperiod-C\bibinitperiod},
+         given={Aljandro},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MLG}{%
+         family={Morales-Luna},
+         familyi={M\bibinitperiod-L\bibinitperiod},
+         given={Gesuri},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=VEO}{%
+         family={V{\'{a}}zquez-Estrada},
+         familyi={V\bibinitperiod-E\bibinitperiod},
+         given={Omar},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=GVA}{%
+         family={Garc{\'{i}}a-Valenzuela},
+         familyi={G\bibinitperiod-V\bibinitperiod},
+         given={Augusto},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BRG}{%
+         family={Barrera},
+         familyi={B\bibinitperiod},
+         given={Rub{\'{e}}n\bibnamedelima G.},
+         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RCAMLGVEOGVABRG1}
+    \strng{fullhash}{RCAMLGVEOGVABRG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1364/OE.26.012660
+    \endverb
+    \field{issn}{10944087}
+    \field{pages}{6697\bibrangedash 6706}
+    \field{title}{{Analytical modeling of optical reflectivity of random
+  plasmonic nano-monolayers}}
+    \field{volume}{9594}
+    \verb{file}
+    \verb :home/jonathan/Dropbox/Escuela/3.- Tesis/Biblio{\_}teo/Articulos/CSM/
+    \verb 2-Manuscript generated by PRISM system - 314380.pdf:pdf
+    \endverb
+    \field{journaltitle}{Optics Express}
+    \field{year}{2018}
+  \endentry
+
+  \entry{barrera2003coherent}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BRG}{%
+         family={Barrera},
+         familyi={B\bibinitperiod},
+         given={Rub{\'{e}}n\bibnamedelima G},
+         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=GVA}{%
+         family={Garc{\'{i}}a-Valenzuela},
+         familyi={G\bibinitperiod-V\bibinitperiod},
+         given={Augusto},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Optical Society of America}%
+    }
+    \strng{namehash}{BRGGVA1}
+    \strng{fullhash}{BRGGVA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{296\bibrangedash 311}
+    \field{title}{Coherent reflectance in a system of random Mie scatterers and
+  its relation to the effective-medium approach}
+    \field{volume}{20}
+    \field{journaltitle}{JOSA A}
+    \field{year}{2003}
+  \endentry
+
+  \entry{garcia2012multiple}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GVA}{%
+         family={Garc{\'{i}}a-Valenzuela},
+         familyi={G\bibinitperiod-V\bibinitperiod},
+         given={Augusto},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GRE}{%
+         family={Guti{\'{e}}rrez-Reyes},
+         familyi={G\bibinitperiod-R\bibinitperiod},
+         given={Edah{\'{i}}},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=BRG}{%
+         family={Barrera},
+         familyi={B\bibinitperiod},
+         given={Rub{\'{e}}n\bibnamedelima G},
+         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Optical Society of America}%
+    }
+    \strng{namehash}{GVAGREBRG1}
+    \strng{fullhash}{GVAGREBRG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{6}
+    \field{pages}{1161\bibrangedash 1179}
+    \field{title}{Multiple-scattering model for the coherent reflection and
+  transmission of light from a disordered monolayer of particles}
+    \field{volume}{29}
+    \field{journaltitle}{JOSA A}
+    \field{year}{2012}
+  \endentry
+
+  \entry{gutierrez2012overview}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GRE}{%
+         family={Guti{\'{e}}rrez-Reyes},
+         familyi={G\bibinitperiod-R\bibinitperiod},
+         given={Edah{\'{i}}},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=GVA}{%
+         family={Garc{\'{i}}a-Valenzuela},
+         familyi={G\bibinitperiod-V\bibinitperiod},
+         given={Augusto},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BRG}{%
+         family={Barrera},
+         familyi={B\bibinitperiod},
+         given={Rub{\'{e}}n\bibnamedelima G},
+         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \keyw{Colloids,Effective-medium theory,Inhomogeneous
+  media,Reflection,Refraction}
+    \strng{namehash}{GREGVABRG1}
+    \strng{fullhash}{GREGVABRG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1002/pssb.201100735
+    \endverb
+    \field{issn}{03701972}
+    \field{number}{6}
+    \field{pages}{1140\bibrangedash 1147}
+    \field{title}{{Overview of an effective-medium approach to the reflection
+  and refraction of light at a turbid colloidal half-space}}
+    \verb{url}
+    \verb www.pss-b.com
+    \endverb
+    \field{volume}{249}
+    \verb{file}
+    \verb :home/jonathan/Dropbox/Escuela/3.- Tesis/Biblio{\_}teo/10.1.1.707.703
+    \verb 6.pdf:pdf
+    \endverb
+    \field{journaltitle}{Physica Status Solidi (B) Basic Research}
+    \field{year}{2012}
   \endentry
 \enddatalist
 \endinput
