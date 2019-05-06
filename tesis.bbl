@@ -79,33 +79,6 @@
     \field{year}{1999}
   \endentry
 
-  \entry{ibach2003solid}{book}{}
-    \name{author}{2}{}{%
-      {{hash=IH}{%
-         family={Ibach},
-         familyi={I\bibinitperiod},
-         given={Harald},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=LH}{%
-         family={L{\"u}th},
-         familyi={L\bibinitperiod},
-         given={Hans},
-         giveni={H\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Springer}%
-    }
-    \strng{namehash}{IHLH1}
-    \strng{fullhash}{IHLH1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Solid-state physics: an introduction to principles of
-  material science}
-    \field{year}{2003}
-  \endentry
-
   \entry{kwan2002really}{article}{}
     \name{author}{3}{}{%
       {{hash=KA}{%
@@ -140,6 +113,33 @@
     \field{volume}{15}
     \field{journaltitle}{Physics World}
     \field{year}{2002}
+  \endentry
+
+  \entry{ibach2003solid}{book}{}
+    \name{author}{2}{}{%
+      {{hash=IH}{%
+         family={Ibach},
+         familyi={I\bibinitperiod},
+         given={Harald},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={L{\"u}th},
+         familyi={L\bibinitperiod},
+         given={Hans},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{IHLH1}
+    \strng{fullhash}{IHLH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Solid-state physics: an introduction to principles of
+  material science}
+    \field{year}{2003}
   \endentry
 
   \entry{mie1908metallosung}{article}{}
@@ -621,6 +621,47 @@
     \field{year}{2008}
   \endentry
 
+  \entry{stockman2011nanoplasmonics}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SMI}{%
+         family={Stockman},
+         familyi={S\bibinitperiod},
+         given={Mark\bibnamedelima I},
+         giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SMI1}
+    \strng{fullhash}{SMI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{39\bibrangedash 44}
+    \field{title}{Nanoplasmonics: The physics behind the applications}
+    \field{volume}{64}
+    \field{journaltitle}{Phys. Today}
+    \field{year}{2011}
+  \endentry
+
+  \entry{maier2007plasmonics}{book}{}
+    \name{author}{1}{}{%
+      {{hash=MSA}{%
+         family={Maier},
+         familyi={M\bibinitperiod},
+         given={Stefan\bibnamedelima Alexander},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Science \& Business Media}%
+    }
+    \strng{namehash}{MSA1}
+    \strng{fullhash}{MSA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Plasmonics: fundamentals and applications}
+    \field{year}{2007}
+  \endentry
+
   \entry{maciel2017momentum}{thesis}{}
     \name{author}{1}{}{%
       {{hash=MCA}{%
@@ -713,27 +754,6 @@
     \field{volume}{41}
     \field{journaltitle}{Accounts of chemical research}
     \field{year}{2008}
-  \endentry
-
-  \entry{stockman2011nanoplasmonics}{article}{}
-    \name{author}{1}{}{%
-      {{hash=SMI}{%
-         family={Stockman},
-         familyi={S\bibinitperiod},
-         given={Mark\bibnamedelima I},
-         giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{SMI1}
-    \strng{fullhash}{SMI1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{2}
-    \field{pages}{39\bibrangedash 44}
-    \field{title}{Nanoplasmonics: The physics behind the applications}
-    \field{volume}{64}
-    \field{journaltitle}{Phys. Today}
-    \field{year}{2011}
   \endentry
 
   \entry{pena-gomar2006coherent}{article}{}
