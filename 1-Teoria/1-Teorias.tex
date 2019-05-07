@@ -561,7 +561,8 @@ donde $k = 2\pi n_m /\lambda$ es el número de onda. En la Fig.  \ref{fig:PlanoE
 	\draw[dashed, color=green] (O) -- (Pxy);
 	\draw[dashed, color=green] (P) -- (Pxy);
 	\fill[green, opacity = . 3] (O) --(Pxy)-- (P)--(O);
-	\node at (1,1. 5,1. 1) {\color{green}\bf Plano de esparcimiento};
+	\draw[- latex, tdplot_screen_coords,green](.42,.2)--(.8,.2);
+	\node[tdplot_screen_coords] at (1.35,.2) {\color{green}\small Plano de esparcimiento};
 
 
 %draw the angle \varphi, and label it
@@ -617,7 +618,7 @@ donde $k = 2\pi n_m /\lambda$ es el número de onda. En la Fig.  \ref{fig:PlanoE
 	\foreach \i in {-7,...,-2}{
 		\draw[thick,tdplot_screen_coords,red, - latex] (\i/10,0,0)--(\i/10,1,0);}
 	\node[tdplot_screen_coords] at (-4.5/10,1.1,0){\color{red}$\vb{k}_i$};
-	\node[tdplot_screen_coords] at (-4.5/10,-.1,0){\color{red}Haz incidente};
+	\node[tdplot_screen_coords] at (-4.5/10,-.1,0){\small \color{red}Haz incidente};
 \end{tikzpicture}
 %
 \caption{Diagrama del plano de esparcimiento (en verde) definido por el vector $\vb{r}$, posición donde se evalúan los campos EMs, y el vector $\vu{e}_z$, cuando una onda plana propagándose en dirección $z$ (en rojo) ilumina a una partícula arbitraria.  La base canónica cartesiana para vectores se muestra en azul, mientras que la base canónica esférica se muestra en negro.  Las direcciones paralelas $\parallel$ y perpendiculares $\perp$ al plano de incidencia  para el campo eléctro incidente, denotado por el subíndice $i$ y el esparcido, denotado por el subíndice $s$ se muestran en morado.  En ambas figuras, el haz incidente se muestra en rojo.}\label{fig:PlanoEsparcimiento}
@@ -799,7 +800,7 @@ Al resolver la Ec. \eqref{eq:AEV_psi} es posible construir un conjunto de funcio
 	\foreach \i in {-3,...,3}{
 		\draw[thick,tdplot_screen_coords,red, - latex] (-.8+\i/10,-.3,0)--(-.8+\i/10,.7,0);}
 	\node[tdplot_screen_coords] at (-8/10,+.8,0){\color{red}$\vb{k}_i$};
-	\node[tdplot_screen_coords] at (-8/10,-.4,0){\color{red}Haz incidente};
+	\node[tdplot_screen_coords] at (-8/10,-.4,0){\small \color{red}Haz incidente};
 \end{tikzpicture}	
 		\caption{ Esfera de radio $a$ e ínidce de refracción $n_p$, inmersa en una matriz con índice $n_m$. La esfera es iluminada por una onda plana con vector de onda $\vb{k}_i$, que se propaga en la dirección $\hat{e}_z$. Se escoge como vector piloto $\vb{r}$.}\label{fig:EsferaA}
 	\end{figure}	
@@ -1189,9 +1190,7 @@ donde $m_e^*$ es la masa efectiva del electrón\footnote{La masa efectiva es el 
 	\eqhalf{	\omega_p =\sqrt{ \frac{n_v e^2}{m_e^* \varepsilon_0}}.
 	\label{eq:wp}}
 	\end{tcolorbox}\vspace*{-.5em}\noindent
-con $\omega_p$, la frecuancia de plasma.
-
-Dado que la constante fenomenológica $\gamma$ depende de la geometría del material, se emplea en la Ec. \eqref{eq:Drude} la constante fenomenológica de bulto $\gamma_\infty$ dada por \cite{kreibig1995clusters}
+con $\omega_p$, la frecuancia de plasma. Dado que la constante fenomenológica $\gamma$ depende de la geometría del material, se emplea en la Ec. \eqref{eq:Drude} la constante fenomenológica de bulto $\gamma_\infty$ dada por \cite{kreibig1995clusters}
 	\begin{align}
 	\gamma_\infty = \frac{v_F}{L}
 			 \label{eq:gammaInf}	
@@ -1255,7 +1254,7 @@ y al multiplicar ambos lados de la ecuación por $\omega^2$	 y sustituir con la 
 						= \omega_p^2( 1-\varepsilon').
 	\label{eq:omegaAjuste}
 	\end{align}
-Es decir, al graficar las Ecs. (6) y (7) como función de $ 1-\Re[\varepsilon(\omega)] $ se obtienen dos funciones lineales sin ordenada al origen por lo que, al emplear los valores experimentales de la función dieléctrica, cuando estos no correspondan a una recta que cruza por el origen, la funciín dieléctrica deja de ser modelada por el modelo de Drude. Asimismo, es posible determinad los parámetros $\omega_p$ y $\gamma$ de la función dieléctrica empleando los valores de la parte real y la parte imaginario de $\varepsilon(\omega)$ es decir, considerando ambas contribuciones. Las funciones a ajustar son
+Es decir, al graficar las Ecs. \eqref{eq:gammaAjuste} y \eqref{eq:omegaAjuste} como función de $ 1-\varepsilon'$ se obtienen dos funciones lineales sin ordenada al origen por lo que, al emplear los valores experimentales de la función dieléctrica, cuando estos no correspondan a una recta que cruza por el origen, la función dieléctrica deja de descrita por el modelo de Drude. Asimismo, es posible determinad los parámetros $\omega_p$ y $\gamma$ de la función dieléctrica empleando los valores de la parte real y la parte imaginario de $\varepsilon(\omega)/\varepsilon_0$ es decir, considerando ambas contribuciones. Las funciones a ajustar son
 
 
 
@@ -1299,7 +1298,7 @@ En la deducción de la función dieléctrica del modelo de Drude [Ec. \eqref{eq:
 			 -\frac{\varepsilon(\omega)}{\varepsilon_0}
 			 \frac{\omega^2}{c^2}\vb{E},
 	\end{align*}
-donde se hace la distinción entre los casos de ondas transversales ($\vb{k}\cdot\vb{E}=0$), en donde se cumple \vspace*{-.5em}
+donde se hace la distinción entre los casos de ondas transversales ($\vb{k}\cdot\vb{E}=0$), en donde se cumple\vspace*{-.5em}
 	\begin{tcolorbox}[title = Relación de dispersión genérica, ams align, breakable ]
 	k^2 = \frac{\varepsilon(\omega)}{\varepsilon_0}  \frac{\omega^2}{c^2},
 	\label{eq:TMode}
@@ -1331,9 +1330,9 @@ Dado que el plasmón de volumen es un modo longitudinal no puede acoplarse a ond
 			bottom color =yellow,				%%%%	Color de abajo
 			middle color = white, 			%%	Color de en medio
 			shading angle = 35]			%%%%	Ángulo de gradiente
-		 (-4,-2) rectangle (4,0);
+		 (-4,-1) rectangle (4,0);
 % Interface
-\draw[yellow,line width=.5pt](-4,0)--(4,0)--(4,-2)--(-4,-2)--(-4,0); %%..5pt, interface]
+\draw[yellow,line width=.5pt](-4,0)--(4,0)--(4,-1)--(-4,-1)--(-4,0); %%..5pt, interface]
 % Media names
 \node at (-2.75,.3) {Diel\'ectrico $\; \varepsilon_1(\omega)$}; 
 \node at (-3,-.3) {Metal  $\; \varepsilon_2(\omega)$};
@@ -1457,16 +1456,31 @@ La frecuencia de resonancia $\omega$ del SPP se encuentra cuando al Ec. \eqref{e
 	\end{tcolorbox}\vspace*{-.5em}\noindent
 
 	
-	
-	
-	
 	\begin{figure}[h!]\centering
-		\includegraphics[scale=1]{1-Teoria/figs/1-4-RelacionDispersion.pdf}\vspace*{-1em}
-	\caption{Frecuencias de resonancia $\omega_\ell/\omega_p$ para una esfera con una función dieléctrica tipo Drude, como función del parámetro adimensional  $\omega_p a / c$, para los multipolos $\ell = 1,2,3$ y $4$. }
+	\begin{tikzpicture}
+	\node[inner sep=0pt] at (0,0)
+    {\includegraphics[scale=1]{1-Teoria/figs/1-4-RelacionDispersion.pdf}};
+    \draw [thick, decorate, decoration={brace,amplitude=10pt,mirror}]
+(6.5,-.8) -- (6.5,4.0);
+\node at (8,2.5){\footnotesize Modo};
+\node at (8,2.){\footnotesize radiativo};
+\node at (8,1.5){\footnotesize $k_x\to\text{Real}$};
+\node at (8,1.){\footnotesize $k_z\to\text{Real}$};
+    \draw [thick, decorate, decoration={brace,amplitude=10pt,mirror}]
+(6.5,-3.25) -- (6.5,-1.3);
+\node at (8,-1.5){\footnotesize Modo};
+\node at (8,-2.){\footnotesize ligado};
+\node at (8,-2.5){\footnotesize $k_x\to\text{Real}$};
+\node at (8,-3.){\footnotesize $k_z\to\text{Imaginario}$};
+\end{tikzpicture}
+\vspace*{-1em}
+	\caption{Relación de dispersión como función de $k_xc/\omega_p$ de una onda plana en vacío (línea sólida negra), del plasmón de volumen (línea sólida roja) y del SPP (líneas sólida azul) para materiales con una función dieléctrica tipo Drude en el límite $\gamma\ll\omega$ y sobre una interfaz con el vacío. El régimen de modos radiativos se encuentra en $\omega_p\leq\omega$ (igualdad denotada por la línea punteada roja), donde $k_x$ y $k_z$ son cantidades reales; el régimen de modos ligados se encuentra en $\omega\leq\omega_p/\sqrt{2}$ (igualdad denotada por la línea punteada azul), donde $k_x$ es una cantidad real pero $k_z$ es una cantidad imaginaria. Para excitar a SPP es necesario cambiar el índice de refracción de la matriz, por ejemplo empleando un prisma para obtener una onda plana viajando en vidrio(línea punteada negra); la región sombreada delimita las frecuencias a las que el SPP puede excitarse.}
 	\label{fig:NormalModes}
 	\end{figure}		
 	
 	
+	
+
 	
 	
 	
