@@ -5,9 +5,9 @@ Information about the template is found at the end of the README.md file.
 
 ### Cosas por hacer
 - [ ] Revisar el índice analítico
-- [ ] Gráficas del ajuste de Drude de Johnson & Christy
-- [ ] Gráficas de la corrección por tamaño para NPs esféricas
-- [ ] Explicación de los plasmones 
+- [x] Gráficas del ajuste de Drude de Johnson & Christy
+- [x] Gráficas de la corrección por tamaño para NPs esféricas
+- [x] Explicación de los plasmones 
 - [ ] Explicación de las extinciín de luz y su relación con los plasmones
 - [x] CSM
 - [ ] Introducir el sustrato en el CSM
