@@ -662,6 +662,78 @@
     \field{year}{2007}
   \endentry
 
+  \entry{kabashin2009plasmonic}{article}{}
+    \name{author}{9}{}{%
+      {{hash=KAV}{%
+         family={Kabashin},
+         familyi={K\bibinitperiod},
+         given={A\bibnamedelima V},
+         giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=EP}{%
+         family={Evans},
+         familyi={E\bibinitperiod},
+         given={P},
+         giveni={P},
+      }}%
+      {{hash=PS}{%
+         family={Pastkovsky},
+         familyi={P\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=HW}{%
+         family={Hendren},
+         familyi={H\bibinitperiod},
+         given={W},
+         giveni={W},
+      }}%
+      {{hash=WGA}{%
+         family={Wurtz},
+         familyi={W\bibinitperiod},
+         given={G\bibnamedelima A},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=AR}{%
+         family={Atkinson},
+         familyi={A\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+      {{hash=PR}{%
+         family={Pollard},
+         familyi={P\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+      {{hash=PVA}{%
+         family={Podolskiy},
+         familyi={P\bibinitperiod},
+         given={V\bibnamedelima A},
+         giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=ZAV}{%
+         family={Zayats},
+         familyi={Z\bibinitperiod},
+         given={A\bibnamedelima V},
+         giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group}%
+    }
+    \strng{namehash}{KAVEPPSHWWGAARPRPVAZAV1}
+    \strng{fullhash}{KAVEPPSHWWGAARPRPVAZAV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{11}
+    \field{pages}{867\bibrangedash 871}
+    \field{title}{Plasmonic nanorod metamaterials for biosensing}
+    \field{volume}{8}
+    \field{journaltitle}{Nature materials}
+    \field{year}{2009}
+  \endentry
+
   \entry{maciel2017momentum}{thesis}{}
     \name{author}{1}{}{%
       {{hash=MCA}{%
