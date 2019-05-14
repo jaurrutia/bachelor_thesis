@@ -1,14 +1,14 @@
 \chapter{Teoría}
 
- En esta sección se estudia la interacción de la luz con la materia considerando las propiedades físicas del objeto, como lo son su respuesta electromagnética (EM), así como su geometría y  tamaño. En la primera subsección se presentan la  solución de ondas planas a las ecuaciones de Maxwell y las condiciones que se imponen a los campos EMs al propagarse a través de un medio homogéneo, lineal e isótropo, y al cruzar una interfaz arbitraria a otro medio con las mismas características. En la segunda subsección  se estudia la reflexión y transmisión de la luz al cruzar una interfaz plana entre dos medios, arbitrarios pero que sean homogéneos, lineales e isótropos, que deviene en los coeficientes de amplitud de Fresnel y en el cálculo de la reflectancia y transmitancia. Posteriormente, en la tercera subsección, se presenta la solución de Mie, la cual resuelve el problema de absorción y esparcimiento de luz debido a una partícula esférica de tamaño y material arbitrario al ser iluminada por una onda plana, dando como resultado los campos EMs esparcidos por la partícula. En la cuarta subsección se presenta el modelo de Drude-Sommerfeld para la descripción de las propiedades EMs de materiales plasmónicos, mediante la función dieléctrica, así como un método para ajustar las mediciones experimentales de la función dieléctrica y poder hacer la corrección de tamaño para partículas esféricas \emph{pequeñas}; asimismo se presentan los plasmones, acoplamiento de la luz con los electrones libres de un material, al considerar materiales cuya respuesta EM es descrita por el modelo de Drude-Sommerfeld, así como el caso para materiales más realistas. Finalmente, en la quinta subsección, se presenta la respuesta EM de una monocapa de partículas esféricas, descrita por el modelo de esparcimiento coherente (Coherent Scattering Model, CSM) en donde se calculan los coeficientes de amplitud y reflexión para un sistema que considere una monocapa de NPs esféricas idénticas, inmersa en un medio dieléctrico, denominado matriz, y soportado por un sustrato dieléctrico.
+ En esta sección se estudia la interacción de la luz con la materia considerando las propiedades físicas del objeto, como lo son su respuesta electromagnética (EM), así como su geometría y  tamaño. En la primera subsección se presentan la  solución de ondas planas a las ecuaciones de Maxwell y las condiciones que se imponen a los campos EMs al propagarse a través de un medio homogéneo, lineal e isótropo, y al cruzar una interfaz arbitraria a otro medio con las mismas características, así como el caso particular de la reflexión y transmisión de una onda plana al cruzar una interfaz plana, que deviene en las ecuaciones de Fresnel. En la segunda subsección se presenta la solución de Mie, que resuelve el problema de absorción y esparcimiento de luz debido a una partícula esférica de tamaño y material arbitrario al ser iluminada por una onda plana, dando como resultado los campos EMs esparcidos por la partícula. En la tercera subsección se presenta el modelo de Drude-Sommerfeld para la descripción de las propiedades EMs de materiales plasmónicos, mediante la función dieléctrica, así como un método para ajustar las mediciones experimentales de la función dieléctrica y poder hacer la corrección de tamaño para partículas esféricas \emph{pequeñas}; asimismo se presentan los plasmones, acoplamiento de la luz con los electrones libres de un material, al considerar materiales cuya respuesta EM es descrita por el modelo de Drude-Sommerfeld, así como el caso para materiales más realistas. Finalmente, en la cuarta subsección, se presenta la respuesta EM de una monocapa de partículas esféricas, descrita por el modelo de esparcimiento coherente (Coherent Scattering Model, CSM) en donde se calculan los coeficientes de amplitud y reflexión para un sistema que considere una monocapa de NPs esféricas idénticas, inmersa en un medio dieléctrico, denominado matriz, y soportado por un sustrato dieléctrico.
 
 \section{Nociones básicas}
 
-Las ecuaciones de Maxwell en su forma diferencial son   \cite{griffiths2013electrodynamics}  \index{Ecuaciones de Maxwell} \vspace*{-.5em}
+Las ecuaciones de Maxwell en su forma diferencial son   \cite{griffiths2013electrodynamics}  \index{Maxwell!ecuaciones de} \vspace*{-.5em}
 %
 	\begin{subequations} \label{eqs:Maxwell}
 	\begin{tcolorbox}[title = Ecuaciones de Maxwell (Forma diferencial),
-	ams align ]
+	ams align, breakable]
 	\nabla \cdot\vb{E} &= \frac{\rho_{tot}}{\varepsilon_0}, &\mbox{(Ley de Gauss eléctrica)}  
 	\label{seq:GE} \\
 	\nabla \cdot\vb{B} &= 0,						&\mbox{(Ley de Gauss magnética)}   
@@ -21,19 +21,19 @@ Las ecuaciones de Maxwell en su forma diferencial son   \cite{griffiths2013elect
 %
 donde $\vb{E}$ es el campo eléctrico; $\vb{B}$, el campo magnético; $\rho_{tot}$ es la densidad volumétrica de carga total  y $\vb{J}_{tot}$, la densidad volumétrica de corriente total; $\varepsilon_0$, la permitividad eléctrica del vacío y $\mu_0$, la permeabilidad magnética del vacío.
 
-Al desacoplar las ecuaciones de Maxwell, los campos EMs obedecen la ecuación de onda \cite{hecht1998optics}, \index{Ecuación!de onda} que al emplear la transformada Fourier\footnote{\setstretch{1.0} $\mathcal{F}[f(\vb{r},\omega)] = \int_{-\infty}^\infty f(\vb{r},t) e^{i(\vb{k}\cdot\vb{r} -\omega t)} dt$, con $\omega$ una función de $\vb{k}$. La transformada de Fourier inversa es entonces $\mathcal{F}^{-1}[f(\vb{r},t)] =\frac{1}{2\pi} \int_{-\infty}^\infty f(\vb{r},t) e^{i(\vb{k}\cdot\vb{r} -\omega t)} d\omega$.\index{Fourier!transformada de}} para su resolución, y considerar una región del espació sin fuentes ($\rho_{tot}=0$ y $\vb{J}_{tot}=\vb{0}$) se obtiene la ecuación de Helmholtz \index{Ecuación!de Helmholtz} para $\vb{E}$ y $\vb{B}$ \cite{griffiths2013electrodynamics}
+Al desacoplar las ecuaciones de Maxwell, los campos EMs obedecen la ecuación de onda \cite{hecht1998optics}, \index{Ecuación!de onda} que al emplear la transformada Fourier\footnote{\setstretch{1.0} $\mathcal{F}[f(\vb{r},\omega)] = \int_{-\infty}^\infty f(\vb{r},t) e^{i(\vb{k}\cdot\vb{r} -\omega t)} dt$, con $\vb{k}$ una función de $\omega$. La transformada de Fourier inversa es entonces $\mathcal{F}^{-1}[f(\vb{r},t)] =\frac{1}{2\pi} \int_{-\infty}^\infty f(\vb{r},t) e^{i(\vb{k}\cdot\vb{r} -\omega t)} d\omega$.\index{Fourier!transformada de}} para su resolución, y considerar una región del espació sin fuentes ($\rho_{tot}=0$ y $\vb{J}_{tot}=\vb{0}$) se obtiene la ecuación de Helmholtz \index{Ecuación!de Helmholtz} para $\vb{E}$ y $\vb{B}$ \cite{griffiths2013electrodynamics}
 
 	\begin{subequations}\eqhalf{\nabla^2\vb{E} + k^2 \vb{E}=\vb{0},}
 	\eqhalf{\nabla^2\vb{B} + k^2 \vb{B}=\vb{0}.}\end{subequations}\vspace*{-1em}
 
-\noindent Una de las soluciones a la ecuación de Helmholtz para los campos EM son las ondas planas, es decir, que los campos EMs son de la forma\cite{jackson1999electrodynamics} \index{Ecuaciones de Maxwell!solución de ondas planas a las}
-	\begin{align}
-	\vb{E}(\vb{r},t) =\vb{E_0}e^{i(\vb{k}\cdot\vb{r} -\omega t)}
-		\qquad\mbox{y}\qquad
-	\vb{B}(\vb{r}, t) =\vb{B_0}e^{i(\vb{k}\cdot\vb{r} -\omega t)},
-	\label{eq:ondasPlanas}
-	\end{align}		
-en donde  $\vb{E}_0$ y $\vb{B}_0$ son las amplitudes de los campos EMs, $\vb{k}$ es el vector de onda y $\omega$ es la frecuencia angular; la triada de vectores \{$\vb{k},\, \vb{E},\, \vb{B}$\} constituye una base ortogonal derecha en el vacío \cite{griffiths2013electrodynamics}. Las ondas planas se propagan a través de un medio, cuyas propiedades EMs se describen por su función dieléctrica $\varepsilon(\omega)$ y su permeabilidad magnética $\mu$, y en general, se define el índice de refracción $n(\omega)$ como \index{Índice de refracción}\index{Índice de refracción|seealso{Función dieléctrica}}\vspace*{-.5em}
+\noindent Una de las soluciones a la ecuación de Helmholtz para los campos EMs son las ondas planas, es decir, que los campos EMs son de la forma \cite{jackson1999electrodynamics} \index{Maxwell!ecuaciones de!solución de ondas 
+planas a las}\index{Onda!plana}\index{Onda!plana!en la base cartesiana canónica}
+
+	\begin{subequations}\eqhalf{\vb{E}(\vb{r},t) =\vb{E_0}e^{i(\vb{k}\cdot\vb{r} -\omega t)},}
+	\eqhalf{\vb{B}(\vb{r}, t) =\vb{B_0}e^{i(\vb{k}\cdot\vb{r} -\omega t),}}	
+	\label{eqs:ondasPlanas}\end{subequations}\vspace*{-1em}
+		
+\noindent en donde  $\vb{E}_0$ y $\vb{B}_0$ son las amplitudes de los campos EMs, $\vb{k}$ es el vector de onda y $\omega$ es la frecuencia angular; la triada de vectores \{$\vb{k},\, \vb{E},\, \vb{B}$\} constituye una base ortogonal derecha en el vacío \cite{griffiths2013electrodynamics}. Las ondas planas se propagan a través de un medio, cuyas propiedades EMs se describen por su función dieléctrica $\varepsilon(\omega)$ y su permeabilidad magnética $\mu$, y en general, se define el índice de refracción del medio $n(\omega)$ como \index{Índice de refracción}\index{Índice de refracción|seealso{Función dieléctrica}}\index{Función dieléctrica}\vspace*{-.5em}
 %
 	\begin{tcolorbox}[title = Índice de refracción, ams align]
 	n(\omega) = \sqrt{\frac{\mu\varepsilon(\omega)}{\varepsilon_0 \mu_0}}.
@@ -49,7 +49,7 @@ Tanto $n(\omega)$, como $\varepsilon(\omega)$ y $\mu$ se determinan de forma exp
 %
 en donde  $c=\sqrt{1/\varepsilon_0\mu_0}$ es la velocidad de la luz.
 
-A partir de las ecuaciones de Maxwell se deduce el teorema de conservación de la energía \cite{griffiths2013electrodynamics}, escrito en términos del vector de Poynting $\vb{S}$\index{Poynting!vector de}, que corresponde al flujo de energía EM por unidad de tiempo y unidad de área. Al considerar campos EMs tipo ondas planas [Ec. \eqref{eq:ondasPlanas}], el vector de Poynting es \vspace*{-.5em}
+A partir de las ecuaciones de Maxwell se deduce el teorema de conservación de la energía \cite{griffiths2013electrodynamics}, escrito en términos del vector de Poynting $\vb{S}$\index{Poynting!vector de}, que corresponde al flujo de energía EM por unidad de tiempo y unidad de área. Al considerar campos EMs tipo ondas planas [Ec. \eqref{eqs:ondasPlanas}], el vector de Poynting es \vspace*{-.5em}
 %
 	\begin{tcolorbox}[title = Vector de Poynting considerando ondas planas, ams align]
 	\vb{S} = \vb{E}\times\vb{H}^*.  \label{eq:Poynting}
@@ -57,15 +57,16 @@ A partir de las ecuaciones de Maxwell se deduce el teorema de conservación de l
 %
 en donde $\vb{H}=\vb{B}/\mu$ es el campo H y $*$ corresponde a la operación complejo conjugado \cite{hecht1998optics}.
 
-Adicional al terorema deconservación de la energía, las ecuaciones de Maxwell imponen condiciones a la frontera sobre los campos EMs cuando estos cruzan la frontera entre dos medios distintos, denominada interfaz. En la Fig. \ref{fig:GaussAmpere} se muestra la interfaz entre dos medios arbitrarios caracterizados por la función dieléctrica $\varepsilon_i$ y la permeabilidad magnética $\mu_i$, con $i = 1,\,2$ según sea el caso. Para deducir las condiciones a la frontera de los campos EMs sobre la interfaz, con vector normal $\vu{u}$, se evalúan los campos EMs en el cilindro con caras de área $A$ y altura $\delta$ [ver Fig. \ref{sfig:GaussPillbox}], así como  en el circuito de largo $l$ y altura $\delta$ [ver Fig. \ref{sfig:AmperianLoop}]. Al considerar el límite $\delta \to 0$, evaluando los campos EMs sobre la interfaz, la ausencia de fuentas externas ($\sigma_{ext} = 0$ y $\vb{K}_{ext} = \vb{0}$), y que los medios que conforman a la interfaz son lineales, homogéneos e isótropos, los campos EMs obedecen las  expresiones \cite{griffiths2013electrodynamics} \vspace*{-.5em} \index{Campos electromagnéticos!condiciones a la frontera de los}
+Adicional al terorema deconservación de la energía, las ecuaciones de Maxwell imponen condiciones a la frontera sobre los campos EMs cuando estos cruzan la frontera entre dos medios distintos, denominada interfaz. En la Fig. \ref{fig:GaussAmpere} se muestra la interfaz entre dos medios arbitrarios caracterizados por la función dieléctrica $\varepsilon_i$ y la permeabilidad magnética $\mu_i$, con $i = 1,\,2$ según sea el caso. Para deducir las condiciones a la frontera de los campos EMs sobre la interfaz, con vector normal $\vu{u}$, se evalúan los campos EMs en el cilindro con caras de área $A$ y altura $\delta$ [ver Fig. \ref{sfig:GaussPillbox}], así como  en el circuito de largo $l$ y altura $\delta$ [ver Fig. \ref{sfig:AmperianLoop}]. Al considerar el límite $\delta \to 0$, evaluando los campos EMs sobre la interfaz, la ausencia de fuentas externas ($\sigma_{ext} = 0$ y $\vb{K}_{ext} = \vb{0}$), y que los medios que conforman a la interfaz son lineales, homogéneos e isótropos, los campos EMs obedecen las  expresiones \cite{griffiths2013electrodynamics} \vspace*{-.5em} \index{Electromagnéticos!campos!condiciones a la frontera de los}
 %
 	\begin{subequations}
 	\begin{tcolorbox}[title = Condiciones de frontera de los campos EMs sin fuentes externas]
-	\eqhalf{\varepsilon_1 \vb{E}^\perp_1 - \varepsilon_2 \vb{E}^\perp_2 = \vb{0}, \label{seq:Eperp}}
-	\eqhalf{E_1^\parallel -E_2^\parallel = 0,\label{seq:Epara}}\vspace*{.5em}
+	\eqhalf{\varepsilon_1 E^\perp_1 - \varepsilon_2 E^\perp_2 = 0, \label{seq:Eperp}}
+	\eqhalf{\vb{E}_1^\parallel -\vb{E}_2^\parallel = \vb{0},\label{seq:Epara}}\vspace*{.5em}
 	\eqhalf{B_1^{\perp} - B_2^{\perp} = 0, \label{seq:Bperp} }
 	\eqhalf{\frac{\vb{B}^\parallel_1}{\mu_1} - \frac{\vb{B}^\parallel_2}{\mu_2} =\vb{0}.\label{seq:Bpara}} 
-	\end{tcolorbox} \label{eqs:CFrontera}	\end{subequations}
+	\end{tcolorbox} \label{eqs:CFrontera}	\end{subequations}\vspace*{-.5em}\noindent
+donde $\perp$ corresponde a la componente perpendicular a la interfaz y $\parallel$, a la paralela.
 %
 	\begin{figure}[h!]\centering
 	\begin{subfigure}{.05\textwidth}\vspace{-3cm}\caption{}\label{sfig:GaussPillbox}	\end{subfigure}
@@ -82,9 +83,9 @@ Adicional al terorema deconservación de la energía, las ecuaciones de Maxwell 
 (-1,1) ..controls (2, 0) and (3,3.5) .. (4.5,3.5) %	Aquí se dan las lineas
 -- (7,3.2) .. controls (5,3) and (4,-.5) .. (2.5,.5)%	A .. ctrls P and Q.. B 
 --(-1,1);								%%%%%%%%%	P y Q jalan la linea de A a B
-\node[color = black] at (3,.5) { $\sigma_{tot}$};
-\node  at (0,1.1) {Medio 1};
-\node at (0,.5) {Medio 2};
+\node[color = black] at (3,.6) { $\sigma_{tot}$};
+\node  at (0,1.2) {\small Medio 1};
+\node at (0,.3) {\small Medio 2};
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	PILL-BOX
 \fill[dgreen, opacity = .3]						%%%%%%%%	Cara del cilindro
@@ -145,11 +146,11 @@ Adicional al terorema deconservación de la energía, las ecuaciones de Maxwell 
 	--(-1,1);								%%%%%%%%%	P y Q jalan la linea de A a B
 
 \node[color = black] at (3,.7) { $\vb{K}_{tot}$};
-\node  at (0,1.1) {Medio 1};
-\node at (0,.5) {Medio 2};
-\draw[- latex, thick]  (2.4,.78)  -- (1.4,.9) ;  
-\draw[- latex, thick]  (2.7,.88)  -- (1.7,1) ; 
-\draw[- latex, thick]  (3,.98)  -- (2,1.1) ; 
+\node  at (0,1.2) {\small Medio 1};
+\node at (0,.3) {\small Medio 2};
+\draw[- latex, thick, shift={(-.2,.15)}]  (2.4,.78)  -- (1.4,.9) ;  
+\draw[- latex, thick, shift={(-.2,.15)}]  (2.7,.88)  -- (1.7,1) ; 
+\draw[- latex, thick, shift={(-.2,.15)}]  (3,.98)  -- (2,1.1) ; 
 
 %---------------------------------------------------	CIRCUITO
 \draw[densely dotted, line width=.2mm,black, reverse directed] 
@@ -186,7 +187,7 @@ Adicional al terorema deconservación de la energía, las ecuaciones de Maxwell 
 		
 		\subsection{Fórmulas de Fresnel}		
 		
-Cuando una onda plana [Ec. \eqref{eq:ondasPlanas}] incide sobre la interfaz entre dos medio lineales, homogéneos e isótropos, éste se descompone en una onda plana reflejada y una transmitida. Al describir el medio de incidencia y de transmisión por su índice de refracción $n_i$ y $n_t$, respectivamente, e imponer las condiciones ala frontera del los campos EMs [Ecs. \eqref{eqs:CFrontera}], válidas para todo tiempo y todo punto en la interfaz, las fases de las tres ondas son iguales, por lo que se cumple \vspace*{-.5em} \index{Ley!de la reflexión}\index{Ley!de Snell}
+Cuando una onda plana [Ec. \eqref{eqs:ondasPlanas}] incide sobre la interfaz entre dos medios lineales, homogéneos e isótropos, ésta se descompone en una onda plana reflejada y una transmitida. Al describir el medio de incidencia y de transmisión por su índice de refracción $n_i$ y $n_t$, respectivamente, e imponer las condiciones a la frontera del los campos EMs [Ecs. \eqref{eqs:CFrontera}], válidas para todo tiempo y todo punto en la interfaz, las fases de las tres ondas son iguales, por lo que se cumple \vspace*{-.5em} \index{Ley!de la reflexión}\index{Ley!de Snell}
 %
 	\begin{tcolorbox}[title = Ley de la reflexión y ley de Snell ]
 	\eqhalf{\theta_i = \theta_r  \label{eq:LeyReflexion}}
@@ -195,7 +196,8 @@ Cuando una onda plana [Ec. \eqref{eq:ondasPlanas}] incide sobre la interfaz entr
 %
 en donde $\theta_i$ es el ángulo de incidencia; $\theta_r$, el de reflexión y $\theta_t$, el de transmisión; los tres medidos desde la dirección normal a la interfaz. La Ec. \eqref{eq:LeyReflexion} es la ley de la reflexión, y la Ec. \eqref{eq:LeySnell} es la ley de Snell\footnote{La ley fue nombrada así debido al físico holandés Willebroerd Snellius aunque investigaciones más recientes indican que el registro más antiguo de esta ley (correctamente formulada) fue en el año 984 en el libro \emph{On the Burning Instruments} del matemático persa Ibn Sahl \cite{kwan2002really}.}, que determinan la dirección de propagación de las ondas planas reflejada y el transmitida.
 
- Para calcular  la potencia  reflejada y transmitida  se calculan primero los coeficientes de amplitud de reflexión $r$ y de transmisión $t$, que son el cociente del campo eléctrico reflejado $E_r$, o transmitido $E_t$, entre el campo eléctrico incidente $E_i$ \index{Coeficiente!de amplitud de Fresnel|seealso{Fresnel}}. El valor de los coeficientes de amplitud $r$ y $t$ depende de la polarización del campo eléctrico incidente, es decir, de la dirección en la que $\vb{E}_i$ oscila respecto al plano definido por el vector normal a la interfaz y la dirección de propagación de la onda plana incidente, denominado plano de incidencia\index{Plano!de incidencia}. En Fig. \ref{fig:Polarizaciones} se muestra una onda plana que se propaga en el medio de incidencia (con índice de refracción $n_i$) en la dirección $\vb{k}_i$ e incide en la interfaz a un ángulo $\theta_i$ respecto al vector normal al plano. La onda plana se refleja con un ángulo $\theta_r = \theta_i$ y se propaga en una dirección $\vb{k}_r$, y se refracta en un ángulo $\theta_t$, dado por la Ec. \eqref{eq:LeySnell}, y se propaga en una dirección $\vb{k}_t$. En la Fig. \ref{sfig:Pols} el campo eléctrico oscila en una dirección perpendicular al plano de incidencia, por lo que se le denomina polarización \emph{s} (del alemán \emph{senkrecht}), mientras que en la Fig. \ref{sfig:Polp} el campo eléctrico oscila paralelo al plano de incidencia, por lo que se le denomina polarización \emph{p}.\index{Polarización!de una onda plana}\index{Polarización!respecto al plano de incidencia!paralela (p)}\index{Polarización!respecto al plano de incidencia!perpendicular (s)}
+ Para comparar los campos eléctricos de las ondas planas reflejada y transmitida con el de la onda incidente, se calculan  los coeficientes de amplitud de reflexión $r$ y de transmisión $t$, que son el cociente de las amplitudes del campo eléctrico reflejado $E^r$, o transmitido $E^t$, entre el campo eléctrico incidente $E^i$ \index{Fresnel!ecuaciones de}. El valor de los coeficientes de amplitud $r$ y $t$ depende de la polarización del campo eléctrico incidente, es decir, de la dirección en la que $\vb{E}^i$ oscila respecto al plano definido por el vector normal a la interfaz y la dirección de propagación de la onda plana incidente, denominado plano de incidencia\index{Plano!de incidencia}. En la Fig. \ref{fig:Polarizaciones} se muestra una onda plana que se propaga en el medio de incidencia (con índice de refracción $n_i$) en la dirección $\vb{k}^i$ e incide en la interfaz a un ángulo $\theta_i$ respecto al vector normal a la interfaz. La onda plana se refleja con un ángulo $\theta_r = \theta_i$ y se propaga en una dirección $\vb{k}^r$, y se refracta en un ángulo $\theta_t$, dado por la Ec. \eqref{eq:LeySnell}, y se propaga en una dirección $\vb{k}^t$. En la Fig. \ref{sfig:Pols} el campo eléctrico oscila en una dirección perpendicular al plano de incidencia, por lo que se le denomina polarización \emph{s} (del alemán \emph{senkrecht}), mientras que en la Fig. \ref{sfig:Polp} el campo eléctrico oscila paralelo al plano de incidencia, por lo que se le denomina polarización \emph{p}.\index{Fresnel!amplitud, coeficientes de ($r,t$)}
+ \index{Polarización!de una onda plana}\index{Polarización!respecto al plano de incidencia!paralela (\emph{p})}\index{Polarización!respecto al plano de incidencia!perpendicular (\emph{s})}
 %
 	\begin{figure}[h!]\centering
 	\begin{subfigure}{.05\textwidth}\vspace{-4.5cm}\caption{}\label{sfig:Pols}\end{subfigure}
@@ -209,8 +211,8 @@ en donde $\theta_i$ es el ángulo de incidencia; $\theta_r$, el de reflexión y 
 % Vertical dashed line
 \draw[dashed,gray,](0,-3)--(0,3);
 % Media names
-\node at (-3,.3) {Medio 1 $\; n_i$}; 
-\node at (-3,-.3) {Medio 2 $\; n_t$};
+\node at (-3,.3) {{\small Medio 1} $\; n_i$}; 
+\node at (-3,-.3) {{\small Medio 2} $\; n_t$};
 
 %--------------------------------------------  Incident Wave
 \draw[gray, line width=1pt](0:0cm)--(135:3cm);  % Light trajectory
@@ -218,12 +220,12 @@ en donde $\theta_i$ es el ángulo de incidencia; $\theta_r$, el de reflexión y 
 \draw[latex-latex](95:1.cm)arc(95:130:1.cm);
  
     \draw[-latex,line width=1pt](135:1.9cm)--(135:1.2cm);    %Wave vector
-    \path (0,0)++(141:0.9cm)node[left]{$\vb{k}_i$};     %Wave vector label
+    \path (0,0)++(141:0.9cm)node[left]{$\vb{k}^i$};     %Wave vector label
     
     \draw[-latex,line width=.9pt](135:1.9cm)--(155:2.05cm);  %B vector
-    \path (0,0)++(148:2.3cm)node{$\vb{B}_i$}; 
+    \path (0,0)++(148:2.3cm)node{$\vb{B}^i$}; 
     
-    \path (0,0)++(125:2.1cm)node{$\vb{E}_i$};       % E vector
+    \path (0,0)++(125:2.1cm)node{$\vb{E}^i$};       % E vector
     
     \draw [fill= white](135:1.9cm)circle (0.12cm); % Vector perp. to surface
     \draw [black](135:1.9cm)circle (0.12cm);
@@ -235,12 +237,12 @@ en donde $\theta_i$ es el ángulo de incidencia; $\theta_r$, el de reflexión y 
 \draw[latex-latex](85:1.cm)arc(85:50:1.cm);
  
     \draw[-latex,line width=1pt](45:1.9cm)--(45:2.6cm);    %Wave vector
-    \path (0,0)++(47.5:2.8cm)node[left]{$\vb{k}_r$};     %Wave vector label
+    \path (0,0)++(47.5:2.8cm)node[left]{$\vb{k}^r$};     %Wave vector label
     
     \draw[-latex,line width=.9pt](45:1.9cm)--(27:2.05cm);  %B vector
-    \path (0,0)++(30:2.4cm)node{$\vb{B}_r$}; 
+    \path (0,0)++(30:2.4cm)node{$\vb{B}^r$}; 
     
-    \path (0,0)++(55:1.7cm)node{$\vb{E}_r$};       % E vector
+    \path (0,0)++(55:1.7cm)node{$\vb{E}^r$};       % E vector
     
     \draw [fill= white](45:1.9cm)circle (0.12cm); % Vector perp. to surface
     \draw [black](45:1.9cm)circle (0.12cm);
@@ -252,12 +254,12 @@ en donde $\theta_i$ es el ángulo de incidencia; $\theta_r$, el de reflexión y 
 \draw[latex-latex](-85:1.3cm)arc(-85:-66:1.3cm);
  
     \draw[-latex,line width=1pt](-61:1.9cm)--(-61:2.6cm);    %Wave vector
-    \path (0,0)++(-61:2.6cm)node[right]{$\vb{k}_t$};     %Wave vector label
+    \path (0,0)++(-61:2.6cm)node[right]{$\vb{k}^t$};     %Wave vector label
 
     \draw[-latex,line width=.9pt](-61:1.9cm)--(-80:2.005cm);  %B vector
-    \path (0,0)++(-80:2.3cm)node{$\vb{B}_t$}; 
+    \path (0,0)++(-80:2.3cm)node{$\vb{B}^t$}; 
     
-    \path (0,0)++(-48:1.9cm)node{$\vb{E}_r$};       % E vector
+    \path (0,0)++(-48:1.9cm)node{$\vb{E}^r$};       % E vector
     
     \draw [fill= white](-61:1.9cm)circle (0.12cm); % Vector perp. to surface
     \draw [black](-61:1.9cm)circle (0.12cm);
@@ -275,8 +277,8 @@ en donde $\theta_i$ es el ángulo de incidencia; $\theta_r$, el de reflexión y 
 % Vertical dashed line
 \draw[dashed,gray,](0,-3)--(0,3);
 % Media names
-\node at (-3,.3) {Medio 1 $\; n_i$}; 
-\node at (-3,-.3) {Medio 2 $\; n_t$};
+\node at (-3,.3) {{\small Medio 1} $\; n_i$}; 
+\node at (-3,-.3) {{\small Medio 2} $\; n_t$};
 
 %--------------------------------------------  Incident Wave
 \draw[gray, line width=1pt](0:0cm)--(135:3cm);  % Light trajectory
@@ -284,14 +286,14 @@ en donde $\theta_i$ es el ángulo de incidencia; $\theta_r$, el de reflexión y 
 \draw[latex-latex](95:1.cm)arc(95:130:1.cm);
  
     \draw[-latex,line width=1pt](135:1.9cm)--(135:1.2cm);    %Wave vector
-    \path (0,0)++(141:0.9cm)node[left]{$\vb{k}_i$};     %Wave vector label
+    \path (0,0)++(141:0.9cm)node[left]{$\vb{k}^i$};     %Wave vector label
     
     \draw[-latex,line width=.9pt](135:1.9cm)--(115:2.05cm);  %E vector
-    \path (0,0)++(110:2.2cm)node{$\vb{E}_i$}; 
+    \path (0,0)++(110:2.2cm)node{$\vb{E}^i$}; 
 %    \draw[-latex,line width=.9pt, red]((135:1.9cm)--(117:1.55cm); 
 
     
-    \path (0,0)++(145:2.1cm)node{$\vb{B}_i$};       % B vector
+    \path (0,0)++(145:2.1cm)node{$\vb{B}^i$};       % B vector
     
     \draw [fill= white](135:1.9cm)circle (0.12cm);
     \draw [black](135:1.9cm)circle (0.12cm);
@@ -309,14 +311,14 @@ en donde $\theta_i$ es el ángulo de incidencia; $\theta_r$, el de reflexión y 
 \draw[latex-latex](85:1.cm)arc(85:50:1.cm);
  
     \draw[-latex,line width=1pt](45:1.9cm)--(45:2.6cm);    %Wave vector
-    \path (0,0)++(43:2.4cm)node[right]{$\vb{k}_r$};     %Wave vector label
+    \path (0,0)++(43:2.4cm)node[right]{$\vb{k}^r$};     %Wave vector label
     
     \draw[-latex,line width=.9pt](45:1.9cm)--(67:2.05cm);  %E vector
-    \path (0,0)++(65:2.4cm)node{$\vb{E}_r$};
+    \path (0,0)++(65:2.4cm)node{$\vb{E}^r$};
   %  \draw[-latex,line width=.9pt, red](45:1.9cm)--(59:1.55cm); 
    % \draw[dashed,red,line width=.9pt](59:1.55cm)--(67:2.05cm);
     
-    \path (0,0)++(30:1.9cm)node{$\vb{B}_r$};       % B vector
+    \path (0,0)++(30:1.9cm)node{$\vb{B}^r$};       % B vector
     
     \draw [fill= white](45:1.9cm)circle (0.12cm);
     \draw [black](45:1.9cm)circle (0.12cm);
@@ -329,24 +331,24 @@ en donde $\theta_i$ es el ángulo de incidencia; $\theta_r$, el de reflexión y 
 \draw[latex-latex](-85:1.3cm)arc(-85:-66:1.3cm);
  
     \draw[-latex,line width=1pt](-61:1.9cm)--(-61:2.6cm);    %Wave vector
-    \path (0,0)++(-61:2.6cm)node[right]{$\vb{k}_t$};     %Wave vector label
+    \path (0,0)++(-61:2.6cm)node[right]{$\vb{k}^t$};     %Wave vector label
  
     \draw[-latex,line width=.9pt](-61:1.9cm)--(-40:2.005cm);  %E vector
 %      \draw[-latex,line width=.9pt, red](-61:1.9cm)--(-45:2.3cm); 
-    \path (0,0)++(-30:2.3cm)node{$\vb{E}_t$}; 
+    \path (0,0)++(-30:2.3cm)node{$\vb{E}^t$}; 
     
-    \path (0,0)++(-72.5:1.9cm)node{$\vb{B}_t$};       % B vector
+    \path (0,0)++(-72.5:1.9cm)node{$\vb{B}^t$};       % B vector
     
     \draw [fill= white](-61:1.9cm)circle (0.12cm);
     \draw [black](-61:1.9cm)circle (0.12cm);
     \filldraw[fill=black](-61:1.9cm) circle(0.03cm); %% 
 \end{tikzpicture}
 	\end{subfigure} 
-	\caption{ Esquema de de una onda plana en polarización \textbf{a)} \emph{s} y \textbf{b)} \emph{p} propagándose en una dirección $\vb{k}_i$ e incidiendo con un ángulo de incidencia $\theta_i$ en una interfaz plana entre dos medio lineales, homogéneos e isótropos, donde el medio de incidencia tiene un índice de refracción $n_i$ y el de transmisión $n_t$. El haz reflejado se propaga con un ángulo $\theta_r=\theta_i$ según la ley de reflexión [Ec. \eqref{eq:LeyReflexion}] y el ángulo transmitido se propaga con un ángulo $\theta_t$ dado por la ley de Snell [Ec. \eqref{eq:LeySnell}]. En el esquema se asume que la orientación de los campos EMs incidentes  ($\vb{E}_i,\,\vb{B}_i$) es la misma para los campos EMs reflejados ($\vb{E}_r,\,\vb{B}_r$) y transmitidos ($\vb{E}_t,\,\vb{B}_t$).}	\label{fig:Polarizaciones}	
+	\caption{ Esquema de de una onda plana en polarización \textbf{a)} \emph{s} y \textbf{b)} \emph{p} que se propaga en una dirección $\vb{k}^i$ e incide con un ángulo de incidencia $\theta_i$ en una interfaz plana entre dos medio lineales, homogéneos e isótropos, donde el medio de incidencia tiene un índice de refracción $n_i$ y el de transmisión, $n_t$. El haz reflejado se propaga con un ángulo $\theta_r=\theta_i$ según la ley de reflexión [Ec. \eqref{eq:LeyReflexion}] y el ángulo transmitido se propaga con un ángulo $\theta_t$ dado por la ley de Snell [Ec. \eqref{eq:LeySnell}]. En el esquema se asume que la orientación de los campos EMs incidentes  ($\vb{E}^i,\,\vb{B}^i$) es la misma para los campos EMs reflejados ($\vb{E}^r,\,\vb{B}^r$) y transmitidos ($\vb{E}^t,\,\vb{B}^t$).}	\label{fig:Polarizaciones}	
 	\end{figure}	
 %
 
-Para polarización \emph{s} y medios no magnéticos ($\mu=\mu_0$),  el campo eléctrico es perpendicular al plano de incidencia y paralelo a la interfaz por lo que, mediante la Ec. \eqref{seq:Epara}, $E_i + E_r = E_t$, en donde se asume que la orientación del campo eléctrico incidente se preserva tras la reflexión y la transmisión, como se observa en la Fig. \ref{sfig:Pols}. Al emplear la continuidad de la componente paralela a la interfaz de $\vb{B}/\mu$ [Ec. \eqref{seq:Bpara}], la relación $E = (c/n) B$ y la ley de la reflexión [Ec. \eqref{eq:LeyReflexion}] y de Snell [Ec. \eqref{eq:LeySnell}] se obtienen los coeficientes de amplitud $r$ y $t$ para  polarización \emph{s}, dados por\vspace{-.5em}\index{Fresnel!coeficientes de amplitud de!s}
+Para polarización \emph{s} y medios no magnéticos ($\mu=\mu_0$),  el campo eléctrico es perpendicular al plano de incidencia y paralelo a la interfaz por lo que, mediante la Ec. \eqref{seq:Epara}, $E^i + E^r = E^t$, en donde se asume que la orientación del campo eléctrico incidente se preserva tras la reflexión y la transmisión, como se observa en la Fig. \ref{sfig:Pols}. Al emplear la continuidad de la componente paralela a la interfaz de $\vb{B}/\mu$ [Ec. \eqref{seq:Bpara}], la relación $E = (c/n) B$ y la ley de la reflexión [Ec. \eqref{eq:LeyReflexion}] y de Snell [Ec. \eqref{eq:LeySnell}] se obtienen los coeficientes de amplitud $r$ y $t$ para  polarización \emph{s}, dados por\vspace{-.5em}\index{Fresnel!amplitud, coeficientes de ($r,t$)!$s$}
 %
 	\begin{tcolorbox}[title = Coeficientes de amplitud para polarización \emph{s} ]
 	\vspace*{-1em}	
@@ -360,7 +362,7 @@ Para polarización \emph{s} y medios no magnéticos ($\mu=\mu_0$),  el campo el�
  			\label{eq:ts}}
 	\end{tcolorbox}	 \vspace*{-.5em}\noindent
 %
-Cuando el campo eléctrico es paralelo al plano de incidencia, y por tanto perpendicular a la interfaz como se observa en la Fig. \ref{sfig:Polp}, se cumple la relación $E_i\cos\theta_i-E_r\cos\theta_r = E_t \cos\theta_t$ por la Ec. \eqref{seq:Epara}. Al asumir nuevamente que la orientación de oscilación del campo eléctrico reflejado y transmitido coincide con la del campo eléctrico incidente, y al emplear las Ecs. \eqref{seq:Bpara},  \eqref{eq:LeyReflexion} y  \eqref{eq:LeySnell}, así como la relación $E = (c/n) B$, se calculan los  coeficientes de amplitud $r$ y $t$ para  polarización \emph{p}, dados por \index{Fresnel!coeficientes de amplitud de!p} \vspace*{-.5em}
+Cuando el campo eléctrico es paralelo al plano de incidencia, y por tanto perpendicular a la interfaz como se observa en la Fig. \ref{sfig:Polp}, se cumple la relación $E^i\cos\theta_i-E^r\cos\theta_r = E^t \cos\theta_t$ por la Ec. \eqref{seq:Epara}. Al asumir nuevamente que la orientación de oscilación del campo eléctrico reflejado y transmitido coincide con la del campo eléctrico incidente, y al emplear las Ecs. \eqref{seq:Bpara},  \eqref{eq:LeyReflexion} y  \eqref{eq:LeySnell}, así como la relación $E = (c/n) B$, se calculan los  coeficientes de amplitud $r$ y $t$ para  polarización \emph{p}, dados por \index{Fresnel!amplitud, coeficientes de ($r,t$)!$p$} \vspace*{-.5em}
 	\begin{tcolorbox}[title = Coeficientes de amplitud para polarización \emph{p} ]
 	\vspace*{-1em}
 	\eqhalf{ r_p =
@@ -372,7 +374,7 @@ Cuando el campo eléctrico es paralelo al plano de incidencia, y por tanto perpe
  				\label{eq:tp}}
 	\end{tcolorbox}	
 
-Dado que los coeficientes  de amplitud de los índices de refracción de los medios que conforman la interfaz, es posible hacer la distinción entre dos casos al analizar el término dentro de la raíz cuadrada en las Ecs. \eqref{eq:rs}--\eqref{eq:tp}: incidencia externa ($n_t>n_i$) e incidencia interna ($n_t<n_i$). En la Fig. \ref{fig:coefAmp} se grafican los coeficientes de amplitud $r$ (líneas continuas) y $t$ (líneas discontinuas) como función del ángulo de incidencia $\theta_i$ para una interfaz de entre aire ($n= 1$) y un medio con un índice de refracción $n = 1.5$, en configuración de incidencia externa [Fig. \ref{sfig:coefExt}] e interna [Fig. \ref{sfig:coefInt}] para ambas polarizaciones, en donde las líneas azules corresponden a la polarización \emph{s} y las rojas a \emph{p}. Dado que los índices de refracción $n = \sqrt{\varepsilon}$ son cantidades reales, ninguno de los dos medios es absorbente. \index{Incidencia!interna}\index{Incidencia!externa}
+Dado que los coeficientes  de amplitud dependen de los índices de refracción de los medios que conforman la interfaz, es posible hacer la distinción entre dos casos al analizar el término dentro de la raíz cuadrada en las Ecs. \eqref{eq:rs}--\eqref{eq:tp}: incidencia externa ($n_t>n_i$) e incidencia interna ($n_t<n_i$). En la Fig. \ref{fig:coefAmp} se grafican los coeficientes de amplitud $r$ (líneas continuas) y $t$ (líneas discontinuas) como función del ángulo de incidencia $\theta_i$ para una interfaz de entre aire ($n= 1$) y un medio con un índice de refracción $n = 1.5$, en configuración de incidencia externa [Fig. \ref{sfig:coefExt}] e interna [Fig. \ref{sfig:coefInt}] para ambas polarizaciones, en donde las líneas azules corresponden a la polarización \emph{s} y las rojas a \emph{p}. Dado que se cumple para amos medios que $n = \sqrt{\varepsilon}>0$, ninguno de los dos medios es absorbente. \index{Incidencia!interna}\index{Incidencia!externa}
 %
 \begin{figure}[h!]\centering\hspace*{-1.5em}
 	\begin{subfigure}{.05\textwidth}\vspace{-4.5cm}\caption{}\label{sfig:coefExt}\end{subfigure}
@@ -385,15 +387,15 @@ Dado que los coeficientes  de amplitud de los índices de refracción de los med
 	\end{subfigure}\vspace*{-.7em}
 	\caption{ Coeficientes de amplitud $r$ (líneas continuas) y $t$ (líneas discontinuas), como función del ángulo de incidencia $\theta_i$, en configuración de incidencia \textbf{a)} externa e \textbf{b)} interna para una interfaz entre  aire ($n=1$) y un medio con índice de refracción $n = 1.5$. Los cálculos para polarización  \emph{s} se muestran  en azul y  para \emph{p} en rojo. }	\label{fig:coefAmp}	
 	\end{figure}	
-%
-En la Fig. \ref{fig:coefAmp} el coeficiente de amplitud de reflexión $r_p$ [Ec. \eqref{eq:rp}] toma un valor nulo para el ángulo de incidencia  denominado ángulo de Brewster $\theta_B$, que cumple con la expresión\index{Ángulo!de Brewster} 
+
+En la Fig. \ref{fig:coefAmp} el coeficiente de amplitud de reflexión $r_p$ [Ec. \eqref{eq:rp}] toma un valor nulo para el ángulo de incidencia  denominado ángulo de Brewster $\theta_B$, que cumple con la expresión\index{Ángulo!de Brewster} \index{Brewster!ángulo de}
 %
 	\begin{align}
 	\tan\theta_B = \frac{n_t}{n_i},
 	\label{eq:Brewster}
 	\end{align}
 %	
-tanto para incidencia externa [Fig. \ref{sfig:coefExt}], donde $\theta_B \approx 56^\circ$, como para interna [Fig. \ref{sfig:coefInt}], donde $\theta_B \approx 33^\circ$. El cambio de signo del coeficiente de reflexión $r_p$ para $\theta_i>\theta_B$ corresponde a un cambio de fase de $\pi$ radianes del campo eléctrico reflejado respecto al campo eléctrico incidente. De la Ec. \eqref{eq:Brewster} se deduce que el ángulo de Brewster de incidencia externa $\theta_B^{ext}$ es complementario al de incidencia interna $\theta_B^{int}$, es decir, $\theta_B^{ext}+\theta_B^{int} = 90^\circ$ como se observa en las gráficas de la Fig. \ref{fig:coefAmp}. Cuando se considera una configuración de incidencia interna, se cumple la relación $n_i>n_t$, por lo que los coeficientes de amplitud  [Ecs. \eqref{eq:rs}--\eqref{eq:tp}] son cantidades complejas para un ángulos de incidencia mayores al ángulo crítico $\theta_c$ que cumple la expresión\index{Ángulo!crítico|see {Íncidencia interna}}\index{Ángulo!crítico}
+tanto para incidencia externa [Fig. \ref{sfig:coefExt}], donde $\theta_B \approx 56^\circ$, como para interna [Fig. \ref{sfig:coefInt}], donde $\theta_B \approx 33^\circ$. El cambio de signo del coeficiente de reflexión $r_p$ para $\theta_i>\theta_B$ corresponde a un cambio de fase de $\pi$ radianes del campo eléctrico reflejado respecto al campo eléctrico incidente. De la Ec. \eqref{eq:Brewster} se deduce que el ángulo de Brewster de incidencia externa $\theta_B^{ext}$ es complementario al de incidencia interna $\theta_B^{int}$, es decir, $\theta_B^{ext}+\theta_B^{int} = 90^\circ$ como se observa en las gráficas de la Fig. \ref{fig:coefAmp}. Cuando se considera una configuración de incidencia interna, se cumple la relación $n_i>n_t$, por lo que los coeficientes de amplitud  [Ecs. \eqref{eq:rs}--\eqref{eq:tp}] son cantidades complejas para un ángulos de incidencia mayores al ángulo crítico $\theta_c$ que cumple la expresión\index{Ángulo!crítico|see {Incidencia interna}}\index{Ángulo!crítico}
 % 
 	\begin{align}
 	\sin\theta_c = \frac{n_t}{n_i}.
@@ -404,7 +406,7 @@ Al sustituir la Ec. \eqref{eq:Criticp} en la ley de Snell [Ec. \eqref{eq:LeySnel
 
 El análisis del comportamiento de las ondas EMs al cruzar una interfaz plana, entre dos medios lineales homogéneos e isótropos, en términos de las amplitudes de los campos eléctricos describen el comportamiento de la magnitud y los cambios de fase en los campos eléctricos y no la energía transportada por los campos EMs reflejados y transmitidos. Al emplear vector de Poynting [Ec. (\ref{eq:Poynting})] y calcular su promedio temporal\footnote{El promedio temporal del vector de Poynting es $\langle\vb{S}\rangle_t = (1/\tau)\int_t^{t+\tau}\vb{S}(t')dt'$, y para campos EMs tipo ondas planas es $\langle\vb{S}\rangle_t = (1/2) \Re[\vb{E}\times\qty(\vb{B}/\mu)^*]$.\index{Poynting!vector de!promedio temporal del}} se calcula la irradiancia $I$ \cite{hecht1998optics}, dada por
 	\begin{align}
-	I = \langle S \rangle_t = \frac{nc\varepsilon_0}{2} E_0^2,
+	I = \langle S \rangle_t = \frac{nc\varepsilon_0}{2} EE^*,
 	\label{eq:Irr}
 	\end{align}
 que corresponde a la energía promedio por unidad de tiempo y unidad de área, transportada por los campos EMs en la dirección $\vu{k}$ \cite{griffiths2013electrodynamics}. Para calcular la energía por unidad de tiempo $P$ transportada por los campos EMs al cruzar la interfaz se multiplica la Ec. \eqref{eq:Irr} por la sección transversal de un haz de luz. En la Fig. \ref{fig:hazcircular} se muestran las secciones transversales de un haz  que incide a un ángulo $\theta_i$ sobre la interfaz entre dos medios con índice de refracción $n_i$ y $n_t$, respectivamente. Cuando el haz se refleja, a un ángulo $\theta_r=\theta_i$, y se refracta a un ángulo $\theta_t$, la sección transversal del haz cambia. Si el área de los haces justo en la interfaz es $A$, mediante la ley de la reflexión [Ec. \eqref{eq:LeyReflexion}] y la ley de Snell [Ec. \eqref{eq:LeySnell}], la sección transversal del has incidente y el reflejado  es $A\cos\theta_i$, mientras que la del haz transmitido es $A\cos\theta_t$.
@@ -467,14 +469,14 @@ que corresponde a la energía promedio por unidad de tiempo y unidad de área, t
 
  Al emplear la Ec. \eqref{eq:Irr} y multiplicarla por el área de alguno de los tres haces mostrados en la Fig. \ref{fig:hazcircular}, se obtiene que la energía por unidad de tiempo transportada por cada haz de luz es
 	\begin{align*}
-	P = I A \cos\theta = \frac{n c \varepsilon_0}{2} E_{0}^2 \cos\theta,
+	P = I A \cos\theta = \frac{n c \varepsilon_0}{2}  EE^* \cos\theta,
 	\end{align*}
-en donde el ángulo $\theta$ e indice de refracción $n$ toman los valores de $\theta_i$ y $n_i$ para el haz incidente y el reflejado, mientras que  toma los valores de $\theta_t$ y  $n_t$ para el haz transmitido. Cuando se normaliza la energía por unidad de tiempo transportada por el haz reflejado y por el haz transmitido, entre la del haz incidente se obtienen las expresiones de la reflectancia $R$ y la transmitancia $T$ \vspace{-.5em} \index{Reflectancia}\index{Transmitancia}
+en donde el ángulo $\theta$ e indice de refracción $n$ toman los valores de $\theta_i$ y $n_i$ para el haz incidente y el reflejado, mientras que  toma los valores de $\theta_t$ y  $n_t$ para el haz transmitido. Cuando se normaliza la energía por unidad de tiempo transportada por el haz reflejado y por el haz transmitido, entre la del haz incidente se obtienen las expresiones de la reflectancia $R$ y la transmitancia $T$ \vspace{-.5em} \index{Fresnel!Reflectancia ($R$)}\index{Fresnel!Transmitancia ($T$)}
 	\begin{tcolorbox}[title = Reflectancia y transmitancia]
 	\eqhalf{ R =  r r^*, \label{eq:R}}
 	\eqhalf{ T = \frac{n_t\cos\theta_i}{n_i \cos\theta_t} t t^*,\label{eq:T}}
-	\end{tcolorbox}	 \vspace*{-.5em}\noindent	
-en donde $r$ es el coeficiente de amplitud de reflexión y $t$ el de transmisión, dados por las Ecs. \eqref{eq:rs}--\eqref{eq:tp}, y $*$ el complejo conjugado.
+	\end{tcolorbox}\vspace*{-.5em}\noindent	
+en donde $r$ es el coeficiente de amplitud de reflexión y $t$ el de transmisión, dados por las Ecs. \eqref{eq:rs}--\eqref{eq:tp}.
 
 En la Fig. \ref{fig:frsnel} se presentan la reflectancia (líneas continuas) y transmitancia (líneas discontinuas) como función del ángulo de incidencia $\theta_i$, para la polarización \emph{s} (en azul) y \emph{p} (en rojo), de un haz de luz que incide en la interfaz entre aire ($n=1$) y un medio con índice de refracción $n=1.5$ para una configuración de incidencia externa [Fig. \ref{sfig:frsnelExt}] e incidencia interna [Fig. \ref{sfig:frsnelExt}].
 %
@@ -491,21 +493,16 @@ En la Fig. \ref{fig:frsnel} se presentan la reflectancia (líneas continuas) y t
 	\end{figure}	
 %
 
-El ángulo de Brewster $\theta_B$ es apreciable en las gráficas de la Fig. \ref{fig:frsnel}, en donde se observa $R_p = 0$. Asimismo es apreciable en la Fig. \ref{sfig:frsenlInt} que para ángulos de incidencia mayores al ángulo crítico, se cumple que $R_p = R_s = 1$, mientras que $T_s = T_p = 0$, es decir, que toda la luz es reflejada. En la Fig. \ref{fig:frsnel} se observa que es válida la relación 
-	\begin{align*}
-	R + T = 1,
-	\end{align*}
-sin embargo, ésta es válida únicamente para índices de refracción $n = \sqrt{\varepsilon}$ que sean cantidades reales, dado que para medios no magnéticos ($\mu_0 = \mu$), la parte imaginaria de la función dieléctrica $\Im[\varepsilon]$ se asocia con la absorción de energía por el material \cite{ibach2003solid}. Cuando la luz se propaga a través de algún medio absorbente, se cumple en general 
+El ángulo de Brewster $\theta_B$ es apreciable en las gráficas de la Fig. \ref{fig:frsnel}, en donde se observa $R_p = 0$. Asimismo es apreciable en la Fig. \ref{sfig:frsenlInt} que para ángulos de incidencia mayores al ángulo crítico, se cumple que $R_p = R_s = 1$, mientras que $T_s = T_p = 0$, es decir, que toda la luz es reflejada. En la Fig. \ref{fig:frsnel} se observa que es válida la relación $R + T = 1$ sin embargo, ésta es válida únicamente para índices de refracción $n = \sqrt{\varepsilon}$ que sean cantidades reales, dado que para medios no magnéticos ($\mu_0 = \mu$), la parte imaginaria de la función dieléctrica $\Im[\varepsilon]$ se asocia con la absorción de energía por el material \cite{ibach2003solid}. Cuando la luz se propaga a través de algún medio absorbente, se cumple en general 
 	\begin{align*}
 	R + T + A = 1,
 	\end{align*}
-en donde el término $A$ es la energía absorbida por el material, relativa a la energía del haz incidente.
-
+en donde el término $A$ es la energía absorbida por el material, relativa a la energía del haz incidente.\index{Función dieléctrica!Absorción}
 	
 \section{Solución de Mie}
 
-\index{Mie!solución de}
-El problema de absorción y esparcimiento de luz por una partícula esférica fue resuelto por el físico alemán Gustav Mie en 1908 \cite{mie1908metallosung}.  La solución de Mie consiste en expandir una onda plana, que ilumina a una esfera de tamaño y material arbitrario, en una base de armónicos esféricos vectoriales que son una base ortogonal esférica y cuyos elementos satisfacen las ecuaciones de Maxwell \cite{bohren1998absorption}. Al considerar las condiciones de contorno que satisfacen los campos EMs sobre la superficie de la esfera,  se escriben los campos EMs dentro de la partícula y los campos esparcidos por ésta como una serie en la base de los armónicos esféricos vectoriales, cuyos coeficientes corresponden a una expanción multipolar y son conocidos como los coeficientes de Mie \cite{bohren1998absorption}. A pesar de que existen publicaciones previas a la de Mie en donde  el problema de la absorción y esparcimiento de luz es tratado de forma semejante, el trabajo de Mie destacó debido a que en él se  desarrollan relaciones recursivas que facilitan el cálculo numérico y se discute la convergencia de este resultado \cite{horvath2009historic}. El desarrollo de una solución apta para el cálculo numérico permitió que en el artículo de Mie se describieran diez propiedades de la luz al interactuar con suspenciones diluidas de partículas esféricas \cite{mie1908metallosung}, lo que contribuyó al impacto de su solución sobre el trabajo de otros autores \cite{horvath2009historic}. 
+\index{Mie!solución de}\index{Esparcimiento! de luz|see{Mie}}
+El problema de absorción y esparcimiento de luz por una partícula esférica fue resuelto por el físico alemán Gustav Mie en 1908 \cite{mie1908metallosung}. La solución de Mie consiste en expandir una onda plana, que ilumina a una esfera de tamaño y material arbitrario, en una base de armónicos esféricos vectoriales que son una base ortogonal esférica y cuyos elementos satisfacen las ecuaciones de Maxwell \cite{bohren1998absorption}. Al considerar las condiciones de contorno que satisfacen los campos EMs sobre la superficie de la esfera, se escriben los campos EMs dentro de la partícula y los campos esparcidos por ésta como una serie en la base de los armónicos esféricos vectoriales, cuyos coeficientes corresponden a una expanción multipolar y son conocidos como los coeficientes de Mie \cite{bohren1998absorption}. A pesar de que existen publicaciones previas a la de Mie en donde  el problema de la absorción y esparcimiento de luz es tratado de forma semejante, el trabajo de Mie destacó debido al desarrollo de relaciones recursivas que facilitan el cálculo numérico y se discute la convergencia de este resultado \cite{horvath2009historic}. El desarrollo de una solución apta para el cálculo numérico permitió que en el artículo de Mie se describieran diez propiedades de la luz al interactuar con suspenciones diluidas de partículas esféricas \cite{mie1908metallosung}, lo que contribuyó al impacto de su solución sobre el trabajo de otros autores \cite{horvath2009historic}. 
 
 	\begin{figure}[b!]\centering
 	\tdplotsetmaincoords{60}{110}
@@ -615,36 +612,38 @@ Para el estudio del esparcimiento por una partícula arbitraria inmersa en un me
 	\vb{E}^i = (E_x^i \vu{e}_x + E_y^i \vu{e}_y)e^{i(k z - \omega t)},
 	\label{eq:Exyi}
 	\end{align}
-donde $k = 2\pi n_m /\lambda$ es el número de onda. En la Fig.  \ref{fig:PlanoEsparcimiento} se muestra  una partícula localizada en el origen iluminada por una onda plana [Ec. \eqref{eq:Exyi}] que se propaga en la dirección $z$.  De forma análoga al plano de incidencia\footnote{En el problema de un onda plana incidente a una superficie plana, el plano de incidencia se define por el vector normal a la superficie y la dirección de propagación de la onda plana.} se define el \emph{plano de esparcimiento} (en verde en la Fig. \ref{fig:PlanoEsparcimiento}) con el vector de dirección del esparcimiento $\vu{e}_r$ y la dirección del haz incidente $\vu{e}_z$. Con base en el plano de esparcimiento es posible definir las componentes ortogonales $\perp$ y paralelas $\parallel$ de los campos EMs, así como su polarización. 
+donde $k = 2\pi n_m /\lambda$ es el número de onda. En la Fig.  \ref{fig:PlanoEsparcimiento} se muestra  una partícula localizada en el origen iluminada por una onda plana [Ec. \eqref{eq:Exyi}] que se propaga en la dirección $z$.  De forma análoga al plano de incidencia, se define el plano de esparcimiento (en verde en la Fig. \ref{fig:PlanoEsparcimiento}) con el vector de dirección del esparcimiento $\vu{e}_r$ y la dirección del haz incidente $\vu{e}_z$. Con base en el plano de esparcimiento es posible definir las componentes ortogonales $\perp$ y paralelas $\parallel$ de los campos EMs, así como su polarización. \index{Plano!de esparcimiento} \index{Polarización!respecto al plano de esparcimiento}
 
-Como se muestra en la Fig. \ref{fig:PlanoEsparcimiento}, los vectores unitarios perpendicular y paralelo al plano de esparcimiento de la onda incidente, $\vu{e}_{\perp}^i$  y $\vu{e}_{\parallel}^i$, respectivamente, y de los campos EMs esparcidos $\vu{e}_{\perp}^s$ y $\vu{e}_{\parallel}^s$ están dados por\\ \index{Plano!de esparcimiento}\index{Polarización!respecto al plano de esparcimiento|see {Plano}}\index{Polarización!respecto al plano de esparcimiento!incidente}\begin{subequations}
+Como se muestra en la Fig. \ref{fig:PlanoEsparcimiento}, los vectores unitarios perpendicular y paralelo al plano de esparcimiento de la onda incidente, $\vu{e}_{\perp}^i$  y $\vu{e}_{\parallel}^i$, respectivamente, y de los campos EMs esparcidos $\vu{e}_{\perp}^s$ y $\vu{e}_{\parallel}^s$ están dados por%
+\begin{subequations} \index{Polarización!respecto al plano de esparcimiento!paralela ($\parallel$)}\index{Polarización!respecto al plano de esparcimiento!perpendicular ($\perp$)}\vspace*{-2em}
+
 	\eqhalf{\vu{e}_{\perp}^i =-\, \hat{e}_\varphi  = \sin\varphi\,\vu{e}_x - \cos\varphi\,\vu{e}_y,}	
 	\eqhalf{\vu{e}_{\parallel}^i = \cos\varphi\,\vu{e}_x + \sin\varphi\,\vu{e}_y,}	
-	\label{eq:vecInc}\end{subequations}	\begin{subequations}
+	\label{eqs:vecInc}\end{subequations}	\begin{subequations}
 	\eqhalf{\vu{e}_{\perp}^s= - \, \vu{e}_\varphi,}	
 	\eqhalf{\vu{e}_{\parallel}^s = \vu{e}_\theta.}	
-	\label{eq:vecScat}\end{subequations}
+	\label{eqs:vecScat}\end{subequations}\vspace*{-1em}
 	
-Al despejar $\vu{e}_x$ y $\vu{e}_y$  de las Ecs. \eqref{eq:vecInc}, y reescribirlos en la base de los vectores unitarios en la dirección perpendicular y normal al plano de esparcimiento como $\vu{e}_x = \sin\varphi\,\vu{e}_{\perp}^i + \cos\varphi\,\vu{e}_{\parallel}^i, $ y $\vu{e}_y = - \cos\varphi \,\vu{e}_{\perp}^i + \sin\varphi\,\vu{e}_{\parallel}^i$ se obtiene que $\vb{E}^i$ [Ec. \eqref{eq:Exyi}] se puede escribir como
+Al despejar $\vu{e}_x$ y $\vu{e}_y$  de las Ecs. \eqref{eqs:vecInc}, y reescribirlos en la base de los vectores unitarios en la dirección perpendicular y normal al plano de esparcimiento como $\vu{e}_x = \sin\varphi\,\vu{e}_{\perp}^i + \cos\varphi\,\vu{e}_{\parallel}^i, $ y $\vu{e}_y = - \cos\varphi \,\vu{e}_{\perp}^i + \sin\varphi\,\vu{e}_{\parallel}^i$ se obtiene que $\vb{E}^i$ [Ec. \eqref{eq:Exyi}] se puede escribir como
 \begin{align}
-\vb{E}_i = [(\cos\varphi E_{x}^i + \sin\varphi E_{y}^i)\vu{e}_{\perp}^i +
+\vb{E}^i = [(\cos\varphi E_{x}^i + \sin\varphi E_{y}^i)\vu{e}_{\perp}^i +
 			 (\sin\varphi E_{x}^i - \cos\varphi E_{y}^i)\vu{e}_{\parallel}^i]
 			 e^{ikz}
 			 = E_{\perp}^i  \vu{e}_{\perp}^i + E_{\parallel}^i\vu{e}_{\parallel}^i
 		\label{eq:EIncidente}
 \end{align}
-en donde se omite el término de la fase temporal $e^{-i\omega t}$ y la fase espacial $e^{ikz}$ se incluye en los coficientes $E_\perp^i$ y $E_\parallel^i$. Adicionalmente, al considerar para el campo eléctrico esparcido  únicamente los términos que corresponden al campo lejano, es decir, el término con componentes transversales y que decae como $r^{-1}$ y cumple con la relación $kr\ll 1$, el campo esparcido $\vb{E}^s$ puede escribirse como \cite{bohren1998absorption}\index{Campos electromagnéticos!radiativos}
+en donde se omite el término de la fase temporal $e^{-i\omega t}$ y la fase espacial $e^{ikz}$ se incluye en los coficientes $E_\perp^i$ y $E_\parallel^i$. Adicionalmente, al considerar para el campo eléctrico esparcido  únicamente los términos que corresponden al campo lejano, es decir, el término con componentes transversales y que decae como $r^{-1}$ y cumple con la relación $kr\ll 1$, el campo esparcido $\vb{E}^s$ puede escribirse como \cite{bohren1998absorption}\index{Electromagnéticos!campos!lejano}
 	\begin{align}
 	\vb{E}^s \propto \frac{e^{ikr}}{-ikr}\vb{E}_0^s 
 			=  \frac{e^{ikr}}{-ikr}
 			\qty( E_{\perp}^s  \vu{e}_{\perp}^s + E_{\parallel}^s \vu{e}_{\parallel}^s) \label{eq:ELejano}
 	\end{align}
-en donde  $\vb{E}_0^s$ es la amplitud del campo esparcido,  $ E_{\perp}^s$ y  $ E_{\parallel}^s$ sus componentes en la base de los vectores paralelo y perpendicular al plano de esparcimiento [Ec. \eqref{eq:vecScat}]. Asimismo, es posible relacionar al campo eléctrico esparcido por una partícula localizada en el centro de coordenadas$\vb{E}^s$ [Ec. \eqref{eq:ELejano}] con el  campo eléctrico incidente $\vb{E}^i$ [Ec. \eqref{eq:EIncidente}]  mediante  la diadica de esparcimiento de campo lejano  $\mathbb{F}(\vu{k}^i,\vu{k}^s)$ \cite{tsang2000scattering}
+en donde  $\vb{E}_0^s$ es la amplitud del campo esparcido,  $ E_{\perp}^s$ y  $ E_{\parallel}^s$ sus componentes en la base de los vectores paralelo y perpendicular al plano de esparcimiento [Ec. \eqref{eqs:vecScat}]. Asimismo, es posible relacionar al campo eléctrico esparcido por una partícula localizada en el centro de coordenadas $\vb{E}^s$ [Ec. \eqref{eq:ELejano}] con el  campo eléctrico incidente $\vb{E}^i$ [Ec. \eqref{eq:EIncidente}]  mediante  la diadica de esparcimiento de campo lejano  $\mathbb{F}(\vu{k}^i,\vu{k}^s)$ \index{Electromagnéticos!campos!diadica de campo lejano} \cite{tsang2000scattering}
 	\begin{align}
 	\vb{E}^s = \frac{e^{i\vb{k}^s\cdot\vb{r}}}{r}\mathbb{F}(\vu{k}^i,\vu{k}^s)\vb{E}^i
 	\label{eq:FarFieldDyadic}
 	\end{align}
-donde $\mathbb{F}$ depende de de la dirección de la onda plana incidente $\vu{k}^i$ y la dirección del campo eléctrico esparcido $\vu{k}^s$. Al considerar la forma asintótica del campo eléctrico esparcido [Ec. \eqref{eq:ELejano}] y su relación con el campo eléctrico incidente [Ec. \eqref{eq:FarFieldDyadic}], se pueden relacionar las componentes perpendiculares del campo esparcido y el campo incidente de una onda plana en la base de los vectores perpendiculares y paralelos al plano de incidencia mediante la matriz de esparcimiento $\mathbb{S}$ \cite{bohren1998absorption}
+donde $\mathbb{F}$ depende de de la dirección de la onda plana incidente $\vu{k}^i$ y la dirección del campo eléctrico esparcido $\vu{k}^s$. Al considerar la forma asintótica del campo eléctrico esparcido [Ec. \eqref{eq:ELejano}] y su relación con el campo eléctrico incidente [Ec. \eqref{eq:FarFieldDyadic}], se pueden relacionar las componentes perpendiculares del campo esparcido y el campo incidente de una onda plana en la base de los vectores perpendiculares y paralelos al plano de incidencia mediante la matriz de esparcimiento $\mathbb{S}$ \index{Esparcimiento!matriz de} \cite{bohren1998absorption}
 	\begin{align}
 	\mqty(E_{\parallel}^s\\E_{\perp}^s) = 
 		\frac{e^{ik(r-z)}}{-ikr} \mqty(S_2&S_3\\S_4&S_1)
@@ -655,18 +654,18 @@ en donde, de forma general, $S_j = S_j(\theta,\varphi)$, con $j=1,2,3$ y $4$, ad
 	\subsection{Solución a la ecuación de onda con simetría esférica}
 
 
-Las ecuaciones de Maxwell, al considerar una región del espacio sin cargas externas, y campos EMs armónicos en el tiempo, se reescriben como \cite{jackson1999electrodynamics} \index{Ecuaciones de Maxwell!transformada de Fourier de las}
+Las ecuaciones de Maxwell, al considerar una región del espacio sin fuentes externas, y campos EMs armónicos en el tiempo, se reescriben como \cite{jackson1999electrodynamics} \index{Maxwell!ecuaciones de!transformada de Fourier de las}
 
 	\begin{subequations}
 	\eqhalf{\nabla\cdot \vb{E} = 0, }
 	\eqhalf{\nabla\cdot \vb{H} = 0,}
 	\eqhalf{\nabla \times \vb{E} = i\omega\mu \vb{H}, \label{seq:FLArm}}
-	\eqhalf{\nabla\times\vb{H} = - i \omega\varepsilon \vb{E}, }	
-	\label{eq:MaxwellArm}
+	\eqhalf{\nabla\times\vb{H} = - i \omega\varepsilon(\omega) \vb{E}, }	
+	\label{eqs:MaxwellArm}
 	\end{subequations} \vspace*{-1em}
 	
 \noindent	
-en donde $\vb{H} = \vb{B}/\mu$ es el campo H, y la función dieléctrica $\varepsilon$ y la permeabilidad magnética $\mu$ del material son funciones continuas. Al desacoplar las ecuaciones de Maxwell, se concluye que los campos EMs son soluciones a la ecuación de Helmholz \index{Ecuación!de Helmholtz}
+en donde $\vb{H} = \vb{B}/\mu$ es el campo H, y la función dieléctrica $\varepsilon(\omega)$ y la permeabilidad magnética $\mu$ del material son funciones continuas. Al desacoplar las ecuaciones de Maxwell, se concluye que los campos EMs son soluciones a la ecuación de Helmholz \index{Ecuación!de Helmholtz}
 
 	\begin{subequations}
 	\eqhalf{\nabla^2 \vb{E}- k^2 \vb{E} = \vb{0},}
@@ -710,12 +709,12 @@ Los campos $\vb{M}$ y $\vb{N}$ cumplen con la  ecuación de Helmholtz vectorial 
 						= k \vb{M}.\label{eq:rotN}
 	\end{align}
 	
-Los campos vectoriales $\vb{M}$ y $\vb{N}$ son conocidos como los \emph{armónicos  vectoriales}, $\psi$ como su función generadora y $\vb{r}$ como el vector de guía o vector piloto \cite{bohren1998absorption}. Los armónicos vectoriales $\vb{M}$ y $\vb{N}$  cumplen con tener divergencia nula y que el rotacional de uno es porporcional al otro [Ecs. \eqref{eq:NrotM/k} y \eqref{eq:rotN}], es decir, que cumplen con las ecuaciones de Maxwell [Ecs. \eqref{eq:MaxwellArm}] siempre que se cumpla que\index{Armónicos vectoriales!función generadora de los}\vspace*{-.5em}
+Los campos vectoriales $\vb{M}$ y $\vb{N}$ son conocidos como los \emph{armónicos  vectoriales}\index{Armónicos vectoriales}, $\psi$ como su función generadora y $\vb{r}$ como el vector de guía o vector piloto \cite{bohren1998absorption}. Los armónicos vectoriales $\vb{M}$ y $\vb{N}$  cumplen con tener divergencia nula y que el rotacional de uno es proporcional al otro [Ecs. \eqref{eq:NrotM/k} y \eqref{eq:rotN}], es decir, que cumplen con las ecuaciones de Maxwell [Ecs. \eqref{eqs:MaxwellArm}] siempre que se cumpla que\index{Armónicos vectoriales!función generadora de los}\vspace*{-.5em}
 	\begin{tcolorbox}[title = $\mathbf{\psi}$: Función generadora de los armónicos  vectoriales, ams align ]
 	\nabla^2 \psi + k^2 \psi  = 0.\label{eq:AV_psi}
 	\end{tcolorbox}
 
-Cuando se considera una partícula esférica de radio $a$ e índice de refracción $n_p$, inmersa en un medio denominado matriz con índice de refracción $n_m$ (ver Fig. \ref{fig:EsferaA}), iluminada por una onda plana propagándose a lo largo del eje $z$, es conveniente emplear coordenadas esféricas $\{ r, \theta, \varphi\}$, en las que los la función generadora de los armónicos vectoriales es \index{Armónicos vectoriales!esféricos!función generadora}
+Cuando se considera una partícula esférica de radio $a$ e índice de refracción $n_p$, inmersa en un medio denominado matriz con índice de refracción $n_m$ (ver Fig. \ref{fig:EsferaA}), iluminada por una onda plana propagándose a lo largo del eje $z$, es conveniente emplear coordenadas esféricas $\{ r, \theta, \varphi\}$, en las que los la función generadora de los armónicos vectoriales es \index{Armónicos esféricos vectoriales!función generadora de los}
 	\begin{align}
 	\frac{1}{r^2} \pdv{r}\qty(r^2\pdv{\psi}{r})+ 
 	\frac{1}{r^2\sin\theta}\pdv{\theta}\qty(\sin\theta\pdv{\psi}{\theta})
@@ -803,60 +802,50 @@ Para resolver la Ec. \eqref{eq:AEV_psi} se emplea el método de separación de v
 					 		\label{eq:radAng}
 	\end{align}
 Si a su vez, se despejan de la parte angular de la Ec. \eqref{eq:radAng} los términos con dependencia en $\theta$ se obtiene que una función que depende únicamente de $\theta$ es igual a una que depende únicamente de $\varphi$, por lo que ambas partes se igualan a la constante $m^2$. Entonces, las funciones $R(r),\, \Theta(\theta), \mbox{ y } \Phi(\varphi)$ cumplen con las ecuaciones
-\begin{align}
-\frac{1}{\Phi}\dv[2]{\psi}{\varphi} &+ m^2 \Phi =0. \label{eq:Phi}\\
-\frac{1}{\sin\theta}\dv{\theta}\qty(\sin\theta\dv{\Theta}{\theta}) &+ \qty[\ell(\ell+1)- \frac{m^2}{\sin^2\theta}]\Theta =0,\label{eq:Theta}\\
-\dv{r}\qty(r^2\dv{R}{r}) &+ \qty[ k^2 r^2 - \ell (\ell +1)] R =0, \label{eq:Req}
-\end{align}
-tanto $\ell$  como $m$ son constantes que se determinan ante condiciones impuestas a $\psi$. Dado que $\psi$ debe ser una función con periodicidad $2\pi$ en $\varphi$, es decir que $\psi(\varphi) = \psi(\varphi+2\pi)$, las soluciones linealmente independientes de la Ec. \eqref{eq:Phi} son \index{Armónicos vectoriales!esféricos!función generadora!solución azimutal de la}
+	\begin{align}
+	\frac{1}{\Phi}\dv[2]{\psi}{\varphi} &+ m^2 \Phi =0. \label{eq:Phi}\\
+	\frac{1}{\sin\theta}\dv{\theta}\qty(\sin\theta\dv{\Theta}{\theta}) &+ 	\qty[\ell(\ell+1)- \frac{m^2}{\sin^2\theta}]\Theta =0,\label{eq:Theta}\\
+	\dv{r}\qty(r^2\dv{R}{r}) &+ \qty[ k^2 r^2 - \ell (\ell +1)] R =0, 	\label{eq:Req}
+	\end{align}
+tanto $\ell$  como $m$ son constantes que se determinan ante condiciones impuestas a $\psi$. Dado que $\psi$ debe ser una función con periodicidad $2\pi$ en $\varphi$, es decir que $\psi(\varphi) = \psi(\varphi+2\pi)$, las soluciones linealmente independientes de la Ec. \eqref{eq:Phi} son \index{Armónicos esféricos vectoriales!función generadora!solución azimutal de la}
 
 	\begin{subequations}
 	\eqhalf{\Phi_e(\varphi) = \cos(m\varphi),}
 	\eqhalf{\Phi_o(\varphi) = \sin(m\varphi),}
 	\label{eq:SinCos} 
-	\end{subequations} \vspace{-.5em}
+	\end{subequations} \vspace{-1em}
 	
-\noindent	
-con $m$ un número entero no negativo y donde los subíndices $e$ y $o$ hacen referencia a que son funciones pares (\emph{even}, $e$) e impares (\emph{odd}, $o$), respectivamente. Las funciones $\sin(m\varphi)$ y $\cos(m\varphi)$ obedecen las relaciones de ortogonalidad
+\noindent con $m$ un número entero no negativo y donde los subíndices $e$ y $o$ hacen referencia a que son funciones pares (\emph{even}, $e$) e impares (\emph{odd}, $o$), respectivamente. Las funciones $\sin(m\varphi)$ y $\cos(m\varphi)$ obedecen las relaciones de ortogonalidad
  	\begin{subequations}
 	\begin{align}
 	\int_0^{2\pi} \sin(m\varphi) &\cos(m' \varphi) \dd\varphi = 0 \qquad \forall\, m,m',\label{seq:ortSinCos}\\
 	\int_0^{2\pi} \sin(m\varphi) \sin(m'\varphi)\dd\varphi &=  \int_0^{2\pi} \cos(m\varphi) \cos(m'\varphi)\dd\varphi  = \delta_{m,m'}\frac{\pi}{2},\label{seq:ortCos2}
 	\end{align}\label{eq:ortSinCos}
  	\end{subequations}
-en donde $\delta_{m,m'}$ es la delta de Kronecker.
+en donde $\delta_{m,m'}$ es la delta de Kronecker.\index{Ortogonalidad!seno y coseno, relaciones de}
 
 Al realizar el cambio de variable $\mu = \cos\theta$ en la Ec. \eqref{eq:Theta} , ésta se reescribe como
 	\begin{align*}
 	\qty(1-\mu^2) \dv[2]{\Theta}{\mu} - 2 \mu \dv{\Theta}{\mu} + \qty[\ell(\ell+1)-\frac{m^2}{(1-\mu^2)}]\Theta= 0,
-	\end{align*}\index{Armónicos vectoriales!esféricos!función generadora!solución polar}\index{Ecuación!asociada de Legendre}
-cuyas soluciones son	las \emph{funciones asociadas de Legendre} $P_\ell^m(\cos\theta)$ de grado $\ell$ y orden $m$  \cite{arfken2001methods}, imponiendo $\ell = m, m+1,m+2,\ldots$ para  que la Ec. \eqref{eq:Theta} sea finita en $\theta = 0$ y $\theta = \pi$ ---o bien $\mu=\pm1$---. Las funciones asociadas de Legendre cumplen con la relación de ortogonalidad
+	\end{align*}\index{Armónicos esféricos vectoriales!función generadora!solución polar de la}\index{Ecuación!asociada de Legendre}\index{Legendre!ecuación asociada de}
+\hspace{-.5em}cuyas soluciones son	las \emph{funciones asociadas de Legendre} $P_\ell^m(\cos\theta)$ de grado $\ell$ y orden $m$  \cite{arfken2001methods}, imponiendo $\ell = m, m+1,m+2,\ldots$ para  que la Ec. \eqref{eq:Theta} sea finita en $\theta = 0$ y $\theta = \pi$ ---o bien $\mu=\pm1$---. Las funciones asociadas de Legendre cumplen con la relación de ortogonalidad 
 	\begin{align}
 	\int_{-1}^1P_\ell^m(\mu) P_{\ell'}^md\mu = \delta_{\ell,\ell'}\frac{2}{2\ell+1}\frac{(\ell+m)!}{(\ell-m)!},
 	\label{eq:ortLegendre}
-	\end{align}\index{Legendre!polinomios de}\index{Legendre!funciones asociadas de}
-Asimismo, las funciones asociadas de Legendre se reducen a los polinomios de Legendre cuando $m=0$, ademas de que las funciones asociadas y los polinomios de Legendre se relacionan mediante la identidad  \cite{arfken2001methods}
+	\end{align}\index{Legendre!polinomios de}\index{Legendre!funciones asociadas de}\index{Ortogonalidad!funciones asociadas de Legrende, relaciones de}\index{Legendre!funciones asociadas de!relaciones de ortogonalidad de las}
+\hspace{-.5em}Asimismo, las funciones asociadas de Legendre se reducen a los polinomios de Legendre cuando $m=0$, ademas de que las funciones asociadas y los polinomios de Legendre se relacionan mediante la identidad  \cite{arfken2001methods}
 	\begin{align}
 	P_\ell^m (\mu) = (1-\mu^2)^{m/2}\dv[m]{P_\ell(\mu)}{\mu},
 	\label{eq:Legendre}
 	\end{align}
-de donde se deduce  que $\eval{P_\ell^m(\cos\theta)}_{\theta=0,\pi}=0$ para toda $m$ distinta de cero. %Asimismo, de la Ec. \eqref{eq:FAL-PL} se obtiene que para $m=1$ se cumple que
-%	\begin{align}
-%	P_\ell^1(\cos\theta) = - \dv{P_\ell}{\theta} (\cos\theta ).
-%	\label{eq:FALm=1}
-%	\end{align}
-%Además, los polinomios de Legendre cumplen con la relación de recuerrencia
-%	\begin{align}
-%	\dv{\theta}\qty[\sin\theta \dv{P_\ell}{\theta} ( \cos \theta ) ] = -\ell(\ell+1)\sin\theta P_\ell( \cos\theta )
-%	\label{eq:PolLegeRec}
-%	\end{align}
+de donde se deduce  que $P_\ell^m(\pm 1)=0$ para toda $m$ distinta de cero.
 
-Para resolver la Ec. \eqref{eq:Req} se emplea el cambio de variable $\rho = k r$ y de define la función $Z =R\sqrt{\rho}$, por lo que la Ec. \eqref{eq:Req} se reescribe como
+Para resolver la Ec. \eqref{eq:Req} se emplea el cambio de variable $\rho = k r$ y de define la función $Z =R\sqrt{\rho}$, por lo que la ecuación radial se reescribe como \index{Armónicos esféricos vectoriales!función generadora!solución radial de la}\index{Ecuación!esférica de Bessel}\index{Bessel!ecuación esférica de}
 	\begin{align}
 	\rho \dv{\rho}\qty(\rho\dv{Z}{\rho})+\qty[\rho^2-\qty(\ell+\frac12)^2] Z = 0,
 	\label{eq:rho}
 	\end{align}
-cuyas soluciones son las \emph{funciones esféricas de Bessel} $j_\ell$ y $y_\ell$ o cualquier combinación lineal de ellas, por lo que de forma general las soluciones de la Ec. \eqref{eq:rho} son \cite{arfken2001methods}
+cuyas soluciones son las \emph{funciones esféricas de Bessel} $j_\ell$ y $y_\ell$ o cualquier combinación lineal de ellas, por lo que de forma general las soluciones de la Ec. \eqref{eq:rho} son \cite{arfken2001methods} \index{Bessel!funciones esféricas de}
 
 	\begin{subequations}
 	\eqhalf{j_\ell (\rho) = \sqrt{\frac{\pi}{2\rho}} J_{\ell+1/2}(\rho), \label{eqs:jn}}
@@ -867,29 +856,28 @@ cuyas soluciones son las \emph{funciones esféricas de Bessel} $j_\ell$ y $y_\el
 	\end{subequations}
 
 \noindent	
-en donde $J_\ell$ y $Y_\ell$ son las \emph{funciones de Bessel del primer y segundo tipo} respectivamente y $h_\ell$ son las \emph{funciones esféricas de Bessel del tercer tipo}, también denominadas como \emph{funciones esféricas de Hankel}\footnote{Todas las funciones esféricas de Bessel $z_\ell$ ---donde $z_\ell$ es cualquier función de las Ecs. \eqref{eq:SphBessel}--- cumplen con las  relaciones de recurrencia $	z_{\ell-1}(\rho) + z_{\ell+1}(\rho) =(2\ell+1)z_\ell(\rho)/\rho$ y $(2\ell + 1) \dv*{z_\ell(\rho)}{\rho} = \ell z_{\ell-1}(\rho) - (\ell+1)z_{\ell+1}(\rho)$, con  $j_0(\rho) = \sin\rho / \rho$ y $j_1(\rho) = \sin\rho / \rho^2- \cos\rho/\rho$, $y_0(\rho) = -\cos\rho/\rho$ y $y_1(\rho) = -\cos\rho/\rho^2-\sin\rho/\rho$.}.
+en donde $J_\ell$ y $Y_\ell$ son las \emph{funciones de Bessel del primer y segundo tipo} respectivamente y $h_\ell$ son las \emph{funciones esféricas de Bessel del tercer tipo}, también denominadas como \emph{funciones esféricas de Hankel}\footnote{Todas las funciones esféricas de Bessel $z_\ell$ ---donde $z_\ell$ es cualquier función de las Ecs. \eqref{eq:SphBessel}--- cumplen con las  relaciones de recurrencia \cite{arfken2001methods}: $	z_{\ell-1}(\rho) + z_{\ell+1}(\rho) =(2\ell+1)z_\ell(\rho)/\rho$ y $(2\ell + 1) \dv*{z_\ell(\rho)}{\rho} = \ell z_{\ell-1}(\rho) - (\ell+1)z_{\ell+1}(\rho)$, con  $j_0(\rho) = \sin\rho / \rho$ y $j_1(\rho) = \sin\rho / \rho^2- \cos\rho/\rho$, $y_0(\rho) = -\cos\rho/\rho$ y $y_1(\rho) = -\cos\rho/\rho^2-\sin\rho/\rho$.\index{Bessel!funciones esféricas de!relaciones de recurrencia de las}}\index{Hankel!funciones esféricas de}\index{Hankel|see{Bessel}}.
 
-Dado que las soluciones para la ecuación azimutal son las Ecs. \eqref{eq:SinCos}, para la polar la Ec. \eqref{eq:Legendre} y para la radial las Ecs. \eqref{eq:SphBessel}, las funciones generadoras de los armónicos esféricos vectoriales son\vspace*{-1em}
+Dado que las soluciones para la ecuación azimutal son las Ecs. \eqref{eq:SinCos}, para la polar la Ec. \eqref{eq:Legendre} y para la radial las Ecs. \eqref{eq:SphBessel}, las funciones generadoras de los armónicos esféricos vectoriales son\index{Armónicos esféricos vectoriales!función generadora!solución general}\begin{subequations}\vspace*{-2em}
 
- 	\begin{subequations}	\eqhalf{\psi_{em\ell} = \cos(m\varphi) P_\ell^m( \cos \theta) z_\ell(k r),}
+	\eqhalf{\psi_{em\ell} = \cos(m\varphi) P_\ell^m( \cos \theta) z_\ell(k r),}
 	\eqhalf{\psi_{om\ell} = \sin(m\varphi) P_\ell^m( \cos \theta) z_\ell(k r),}
-	\label{eq:psieo}	\end{subequations}
+	\label{eq:psieo}	\end{subequations}\vspace*{-1em}
 
-\noindent	
-Al emplear las Ecs. \eqref{eq:psieo} en la Ec. \eqref{eq:MrotCPsi} se obtiene como resultado $\vb{M}_{em\ell}$ y $\vb{M}_{om\ell}$, dados por las expresiones \vspace{-.5em}
+\noindent Al emplear las Ecs. \eqref{eq:psieo} en la Ec. \eqref{eq:MrotCPsi} se obtiene como resultado $\vb{M}_{em\ell}$ y $\vb{M}_{om\ell}$, dados por las expresiones \vspace{-.5em}
 	\begin{subequations}
 	\begin{tcolorbox}[title = Armónicos esféricos vectoriales $\vb{M}_{em\ell}$ y $\vb{M}_{om\ell}$, ams align ]
 	\vb{M}_{em\ell} = &-m\sin(m\varphi)z_\ell(kr) \frac{P_\ell^m(\cos\theta)}{\sin\theta}\,\vu{e}_\theta
 					-\cos(m\theta)z_\ell(kr) \dv{P_\ell^m(\cos\theta)}{\theta}(\cos\theta)\,\vu{e}_\varphi,\label{seq:Meml} \\
 	\vb{M}_{om\ell} = & m\cos(m\varphi)z_\ell(kr) \frac{P_\ell^m(\cos\theta)}{\sin\theta}\,\vu{e}_\theta
 					-\sin(m\theta)z_\ell(kr) \dv{P_\ell^m(\cos\theta)}{\theta}(\cos\theta)\,\vu{e}_\varphi.	\label{seq:Moml}				
-	\end{tcolorbox} \noindent
+	\end{tcolorbox}\vspace*{-.5em} \noindent
 %
 Para el cálculo $\vb{N}_{em\ell}$ y $\vb{N}_{om\ell}$ se sustituyen las Ecs. \eqref{seq:Meml} y \eqref{seq:Moml} en la Ec. \eqref{eq:NrotM/k}. Para simplificar las expresiones de las componentes radiales de  $\vb{N}_{em\ell}$ y $\vb{N}_{om\ell}$, se agrupan los términos que dependen de $\varphi$ y $kr$ y, dado que las funciones asociadas de Legendre cumplen con la relación 
 \begin{align*}
 -\ell(\ell+1) P_\ell^m (\cos\theta)= \frac{1}{\sin\theta}\dv{\theta}\qty(\sin\theta\dv{P_\ell^m(\cos\theta)}{\theta}) - \frac{m^2}{\sin^2\theta}P_\ell^m(\cos\theta),
 \end{align*}
-que es una consecuencia de la Ec. \eqref{eq:Theta}, las expresiones de $\vb{N}_{em\ell}$ y $\vb{N}_{om\ell}$ son \vspace*{-.5em}
+que es una consecuencia de la Ec. \eqref{eq:Theta}, las expresiones de $\vb{N}_{em\ell}$ y $\vb{N}_{om\ell}$ son \index{Armónicos esféricos vectoriales!$\vb{M}$ y $\vb{N}$} \vspace*{-.5em}
 %
 	\begin{tcolorbox}[title = Armónicos esféricos vectoriales $\vb{N}_{em\ell}$ y $\vb{N}_{om\ell}$, ams align, breakable ]
 	\vb{N}_{em\ell} =&\cos(m\varphi) \frac{z_\ell(kr)}{kr} \ell(\ell+1)P_\ell^m(\cos\theta)\,\vu{e}_r\notag\\
@@ -905,7 +893,7 @@ que es una consecuencia de la Ec. \eqref{eq:Theta}, las expresiones de $\vb{N}_{
 	\end{tcolorbox}\label{eq:AEV}
 	\end{subequations}
 
-Los armónicos esféricos vectoriales son solución a la ecuación de Helmholtz, por lo que cualquier solución de los campos EM puede escribirse como una serie infinta en términos de las Ecs. \eqref{eq:AEV}. Para resolver el problema de los campos EMs esparcidos por una partícula esférica, esto es, determinar las componentes de la matriz de esparcimiento $\mathbb{S}$ de la Ec. \eqref{eq:MEsparcimientoGral}, se expande una onda plana $\vb{E}^i$ en la base de los armónicos esféricos vectoriales. Para esto, se emplean sus  condiciones de ortogonalidad, calculadas a partir de la relaciones de ortogonalidad de las Ecs. \eqref{eq:SinCos} y \eqref{eq:ortLegendre}, dando como resultado que los armónicos esféricos vectoriales son ortogonales cuando tienen paridad distinta y cuando se realiza el producto interior entre $\vb{M}$ y $\vb{N}$, es decir \vspace{-.5em}
+Los armónicos esféricos vectoriales son solución a la ecuación de Helmholtz, por lo que cualquier solución de los campos EM puede escribirse como una serie infinta en términos de las Ecs. \eqref{eq:AEV}. Para resolver el problema de los campos EMs esparcidos por una partícula esférica, esto es, determinar las componentes de la matriz de esparcimiento $\mathbb{S}$ de la Ec. \eqref{eq:MEsparcimientoGral}, se expande una onda plana $\vb{E}^i$ en la base de los armónicos esféricos vectoriales. Para esto, se emplean sus  condiciones de ortogonalidad, calculadas a partir de la relaciones de ortogonalidad de las Ecs. \eqref{eq:SinCos} y \eqref{eq:ortLegendre}, dando como resultado que los armónicos esféricos vectoriales son ortogonales cuando tienen paridad distinta y cuando se realiza el producto interior entre $\vb{M}$ y $\vb{N}$, es decir \index{Armónicos esféricos vectoriales!relaciones de ortogonalidad de los}\index{Ortogonalidad!armónicos esféricos vectoriales, relaciones de}\vspace{-.5em}
 %
 	\begin{tcolorbox}[ ams align ]
 		\langle\vb{M}_{em\ell}, \vb{M}_{om'\ell'} \rangle_{\theta,\varphi} =
@@ -944,45 +932,34 @@ De igual manera, cuando se realiza el producto interior con elementos de los arm
 
 %------------------------------
 
-Al considerar una onda plana con longitud de onda $\lambda$, polarizada en la dirección $x$, y caracterizada por el campo eléctrico $\vb{E}^i$ propagándose en la dirección $z$ en una matriz con índice de refracción $n_m = \sqrt{\varepsilon_m\mu_m / \varepsilon_0\mu_0}$ (ver Fig. \ref{fig:EsferaA}), en la base de los vectores ortonormales polares canónicos, así como en la base de los armónicos esféricos vectoriales [Ecs. \eqref{eq:AEV}] es
+Al considerar una onda plana con longitud de onda $\lambda$, polarizada en la dirección $x$, y caracterizada por el campo eléctrico $\vb{E}^i$ propagándose en la dirección $z$ en una matriz con índice de refracción $n_m = \sqrt{\varepsilon_m\mu_m / \varepsilon_0\mu_0}$ (ver Fig. \ref{fig:EsferaA}), en la base de los vectores ortonormales polares canónicos, así como en la base de los armónicos esféricos vectoriales [Ecs. \eqref{eq:AEV}] es \index{Onda!plana!en la base esférica canónica}
 	\begin{align*}
 \vb{E}^i = & E_0 e^{ik_mr\cos\theta} \qty(\sin\theta\cos\varphi \vu{e}_r + 
 								\cos\theta\cos\varphi\vu{e}_\theta-\sin\varphi\vu{e}_\varphi)\notag\\
 	 =& \sum_{m=0}^\infty\sum_{\ell=m}^\infty \qty[ B_{em\ell}\vb{M}_{em\ell} 
 	 	+ B_{om\ell}\vb{M}_{om\ell} +A_{em\ell}\vb{N}_{em\ell} + A_{om\ell}\vb{N}_{om\ell}],
 	\end{align*}
-donde se omite la dependencia temporal $e^{-i\omega t}$, $E_0$ es la magnitud del campo eléctrico, $k_m=2\pi n_m/\lambda$ es el número de onda,  y  $B_{em\ell},\, B_{om\ell},\, A_{em\ell}$ y $ A_{om\ell}$ son los coeficientes en la expansión de armónicos esféricos vectoriales de la onda plana, que se determinan a partir de las Ecs. \eqref{eq:NN} y \eqref{eq:MM}. Dado que en la componente radial de la onda plana en la base canónica es proporcional a $\cos\varphi$, se sigue que $m=1$ al comparar con las expresiones de $\vb{N}_{em\ell}$ [Ec. \eqref{seq:Neml}] y $\vb{N}_{om\ell}$ [Ec. \eqref{seq:Noml}] ---únicos elementos con componente radial---, y además que $A_{om\ell}=0$ pues $\vb{N}_{om\ell}$ es proporcional a $\sin\varphi$ en la componente radial. Asimismo, por la dependencia con $\sin\varphi$ en la componente  $\vu{e}_\varphi$, $B_{em\ell}=0$ pues $\vb{M}_{em\ell}$ es proporcional a $\cos\varphi$ en dicha entrada. Puesto que la onda plana es finita en todo el espacio, se escoge $z_\ell = j_\ell$, denotado en los armónicos esféricos vectoriales con el superíndice $(1)$. Entonces, la onda plana en la base de los armónicos esféricos vectoriales se escribe como 
+donde se omite la dependencia temporal $e^{-i\omega t}$, $E_0$ es la magnitud del campo eléctrico, $k_m=2\pi n_m/\lambda$ es el número de onda,  y  $B_{em\ell},\, B_{om\ell},\, A_{em\ell}$ y $ A_{om\ell}$ son los coeficientes en la expansión de armónicos esféricos vectoriales de la onda plana, que se determinan a partir de las Ecs. \eqref{eq:NN} y \eqref{eq:MM}. Dado que en la componente radial de la onda plana en la base canónica es proporcional a $\cos\varphi$, se sigue que $m=1$ al comparar con las expresiones de $\vb{N}_{em\ell}$ [Ec. \eqref{seq:Neml}] y $\vb{N}_{om\ell}$ [Ec. \eqref{seq:Noml}] ---únicos elementos con componente radial---, y además que $A_{om\ell}=0$ pues $\vb{N}_{om\ell}$ es proporcional a $\sin\varphi$ en la componente radial. Asimismo, por la dependencia con $\sin\varphi$ en la componente  $\vu{e}_\varphi$, $B_{em\ell}=0$ pues $\vb{M}_{em\ell}$ es proporcional a $\cos\varphi$ en dicha entrada. Puesto que la onda plana es finita en todo el espacio, se escoge $z_\ell = j_\ell$, denotado en los armónicos esféricos vectoriales con el superíndice $(1)$.\index{Armónicos esféricos vectoriales!$\vb{M}^{(1)}$ y $\vb{N}^{(1)}$} Entonces, la onda plana en la base de los armónicos esféricos vectoriales se escribe como 
 	\begin{align*}
 	\vb{E}^i = \sum_{\ell=1}^\infty \qty[B_{o1\ell}\vb{M}_{o1\ell}^{(1)} + A_{e1\ell}\vb{N}_{e1\ell}^{(1)}],
 	\end{align*}
-con $B_{o1\ell} = \langle \vb{E}^i, \vb{M}_{o1\ell}^{(1)}  \rangle_{\theta,\varphi} / \langle \vb{M}_{o1\ell}^{(1)} ,\vb{M}_{o1\ell}^{(1)} \rangle_{\theta,\varphi}$ y $ A_{e1\ell} = \langle \vb{E}^i, \vb{N}_{e1\ell}^{(1)} \rangle_{\theta,\varphi} / \langle \vb{N}_{e1\ell}^{(1)},\vb{N}_{e1\ell}^{(1)} \rangle_{\theta,\varphi}$. Al emplear las Ecs. \eqref{eq:MM} y \eqref{eq:NN} con $m=1$, y las condiciones de ortogonalidad de los armónicos esféricos vectoriales, y la Ley de Faraday-Lenz [Ec. \eqref{seq:FLArm}] se calcula la expresión de los campos EMs de la onda plana incidente en una base esférica, dada por
+con $B_{o1\ell} = \langle \vb{E}^i, \vb{M}_{o1\ell}^{(1)}  \rangle_{\theta,\varphi} / \langle \vb{M}_{o1\ell}^{(1)} ,\vb{M}_{o1\ell}^{(1)} \rangle_{\theta,\varphi}$ y $ A_{e1\ell} = \langle \vb{E}^i, \vb{N}_{e1\ell}^{(1)} \rangle_{\theta,\varphi} / \langle \vb{N}_{e1\ell}^{(1)},\vb{N}_{e1\ell}^{(1)} \rangle_{\theta,\varphi}$. Al emplear las Ecs. \eqref{eq:MM} y \eqref{eq:NN} con $m=1$, y las condiciones de ortogonalidad de los armónicos esféricos vectoriales, y la Ley de Faraday-Lenz [Ec. \eqref{seq:FLArm}] se calcula la expresión de los campos EMs de la onda plana incidente en una base esférica, dada por \index{Onda!plana!en la base de los armónicos esféricos vectoriales}\index{Armónicos esféricos vectoriales!expansión de una onda plana en la base de los}
 
 	\begin{subequations}
 	\eqhalf{	\vb{E}^i = \sum_{\ell =1}^\infty  E_\ell\qty(\vb{M}_{o1\ell}^{(1)}-i\vb{N}_{e1\ell}^{(1)}).\label{eqs:EiAEV}}
 	\eqhalf{\vb{H}^i =\frac{-k_m}{\omega\mu_m} \sum_{\ell =1}^\infty  E_\ell\qty(\vb{M}_{e1\ell}^{(1)}+i\vb{N}_{o1\ell}^{(1)}),	\label{eqs:HiAEV}}
 	\label{eq:EHiAEV}		
-	\end{subequations}
+	\end{subequations}\vspace*{-1em}
+	
 \noindent con $E_\ell = E_0 i^\ell (2\ell+1)/[\ell(\ell+1)]$.
-%	\begin{subequations}
-%	\begin{align}
-%	\vb{E}^i = E_0 \sum_{\ell =1}^\infty i^\ell \frac{2\ell+1}{\ell(\ell+1)}\qty(\vb{M}_{o1\ell}^{(1)}-i\vb{N}_{e1\ell}^{(1)}).
-%	\label{eqs:EiAEV}
-%	\end{align}
-%El campo magnético incidente se calcula empleando la Ley de Farady-Lenz [Ec. \eqref{seq:FLArm}], cuyo resultado es
-%	\begin{align}
-%	\vb{H}^i =\frac{-k_m}{\omega\mu_m} \sum_{\ell =1}^\infty  E_\ell\qty(\vb{M}_{e1\ell}^{(1)}+i\vb{N}_{o1\ell}^{(1)}),
-%	\label{eqs:HiAEV}
-%	\end{align}\label{eq:EHiAEV}
-%	\end{subequations}
-%con $E_\ell = E_0 i^\ell (2\ell+1)/[\ell(\ell+1)]$.
 
-Para calcular los campos EMs esparcidos ($\vb{E}^s,\,\vb{H}^s$) y los campos EMs dentro de la partícula esférica ($\vb{E}^p,\,\vb{H}^p$), se emplean las condiciones a la frontera de los campos EMs en una interfaz arbitraria [Ecs. \eqref{eqs:CFrontera}], en donde la componente paralela a la interfaz es continua. Es decir
+Para calcular los campos EMs esparcidos ($\vb{E}^s,\,\vb{H}^s$) y los campos EMs dentro de la partícula esférica ($\vb{E}^p,\,\vb{H}^p$), se emplean las condiciones a la frontera de los campos EMs en una interfaz arbitraria [Ecs. \eqref{eqs:CFrontera}], en donde la componente paralela a la interfaz es continua. Es decir \index{Electromagnéticos!campos!condiciones ala frontera de una esfera de los}
 	\begin{align}
 	\qty(\vb{E}^i+\vb{E}^s -\vb{E}^p)\times\vu{e}_r =
 	\qty(\vb{H}^i+\vb{H}^s -\vb{H}^p)\times\vu{e}_r = \vb{0}.
 	\label{eq:CFEsfera}
 	\end{align}
-De las Ecs. \eqref{eq:EHiAEV} y de las condiciones a la frontera [Ec. \eqref{eq:CFEsfera}], se deduce que en la expansión de los campos EMs esparcidos, y los internos, los coeficientes para $m\neq 1$ son nulos. Los campos EMs dentro de la partícula ($\vb{E}^p,\,\vb{H}^p$) son finitos en la esfera, por lo que se emplea como solución a la ecuación de onda las funciones $j_\ell(k_p r)$, con $k_p = 2\pi n_p /\lambda$ el número de onda dentro de la esfera. Las expresiones para los campos EMs son
+De las Ecs. \eqref{eq:EHiAEV} y de las condiciones a la frontera [Ec. \eqref{eq:CFEsfera}], se deduce que en la expansión de los campos EMs esparcidos, y los internos, los coeficientes para $m\neq 1$ son nulos. Los campos EMs dentro de la partícula ($\vb{E}^p,\,\vb{H}^p$) son finitos en la esfera, por lo que se emplea como solución a la ecuación de onda las funciones $j_\ell(k_p r)$, con $k_p = 2\pi n_p /\lambda$ el número de onda dentro de la esfera. Las expresiones para los campos EMs son \index{Mie!solución de!campos electromagnéticos dentro de una partícula esférica}
 	
 	\begin{subequations}
 	\eqhalf{\vb{E}^p = \sum_{\ell =1}^\infty E_\ell \qty(c_\ell \vb{M}_{o1\ell}^{(1)}-i d_\ell\vb{N}_{e1\ell}^{(1)}),	\label{eqs:EpAEV}}
@@ -990,13 +967,13 @@ De las Ecs. \eqref{eq:EHiAEV} y de las condiciones a la frontera [Ec. \eqref{eq:
 	\label{eq:EHpAEV}		
 	\end{subequations}
 
-Para los campos esparcidos ($\vb{E}^s,\,\vb{H}^s$) las funciones $j_\ell$ y $y_\ell$ no tienen puntos indeterminados, por lo que se emplearan las funciones esféricas de Hankel $h_\ell^{(1)}$ y $h_\ell^{(2)}$, que en su límite asintótico ($\ell^2\ll kr$), son \cite{bohren1998absorption}
+Para los campos esparcidos ($\vb{E}^s,\,\vb{H}^s$) las funciones $j_\ell$ y $y_\ell$ no tienen puntos indeterminados, por lo que se emplearan las funciones esféricas de Hankel $h_\ell^{(1)}$ y $h_\ell^{(2)}$, que en su límite asintótico ($\ell^2\ll kr$), son \cite{bohren1998absorption}\index{Hankel!funciones esféricas de!límite asintótico}\index{Onda!esférica}
 
 	\eqhalf{h_\ell^{(1)}(k_m r) \approx -i^\ell \frac{e^{ik_m r}}{ik_m r},\notag}
 	\eqhalf{h_\ell^{(2)}(k_m r) \approx -i^\ell \frac{e^{-ik_m r}}{ik_m r},\notag}	
 
 \vspace*{-1em}\noindent
-por lo que $h_\ell^{(1)}$ corresponde a una onda esférica saliente, y $h_\ell^{(2)}$ una entrante. Dado que el campo esparcido es una onda saliente, se emplea $h_\ell^{(1)}$ como solución radial a la función generadora de los armónicos esféricos vectoriales. Entonces, los campos EMs esparcidos $(\vb{E}^s,\vb{H}^s)$ son 
+por lo que $h_\ell^{(1)}$ corresponde a una onda esférica saliente, y $h_\ell^{(2)}$ una entrante. Dado que el campo esparcido es una onda saliente, se emplea $h_\ell^{(1)}$ como solución radial a la función generadora de los armónicos esféricos vectoriales. Entonces, los campos EMs esparcidos $(\vb{E}^s,\vb{H}^s)$ son \index{Mie!solución de!campos electromagnéticos esparcidos por una partícula esférica}
 	\begin{subequations}
 	\eqhalf{\vb{E}^s = \sum_{\ell =1}^\infty E_\ell \qty(i a_\ell \vb{N}_{e1\ell}^{(3)}- b_\ell\vb{M}_{o1\ell}^{(3)}),
 		\label{eqs:EsAEV}}
@@ -1006,7 +983,7 @@ por lo que $h_\ell^{(1)}$ corresponde a una onda esférica saliente, y $h_\ell^{
 	\end{subequations}
 		
 \noindent
-en donde se denota mediante el superíndice $(3)$ que se emplea $h_\ell^{(1)}$ para la solución radial. Como los campos EMs de la onda plana incidente, los campos EMs esparcidos y los campos EMs dentro de la partícula  cumplen con $m= 1$, se definen las funciones   $\pi_\ell$ y $\tau_\ell$ como  
+en donde se denota mediante el superíndice $(3)$ que se emplea $h_\ell^{(1)}$ para la solución radial\index{Armónicos esféricos vectoriales!$\vb{M}^{(3)}$ y $\vb{N}^{(3)}$}. Como los campos EMs de la onda plana incidente, los campos EMs esparcidos y los campos EMs dentro de la partícula  cumplen con $m= 1$, se definen las funciones   $\pi_\ell$ y $\tau_\ell$ como  \index{Legendre!funciones asociadas de!funciones $\pi_\ell$ y $\tau_\ell$}
 
 	\begin{subequations}
 	\eqhalf{\pi_\ell(\cos\theta)= \frac{P_\ell^1(\cos\theta)}{\sin\theta},
@@ -1014,47 +991,44 @@ en donde se denota mediante el superíndice $(3)$ que se emplea $h_\ell^{(1)}$ p
 	\eqhalf{\tau_\ell(\cos\theta) = \dv{P_\ell^1(\cos\theta)}{\theta},
 		\label{eqs:tau}}	
 	\label{eq:pitau}		
-	\end{subequations}
+	\end{subequations}\vspace*{-1em}
 
-\noindent
-para expresar la dependencia angular polar en los armónicos esféricos vectoriales [Ecs. \eqref{eq:AEV}]. Las relaciones de recurrencia de las funciones asociadas de Legendre \cite{arfken2001methods} permiten expresar a  $\pi_\ell$ y $\tau_\ell$ como  \cite{bohren1998absorption}
+\noindent para expresar la dependencia angular polar en los armónicos esféricos vectoriales [Ecs. \eqref{eq:AEV}]. Las relaciones de recurrencia de las funciones asociadas de Legendre \cite{arfken2001methods} permiten expresar a  $\pi_\ell$ y $\tau_\ell$ como  \cite{bohren1998absorption}  \index{Legendre!funciones asociadas de!relaciones de recurrencia de las}
 
 	\eqhalf{\pi_\ell(\mu) = \frac{2\ell-1}{\ell-1} \mu \pi_{\ell-1}(\mu) - \frac{\ell}{\ell-1}\pi_{\ell-2}(\mu),
 		\notag}
 	\eqhalf{\tau_\ell(\mu) = \ell \mu\pi_\ell(\mu) - (\ell+1)\pi_{\ell-1}(\mu),
-		\notag}	
+		\notag}	\vspace*{-1em}
 
-\noindent
-en donde se empleó el cambio de variable $\mu = \cos\theta$ y se define   $\pi_0 =0 $ y $\pi_1 = 1$.  Las funciones $\pi_\ell$ y $\tau_\ell$ son funciones pares e impares, respectivamente, y a pesar de no ser orotogonales, sí lo son la suma aritmética de ellas, es decir \cite{bohren1998absorption}
+\noindent en donde se empleó el cambio de variable $\mu = \cos\theta$ y se define   $\pi_0 =0 $ y $\pi_1 = 1$.  Las funciones $\pi_\ell$ y $\tau_\ell$ son funciones pares e impares, respectivamente, y a pesar de no ser orotogonales, sí lo son la suma aritmética de ellas, es decir \cite{bohren1998absorption}\index{Ortogonalidad!funciones $\pi_\ell$ y $\tau_\ell$, relaciones de}\index{Legendre!funciones asociadas de!funciones $\pi_\ell$ y $\tau_\ell$, ortogonalidad}
 	\begin{align}
 	\int_{-1}^{1}[\tau_\ell(\mu)\pm\pi_\ell(\mu)]
 	[\tau_{\ell'}(\mu)\pm\pi_{\ell'}(\mu)] = 0, \qquad \ell\neq \ell'. 
 	\label{eq:ortTauPi}
 	\end{align}
 
-Para determinar los coeficientes $a_\ell,b_\ell,c_\ell$ y $d_\ell$ de las Ecs. \eqref{eq:EHpAEV} y \eqref{eq:EHsAEV} se emplean las condiciones a la frontera [Ec. \eqref{eq:CFEsfera}], por lo que se deben de satisfaces las ecuaciones
+Para determinar los coeficientes $a_\ell,b_\ell,c_\ell$ y $d_\ell$ de las Ecs. \eqref{eq:EHpAEV} y \eqref{eq:EHsAEV} se emplean las condiciones a la frontera [Ec. \eqref{eq:CFEsfera}], por lo que se deben de satisfaces las ecuaciones \index{Electromagnéticos!campos!condiciones ala frontera de una esfera de los}
 
 	\eqhalf{E_\theta^i + E_\theta^s = E_\theta^p,\notag}
 	\eqhalf{E_\varphi^i + E_\varphi^s = E_\varphi^p,\notag}
 	\eqhalf{H_\theta^i + H_\theta^s = H_\theta^p,\notag}
 	\eqhalf{H_\varphi^i + H_\varphi^s = H_\varphi^p,\notag}\vspace*{-1em}
 
-\noindent
-en $r =a$, que es la superficie de la partícula esférica. Al emplear la ortogonalidad de las funciones $\sin\varphi$ y $\cos\varphi$ [Ec. \eqref{eq:ortTauPi}], rescribir los armónicos esféricos vectoriales [Ecs. \eqref{eq:AEV}] en términos de $\pi_\ell$ y $\tau_\ell$ y emplear la ortogonalidad de $\tau_\ell\pm\pi_\ell$ [Ec. \eqref{eq:ortTauPi}], junto con las expresiones de los campos EMs de la onda plana incidente [Ecs. \eqref{eq:EHiAEV}], de los campos EMs dentro de la partícula [Ecs. \eqref{eq:EHpAEV}] y los campos EMs esparcidos [Ecs. \eqref{eq:EHsAEV}] se obtiene el sistema de ecuaciones
+\noindent en $r =a$, que es la superficie de la partícula esférica. Al emplear la ortogonalidad de las funciones $\sin\varphi$ y $\cos\varphi$ [Ec. \eqref{eq:ortTauPi}], rescribir los armónicos esféricos vectoriales [Ecs. \eqref{eq:AEV}] en términos de $\pi_\ell$ y $\tau_\ell$ y emplear la ortogonalidad de $\tau_\ell\pm\pi_\ell$ [Ec. \eqref{eq:ortTauPi}], junto con las expresiones de los campos EMs de la onda plana incidente [Ecs. \eqref{eq:EHiAEV}], de los campos EMs dentro de la partícula [Ecs. \eqref{eq:EHpAEV}] y los campos EMs esparcidos [Ecs. \eqref{eq:EHsAEV}] se obtiene el sistema de ecuaciones
 	\begin{align*}
 	j_\ell(Nx)c_\ell + h_\ell^{(1)}(x)b_\ell &= j_\ell(x),\\
 	\mu_m\qty[Nj_\ell(Nx)]'c_\ell + \mu_p [xh_\ell^{(1)}(x)]'b_\ell &= \mu_p [xj_\ell(x)]',\\
 	\mu_m N j_\ell(Nx)d_\ell +\mu_p h_\ell^{(1)}(x)a_\ell &=\mu_p j_\ell(x),\\
 	\qty[Nj_\ell(Nx)]'d_\ell + N [xh_\ell^{(1)}(x)]'a_\ell &= N [xj_\ell(x)]',
 	\end{align*}
-en donde $'$ denota la derivada respecto al argumento de las funciones de Bessel, $x = k_m a = 2 \pi n_m a /\lambda$ es el parámetro de tamaño y $N = n_p / n_m$ es el índice de refracción relativo entre la partícula y la matriz. Al determinar los coeficientes $a_\ell$ y $b_\ell$, se obtiene una expresión analítica para los campos EMs esparcidos, por lo que es posible determinar las componentes de la matriz de esparcimiento $\mathbb{S}$ en la Ec. \eqref{eq:MEsparcimientoGral}. La solución para los coeficientes $a_\ell$ y $b_\ell$, los coeficientes de los campo EMs esparcidos\footnote{Las expresiones de los coeficientes para los campos EMs dentro de la partícula esférica [Ecs. \eqref{eq:EHpAEV}] son
+en donde $'$ denota la derivada respecto al argumento de las funciones de Bessel, $x = k_m a = 2 \pi n_m a /\lambda$ es el parámetro de tamaño y $N = n_p / n_m$ es el índice de refracción relativo entre la partícula y la matriz. Al determinar los coeficientes $a_\ell$ y $b_\ell$, se obtiene una expresión analítica para los campos EMs esparcidos, por lo que es posible determinar las componentes de la matriz de esparcimiento $\mathbb{S}$ en la Ec. \eqref{eq:MEsparcimientoGral}. La solución para los coeficientes $a_\ell$ y $b_\ell$, los coeficientes de los campo EMs esparcidos\footnote{Las expresiones de los coeficientes para los campos EMs dentro de la partícula esférica [Ecs. \eqref{eq:EHpAEV}] son \index{Mie!solución de!campos electromagnéticos dentro de una partícula esférica}
 	\begin{align*}
 	c_\ell = \frac{\mu_p j_\ell(x)[xh_\ell^{(1)}(x)]' - \mu_p h_\ell^{(1)}(x) [xj_\ell(x)]'}
 				{\mu_pj_\ell(Nx) [xh_\ell^{(1)}(x)]'-\mu_m h_\ell^{(1)}(x) [N x j_\ell(Nx)]' },
 	\qquad	
 	d_\ell = \frac{\mu_p N j_\ell(x)[xh_\ell^{(1)}(x)]' - \mu_p N h_\ell^{(1)}(x) [xj_\ell(x)]'}
 				{\mu_m N^2 j_\ell(Nx) [xh_\ell^{(1)}(x)]'-\mu_p h_\ell^{(1)}(x) [N x j_\ell(Nx)]' }	,
-	\end{align*}}, son
+	\end{align*}}, son \index{Mie!solución de!campos electromagnéticos esparcidos por una partícula esférica}
 	\begin{subequations}\begin{align}
 	a_\ell &= \frac{\mu_m N^2 j_\ell(Nx)[xj_\ell(x)]' - \mu_p j_\ell(x) [Nxj_\ell(x)]'}
 				{\mu_mN^2j_\ell(Nx) [xh_\ell^{(1)}(x)]'-\mu_p h_\ell^{(1)}(x) [N x j_\ell(Nx)]' },
@@ -1063,7 +1037,7 @@ en donde $'$ denota la derivada respecto al argumento de las funciones de Bessel
 				{\mu_p j_\ell(Nx) [xh_\ell^{(1)}(x)]'-\mu_m h_\ell^{(1)}(x) [N x j_\ell(Nx)]' },
 	\label{eq:b_ellFULL}			
 	\end{align}\label{eq:MieCoefScattFULL}\end{subequations}
-sin embargo, para el caso en el que la partícula esférica no es magnéntica, $n_p = \sqrt{\varepsilon_p/\varepsilon_0}$, y tampoco lo es la matriz $n_m =\sqrt{\varepsilon_m/\varepsilon_0}$, las Ecs. \eqref{eq:MieCoefScattFULL} se reescriben como\begin{subequations}\vspace*{-.5em}
+sin embargo, para el caso en el que la partícula esférica no es magnéntica, $n_p = \sqrt{\varepsilon_p/\varepsilon_0}$, y tampoco lo es la matriz $n_m =\sqrt{\varepsilon_m/\varepsilon_0}$, las Ecs. \eqref{eq:MieCoefScattFULL} se reescriben como\index{Mie!coeficientes de}\begin{subequations}\vspace*{-.5em}
 	\begin{tcolorbox}[title = Coeficientes de Mie, ams align, breakable ]
 	a_\ell &= \frac{N\psi_\ell(Nx)\psi_\ell'(x)-\psi_\ell(x)\psi_\ell' (Nx)}
 				{N\psi_\ell(Nx)\xi_\ell'(x)-\xi_\ell(x)\psi_\ell'(Nx)},
@@ -1072,7 +1046,7 @@ sin embargo, para el caso en el que la partícula esférica no es magnéntica, $
 			{\psi_\ell(Nx)\xi_\ell'(x)-N\xi_\ell(x)\psi_\ell'(Nx)},
 			 \label{eqs:b_ell}	 
 	\end{tcolorbox}\label{eq:MieCoef}	\end{subequations}\vspace*{-.5em}\noindent
-en donde $\psi_\ell(\rho) = \rho j_\ell(\rho)$ y $\xi_\ell(\rho) = \rho h_\ell^{(1)}(\rho)$  son las funciones de Riccati-Bessel \cite{bohren1998absorption,arfken2001methods} y los términos $\psi'_\ell$ y $\xi'_\ell$ denotan las derivadas de las funciones respecto a su argumento. Los armónicos esféricos vectoriales representan una expansión multipolar del campo eléctrico esparcido por una partícula esférica y los coeficientes de Mie [Ec.  \eqref{eq:MieCoef}] modulan la contribución al campo total esparcido de cada término:  $a_\ell$, los multipolos eléctricos; $b_\ell$, los magnéticos \cite{kreibig1995clusters}. En la Fig. \ref{fig:Multipolos} se muestran la contribuciones multipolares del campo eléctrico esparcido\footnote{En el artículo original de Mie (ref. \cite{mie1908metallosung}) se les denomina a la contribuciones multipolares como ondas parciales.} $\vb{E}^s$ [Ec. \eqref{eqs:EsAEV}], considerando únicamente las componentes transversal a una  superficie esférica y concéntrica a la partícula esparcidora. 
+en donde $\psi_\ell(\rho) = \rho j_\ell(\rho)$ y $\xi_\ell(\rho) = \rho h_\ell^{(1)}(\rho)$  son las funciones de Riccati-Bessel \cite{bohren1998absorption,arfken2001methods}\index{Bessel!funciones de Ricatti-Bessel}\index{Hankel!funciones de Ricatti-Bessel}\index{Ricatti-Bessel!funciones de} y los términos $\psi'_\ell$ y $\xi'_\ell$ denotan las derivadas de las funciones respecto a su argumento. Los armónicos esféricos vectoriales representan una expansión multipolar del campo eléctrico esparcido por una partícula esférica y los coeficientes de Mie [Ec.  \eqref{eq:MieCoef}] modulan la contribución al campo total esparcido de cada término:  $a_\ell$, los multipolos eléctricos; $b_\ell$, los magnéticos \cite{kreibig1995clusters}\index{Mie!expanción multipolar}. En la Fig. \ref{fig:Multipolos} se muestran la contribuciones multipolares del campo eléctrico esparcido\footnote{En el artículo original de Mie (ref. \cite{mie1908metallosung}) se les denomina a la contribuciones multipolares como ondas parciales.} $\vb{E}^s$ [Ec. \eqref{eqs:EsAEV}], considerando únicamente las componentes transversal a una  superficie esférica y concéntrica a la partícula esparcidora. 
 %	\begin{figure}[h]\centering
 %		\includegraphics[scale=.85]{1-Teoria/figs/EsNorm.pdf}\\
 %		\hspace{-4em}
@@ -1120,7 +1094,7 @@ en donde $\psi_\ell(\rho) = \rho j_\ell(\rho)$ y $\xi_\ell(\rho) = \rho h_\ell^{
 		\label{fig:Multipolos}
 	\end{figure}
 
-Los campos EMs esparcidos [Ecs. \eqref{eq:EHsAEV}] fueron calculados al considerar una onda plana incidente $\vb{E}^i$ polarizada en la dirección $x$ sin embargo, debido a la simetría de la esfera, una onda plana polarizada en la dirección $y$ se describe mediante la transformación $\varphi\to\varphi+\pi/2$, por lo que los campos EMs esparcidos y dentro de la esfera se calculan mediante el mismo procedimiento \cite{bohren1998absorption}. Entonces, cualquier cantidad relacionada con la absorción y esparcimiento de una esfera se calcula únicamente mediante lo coeficientes de Mie [Ecs. \eqref{eq:MieCoef}]. En particular, para determinar la matriz de esparcimiento $\mathbb{S}$ se relaciona el campos eléctrico esparcido en el límite de campo lejano, en donde al emplear las funciones de Ricatti-Bessel, y sus derivadas, en el límite asintótico\footnote{En el límite $\ell^2 \ll \rho$, se cumple que $h_\ell^{(1)}(\rho)\approx (-i)^\ell e^{i\rho}/i\rho$ y $\dv*{h_\ell^{(1)}}{\rho} = (-i)^\ell e^{i\rho}/\rho$. Por lo tanto,  $\xi(\rho)\approx (-i)^\ell e^{i\rho}/i$ y $\dv*{\xi}{\rho} = (-i)^\ell e^{i\rho}(1/i\rho + 1)$.} $\ell^2 \ll kr$, las componentes radiales de los campos EMs decaen como $(kr)^{-2}$, por lo que es despreciable. Al escribir los armónicos esféricos  [Ecs. \eqref{eq:AEV}] en términos de $\pi_\ell$, $\tau_\ell$ y las funciones de Ricatti--Bessel $\psi$ y $\xi$ en el límite asintótico despreciando los términos proporcionales a $(kr)^{-1}$, el campo eléctrico esparcido en la componente paralela y perpendicular al plano de esparcimiento (ver Fig. \ref{fig:PlanoEsparcimiento}) es
+Los campos EMs esparcidos [Ecs. \eqref{eq:EHsAEV}] fueron calculados al considerar una onda plana incidente $\vb{E}^i$ polarizada en la dirección $x$ sin embargo, debido a la simetría de la esfera, una onda plana polarizada en la dirección $y$ se describe mediante la transformación $\varphi\to\varphi+\pi/2$, por lo que los campos EMs esparcidos y dentro de la esfera se calculan mediante el mismo procedimiento \cite{bohren1998absorption}. Entonces, cualquier cantidad relacionada con la absorción y esparcimiento de una esfera se calcula únicamente mediante lo coeficientes de Mie [Ecs. \eqref{eq:MieCoef}]. En particular, para determinar la matriz de esparcimiento $\mathbb{S}$ se relaciona el campos eléctrico esparcido en el límite de campo lejano\index{Electromagnéticos!campos!lejano}, en donde al emplear las funciones de Ricatti-Bessel, y sus derivadas, en el límite asintótico\footnote{\index{Ricatti-Bessel!funciones de!límite asintótico de las}\index{Hankel!funciones esféricas de!límite asintótico de las}En el límite $\ell^2 \ll \rho$, se cumple que $h_\ell^{(1)}(\rho)\approx (-i)^\ell e^{i\rho}/i\rho$ y $\dv*{h_\ell^{(1)}}{\rho} = (-i)^\ell e^{i\rho}/\rho$. Por lo tanto,  $\xi(\rho)\approx (-i)^\ell e^{i\rho}/i$ y $\dv*{\xi}{\rho} = (-i)^\ell e^{i\rho}(1/i\rho + 1)$.} $\ell^2 \ll kr$, las componentes radiales de los campos EMs decaen como $(kr)^{-2}$, por lo que es despreciable. Al escribir los armónicos esféricos  [Ecs. \eqref{eq:AEV}] en términos de $\pi_\ell$, $\tau_\ell$ y las funciones de Ricatti--Bessel $\psi$ y $\xi$ en el límite asintótico despreciando los términos proporcionales a $(kr)^{-1}$, el campo eléctrico esparcido en la componente paralela y perpendicular al plano de esparcimiento (ver Fig. \ref{fig:PlanoEsparcimiento}) es
 	\begin{align*}
 	E_\theta^s \vu{e}_\parallel^s &=\frac{\cos\varphi}{kr}
 								\sum_\ell^\infty E_0i^\ell\frac{2\ell+1}{\ell(\ell+1)}
@@ -1132,7 +1106,7 @@ Los campos EMs esparcidos [Ecs. \eqref{eq:EHsAEV}] fueron calculados al consider
 							(-ia_\ell\xi_\ell'\pi_\ell+b_\ell\xi_\ell\tau_\ell)\vu{e}_\varphi 
 			\approx E_0\sin\varphi\frac{e^{ikr}}{-ikr}\sum_\ell^\infty\frac{2\ell+1}{\ell(\ell+1)}					(a_\ell\pi_\ell+b_\ell\tau_\ell)(-\vu{e}_\varphi)
 	\end{align*}
-donde $\vu{e}_\parallel^s =\vu{e}_\theta$ y $\vu{e}_\perp^s=-\vu{e}_\varphi$. Al emplear la Ec. \eqref{eq:EIncidente} para reescribir a la onda plana incidente $\vb{E}^i$ [Ec. \eqref{eqs:EiAEV}] en la base de $\{\vu{e}_\parallel^i,\vu{e}_\perp^i\}$ [Ec. \eqref{eq:vecInc}] se determina la forma explícita de la matriz de esparcimiento para una partícula esférica\vspace*{-.5em}
+donde $\vu{e}_\parallel^s =\vu{e}_\theta$ y $\vu{e}_\perp^s=-\vu{e}_\varphi$. Al emplear la Ec. \eqref{eq:EIncidente} para reescribir a la onda plana incidente $\vb{E}^i$ [Ec. \eqref{eqs:EiAEV}] en la base de $\{\vu{e}_\parallel^i,\vu{e}_\perp^i\}$ [Ec. \eqref{eqs:vecInc}] se determina la forma explícita de la matriz de esparcimiento para una partícula esférica\vspace*{-.5em} \index{Mie!matriz de esparcimiento de}\index{Esparcimiento!de Mie, matriz de}
 	\begin{tcolorbox}[title = Matriz de esparcimiento de Mie,  breakable ]
 	\begin{align}
 	\mqty(E_{\parallel}^s\\E_{\perp}^s)  =  
@@ -1150,37 +1124,37 @@ donde $\vu{e}_\parallel^s =\vu{e}_\theta$ y $\vu{e}_\perp^s=-\vu{e}_\varphi$. Al
 
 \section{Respuesta electromagnética de materiales plasmónicos}
 
-En el artículo original de Mie \cite{mie1908metallosung} se emplea la solución a los EMs esparcidos para describir las propiedad ópticas de suspenciones coloidales de partículas esféricas de oro. En sus cálculos, Mie asumió que la  respuesta electromagnética del oro en bulto, dada por los datos experimentales de la función dieléctrica $\varepsilon(\omega)$, era válida también para nanopartículas (NPs) cuyo radio fuera un orden de magnitud menor al de la longitud de onda de la luz que iluma a la NP \cite{horvath2009historic}. A pesar de que la suposición de Mie es válida para los cálculos que publicó \cite{horvath2009historic}, en general la respuesta electromagnética de los materiales depende de sus dimensiones y a la nanoescala los efecto de superficie toman relevancia respecto a los de bulto \cite{boverhof2015comparative}, por lo que la función dieléctrica de bulto debe corregirse para NPs. Para corregir la respuesta EM de NPs esféricas de materiales plasmónicos a partir de la función dieléctrica experimental de bulto, se emplea el modelo de Drude-Sommerfeld, el cual describe la función dieléctrica de un material en bulto con electrones de conducción a partir de asumir un gas de electrones libres \cite{gross2014festkorperphysik}. Al corregir el modelo de Drude-Sommerferd considerando los efectos de superficie de la NP e introducir esta corrección en los datos experimentales del bulto se construye una función dieléctrica apta para NPs y el cálculo de sus propiedades ópticas mediante la solución de Mie.
+En el artículo original de Mie \cite{mie1908metallosung} se emplea la solución a los campos EMs esparcidos para describir las propiedad ópticas de suspenciones coloidales de partículas esféricas de oro\index{Mie!solución de}. En sus cálculos, Mie asumió que la  respuesta electromagnética del oro en bulto, dada por los datos experimentales de la función dieléctrica $\varepsilon(\omega)$,\index{Función dieléctrica} era válida también para nanopartículas (NPs) cuyo radio fuera un orden de magnitud menor al de la longitud de onda de la luz que iluma a la NP \cite{horvath2009historic}. A pesar de que la suposición de Mie es válida para los cálculos que publicó \cite{horvath2009historic}, en general la respuesta electromagnética de los materiales depende de sus dimensiones y a la nanoescala los efecto de superficie toman relevancia respecto a los de bulto \cite{boverhof2015comparative}, por lo que la función dieléctrica de bulto debe corregirse para NPs. Para corregir la respuesta EM de NPs esféricas de materiales plasmónicos a partir de la función dieléctrica experimental de bulto, se emplea el modelo de Drude-Sommerfeld, el cual describe la función dieléctrica de un material en bulto con electrones de conducción a partir de asumir un gas de electrones libres \cite{gross2014festkorperphysik}. Al corregir el modelo de Drude-Sommerferd considerando los efectos de superficie de la NP e introducir esta corrección en los datos experimentales del bulto se construye una función dieléctrica apta para NPs y el cálculo de sus propiedades ópticas mediante la solución de Mie.\index{Drude-Sommerfeld!modelo de}
 
-Para corregir la respuesta EM  en bulto de materiales plasmónicos, se asume que su función dieléctrica corresponde a la suma de la respuesta de la interacción de la radiación EM con los electrones de conducción del material  $\varepsilon^{inter}(\omega) $, correspondiente a las transiciones electrónicas interbanda, y con los electrones ligados  $\varepsilon^{intra}(\omega) $, correspondientes a las transiciones electrónicas intrabanda \cite{noguez2007surface}, es decir
+Para corregir la respuesta EM  en bulto de materiales plasmónicos, se asume que su función dieléctrica corresponde a la suma de la respuesta de la interacción de la radiación EM con los electrones de conducción del material  $\varepsilon^{inter}(\omega) $, correspondiente a las transiciones electrónicas interbanda, y con los electrones ligados  $\varepsilon^{intra}(\omega) $, correspondientes a las transiciones electrónicas intrabanda\index{Función dieléctrica!interbanda}\index{Función dieléctrica!intrabanda} \cite{noguez2007surface}, es decir
 	\begin{align*}
 	\varepsilon^B_{exp}(\omega) = \varepsilon^{inter}(\omega) + \varepsilon^{intra}(\omega),
 	\end{align*}
-en donde $\varepsilon^B_{exp}(\omega)$ es la función dieléctrica de bulto que puede se medida de forma experimental \cite{johnson1972constants}. Para describir la contribución de los electrones de conducción en la respuesta EM del material $\varepsilon^{inter}(\omega)$ se emplea el modelo de Drude-Sommerfeld que, desde un enfoque clásico, es la solución a la ecuación de movimiento de los electrones libres en un material ante la presencia de un campo eléctrico externo oscilante \cite{gross2014festkorperphysik}. El efecto de un campo eléctrico externo $\vb{E}$ sobre los electrones libres de un material es un cambio de su posición, por lo que aparecen momentos dipolares $\vb{p}=q_e\vb{r}$; con $q_e$, la carga del electrón y $\vb{r}$, su desplazamiento.  El efecto neto en el material es una polarización $\vb{P} = n_v \vb{p}$, donde $n_v$ es la densidad volumétrica electrónica \cite{novotny2006principles}.  La respuesta óptica del material dada por el modelo de Drude-Sommerfeld, caracterizada por la función dieléctrica $\varepsilon_D(\omega)$, depende de $\vb{E}$ y $\vb{P}$ como 
+en donde $\varepsilon^B_{exp}(\omega)$ es la función dieléctrica de bulto que puede se medida de forma experimental \cite{johnson1972constants}. Para describir la contribución de los electrones de conducción en la respuesta EM del material $\varepsilon^{inter}(\omega)$ se emplea el modelo de Drude-Sommerfeld que, desde un enfoque clásico, es la solución a la ecuación de movimiento de los electrones libres en un material ante la presencia de un campo eléctrico externo oscilante \cite{gross2014festkorperphysik}. El efecto de un campo eléctrico externo $\vb{E}$ sobre los electrones libres de un material es un cambio de su posición, por lo que aparecen momentos dipolares $\vb{p}=q_e\vb{r}$; con $q_e$, la carga del electrón y $\vb{r}$, su desplazamiento.  El efecto neto en el material es una polarización $\vb{P} = n_v \vb{p}$, donde $n_v$ es la densidad volumétrica electrónica \cite{novotny2006principles}.  La respuesta óptica del material dada por el modelo de Drude-Sommerfeld, caracterizada por la función dieléctrica $\varepsilon_D(\omega)$, depende de $\vb{E}$ y $\vb{P}$ como \index{Electrón!libre}
 	\begin{align}
 	\vb{P} = n_v q_e \vb{r} =\varepsilon_0\qty(\frac{\varepsilon_D}{\varepsilon_0}-1)\vb{E},
 	\label{eq:PolarizationDrude}
 	\end{align}
-donde se asume que la polarización ocurre en la dirección del campo eléctrico \cite{novotny2006principles}. Si el material se encuentra ante la presencia de un campo eléctrico oscilante de la forma $\vb{E}_0 e^{-i\omega t}$, la ecuación de movimiento que obedece un electrón libre del material es \cite{kreibig1995clusters,gross2014festkorperphysik}
+donde se asume que la polarización ocurre en la dirección del campo eléctrico \cite{novotny2006principles}. Si el material se encuentra ante la presencia de un campo eléctrico oscilante de la forma $\vb{E}_0 e^{-i\omega t}$, la ecuación de movimiento que obedece un electrón libre del material es \cite{kreibig1995clusters,gross2014festkorperphysik}\index{Drude-Sommerfeld!modelo de!ecuación de movimiento}\index{Ecuación!de movimiento de un electrón libre}\index{Ecuación!de movimiento de un electrón libre|seealso{Drude-Sommerfeld}}
 	\begin{align}
 	m_e^* \pdv[2]{\vb{r}}{t} +  \gamma \pdv{\vb{r}}{t} = q_e\vb{E}_0e^{-i\omega t},
 	\label{eq:movementDrude}
 	\end{align}
-donde $m_e^*$ es la masa efectiva del electrón\footnote{La masa efectiva es el resultado de la interacción de un electrón con el potencial de la red cristalina que conforma al material, los fonones de la red y con los otros electrones en la red \cite{gross2014festkorperphysik}. } \cite{gross2014festkorperphysik} y $\gamma$ es la \emph{constante fenomenológica de amortiguamiento} \cite{kreibig1995clusters}, que es el inverso del tiempo promedio entre eventos de colisiones  de los electrones \cite{novotny2006principles,gross2014festkorperphysik}.  Al multiplicar la Ec.  \eqref{eq:movementDrude} por $n_v q_e$, resolverla con el \emph{Ansatz} $\vb{r} = \vb{r}_0e^{-i\omega t}$ y compararla con la Ec.  \eqref{eq:PolarizationDrude}, se obtiene la función dieléctrica tipo Drude \cite{novotny2006principles,gross2014festkorperphysik}  \vspace*{-.5em}
+donde $m_e^*$ es \index{Electrón!masa eféctica del}la masa efectiva del electrón\footnote{La masa efectiva es el resultado de la interacción de un electrón con el potencial de la red cristalina que conforma al material, los fonones de la red y con los otros electrones en la red \cite{gross2014festkorperphysik}. } \cite{gross2014festkorperphysik} y $\gamma$ es la \emph{constante fenomenológica de amortiguamiento} \cite{kreibig1995clusters}, que es el inverso del tiempo promedio entre eventos de colisiones  de los electrones \cite{novotny2006principles,gross2014festkorperphysik}.  Al multiplicar la Ec.  \eqref{eq:movementDrude} por $n_v q_e$, resolverla con el \emph{Ansatz} $\vb{r} = \vb{r}_0e^{-i\omega t}$ y compararla con la Ec.  \eqref{eq:PolarizationDrude}, se obtiene la función dieléctrica tipo Drude \cite{novotny2006principles,gross2014festkorperphysik}\index{Drude-Sommerfeld!modelo de}\index{Drude-Sommerfeld!modelo de!frecuencia de plasma $\omega_p$}\index{Función dieléctrica!tipo Drude}  \vspace*{-.5em}
+%
 	\begin{tcolorbox}[title = Modelo de Drude-Sommerfeld, breakable ]
 	\eqhalf{\frac{\varepsilon_D(\omega)}{\varepsilon_0}= 1 - \frac{\omega_p^2}{\omega(\omega+i\gamma)},
 	\label{eq:Drude}}
 	\eqhalf{	\omega_p =\sqrt{ \frac{n_v e^2}{m_e^* \varepsilon_0}}.
 	\label{eq:wp}}
 	\end{tcolorbox}\vspace*{-.5em}\noindent
-con $\omega_p$, la frecuancia de plasma. Dado que la constante fenomenológica $\gamma$ depende de la geometría del material, se emplea en la Ec. \eqref{eq:Drude} la constante fenomenológica de bulto $\gamma_\infty$ dada por \cite{kreibig1995clusters}
+%
+con $\omega_p$, la frecuancia de plasma. Dado que la constante fenomenológica $\gamma$ depende de la geometría del material, se emplea en la Ec. \eqref{eq:Drude} la constante fenomenológica de bulto $\gamma_\infty$ dada por \cite{kreibig1995clusters} \index{Drude-Sommerfeld!modelo de!constante fenomenológica de amortiguamiento de bulto $\gamma_\infty$}
 	\begin{align}
 	\gamma_\infty = \frac{v_F}{L}
 			 \label{eq:gammaInf}	
 	\end{align}
-donde $v_F$ es la velocidad de Fermi\footnote{En un sistema con $N$ electrones, que obedecen el principio  de exclusión de Pauli, la energía de Fermi $E_F$ es la máxima ocupada, dada por $E_F = (\hbar^2/2m_e^*)k_F^2$, con $k_F$, la norma del vector de onda de Fermi \cite{gross2014festkorperphysik}.  Puesto que la velocidad de Fermi es $v_F = p_F/m_e^* = \hbar k_F / m$ y que para un gas de electrones libres $k_F=(3\pi n_v)^{1/3}$, se obtiene que para metales típicos $v_F\approx 10^{15}$ nm s$^{-1}$ \cite{gross2014festkorperphysik}. } del material a una temperatura dada y $L$ es el camino libre medio, que representa la distancia promedio que recorren los electrones entre eventos de colisiones \cite{gross2014festkorperphysik}.  
-
-La frecuencia de plasma $\omega_p$ en el modelo de Drude-Sommerfeld delimita regímenes donde el material plasmónico se comporta como un metal o como un dieléctrico \cite{trugler2011properties}.   En la Fig.  \ref{fig:Drude} se muestran las funciones dieléctricas (gráfica interna) y los índices de refracción  (gráfica principal) modelados por una función tipo Drude con $\omega_p=4. 3$ eV [Fig.  \ref{sfig:Drude4eV}] y $10$ eV [Fig.  \ref{sfig:Drude10eV}], y $\gamma=0. 15$ eV.  En estas gráficas se observa que $\Re[\varepsilon(\omega)]<0$ para $\omega<\omega_p$, por lo que al sustituir el índice de refracción en la expresión de una onda plana propagante se obtiene una onda evanescente, es decir, la onda plana no penetra el material y es reflejada: el material presenta una respuesta metálica.  Para $\omega>\omega_p$, se cumple que $\Re[\varepsilon(\omega)]>0$ y $\Im[\varepsilon(\omega)]\approx 0$, por lo que el índice de refracción, en dicho régimen, se comporta como el de un  material transparente. 
+donde $v_F$ es la velocidad de Fermi\footnote{\index{Fermi!velocidad de}En un sistema con $N$ electrones, que obedecen el principio  de exclusión de Pauli, la energía de Fermi $E_F$ es la máxima ocupada, dada por $E_F = (\hbar^2/2m_e^*)k_F^2$, con $k_F$, la norma del vector de onda de Fermi \cite{gross2014festkorperphysik}.  Puesto que la velocidad de Fermi es $v_F = p_F/m_e^* = \hbar k_F / m$ y que para un gas de electrones libres $k_F=(3\pi n_v)^{1/3}$, se obtiene que para metales típicos $v_F\approx 10^{15}$ nm s$^{-1}$ \cite{gross2014festkorperphysik}. } del material a una temperatura dada y $L$ es el camino libre medio, que representa la distancia promedio que recorren los electrones entre eventos de colisiones \cite{gross2014festkorperphysik}.  
 
 	\begin{figure}[h!]\centering\hspace*{-1.5em}
 	\begin{subfigure}{.01\linewidth}\caption{}\label{sfig:Drude4eV}\vspace{3.75cm}\end{subfigure}
@@ -1194,14 +1168,15 @@ La frecuencia de plasma $\omega_p$ en el modelo de Drude-Sommerfeld delimita reg
 	\caption{ Índice de refracción (gráfica externa) y función dieléctrica (gráfica interna) del modelo de Drude-Sommerfeld para las frecuencias de plasma \textbf{a)} $\omega_p=4. 3$ eV y \textbf{b)} $\omega_p=10$ eV; ambos casos con $\gamma=0. 15$ eV, como función de la energía.  En el marco superior se observa su dependencia en longitud de onda $\lambda$. }\label{fig:Drude}
 	\end{figure}	
 
+La frecuencia de plasma $\omega_p$ en el modelo de Drude-Sommerfeld delimita regímenes donde el material plasmónico se comporta como un metal o como un dieléctrico \cite{trugler2011properties}.   En la Fig.  \ref{fig:Drude} se muestran las funciones dieléctricas (gráfica interna) y los índices de refracción  (gráfica principal) modelados por una función tipo Drude con $\omega_p=4. 3$ eV [Fig.  \ref{sfig:Drude4eV}] y $10$ eV [Fig.  \ref{sfig:Drude10eV}], y $\gamma=0. 15$ eV.  En estas gráficas se observa que $\Re[\varepsilon(\omega)]<0$ para $\omega<\omega_p$, por lo que al sustituir el índice de refracción en la expresión de una onda plana propagante se obtiene una onda evanescente, es decir, la onda plana no penetra el material y es reflejada: el material presenta una respuesta metálica.  Para $\omega>\omega_p$, se cumple que $\Re[\varepsilon(\omega)]>0$ y $\Im[\varepsilon(\omega)]\approx 0$, por lo que el índice de refracción, en dicho régimen, se comporta como el de un  material transparente. \index{Onda!evanescente}
 
 \subsection{Corrección por tamaño para partículas esféricas}
 
-Para corregir la función dieléctrica de bulto obtenida mediante métodos experimentales $\varepsilon_B^{exp}(\omega)$ se modifica la constante fenomenológica  en el modelo de Drude-Sommerfeld\footnote{También es posible hacer una corrección de tamaño en la contribución interbanda de la función dieléctrica sin embargo, para los datos experimentales de \cite{johnson1972constants}, la corrección para partículas esféricas es apreciable para NPs con radios menores a $2$ nm \cite{mendoza2014determination}.} dado que ésta depende del camino libre medio de los electrones $L$ y debe modificarse cuando el radio de las NPs $a$ es menor a $L$ \cite{kreibig1995clusters}. Por ejemplo, para metales típicos, como el oro y la plata, a frecuencias del espectro visible y a una temperatura de $273$ K, el camino libre medio de los electrones libres para el oro y la plara es  de $56$ nm  y $42$ nm, respectivamente\footnote{Cálculos a partir de los datos obtenidos de las tablas 1.3 y 2.1 de \cite{ashcroft1976solid}, donde $v_F^{Au} = 1.40\times 10^{15}$ nm y $v_F^{Ag}=1.39\times 10^{15}$ nm.}, por lo que para NPs de oro o plata con radios menores a $60$ nm se hace una corrección de la constante fenomenológica para materiales de bulto. La corrección de $\gamma_\infty$ para una partícula esférica de radio $a$ se calcula al considedar el camino libre medio efectivo de los electrones, proporcional al radio de la partícula, obteniedo así un término de amortiguamiento adicional al de bulto y que es aditivo a éste \cite{kreibig1995clusters}, es decir,
+Para corregir la función dieléctrica de bulto obtenida mediante métodos experimentales $\varepsilon_B^{exp}(\omega)$ se modifica la constante fenomenológica  en el modelo de Drude-Sommerfeld\footnote{También es posible hacer una corrección de tamaño en la contribución interbanda de la función dieléctrica sin embargo, para los datos experimentales de \cite{johnson1972constants}, la corrección para partículas esféricas es apreciable para NPs con radios menores a $2$ nm \cite{mendoza2014determination}.} dado que ésta depende del camino libre medio de los electrones $L$ y debe modificarse cuando el radio de las NPs $a$ es menor a $L$ \cite{kreibig1995clusters}. Por ejemplo, para metales típicos, como el oro y la plata, a frecuencias del espectro visible y a una temperatura de $273$ K, el camino libre medio de los electrones libres para el oro y la plara es  de $56$ nm  y $42$ nm, respectivamente\footnote{Cálculos a partir de los datos obtenidos de las tablas 1.3 y 2.1 de \cite{ashcroft1976solid}, donde $v_F^{Au} = 1.40\times 10^{15}$ nm y $v_F^{Ag}=1.39\times 10^{15}$ nm.\index{Fermi!velocidad de}}, por lo que para NPs de oro o plata con radios menores a $60$ nm se hace una corrección de la constante fenomenológica para materiales de bulto. La corrección de $\gamma_\infty$ para una partícula esférica de radio $a$ se calcula al considedar el camino libre medio efectivo de los electrones, proporcional al radio de la partícula, obteniedo así un término de amortiguamiento adicional al de bulto y que es aditivo a éste \cite{kreibig1995clusters}, es decir,\index{Drude-Sommerfeld!modelo de!constante fenomenológica para esferas ($\gamma_a$)}
 	\begin{align*}
 	 \gamma = \gamma_\infty + \gamma_a = v_F \qty(\frac{1}{L}+\frac{A}{a}). 
 	\end{align*}
-donde $A$ es un parámetro del orden de la unidad \cite{noguez2007surface,mendoza2014determination} y depende de la teoría con la que sea calculado el camino libro medio efectivo \cite{kreibig1995clusters}.  Entonces, para NPs esféricas modeladas por una función dieléctrica tipo Drude [Ec.  \eqref{eq:Drude}] se emplea  la corrección por tamaño de la función dieléctrica dada por
+donde $A$ es un parámetro del orden de la unidad \cite{noguez2007surface,mendoza2014determination} y depende de la teoría con la que sea calculado el camino libro medio efectivo \cite{kreibig1995clusters}.  Entonces, para NPs esféricas modeladas por una función dieléctrica tipo Drude [Ec.  \eqref{eq:Drude}] se emplea  la corrección por tamaño de la función dieléctrica dada por \index{Función dieléctrica!para partículas esféricas,corrección por tamaño de la}
 	\begin{align}
 	\frac{\varepsilon(\omega)}{\varepsilon_0} = \frac{\varepsilon_B^{exp}(\omega)}{\varepsilon_0}
 						 - \qty( 1 - \frac{\omega_p^2}{\omega(\omega+i\gamma_\infty)}) 
@@ -1297,19 +1272,6 @@ En la Fig.  \ref{fig:FitDrude} se muestran las gráficas de las Ecs. \eqref{eq:g
 
 En la Fig.  \ref{fig:sizeCorrection} se muestra la correción por tamaño de la función dieléctrica del oro [Fig. \ref{sfig:sizeAu} y la plata [Fig.  \ref{sfig:sizeAg}] para partículas esféricas, considerando $A=1$ en la Ec. \eqref{eq:sizeCorrection}. Tanto para el oro, como para la plata, la función dieléctrica de bulto, experimental, corresponde a las líneas continuas (en donde los puntos son los valores experimentales); la función dieléctrica para NPs esféricas de radio $a=5$ nm corresponde a las líneas discontinuas; para $a=10$ nm, líneas punteadas; y para $a=50$ nm, líneas punto punteadas. Asimismo, para ambos materiales, la función dieléctrica para NPs se asemeja a la de bulto para frecuencias $\omega>2$ eV sin embargo, para $\omega<2$ eV, los efectos de tamaño son apreciables y más significativos mientras menor sea el radio de las NPs, como se observa tanto  en la parte real (líneas azules) como en la imaginaria (líneas rojas) de la función dieléctrica.
 
-
-los resultados experimentales para el índice de refracción de bulto del oro [Fig.  \ref{sfig:nAuJC}] y de la plata [Fig.  \ref{sfig:nAgJC}], obtenidos de  \cite{johnson1972constants}.  Los datos experimentales muestran una respuesta cualitativa semejante al modelo de Drude-Sommerfeld (Fig.  \ref{fig:Drude}) para energías bajas: energías menores a $2. 50$ eV para el oro y menores a $3. 5$ eV para la plata. % En las regiones de mayor energía, la parte imaginaria del ínidice de refracción no tiende a cero, como sí lo hace en el modelo de Drude-Sommerfeld. 
-
-%\begin{figure}[b!]\centering
-%	\begin{subfigure}{.01\linewidth}\caption{}\label{sfig:nAuJC}\vspace{3.7cm}\end{subfigure}\hspace*{-1em}
-%	\begin{subfigure}{.46\linewidth}\centering \includegraphics[scale=.7]{1-Teoria/figs/1-4-varepsn_JC_Au.pdf}\end{subfigure}
-%	\begin{subfigure}{.01\linewidth}\caption{}\label{sfig:nAgJC}\vspace{3.7cm}\end{subfigure}\hspace*{-.8em}
-%	\begin{subfigure}{.45\linewidth}\centering \includegraphics[scale=.7]{1-Teoria/figs/1-4-varepsn_JC_Ag.pdf}\end{subfigure}\vspace*{-.5em}
-%	\caption{ Gráficas del índice de refracción (gráfica externa) y de la función dieléctrica (gráfica interna)  \textbf{a)} del oro y \textbf{b)} de la plata,  como función de la energía.  En el marco superior se observa su dependencia en longitud de onda $\lambda$.  Los puntos en ambas gráficas corresponden a los datos experimentales obtenidos de \cite{johnson1972constants} y las líneas continuas son sólo una ayuda visual al lector. }\label{fig:nJC}
-%	\end{figure}	
-
-
-
 \subsection{Plasmones}
 
 En la deducción de la función dieléctrica del modelo de Drude [Ec. \eqref{eq:Drude}] se resolvió la ecuación de movimiento de los electrones libres en un material ante la  presencia de un campo eléctrico oscilante en el tiempo. A las oscilaciones colectivas  de los electrones libres debido al acoplamiento con la radiación EM se les denominan  plasmones, que pueden encontrarse en el bulto, o bien, sobre una superficie \cite{stockman2011nanoplasmonics}. A diferencia del plasmón de volumen, que se encuentra dentro del material \cite{maier2007plasmonics}, las resonancias plasmónicas de superficie (Surface Plasmon Resonances, SPRs) pueden clasificarse en modos propagantes y localizados. Cuando los plasmones se propagan a lo largo de una interfaz plana entre un medio diel\'ectrico y uno met\'alico se denomina  \emph{plasm\'on-polarit\'on de superficie} (Surface Plasmon Polariton, SPP) \cite{maier2007plasmonics}.  Si el plasmón, en cambio, se encuentra en la superficie de una partícula  met\'alica, de tamaño finito, se le conoce como \emph{resonancia de plasm\'on de superficie localizado} (Localized Surface Plasmon Resonance, LSPR) \cite{maier2007plasmonics}. 
@@ -1320,11 +1282,11 @@ Para determinar a qué frecuencias se excitan los plasmones de volumen se calcul
 			 -\frac{\varepsilon(\omega)}{\varepsilon_0}
 			 \frac{\omega^2}{c^2}\vb{E},
 	\end{align*}
-donde se hace la distinción entre los casos de ondas transversales ($\vb{k}\cdot\vb{E}=0$), en donde se cumple\vspace*{-.5em}
-	\begin{tcolorbox}[title = Relación de dispersión genérica, ams align, breakable ]
+donde se hace la distinción entre los casos de ondas transversales ($\vb{k}\cdot\vb{E}=0$), de donde se obtiene la relación de dispersión
+	\begin{align*}
 	k^2 = \frac{\varepsilon(\omega)}{\varepsilon_0}  \frac{\omega^2}{c^2},
-	\label{eq:TMode}
-	\end{tcolorbox}\vspace*{-.5em}\noindent
+	\tag{\ref{eq:dispersion} \emph{bis}}\label{eq:TMode}		
+	\end{align*}
 y los casos con ondas longitudinales ($\vb{k}\cdot\vb{E}=kE$), en donde
 	\begin{align}
 	\varepsilon(\omega) = 0.

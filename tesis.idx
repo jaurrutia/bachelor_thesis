@@ -1,43 +1,115 @@
-\indexentry{Ecuaciones de Maxwell|hyperpage}{1}
+\indexentry{Maxwell!ecuaciones de|hyperpage}{1}
 \indexentry{Ecuaci\IeC {\'o}n!de onda|hyperpage}{2}
 \indexentry{Ecuaci\IeC {\'o}n!de Helmholtz|hyperpage}{2}
-\indexentry{Ecuaciones de Maxwell!soluci\IeC {\'o}n de ondas planas a las|hyperpage}{2}
+\indexentry{Maxwell!ecuaciones de!soluci\IeC {\'o}n de ondas planas a las|hyperpage}{2}
+\indexentry{Onda!plana|hyperpage}{2}
+\indexentry{Onda!plana!en la base cartesiana can\IeC {\'o}nica|hyperpage}{2}
 \indexentry{\IeC {\'I}ndice de refracci\IeC {\'o}n|hyperpage}{2}
 \indexentry{\IeC {\'I}ndice de refracci\IeC {\'o}n|hyperindexformat{\seealso{Funci\IeC {\'o}n diel\IeC {\'e}ctrica}}}{2}
+\indexentry{Funci\IeC {\'o}n diel\IeC {\'e}ctrica|hyperpage}{2}
 \indexentry{Relaci\IeC {\'o}n de dispersi\IeC {\'o}n|hyperpage}{2}
 \indexentry{Relaci\IeC {\'o}n de dispersi\IeC {\'o}n!de una onda plana|hyperpage}{2}
 \indexentry{Fourier!transformada de|hyperpage}{2}
 \indexentry{Poynting!vector de|hyperpage}{3}
-\indexentry{Campos electromagn\IeC {\'e}ticos!condiciones a la frontera de los|hyperpage}{3}
+\indexentry{Electromagn\IeC {\'e}ticos!campos!condiciones a la frontera de los|hyperpage}{3}
 \indexentry{Ley!de la reflexi\IeC {\'o}n|hyperpage}{4}
 \indexentry{Ley!de Snell|hyperpage}{4}
-\indexentry{Coeficiente!de amplitud de Fresnel|hyperindexformat{\seealso{Fresnel}}}{4}
+\indexentry{Fresnel!ecuaciones de|hyperpage}{4}
 \indexentry{Plano!de incidencia|hyperpage}{4}
+\indexentry{Fresnel!amplitud, coeficientes de ($r,t$)|hyperpage}{4}
 \indexentry{Polarizaci\IeC {\'o}n!de una onda plana|hyperpage}{4}
-\indexentry{Polarizaci\IeC {\'o}n!respecto al plano de incidencia!paralela (p)|hyperpage}{4}
-\indexentry{Polarizaci\IeC {\'o}n!respecto al plano de incidencia!perpendicular (s)|hyperpage}{4}
-\indexentry{Fresnel!coeficientes de amplitud de!s|hyperpage}{4}
-\indexentry{Fresnel!coeficientes de amplitud de!p|hyperpage}{5}
+\indexentry{Polarizaci\IeC {\'o}n!respecto al plano de incidencia!paralela (\emph{p})|hyperpage}{4}
+\indexentry{Polarizaci\IeC {\'o}n!respecto al plano de incidencia!perpendicular (\emph{s})|hyperpage}{4}
+\indexentry{Fresnel!amplitud, coeficientes de ($r,t$)!$s$|hyperpage}{4}
+\indexentry{Fresnel!amplitud, coeficientes de ($r,t$)!$p$|hyperpage}{5}
 \indexentry{Incidencia!interna|hyperpage}{5}
 \indexentry{Incidencia!externa|hyperpage}{5}
 \indexentry{\IeC {\'A}ngulo!de Brewster|hyperpage}{6}
-\indexentry{\IeC {\'A}ngulo!cr\IeC {\'\i }tico|hyperindexformat{\see {\IeC {\'I}ncidencia interna}}}{6}
+\indexentry{Brewster!\IeC {\'a}ngulo de|hyperpage}{6}
+\indexentry{\IeC {\'A}ngulo!cr\IeC {\'\i }tico|hyperindexformat{\see {Incidencia interna}}}{6}
 \indexentry{\IeC {\'A}ngulo!cr\IeC {\'\i }tico|hyperpage}{6}
 \indexentry{Reflexi\IeC {\'o}n total!interna|hyperpage}{6}
-\indexentry{Reflectancia|hyperpage}{7}
-\indexentry{Transmitancia|hyperpage}{7}
+\indexentry{Fresnel!Reflectancia ($R$)|hyperpage}{7}
+\indexentry{Fresnel!Transmitancia ($T$)|hyperpage}{7}
 \indexentry{Poynting!vector de!promedio temporal del|hyperpage}{7}
+\indexentry{Funci\IeC {\'o}n diel\IeC {\'e}ctrica!Absorci\IeC {\'o}n|hyperpage}{8}
 \indexentry{Mie!soluci\IeC {\'o}n de|hyperpage}{9}
+\indexentry{Esparcimiento! de luz|hyperindexformat{\see{Mie}}}{9}
 \indexentry{Plano!de esparcimiento|hyperpage}{10}
-\indexentry{Polarizaci\IeC {\'o}n!respecto al plano de esparcimiento|hyperindexformat{\see {Plano}}}{10}
-\indexentry{Polarizaci\IeC {\'o}n!respecto al plano de esparcimiento!incidente|hyperpage}{10}
-\indexentry{Campos electromagn\IeC {\'e}ticos!radiativos|hyperpage}{10}
-\indexentry{Ecuaciones de Maxwell!transformada de Fourier de las|hyperpage}{11}
+\indexentry{Polarizaci\IeC {\'o}n!respecto al plano de esparcimiento|hyperpage}{10}
+\indexentry{Polarizaci\IeC {\'o}n!respecto al plano de esparcimiento!paralela ($\parallel$)|hyperpage}{10}
+\indexentry{Polarizaci\IeC {\'o}n!respecto al plano de esparcimiento!perpendicular ($\perp$)|hyperpage}{10}
+\indexentry{Electromagn\IeC {\'e}ticos!campos!lejano|hyperpage}{10}
+\indexentry{Electromagn\IeC {\'e}ticos!campos!diadica de campo lejano|hyperpage}{10}
+\indexentry{Esparcimiento!matriz de|hyperpage}{11}
+\indexentry{Maxwell!ecuaciones de!transformada de Fourier de las|hyperpage}{11}
 \indexentry{Ecuaci\IeC {\'o}n!de Helmholtz|hyperpage}{11}
+\indexentry{Arm\IeC {\'o}nicos vectoriales|hyperpage}{12}
 \indexentry{Arm\IeC {\'o}nicos vectoriales!funci\IeC {\'o}n generadora de los|hyperpage}{12}
-\indexentry{Arm\IeC {\'o}nicos vectoriales!esf\IeC {\'e}ricos!funci\IeC {\'o}n generadora|hyperpage}{12}
-\indexentry{Arm\IeC {\'o}nicos vectoriales!esf\IeC {\'e}ricos!funci\IeC {\'o}n generadora!soluci\IeC {\'o}n azimutal de la|hyperpage}{13}
-\indexentry{Arm\IeC {\'o}nicos vectoriales!esf\IeC {\'e}ricos!funci\IeC {\'o}n generadora!soluci\IeC {\'o}n polar|hyperpage}{14}
+\indexentry{Arm\IeC {\'o}nicos esf\IeC {\'e}ricos vectoriales!funci\IeC {\'o}n generadora de los|hyperpage}{12}
+\indexentry{Arm\IeC {\'o}nicos esf\IeC {\'e}ricos vectoriales!funci\IeC {\'o}n generadora!soluci\IeC {\'o}n azimutal de la|hyperpage}{13}
+\indexentry{Ortogonalidad!seno y coseno, relaciones de|hyperpage}{14}
+\indexentry{Arm\IeC {\'o}nicos esf\IeC {\'e}ricos vectoriales!funci\IeC {\'o}n generadora!soluci\IeC {\'o}n polar de la|hyperpage}{14}
 \indexentry{Ecuaci\IeC {\'o}n!asociada de Legendre|hyperpage}{14}
+\indexentry{Legendre!ecuaci\IeC {\'o}n asociada de|hyperpage}{14}
 \indexentry{Legendre!polinomios de|hyperpage}{14}
 \indexentry{Legendre!funciones asociadas de|hyperpage}{14}
+\indexentry{Ortogonalidad!funciones asociadas de Legrende, relaciones de|hyperpage}{14}
+\indexentry{Legendre!funciones asociadas de!relaciones de ortogonalidad de las|hyperpage}{14}
+\indexentry{Arm\IeC {\'o}nicos esf\IeC {\'e}ricos vectoriales!funci\IeC {\'o}n generadora!soluci\IeC {\'o}n radial de la|hyperpage}{14}
+\indexentry{Ecuaci\IeC {\'o}n!esf\IeC {\'e}rica de Bessel|hyperpage}{14}
+\indexentry{Bessel!ecuaci\IeC {\'o}n esf\IeC {\'e}rica de|hyperpage}{14}
+\indexentry{Bessel!funciones esf\IeC {\'e}ricas de|hyperpage}{14}
+\indexentry{Hankel!funciones esf\IeC {\'e}ricas de|hyperpage}{14}
+\indexentry{Hankel|hyperindexformat{\see{Bessel}}}{14}
+\indexentry{Arm\IeC {\'o}nicos esf\IeC {\'e}ricos vectoriales!funci\IeC {\'o}n generadora!soluci\IeC {\'o}n general|hyperpage}{15}
+\indexentry{Arm\IeC {\'o}nicos esf\IeC {\'e}ricos vectoriales!$\vb{M}$ y $\vb{N}$|hyperpage}{15}
+\indexentry{Bessel!funciones esf\IeC {\'e}ricas de!relaciones de recurrencia de las|hyperpage}{15}
+\indexentry{Arm\IeC {\'o}nicos esf\IeC {\'e}ricos vectoriales!relaciones de ortogonalidad de los|hyperpage}{16}
+\indexentry{Ortogonalidad!arm\IeC {\'o}nicos esf\IeC {\'e}ricos vectoriales, relaciones de|hyperpage}{16}
+\indexentry{Onda!plana!en la base esf\IeC {\'e}rica can\IeC {\'o}nica|hyperpage}{16}
+\indexentry{Arm\IeC {\'o}nicos esf\IeC {\'e}ricos vectoriales!$\vb{M}^{(1)}$ y $\vb{N}^{(1)}$|hyperpage}{16}
+\indexentry{Onda!plana!en la base de los arm\IeC {\'o}nicos esf\IeC {\'e}ricos vectoriales|hyperpage}{17}
+\indexentry{Arm\IeC {\'o}nicos esf\IeC {\'e}ricos vectoriales!expansi\IeC {\'o}n de una onda plana en la base de los|hyperpage}{17}
+\indexentry{Electromagn\IeC {\'e}ticos!campos!condiciones ala frontera de una esfera de los|hyperpage}{17}
+\indexentry{Mie!soluci\IeC {\'o}n de!campos electromagn\IeC {\'e}ticos dentro de una part\IeC {\'\i }cula esf\IeC {\'e}rica|hyperpage}{17}
+\indexentry{Hankel!funciones esf\IeC {\'e}ricas de!l\IeC {\'\i }mite asint\IeC {\'o}tico|hyperpage}{17}
+\indexentry{Onda!esf\IeC {\'e}rica|hyperpage}{17}
+\indexentry{Mie!soluci\IeC {\'o}n de!campos electromagn\IeC {\'e}ticos esparcidos por una part\IeC {\'\i }cula esf\IeC {\'e}rica|hyperpage}{17}
+\indexentry{Arm\IeC {\'o}nicos esf\IeC {\'e}ricos vectoriales!$\vb{M}^{(3)}$ y $\vb{N}^{(3)}$|hyperpage}{17}
+\indexentry{Legendre!funciones asociadas de!funciones $\pi_\ell$ y $\tau_\ell$|hyperpage}{17}
+\indexentry{Legendre!funciones asociadas de!relaciones de recurrencia de las|hyperpage}{18}
+\indexentry{Ortogonalidad!funciones $\pi_\ell$ y $\tau_\ell$, relaciones de|hyperpage}{18}
+\indexentry{Legendre!funciones asociadas de!funciones $\pi_\ell$ y $\tau_\ell$, ortogonalidad|hyperpage}{18}
+\indexentry{Electromagn\IeC {\'e}ticos!campos!condiciones ala frontera de una esfera de los|hyperpage}{18}
+\indexentry{Mie!soluci\IeC {\'o}n de!campos electromagn\IeC {\'e}ticos esparcidos por una part\IeC {\'\i }cula esf\IeC {\'e}rica|hyperpage}{19}
+\indexentry{Mie!coeficientes de|hyperpage}{19}
+\indexentry{Bessel!funciones de Ricatti-Bessel|hyperpage}{19}
+\indexentry{Hankel!funciones de Ricatti-Bessel|hyperpage}{19}
+\indexentry{Ricatti-Bessel!funciones de|hyperpage}{19}
+\indexentry{Mie!expanci\IeC {\'o}n multipolar|hyperpage}{19}
+\indexentry{Electromagn\IeC {\'e}ticos!campos!lejano|hyperpage}{19}
+\indexentry{Mie!soluci\IeC {\'o}n de!campos electromagn\IeC {\'e}ticos dentro de una part\IeC {\'\i }cula esf\IeC {\'e}rica|hyperpage}{19}
+\indexentry{Ricatti-Bessel!funciones de!l\IeC {\'\i }mite asint\IeC {\'o}tico de las|hyperpage}{19}
+\indexentry{Hankel!funciones esf\IeC {\'e}ricas de!l\IeC {\'\i }mite asint\IeC {\'o}tico de las|hyperpage}{19}
+\indexentry{Mie!matriz de esparcimiento de|hyperpage}{20}
+\indexentry{Esparcimiento!de Mie, matriz de|hyperpage}{20}
+\indexentry{Mie!soluci\IeC {\'o}n de|hyperpage}{21}
+\indexentry{Funci\IeC {\'o}n diel\IeC {\'e}ctrica|hyperpage}{21}
+\indexentry{Drude-Sommerfeld!modelo de|hyperpage}{21}
+\indexentry{Funci\IeC {\'o}n diel\IeC {\'e}ctrica!interbanda|hyperpage}{21}
+\indexentry{Funci\IeC {\'o}n diel\IeC {\'e}ctrica!intrabanda|hyperpage}{21}
+\indexentry{Electr\IeC {\'o}n!libre|hyperpage}{21}
+\indexentry{Drude-Sommerfeld!modelo de!ecuaci\IeC {\'o}n de movimiento|hyperpage}{21}
+\indexentry{Ecuaci\IeC {\'o}n!de movimiento de un electr\IeC {\'o}n libre|hyperpage}{21}
+\indexentry{Ecuaci\IeC {\'o}n!de movimiento de un electr\IeC {\'o}n libre|hyperindexformat{\seealso{Drude-Sommerfeld}}}{21}
+\indexentry{Electr\IeC {\'o}n!masa ef\IeC {\'e}ctica del|hyperpage}{22}
+\indexentry{Drude-Sommerfeld!modelo de|hyperpage}{22}
+\indexentry{Drude-Sommerfeld!modelo de!frecuencia de plasma $\omega_p$|hyperpage}{22}
+\indexentry{Funci\IeC {\'o}n diel\IeC {\'e}ctrica!tipo Drude|hyperpage}{22}
+\indexentry{Drude-Sommerfeld!modelo de!constante fenomenol\IeC {\'o}gica de amortiguamiento de bulto $\gamma_\infty$|hyperpage}{22}
+\indexentry{Fermi!velocidad de|hyperpage}{22}
+\indexentry{Onda!evanescente|hyperpage}{23}
+\indexentry{Drude-Sommerfeld!modelo de!constante fenomenol\IeC {\'o}gica para esferas ($\gamma_a$)|hyperpage}{23}
+\indexentry{Funci\IeC {\'o}n diel\IeC {\'e}ctrica!para part\IeC {\'\i }culas esf\IeC {\'e}ricas,correcci\IeC {\'o}n por tama\IeC {\~n}o de la|hyperpage}{23}
+\indexentry{Fermi!velocidad de|hyperpage}{23}
