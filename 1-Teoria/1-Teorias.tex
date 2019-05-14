@@ -1,14 +1,11 @@
 \chapter{Teoría}
 
-
-La luz, en el esquema de la teoría electromagnética clásica, cumple con las ecuaciones de Maxwell y puede ser descrita por ondas planas. En esta sección se estudia la interacción de la luz con la materia considerando las propiedades electromagnéticas (EMs) del objeto con en el que la luz interactúa así como su geometría y su tamaño. En la primera subsección se presentan la  solución de ondas planas a las ecuaciones de Maxwell y las condiciones que se imponen a los campos EMs al propagarse a través de un medio homogéneo, lineal e isótropo, y al cruzar una interfaz arbitraria a otro medio con las mismas características. En la segunda subsección  se estudia la reflexión y transmisión de la luz al cruzar una interfaz plana entre dos medios, arbitrarios pero que sean homogéneos, lineales e isótropos, que deviene en los coeficientes de amplitud de Fresnel y en el cálculo de la reflectancia y transmitancia. Posteriormente, en la tercera subsección, se presenta la solución de Mie, la cual resuelve el problema de absorción y esparcimiento de luz debido a una partícula esférica de tamaño y material arbitrario, dando como resultado los campos EMs esparcidos y dentro de la partícula. Una ves determinadas la interacción de una onda plana con una interfaz plana y una esférica, se emplea en la cuarta subsección el modelo de Drude-Sommerfeld para la descripción de las propiedades EMs, mediante el cálculo de la función dieléctrica, para materiales plasmónicos, así como un método para ajustar las mediciones experimentales y poder hacer la corrección de tamaño para partículas esféricas; asimismo, los materiales plasmónicos pueden presentar un acoplamiento con los campos EM incidentes, este fenómeno también es tratado en la cuarta subsección. Finalmente, en la quinta subsección, se presenta la respuesta EM para una monocapa de partículas esféricas, descrita por el modelo de esparcimiento coherente (Coherent Scattering Model, CSM) en donde se calculan los coeficientes de amplitud y reflexión para un sistema que considere una monocapa de NPs esféricas, e idénticas, inmersa en un medio dieléctrico, denominado matriz, y soportado por un sustrato dieléctrico.
-%
-%La luz, al pasar de un medio lineal, homogéneo e isótropo a otro medio material con las mismas características, se descompone en dos haces: uno reflejado y otro transmitido. Para calcular la intensidad de los haces reflejado y transmitido se emplean las fórmulas de Fresnel. En su deducción se consideran las condiciones de frontera impuestas por las ecuaciones de Maxwell sobre los campos electromagnéticos (EMs), de las que se deduce, además, la dirección de propagación de los haces reflejado y transmitido.  Una vez determinadas las condiciones de frontera de los campos EMs y la dirección de propagación de la luz, se calcula la relación  entre los campos eléctricos evaluados en la frontera entre ambos medios, resultando en los \emph{coeficientes de amplitud}. Finalmente, la conservación de la energía que es considerada, resultando en las ecuaciones de Fresnel.
-
+ En esta sección se estudia la interacción de la luz con la materia considerando las propiedades físicas del objeto, como lo son su respuesta electromagnética (EM), así como su geometría y  tamaño. En la primera subsección se presentan la  solución de ondas planas a las ecuaciones de Maxwell y las condiciones que se imponen a los campos EMs al propagarse a través de un medio homogéneo, lineal e isótropo, y al cruzar una interfaz arbitraria a otro medio con las mismas características. En la segunda subsección  se estudia la reflexión y transmisión de la luz al cruzar una interfaz plana entre dos medios, arbitrarios pero que sean homogéneos, lineales e isótropos, que deviene en los coeficientes de amplitud de Fresnel y en el cálculo de la reflectancia y transmitancia. Posteriormente, en la tercera subsección, se presenta la solución de Mie, la cual resuelve el problema de absorción y esparcimiento de luz debido a una partícula esférica de tamaño y material arbitrario al ser iluminada por una onda plana, dando como resultado los campos EMs esparcidos por la partícula. En la cuarta subsección se presenta el modelo de Drude-Sommerfeld para la descripción de las propiedades EMs de materiales plasmónicos, mediante la función dieléctrica, así como un método para ajustar las mediciones experimentales de la función dieléctrica y poder hacer la corrección de tamaño para partículas esféricas \emph{pequeñas}; asimismo se presentan los plasmones, acoplamiento de la luz con los electrones libres de un material, al considerar materiales cuya respuesta EM es descrita por el modelo de Drude-Sommerfeld, así como el caso para materiales más realistas. Finalmente, en la quinta subsección, se presenta la respuesta EM de una monocapa de partículas esféricas, descrita por el modelo de esparcimiento coherente (Coherent Scattering Model, CSM) en donde se calculan los coeficientes de amplitud y reflexión para un sistema que considere una monocapa de NPs esféricas idénticas, inmersa en un medio dieléctrico, denominado matriz, y soportado por un sustrato dieléctrico.
 
 \section{Nociones básicas}
 
 Las ecuaciones de Maxwell en su forma diferencial son   \cite{griffiths2013electrodynamics}  \index{Ecuaciones de Maxwell} \vspace*{-.5em}
+%
 	\begin{subequations} \label{eqs:Maxwell}
 	\begin{tcolorbox}[title = Ecuaciones de Maxwell (Forma diferencial),
 	ams align ]
@@ -20,64 +17,60 @@ Las ecuaciones de Maxwell en su forma diferencial son   \cite{griffiths2013elect
 	\label{seq:FL}\\
 	\nabla \times\vb{B} &= \mu_0 \vb{J}_{tot} +\varepsilon_0\mu_0 \pdv{\vb{E}}{t}, &
 	\mbox{(Ley de Ampère-Maxwell)} \label{seq:AM}
-	\end{tcolorbox}\end{subequations}\vspace*{-.5em}\noindent 
-donde $\vb{E}$ es el campo eléctrico, $\vb{B}$ el campo magnético, $\rho_{tot}$ es la densidad volumétrica de carga total  y $\vb{J}_{tot}$ la densidad volumétrica de corriente total, $\varepsilon_0$ la permitividad eléctrica del vacío y $\mu_0$ la permeabilidad magnética del vacío.
+	\end{tcolorbox}\end{subequations}\vspace*{-.5em}\noindent
 %
-%Aplicando el teorema de la divergencia\footnote{\setstretch{1.0}Teorema de la divergencia:  $\int_V \nabla \cdot \vb{A} pdv = \oint_{\partial V} \inner{A}{da}$, con $\vb{A}$ un campo vectorial de clase $C^2$ en un volumen $V$.} y el teorema de Stokes\footnote{\setstretch{1.0}Teorema de Stokes: $\int_S \nabla \times\vb{A}\cdot \vb{da} = \oint_{\partial S} \inner{A}{dl}.$, con $\vb{A}$ un campo vectorial de clase $C^2$ en una superficies orientable $S$.} a las Ecs. \eqref{eqs:MDif} se obtienen las ecuaciones de Maxwell en forma integral \cite{griffiths2013electrodynamics}:\index{MaxEqs!forma integral}
-%	\begin{subequations}	\label{eqs:MInt}
-%	\begin{tcolorbox}[ title = Ecuaciones de Maxwell (Forma integral), ams align]
-%	\oint_{S_c} \vb{E}\cdot\vb{\dd a}  &= \frac{Q_{tot}^{\,enc}}{\varepsilon_0},\label{eq:GEint}\\
-%	\oint_{S_c} \vb{B}\cdot\vb{\dd a}  &= 0,\label{eq:GMint} \\
-%	\oint_C \vb{E}\cdot\vb{\dd a} & =-\dv{}{t}\int_S \vb{B}\cdot\vb{\dd a},\label{eq:FLint}\\
-%	\oint_C \vb{B}\cdot\vb{\dd l} &=\mu_0 I_{tot}^{atr} +\varepsilon_0\mu_0 \dv{}{t} \int_S 	
-%	\vb{E}\cdot\vb{\dd a}  \label{eq:AMint}
-%	\end{tcolorbox}\end{subequations}\noindent
-%%		\begin{subequations}	\label{eqs:MInt}
-%%	\begin{tcolorbox}[ title = Ecuaciones de Maxwell (Forma integral)]
-%%	\eqhalf{\oint_{S_c} \vb{E}\cdot\vb{\dd a}  = \frac{Q_{tot}^{\,enc}}{\varepsilon_0},\label{eq:GEint}}
-%%	\eqhalf{\oint_{S_c}\vb{B}\cdot\vb{\dd a} = 0,\label{eq:GMint} }
-%%	\eqhalf{\oint_C \vb{E}\cdot\vb{\dd l}   =-\dv{}{t}\int_S \inner{B}{da},\label{eq:FLint}}
-%%	\eqhalf{\oint_C \vb{B}\cdot\vb{\dd l}  =\mu_0 I_{tot}^{atr} +\varepsilon_0\mu_0 \dv{}{t} \int_S 	\vb{E}\cdot\vb{\dd a}  \label{eq:AMint}}
-%%	\end{tcolorbox}\end{subequations}\noindent		
-%con $S_c$ una superficie cerrada, $S$ una superficie abierta y $C$ la frontera de $S$. El término $Q_{\,tot}^{enc}$ es la carga total encerrada por $S_c$ y el término $I_{tot}^{atr}$ es la corriente total que atravieza el área encerrada por $C$.
+donde $\vb{E}$ es el campo eléctrico; $\vb{B}$, el campo magnético; $\rho_{tot}$ es la densidad volumétrica de carga total  y $\vb{J}_{tot}$, la densidad volumétrica de corriente total; $\varepsilon_0$, la permitividad eléctrica del vacío y $\mu_0$, la permeabilidad magnética del vacío.
 
-Al sustituir las ecuaciones de Maxwell en la expresión de la fuerza de Lorentz, que es la fuerza ejercida sobre una partícula con carga $q$ y velocidad $\vb{v}$ en presencia de campos EMs \cite{griffiths2013electrodynamics}, dada por $	\vb{F} = q \left( \vb{E} + \vb{v}\times \vb{B} \right)$,\index{Lorenz!fuerza de} se deduce el teorema de  conservación de la energía \cite{griffiths2013electrodynamics}. De éste, se define el vector de Poynting $\vb{S}$\index{Poynting!vector de}, correspondinte al flujo de energía por unidad de tiempo, por unidad de área, transportado por los campos EMs \cite{griffiths2013electrodynamics}, dado por la expresión  \vspace*{-.5em}
-	\begin{tcolorbox}[title = Vector de Poynting, ams align]
-	\vb{S} = \frac{1}{\mu}_0 \vb{E}\times\vb{B}.  \label{eq:Poynting}
-	\end{tcolorbox}
+Al desacoplar las ecuaciones de Maxwell, los campos EMs obedecen la ecuación de onda \cite{hecht1998optics}, \index{Ecuación!de onda} que al emplear la transformada Fourier\footnote{\setstretch{1.0} $\mathcal{F}[f(\vb{r},\omega)] = \int_{-\infty}^\infty f(\vb{r},t) e^{i(\vb{k}\cdot\vb{r} -\omega t)} dt$, con $\omega$ una función de $\vb{k}$. La transformada de Fourier inversa es entonces $\mathcal{F}^{-1}[f(\vb{r},t)] =\frac{1}{2\pi} \int_{-\infty}^\infty f(\vb{r},t) e^{i(\vb{k}\cdot\vb{r} -\omega t)} d\omega$.\index{Fourier!transformada de}} para su resolución, y considerar una región del espació sin fuentes ($\rho_{tot}=0$ y $\vb{J}_{tot}=\vb{0}$) se obtiene la ecuación de Helmholtz \index{Ecuación!de Helmholtz} para $\vb{E}$ y $\vb{B}$ \cite{griffiths2013electrodynamics}
 
-Al desacoplar las ecuaciones de Maxwell, los campos EMs obedecen la ecuación de onda \cite{hecht1998optics}. \index{Ecuación!de onda} Una solución a esta ecuación se obtiene al emplear la transformada Fourier\footnote{ \setstretch{1.0} $\mathcal{F}[f(\vb{r},\omega)] = \int_{-\infty}^\infty f(\vb{r},t) e^{i(\vb{k}\cdot\vb{r} -\omega t)} dt$, con $\omega$ una función de $\vb{k}$. La transformada de Fourier inversa es entonces $\mathcal{F}^{-1}[f(\vb{r},t)] =\frac{1}{2\pi} \int_{-\infty}^\infty f(\vb{r},t) e^{i(\vb{k}\cdot\vb{r} -\omega t)} d\omega$.\index{Fourier!transformada de}} \cite{jackson1999electrodynamics}, proceso que concluye con ondas planas como soluciones, es decir, los campos EMs están dados por las expresiones \index{Ecuaciones de Maxwell!solución de ondas planas a las}
+	\begin{subequations}\eqhalf{\nabla^2\vb{E} + k^2 \vb{E}=\vb{0},}
+	\eqhalf{\nabla^2\vb{B} + k^2 \vb{B}=\vb{0}.}\end{subequations}\vspace*{-1em}
+
+\noindent Una de las soluciones a la ecuación de Helmholtz para los campos EM son las ondas planas, es decir, que los campos EMs son de la forma\cite{jackson1999electrodynamics} \index{Ecuaciones de Maxwell!solución de ondas planas a las}
 	\begin{align}
-	\vb{E}(\vb{r},t) =\vb{E_0}e^{i(\vb{k}\cdot\vb{r} \,-\,\omega \,t)}
+	\vb{E}(\vb{r},t) =\vb{E_0}e^{i(\vb{k}\cdot\vb{r} -\omega t)}
 		\qquad\mbox{y}\qquad
-	\vb{B}(\vb{r}, t) =\vb{B_0}e^{i(\vb{k}\cdot\vb{r} \,-\,\omega\, t)},
-	\label{eq:OndaPlana}
+	\vb{B}(\vb{r}, t) =\vb{B_0}e^{i(\vb{k}\cdot\vb{r} -\omega t)},
+	\label{eq:ondasPlanas}
 	\end{align}		
-en donde  $\vb{E}_0$ y $\vb{B}_0$ son las amplitudes de las ondas EMs, $\vb{k}$ es el vector de onda, que indica la dirección de propagación de la onda plana, y $\omega$ es la frecuencia angular de la onda plana; la triada de vectores \{$\vb{k},\, \vb{E},\, \vb{B}$\} constituye una base ortogonal derecha en el vacío \cite{griffiths2013electrodynamics}. Las ondas planas se propagan a través de un medio, cuyas propiedades EMs se describen por su función dieléctrica $\varepsilon$ y su permeabilidad magnética $\mu$. En general, se define el índice de refracción $n$ como \index{Índice de refracción}\index{Índice de refracción|seealso{Función dieléctrica}}	      \vspace*{-.5em}
+en donde  $\vb{E}_0$ y $\vb{B}_0$ son las amplitudes de los campos EMs, $\vb{k}$ es el vector de onda y $\omega$ es la frecuencia angular; la triada de vectores \{$\vb{k},\, \vb{E},\, \vb{B}$\} constituye una base ortogonal derecha en el vacío \cite{griffiths2013electrodynamics}. Las ondas planas se propagan a través de un medio, cuyas propiedades EMs se describen por su función dieléctrica $\varepsilon(\omega)$ y su permeabilidad magnética $\mu$, y en general, se define el índice de refracción $n(\omega)$ como \index{Índice de refracción}\index{Índice de refracción|seealso{Función dieléctrica}}\vspace*{-.5em}
+%
 	\begin{tcolorbox}[title = Índice de refracción, ams align]
-	n = \sqrt{\frac{\varepsilon \,\mu}{\varepsilon_0 \mu_0}}.
+	n(\omega) = \sqrt{\frac{\mu\varepsilon(\omega)}{\varepsilon_0 \mu_0}}.
 		\label{eq:indice} 
 	\end{tcolorbox}\vspace*{-.5em}\noindent
-Tanto $n$, como $\varepsilon$ y $\mu$ se determinan de forma experimental y son, en general, cantidades complejas. Para que las ondas planas sean solución de las ecuaciones de Maxwell, se impone la \emph{relación de dispersión}, que forza a  la magnitud del vector de onda $k$ y la frecuencia angular $\omega$ a obedecer la expresión \vspace*{-.5em}\index{Relación de dispersión}\index{Relación de dispersión!en el vacío}
-	\begin{tcolorbox}[title = Relación de dispersión de una onda plana, ams align]
-	k = \frac{\omega}{c}n
+%
+Tanto $n(\omega)$, como $\varepsilon(\omega)$ y $\mu$ se determinan de forma experimental y son, en general, cantidades complejas. Para que las ondas planas sean solución de las ecuaciones de Maxwell, se impone la relación de dispersión, que fuerza a  la magnitud del vector de onda $k$ y la frecuencia angular $\omega$ a obedecer la expresión \vspace*{-.5em}\index{Relación de dispersión}\index{Relación de dispersión!de una onda plana}
+%
+	\begin{tcolorbox}[title = Relación de dispersión, ams align]
+	k(\omega) = \frac{\omega}{c}n(\omega)
 	\label{eq:dispersion}
-	\end{tcolorbox}\vspace*{-1em}\noindent
+	\end{tcolorbox}\vspace*{-.5em}\noindent
+%
 en donde  $c=\sqrt{1/\varepsilon_0\mu_0}$ es la velocidad de la luz.
 
-Las ecuaciones de Maxwell imponen constricciones sobre los campos EMs cuando estos cruzan la frontera entre dos medios distintos, denominada interfaz. En la Fig. \ref{fig:GaussAmpere} se muestra la interfaz entre dos medios arbitrarios caracterizados por la función dieléctrica $\varepsilon_i$ y la permeabilidad magnética $\mu_i$, con $i = 1,\,2$ según sea el caso. Para deducir las constricciones de los campos EMs sobre la interfaz, estos se evalúan en la Fig. \ref{sfig:GaussPillbox}  en el cilindro de área en las caras $A$ y de altura $\delta \to 0$, mientras que en la Fig. \ref{sfig:AmperianLoop} se evalúan los campos EMs en el circuito de largo $l$ y altura $\delta\to 0$; en ambas figuras el vector normal a la interfaz es $\vu{u}$. Al considerar el límite $\delta \to 0$, los campos EMs se evlúan sobre la interfaz y, al considerar que los medios son lineales, homogéneos e isótropos, así como la ausencia de cargas externas, $\sigma_{ext} = 0$ y $\vb{K}_{ext} = \vb{0}$, los campos EMs obedecen las  expresiones \cite{griffiths2013electrodynamics} \vspace*{-.5em} \index{Campos electromagnéticos!condiciones a la frontera de los}
+A partir de las ecuaciones de Maxwell se deduce el teorema de conservación de la energía \cite{griffiths2013electrodynamics}, escrito en términos del vector de Poynting $\vb{S}$\index{Poynting!vector de}, que corresponde al flujo de energía EM por unidad de tiempo y unidad de área. Al considerar campos EMs tipo ondas planas [Ec. \eqref{eq:ondasPlanas}], el vector de Poynting es \vspace*{-.5em}
+%
+	\begin{tcolorbox}[title = Vector de Poynting considerando ondas planas, ams align]
+	\vb{S} = \vb{E}\times\vb{H}^*.  \label{eq:Poynting}
+	\end{tcolorbox} \vspace*{-.5em}\noindent
+%
+en donde $\vb{H}=\vb{B}/\mu$ es el campo H y $*$ corresponde a la operación complejo conjugado \cite{hecht1998optics}.
+
+Adicional al terorema deconservación de la energía, las ecuaciones de Maxwell imponen condiciones a la frontera sobre los campos EMs cuando estos cruzan la frontera entre dos medios distintos, denominada interfaz. En la Fig. \ref{fig:GaussAmpere} se muestra la interfaz entre dos medios arbitrarios caracterizados por la función dieléctrica $\varepsilon_i$ y la permeabilidad magnética $\mu_i$, con $i = 1,\,2$ según sea el caso. Para deducir las condiciones a la frontera de los campos EMs sobre la interfaz, con vector normal $\vu{u}$, se evalúan los campos EMs en el cilindro con caras de área $A$ y altura $\delta$ [ver Fig. \ref{sfig:GaussPillbox}], así como  en el circuito de largo $l$ y altura $\delta$ [ver Fig. \ref{sfig:AmperianLoop}]. Al considerar el límite $\delta \to 0$, evaluando los campos EMs sobre la interfaz, la ausencia de fuentas externas ($\sigma_{ext} = 0$ y $\vb{K}_{ext} = \vb{0}$), y que los medios que conforman a la interfaz son lineales, homogéneos e isótropos, los campos EMs obedecen las  expresiones \cite{griffiths2013electrodynamics} \vspace*{-.5em} \index{Campos electromagnéticos!condiciones a la frontera de los}
+%
 	\begin{subequations}
 	\begin{tcolorbox}[title = Condiciones de frontera de los campos EMs sin fuentes externas]
 	\eqhalf{\varepsilon_1 \vb{E}^\perp_1 - \varepsilon_2 \vb{E}^\perp_2 = \vb{0}, \label{seq:Eperp}}
-	\eqhalf{E_1^\parallel -E_2^\parallel = 0,\label{seq:Epara}}
+	\eqhalf{E_1^\parallel -E_2^\parallel = 0,\label{seq:Epara}}\vspace*{.5em}
 	\eqhalf{B_1^{\perp} - B_2^{\perp} = 0, \label{seq:Bperp} }
 	\eqhalf{\frac{\vb{B}^\parallel_1}{\mu_1} - \frac{\vb{B}^\parallel_2}{\mu_2} =\vb{0}.\label{seq:Bpara}} 
 	\end{tcolorbox} \label{eqs:CFrontera}	\end{subequations}
-
-	\begin{figure}[t!]\centering
+%
+	\begin{figure}[h!]\centering
 	\begin{subfigure}{.05\textwidth}\vspace{-3cm}\caption{}\label{sfig:GaussPillbox}	\end{subfigure}
 	\begin{subfigure}{.43\textwidth} \hspace*{-1cm}
-\begin{tikzpicture}[scale=.89]
+\begin{tikzpicture}[scale=1]
 %\draw (3.46,1.9) circle(2pt);ESTA ES LAREFERENCIA PARA ANTES DE MOVER LAS COSAS
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 	SUPERFICIE
@@ -139,7 +132,7 @@ Las ecuaciones de Maxwell imponen constricciones sobre los campos EMs cuando est
 	\end{subfigure}
 	\begin{subfigure}{.05\textwidth}\vspace{-3cm}\caption{}\label{sfig:AmperianLoop}\end{subfigure}
 	\begin{subfigure}{.43\textwidth}  \hspace*{-1cm}
-\begin{tikzpicture}[scale=.89]
+\begin{tikzpicture}[scale=1]
 %--------------------------------------------------- 	SUPERFICIE
 
 \shadedraw[	top color =lblue,				%		Color de arriba
@@ -193,16 +186,16 @@ Las ecuaciones de Maxwell imponen constricciones sobre los campos EMs cuando est
 		
 		\subsection{Fórmulas de Fresnel}		
 		
-Cuando un haz de luz modelado por una onda plana [Ec. \eqref{eq:OndaPlana}] incide sobre la interfaz entre dos medio lineales, homogéneos e isótropos, el haz de luz es descompuesto en un haz reflejado y otro transmitido, también descritos por ondas planas. Los haces incidentes, reflejados y transmitidos se propagan a través del \emph{plano de incidencia}, definido por el vector de onda del haz incidente, y el vector normal a la interfaz. Dado que las condiciones de frontera sobre la onda plana incidente y reflejada en el medio de incidencia, caracterizado por el índice de refracción $n_i$, y la onda transmitida, en el medio de transmisión, con índice de refracción $n_t$, son válidas para todo tiempo y todo punto en la interfaz, la fase de las tres ondas son iguales, por lo que se cumple \vspace*{-.5em} \index{Ley!de la reflexión}\index{Ley!de Snell}
+Cuando una onda plana [Ec. \eqref{eq:ondasPlanas}] incide sobre la interfaz entre dos medio lineales, homogéneos e isótropos, éste se descompone en una onda plana reflejada y una transmitida. Al describir el medio de incidencia y de transmisión por su índice de refracción $n_i$ y $n_t$, respectivamente, e imponer las condiciones ala frontera del los campos EMs [Ecs. \eqref{eqs:CFrontera}], válidas para todo tiempo y todo punto en la interfaz, las fases de las tres ondas son iguales, por lo que se cumple \vspace*{-.5em} \index{Ley!de la reflexión}\index{Ley!de Snell}
 %
 	\begin{tcolorbox}[title = Ley de la reflexión y ley de Snell ]
 	\eqhalf{\theta_i = \theta_r  \label{eq:LeyReflexion}}
 	\eqhalf{ n_i \sin\theta_i = n_t \sin\theta_t,\label{eq:LeySnell}}
 	\end{tcolorbox}	 \vspace*{-.5em}\noindent
 %
-en donde $\theta_i$ es el ángulo de incidencia; $\theta_r$, el de reflexión y $\theta_t$, el de transmisión; ambos medidos desde la dirección normal a la superficie. La Ec. \eqref{eq:LeyReflexion} es la ley de la reflexión, y la Ec. \eqref{eq:LeySnell} es la ley de Snell\footnote{La ley fue nombrada así debido al físico holandés Willebroerd Snellius aunque investigaciones más recientes indican que el registro más antiguo de esta ley (correctamente formulada) fue en el año 984 en el libro \emph{On the Burning Instruments} del matemático persa Ibn Sahl \cite{kwan2002really}.}, que determinan la dirección de propagación del haz reflejado y el transmitido.
+en donde $\theta_i$ es el ángulo de incidencia; $\theta_r$, el de reflexión y $\theta_t$, el de transmisión; los tres medidos desde la dirección normal a la interfaz. La Ec. \eqref{eq:LeyReflexion} es la ley de la reflexión, y la Ec. \eqref{eq:LeySnell} es la ley de Snell\footnote{La ley fue nombrada así debido al físico holandés Willebroerd Snellius aunque investigaciones más recientes indican que el registro más antiguo de esta ley (correctamente formulada) fue en el año 984 en el libro \emph{On the Burning Instruments} del matemático persa Ibn Sahl \cite{kwan2002really}.}, que determinan la dirección de propagación de las ondas planas reflejada y el transmitida.
 
- Para calcular  la potencia  reflejada y transmitida  se calculan primero los coeficientes de amplitud de reflexión $r = E_r/E_i$ y de transmisión $t = E_t/E_i$, que son el cociente del campo eléctrico reflejado $E_r$, o transmitido $E_t$, entre el campo eléctrico incidente $E_i$. El valor de los coeficientes de amplitud $r$ y $t$ depende de la polarización del campo eléctrico incidente, es decir, de la dirección en la que $\vb{E}_i$ oscila.  En Fig. \ref{fig:Polarizaciones} se muestra un haz de luz que se propaga en el medio de incidencia (con índice de refracción $n_i$) en la dirección $\vb{k}_i$ e incide en la interfaz a un ángulo $\theta_i$ respecto al vector normal al plano. Este haz se refleja según la Ec. \eqref{eq:LeyReflexion} a un ángulo $\theta_r = \theta_i$ y se propaga en una dirección $\vb{k}_r$, y se refracta en un ángulo $\theta_t$ dado por la Ec. \eqref{eq:LeySnell} y se propaga en una dirección $\vb{k}_t$. En la Fig. \ref{sfig:Pols} el campo eléctrico oscila en una dirección perpendicular al plano de incidencia, por lo que se le denomina polarización \emph{s} (del alemán \emph{senkrecht}), mientras que en la Fig. \ref{sfig:Polp} el campo eléctrico oscila paralelo al plano de incidencia, por lo que se le denomina polarización \emph{p}.\index{Polarización!de una onda plana}\index{Polarización!respecto al plano de incidencia!paralela (p)}\index{Plano!de incidencia}\index{Polarización!respecto al plano de incidencia!perpendicular (s)}\index{Polarización!respecto al plano de incidencia|see {Plano} }
+ Para calcular  la potencia  reflejada y transmitida  se calculan primero los coeficientes de amplitud de reflexión $r$ y de transmisión $t$, que son el cociente del campo eléctrico reflejado $E_r$, o transmitido $E_t$, entre el campo eléctrico incidente $E_i$ \index{Coeficiente!de amplitud de Fresnel|seealso{Fresnel}}. El valor de los coeficientes de amplitud $r$ y $t$ depende de la polarización del campo eléctrico incidente, es decir, de la dirección en la que $\vb{E}_i$ oscila respecto al plano definido por el vector normal a la interfaz y la dirección de propagación de la onda plana incidente, denominado plano de incidencia\index{Plano!de incidencia}. En Fig. \ref{fig:Polarizaciones} se muestra una onda plana que se propaga en el medio de incidencia (con índice de refracción $n_i$) en la dirección $\vb{k}_i$ e incide en la interfaz a un ángulo $\theta_i$ respecto al vector normal al plano. La onda plana se refleja con un ángulo $\theta_r = \theta_i$ y se propaga en una dirección $\vb{k}_r$, y se refracta en un ángulo $\theta_t$, dado por la Ec. \eqref{eq:LeySnell}, y se propaga en una dirección $\vb{k}_t$. En la Fig. \ref{sfig:Pols} el campo eléctrico oscila en una dirección perpendicular al plano de incidencia, por lo que se le denomina polarización \emph{s} (del alemán \emph{senkrecht}), mientras que en la Fig. \ref{sfig:Polp} el campo eléctrico oscila paralelo al plano de incidencia, por lo que se le denomina polarización \emph{p}.\index{Polarización!de una onda plana}\index{Polarización!respecto al plano de incidencia!paralela (p)}\index{Polarización!respecto al plano de incidencia!perpendicular (s)}
 %
 	\begin{figure}[h!]\centering
 	\begin{subfigure}{.05\textwidth}\vspace{-4.5cm}\caption{}\label{sfig:Pols}\end{subfigure}
@@ -353,7 +346,8 @@ en donde $\theta_i$ es el ángulo de incidencia; $\theta_r$, el de reflexión y 
 	\end{figure}	
 %
 
-Para polarización \emph{s} y medios no magnéticos ($\mu=\mu_0$),  el campo eléctrico es perpendicular al plano de incidencia y paralelo a la interfaz por lo que, mediante la Ec. \eqref{seq:Epara}, $E_i + E_r = E_t$, en donde se asume que la orientación del campo eléctrico incidente se preserva en el haz reflejado y transmitido, como se observa en la Fig. \ref{sfig:Pols}. Al emplear la continuidad de la componente paralela a la interfaz de $\vb{B}/\mu$ [Ec. \eqref{seq:Bpara}], la relación $E = (c/n) B$ y la ley de la reflexión [Ec. \eqref{eq:LeyReflexion}] y de Snell [Ec. \eqref{eq:LeySnell}] se obtienen los coeficientes de amplitud $r$ y $t$ para  polarización \emph{s}, dados por\vspace{-.5em}\index{Fresnel!coeficientes de amplitud!s}
+Para polarización \emph{s} y medios no magnéticos ($\mu=\mu_0$),  el campo eléctrico es perpendicular al plano de incidencia y paralelo a la interfaz por lo que, mediante la Ec. \eqref{seq:Epara}, $E_i + E_r = E_t$, en donde se asume que la orientación del campo eléctrico incidente se preserva tras la reflexión y la transmisión, como se observa en la Fig. \ref{sfig:Pols}. Al emplear la continuidad de la componente paralela a la interfaz de $\vb{B}/\mu$ [Ec. \eqref{seq:Bpara}], la relación $E = (c/n) B$ y la ley de la reflexión [Ec. \eqref{eq:LeyReflexion}] y de Snell [Ec. \eqref{eq:LeySnell}] se obtienen los coeficientes de amplitud $r$ y $t$ para  polarización \emph{s}, dados por\vspace{-.5em}\index{Fresnel!coeficientes de amplitud de!s}
+%
 	\begin{tcolorbox}[title = Coeficientes de amplitud para polarización \emph{s} ]
 	\vspace*{-1em}	
 	\eqhalf{r_s =
@@ -365,7 +359,8 @@ Para polarización \emph{s} y medios no magnéticos ($\mu=\mu_0$),  el campo el�
  			{n_i\cos\theta_i + \sqrt{ n_t^2-n_i^2\sin ^2\theta_i}}.
  			\label{eq:ts}}
 	\end{tcolorbox}	 \vspace*{-.5em}\noindent
-Cuando el campo eléctrico es paralelo al plano de incidencia, y por tanto perpendicular a la interfaz como se observa en la Fig. \ref{sfig:Polp}, se cumple la relación $E_i\cos\theta_i-E_r\cos\theta_r = E_t \cos\theta_t$ por la Ec. \eqref{seq:Epara}. Al asumir nuevamente que la orientación de oscilación del campo eléctrico reflejado y transmitido coincide con la del campo eléctrico incidente, y al emplear las Ecs. \eqref{seq:Bpara},  \eqref{eq:LeyReflexion} y  \eqref{eq:LeySnell}, así como la relación $E = (c/n) B$, se calculan los  coeficientes de amplitud $r$ y $t$ para  polarización \emph{p}, dados por \index{Fresnel!coeficientes de amplitud!p} \vspace*{-.5em}
+%
+Cuando el campo eléctrico es paralelo al plano de incidencia, y por tanto perpendicular a la interfaz como se observa en la Fig. \ref{sfig:Polp}, se cumple la relación $E_i\cos\theta_i-E_r\cos\theta_r = E_t \cos\theta_t$ por la Ec. \eqref{seq:Epara}. Al asumir nuevamente que la orientación de oscilación del campo eléctrico reflejado y transmitido coincide con la del campo eléctrico incidente, y al emplear las Ecs. \eqref{seq:Bpara},  \eqref{eq:LeyReflexion} y  \eqref{eq:LeySnell}, así como la relación $E = (c/n) B$, se calculan los  coeficientes de amplitud $r$ y $t$ para  polarización \emph{p}, dados por \index{Fresnel!coeficientes de amplitud de!p} \vspace*{-.5em}
 	\begin{tcolorbox}[title = Coeficientes de amplitud para polarización \emph{p} ]
 	\vspace*{-1em}
 	\eqhalf{ r_p =
@@ -377,7 +372,7 @@ Cuando el campo eléctrico es paralelo al plano de incidencia, y por tanto perpe
  				\label{eq:tp}}
 	\end{tcolorbox}	
 
-Los coeficientes  de amplitud dependen de las propiedades EMs de los medios, descritas por los índices de refracción presentes en sus expresiones, y según el valor de los índices de refracción se presentan distintos fenómenos físicos descritos por las Ecs. \eqref{eq:rs}--\eqref{eq:tp}. Cuando la luz cruza una interfaz, entre dos medios lineales, homogéneos e isótropos, y se cumple que $n_t>n_i$, se está en una configuración de incidencia externa, mientras que en caso contrario, $n_t<n_i$, se está en  incidencia interna. En la Fig. \ref{fig:coefAmp} se grafican los coeficientes de amplitud $r$ (líneas continuas) y $t$ (líneas discontinuas) como función del ángulo de incidencia $\theta_i$ para una interfaz de entre aire ($n= 1$) y un medio con un índice de refracción $n = 1.5$, en configuración de incidencia externa [Fig. \ref{sfig:coefExt}] e interna [Fig. \ref{sfig:coefInt}] para ambas polarizaciones, en donde las líneas azules corresponden a la polarización \emph{s} y las rojas a \emph{p}. Dado que los índices de refracción $n = \sqrt{\varepsilon}$ son cantidades reales, ninguno de los dos medios es absorbente. \index{Incidencia!interna}\index{Incidencia!externa}
+Dado que los coeficientes  de amplitud de los índices de refracción de los medios que conforman la interfaz, es posible hacer la distinción entre dos casos al analizar el término dentro de la raíz cuadrada en las Ecs. \eqref{eq:rs}--\eqref{eq:tp}: incidencia externa ($n_t>n_i$) e incidencia interna ($n_t<n_i$). En la Fig. \ref{fig:coefAmp} se grafican los coeficientes de amplitud $r$ (líneas continuas) y $t$ (líneas discontinuas) como función del ángulo de incidencia $\theta_i$ para una interfaz de entre aire ($n= 1$) y un medio con un índice de refracción $n = 1.5$, en configuración de incidencia externa [Fig. \ref{sfig:coefExt}] e interna [Fig. \ref{sfig:coefInt}] para ambas polarizaciones, en donde las líneas azules corresponden a la polarización \emph{s} y las rojas a \emph{p}. Dado que los índices de refracción $n = \sqrt{\varepsilon}$ son cantidades reales, ninguno de los dos medios es absorbente. \index{Incidencia!interna}\index{Incidencia!externa}
 %
 \begin{figure}[h!]\centering\hspace*{-1.5em}
 	\begin{subfigure}{.05\textwidth}\vspace{-4.5cm}\caption{}\label{sfig:coefExt}\end{subfigure}
@@ -391,7 +386,6 @@ Los coeficientes  de amplitud dependen de las propiedades EMs de los medios, des
 	\caption{ Coeficientes de amplitud $r$ (líneas continuas) y $t$ (líneas discontinuas), como función del ángulo de incidencia $\theta_i$, en configuración de incidencia \textbf{a)} externa e \textbf{b)} interna para una interfaz entre  aire ($n=1$) y un medio con índice de refracción $n = 1.5$. Los cálculos para polarización  \emph{s} se muestran  en azul y  para \emph{p} en rojo. }	\label{fig:coefAmp}	
 	\end{figure}	
 %
-
 En la Fig. \ref{fig:coefAmp} el coeficiente de amplitud de reflexión $r_p$ [Ec. \eqref{eq:rp}] toma un valor nulo para el ángulo de incidencia  denominado ángulo de Brewster $\theta_B$, que cumple con la expresión\index{Ángulo!de Brewster} 
 %
 	\begin{align}
@@ -399,25 +393,21 @@ En la Fig. \ref{fig:coefAmp} el coeficiente de amplitud de reflexión $r_p$ [Ec.
 	\label{eq:Brewster}
 	\end{align}
 %	
-tanto para incidencia externa [Fig. \ref{sfig:coefExt}], donde $\theta_B \approx 56^\circ$, como para interna [Fig. \ref{sfig:coefInt}], donde $\theta_B \approx 33^\circ$. El cambio de signo del coeficiente de reflexión $r_p$ para $\theta_i>\theta_B$ corresponde a un cambio de fase de $\pi$ radianes del campo eléctrico reflejado respecto al campo eléctrico incidente. De la Ec. \eqref{eq:Brewster} se deduce que el ángulo de Brewster de incidencia externa $\theta_B^{ext}$ es complementario al de incidencia interna $\theta_B^{int}$, es decir, $\theta_B^{ext}+\theta_B^{int} = 90^\circ$ como se observa en las gráficas de la Fig. \ref{fig:coefAmp}. Cuando se considera una configuración de incidencia interna, se cumple la relación $n_i>n_t$, por lo que los coeficientes de amplitud  [Ecs. \eqref{eq:rs}--\eqref{eq:tp}] son cantidades complejas para un ángulos de incidencia mayores al ángulo crítico $\theta_c$ que cumple la expresión\index{Ángulo!crítico|see {Íncidencia interna}}
+tanto para incidencia externa [Fig. \ref{sfig:coefExt}], donde $\theta_B \approx 56^\circ$, como para interna [Fig. \ref{sfig:coefInt}], donde $\theta_B \approx 33^\circ$. El cambio de signo del coeficiente de reflexión $r_p$ para $\theta_i>\theta_B$ corresponde a un cambio de fase de $\pi$ radianes del campo eléctrico reflejado respecto al campo eléctrico incidente. De la Ec. \eqref{eq:Brewster} se deduce que el ángulo de Brewster de incidencia externa $\theta_B^{ext}$ es complementario al de incidencia interna $\theta_B^{int}$, es decir, $\theta_B^{ext}+\theta_B^{int} = 90^\circ$ como se observa en las gráficas de la Fig. \ref{fig:coefAmp}. Cuando se considera una configuración de incidencia interna, se cumple la relación $n_i>n_t$, por lo que los coeficientes de amplitud  [Ecs. \eqref{eq:rs}--\eqref{eq:tp}] son cantidades complejas para un ángulos de incidencia mayores al ángulo crítico $\theta_c$ que cumple la expresión\index{Ángulo!crítico|see {Íncidencia interna}}\index{Ángulo!crítico}
 % 
 	\begin{align}
 	\sin\theta_c = \frac{n_t}{n_i}.
 	\label{eq:Criticp}
 	\end{align}
 %
-Al sustituir la Ec. \eqref{eq:Criticp} en la ley de Snell [Ec. \eqref{eq:LeySnell}] se obtiene que $\theta_t = 90^\circ$ por lo que para $\theta_i>\theta_c$ toda la luz es reflejada y no transmitida, es decir, se está en el régimen \emph{reflexión total interna}. En la Fig. \ref{sfig:coefInt} se observa que los coeficientes de amplitud son máximos en $\theta_c \approx 48^\circ$ sin embargo, para $\theta_i>\theta_c$, los coeficientes de amplitud  [Ecs. \eqref{eq:rs}--\eqref{eq:tp}] son cantidades complejas, lo que indica que los campos eléctricos reflejado y transmitido tienen un desfase, distinto de $\pi$ radianes, respecto al campo eléctrico incidente.  Para corroborar que toda la luz es reflejada en incidencia interna para $\theta_i>\theta_c$ se considera la conservación de la energía transportada por los campos EMs al cruzar la interfaz.
+Al sustituir la Ec. \eqref{eq:Criticp} en la ley de Snell [Ec. \eqref{eq:LeySnell}] se obtiene que $\theta_t = 90^\circ$ por lo que para $\theta_i>\theta_c$ toda la luz es reflejada y no transmitida, es decir, se está en el régimen \emph{reflexión total interna} \index{Reflexión total!interna}. En la Fig. \ref{sfig:coefInt} se observa que los coeficientes de amplitud son máximos en $\theta_c \approx 48^\circ$ sin embargo, para $\theta_i>\theta_c$, los coeficientes de amplitud  [Ecs. \eqref{eq:rs}--\eqref{eq:tp}] son cantidades complejas, lo que indica que los campos eléctricos reflejado y transmitido tienen un desfase, distinto de $\pi$ radianes, respecto al campo eléctrico incidente.  Para corroborar que toda la luz es reflejada en incidencia interna para $\theta_i>\theta_c$ se considera la conservación de la energía transportada por los campos EMs al cruzar la interfaz.
 
-El análisis del comportamiento de las ondas EMs al cruzar una interfaz plana, entre dos medios lineales homogéneos e isótropos, en términos de las amplitudes de los campos eléctricos describen el comportamiento de la magnitud y los cambios de fase en los campos eléctricos  y no la cantidad de luz transmitida o reflejada. Esta información se obtiene al considerar la energía transportada por los campos EMs, por lo que se emplea el vector de Poynting [Ec. (\ref{eq:Poynting})] escrito únicamente en términos del campo eléctrico usando la relación $E = n B/c$ \index{Poynting!vector de}
+El análisis del comportamiento de las ondas EMs al cruzar una interfaz plana, entre dos medios lineales homogéneos e isótropos, en términos de las amplitudes de los campos eléctricos describen el comportamiento de la magnitud y los cambios de fase en los campos eléctricos y no la energía transportada por los campos EMs reflejados y transmitidos. Al emplear vector de Poynting [Ec. (\ref{eq:Poynting})] y calcular su promedio temporal\footnote{El promedio temporal del vector de Poynting es $\langle\vb{S}\rangle_t = (1/\tau)\int_t^{t+\tau}\vb{S}(t')dt'$, y para campos EMs tipo ondas planas es $\langle\vb{S}\rangle_t = (1/2) \Re[\vb{E}\times\qty(\vb{B}/\mu)^*]$.\index{Poynting!vector de!promedio temporal del}} se calcula la irradiancia $I$ \cite{hecht1998optics}, dada por
 	\begin{align}
-	\vb{S} = n c\varepsilon_0 E_0^2 \vu{k}. \label{eq:PoyntingE}
-	\end{align}
-Al considerar campos eléctricos armónicos, es decir, tipo ondas planas, es necesario calcular el promedio temporal\footnote{Al considerar los campos EMs como ondas planas [Ec. \eqref{eq:OndaPlana}], el vector de Poynting es $\vb{S} = \Re(\vb{E})\times\Re(\vb{B}/\mu) = \vb{E}\times\qty(\vb{B}/\mu)^*$, en donde $*$ es el complejo conjugado y al calcular el promedio temporal $\langle\vb{S}\rangle_t = (1/\tau)\int_t^{t+\tau}\vb{S}(t')dt'$ para campos EMs tipo ondas planas, se obtiene que $\langle\vb{S}\rangle_t = (1/2) \Re[\vb{E}\times\qty(\vb{B}/\mu)^*]$.\index{Poynting!vector de!transformada de Fourier del}} de la Ec. (\ref{eq:PoyntingE}), denominado  irradiancia \cite{hecht1998optics}, dada por
-	\begin{align}
-	I = \langle S \rangle_t = \frac{nc\varepsilon_0}{2} E_0^2.
+	I = \langle S \rangle_t = \frac{nc\varepsilon_0}{2} E_0^2,
 	\label{eq:Irr}
 	\end{align}
-La irradiancia $I$ corresponde a la energía promedio por unidad de tiempo, por unidad de área, transportada por los campos EMs en la dirección $\vu{k}$ \cite{griffiths2013electrodynamics}. Para calcular la energía por unidad de tiempo $P$ transportada por los campos EMs al cruzar la interfaz se multiplica la Ec. \eqref{eq:Irr} por la sección transversal del haz de luz. En la Fig. \ref{fig:hazcircular} se muestran las secciones transversales de un haz incidente que incide a un ángulo $\theta_i$ sobre la interfaz entre dos medios con índice de refracción $n_i$ y $n_t$, respectivamente. Cuando el haz se refleja, a un ángulo $\theta_r=\theta_i$, y se refracta a un ángulo $\theta_t$, la sección transversal del haz cambia. Si el área de los haces justo en la interfaz es $A$, mediante la ley de la reflexión [Ec. \eqref{eq:LeyReflexion}] y la ley de Snell [Ec. \eqref{eq:LeySnell}], la sección transversal del has incidente y el reflejado  es $A\cos\theta_i$, mientras que la del haz transmitido es $A\cos\theta_t$.
+que corresponde a la energía promedio por unidad de tiempo y unidad de área, transportada por los campos EMs en la dirección $\vu{k}$ \cite{griffiths2013electrodynamics}. Para calcular la energía por unidad de tiempo $P$ transportada por los campos EMs al cruzar la interfaz se multiplica la Ec. \eqref{eq:Irr} por la sección transversal de un haz de luz. En la Fig. \ref{fig:hazcircular} se muestran las secciones transversales de un haz  que incide a un ángulo $\theta_i$ sobre la interfaz entre dos medios con índice de refracción $n_i$ y $n_t$, respectivamente. Cuando el haz se refleja, a un ángulo $\theta_r=\theta_i$, y se refracta a un ángulo $\theta_t$, la sección transversal del haz cambia. Si el área de los haces justo en la interfaz es $A$, mediante la ley de la reflexión [Ec. \eqref{eq:LeyReflexion}] y la ley de Snell [Ec. \eqref{eq:LeySnell}], la sección transversal del has incidente y el reflejado  es $A\cos\theta_i$, mientras que la del haz transmitido es $A\cos\theta_t$.
 
 	\begin{figure}[h]\centering
 \begin{tikzpicture}[scale=.7]
@@ -479,7 +469,7 @@ La irradiancia $I$ corresponde a la energía promedio por unidad de tiempo, por 
 	\begin{align*}
 	P = I A \cos\theta = \frac{n c \varepsilon_0}{2} E_{0}^2 \cos\theta,
 	\end{align*}
-en donde el ángulo $\theta$ e indice de refracción $n$ toman los valores de $\theta_i$ y $n_i$ para el haz incidente y el reflejado, mientras que  toma los valores de $\theta_t$ y  $n_t$ para el haz transmitido. Cuando se normaliza la energía por unidad de tiempo transportada por el haz reflejado y por el haz transmitido, entre la del haz incidente se obtienen las expresiones de la reflectancia $R$ y la transmitancia $T$ \vspace{-.5em} \index{Fresnel!reflectancia}\index{Fresnel!transmitancia}
+en donde el ángulo $\theta$ e indice de refracción $n$ toman los valores de $\theta_i$ y $n_i$ para el haz incidente y el reflejado, mientras que  toma los valores de $\theta_t$ y  $n_t$ para el haz transmitido. Cuando se normaliza la energía por unidad de tiempo transportada por el haz reflejado y por el haz transmitido, entre la del haz incidente se obtienen las expresiones de la reflectancia $R$ y la transmitancia $T$ \vspace{-.5em} \index{Reflectancia}\index{Transmitancia}
 	\begin{tcolorbox}[title = Reflectancia y transmitancia]
 	\eqhalf{ R =  r r^*, \label{eq:R}}
 	\eqhalf{ T = \frac{n_t\cos\theta_i}{n_i \cos\theta_t} t t^*,\label{eq:T}}
@@ -1083,52 +1073,52 @@ sin embargo, para el caso en el que la partícula esférica no es magnéntica, $
 			 \label{eqs:b_ell}	 
 	\end{tcolorbox}\label{eq:MieCoef}	\end{subequations}\vspace*{-.5em}\noindent
 en donde $\psi_\ell(\rho) = \rho j_\ell(\rho)$ y $\xi_\ell(\rho) = \rho h_\ell^{(1)}(\rho)$  son las funciones de Riccati-Bessel \cite{bohren1998absorption,arfken2001methods} y los términos $\psi'_\ell$ y $\xi'_\ell$ denotan las derivadas de las funciones respecto a su argumento. Los armónicos esféricos vectoriales representan una expansión multipolar del campo eléctrico esparcido por una partícula esférica y los coeficientes de Mie [Ec.  \eqref{eq:MieCoef}] modulan la contribución al campo total esparcido de cada término:  $a_\ell$, los multipolos eléctricos; $b_\ell$, los magnéticos \cite{kreibig1995clusters}. En la Fig. \ref{fig:Multipolos} se muestran la contribuciones multipolares del campo eléctrico esparcido\footnote{En el artículo original de Mie (ref. \cite{mie1908metallosung}) se les denomina a la contribuciones multipolares como ondas parciales.} $\vb{E}^s$ [Ec. \eqref{eqs:EsAEV}], considerando únicamente las componentes transversal a una  superficie esférica y concéntrica a la partícula esparcidora. 
-	\begin{figure}[h]\centering
-		\includegraphics[scale=.85]{1-Teoria/figs/EsNorm.pdf}\\
-		\hspace{-4em}
-		\begin{subfigure}{.05\linewidth}\vspace{-3.25cm}\label{figs:ElectricMultipoles} \caption{ } \end{subfigure}
-		\hspace{-3em}
-		\begin{subfigure}{.9\linewidth}
-		\animategraphics[loop, autoplay,scale=.25]{10}{1-Teoria/figs/Ne11/Ne11_crop-}{0}{62}%
-		\animategraphics[loop, autoplay,scale=.25]{10}{1-Teoria/figs/Ne12/Ne12_crop-}{0}{62}%
-		\animategraphics[loop, autoplay,scale=.25]{10}{1-Teoria/figs/Ne13/Ne13_crop-}{0}{62}%
-		\animategraphics[loop, autoplay,scale=.25]{10}{1-Teoria/figs/Ne14/Ne14_crop-}{0}{62}
-		\end{subfigure}\\
-		\hspace{-4em}	
-		\begin{subfigure}{.05\linewidth}\vspace{-3.25cm}\label{figs:MagneticMultipoles} \caption{ } \end{subfigure}
-		\hspace{-3em}
-		\begin{subfigure}{.9\linewidth}			
-		\animategraphics[loop, autoplay,scale=.25]{10}{1-Teoria/figs/Mo11/Mo11_crop-}{0}{62}%
-		\animategraphics[loop, autoplay,scale=.25]{10}{1-Teoria/figs/Mo12/Mo12_crop-}{0}{62}%
-		\animategraphics[loop, autoplay,scale=.25]{10}{1-Teoria/figs/Mo13/Mo13_crop-}{0}{62}%
-		\animategraphics[loop, autoplay,scale=.25]{10}{1-Teoria/figs/Mo14/Mo14_crop-}{0}{62}%
-		\end{subfigure}
-		\caption{Contribuciones multipolares \textbf{a)} eléctricas $a_\ell$ y \textbf{b)} magnéticas $b_\ell$ de orden $\ell = 1,2,3$ y $4$ del campo esparcido $\vb{E}^s$ por una partícula esférica, evaluadas en una superficie matemática esférica y concéntrica a la partícula que radía los campos EMs, en donde el plano de la página corresponde al plano de oscilación del campo eléctrico incidente $\vb{E}^i$. En las gráficas presentadas, el color rojo corresponde a los valores máximos del campo eléctrico, mientras que los azules son los puntos menos intensos, donde se presentan los nodos en la superficie esférica.}
-		\label{fig:Multipolos}
-	\end{figure}
-%	\begin{figure}[h!]\centering
+%	\begin{figure}[h]\centering
 %		\includegraphics[scale=.85]{1-Teoria/figs/EsNorm.pdf}\\
 %		\hspace{-4em}
 %		\begin{subfigure}{.05\linewidth}\vspace{-3.25cm}\label{figs:ElectricMultipoles} \caption{ } \end{subfigure}
 %		\hspace{-3em}
 %		\begin{subfigure}{.9\linewidth}
-%			\includegraphics[scale=.25]{1-Teoria/figs/Ne11_static_crop.png}%
-%			\includegraphics[scale=.25]{1-Teoria/figs/Ne12_static_crop.png}%
-%			\includegraphics[scale=.25]{1-Teoria/figs/Ne13_static_crop.png}%
-%			\includegraphics[scale=.25]{1-Teoria/figs/Ne14_static_crop.png}%
+%		\animategraphics[loop, autoplay,scale=.25]{10}{1-Teoria/figs/Ne11/Ne11_crop-}{0}{62}%
+%		\animategraphics[loop, autoplay,scale=.25]{10}{1-Teoria/figs/Ne12/Ne12_crop-}{0}{62}%
+%		\animategraphics[loop, autoplay,scale=.25]{10}{1-Teoria/figs/Ne13/Ne13_crop-}{0}{62}%
+%		\animategraphics[loop, autoplay,scale=.25]{10}{1-Teoria/figs/Ne14/Ne14_crop-}{0}{62}
 %		\end{subfigure}\\
 %		\hspace{-4em}	
 %		\begin{subfigure}{.05\linewidth}\vspace{-3.25cm}\label{figs:MagneticMultipoles} \caption{ } \end{subfigure}
 %		\hspace{-3em}
 %		\begin{subfigure}{.9\linewidth}			
-%		\includegraphics[scale=.25]{1-Teoria/figs/Mo11_static_crop.png}%
-%		\includegraphics[scale=.25]{1-Teoria/figs/Mo12_static_crop.png}%
-%		\includegraphics[scale=.25]{1-Teoria/figs/Mo13_static_crop.png}%
-%		\includegraphics[scale=.25]{1-Teoria/figs/Mo14_static_crop.png}%
+%		\animategraphics[loop, autoplay,scale=.25]{10}{1-Teoria/figs/Mo11/Mo11_crop-}{0}{62}%
+%		\animategraphics[loop, autoplay,scale=.25]{10}{1-Teoria/figs/Mo12/Mo12_crop-}{0}{62}%
+%		\animategraphics[loop, autoplay,scale=.25]{10}{1-Teoria/figs/Mo13/Mo13_crop-}{0}{62}%
+%		\animategraphics[loop, autoplay,scale=.25]{10}{1-Teoria/figs/Mo14/Mo14_crop-}{0}{62}%
 %		\end{subfigure}
-%		\caption{Contribuciones multipolares \textbf{a)} eléctricas $a_\ell$ y \textbf{b)} magnéticas $b_\ell$ de orden $\ell = 1,2,3$ y $4$ del campo esparcido $\vb{E}^s$ por una partícula esférica, evaluadas en una superficie matemática esférica y concéntrica a la partícula que radia los campos EMs, en donde el plano de la página corresponde al plano de oscilación del campo eléctrico incidente $\vb{E}^i$. En las gráficas presentadas, el color rojo corresponde a los valores máximos del campo eléctrico, mientras que los rojos son los puntos menos intensos, donde se presentan los nodos en la superficie esférica.}
+%		\caption{Contribuciones multipolares \textbf{a)} eléctricas $a_\ell$ y \textbf{b)} magnéticas $b_\ell$ de orden $\ell = 1,2,3$ y $4$ del campo esparcido $\vb{E}^s$ por una partícula esférica, evaluadas en una superficie matemática esférica y concéntrica a la partícula que radía los campos EMs, en donde el plano de la página corresponde al plano de oscilación del campo eléctrico incidente $\vb{E}^i$. En las gráficas presentadas, el color rojo corresponde a los valores máximos del campo eléctrico, mientras que los azules son los puntos menos intensos, donde se presentan los nodos en la superficie esférica.}
 %		\label{fig:Multipolos}
 %	\end{figure}
+	\begin{figure}[h!]\centering
+		\includegraphics[scale=.85]{1-Teoria/figs/EsNorm.pdf}\\
+		\hspace{-4em}
+		\begin{subfigure}{.05\linewidth}\vspace{-3.25cm}\label{figs:ElectricMultipoles} \caption{ } \end{subfigure}
+		\hspace{-3em}
+		\begin{subfigure}{.9\linewidth}
+			\includegraphics[scale=.25]{1-Teoria/figs/Ne11_static_crop.png}%
+			\includegraphics[scale=.25]{1-Teoria/figs/Ne12_static_crop.png}%
+			\includegraphics[scale=.25]{1-Teoria/figs/Ne13_static_crop.png}%
+			\includegraphics[scale=.25]{1-Teoria/figs/Ne14_static_crop.png}%
+		\end{subfigure}\\
+		\hspace{-4em}	
+		\begin{subfigure}{.05\linewidth}\vspace{-3.25cm}\label{figs:MagneticMultipoles} \caption{ } \end{subfigure}
+		\hspace{-3em}
+		\begin{subfigure}{.9\linewidth}			
+		\includegraphics[scale=.25]{1-Teoria/figs/Mo11_static_crop.png}%
+		\includegraphics[scale=.25]{1-Teoria/figs/Mo12_static_crop.png}%
+		\includegraphics[scale=.25]{1-Teoria/figs/Mo13_static_crop.png}%
+		\includegraphics[scale=.25]{1-Teoria/figs/Mo14_static_crop.png}%
+		\end{subfigure}
+		\caption{Contribuciones multipolares \textbf{a)} eléctricas $a_\ell$ y \textbf{b)} magnéticas $b_\ell$ de orden $\ell = 1,2,3$ y $4$ del campo esparcido $\vb{E}^s$ por una partícula esférica, evaluadas en una superficie matemática esférica y concéntrica a la partícula que radia los campos EMs, en donde el plano de la página corresponde al plano de oscilación del campo eléctrico incidente $\vb{E}^i$. En las gráficas presentadas, el color rojo corresponde a los valores máximos del campo eléctrico, mientras que los rojos son los puntos menos intensos, donde se presentan los nodos en la superficie esférica.}
+		\label{fig:Multipolos}
+	\end{figure}
 
 Los campos EMs esparcidos [Ecs. \eqref{eq:EHsAEV}] fueron calculados al considerar una onda plana incidente $\vb{E}^i$ polarizada en la dirección $x$ sin embargo, debido a la simetría de la esfera, una onda plana polarizada en la dirección $y$ se describe mediante la transformación $\varphi\to\varphi+\pi/2$, por lo que los campos EMs esparcidos y dentro de la esfera se calculan mediante el mismo procedimiento \cite{bohren1998absorption}. Entonces, cualquier cantidad relacionada con la absorción y esparcimiento de una esfera se calcula únicamente mediante lo coeficientes de Mie [Ecs. \eqref{eq:MieCoef}]. En particular, para determinar la matriz de esparcimiento $\mathbb{S}$ se relaciona el campos eléctrico esparcido en el límite de campo lejano, en donde al emplear las funciones de Ricatti-Bessel, y sus derivadas, en el límite asintótico\footnote{En el límite $\ell^2 \ll \rho$, se cumple que $h_\ell^{(1)}(\rho)\approx (-i)^\ell e^{i\rho}/i\rho$ y $\dv*{h_\ell^{(1)}}{\rho} = (-i)^\ell e^{i\rho}/\rho$. Por lo tanto,  $\xi(\rho)\approx (-i)^\ell e^{i\rho}/i$ y $\dv*{\xi}{\rho} = (-i)^\ell e^{i\rho}(1/i\rho + 1)$.} $\ell^2 \ll kr$, las componentes radiales de los campos EMs decaen como $(kr)^{-2}$, por lo que es despreciable. Al escribir los armónicos esféricos  [Ecs. \eqref{eq:AEV}] en términos de $\pi_\ell$, $\tau_\ell$ y las funciones de Ricatti--Bessel $\psi$ y $\xi$ en el límite asintótico despreciando los términos proporcionales a $(kr)^{-1}$, el campo eléctrico esparcido en la componente paralela y perpendicular al plano de esparcimiento (ver Fig. \ref{fig:PlanoEsparcimiento}) es
 	\begin{align*}

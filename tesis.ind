@@ -2,8 +2,9 @@
 
   \item \IeC {\'A}ngulo
     \subitem cr\IeC {\'\i }tico, 
-		\hyperindexformat{\see {\IeC {\'I}ncidencia interna}}{6}
-    \subitem de Brewster, \hyperpage{5}
+		\hyperindexformat{\see {\IeC {\'I}ncidencia interna}}{6}, 
+		\hyperpage{6}
+    \subitem de Brewster, \hyperpage{6}
   \item \IeC {\'I}ndice de refracci\IeC {\'o}n, 
 		\hyperindexformat{\seealso{Funci\IeC {\'o}n diel\IeC {\'e}ctrica}}{2}, 
 		\hyperpage{2}
@@ -20,27 +21,28 @@
   \item Campos electromagn\IeC {\'e}ticos
     \subitem condiciones a la frontera de los, \hyperpage{3}
     \subitem radiativos, \hyperpage{10}
+  \item Coeficiente
+    \subitem de amplitud de Fresnel, 
+		\hyperindexformat{\seealso{Fresnel}}{4}
 
   \indexspace
 
   \item Ecuaci\IeC {\'o}n
-    \subitem asociada de Legendre, \hyperpage{13}
-    \subitem de Helmholtz, \hyperpage{11}
+    \subitem asociada de Legendre, \hyperpage{14}
+    \subitem de Helmholtz, \hyperpage{2}, \hyperpage{11}
     \subitem de onda, \hyperpage{2}
   \item Ecuaciones de Maxwell, \hyperpage{1}
     \subitem soluci\IeC {\'o}n de ondas planas a las, \hyperpage{2}
-    \subitem transformada de Fourier de las, \hyperpage{10}
+    \subitem transformada de Fourier de las, \hyperpage{11}
 
   \indexspace
 
   \item Fourier
     \subitem transformada de, \hyperpage{2}
   \item Fresnel
-    \subitem coeficientes de amplitud
+    \subitem coeficientes de amplitud de
       \subsubitem p, \hyperpage{5}
       \subsubitem s, \hyperpage{4}
-    \subitem reflectancia, \hyperpage{7}
-    \subitem transmitancia, \hyperpage{7}
 
   \indexspace
 
@@ -54,37 +56,41 @@
     \subitem funciones asociadas de, \hyperpage{14}
     \subitem polinomios de, \hyperpage{14}
   \item Ley
-    \subitem de la reflexi\IeC {\'o}n, \hyperpage{3}
-    \subitem de Snell, \hyperpage{3}
-  \item Lorenz
-    \subitem fuerza de, \hyperpage{1}
+    \subitem de la reflexi\IeC {\'o}n, \hyperpage{4}
+    \subitem de Snell, \hyperpage{4}
 
   \indexspace
 
   \item Mie
-    \subitem soluci\IeC {\'o}n de, \hyperpage{8}
+    \subitem soluci\IeC {\'o}n de, \hyperpage{9}
 
   \indexspace
 
   \item Plano
-    \subitem de esparcimiento, \hyperpage{9}
+    \subitem de esparcimiento, \hyperpage{10}
     \subitem de incidencia, \hyperpage{4}
   \item Polarizaci\IeC {\'o}n
     \subitem de una onda plana, \hyperpage{4}
     \subitem respecto al plano de esparcimiento, 
-		\hyperindexformat{\see {Plano}}{9}
-      \subsubitem esparcido, \hyperpage{10}
-      \subsubitem incidente, \hyperpage{9}
-    \subitem respecto al plano de incidencia, 
-		\hyperindexformat{\see {Plano} }{4}
+		\hyperindexformat{\see {Plano}}{10}
+      \subsubitem incidente, \hyperpage{10}
+    \subitem respecto al plano de incidencia
       \subsubitem paralela (p), \hyperpage{4}
       \subsubitem perpendicular (s), \hyperpage{4}
   \item Poynting
-    \subitem vector de, \hyperpage{2}, \hyperpage{6}
+    \subitem vector de, \hyperpage{3}
+      \subsubitem promedio temporal del, \hyperpage{7}
 
   \indexspace
 
+  \item Reflectancia, \hyperpage{7}
+  \item Reflexi\IeC {\'o}n total
+    \subitem interna, \hyperpage{6}
   \item Relaci\IeC {\'o}n de dispersi\IeC {\'o}n, \hyperpage{2}
-    \subitem en el vac\IeC {\'\i }o, \hyperpage{2}
+    \subitem de una onda plana, \hyperpage{2}
+
+  \indexspace
+
+  \item Transmitancia, \hyperpage{7}
 
 \end{theindex}
