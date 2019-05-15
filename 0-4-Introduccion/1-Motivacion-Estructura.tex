@@ -1,0 +1,89 @@
+\chapter*{Introducción}
+\addcontentsline{toc}{chapter}{\protect\numberline{}Introducción}
+
+%
+
+\section*{Presentación} % section headings are printed smaller than chapter names
+\blindtext
+
+
+
+\section*{Objetivo}
+
+Este trabajo tiene por objetivo ...
+\blindtext
+
+
+\section*{Motivación}
+
+Las propiedades f\'isicas de los materiales dependen en general del tamaño del sistema \cite{boverhof2015comparative}, por ejemplo, a escala nanom\'etrica ---de $1$ a $100$ nm \cite{boverhof2015comparative}---, la respuesta electromagn\'etica (EM) de bulto de los metales es menos relevante que los efectos de superficie \cite{zhao2008methods}.  La \emph{nanoplasm\'onica} estudia la respuesta EM a esta escala y el inter\'es en su estudio se ha renovado debido a las posibles aplicaciones que emplean las resonancias plasm\'onicas de superficie (Surface Plasmon Resonances, SPRs).  Áreas como la espectroscop\'ia \cite{novotny2006principles}, el sensado \cite{jain2008noble}, la litograf\'ia \cite{stockman2011nanoplasmonics}, y la biolog\'ia y  medicina \cite{jain2008noble}, son ejemplos del creciente interés en la nanoplasmónica. 
+
+Los plasmones son oscilaciones colectivas de los electrones en un material metálico,  resultado del  acoplamiento con la radiaci\'on EM a las frecuencias donde ocurren las SPRs \cite{stockman2011nanoplasmonics}.  La clasificación de los plasmones comprende  dos tipos: propagantes y localizados.  Cuando los plasmones se propagan a lo largo de una interfaz plana entre un medio diel\'ectrico y uno met\'alico se denomina  \emph{plasm\'on-polarit\'on de superficie} (Surface Plasmon Polariton, SPP) \cite{maier2007plasmonics}.  Si el plasmón, en cambio, se encuentra en la superficie de una partícula  met\'alica, de tamaño finito, se le conoce como \emph{resonancia de plasm\'on de superficie localizado} (Localized Surface Plasmon Resonance, LSPR) \cite{maier2007plasmonics}. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%					WRAP FIGURE:
+%%%					PRISMA EN ATR
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{wrapfigure}{h}{6.5cm}\centering
+%	\begin{tikzpicture}[scale=.4]
+%	\def\r{. 2}
+%	\foreach \i in {-3. 5,-3,. . . ,3. 5}{
+%		\fill[ball color=yellow,opacity = 1] (\i,2*\r) circle(\r);};
+%	\fill[blue, opacity = . 5] (-4,0)--(4,0)--(0,-4);
+%	\draw[- latex, red, thick](-2. 5,-4)--(-2,-2)--(0,0)--(2,-2)--(2. 5,-4) node[anchor = west]{\color{black}$\lambda$};
+%	\draw[dashed, thick, gray](0,0)--(0,-4);
+%	\path (0,-1. 25) node[anchor= west]{$\theta_i$} node[anchor=east] {$\theta_i$};
+%	\end{tikzpicture}
+	\includegraphics[scale=.18]{0-4-Introduccion/figs/CSM_3D-Prism_Text.png}
+	\caption{ Arreglo de NPs esf\'ericas iluminado por un haz de longitud de onda $\lambda$ a un \'angulo de incidencia $\theta_i$, en configuraci\'on ATR}
+	\label{fig:ATR1}
+\end{wrapfigure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%					WRAP FIGURE:
+%%%					PRISMA EN ATR
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+En el área de biosensores se emplean las SPRs por la respuesta que tienen ante cambios del índice de refracción de la matriz \cite{kabashin2009plasmonic}, que es el medio que rodea la estructura metálica.  Los sensores comerciales se caracterizan por el uso de SPPs en una configuración de reflexión total atenuada (Attenuated Total Reflection, ATR), en donde el índice de refracción del medio donde incide la luz que ilumina a la estructura metálica es mayor al de la matriz (ver Fig.  \ref{fig:ATR1}).  Las mediciones de reflectancia, en un sistema en configuración ATR, presentan mínimos para determinadas combinaciones de  ángulos de incidencia $\theta_i$ y longitud de onda $\lambda$  \cite{danilov2018ultra}.  Los sensores basados en las LSPRs se han propuesto como mejora sobre los sensores comerciales, ya que estos son al menos un orden de magnitud más sensibles a cambios de índice de refracción de la matriz  que los sensores basados en SPPs \cite{jain2008noble,kabashin2009plasmonic}. 
+
+
+		
+En el 2009 se public\'o un art\'iculo \cite{kabashin2009plasmonic} en el que se propone un sistema bidimensional de NPs cilíndricas de oro, colocadas en arreglos periódicos, para la mejora en resoluci\'on  del biosensado; las dimensiones de los nanocilindros y el parámetro de red del arreglo son menores que la longitud de onda con la que se ilumina el arreglo \cite{kabashin2009plasmonic}.  En el artículo se reportó un modo plasmónico distinto a los modos normales de las NPs individuales, que permite el sensado del índice de refracción de la matriz.  En el 2018 se publicó que este modo es una respuesta colectiva del arreglo periódico \cite{danilov2018ultra} y depende del parámetro de red.  
+
+ En la Fig.  \ref{sfig:DipATR} se presentan los resultados de reflectancia en ATR, como función de la longitud de onda $\lambda$ para distintos ángulos de incidencia $\theta_i$, obtenidos mediante una simulación numérica para un arreglo cuadrado de nanocilindros, considerados como nanoesferoides, al emplear una modificación del modelo de Maxwell Garnett \cite{atkinson2006anisotropic} ---que es una teoría de medio efectivo\footnote{Proceso de homogenización en donde se sustituye el medio heterogéneo por un medio continuo equivalente.  Este proceso se basa en la respuesta promedio del medio original cuando la longitud de onda de la luz incidente es grande en comparación a las dimensiones del sistema \cite{sihvola1999mixing}. }--- para la función dieléctrica efectiva de la monocapa $\varepsilon(\omega) = n^2 (\omega)$.   En la Fig.  \ref{sfig:k(w)Kobashin} se grafica la relación de dispersión  (energía de la onda incidente como función de la  proyección perpendicular al sustrato del vector de onda) calculada numéricamente del arreglo simulado en la Fig.  \ref{sfig:DipATR}.  En la Fig.  \ref{sfig:PsiDelta} se grafican los resultados experimentales de los parámetros elipsométricos\footnote{$R_s/R_p = \tan\Psi e^{i\Delta}$, con $R_p$ la reflectancia en polarización \emph{p} y $R_s$ la reflectancia en polarización \emph{s} \cite{danilov2018ultra}. } $\Psi$ y $\Delta$ como función de $\lambda$ para un arreglo de NPs cilíndricas en un arreglo cuadrado y ordenado. 
+
+	\begin{figure}[h!]\centering
+		\begin{subfigure}{.01\linewidth}\caption{ }\label{sfig:DipATR} \vspace{3.5cm}	\end{subfigure}  
+		\begin{subfigure}{.29\linewidth}\includegraphics[scale=.68]{0-4-Introduccion/figs/0-ATRKobashin2009}\end{subfigure}	\hspace{1em}
+		\begin{subfigure}{.01\linewidth}\caption{ }\label{sfig:k(w)Kobashin} \vspace{3.5cm}	\end{subfigure} 
+		\begin{subfigure}{.28\linewidth}\includegraphics[scale=.81]{0-4-Introduccion/figs/0-k(w)Kobashin2009}\end{subfigure}		
+		\begin{subfigure}{.01\linewidth}\caption{ }\label{sfig:PsiDelta}\vspace{3.5cm}\end{subfigure}  
+		\begin{subfigure}{.33\linewidth}\includegraphics[scale=.7]{0-4-Introduccion/figs/0-ATRSingleDanilov2018}\end{subfigure}
+		\caption{\textbf{a)} Gráfica de la reflectancia  para un sistema periódico cuadrado de nanocilíndros de oro en ATR como función de la longitud de onda $\lambda$, para distintos ángulos de incidencia; y \textbf{b)} gráfica de la relación de dispersión  del arreglo  (extraídas de \cite{kabashin2009plasmonic}).  \textbf{c)} Gráfica de los parámetros elipsométricos (extraída de \cite{danilov2018ultra}) de un sistema de nanocilindros en un arreglo cuadrado periódico, en configuración ATR, en función de $\lambda$.  Las dimensiones de los nanocilindros en \textbf{a,b)} son $360$ nm de largo, $25$ nm de diámetro y una separación de $60$ nm entre ellos; los nanocilíndos están inmersos en una matriz de aire ($n=1$), sobre un sustrato de vidrio ($n=1. 5$).  Las dimensiones de los nanocilindros en \textbf{c)} son $163$ nm de largo, y un parámetro de red de $320$ nm; la matriz y el sustrado empleados son los mismos que en \textbf{a)} y \textbf{b)}. }\label{fig:GraphsPapers}
+	\end{figure}
+	
+	
+En la Fig.  \ref{sfig:DipATR}  se observan las resonancias plasmónicas típicas de NPs individuales (resonancia dipolar alrededor de $720$ nm y cuadrupolar alrededor de $500$ nm).  Adicionalmente, se observa una excitación a energía más baja que la del modo dipolar, por lo que no puede ser una resonancia de NP individual y por tanto debe corresponder a un modo colectivo, denominado \emph{modo guiado} en  \cite{kabashin2009plasmonic}.  El modo guiado se encuentra alrededor de los $1,000$ nm y sufre un corrimiento al azul conforme el ángulo de incidencia aumenta.  En la Fig.  \ref{sfig:k(w)Kobashin} se grafica la relación de dispersión del modo guiado, donde los puntos blancos corresponden a los mínimos en la reflectancia alrededor de los $1,000$ nm de la Fig.  \ref{sfig:DipATR} del modo guiado.  Las líneas punteadas en la Fig.   \ref{sfig:k(w)Kobashin} corresponden a los ángulos críticos de las interfaces del medio efectivo simulado con el aire (línea izquierda superior) y con el sustrato (línea derecha inferior); la región oscura debajo de la línea punteada inferior derecha representa las combinaciones de energía y vector de onda sin sentido físico.  En la Fig.  \ref{sfig:PsiDelta} se muestran dos modos distintos a las resonancias plasmóniocas de las NPs individuales llamados \emph{resonancia de red del plasmón de superficie} (Plasmon Surface Lattice Resonance, PSLR) \cite{danilov2018ultra} y marcados por las dos líneas naranjas verticales.  Las PSLRs se asocian a ondas que se propagan a lo largo de la interfaz; en la Fig.  \ref{sfig:PsiDelta} la excitación a $900$ nm corresponde a una onda propagante a lo largo de la interfaz sobre el  sustrato, mientras que la excitación a $760$ nm lo hace sobre la matriz \cite{danilov2018ultra}.  Las PSLRs dependen del  ángulo de incidencia y de la periodicidad del arreglo \cite{danilov2018ultra}.   
+
+\section*{Planteamiento del problema}
+
+
+Las ventajas de un sistema ordenado como sensor son la posibilidad de ajuste del parámetro de red del sistema para optimizar la medición del sensor a la muestra, así como su posible compatibilidad con equipos comerciales actuales \cite{kabashin2009plasmonic}.  Sin embargo, la fabricaci\'on de arreglos ordenados de NPs presenta una complicaci\'on t\'ecnica de alto costo y largo tiempo de producción, por lo que se propone el uso de un arreglo bidimensional desordenado de NPs esféricas que presente una respuesta colectiva semejante a la reportada en \cite{kabashin2009plasmonic} y \cite{danilov2018ultra}.  Se ha observado que la respuesta colectiva en un arreglo desordenado también es sintonizable según las propiedades de las NPs empleadas, por lo que su uso en sensado no sólo cuenta con las ventajas de los sensores propuestos en \cite{kabashin2009plasmonic} y \cite{danilov2018ultra}, sino también una reducción en los precios y tiempos de producción. 
+
+\section*{Metodología}
+
+
+
+Para  caracterizar la respuesta óptica de un arreglo bidimensional desordenado de NPs esféricas plasmónicas se emplea el modelo de esparcimiento coherente (Coherent Scattering Model, CSM) \cite{reyes2018analytical}, el cual proporciona expresiones analíticas para los coeficientes de amplitud de reflexión y de transmisión para una monocapa de NPs esféricas, idénticas, y desordenadas.  Las expresiones  dadas por el CSM dependen de las componentes de la matriz de esparcimiento empleada en la solución de Mie ---que resuelve los campos EMs esparcidos por una esfera iluminada por una onda plana \cite{bohren1998absorption}---, así como la respuesta EM del material que conforma las partículas esféricas de la monocapa: la función dieléctrica $\varepsilon(\omega)$.  Para caracterizar una excitación equivalente a la PSLR estudiada en \cite{kabashin2009plasmonic} y \cite{danilov2018ultra}, es decir, una respuesta colectiva apta para el biosensado, se calcula la reflectancia y transmitancia del sistema monocapa mediante los coeficientes de amplitud del CSM. 
+ 
+Dado que el CSM emplea la respuesta EM del material que conforma a las NPs del arreglo, primero se consideró un modelo simple para caracterizar la respuesta de electrones libres dado por el modelo de Drude-Sommerfeld \cite{novotny2006principles} y, posteriormente, considerando materiales más  realistas, se emplearon funciones dieléctricas para el oro y la plata obtenidas de forma experimental \cite{johnson1972constants}, mostrados en la siguiente sección.  Después, se presenta la solución de Mie, que resuelve las ecuaciones de Maxwell para una partícula esférica, empleando la matriz de esparcimiento que relaciona los campos EMs esparcidos por la esfera con los campos EMs incidentes.  Por último, se presenta la deducción del CSM. 
+
+\section*{Contribuciones}
+
+La principal contribución de este trabajo es 
+\blindtext
+
+\section*{Estructura de la tesis}
+
+Este trabajo está dividido en XX capítulos. Al principio se encuentra 
+\\\\
+Finalmente se encuentra la parte de 

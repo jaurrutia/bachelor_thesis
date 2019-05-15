@@ -2,7 +2,11 @@ This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: tesis.aux
 The style file: biblatex.bst
-A level-1 auxiliary file: 1-Teoria/1-Teorias.aux
+A level-1 auxiliary file: 1-Teoria/1-Nociones-Basicas.aux
+A level-1 auxiliary file: 1-Teoria/2-Solucion-de-Mie.aux
+A level-1 auxiliary file: 1-Teoria/3-Respuesta-EM-materiales.aux
+A level-1 auxiliary file: 1-Teoria/4-CSM.aux
+A level-1 auxiliary file: 2-Resultados/1-Drude.aux
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
@@ -22,44 +26,44 @@ Database file #2: 06-Bibliografia/references.bib
 Biblatex version: 3.8
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 32 entries,
+You've used 33 entries,
             6268 wiz_defined-function locations,
-            1386 strings with 14773 characters,
-and the built_in function-call counts, 204220 in all, are:
-= -- 14913
-> -- 4271
-< -- 1249
-+ -- 4979
-- -- 1622
-* -- 14335
-:= -- 19836
+            1396 strings with 15201 characters,
+and the built_in function-call counts, 217430 in all, are:
+= -- 15940
+> -- 4547
+< -- 1301
++ -- 5418
+- -- 1762
+* -- 15445
+:= -- 21412
 add.period$ -- 0
-call.type$ -- 32
-change.case$ -- 795
+call.type$ -- 33
+change.case$ -- 811
 chr.to.int$ -- 40
-cite$ -- 62
-duplicate$ -- 20211
-empty$ -- 18773
-format.name$ -- 2597
-if$ -- 42871
+cite$ -- 64
+duplicate$ -- 21529
+empty$ -- 19817
+format.name$ -- 2807
+if$ -- 45456
 int.to.chr$ -- 0
-int.to.str$ -- 89
+int.to.str$ -- 92
 missing$ -- 0
-newline$ -- 1027
-num.names$ -- 1810
-pop$ -- 10925
+newline$ -- 1092
+num.names$ -- 1859
+pop$ -- 11363
 preamble$ -- 1
-purify$ -- 1029
+purify$ -- 1069
 quote$ -- 0
-skip$ -- 6846
+skip$ -- 7129
 stack$ -- 0
-substring$ -- 26058
-swap$ -- 4856
-text.length$ -- 794
+substring$ -- 28020
+swap$ -- 5103
+text.length$ -- 846
 text.prefix$ -- 7
 top$ -- 1
-type$ -- 1073
+type$ -- 1107
 warning$ -- 0
-while$ -- 2122
+while$ -- 2299
 width$ -- 0
-write$ -- 996
+write$ -- 1060

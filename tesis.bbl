@@ -1044,5 +1044,71 @@
     \field{journaltitle}{Physica Status Solidi (B) Basic Research}
     \field{year}{2012}
   \endentry
+
+  \entry{danilov2018ultra}{article}{}
+    \name{author}{8}{}{%
+      {{hash=DA}{%
+         family={Danilov},
+         familyi={D\bibinitperiod},
+         given={Artem},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TG}{%
+         family={Tselikov},
+         familyi={T\bibinitperiod},
+         given={Gleb},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=WF}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Fan},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=KVG}{%
+         family={Kravets},
+         familyi={K\bibinitperiod},
+         given={Vasyl\bibnamedelima G},
+         giveni={V\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=OI}{%
+         family={Ozerov},
+         familyi={O\bibinitperiod},
+         given={Igor},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=BF}{%
+         family={Bedu},
+         familyi={B\bibinitperiod},
+         given={Frederic},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=GAN}{%
+         family={Grigorenko},
+         familyi={G\bibinitperiod},
+         given={Alexander\bibnamedelima N},
+         giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=KAV}{%
+         family={Kabashin},
+         familyi={K\bibinitperiod},
+         given={Andrei\bibnamedelima V},
+         giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{DATGWFKVGOIBFGANKAV1}
+    \strng{fullhash}{DATGWFKVGOIBFGANKAV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{102\bibrangedash 112}
+    \field{title}{Ultra-narrow surface lattice resonances in plasmonic
+  metamaterial arrays for biosensing applications}
+    \field{volume}{104}
+    \field{journaltitle}{Biosensors and Bioelectronics}
+    \field{year}{2018}
+  \endentry
 \enddatalist
 \endinput

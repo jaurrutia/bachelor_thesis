@@ -1,19 +1,23 @@
-# Tesis de licenciatura 
+# Tesis de licenciatura
 ## Respuesta electromagnética de sistema bidimensionales desordenados de nanopartículas plasmónicas y su uso en el biosensado
 
 Information about the template is found at the end of the README.md file.
 
 ### Cosas por hacer
 - [ ] Revisar el índice analítico
+- [ ] Considerar hacer un índice de abreviaciones
 - [x] Gráficas del ajuste de Drude de Johnson & Christy
 - [x] Gráficas de la corrección por tamaño para NPs esféricas
-- [x] Explicación de los plasmones 
+- [x] Explicación de los plasmones
 - [ ] Explicación de las extinciín de luz y su relación con los plasmones
 - [x] CSM
-- [ ] Introducir el sustrato en el CSM
-- [ ] Integrar cálculos con Drude
+- [ ] Hacer el límite de partícula pequeña de las SPRs con Drude, que no me sale... :(
+- [x] Introducir el sustrato en el CSM
+- [x] Integrar cálculos con Drude
 - [ ] Realizar cálculos con la corrección de tamaño
-
+- [ ] Rehacer las figuras de los cálculos con Drude para que queden bien en el documento
+- [ ] Considerar calcular T de una vez
+- [ ] Hacer los cálculos con la corrección por tamaño de J&C
 
 Thesis template:
 =============
@@ -50,13 +54,13 @@ The programm and field commands are now usable
 
     \programa{Programa de Maestría y Doctorado en Ingeniería}
     \campo{Ingeniería Eléctrica - Control}
-    
+
 The tutor comitee can be defeined
 
     \comitetrue
     \ctutoruno{Nombre 1}
     \ctutoruno{Nombre 2}
-    
+
 As well as the jury
 
     \presidente{Nombre}
@@ -65,8 +69,8 @@ As well as the jury
     \supuno{Suplente 1}
     \supdos{Suplente 2}
     \institucion{el lugar donde se hizo la tesis}
-    
-    
+
+
 Warnings
 --------
 If used in spanish, the  \blindtext will show errors sinces it is aimed for inglish-based texts. After removal the blind text-related issued should disappear.
