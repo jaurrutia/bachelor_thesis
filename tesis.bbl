@@ -17,6 +17,567 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
+  \entry{boverhof2015comparative}{article}{}
+    \name{author}{7}{}{%
+      {{hash=BDR}{%
+         family={Boverhof},
+         familyi={B\bibinitperiod},
+         given={Darrell\bibnamedelima R},
+         giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=BCM}{%
+         family={Bramante},
+         familyi={B\bibinitperiod},
+         given={Christina\bibnamedelima M},
+         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=BJH}{%
+         family={Butala},
+         familyi={B\bibinitperiod},
+         given={John\bibnamedelima H},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=CSF}{%
+         family={Clancy},
+         familyi={C\bibinitperiod},
+         given={Shaun\bibnamedelima F},
+         giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Lafranconi},
+         familyi={L\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={West},
+         familyi={W\bibinitperiod},
+         given={Jay},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GSC}{%
+         family={Gordon},
+         familyi={G\bibinitperiod},
+         given={Steve\bibnamedelima C},
+         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{BDRBCMBJHCSFLMWJGSC1}
+    \strng{fullhash}{BDRBCMBJHCSFLMWJGSC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{137\bibrangedash 150}
+    \field{title}{Comparative assessment of nanomaterial definitions and safety
+  evaluation considerations}
+    \field{volume}{73}
+    \field{journaltitle}{Regulatory toxicology and pharmacology}
+    \field{year}{2015}
+  \endentry
+
+  \entry{zhao2008methods}{article}{}
+    \name{author}{7}{}{%
+      {{hash=ZJ}{%
+         family={Zhao},
+         familyi={Z\bibinitperiod},
+         given={Jing},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PAO}{%
+         family={Pinchuk},
+         familyi={P\bibinitperiod},
+         given={Anatoliy\bibnamedelima O},
+         giveni={A\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+      {{hash=MJM}{%
+         family={McMahon},
+         familyi={M\bibinitperiod},
+         given={Jeffrey\bibnamedelima M},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Shuzhou},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ALK}{%
+         family={Ausman},
+         familyi={A\bibinitperiod},
+         given={Logan\bibnamedelima K},
+         giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=AAL}{%
+         family={Atkinson},
+         familyi={A\bibinitperiod},
+         given={Ariel\bibnamedelima L},
+         giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=SGC}{%
+         family={Schatz},
+         familyi={S\bibinitperiod},
+         given={George\bibnamedelima C},
+         giveni={G\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACS Publications}%
+    }
+    \strng{namehash}{ZJPAOMJMLSALKAALSGC1}
+    \strng{fullhash}{ZJPAOMJMLSALKAALSGC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{12}
+    \field{pages}{1710\bibrangedash 1720}
+    \field{title}{Methods for describing the electromagnetic properties of
+  silver and gold nanoparticles}
+    \field{volume}{41}
+    \field{journaltitle}{Accounts of chemical research}
+    \field{year}{2008}
+  \endentry
+
+  \entry{novotny2006principles}{book}{}
+    \name{author}{2}{}{%
+      {{hash=NL}{%
+         family={Novotny},
+         familyi={N\bibinitperiod},
+         given={Lukas},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=HB}{%
+         family={Hecht},
+         familyi={H\bibinitperiod},
+         given={Bert},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge university press}%
+    }
+    \strng{namehash}{NLHB1}
+    \strng{fullhash}{NLHB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Principles of nano-optics}
+    \field{year}{2006}
+  \endentry
+
+  \entry{jain2008noble}{article}{}
+    \name{author}{4}{}{%
+      {{hash=JPK}{%
+         family={Jain},
+         familyi={J\bibinitperiod},
+         given={Prashant\bibnamedelima K},
+         giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=HX}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Xiaohua},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=ESIH}{%
+         family={El-Sayed},
+         familyi={E\bibinitperiod-S\bibinitperiod},
+         given={Ivan\bibnamedelima H},
+         giveni={I\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=ESMA}{%
+         family={El-Sayed},
+         familyi={E\bibinitperiod-S\bibinitperiod},
+         given={Mostafa\bibnamedelima A},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACS Publications}%
+    }
+    \strng{namehash}{JPKHXESIHESMA1}
+    \strng{fullhash}{JPKHXESIHESMA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{12}
+    \field{pages}{1578\bibrangedash 1586}
+    \field{title}{Noble metals on the nanoscale: optical and photothermal
+  properties and some applications in imaging, sensing, biology, and medicine}
+    \field{volume}{41}
+    \field{journaltitle}{Accounts of chemical research}
+    \field{year}{2008}
+  \endentry
+
+  \entry{stockman2011nanoplasmonics}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SMI}{%
+         family={Stockman},
+         familyi={S\bibinitperiod},
+         given={Mark\bibnamedelima I},
+         giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SMI1}
+    \strng{fullhash}{SMI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{39\bibrangedash 44}
+    \field{title}{Nanoplasmonics: The physics behind the applications}
+    \field{volume}{64}
+    \field{journaltitle}{Phys. Today}
+    \field{year}{2011}
+  \endentry
+
+  \entry{maier2007plasmonics}{book}{}
+    \name{author}{1}{}{%
+      {{hash=MSA}{%
+         family={Maier},
+         familyi={M\bibinitperiod},
+         given={Stefan\bibnamedelima Alexander},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Science \& Business Media}%
+    }
+    \strng{namehash}{MSA1}
+    \strng{fullhash}{MSA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Plasmonics: fundamentals and applications}
+    \field{year}{2007}
+  \endentry
+
+  \entry{kabashin2009plasmonic}{article}{}
+    \name{author}{9}{}{%
+      {{hash=KAV}{%
+         family={Kabashin},
+         familyi={K\bibinitperiod},
+         given={A\bibnamedelima V},
+         giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=EP}{%
+         family={Evans},
+         familyi={E\bibinitperiod},
+         given={P},
+         giveni={P},
+      }}%
+      {{hash=PS}{%
+         family={Pastkovsky},
+         familyi={P\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=HW}{%
+         family={Hendren},
+         familyi={H\bibinitperiod},
+         given={W},
+         giveni={W},
+      }}%
+      {{hash=WGA}{%
+         family={Wurtz},
+         familyi={W\bibinitperiod},
+         given={G\bibnamedelima A},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=AR}{%
+         family={Atkinson},
+         familyi={A\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+      {{hash=PR}{%
+         family={Pollard},
+         familyi={P\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+      {{hash=PVA}{%
+         family={Podolskiy},
+         familyi={P\bibinitperiod},
+         given={V\bibnamedelima A},
+         giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=ZAV}{%
+         family={Zayats},
+         familyi={Z\bibinitperiod},
+         given={A\bibnamedelima V},
+         giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group}%
+    }
+    \strng{namehash}{KAVEPPSHWWGAARPRPVAZAV1}
+    \strng{fullhash}{KAVEPPSHWWGAARPRPVAZAV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{11}
+    \field{pages}{867\bibrangedash 871}
+    \field{title}{Plasmonic nanorod metamaterials for biosensing}
+    \field{volume}{8}
+    \field{journaltitle}{Nature materials}
+    \field{year}{2009}
+  \endentry
+
+  \entry{danilov2018ultra}{article}{}
+    \name{author}{8}{}{%
+      {{hash=DA}{%
+         family={Danilov},
+         familyi={D\bibinitperiod},
+         given={Artem},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TG}{%
+         family={Tselikov},
+         familyi={T\bibinitperiod},
+         given={Gleb},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=WF}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Fan},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=KVG}{%
+         family={Kravets},
+         familyi={K\bibinitperiod},
+         given={Vasyl\bibnamedelima G},
+         giveni={V\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=OI}{%
+         family={Ozerov},
+         familyi={O\bibinitperiod},
+         given={Igor},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=BF}{%
+         family={Bedu},
+         familyi={B\bibinitperiod},
+         given={Frederic},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=GAN}{%
+         family={Grigorenko},
+         familyi={G\bibinitperiod},
+         given={Alexander\bibnamedelima N},
+         giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=KAV}{%
+         family={Kabashin},
+         familyi={K\bibinitperiod},
+         given={Andrei\bibnamedelima V},
+         giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{DATGWFKVGOIBFGANKAV1}
+    \strng{fullhash}{DATGWFKVGOIBFGANKAV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{102\bibrangedash 112}
+    \field{title}{Ultra-narrow surface lattice resonances in plasmonic
+  metamaterial arrays for biosensing applications}
+    \field{volume}{104}
+    \field{journaltitle}{Biosensors and Bioelectronics}
+    \field{year}{2018}
+  \endentry
+
+  \entry{atkinson2006anisotropic}{article}{}
+    \name{author}{7}{}{%
+      {{hash=AR}{%
+         family={Atkinson},
+         familyi={A\bibinitperiod},
+         given={Ron},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=HWR}{%
+         family={Hendren},
+         familyi={H\bibinitperiod},
+         given={William\bibnamedelima R},
+         giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=WGA}{%
+         family={Wurtz},
+         familyi={W\bibinitperiod},
+         given={Gregory\bibnamedelima A},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=DW}{%
+         family={Dickson},
+         familyi={D\bibinitperiod},
+         given={Wayne},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=ZAV}{%
+         family={Zayats},
+         familyi={Z\bibinitperiod},
+         given={Anatoly\bibnamedelima V},
+         giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=EP}{%
+         family={Evans},
+         familyi={E\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PRJ}{%
+         family={Pollard},
+         familyi={P\bibinitperiod},
+         given={Robert\bibnamedelima J},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{ARHWRWGADWZAVEPPRJ1}
+    \strng{fullhash}{ARHWRWGADWZAVEPPRJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{23}
+    \field{pages}{235402}
+    \field{title}{Anisotropic optical properties of arrays of gold nanorods
+  embedded in alumina}
+    \field{volume}{73}
+    \field{journaltitle}{Physical Review B}
+    \field{year}{2006}
+  \endentry
+
+  \entry{sihvola1999mixing}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SA}{%
+         family={Sihvola},
+         familyi={S\bibinitperiod},
+         given={Ari},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Iet}%
+    }
+    \strng{namehash}{SA1}
+    \strng{fullhash}{SA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{47}
+    \field{title}{Electromagnetic mixing formulas and applications}
+    \field{year}{1999}
+  \endentry
+
+  \entry{reyes2018analytical}{article}{}
+    \name{author}{5}{}{%
+      {{hash=RCA}{%
+         family={Reyes-Coronada},
+         familyi={R\bibinitperiod-C\bibinitperiod},
+         given={Aljandro},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MLG}{%
+         family={Morales-Luna},
+         familyi={M\bibinitperiod-L\bibinitperiod},
+         given={Gesuri},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=VEO}{%
+         family={V{\'{a}}zquez-Estrada},
+         familyi={V\bibinitperiod-E\bibinitperiod},
+         given={Omar},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=GVA}{%
+         family={Garc{\'{i}}a-Valenzuela},
+         familyi={G\bibinitperiod-V\bibinitperiod},
+         given={Augusto},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BRG}{%
+         family={Barrera},
+         familyi={B\bibinitperiod},
+         given={Rub{\'{e}}n\bibnamedelima G.},
+         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RCAMLGVEOGVABRG1}
+    \strng{fullhash}{RCAMLGVEOGVABRG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1364/OE.26.012660
+    \endverb
+    \field{issn}{10944087}
+    \field{pages}{6697\bibrangedash 6706}
+    \field{title}{{Analytical modeling of optical reflectivity of random
+  plasmonic nano-monolayers}}
+    \field{volume}{9594}
+    \verb{file}
+    \verb :home/jonathan/Dropbox/Escuela/3.- Tesis/Biblio{\_}teo/Articulos/CSM/
+    \verb 2-Manuscript generated by PRISM system - 314380.pdf:pdf
+    \endverb
+    \field{journaltitle}{Optics Express}
+    \field{year}{2018}
+  \endentry
+
+  \entry{bohren1998absorption}{book}{}
+    \name{author}{2}{}{%
+      {{hash=BCF}{%
+         family={Bohren},
+         familyi={B\bibinitperiod},
+         given={Craig\bibnamedelima F},
+         giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=HDR}{%
+         family={Huffman},
+         familyi={H\bibinitperiod},
+         given={Donald\bibnamedelima R},
+         giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {John Wiley \& Sons}%
+    }
+    \strng{namehash}{BCFHDR1}
+    \strng{fullhash}{BCFHDR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Absorption and scattering of light by small particles}
+    \field{year}{1998}
+  \endentry
+
+  \entry{johnson1972constants}{article}{}
+    \name{author}{2}{}{%
+      {{hash=JPB}{%
+         family={Johnson},
+         familyi={J\bibinitperiod},
+         given={Peter\bibnamedelima B},
+         giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=CRW}{%
+         family={Christy},
+         familyi={C\bibinitperiod},
+         given={R\bibnamedelima W},
+         giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{JPBCRW1}
+    \strng{fullhash}{JPBCRW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{12}
+    \field{pages}{4370}
+    \field{title}{Optical constants of the noble metals}
+    \field{volume}{6}
+    \field{journaltitle}{Physical review B}
+    \field{year}{1972}
+  \endentry
+
   \entry{griffiths2013electrodynamics}{book}{}
     \name{author}{1}{}{%
       {{hash=GDJ}{%
@@ -169,32 +730,6 @@
     \field{year}{1908}
   \endentry
 
-  \entry{bohren1998absorption}{book}{}
-    \name{author}{2}{}{%
-      {{hash=BCF}{%
-         family={Bohren},
-         familyi={B\bibinitperiod},
-         given={Craig\bibnamedelima F},
-         giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
-      }}%
-      {{hash=HDR}{%
-         family={Huffman},
-         familyi={H\bibinitperiod},
-         given={Donald\bibnamedelima R},
-         giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {John Wiley \& Sons}%
-    }
-    \strng{namehash}{BCFHDR1}
-    \strng{fullhash}{BCFHDR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Absorption and scattering of light by small particles}
-    \field{year}{1998}
-  \endentry
-
   \entry{horvath2009historic}{article}{}
     \name{author}{1}{}{%
       {{hash=HH}{%
@@ -306,67 +841,6 @@
     \field{year}{1995}
   \endentry
 
-  \entry{boverhof2015comparative}{article}{}
-    \name{author}{7}{}{%
-      {{hash=BDR}{%
-         family={Boverhof},
-         familyi={B\bibinitperiod},
-         given={Darrell\bibnamedelima R},
-         giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-      {{hash=BCM}{%
-         family={Bramante},
-         familyi={B\bibinitperiod},
-         given={Christina\bibnamedelima M},
-         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=BJH}{%
-         family={Butala},
-         familyi={B\bibinitperiod},
-         given={John\bibnamedelima H},
-         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-      {{hash=CSF}{%
-         family={Clancy},
-         familyi={C\bibinitperiod},
-         given={Shaun\bibnamedelima F},
-         giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod},
-      }}%
-      {{hash=LM}{%
-         family={Lafranconi},
-         familyi={L\bibinitperiod},
-         given={Mark},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=WJ}{%
-         family={West},
-         familyi={W\bibinitperiod},
-         given={Jay},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=GSC}{%
-         family={Gordon},
-         familyi={G\bibinitperiod},
-         given={Steve\bibnamedelima C},
-         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Elsevier}%
-    }
-    \strng{namehash}{BDRBCMBJHCSFLMWJGSC1}
-    \strng{fullhash}{BDRBCMBJHCSFLMWJGSC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{1}
-    \field{pages}{137\bibrangedash 150}
-    \field{title}{Comparative assessment of nanomaterial definitions and safety
-  evaluation considerations}
-    \field{volume}{73}
-    \field{journaltitle}{Regulatory toxicology and pharmacology}
-    \field{year}{2015}
-  \endentry
-
   \entry{gross2014festkorperphysik}{book}{}
     \name{author}{2}{}{%
       {{hash=GR}{%
@@ -416,62 +890,6 @@
     \field{volume}{100}
     \field{journaltitle}{J. Phys. Chem}
     \field{year}{2007}
-  \endentry
-
-  \entry{johnson1972constants}{article}{}
-    \name{author}{2}{}{%
-      {{hash=JPB}{%
-         family={Johnson},
-         familyi={J\bibinitperiod},
-         given={Peter\bibnamedelima B},
-         giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
-      }}%
-      {{hash=CRW}{%
-         family={Christy},
-         familyi={C\bibinitperiod},
-         given={R\bibnamedelima W},
-         giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {APS}%
-    }
-    \strng{namehash}{JPBCRW1}
-    \strng{fullhash}{JPBCRW1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{12}
-    \field{pages}{4370}
-    \field{title}{Optical constants of the noble metals}
-    \field{volume}{6}
-    \field{journaltitle}{Physical review B}
-    \field{year}{1972}
-  \endentry
-
-  \entry{novotny2006principles}{book}{}
-    \name{author}{2}{}{%
-      {{hash=NL}{%
-         family={Novotny},
-         familyi={N\bibinitperiod},
-         given={Lukas},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=HB}{%
-         family={Hecht},
-         familyi={H\bibinitperiod},
-         given={Bert},
-         giveni={B\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Cambridge university press}%
-    }
-    \strng{namehash}{NLHB1}
-    \strng{fullhash}{NLHB1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Principles of nano-optics}
-    \field{year}{2006}
   \endentry
 
   \entry{trugler2011properties}{thesis}{}
@@ -621,119 +1039,6 @@
     \field{year}{2008}
   \endentry
 
-  \entry{stockman2011nanoplasmonics}{article}{}
-    \name{author}{1}{}{%
-      {{hash=SMI}{%
-         family={Stockman},
-         familyi={S\bibinitperiod},
-         given={Mark\bibnamedelima I},
-         giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{SMI1}
-    \strng{fullhash}{SMI1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{2}
-    \field{pages}{39\bibrangedash 44}
-    \field{title}{Nanoplasmonics: The physics behind the applications}
-    \field{volume}{64}
-    \field{journaltitle}{Phys. Today}
-    \field{year}{2011}
-  \endentry
-
-  \entry{maier2007plasmonics}{book}{}
-    \name{author}{1}{}{%
-      {{hash=MSA}{%
-         family={Maier},
-         familyi={M\bibinitperiod},
-         given={Stefan\bibnamedelima Alexander},
-         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Springer Science \& Business Media}%
-    }
-    \strng{namehash}{MSA1}
-    \strng{fullhash}{MSA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Plasmonics: fundamentals and applications}
-    \field{year}{2007}
-  \endentry
-
-  \entry{kabashin2009plasmonic}{article}{}
-    \name{author}{9}{}{%
-      {{hash=KAV}{%
-         family={Kabashin},
-         familyi={K\bibinitperiod},
-         given={A\bibnamedelima V},
-         giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
-      }}%
-      {{hash=EP}{%
-         family={Evans},
-         familyi={E\bibinitperiod},
-         given={P},
-         giveni={P},
-      }}%
-      {{hash=PS}{%
-         family={Pastkovsky},
-         familyi={P\bibinitperiod},
-         given={S},
-         giveni={S},
-      }}%
-      {{hash=HW}{%
-         family={Hendren},
-         familyi={H\bibinitperiod},
-         given={W},
-         giveni={W},
-      }}%
-      {{hash=WGA}{%
-         family={Wurtz},
-         familyi={W\bibinitperiod},
-         given={G\bibnamedelima A},
-         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=AR}{%
-         family={Atkinson},
-         familyi={A\bibinitperiod},
-         given={R},
-         giveni={R},
-      }}%
-      {{hash=PR}{%
-         family={Pollard},
-         familyi={P\bibinitperiod},
-         given={R},
-         giveni={R},
-      }}%
-      {{hash=PVA}{%
-         family={Podolskiy},
-         familyi={P\bibinitperiod},
-         given={V\bibnamedelima A},
-         giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=ZAV}{%
-         family={Zayats},
-         familyi={Z\bibinitperiod},
-         given={A\bibnamedelima V},
-         giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Nature Publishing Group}%
-    }
-    \strng{namehash}{KAVEPPSHWWGAARPRPVAZAV1}
-    \strng{fullhash}{KAVEPPSHWWGAARPRPVAZAV1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{11}
-    \field{pages}{867\bibrangedash 871}
-    \field{title}{Plasmonic nanorod metamaterials for biosensing}
-    \field{volume}{8}
-    \field{journaltitle}{Nature materials}
-    \field{year}{2009}
-  \endentry
-
   \entry{maciel2017momentum}{thesis}{}
     \name{author}{1}{}{%
       {{hash=MCA}{%
@@ -785,49 +1090,6 @@
     \field{year}{1998}
   \endentry
 
-  \entry{jain2008noble}{article}{}
-    \name{author}{4}{}{%
-      {{hash=JPK}{%
-         family={Jain},
-         familyi={J\bibinitperiod},
-         given={Prashant\bibnamedelima K},
-         giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod},
-      }}%
-      {{hash=HX}{%
-         family={Huang},
-         familyi={H\bibinitperiod},
-         given={Xiaohua},
-         giveni={X\bibinitperiod},
-      }}%
-      {{hash=ESIH}{%
-         family={El-Sayed},
-         familyi={E\bibinitperiod-S\bibinitperiod},
-         given={Ivan\bibnamedelima H},
-         giveni={I\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-      {{hash=ESMA}{%
-         family={El-Sayed},
-         familyi={E\bibinitperiod-S\bibinitperiod},
-         given={Mostafa\bibnamedelima A},
-         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {ACS Publications}%
-    }
-    \strng{namehash}{JPKHXESIHESMA1}
-    \strng{fullhash}{JPKHXESIHESMA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{12}
-    \field{pages}{1578\bibrangedash 1586}
-    \field{title}{Noble metals on the nanoscale: optical and photothermal
-  properties and some applications in imaging, sensing, biology, and medicine}
-    \field{volume}{41}
-    \field{journaltitle}{Accounts of chemical research}
-    \field{year}{2008}
-  \endentry
-
   \entry{pena-gomar2006coherent}{article}{}
     \name{author}{5}{}{%
       {{hash=PGMC}{%
@@ -875,59 +1137,6 @@
     \field{volume}{45}
     \field{journaltitle}{Applied optics}
     \field{year}{2006}
-  \endentry
-
-  \entry{reyes2018analytical}{article}{}
-    \name{author}{5}{}{%
-      {{hash=RCA}{%
-         family={Reyes-Coronada},
-         familyi={R\bibinitperiod-C\bibinitperiod},
-         given={Aljandro},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=MLG}{%
-         family={Morales-Luna},
-         familyi={M\bibinitperiod-L\bibinitperiod},
-         given={Gesuri},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=VEO}{%
-         family={V{\'{a}}zquez-Estrada},
-         familyi={V\bibinitperiod-E\bibinitperiod},
-         given={Omar},
-         giveni={O\bibinitperiod},
-      }}%
-      {{hash=GVA}{%
-         family={Garc{\'{i}}a-Valenzuela},
-         familyi={G\bibinitperiod-V\bibinitperiod},
-         given={Augusto},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=BRG}{%
-         family={Barrera},
-         familyi={B\bibinitperiod},
-         given={Rub{\'{e}}n\bibnamedelima G.},
-         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{RCAMLGVEOGVABRG1}
-    \strng{fullhash}{RCAMLGVEOGVABRG1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1364/OE.26.012660
-    \endverb
-    \field{issn}{10944087}
-    \field{pages}{6697\bibrangedash 6706}
-    \field{title}{{Analytical modeling of optical reflectivity of random
-  plasmonic nano-monolayers}}
-    \field{volume}{9594}
-    \verb{file}
-    \verb :home/jonathan/Dropbox/Escuela/3.- Tesis/Biblio{\_}teo/Articulos/CSM/
-    \verb 2-Manuscript generated by PRISM system - 314380.pdf:pdf
-    \endverb
-    \field{journaltitle}{Optics Express}
-    \field{year}{2018}
   \endentry
 
   \entry{barrera2003coherent}{article}{}
@@ -1043,72 +1252,6 @@
     \endverb
     \field{journaltitle}{Physica Status Solidi (B) Basic Research}
     \field{year}{2012}
-  \endentry
-
-  \entry{danilov2018ultra}{article}{}
-    \name{author}{8}{}{%
-      {{hash=DA}{%
-         family={Danilov},
-         familyi={D\bibinitperiod},
-         given={Artem},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=TG}{%
-         family={Tselikov},
-         familyi={T\bibinitperiod},
-         given={Gleb},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=WF}{%
-         family={Wu},
-         familyi={W\bibinitperiod},
-         given={Fan},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=KVG}{%
-         family={Kravets},
-         familyi={K\bibinitperiod},
-         given={Vasyl\bibnamedelima G},
-         giveni={V\bibinitperiod\bibinitdelim G\bibinitperiod},
-      }}%
-      {{hash=OI}{%
-         family={Ozerov},
-         familyi={O\bibinitperiod},
-         given={Igor},
-         giveni={I\bibinitperiod},
-      }}%
-      {{hash=BF}{%
-         family={Bedu},
-         familyi={B\bibinitperiod},
-         given={Frederic},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=GAN}{%
-         family={Grigorenko},
-         familyi={G\bibinitperiod},
-         given={Alexander\bibnamedelima N},
-         giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
-      }}%
-      {{hash=KAV}{%
-         family={Kabashin},
-         familyi={K\bibinitperiod},
-         given={Andrei\bibnamedelima V},
-         giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Elsevier}%
-    }
-    \strng{namehash}{DATGWFKVGOIBFGANKAV1}
-    \strng{fullhash}{DATGWFKVGOIBFGANKAV1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{pages}{102\bibrangedash 112}
-    \field{title}{Ultra-narrow surface lattice resonances in plasmonic
-  metamaterial arrays for biosensing applications}
-    \field{volume}{104}
-    \field{journaltitle}{Biosensors and Bioelectronics}
-    \field{year}{2018}
   \endentry
 \enddatalist
 \endinput
