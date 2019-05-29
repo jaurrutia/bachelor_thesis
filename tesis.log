@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.24)  21 MAY 2019 14:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.24)  29 MAY 2019 09:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3025,23 +3025,6 @@ Package: ocgbase 2017/09/29 v0.12 support package for ocgx2.sty
 \@anim@curfield=\count498
 \@anim@@resizeflags=\count499
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/svg/svg.sty
-Package: svg 2017/11/29 v2.01 (include SVG pictures)
-
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2017/09/07 v3.24 KOMA-Script package (KOMA-Script-independent 
-basics and keyval usage)
-
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2017/09/07 v3.24 KOMA-Script package (loading files)
-))
-\c@svg@param@lastpage=\count500
-\c@svg@param@currpage=\count501
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/transparent.sty
-Package: transparent 2016/05/16 v1.1 Transparency via pdfTeX's color stack (HO)
-
-)
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
@@ -3055,37 +3038,37 @@ File: spanish.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count502
-\@quotereset=\count503
+\@quotelevel=\count500
+\@quotereset=\count501
 
 LaTeX Warning: Unused global option(s):
     [pdftex].
 
 (./tesis.aux
-LaTeX Info: Redefining \sptext on input line 36.
-LaTeX Info: Redefining \. on input line 36.
-LaTeX Info: Redefining \% on input line 36.
+LaTeX Info: Redefining \sptext on input line 35.
+LaTeX Info: Redefining \. on input line 35.
+LaTeX Info: Redefining \% on input line 35.
  (./0-4-Introduccion/1-Motivacion-Estructura.aux)
 (./1-Teoria/1-Nociones-Basicas.aux) (./1-Teoria/2-Solucion-de-Mie.aux)
 (./1-Teoria/3-Respuesta-EM-materiales.aux) (./1-Teoria/4-CSM.aux)
 (./2-Resultados/1-Drude.aux))
 \openout1 = `tesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-\c@lstlisting=\count504
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+\c@lstlisting=\count502
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -3094,16 +3077,16 @@ Package caption Info: End \AtBeginDocument code.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count505
+\scratchcounter=\count503
 \scratchdimen=\dimen335
 \scratchbox=\box127
-\nofMPsegments=\count506
-\nofMParguments=\count507
+\nofMPsegments=\count504
+\nofMParguments=\count505
 \everyMPshowfont=\toks50
-\MPscratchCnt=\count508
+\MPscratchCnt=\count506
 \MPscratchDim=\dimen336
-\MPnumerator=\count509
-\makeMPintoPDFobject=\count510
+\MPnumerator=\count507
+\makeMPintoPDFobject=\count508
 \everyMPtoPDFconversion=\toks51
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -3122,9 +3105,9 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-LaTeX Info: Redefining \sptext on input line 27.
-LaTeX Info: Redefining \. on input line 27.
-LaTeX Info: Redefining \% on input line 27.
+LaTeX Info: Redefining \sptext on input line 26.
+LaTeX Info: Redefining \. on input line 26.
+LaTeX Info: Redefining \% on input line 26.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -3136,70 +3119,70 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'tesis.bbl' found.
  (./tesis.bbl)
-Package biblatex Info: Reference section=0 on input line 27.
-Package biblatex Info: Reference segment=0 on input line 27.
+Package biblatex Info: Reference section=0 on input line 26.
+Package biblatex Info: Reference segment=0 on input line 26.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.15} into 
 your preamble.
- on input line 27.
+ on input line 26.
 
 \AtBeginShipoutBox=\box128
-Package hyperref Info: Link coloring ON on input line 27.
+Package hyperref Info: Link coloring ON on input line 26.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count511
+\c@section@level=\count509
 )
-LaTeX Info: Redefining \ref on input line 27.
-LaTeX Info: Redefining \pageref on input line 27.
-LaTeX Info: Redefining \nameref on input line 27.
+LaTeX Info: Redefining \ref on input line 26.
+LaTeX Info: Redefining \pageref on input line 26.
+LaTeX Info: Redefining \nameref on input line 26.
 
 (./tesis.out) (./tesis.out)
 \@outlinefile=\write9
 \openout9 = `tesis.out'.
 
-<Latex/Classes/Escudos/UNAM_crest_blue.pdf, id=119, 2007.5pt x 2256.43pt>
+<Latex/Classes/Escudos/UNAM_crest_blue.pdf, id=115, 2007.5pt x 2256.43pt>
 File: Latex/Classes/Escudos/UNAM_crest_blue.pdf Graphic file (type pdf)
 <use Latex/Classes/Escudos/UNAM_crest_blue.pdf>
 Package pdftex.def Info: Latex/Classes/Escudos/UNAM_crest_blue.pdf  used on inp
-ut line 29.
+ut line 28.
 (pdftex.def)             Requested size: 65.79741pt x 73.97733pt.
-<Latex/Classes/Escudos/FC_crest_blue.pdf, id=120, 1860.9525pt x 2071.74pt>
+<Latex/Classes/Escudos/FC_crest_blue.pdf, id=116, 1860.9525pt x 2071.74pt>
 File: Latex/Classes/Escudos/FC_crest_blue.pdf Graphic file (type pdf)
 <use Latex/Classes/Escudos/FC_crest_blue.pdf>
 Package pdftex.def Info: Latex/Classes/Escudos/FC_crest_blue.pdf  used on input
- line 29.
+ line 28.
 (pdftex.def)             Requested size: 66.4462pt x 73.97733pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 29.
+LaTeX Font Info:    Try loading font information for U+msa on input line 28.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 29.
+LaTeX Font Info:    Try loading font information for U+msb on input line 28.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 29.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 28.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Overfull \vbox (255.31291pt too high) detected at line 29
+Overfull \vbox (255.31291pt too high) detected at line 28
  []
 
 
-Underfull \hbox (badness 10000) detected at line 29
+Underfull \hbox (badness 10000) detected at line 28
 \T1/cmr/m/n/24.88 T E S I S
  []
 
 
-Overfull \vbox (202.6821pt too high) detected at line 29
+Overfull \vbox (202.6821pt too high) detected at line 28
  []
 
 [1
@@ -3218,16 +3201,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.40 ...'{I}ndice alfab\'{e}tico}{67}{section*.39}
+l.38 ...'{I}ndice alfab\'{e}tico}{67}{section*.42}
                                                    [1
 
 ])
 \tf@toc=\write10
 \openout10 = `tesis.toc'.
 
-LaTeX Info: Redefining \sptext on input line 60.
-LaTeX Info: Redefining \. on input line 60.
-LaTeX Info: Redefining \% on input line 60.
+LaTeX Info: Redefining \sptext on input line 59.
+LaTeX Info: Redefining \. on input line 59.
+LaTeX Info: Redefining \% on input line 59.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -3239,7 +3222,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.II}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.60 \mainmatter
+l.59 \mainmatter
                  [2]
 \openout2 = `0-4-Introduccion/1-Motivacion-Estructura.aux'.
 
@@ -3257,7 +3240,7 @@ Package blindtext Warning: spanish not defined, using English instead.
 
 
 ]
-<0-4-Introduccion/figs/CSM_3D-Prism_Text.png, id=194, 1034.86626pt x 579.16376p
+<0-4-Introduccion/figs/CSM_3D-Prism_Text.png, id=189, 1034.86626pt x 579.16376p
 t>
 File: 0-4-Introduccion/figs/CSM_3D-Prism_Text.png Graphic file (type png)
 <use 0-4-Introduccion/figs/CSM_3D-Prism_Text.png>
@@ -3283,7 +3266,7 @@ Overfull \hbox (5.51012pt too wide) in paragraph at lines 55--55
 []\T1/cmr/bx/n/10 a)|| 
  []
 
-<0-4-Introduccion/figs/0-ATRKobashin2009.pdf, id=238, 237.16203pt x 193.08336pt
+<0-4-Introduccion/figs/0-ATRKobashin2009.pdf, id=233, 237.16203pt x 193.08336pt
 >
 File: 0-4-Introduccion/figs/0-ATRKobashin2009.pdf Graphic file (type pdf)
 <use 0-4-Introduccion/figs/0-ATRKobashin2009.pdf>
@@ -3300,7 +3283,7 @@ Overfull \hbox (6.30853pt too wide) in paragraph at lines 57--57
 []\T1/cmr/bx/n/10 b)|| 
  []
 
-<0-4-Introduccion/figs/0-k(w)Kobashin2009.pdf, id=239, 164.89203pt x 164.97836p
+<0-4-Introduccion/figs/0-k(w)Kobashin2009.pdf, id=234, 164.89203pt x 164.97836p
 t>
 File: 0-4-Introduccion/figs/0-k(w)Kobashin2009.pdf Graphic file (type pdf)
 <use 0-4-Introduccion/figs/0-k(w)Kobashin2009.pdf>
@@ -3317,7 +3300,7 @@ Overfull \hbox (5.03107pt too wide) in paragraph at lines 59--59
 []\T1/cmr/bx/n/10 c)|| 
  []
 
-<0-4-Introduccion/figs/0-ATRSingleDanilov2018.pdf, id=240, 251.21454pt x 190.41
+<0-4-Introduccion/figs/0-ATRSingleDanilov2018.pdf, id=235, 251.21454pt x 190.41
 238pt>
 File: 0-4-Introduccion/figs/0-ATRSingleDanilov2018.pdf Graphic file (type pdf)
 <use 0-4-Introduccion/figs/0-ATRSingleDanilov2018.pdf>
@@ -3353,13 +3336,13 @@ Package blindtext Warning: spanish not defined, using English instead.
 (blindtext)                 on input line 84.
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 87--64
+Underfull \hbox (badness 10000) in paragraph at lines 87--63
 
  []
 
-LaTeX Info: Redefining \sptext on input line 64.
-LaTeX Info: Redefining \. on input line 64.
-LaTeX Info: Redefining \% on input line 64.
+LaTeX Info: Redefining \sptext on input line 63.
+LaTeX Info: Redefining \. on input line 63.
+LaTeX Info: Redefining \% on input line 63.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
@@ -3367,9 +3350,9 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [4]
-LaTeX Info: Redefining \sptext on input line 64.
-LaTeX Info: Redefining \. on input line 64.
-LaTeX Info: Redefining \% on input line 64.
+LaTeX Info: Redefining \sptext on input line 63.
+LaTeX Info: Redefining \. on input line 63.
+LaTeX Info: Redefining \% on input line 63.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -3463,7 +3446,7 @@ Overfull \hbox (4.84323pt too wide) in paragraph at lines 370--375
 $[]$  $[]$ 
  []
 
-<1-Teoria/figs/1-1-ampCoefExt.pdf, id=440, 220.81323pt x 145.6653pt>
+<1-Teoria/figs/1-1-ampCoefExt.pdf, id=435, 220.81323pt x 145.6653pt>
 File: 1-Teoria/figs/1-1-ampCoefExt.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/1-1-ampCoefExt.pdf>
 Package pdftex.def Info: 1-Teoria/figs/1-1-ampCoefExt.pdf  used on input line 3
@@ -3474,7 +3457,7 @@ Overfull \hbox (4.7204pt too wide) in paragraph at lines 381--383
 []|  [] 
  []
 
-<1-Teoria/figs/1-1-ampCoefInt.pdf, id=441, 220.81323pt x 145.6653pt>
+<1-Teoria/figs/1-1-ampCoefInt.pdf, id=436, 220.81323pt x 145.6653pt>
 File: 1-Teoria/figs/1-1-ampCoefInt.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/1-1-ampCoefInt.pdf>
 Package pdftex.def Info: 1-Teoria/figs/1-1-ampCoefInt.pdf  used on input line 3
@@ -3517,7 +3500,7 @@ Overfull \hbox (4.84323pt too wide) in paragraph at lines 476--478
 $[]$  $[]$ 
  []
 
-<1-Teoria/figs/1-2-FrsnelExt.pdf, id=566, 220.81325pt x 145.66527pt>
+<1-Teoria/figs/1-2-FrsnelExt.pdf, id=561, 220.81325pt x 145.66527pt>
 File: 1-Teoria/figs/1-2-FrsnelExt.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/1-2-FrsnelExt.pdf>
 Package pdftex.def Info: 1-Teoria/figs/1-2-FrsnelExt.pdf  used on input line 48
@@ -3528,7 +3511,7 @@ Overfull \hbox (7.56586pt too wide) in paragraph at lines 485--487
 []|  [] 
  []
 
-<1-Teoria/figs/1-2-FrsnelInt.pdf, id=567, 220.81323pt x 145.6653pt>
+<1-Teoria/figs/1-2-FrsnelInt.pdf, id=562, 220.81323pt x 145.6653pt>
 File: 1-Teoria/figs/1-2-FrsnelInt.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/1-2-FrsnelInt.pdf>
 Package pdftex.def Info: 1-Teoria/figs/1-2-FrsnelInt.pdf  used on input line 49
@@ -3552,9 +3535,9 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [13])
-LaTeX Info: Redefining \sptext on input line 65.
-LaTeX Info: Redefining \. on input line 65.
-LaTeX Info: Redefining \% on input line 65.
+LaTeX Info: Redefining \sptext on input line 64.
+LaTeX Info: Redefining \. on input line 64.
+LaTeX Info: Redefining \% on input line 64.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -3810,30 +3793,30 @@ ready used, duplicate ignored
                                                   
 l.538 	\end{align}
                   \label{eq:MieCoefScattFULL}\end{subequations}]
-<1-Teoria/figs/EsNorm.pdf, id=827, 468.10507pt x 43.4161pt>
+<1-Teoria/figs/EsNorm.pdf, id=822, 468.10507pt x 43.4161pt>
 File: 1-Teoria/figs/EsNorm.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/EsNorm.pdf>
 Package pdftex.def Info: 1-Teoria/figs/EsNorm.pdf  used on input line 573.
 (pdftex.def)             Requested size: 397.89119pt x 36.90385pt.
-<1-Teoria/figs/Ne11_static_crop.png, id=828, 471.7625pt x 419.5675pt>
+<1-Teoria/figs/Ne11_static_crop.png, id=823, 471.7625pt x 419.5675pt>
 File: 1-Teoria/figs/Ne11_static_crop.png Graphic file (type png)
 <use 1-Teoria/figs/Ne11_static_crop.png>
 Package pdftex.def Info: 1-Teoria/figs/Ne11_static_crop.png  used on input line
  578.
 (pdftex.def)             Requested size: 117.94032pt x 104.89162pt.
-<1-Teoria/figs/Ne12_static_crop.png, id=829, 471.7625pt x 419.5675pt>
+<1-Teoria/figs/Ne12_static_crop.png, id=824, 471.7625pt x 419.5675pt>
 File: 1-Teoria/figs/Ne12_static_crop.png Graphic file (type png)
 <use 1-Teoria/figs/Ne12_static_crop.png>
 Package pdftex.def Info: 1-Teoria/figs/Ne12_static_crop.png  used on input line
  579.
 (pdftex.def)             Requested size: 117.94032pt x 104.89162pt.
-<1-Teoria/figs/Ne13_static_crop.png, id=830, 471.7625pt x 419.5675pt>
+<1-Teoria/figs/Ne13_static_crop.png, id=825, 471.7625pt x 419.5675pt>
 File: 1-Teoria/figs/Ne13_static_crop.png Graphic file (type png)
 <use 1-Teoria/figs/Ne13_static_crop.png>
 Package pdftex.def Info: 1-Teoria/figs/Ne13_static_crop.png  used on input line
  580.
 (pdftex.def)             Requested size: 117.94032pt x 104.89162pt.
-<1-Teoria/figs/Ne14_static_crop.png, id=831, 471.7625pt x 419.5675pt>
+<1-Teoria/figs/Ne14_static_crop.png, id=826, 471.7625pt x 419.5675pt>
 File: 1-Teoria/figs/Ne14_static_crop.png Graphic file (type png)
 <use 1-Teoria/figs/Ne14_static_crop.png>
 Package pdftex.def Info: 1-Teoria/figs/Ne14_static_crop.png  used on input line
@@ -3844,25 +3827,25 @@ Overfull \hbox (62.0444pt too wide) in paragraph at lines 578--582
 [][][][][] 
  []
 
-<1-Teoria/figs/Mo11_static_crop.png, id=832, 471.7625pt x 419.5675pt>
+<1-Teoria/figs/Mo11_static_crop.png, id=827, 471.7625pt x 419.5675pt>
 File: 1-Teoria/figs/Mo11_static_crop.png Graphic file (type png)
 <use 1-Teoria/figs/Mo11_static_crop.png>
 Package pdftex.def Info: 1-Teoria/figs/Mo11_static_crop.png  used on input line
  587.
 (pdftex.def)             Requested size: 117.94032pt x 104.89162pt.
-<1-Teoria/figs/Mo12_static_crop.png, id=833, 471.7625pt x 419.5675pt>
+<1-Teoria/figs/Mo12_static_crop.png, id=828, 471.7625pt x 419.5675pt>
 File: 1-Teoria/figs/Mo12_static_crop.png Graphic file (type png)
 <use 1-Teoria/figs/Mo12_static_crop.png>
 Package pdftex.def Info: 1-Teoria/figs/Mo12_static_crop.png  used on input line
  588.
 (pdftex.def)             Requested size: 117.94032pt x 104.89162pt.
-<1-Teoria/figs/Mo13_static_crop.png, id=834, 471.7625pt x 419.5675pt>
+<1-Teoria/figs/Mo13_static_crop.png, id=829, 471.7625pt x 419.5675pt>
 File: 1-Teoria/figs/Mo13_static_crop.png Graphic file (type png)
 <use 1-Teoria/figs/Mo13_static_crop.png>
 Package pdftex.def Info: 1-Teoria/figs/Mo13_static_crop.png  used on input line
  589.
 (pdftex.def)             Requested size: 117.94032pt x 104.89162pt.
-<1-Teoria/figs/Mo14_static_crop.png, id=835, 471.7625pt x 419.5675pt>
+<1-Teoria/figs/Mo14_static_crop.png, id=830, 471.7625pt x 419.5675pt>
 File: 1-Teoria/figs/Mo14_static_crop.png Graphic file (type png)
 <use 1-Teoria/figs/Mo14_static_crop.png>
 Package pdftex.def Info: 1-Teoria/figs/Mo14_static_crop.png  used on input line
@@ -3902,9 +3885,9 @@ Overfull \hbox (4.84323pt too wide) in paragraph at lines 615--622
  []
 
 )
-LaTeX Info: Redefining \sptext on input line 66.
-LaTeX Info: Redefining \. on input line 66.
-LaTeX Info: Redefining \% on input line 66.
+LaTeX Info: Redefining \sptext on input line 65.
+LaTeX Info: Redefining \. on input line 65.
+LaTeX Info: Redefining \% on input line 65.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -3941,7 +3924,7 @@ Overfull \hbox (5.51012pt too wide) in paragraph at lines 36--36
 []\T1/cmr/bx/n/10 a)|| 
  []
 
-<1-Teoria/figs/1-4-varepsn4eV.pdf, id=915, 220.81323pt x 166.72086pt>
+<1-Teoria/figs/1-4-varepsn4eV.pdf, id=910, 220.81323pt x 166.72086pt>
 File: 1-Teoria/figs/1-4-varepsn4eV.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/1-4-varepsn4eV.pdf>
 Package pdftex.def Info: 1-Teoria/figs/1-4-varepsn4eV.pdf  used on input line 3
@@ -3957,7 +3940,7 @@ Overfull \hbox (6.30853pt too wide) in paragraph at lines 40--40
 []\T1/cmr/bx/n/10 b)|| 
  []
 
-<1-Teoria/figs/1-4-varepsn10eV.pdf, id=916, 220.81323pt x 166.72086pt>
+<1-Teoria/figs/1-4-varepsn10eV.pdf, id=911, 220.81323pt x 166.72086pt>
 File: 1-Teoria/figs/1-4-varepsn10eV.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/1-4-varepsn10eV.pdf>
 Package pdftex.def Info: 1-Teoria/figs/1-4-varepsn10eV.pdf  used on input line 
@@ -4002,7 +3985,7 @@ Overfull \hbox (5.51012pt too wide) in paragraph at lines 95--95
 []\T1/cmr/bx/n/10 a)|| 
  []
 
-<1-Teoria/figs/1-4-DrudeFit_Au.pdf, id=977, 220.81323pt x 159.69461pt>
+<1-Teoria/figs/1-4-DrudeFit_Au.pdf, id=972, 220.81323pt x 159.69461pt>
 File: 1-Teoria/figs/1-4-DrudeFit_Au.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/1-4-DrudeFit_Au.pdf>
 Package pdftex.def Info: 1-Teoria/figs/1-4-DrudeFit_Au.pdf  used on input line 
@@ -4018,7 +4001,7 @@ Overfull \hbox (6.30853pt too wide) in paragraph at lines 99--99
 []\T1/cmr/bx/n/10 b)|| 
  []
 
-<1-Teoria/figs/1-4-DrudeFit_Ag.pdf, id=978, 220.81323pt x 156.68336pt>
+<1-Teoria/figs/1-4-DrudeFit_Ag.pdf, id=973, 220.81323pt x 156.68336pt>
 File: 1-Teoria/figs/1-4-DrudeFit_Ag.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/1-4-DrudeFit_Ag.pdf>
 Package pdftex.def Info: 1-Teoria/figs/1-4-DrudeFit_Ag.pdf  used on input line 
@@ -4047,7 +4030,7 @@ Overfull \hbox (5.51012pt too wide) in paragraph at lines 123--123
 []\T1/cmr/bx/n/10 a)|| 
  []
 
-<1-Teoria/figs/0-sizeAuEpsilon.pdf, id=1068, 321.91808pt x 225.0245pt>
+<1-Teoria/figs/0-sizeAuEpsilon.pdf, id=1063, 321.91808pt x 225.0245pt>
 File: 1-Teoria/figs/0-sizeAuEpsilon.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/0-sizeAuEpsilon.pdf>
 Package pdftex.def Info: 1-Teoria/figs/0-sizeAuEpsilon.pdf  used on input line 
@@ -4058,7 +4041,7 @@ Overfull \hbox (6.30853pt too wide) in paragraph at lines 127--127
 []\T1/cmr/bx/n/10 b)|| 
  []
 
-<1-Teoria/figs/0-sizeAgEpsilon.pdf, id=1069, 321.91808pt x 225.0245pt>
+<1-Teoria/figs/0-sizeAgEpsilon.pdf, id=1064, 321.91808pt x 225.0245pt>
 File: 1-Teoria/figs/0-sizeAgEpsilon.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/0-sizeAgEpsilon.pdf>
 Package pdftex.def Info: 1-Teoria/figs/0-sizeAgEpsilon.pdf  used on input line 
@@ -4168,7 +4151,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 298--300
 
  []
 
-<1-Teoria/figs/1-4-RelacionDispersion.pdf, id=1147, 357.32355pt x 229.20815pt>
+<1-Teoria/figs/1-4-RelacionDispersion.pdf, id=1142, 357.32355pt x 229.20815pt>
 File: 1-Teoria/figs/1-4-RelacionDispersion.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/1-4-RelacionDispersion.pdf>
 Package pdftex.def Info: 1-Teoria/figs/1-4-RelacionDispersion.pdf  used on inpu
@@ -4204,7 +4187,7 @@ LaTeX Warning: Reference `eq:Es' on page 37 undefined on input line 394.
 
 LaTeX Warning: Reference `eq:Es' on page 37 undefined on input line 394.
 
-<1-Teoria/figs/1-4-DrudeMultipoles.pdf, id=1185, 380.99762pt x 206.43924pt>
+<1-Teoria/figs/1-4-DrudeMultipoles.pdf, id=1180, 380.99762pt x 206.43924pt>
 File: 1-Teoria/figs/1-4-DrudeMultipoles.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/1-4-DrudeMultipoles.pdf>
 Package pdftex.def Info: 1-Teoria/figs/1-4-DrudeMultipoles.pdf  used on input l
@@ -4220,9 +4203,9 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [37 <./1-Teoria/figs/1-4-DrudeMultipoles.pdf>])
-LaTeX Info: Redefining \sptext on input line 67.
-LaTeX Info: Redefining \. on input line 67.
-LaTeX Info: Redefining \% on input line 67.
+LaTeX Info: Redefining \sptext on input line 66.
+LaTeX Info: Redefining \. on input line 66.
+LaTeX Info: Redefining \% on input line 66.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -4308,9 +4291,9 @@ Overfull \hbox (4.84323pt too wide) in paragraph at lines 102--105
 $[]$  $[]$
  []
 
-LaTeX Info: Redefining \sptext on input line 114.
-LaTeX Info: Redefining \. on input line 114.
-LaTeX Info: Redefining \% on input line 114.
+LaTeX Info: Redefining \sptext on input line 115.
+LaTeX Info: Redefining \. on input line 115.
+LaTeX Info: Redefining \% on input line 115.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
@@ -4318,10 +4301,12 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [41]
-LaTeX Info: Redefining \sptext on input line 187.
-LaTeX Info: Redefining \. on input line 187.
-LaTeX Info: Redefining \% on input line 187.
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Info: Redefining \sptext on input line 228.
+LaTeX Info: Redefining \. on input line 228.
+LaTeX Info: Redefining \% on input line 228.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
@@ -4329,10 +4314,12 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [42]
-LaTeX Info: Redefining \sptext on input line 274.
-LaTeX Info: Redefining \. on input line 274.
-LaTeX Info: Redefining \% on input line 274.
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Info: Redefining \sptext on input line 308.
+LaTeX Info: Redefining \. on input line 308.
+LaTeX Info: Redefining \% on input line 308.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
@@ -4340,9 +4327,9 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [43]
-LaTeX Info: Redefining \sptext on input line 373.
-LaTeX Info: Redefining \. on input line 373.
-LaTeX Info: Redefining \% on input line 373.
+LaTeX Info: Redefining \sptext on input line 326.
+LaTeX Info: Redefining \. on input line 326.
+LaTeX Info: Redefining \% on input line 326.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -4351,18 +4338,10 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [44]
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 475--479
-$[]$  $[]$
- []
+LaTeX Info: Redefining \sptext on input line 439.
+LaTeX Info: Redefining \. on input line 439.
+LaTeX Info: Redefining \% on input line 439.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 475--479
-
- []
-
-LaTeX Info: Redefining \sptext on input line 484.
-LaTeX Info: Redefining \. on input line 484.
-LaTeX Info: Redefining \% on input line 484.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
@@ -4370,28 +4349,28 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [45]
-Overfull \hbox (4.84323pt too wide) in paragraph at lines 586--590
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 521--525
 $[]$  $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 586--590
+Underfull \hbox (badness 10000) in paragraph at lines 521--525
 
  []
 
-LaTeX Info: Redefining \sptext on input line 592.
-LaTeX Info: Redefining \. on input line 592.
-LaTeX Info: Redefining \% on input line 592.
+LaTeX Info: Redefining \sptext on input line 527.
+LaTeX Info: Redefining \. on input line 527.
+LaTeX Info: Redefining \% on input line 527.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[46])
-LaTeX Info: Redefining \sptext on input line 68.
-LaTeX Info: Redefining \. on input line 68.
-LaTeX Info: Redefining \% on input line 68.
+[46]
+LaTeX Info: Redefining \sptext on input line 627.
+LaTeX Info: Redefining \. on input line 627.
+LaTeX Info: Redefining \% on input line 627.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -4400,31 +4379,52 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [47]
+Overfull \hbox (4.84323pt too wide) in paragraph at lines 632--636
+$[]$  $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 632--636
+
+ []
+
+)
+LaTeX Info: Redefining \sptext on input line 67.
+LaTeX Info: Redefining \. on input line 67.
+LaTeX Info: Redefining \% on input line 67.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[48]
 \openout2 = `2-Resultados/1-Drude.aux'.
 
- (./2-Resultados/1-Drude.tex [48
+ (./2-Resultados/1-Drude.tex
+Cap\'{\i }tulo 2.
+[49
 
 
 
 ]
-Cap\'{\i }tulo 2.
-[49]
-<2-Resultados/figs/4-Wp4FSMThetaVar/0-2D_Grid.png, id=1417, 733.99219pt x 355.3
+<2-Resultados/figs/4-Wp4FSMThetaVar/0-2D_Grid.png, id=1414, 733.99219pt x 355.3
 275pt>
 File: 2-Resultados/figs/4-Wp4FSMThetaVar/0-2D_Grid.png Graphic file (type png)
 <use 2-Resultados/figs/4-Wp4FSMThetaVar/0-2D_Grid.png>
 Package pdftex.def Info: 2-Resultados/figs/4-Wp4FSMThetaVar/0-2D_Grid.png  used
- on input line 19.
+ on input line 16.
 (pdftex.def)             Requested size: 409.71689pt x 198.34767pt.
-<2-Resultados/figs/0-RBar_v.pdf, id=1418, 34.1275pt x 229.85875pt>
+<2-Resultados/figs/0-RBar_v.pdf, id=1415, 34.1275pt x 229.85875pt>
 File: 2-Resultados/figs/0-RBar_v.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/0-RBar_v.pdf>
-Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 20.
+Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 17.
 
 (pdftex.def)             Requested size: 29.00848pt x 199.6468pt.
-LaTeX Info: Redefining \sptext on input line 27.
-LaTeX Info: Redefining \. on input line 27.
-LaTeX Info: Redefining \% on input line 27.
+LaTeX Info: Redefining \sptext on input line 22.
+LaTeX Info: Redefining \. on input line 22.
+LaTeX Info: Redefining \% on input line 22.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -4434,47 +4434,44 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
 
 [50 <./2-Resultados/figs/0-RBar_v.pdf> <./2-Resultados/figs/4-Wp4FSMThetaVar/0-
 2D_Grid.png>]
-Overfull \hbox (5.51012pt too wide) in paragraph at lines 29--29
+Overfull \hbox (5.51012pt too wide) in paragraph at lines 26--26
 []\T1/cmr/bx/n/10 a)|| 
  []
 
-<2-Resultados/figs/4-Wp4FSMThetaVar/cut_angle_65_p.pdf, id=1442, 220.81323pt x 
+<2-Resultados/figs/4-Wp4FSMThetaVar/cut_angle_65_p.pdf, id=1438, 220.81323pt x 
 166.72035pt>
 File: 2-Resultados/figs/4-Wp4FSMThetaVar/cut_angle_65_p.pdf Graphic file (type 
 pdf)
 <use 2-Resultados/figs/4-Wp4FSMThetaVar/cut_angle_65_p.pdf>
 Package pdftex.def Info: 2-Resultados/figs/4-Wp4FSMThetaVar/cut_angle_65_p.pdf 
- used on input line 31.
+ used on input line 28.
 (pdftex.def)             Requested size: 220.81268pt x 166.71994pt.
 
-Overfull \hbox (2.04404pt too wide) in paragraph at lines 30--31
+Overfull \hbox (2.04404pt too wide) in paragraph at lines 27--28
 []|  [] 
  []
 
 
-Overfull \hbox (6.30853pt too wide) in paragraph at lines 32--32
+Overfull \hbox (6.30853pt too wide) in paragraph at lines 29--29
 []\T1/cmr/bx/n/10 b)|| 
  []
 
-<2-Resultados/figs/4-Wp4FSMThetaVar/cut_angle_65_s.pdf, id=1443, 220.81323pt x 
+<2-Resultados/figs/4-Wp4FSMThetaVar/cut_angle_65_s.pdf, id=1439, 220.81323pt x 
 166.72035pt>
 File: 2-Resultados/figs/4-Wp4FSMThetaVar/cut_angle_65_s.pdf Graphic file (type 
 pdf)
 <use 2-Resultados/figs/4-Wp4FSMThetaVar/cut_angle_65_s.pdf>
 Package pdftex.def Info: 2-Resultados/figs/4-Wp4FSMThetaVar/cut_angle_65_s.pdf 
- used on input line 34.
+ used on input line 31.
 (pdftex.def)             Requested size: 220.81268pt x 166.71994pt.
 
-Overfull \hbox (15.95424pt too wide) in paragraph at lines 34--34
+Overfull \hbox (15.95424pt too wide) in paragraph at lines 31--31
  [][] 
  []
 
-
-LaTeX Warning: Reference `eq:r3CSM' on page 51 undefined on input line 43.
-
-LaTeX Info: Redefining \sptext on input line 44.
-LaTeX Info: Redefining \. on input line 44.
-LaTeX Info: Redefining \% on input line 44.
+LaTeX Info: Redefining \sptext on input line 51.
+LaTeX Info: Redefining \. on input line 51.
+LaTeX Info: Redefining \% on input line 51.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
@@ -4488,21 +4485,21 @@ pdfTeX warning: pdflatex (file ./2-Resultados/figs/4-Wp4FSMThetaVar/cut_angle_6
 5_s.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
 e
 >]
-<2-Resultados/figs/1-Wp4ThetaVar/0-2D_Grid.png, id=1469, 723.45282pt x 355.3275
+<2-Resultados/figs/1-Wp4ThetaVar/0-2D_Grid.png, id=1466, 723.45282pt x 355.3275
 pt>
 File: 2-Resultados/figs/1-Wp4ThetaVar/0-2D_Grid.png Graphic file (type png)
 <use 2-Resultados/figs/1-Wp4ThetaVar/0-2D_Grid.png>
 Package pdftex.def Info: 2-Resultados/figs/1-Wp4ThetaVar/0-2D_Grid.png  used on
- input line 46.
+ input line 53.
 (pdftex.def)             Requested size: 409.71689pt x 201.23752pt.
 File: 2-Resultados/figs/0-RBar_v.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/0-RBar_v.pdf>
-Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 47.
+Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 54.
 
 (pdftex.def)             Requested size: 29.00848pt x 199.6468pt.
-LaTeX Info: Redefining \sptext on input line 56.
-LaTeX Info: Redefining \. on input line 56.
-LaTeX Info: Redefining \% on input line 56.
+LaTeX Info: Redefining \sptext on input line 60.
+LaTeX Info: Redefining \. on input line 60.
+LaTeX Info: Redefining \% on input line 60.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -4511,44 +4508,44 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [52 <./2-Resultados/figs/1-Wp4ThetaVar/0-2D_Grid.png>]
-Overfull \hbox (5.51012pt too wide) in paragraph at lines 60--60
+Overfull \hbox (5.51012pt too wide) in paragraph at lines 67--67
 []\T1/cmr/bx/n/10 a)|| 
  []
 
-<2-Resultados/figs/1-Wp4ThetaVar/cut_angle_65_p.pdf, id=1489, 220.81323pt x 166
+<2-Resultados/figs/1-Wp4ThetaVar/cut_angle_65_p.pdf, id=1488, 220.81323pt x 166
 .72086pt>
 File: 2-Resultados/figs/1-Wp4ThetaVar/cut_angle_65_p.pdf Graphic file (type pdf
 )
 <use 2-Resultados/figs/1-Wp4ThetaVar/cut_angle_65_p.pdf>
 Package pdftex.def Info: 2-Resultados/figs/1-Wp4ThetaVar/cut_angle_65_p.pdf  us
-ed on input line 62.
+ed on input line 69.
 (pdftex.def)             Requested size: 220.81268pt x 166.72044pt.
 
-Overfull \hbox (2.04404pt too wide) in paragraph at lines 61--62
+Overfull \hbox (2.04404pt too wide) in paragraph at lines 68--69
 []|  [] 
  []
 
 
-Overfull \hbox (6.30853pt too wide) in paragraph at lines 63--63
+Overfull \hbox (6.30853pt too wide) in paragraph at lines 70--70
 []\T1/cmr/bx/n/10 b)|| 
  []
 
-<2-Resultados/figs/1-Wp4ThetaVar/cut_angle_65_s.pdf, id=1490, 220.81323pt x 166
+<2-Resultados/figs/1-Wp4ThetaVar/cut_angle_65_s.pdf, id=1489, 220.81323pt x 166
 .72086pt>
 File: 2-Resultados/figs/1-Wp4ThetaVar/cut_angle_65_s.pdf Graphic file (type pdf
 )
 <use 2-Resultados/figs/1-Wp4ThetaVar/cut_angle_65_s.pdf>
 Package pdftex.def Info: 2-Resultados/figs/1-Wp4ThetaVar/cut_angle_65_s.pdf  us
-ed on input line 65.
+ed on input line 72.
 (pdftex.def)             Requested size: 220.81268pt x 166.72044pt.
 
-Overfull \hbox (15.95424pt too wide) in paragraph at lines 65--65
+Overfull \hbox (15.95424pt too wide) in paragraph at lines 72--72
  [][] 
  []
 
-LaTeX Info: Redefining \sptext on input line 73.
-LaTeX Info: Redefining \. on input line 73.
-LaTeX Info: Redefining \% on input line 73.
+LaTeX Info: Redefining \sptext on input line 78.
+LaTeX Info: Redefining \. on input line 78.
+LaTeX Info: Redefining \% on input line 78.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
@@ -4561,175 +4558,149 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
 pdfTeX warning: pdflatex (file ./2-Resultados/figs/1-Wp4ThetaVar/cut_angle_65_s
 .pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<2-Resultados/figs/2-Wp10ThetaVar/0-2D_Grid.png, id=1504, 737.00343pt x 355.327
+<2-Resultados/figs/2-Wp10ThetaVar/0-2D_Grid.png, id=1503, 737.00343pt x 355.327
 5pt>
 File: 2-Resultados/figs/2-Wp10ThetaVar/0-2D_Grid.png Graphic file (type png)
 <use 2-Resultados/figs/2-Wp10ThetaVar/0-2D_Grid.png>
 Package pdftex.def Info: 2-Resultados/figs/2-Wp10ThetaVar/0-2D_Grid.png  used o
-n input line 77.
+n input line 84.
 (pdftex.def)             Requested size: 409.71689pt x 197.5344pt.
 File: 2-Resultados/figs/0-RBar_v.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/0-RBar_v.pdf>
-Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 78.
+Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 85.
 
 (pdftex.def)             Requested size: 29.00848pt x 199.6468pt.
-LaTeX Info: Redefining \sptext on input line 84.
-LaTeX Info: Redefining \. on input line 84.
-LaTeX Info: Redefining \% on input line 84.
 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Info: Redefining \sptext on input line 93.
+LaTeX Info: Redefining \. on input line 93.
+LaTeX Info: Redefining \% on input line 93.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[54 <./2-Resultados/figs/2-Wp10ThetaVar/0-2D_Grid.png>]
-Overfull \hbox (5.51012pt too wide) in paragraph at lines 88--88
+[54]
+Overfull \hbox (5.51012pt too wide) in paragraph at lines 95--95
 []\T1/cmr/bx/n/10 a)|| 
  []
 
-<2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_p_Stack.pdf, id=1524, 220.81323p
+<2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_p_Stack.pdf, id=1522, 220.81323p
 t x 166.72035pt>
 File: 2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_p_Stack.pdf Graphic file (t
 ype pdf)
 <use 2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_p_Stack.pdf>
 Package pdftex.def Info: 2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_p_Stack.
-pdf  used on input line 90.
+pdf  used on input line 97.
 (pdftex.def)             Requested size: 220.81268pt x 166.71994pt.
 
-Overfull \hbox (2.04404pt too wide) in paragraph at lines 89--90
+Overfull \hbox (2.04404pt too wide) in paragraph at lines 96--97
 []|  [] 
  []
 
 
-Overfull \hbox (6.30853pt too wide) in paragraph at lines 91--91
+Overfull \hbox (6.30853pt too wide) in paragraph at lines 98--98
 []\T1/cmr/bx/n/10 b)|| 
  []
 
-<2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_s.pdf, id=1525, 220.81323pt x 16
+<2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_s.pdf, id=1523, 220.81323pt x 16
 6.72086pt>
 File: 2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_s.pdf Graphic file (type pd
 f)
 <use 2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_s.pdf>
 Package pdftex.def Info: 2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_s.pdf  u
-sed on input line 93.
+sed on input line 100.
 (pdftex.def)             Requested size: 220.81268pt x 166.72044pt.
 
-Overfull \hbox (15.95424pt too wide) in paragraph at lines 93--93
+Overfull \hbox (15.95424pt too wide) in paragraph at lines 100--100
  [][] 
  []
 
-LaTeX Info: Redefining \sptext on input line 98.
-LaTeX Info: Redefining \. on input line 98.
-LaTeX Info: Redefining \% on input line 98.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Info: Redefining \sptext on input line 107.
+LaTeX Info: Redefining \. on input line 107.
+LaTeX Info: Redefining \% on input line 107.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[55 <./2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_p_Stack.pdf> <./2-Resultad
-os/figs/2-Wp10ThetaVar/cut_angle_65_s.pdf
-
-pdfTeX warning: pdflatex (file ./2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_
-s.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-<2-Resultados/figs/3-Wp4rVar/0-2D_Grid.png, id=1587, 599.23875pt x 355.3275pt>
+[55 <./2-Resultados/figs/2-Wp10ThetaVar/0-2D_Grid.png>]
+<2-Resultados/figs/3-Wp4rVar/0-2D_Grid.png, id=1544, 599.23875pt x 355.3275pt>
 File: 2-Resultados/figs/3-Wp4rVar/0-2D_Grid.png Graphic file (type png)
 <use 2-Resultados/figs/3-Wp4rVar/0-2D_Grid.png>
 Package pdftex.def Info: 2-Resultados/figs/3-Wp4rVar/0-2D_Grid.png  used on inp
-ut line 104.
+ut line 111.
 (pdftex.def)             Requested size: 341.43306pt x 202.46286pt.
 File: 2-Resultados/figs/0-RBar_v.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/0-RBar_v.pdf>
-Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 105
+Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 112
 .
 (pdftex.def)             Requested size: 29.00848pt x 199.6468pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Info: Redefining \sptext on input line 114.
-LaTeX Info: Redefining \. on input line 114.
-LaTeX Info: Redefining \% on input line 114.
+LaTeX Info: Redefining \sptext on input line 118.
+LaTeX Info: Redefining \. on input line 118.
+LaTeX Info: Redefining \% on input line 118.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[56]
-Overfull \hbox (5.51012pt too wide) in paragraph at lines 116--116
+[56 <./2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_p_Stack.pdf> <./2-Resultad
+os/figs/2-Wp10ThetaVar/cut_angle_65_s.pdf
+
+pdfTeX warning: pdflatex (file ./2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_
+s.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+Overfull \hbox (5.51012pt too wide) in paragraph at lines 123--123
 []\T1/cmr/bx/n/10 a)|| 
  []
 
-<2-Resultados/figs/3-Wp4rVar/cut_angle_65_p.pdf, id=1602, 220.81323pt x 166.720
+<2-Resultados/figs/3-Wp4rVar/cut_angle_65_p.pdf, id=1600, 220.81323pt x 166.720
 86pt>
 File: 2-Resultados/figs/3-Wp4rVar/cut_angle_65_p.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/3-Wp4rVar/cut_angle_65_p.pdf>
 Package pdftex.def Info: 2-Resultados/figs/3-Wp4rVar/cut_angle_65_p.pdf  used o
-n input line 118.
+n input line 125.
 (pdftex.def)             Requested size: 220.81268pt x 166.72044pt.
 
-Overfull \hbox (2.04404pt too wide) in paragraph at lines 117--118
+Overfull \hbox (2.04404pt too wide) in paragraph at lines 124--125
 []|  [] 
  []
 
 
-Overfull \hbox (6.30853pt too wide) in paragraph at lines 119--119
+Overfull \hbox (6.30853pt too wide) in paragraph at lines 126--126
 []\T1/cmr/bx/n/10 b)|| 
  []
 
-<2-Resultados/figs/3-Wp4rVar/cut_angle_65_s.pdf, id=1603, 220.81323pt x 166.720
+<2-Resultados/figs/3-Wp4rVar/cut_angle_65_s.pdf, id=1601, 220.81323pt x 166.720
 86pt>
 File: 2-Resultados/figs/3-Wp4rVar/cut_angle_65_s.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/3-Wp4rVar/cut_angle_65_s.pdf>
 Package pdftex.def Info: 2-Resultados/figs/3-Wp4rVar/cut_angle_65_s.pdf  used o
-n input line 121.
+n input line 128.
 (pdftex.def)             Requested size: 220.81268pt x 166.72044pt.
 
-Overfull \hbox (15.95424pt too wide) in paragraph at lines 121--121
+Overfull \hbox (15.95424pt too wide) in paragraph at lines 128--128
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Overfull \hbox (5.51012pt too wide) in paragraph at lines 131--131
-[]\T1/cmr/bx/n/10 a)|| 
- []
-
-<2-Resultados/figs/5-JCAu/Au_Qexr.pdf, id=1610, 299.44214pt x 228.96478pt>
-File: 2-Resultados/figs/5-JCAu/Au_Qexr.pdf Graphic file (type pdf)
-<use 2-Resultados/figs/5-JCAu/Au_Qexr.pdf>
-Package pdftex.def Info: 2-Resultados/figs/5-JCAu/Au_Qexr.pdf  used on input li
-ne 132.
-(pdftex.def)             Requested size: 224.58104pt x 171.72316pt.
-
-Overfull \hbox (19.7226pt too wide) in paragraph at lines 132--132
- [][] 
- []
-
-
-Overfull \hbox (6.30853pt too wide) in paragraph at lines 133--133
-[]\T1/cmr/bx/n/10 b)|| 
- []
-
-<2-Resultados/figs/6-JCAg/Ag_Qexr.pdf, id=1611, 299.38191pt x 230.82721pt>
-File: 2-Resultados/figs/6-JCAg/Ag_Qexr.pdf Graphic file (type pdf)
-<use 2-Resultados/figs/6-JCAg/Ag_Qexr.pdf>
-Package pdftex.def Info: 2-Resultados/figs/6-JCAg/Ag_Qexr.pdf  used on input li
-ne 134.
-(pdftex.def)             Requested size: 224.53587pt x 173.11998pt.
-
-Overfull \hbox (19.67743pt too wide) in paragraph at lines 134--134
- [][] 
- []
-
-LaTeX Info: Redefining \sptext on input line 138.
-LaTeX Info: Redefining \. on input line 138.
-LaTeX Info: Redefining \% on input line 138.
+LaTeX Info: Redefining \sptext on input line 133.
+LaTeX Info: Redefining \. on input line 133.
+LaTeX Info: Redefining \% on input line 133.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
@@ -4737,53 +4708,91 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [57 <./2-Resultados/figs/3-Wp4rVar/0-2D_Grid.png>]
-Overfull \hbox (5.51012pt too wide) in paragraph at lines 145--145
+Overfull \hbox (5.51012pt too wide) in paragraph at lines 150--150
 []\T1/cmr/bx/n/10 a)|| 
  []
 
-<2-Resultados/figs/5-JCAu/0-2D_Grid.png, id=1624, 1173.38374pt x 809.0225pt>
-File: 2-Resultados/figs/5-JCAu/0-2D_Grid.png Graphic file (type png)
-<use 2-Resultados/figs/5-JCAu/0-2D_Grid.png>
-Package pdftex.def Info: 2-Resultados/figs/5-JCAu/0-2D_Grid.png  used on input 
-line 146.
-(pdftex.def)             Requested size: 194.61488pt x 134.17426pt.
-File: 2-Resultados/figs/0-RBar_v.pdf Graphic file (type pdf)
-<use 2-Resultados/figs/0-RBar_v.pdf>
-Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 146
+<2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_1.png, id=1614, 460.72125pt x 355.3275
+pt>
+File: 2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_1.png Graphic file (type png)
+<use 2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_1.png>
+Package pdftex.def Info: 2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_1.png  used on
+ input line 152.
+(pdftex.def)             Requested size: 299.46526pt x 230.96013pt.
+<2-Resultados/figs/0-IBar_v.pdf, id=1615, 34.1275pt x 233.87375pt>
+File: 2-Resultados/figs/0-IBar_v.pdf Graphic file (type pdf)
+<use 2-Resultados/figs/0-IBar_v.pdf>
+Package pdftex.def Info: 2-Resultados/figs/0-IBar_v.pdf  used on input line 153
 .
-(pdftex.def)             Requested size: 20.47664pt x 137.91629pt.
+(pdftex.def)             Requested size: 34.1274pt x 238.89189pt.
 
-Overfull \hbox (10.23308pt too wide) in paragraph at lines 146--147
-[][][] 
+Overfull \hbox (11.90086pt too wide) in paragraph at lines 151--154
+[]|  [][] 
  []
 
 
-Overfull \hbox (6.30853pt too wide) in paragraph at lines 148--148
+Overfull \hbox (6.30853pt too wide) in paragraph at lines 155--155
 []\T1/cmr/bx/n/10 b)|| 
  []
 
-<2-Resultados/figs/6-JCAg/0-2D_Grid.png, id=1626, 1171.37625pt x 804.00375pt>
-File: 2-Resultados/figs/6-JCAg/0-2D_Grid.png Graphic file (type png)
-<use 2-Resultados/figs/6-JCAg/0-2D_Grid.png>
-Package pdftex.def Info: 2-Resultados/figs/6-JCAg/0-2D_Grid.png  used on input 
-line 149.
-(pdftex.def)             Requested size: 194.61488pt x 132.7412pt.
-File: 2-Resultados/figs/0-RBar_v.pdf Graphic file (type pdf)
-<use 2-Resultados/figs/0-RBar_v.pdf>
-Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 149
+<2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_2.png, id=1617, 459.21562pt x 355.3275
+pt>
+File: 2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_2.png Graphic file (type png)
+<use 2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_2.png>
+Package pdftex.def Info: 2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_2.png  used on
+ input line 157.
+(pdftex.def)             Requested size: 298.4866pt x 230.96013pt.
+File: 2-Resultados/figs/0-IBar_v.pdf Graphic file (type pdf)
+<use 2-Resultados/figs/0-IBar_v.pdf>
+Package pdftex.def Info: 2-Resultados/figs/0-IBar_v.pdf  used on input line 158
 .
-(pdftex.def)             Requested size: 20.47664pt x 137.91629pt.
+(pdftex.def)             Requested size: 34.1274pt x 238.89189pt.
 
-Overfull \hbox (10.23308pt too wide) in paragraph at lines 149--149
+Overfull \hbox (13.94453pt too wide) in paragraph at lines 157--159
  [][][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Info: Redefining \sptext on input line 154.
-LaTeX Info: Redefining \. on input line 154.
-LaTeX Info: Redefining \% on input line 154.
+
+Overfull \hbox (5.51012pt too wide) in paragraph at lines 179--179
+[]\T1/cmr/bx/n/10 a)|| 
+ []
+
+<2-Resultados/figs/5-JCAu/Au_Qexr.pdf, id=1627, 299.44214pt x 228.96478pt>
+File: 2-Resultados/figs/5-JCAu/Au_Qexr.pdf Graphic file (type pdf)
+<use 2-Resultados/figs/5-JCAu/Au_Qexr.pdf>
+Package pdftex.def Info: 2-Resultados/figs/5-JCAu/Au_Qexr.pdf  used on input li
+ne 180.
+(pdftex.def)             Requested size: 224.58104pt x 171.72316pt.
+
+Overfull \hbox (19.7226pt too wide) in paragraph at lines 180--180
+ [][] 
+ []
+
+
+Overfull \hbox (6.30853pt too wide) in paragraph at lines 181--181
+[]\T1/cmr/bx/n/10 b)|| 
+ []
+
+<2-Resultados/figs/6-JCAg/Ag_Qexr.pdf, id=1628, 299.38191pt x 230.82721pt>
+File: 2-Resultados/figs/6-JCAg/Ag_Qexr.pdf Graphic file (type pdf)
+<use 2-Resultados/figs/6-JCAg/Ag_Qexr.pdf>
+Package pdftex.def Info: 2-Resultados/figs/6-JCAg/Ag_Qexr.pdf  used on input li
+ne 182.
+(pdftex.def)             Requested size: 224.53587pt x 173.11998pt.
+
+Overfull \hbox (19.67743pt too wide) in paragraph at lines 182--182
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Info: Redefining \sptext on input line 191.
+LaTeX Info: Redefining \. on input line 191.
+LaTeX Info: Redefining \% on input line 191.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
@@ -4795,18 +4804,81 @@ p4rVar/cut_angle_65_s.pdf
 
 pdfTeX warning: pdflatex (file ./2-Resultados/figs/3-Wp4rVar/cut_angle_65_s.pdf
 ): PDF inclusion: multiple pdfs with page group included in a single page
-> <./2-Resultados/figs/5-JCAu/Au_Qexr.pdf
+>]
+Overfull \hbox (5.51012pt too wide) in paragraph at lines 193--193
+[]\T1/cmr/bx/n/10 a)|| 
+ []
 
-pdfTeX warning: pdflatex (file ./2-Resultados/figs/5-JCAu/Au_Qexr.pdf): PDF inc
-lusion: multiple pdfs with page group included in a single page
-> <./2-Resultados/figs/6-JCAg/Ag_Qexr.pdf
+<2-Resultados/figs/5-JCAu/0-2D_Grid.png, id=1663, 1173.38374pt x 809.0225pt>
+File: 2-Resultados/figs/5-JCAu/0-2D_Grid.png Graphic file (type png)
+<use 2-Resultados/figs/5-JCAu/0-2D_Grid.png>
+Package pdftex.def Info: 2-Resultados/figs/5-JCAu/0-2D_Grid.png  used on input 
+line 194.
+(pdftex.def)             Requested size: 194.61488pt x 134.17426pt.
+File: 2-Resultados/figs/0-RBar_v.pdf Graphic file (type pdf)
+<use 2-Resultados/figs/0-RBar_v.pdf>
+Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 194
+.
+(pdftex.def)             Requested size: 20.47664pt x 137.91629pt.
+
+Overfull \hbox (10.23308pt too wide) in paragraph at lines 194--195
+[][][] 
+ []
+
+
+Overfull \hbox (6.30853pt too wide) in paragraph at lines 196--196
+[]\T1/cmr/bx/n/10 b)|| 
+ []
+
+<2-Resultados/figs/6-JCAg/0-2D_Grid.png, id=1665, 1171.37625pt x 804.00375pt>
+File: 2-Resultados/figs/6-JCAg/0-2D_Grid.png Graphic file (type png)
+<use 2-Resultados/figs/6-JCAg/0-2D_Grid.png>
+Package pdftex.def Info: 2-Resultados/figs/6-JCAg/0-2D_Grid.png  used on input 
+line 197.
+(pdftex.def)             Requested size: 194.61488pt x 132.7412pt.
+File: 2-Resultados/figs/0-RBar_v.pdf Graphic file (type pdf)
+<use 2-Resultados/figs/0-RBar_v.pdf>
+Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 197
+.
+(pdftex.def)             Requested size: 20.47664pt x 137.91629pt.
+
+Overfull \hbox (10.23308pt too wide) in paragraph at lines 197--197
+ [][][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Info: Redefining \sptext on input line 202.
+LaTeX Info: Redefining \. on input line 202.
+LaTeX Info: Redefining \% on input line 202.
+
+Package Fancyhdr Warning: \headheight is too small (0.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[59 <./2-Resultados/figs/0-IBar_v.pdf> <./2-Resultados/figs/5-RT-Wp4-10/0-2D_Gr
+id_1.png> <./2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_2.png>]
+LaTeX Info: Redefining \sptext on input line 204.
+LaTeX Info: Redefining \. on input line 204.
+LaTeX Info: Redefining \% on input line 204.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[60 <./2-Resultados/figs/6-JCAg/0-2D_Grid.png> <./2-Resultados/figs/5-JCAu/Au_Q
+exr.pdf> <./2-Resultados/figs/6-JCAg/Ag_Qexr.pdf
 
 pdfTeX warning: pdflatex (file ./2-Resultados/figs/6-JCAg/Ag_Qexr.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
->]
-LaTeX Info: Redefining \sptext on input line 160.
-LaTeX Info: Redefining \. on input line 160.
-LaTeX Info: Redefining \% on input line 160.
+> <./2-Resultados/figs/5-JCAu/0-2D_Grid.png>])
+LaTeX Info: Redefining \sptext on input line 68.
+LaTeX Info: Redefining \. on input line 68.
+LaTeX Info: Redefining \% on input line 68.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -4814,39 +4886,23 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[59 <./2-Resultados/figs/6-JCAg/0-2D_Grid.png> <./2-Resultados/figs/5-JCAu/0-2D
-_Grid.png>]
-LaTeX Info: Redefining \sptext on input line 161.
-LaTeX Info: Redefining \. on input line 161.
-LaTeX Info: Redefining \% on input line 161.
-
-
-Package Fancyhdr Warning: \headheight is too small (0.5pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[60]
-Cap\'{\i }tulo 3.
-) [61
-
-] [62
+[61] [62
 
 
 ]
-Overfull \hbox (19.32486pt too wide) in paragraph at lines 83--83
+Overfull \hbox (19.32486pt too wide) in paragraph at lines 82--82
 []\T1/cmr/m/n/10.95 M. I. Stock-man. Na-no-plas-mo-nics: the phy-sics behind th
 e ap-pli-ca-tions. \T1/cmr/m/it/10.95 Phys. To-day\T1/cmr/m/n/10.95 , 64(2):39[
 ]44,
  []
 
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 82.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 81.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [63]
-LaTeX Info: Redefining \sptext on input line 82.
-LaTeX Info: Redefining \. on input line 82.
-LaTeX Info: Redefining \% on input line 82.
+LaTeX Info: Redefining \sptext on input line 81.
+LaTeX Info: Redefining \. on input line 81.
+LaTeX Info: Redefining \% on input line 81.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -4855,9 +4911,9 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [64]
-LaTeX Info: Redefining \sptext on input line 88.
-LaTeX Info: Redefining \. on input line 88.
-LaTeX Info: Redefining \% on input line 88.
+LaTeX Info: Redefining \sptext on input line 87.
+LaTeX Info: Redefining \. on input line 87.
+LaTeX Info: Redefining \% on input line 87.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -4873,9 +4929,9 @@ runsystem(makeindex tesis.idx)...executed safely (allowed).
  (./tesis.ind [67
 
 ])
-LaTeX Info: Redefining \sptext on input line 91.
-LaTeX Info: Redefining \. on input line 91.
-LaTeX Info: Redefining \% on input line 91.
+LaTeX Info: Redefining \sptext on input line 90.
+LaTeX Info: Redefining \. on input line 90.
+LaTeX Info: Redefining \% on input line 90.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -4884,38 +4940,50 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [68]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 90.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 90.
  (./tesis.aux
-LaTeX Info: Redefining \sptext on input line 36.
-LaTeX Info: Redefining \. on input line 36.
-LaTeX Info: Redefining \% on input line 36.
+LaTeX Info: Redefining \sptext on input line 35.
+LaTeX Info: Redefining \. on input line 35.
+LaTeX Info: Redefining \% on input line 35.
  (./0-4-Introduccion/1-Motivacion-Estructura.aux)
 (./1-Teoria/1-Nociones-Basicas.aux) (./1-Teoria/2-Solucion-de-Mie.aux)
 (./1-Teoria/3-Respuesta-EM-materiales.aux) (./1-Teoria/4-CSM.aux)
 (./2-Resultados/1-Drude.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
-Package rerunfilecheck Info: File `tesis.out' has not changed.
-(rerunfilecheck)             Checksum: 4EFAE7C850066D1DE42E17086EF84FFE;1701.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 90.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 90.
 
+
+Package rerunfilecheck Warning: File `tesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `tesis.out':
+(rerunfilecheck)             Before: 3DECFEEFA773EF1BD3603321DBE340F2;1555
+(rerunfilecheck)             After:  976B85C6CC64C2C08B3B33D24E429C95;1555.
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package logreq Info: Writing requests to 'tesis.run.xml'.
 \openout1 = `tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 59114 strings out of 492982
- 1326221 string characters out of 6134895
- 1910114 words of memory out of 5000000
- 61294 multiletter control sequences out of 15000+600000
+ 58461 strings out of 492982
+ 1313015 string characters out of 6134895
+ 1869219 words of memory out of 5000000
+ 60647 multiletter control sequences out of 15000+600000
  568407 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,26n,103p,10550b,2793s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.19} has been referenced but does not ex
-ist, replaced by a fixed one
+pdfTeX warning (dest): name{figure.caption.40} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.19} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.18} has been referenced but does not exis
 t, replaced by a fixed one
@@ -4971,6 +5039,9 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
 
+pdfTeX warning (dest): name{section*.42} has been referenced but does not exist
+, replaced by a fixed one
+
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/texlive/texmf-dist/fo
@@ -5007,10 +5078,10 @@ er/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb></us
 r/share/texmf/fonts/type1/public/cm-super/sfti0800.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sfti0900.pfb></usr/share/texmf/fonts/type1/public/cm-supe
 r/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on tesis.pdf (72 pages, 6640546 bytes).
+Output written on tesis.pdf (72 pages, 6998993 bytes).
 PDF statistics:
- 2158 PDF objects out of 2487 (max. 8388607)
- 1795 compressed objects within 18 object streams
- 361 named destinations out of 1000 (max. 500000)
- 601 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2185 PDF objects out of 2487 (max. 8388607)
+ 1811 compressed objects within 19 object streams
+ 365 named destinations out of 1000 (max. 500000)
+ 620 words of extra memory for PDF output out of 10000 (max. 10000000)
 

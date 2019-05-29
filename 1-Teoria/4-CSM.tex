@@ -108,7 +108,53 @@ con $f= N 4\pi a^3/(3V)$ la fracción de llenado que es el cociente entre el net
 	\alpha = \frac{2\Theta}{x^2 \cos\theta_i}
 	\label{eq:alpha}
 	\end{align}
-donde $\Theta = N \pi a^2 / A$ es la fracción de cubierta que corresponde al área proyectada por las esferas sobre el área de la placa. Al analizar  las Ecs. \eqref{eqs:rtcohSSA} y \eqref{eq:alpha}, para ángulos rasantes $\theta\to \pi/2$ se observa que $\alpha\to \infty$, además de que para partículas pequeñas $x\ll 1$ el producto $r_{coh}^{SSA}r_{coh}^{SSA*}$ puede tomar valores mayores a la unidad. Por tanto los coeficientes de amplitud calculadas a partir de la SSA son válidos únicamente para ángulos de incidencia no rasantes y para partículas grandes. 
+donde $\Theta = N \pi a^2 / A$ es la fracción de cubierta que corresponde al área proyectada por las esferas sobre el área de la placa. La distancia promedio $\langle d \rangle$ entre las NPs de una monocapa se relaciona con su fracción de cubierta $\Theta$ mediante la expresión $\Theta = \pi a^2 / (2a+\langle d \rangle)^2$, como se observa en la Fig. \ref{fig:MeanD}. Entonces, la separación promedio entre las NPs de la monocapa es
+	\begin{equation}
+	\langle d \rangle = a\qty(\sqrt{\frac{\pi}{\Theta}}-2),
+	\label{eq:MeanD}
+	\end{equation}
+de donde se deduce que el valor máximo de $\Theta$ es $0.78$, cuando $\langle d\rangle=0$, y que cuando $\langle d \rangle = a$ se cumple que $\Theta = \pi/9\approx 0.349$.
+
+\begin{figure}[h!]\centering
+		\begin{tikzpicture}[scale=1]
+\def	\ll{2}
+\def\a{1.75}
+%------------------------------------------------ NPs and Substrate
+\fill[blue!20] (-\ll,-\ll) rectangle (\ll,\ll);		
+
+\fill[-,yellow,shift ={(-\ll,-\ll)}, opacity = 1](90:\a)arc(90:0:\a)--(0,0)--(90:\a);
+\draw[-, orange, thick, shift ={(-\ll,-\ll)}](90:\a)arc(90:0:\a);
+
+\fill[-,yellow,shift ={(-\ll,\ll)}, opacity = 1](-90:\a)arc(-90:0:\a)--(0,0)--(-90:\a);
+\draw[-, orange, thick, shift ={(-\ll,\ll)}](-90:\a)arc(-90:0:\a);
+
+\fill[-,yellow,shift ={(\ll,\ll)}, opacity = 1](-90:\a)arc(-90:-180:\a)--(0,0)--(-90:\a);
+\draw[-, orange, thick, shift ={(\ll,\ll)}](-90:\a)arc(-90:-180:\a);
+
+\fill[-,yellow,shift ={(\ll,-\ll)}, opacity = 1](90:\a)arc(90:180:\a)--(0,0)--(90:\a);
+\draw[-, orange, thick, shift ={(\ll,-\ll)}](90:\a)arc(90:180:\a);
+
+\draw[-, thick, orange] (-\ll,\ll)--(-\ll*.65,\ll*.65) node [anchor = south west]{$a$}--(-.75,.75);
+%-------------------------------------------------- media names
+\node at (0,.5) {\small Sustrato}; 
+\node at (-1.5,-1.5) {\small NP};
+\node at (0,-.5) {$\Theta$};
+
+%--------------------------------------------------- dimensions
+\draw[-|] (\ll+.2,\ll-\a)--(\ll+.2,\ll);
+\node at (\ll+.5, \ll*.6){$a$};
+
+\draw[-|] (\ll+.2,-\ll+\a)--(\ll+.2,-\ll);
+\node at (\ll+.5,-\ll*.6){$a$};
+
+\draw[|-|] (\ll+.2,\ll-\a)--(\ll+.2,-\ll+\a);
+\node at (\ll+.5, 0){$\langle d \rangle$};
+
+\end{tikzpicture}
+		\caption{  Vista a cero grados de desde la normal de una monocapa de NPs de radio $a$ con fracción de cubierta $\Theta$ sobre un sustrato. La separación promedio entre las NPs es $\langle d \rangle$, por lo que el área total del cuadrado es $2a+\langle d \rangle$, el de una NP es $\pi a^2$ y por tanto $\Theta= \pi a^2 / (2a+\langle d \rangle)^2$.}\label{fig:MeanD}
+	\end{figure}	
+	
+Al analizar  las Ecs. \eqref{eqs:rtcohSSA} y \eqref{eq:alpha}, para ángulos rasantes $\theta\to \pi/2$ se observa que $\alpha\to \infty$, además de que para partículas pequeñas $x\ll 1$ el producto $r_{coh}^{SSA}r_{coh}^{SSA*}$ puede tomar valores mayores a la unidad. Por tanto los coeficientes de amplitud calculadas a partir de la SSA son válidos únicamente para ángulos de incidencia no rasantes y para partículas grandes. 
 
 Para calcular coeficientes de amplitud a partir de la SSA pero que no estén límitados a ángulos de incidencia bajos ni al tamaño de las partículas que conforman a la monocapa, se deben considerar contribuciones de esparcimiento múltiple (Multiple Scattering, MS) en el cálculo del campo eléctrico $\vb{E}^{exc}$  que excita a las partículas dentro de la placa, el cual se puede descomponer como 
 	\begin{align}
@@ -581,7 +627,7 @@ donde $\beta = 2ak_m\cos\theta_t$. Al factorizar $t_{sm}r_{coh}t_{ms}e^{2i\beta}
 	\end{align}
 Es posible reescribir la Ec. \ref{eq:r_ATR_preStokes} empleando las relaciones de Stokes\footnote{Las relaciones de Stokes se deducar a partir de lainvariancia de las ecuaciones de Maxell ante inversiones temporales ($t\to -t$), y relacionan a los coeficientes de amplitud $r$ y $t$ evaluados en $\theta_i$ y $\theta_t$ para una interfaz entre medios no absorbentes. Las relaciones de Stokes son \cite{hecht1998optics,garcia2012multiple} $r_{it}(\theta_i) = -r_{ti}(\theta_t)$, $t_{it}(\theta_i) = 1+r_{it}(\theta_i)$, y $t_{ti}(\theta_t) = 1+r_{it}(\theta_t)$}, por lo que se obtiene \begin{subequations}\vspace*{-.75em}
 \begin{tcolorbox}[title = Coeficientes de amplitud de CSM en configuración ATR, breakable ]
-	\eqhalf{t = \frac{r_{sm}(\theta_i)+r_{coh}(\theta_t)e^{i2\beta}}
+	\eqhalf{r = \frac{r_{sm}(\theta_i)+r_{coh}(\theta_t)e^{i2\beta}}
 					{1+-r_{coh}(\theta_t)r_{sm}(\theta_i)e^{2i\beta}},
 	\label{seq:rCSMATR}}
 	\eqhalf{t = \frac{t_{sm}(\theta_i)t_{coh}(\theta_t)e^{i\beta}}
