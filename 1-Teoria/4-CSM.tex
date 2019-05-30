@@ -110,10 +110,22 @@ con $f= N 4\pi a^3/(3V)$ la fracción de llenado que es el cociente entre el net
 	\end{align}
 donde $\Theta = N \pi a^2 / A$ es la fracción de cubierta que corresponde al área proyectada por las esferas sobre el área de la placa. La distancia promedio $\langle d \rangle$ entre las NPs de una monocapa se relaciona con su fracción de cubierta $\Theta$ mediante la expresión $\Theta = \pi a^2 / (2a+\langle d \rangle)^2$, como se observa en la Fig. \ref{fig:MeanD}. Entonces, la separación promedio entre las NPs de la monocapa es
 	\begin{equation}
-	\langle d \rangle = a\qty(\sqrt{\frac{\pi}{\Theta}}-2),
+	\frac{\langle d \rangle}{a} = \sqrt{\frac{\pi}{\Theta}}-2,
 	\label{eq:MeanD}
 	\end{equation}
-de donde se deduce que el valor máximo de $\Theta$ es $0.78$, cuando $\langle d\rangle=0$, y que cuando $\langle d \rangle = a$ se cumple que $\Theta = \pi/9\approx 0.349$.
+de donde se deduce que el valor máximo de $\Theta$ es $0.78$, cuando $\langle d\rangle=0$, y que cuando $\langle d \rangle = a$ se cumple que $\Theta = \pi/9\approx 0.349$. El cociente entre la distancia promedio entre NPs y su radio se calcula para algunos valores en la Tab. \ref{tab:MeanD}
+
+\begin{table}[h!] \centering
+	\caption{Cociente entre la distancia promedio $\langle d\rangle$ entre NPs y su radio $a$, para una monocapa de NPs esféricas e idénticas con fracción de cubierta $\Theta$}
+	\label{tab:30nm}\vspace*{-1em}
+	\begin{tabular}{c || c c c c c c c c}
+	\hline \hline
+	$\Theta$ & $0.05$ & $0.1$ & $0.2$ & $0.3$ & $0.4$ & $0.5$ & $0.6$ & $0.7$\\
+ \hline 
+	$\langle d\rangle / a $& $5.93$ & $3.60$ & $1.96$ & $1.23$ & $0.80$ & $0.51$ & $0.29$ & $0.12$ \\
+	\hline \hline
+	\end{tabular} 
+\end{table}
 
 \begin{figure}[h!]\centering
 		\begin{tikzpicture}[scale=1]
