@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.5.2)  30 MAY 2019 10:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.5.2)  30 MAY 2019 13:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1685,17 +1685,10 @@ LaTeX Warning: Unused global option(s):
 LaTeX Info: Redefining \sptext on input line 35.
 LaTeX Info: Redefining \. on input line 35.
 LaTeX Info: Redefining \% on input line 35.
- (./0-1-Agradecimientos/1-Dedicatoria.aux)
-(./0-1-Agradecimientos/2-Agradecimientos.aux)
-(./0-2-Declaracion/1-Declaracion.aux) (./0-3-Resumen/1-Resumen.aux)
-(./0-4-Introduccion/1-Motivacion-Estructura.aux)
+ (./0-4-Introduccion/1-Motivacion-Estructura.aux)
 (./1-Teoria/1-Nociones-Basicas.aux) (./1-Teoria/2-Solucion-de-Mie.aux)
 (./1-Teoria/3-Respuesta-EM-materiales.aux) (./1-Teoria/4-CSM.aux)
-(./2-Resultados/1-Drude.aux) (./3-Modo/1-Comparacion.aux
-
-LaTeX Warning: Label `tab:tabla' multiply defined.
-
-) (./05-Conclusiones/1-Conclusiones.aux))
+(./2-Resultados/1-Drude.aux))
 \openout1 = `tesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
@@ -1795,13 +1788,13 @@ LaTeX Info: Redefining \nameref on input line 26.
 \@outlinefile=\write8
 \openout8 = `tesis.out'.
 
-<Latex/Classes/Escudos/UNAM_crest_blue.pdf, id=139, 2007.5pt x 2256.43pt>
+<Latex/Classes/Escudos/UNAM_crest_blue.pdf, id=115, 2007.5pt x 2256.43pt>
 File: Latex/Classes/Escudos/UNAM_crest_blue.pdf Graphic file (type pdf)
 <use Latex/Classes/Escudos/UNAM_crest_blue.pdf>
 Package pdftex.def Info: Latex/Classes/Escudos/UNAM_crest_blue.pdf  used on inp
 ut line 28.
 (pdftex.def)             Requested size: 65.79741pt x 73.97733pt.
-<Latex/Classes/Escudos/FC_crest_blue.pdf, id=140, 1860.9525pt x 2071.74pt>
+<Latex/Classes/Escudos/FC_crest_blue.pdf, id=116, 1860.9525pt x 2071.74pt>
 File: Latex/Classes/Escudos/FC_crest_blue.pdf Graphic file (type pdf)
 <use Latex/Classes/Escudos/FC_crest_blue.pdf>
 Package pdftex.def Info: Latex/Classes/Escudos/FC_crest_blue.pdf  used on input
@@ -1849,8 +1842,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.38 ...plasm\IeC {\'o}nico guiado}{63}{chapter.3}
-                                                   [1
+l.38 ...'{I}ndice alfab\'{e}tico}{67}{section*.42}
+                                                  % [1
 
 ])
 \tf@toc=\write9
@@ -1888,7 +1881,7 @@ Package blindtext Warning: spanish not defined, using English instead.
 
 
 ]
-<0-4-Introduccion/figs/CSM_3D-Prism_Text.png, id=221, 1034.86626pt x 579.16376p
+<0-4-Introduccion/figs/CSM_3D-Prism_Text.png, id=189, 1034.86626pt x 579.16376p
 t>
 File: 0-4-Introduccion/figs/CSM_3D-Prism_Text.png Graphic file (type png)
 <use 0-4-Introduccion/figs/CSM_3D-Prism_Text.png>
@@ -1908,7 +1901,7 @@ Overfull \hbox (2.75798pt too wide) in paragraph at lines 55--55
 []\T1/cmr/bx/n/6 a)|| 
  []
 
-<0-4-Introduccion/figs/0-ATRKobashin2009.pdf, id=265, 237.16203pt x 193.08336pt
+<0-4-Introduccion/figs/0-ATRKobashin2009.pdf, id=233, 237.16203pt x 193.08336pt
 >
 File: 0-4-Introduccion/figs/0-ATRKobashin2009.pdf Graphic file (type pdf)
 <use 0-4-Introduccion/figs/0-ATRKobashin2009.pdf>
@@ -1925,7 +1918,7 @@ Overfull \hbox (3.32034pt too wide) in paragraph at lines 57--57
 []\T1/cmr/bx/n/6 b)|| 
  []
 
-<0-4-Introduccion/figs/0-k(w)Kobashin2009.pdf, id=266, 164.89203pt x 164.97836p
+<0-4-Introduccion/figs/0-k(w)Kobashin2009.pdf, id=234, 164.89203pt x 164.97836p
 t>
 File: 0-4-Introduccion/figs/0-k(w)Kobashin2009.pdf Graphic file (type pdf)
 <use 0-4-Introduccion/figs/0-k(w)Kobashin2009.pdf>
@@ -1942,7 +1935,7 @@ Overfull \hbox (2.42056pt too wide) in paragraph at lines 59--59
 []\T1/cmr/bx/n/6 c)|| 
  []
 
-<0-4-Introduccion/figs/0-ATRSingleDanilov2018.pdf, id=267, 251.21454pt x 190.41
+<0-4-Introduccion/figs/0-ATRSingleDanilov2018.pdf, id=235, 251.21454pt x 190.41
 238pt>
 File: 0-4-Introduccion/figs/0-ATRSingleDanilov2018.pdf Graphic file (type pdf)
 <use 0-4-Introduccion/figs/0-ATRSingleDanilov2018.pdf>
@@ -2053,7 +2046,7 @@ Overfull \hbox (4.84323pt too wide) in paragraph at lines 370--375
 $[]$  $[]$ 
  []
 
-<1-Teoria/figs/1-1-ampCoefExt.pdf, id=469, 220.81323pt x 145.6653pt>
+<1-Teoria/figs/1-1-ampCoefExt.pdf, id=435, 220.81323pt x 145.6653pt>
 File: 1-Teoria/figs/1-1-ampCoefExt.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/1-1-ampCoefExt.pdf>
 Package pdftex.def Info: 1-Teoria/figs/1-1-ampCoefExt.pdf  used on input line 3
@@ -2064,7 +2057,7 @@ Overfull \hbox (4.7204pt too wide) in paragraph at lines 381--383
 []|  [] 
  []
 
-<1-Teoria/figs/1-1-ampCoefInt.pdf, id=470, 220.81323pt x 145.6653pt>
+<1-Teoria/figs/1-1-ampCoefInt.pdf, id=436, 220.81323pt x 145.6653pt>
 File: 1-Teoria/figs/1-1-ampCoefInt.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/1-1-ampCoefInt.pdf>
 Package pdftex.def Info: 1-Teoria/figs/1-1-ampCoefInt.pdf  used on input line 3
@@ -2094,7 +2087,7 @@ Overfull \hbox (4.84323pt too wide) in paragraph at lines 476--478
 $[]$  $[]$ 
  []
 
-<1-Teoria/figs/1-2-FrsnelExt.pdf, id=595, 220.81325pt x 145.66527pt>
+<1-Teoria/figs/1-2-FrsnelExt.pdf, id=561, 220.81325pt x 145.66527pt>
 File: 1-Teoria/figs/1-2-FrsnelExt.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/1-2-FrsnelExt.pdf>
 Package pdftex.def Info: 1-Teoria/figs/1-2-FrsnelExt.pdf  used on input line 48
@@ -2105,7 +2098,7 @@ Overfull \hbox (7.56586pt too wide) in paragraph at lines 485--487
 []|  [] 
  []
 
-<1-Teoria/figs/1-2-FrsnelInt.pdf, id=596, 220.81323pt x 145.6653pt>
+<1-Teoria/figs/1-2-FrsnelInt.pdf, id=562, 220.81323pt x 145.6653pt>
 File: 1-Teoria/figs/1-2-FrsnelInt.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/1-2-FrsnelInt.pdf>
 Package pdftex.def Info: 1-Teoria/figs/1-2-FrsnelInt.pdf  used on input line 49
@@ -2313,30 +2306,30 @@ ready used, duplicate ignored
                                                   
 l.538 	\end{align}
                   \label{eq:MieCoefScattFULL}\end{subequations}]
-<1-Teoria/figs/EsNorm.pdf, id=856, 468.10507pt x 43.4161pt>
+<1-Teoria/figs/EsNorm.pdf, id=822, 468.10507pt x 43.4161pt>
 File: 1-Teoria/figs/EsNorm.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/EsNorm.pdf>
 Package pdftex.def Info: 1-Teoria/figs/EsNorm.pdf  used on input line 573.
 (pdftex.def)             Requested size: 397.89119pt x 36.90385pt.
-<1-Teoria/figs/Ne11_static_crop.png, id=857, 471.7625pt x 419.5675pt>
+<1-Teoria/figs/Ne11_static_crop.png, id=823, 471.7625pt x 419.5675pt>
 File: 1-Teoria/figs/Ne11_static_crop.png Graphic file (type png)
 <use 1-Teoria/figs/Ne11_static_crop.png>
 Package pdftex.def Info: 1-Teoria/figs/Ne11_static_crop.png  used on input line
  578.
 (pdftex.def)             Requested size: 117.94032pt x 104.89162pt.
-<1-Teoria/figs/Ne12_static_crop.png, id=858, 471.7625pt x 419.5675pt>
+<1-Teoria/figs/Ne12_static_crop.png, id=824, 471.7625pt x 419.5675pt>
 File: 1-Teoria/figs/Ne12_static_crop.png Graphic file (type png)
 <use 1-Teoria/figs/Ne12_static_crop.png>
 Package pdftex.def Info: 1-Teoria/figs/Ne12_static_crop.png  used on input line
  579.
 (pdftex.def)             Requested size: 117.94032pt x 104.89162pt.
-<1-Teoria/figs/Ne13_static_crop.png, id=859, 471.7625pt x 419.5675pt>
+<1-Teoria/figs/Ne13_static_crop.png, id=825, 471.7625pt x 419.5675pt>
 File: 1-Teoria/figs/Ne13_static_crop.png Graphic file (type png)
 <use 1-Teoria/figs/Ne13_static_crop.png>
 Package pdftex.def Info: 1-Teoria/figs/Ne13_static_crop.png  used on input line
  580.
 (pdftex.def)             Requested size: 117.94032pt x 104.89162pt.
-<1-Teoria/figs/Ne14_static_crop.png, id=860, 471.7625pt x 419.5675pt>
+<1-Teoria/figs/Ne14_static_crop.png, id=826, 471.7625pt x 419.5675pt>
 File: 1-Teoria/figs/Ne14_static_crop.png Graphic file (type png)
 <use 1-Teoria/figs/Ne14_static_crop.png>
 Package pdftex.def Info: 1-Teoria/figs/Ne14_static_crop.png  used on input line
@@ -2347,25 +2340,25 @@ Overfull \hbox (62.0444pt too wide) in paragraph at lines 578--582
 [][][][][] 
  []
 
-<1-Teoria/figs/Mo11_static_crop.png, id=861, 471.7625pt x 419.5675pt>
+<1-Teoria/figs/Mo11_static_crop.png, id=827, 471.7625pt x 419.5675pt>
 File: 1-Teoria/figs/Mo11_static_crop.png Graphic file (type png)
 <use 1-Teoria/figs/Mo11_static_crop.png>
 Package pdftex.def Info: 1-Teoria/figs/Mo11_static_crop.png  used on input line
  587.
 (pdftex.def)             Requested size: 117.94032pt x 104.89162pt.
-<1-Teoria/figs/Mo12_static_crop.png, id=862, 471.7625pt x 419.5675pt>
+<1-Teoria/figs/Mo12_static_crop.png, id=828, 471.7625pt x 419.5675pt>
 File: 1-Teoria/figs/Mo12_static_crop.png Graphic file (type png)
 <use 1-Teoria/figs/Mo12_static_crop.png>
 Package pdftex.def Info: 1-Teoria/figs/Mo12_static_crop.png  used on input line
  588.
 (pdftex.def)             Requested size: 117.94032pt x 104.89162pt.
-<1-Teoria/figs/Mo13_static_crop.png, id=863, 471.7625pt x 419.5675pt>
+<1-Teoria/figs/Mo13_static_crop.png, id=829, 471.7625pt x 419.5675pt>
 File: 1-Teoria/figs/Mo13_static_crop.png Graphic file (type png)
 <use 1-Teoria/figs/Mo13_static_crop.png>
 Package pdftex.def Info: 1-Teoria/figs/Mo13_static_crop.png  used on input line
  589.
 (pdftex.def)             Requested size: 117.94032pt x 104.89162pt.
-<1-Teoria/figs/Mo14_static_crop.png, id=864, 471.7625pt x 419.5675pt>
+<1-Teoria/figs/Mo14_static_crop.png, id=830, 471.7625pt x 419.5675pt>
 File: 1-Teoria/figs/Mo14_static_crop.png Graphic file (type png)
 <use 1-Teoria/figs/Mo14_static_crop.png>
 Package pdftex.def Info: 1-Teoria/figs/Mo14_static_crop.png  used on input line
@@ -2425,7 +2418,7 @@ Overfull \hbox (2.75798pt too wide) in paragraph at lines 36--36
 []\T1/cmr/bx/n/6 a)|| 
  []
 
-<1-Teoria/figs/1-4-varepsn4eV.pdf, id=944, 220.81323pt x 166.72086pt>
+<1-Teoria/figs/1-4-varepsn4eV.pdf, id=910, 220.81323pt x 166.72086pt>
 File: 1-Teoria/figs/1-4-varepsn4eV.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/1-4-varepsn4eV.pdf>
 Package pdftex.def Info: 1-Teoria/figs/1-4-varepsn4eV.pdf  used on input line 3
@@ -2441,7 +2434,7 @@ Overfull \hbox (3.32034pt too wide) in paragraph at lines 40--40
 []\T1/cmr/bx/n/6 b)|| 
  []
 
-<1-Teoria/figs/1-4-varepsn10eV.pdf, id=945, 220.81323pt x 166.72086pt>
+<1-Teoria/figs/1-4-varepsn10eV.pdf, id=911, 220.81323pt x 166.72086pt>
 File: 1-Teoria/figs/1-4-varepsn10eV.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/1-4-varepsn10eV.pdf>
 Package pdftex.def Info: 1-Teoria/figs/1-4-varepsn10eV.pdf  used on input line 
@@ -2473,7 +2466,7 @@ Overfull \hbox (2.75798pt too wide) in paragraph at lines 95--95
 []\T1/cmr/bx/n/6 a)|| 
  []
 
-<1-Teoria/figs/1-4-DrudeFit_Au.pdf, id=1007, 220.81323pt x 159.69461pt>
+<1-Teoria/figs/1-4-DrudeFit_Au.pdf, id=972, 220.81323pt x 159.69461pt>
 File: 1-Teoria/figs/1-4-DrudeFit_Au.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/1-4-DrudeFit_Au.pdf>
 Package pdftex.def Info: 1-Teoria/figs/1-4-DrudeFit_Au.pdf  used on input line 
@@ -2489,7 +2482,7 @@ Overfull \hbox (3.32034pt too wide) in paragraph at lines 99--99
 []\T1/cmr/bx/n/6 b)|| 
  []
 
-<1-Teoria/figs/1-4-DrudeFit_Ag.pdf, id=1008, 220.81323pt x 156.68336pt>
+<1-Teoria/figs/1-4-DrudeFit_Ag.pdf, id=973, 220.81323pt x 156.68336pt>
 File: 1-Teoria/figs/1-4-DrudeFit_Ag.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/1-4-DrudeFit_Ag.pdf>
 Package pdftex.def Info: 1-Teoria/figs/1-4-DrudeFit_Ag.pdf  used on input line 
@@ -2512,7 +2505,7 @@ Overfull \hbox (2.75798pt too wide) in paragraph at lines 123--123
 []\T1/cmr/bx/n/6 a)|| 
  []
 
-<1-Teoria/figs/0-sizeAuEpsilon.pdf, id=1097, 321.91808pt x 225.0245pt>
+<1-Teoria/figs/0-sizeAuEpsilon.pdf, id=1063, 321.91808pt x 225.0245pt>
 File: 1-Teoria/figs/0-sizeAuEpsilon.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/0-sizeAuEpsilon.pdf>
 Package pdftex.def Info: 1-Teoria/figs/0-sizeAuEpsilon.pdf  used on input line 
@@ -2523,7 +2516,7 @@ Overfull \hbox (3.32034pt too wide) in paragraph at lines 127--127
 []\T1/cmr/bx/n/6 b)|| 
  []
 
-<1-Teoria/figs/0-sizeAgEpsilon.pdf, id=1098, 321.91808pt x 225.0245pt>
+<1-Teoria/figs/0-sizeAgEpsilon.pdf, id=1064, 321.91808pt x 225.0245pt>
 File: 1-Teoria/figs/0-sizeAgEpsilon.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/0-sizeAgEpsilon.pdf>
 Package pdftex.def Info: 1-Teoria/figs/0-sizeAgEpsilon.pdf  used on input line 
@@ -2608,7 +2601,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 298--300
 
  []
 
-<1-Teoria/figs/1-4-RelacionDispersion.pdf, id=1177, 357.32355pt x 229.20815pt>
+<1-Teoria/figs/1-4-RelacionDispersion.pdf, id=1142, 357.32355pt x 229.20815pt>
 File: 1-Teoria/figs/1-4-RelacionDispersion.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/1-4-RelacionDispersion.pdf>
 Package pdftex.def Info: 1-Teoria/figs/1-4-RelacionDispersion.pdf  used on inpu
@@ -2631,7 +2624,7 @@ LaTeX Warning: Reference `eq:Es' on page 37 undefined on input line 394.
 
 LaTeX Warning: Reference `eq:Es' on page 37 undefined on input line 394.
 
-<1-Teoria/figs/1-4-DrudeMultipoles.pdf, id=1217, 380.99762pt x 206.43924pt>
+<1-Teoria/figs/1-4-DrudeMultipoles.pdf, id=1180, 380.99762pt x 206.43924pt>
 File: 1-Teoria/figs/1-4-DrudeMultipoles.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/1-4-DrudeMultipoles.pdf>
 Package pdftex.def Info: 1-Teoria/figs/1-4-DrudeMultipoles.pdf  used on input l
@@ -2778,65 +2771,62 @@ Cap\'{\i }tulo 2.
 
 
 ]
-<2-Resultados/figs/4-Wp4FSMThetaVar/0-2D_Grid.png, id=1452, 733.99219pt x 355.3
+<2-Resultados/figs/4-Wp4FSMThetaVar/0-2D_Grid.png, id=1415, 733.99219pt x 355.3
 275pt>
 File: 2-Resultados/figs/4-Wp4FSMThetaVar/0-2D_Grid.png Graphic file (type png)
 <use 2-Resultados/figs/4-Wp4FSMThetaVar/0-2D_Grid.png>
 Package pdftex.def Info: 2-Resultados/figs/4-Wp4FSMThetaVar/0-2D_Grid.png  used
- on input line 16.
+ on input line 14.
 (pdftex.def)             Requested size: 409.71689pt x 198.34767pt.
-<2-Resultados/figs/0-RBar_v.pdf, id=1453, 34.1275pt x 229.85875pt>
+<2-Resultados/figs/0-RBar_v.pdf, id=1416, 34.1275pt x 229.85875pt>
 File: 2-Resultados/figs/0-RBar_v.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/0-RBar_v.pdf>
-Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 17.
+Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 15.
 
 (pdftex.def)             Requested size: 29.00848pt x 199.6468pt.
-LaTeX Info: Redefining \sptext on input line 22.
-LaTeX Info: Redefining \. on input line 22.
-LaTeX Info: Redefining \% on input line 22.
+LaTeX Info: Redefining \sptext on input line 20.
+LaTeX Info: Redefining \. on input line 20.
+LaTeX Info: Redefining \% on input line 20.
  [50 <./2-Resultados/figs/0-RBar_v.pdf> <./2-Resultados/figs/4-Wp4FSMThetaVar/0
 -2D_Grid.png>]
-Overfull \hbox (2.75798pt too wide) in paragraph at lines 26--26
+Overfull \hbox (2.75798pt too wide) in paragraph at lines 24--24
 []\T1/cmr/bx/n/6 a)|| 
  []
 
-<2-Resultados/figs/4-Wp4FSMThetaVar/cut_angle_65_p.pdf, id=1476, 220.81323pt x 
+<2-Resultados/figs/4-Wp4FSMThetaVar/cut_angle_65_p.pdf, id=1439, 220.81323pt x 
 166.72035pt>
 File: 2-Resultados/figs/4-Wp4FSMThetaVar/cut_angle_65_p.pdf Graphic file (type 
 pdf)
 <use 2-Resultados/figs/4-Wp4FSMThetaVar/cut_angle_65_p.pdf>
 Package pdftex.def Info: 2-Resultados/figs/4-Wp4FSMThetaVar/cut_angle_65_p.pdf 
- used on input line 28.
+ used on input line 26.
 (pdftex.def)             Requested size: 220.81268pt x 166.71994pt.
 
-Overfull \hbox (2.04404pt too wide) in paragraph at lines 27--28
+Overfull \hbox (2.04404pt too wide) in paragraph at lines 25--26
 []|  [] 
  []
 
 
-Overfull \hbox (3.32034pt too wide) in paragraph at lines 29--29
+Overfull \hbox (3.32034pt too wide) in paragraph at lines 27--27
 []\T1/cmr/bx/n/6 b)|| 
  []
 
-<2-Resultados/figs/4-Wp4FSMThetaVar/cut_angle_65_s.pdf, id=1477, 220.81323pt x 
+<2-Resultados/figs/4-Wp4FSMThetaVar/cut_angle_65_s.pdf, id=1440, 220.81323pt x 
 166.72035pt>
 File: 2-Resultados/figs/4-Wp4FSMThetaVar/cut_angle_65_s.pdf Graphic file (type 
 pdf)
 <use 2-Resultados/figs/4-Wp4FSMThetaVar/cut_angle_65_s.pdf>
 Package pdftex.def Info: 2-Resultados/figs/4-Wp4FSMThetaVar/cut_angle_65_s.pdf 
- used on input line 31.
+ used on input line 29.
 (pdftex.def)             Requested size: 220.81268pt x 166.71994pt.
 
-Overfull \hbox (15.95424pt too wide) in paragraph at lines 31--31
+Overfull \hbox (15.95424pt too wide) in paragraph at lines 29--29
  [][] 
  []
 
-
-LaTeX Warning: Reference `tab:MeanD' on page 51 undefined on input line 35.
-
-LaTeX Info: Redefining \sptext on input line 41.
-LaTeX Info: Redefining \. on input line 41.
-LaTeX Info: Redefining \% on input line 41.
+LaTeX Info: Redefining \sptext on input line 40.
+LaTeX Info: Redefining \. on input line 40.
+LaTeX Info: Redefining \% on input line 40.
 [51 <./2-Resultados/figs/4-Wp4FSMThetaVar/cut_angle_65_p.pdf> <./2-Resultados/f
 igs/4-Wp4FSMThetaVar/cut_angle_65_s.pdf
 
@@ -2844,245 +2834,276 @@ pdfTeX warning: /usr/bin/pdflatex (file ./2-Resultados/figs/4-Wp4FSMThetaVar/cu
 t_angle_65_s.pdf): PDF inclusion: multiple pdfs with page group included in a s
 ingle page
 >]
-<2-Resultados/figs/1-Wp4ThetaVar/0-2D_Grid.png, id=1506, 723.45282pt x 355.3275
+<2-Resultados/figs/1-Wp4ThetaVar/0-2D_Grid.png, id=1467, 723.45282pt x 355.3275
 pt>
 File: 2-Resultados/figs/1-Wp4ThetaVar/0-2D_Grid.png Graphic file (type png)
 <use 2-Resultados/figs/1-Wp4ThetaVar/0-2D_Grid.png>
 Package pdftex.def Info: 2-Resultados/figs/1-Wp4ThetaVar/0-2D_Grid.png  used on
- input line 47.
+ input line 42.
 (pdftex.def)             Requested size: 409.71689pt x 201.23752pt.
 File: 2-Resultados/figs/0-RBar_v.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/0-RBar_v.pdf>
-Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 48.
+Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 43.
 
 (pdftex.def)             Requested size: 29.00848pt x 199.6468pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-LaTeX Info: Redefining \sptext on input line 57.
-LaTeX Info: Redefining \. on input line 57.
-LaTeX Info: Redefining \% on input line 57.
-[52]
-Overfull \hbox (2.75798pt too wide) in paragraph at lines 61--61
+LaTeX Info: Redefining \sptext on input line 49.
+LaTeX Info: Redefining \. on input line 49.
+LaTeX Info: Redefining \% on input line 49.
+ [52 <./2-Resultados/figs/1-Wp4ThetaVar/0-2D_Grid.png>]
+Overfull \hbox (2.75798pt too wide) in paragraph at lines 54--54
 []\T1/cmr/bx/n/6 a)|| 
  []
 
-<2-Resultados/figs/1-Wp4ThetaVar/cut_angle_65_p.pdf, id=1523, 220.81323pt x 166
+<2-Resultados/figs/1-Wp4ThetaVar/cut_angle_65_p.pdf, id=1484, 220.81323pt x 166
 .72086pt>
 File: 2-Resultados/figs/1-Wp4ThetaVar/cut_angle_65_p.pdf Graphic file (type pdf
 )
 <use 2-Resultados/figs/1-Wp4ThetaVar/cut_angle_65_p.pdf>
 Package pdftex.def Info: 2-Resultados/figs/1-Wp4ThetaVar/cut_angle_65_p.pdf  us
-ed on input line 63.
+ed on input line 56.
 (pdftex.def)             Requested size: 220.81268pt x 166.72044pt.
 
-Overfull \hbox (2.04404pt too wide) in paragraph at lines 62--63
+Overfull \hbox (2.04404pt too wide) in paragraph at lines 55--56
 []|  [] 
  []
 
 
-Overfull \hbox (3.32034pt too wide) in paragraph at lines 64--64
+Overfull \hbox (3.32034pt too wide) in paragraph at lines 57--57
 []\T1/cmr/bx/n/6 b)|| 
  []
 
-<2-Resultados/figs/1-Wp4ThetaVar/cut_angle_65_s.pdf, id=1524, 220.81323pt x 166
+<2-Resultados/figs/1-Wp4ThetaVar/cut_angle_65_s.pdf, id=1485, 220.81323pt x 166
 .72086pt>
 File: 2-Resultados/figs/1-Wp4ThetaVar/cut_angle_65_s.pdf Graphic file (type pdf
 )
 <use 2-Resultados/figs/1-Wp4ThetaVar/cut_angle_65_s.pdf>
 Package pdftex.def Info: 2-Resultados/figs/1-Wp4ThetaVar/cut_angle_65_s.pdf  us
-ed on input line 66.
+ed on input line 59.
 (pdftex.def)             Requested size: 220.81268pt x 166.72044pt.
 
-Overfull \hbox (15.95424pt too wide) in paragraph at lines 66--66
+Overfull \hbox (15.95424pt too wide) in paragraph at lines 59--59
  [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-LaTeX Info: Redefining \sptext on input line 74.
-LaTeX Info: Redefining \. on input line 74.
-LaTeX Info: Redefining \% on input line 74.
-[53 <./2-Resultados/figs/1-Wp4ThetaVar/0-2D_Grid.png>]
-<2-Resultados/figs/2-Wp10ThetaVar/0-2D_Grid.png, id=1538, 737.00343pt x 355.327
-5pt>
-File: 2-Resultados/figs/2-Wp10ThetaVar/0-2D_Grid.png Graphic file (type png)
-<use 2-Resultados/figs/2-Wp10ThetaVar/0-2D_Grid.png>
-Package pdftex.def Info: 2-Resultados/figs/2-Wp10ThetaVar/0-2D_Grid.png  used o
-n input line 78.
-(pdftex.def)             Requested size: 409.71689pt x 197.5344pt.
-File: 2-Resultados/figs/0-RBar_v.pdf Graphic file (type pdf)
-<use 2-Resultados/figs/0-RBar_v.pdf>
-Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 79.
-
-(pdftex.def)             Requested size: 29.00848pt x 199.6468pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-LaTeX Info: Redefining \sptext on input line 85.
-LaTeX Info: Redefining \. on input line 85.
-LaTeX Info: Redefining \% on input line 85.
-[54 <./2-Resultados/figs/1-Wp4ThetaVar/cut_angle_65_p.pdf> <./2-Resultados/figs
+LaTeX Info: Redefining \sptext on input line 64.
+LaTeX Info: Redefining \. on input line 64.
+LaTeX Info: Redefining \% on input line 64.
+[53 <./2-Resultados/figs/1-Wp4ThetaVar/cut_angle_65_p.pdf> <./2-Resultados/figs
 /1-Wp4ThetaVar/cut_angle_65_s.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./2-Resultados/figs/1-Wp4ThetaVar/cut_a
 ngle_65_s.pdf): PDF inclusion: multiple pdfs with page group included in a sing
 le page
 >]
-Overfull \hbox (2.75798pt too wide) in paragraph at lines 89--89
+<2-Resultados/figs/2-Wp10ThetaVar/0-2D_Grid.png, id=1503, 737.00343pt x 355.327
+5pt>
+File: 2-Resultados/figs/2-Wp10ThetaVar/0-2D_Grid.png Graphic file (type png)
+<use 2-Resultados/figs/2-Wp10ThetaVar/0-2D_Grid.png>
+Package pdftex.def Info: 2-Resultados/figs/2-Wp10ThetaVar/0-2D_Grid.png  used o
+n input line 70.
+(pdftex.def)             Requested size: 409.71689pt x 197.5344pt.
+File: 2-Resultados/figs/0-RBar_v.pdf Graphic file (type pdf)
+<use 2-Resultados/figs/0-RBar_v.pdf>
+Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 71.
+
+(pdftex.def)             Requested size: 29.00848pt x 199.6468pt.
+LaTeX Info: Redefining \sptext on input line 76.
+LaTeX Info: Redefining \. on input line 76.
+LaTeX Info: Redefining \% on input line 76.
+ [54 <./2-Resultados/figs/2-Wp10ThetaVar/0-2D_Grid.png>]
+Overfull \hbox (2.75798pt too wide) in paragraph at lines 80--80
 []\T1/cmr/bx/n/6 a)|| 
  []
 
-<2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_p_Stack.pdf, id=1559, 220.81323p
+<2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_p_Stack.pdf, id=1523, 220.81323p
 t x 166.72035pt>
 File: 2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_p_Stack.pdf Graphic file (t
 ype pdf)
 <use 2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_p_Stack.pdf>
 Package pdftex.def Info: 2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_p_Stack.
-pdf  used on input line 91.
+pdf  used on input line 82.
 (pdftex.def)             Requested size: 220.81268pt x 166.71994pt.
 
-Overfull \hbox (2.04404pt too wide) in paragraph at lines 90--91
+Overfull \hbox (2.04404pt too wide) in paragraph at lines 81--82
 []|  [] 
  []
 
 
-Overfull \hbox (3.32034pt too wide) in paragraph at lines 92--92
+Overfull \hbox (3.32034pt too wide) in paragraph at lines 83--83
 []\T1/cmr/bx/n/6 b)|| 
  []
 
-<2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_s.pdf, id=1560, 220.81323pt x 16
+<2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_s.pdf, id=1524, 220.81323pt x 16
 6.72086pt>
 File: 2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_s.pdf Graphic file (type pd
 f)
 <use 2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_s.pdf>
 Package pdftex.def Info: 2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_s.pdf  u
-sed on input line 94.
+sed on input line 85.
 (pdftex.def)             Requested size: 220.81268pt x 166.72044pt.
 
-Overfull \hbox (15.95424pt too wide) in paragraph at lines 94--94
+Overfull \hbox (15.95424pt too wide) in paragraph at lines 85--85
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Info: Redefining \sptext on input line 99.
-LaTeX Info: Redefining \. on input line 99.
-LaTeX Info: Redefining \% on input line 99.
-[55 <./2-Resultados/figs/2-Wp10ThetaVar/0-2D_Grid.png>]
+LaTeX Info: Redefining \sptext on input line 92.
+LaTeX Info: Redefining \. on input line 92.
+LaTeX Info: Redefining \% on input line 92.
+[55]
+<2-Resultados/figs/3-Wp4rVar/0-2D_Grid.png, id=1544, 599.23875pt x 355.3275pt>
+File: 2-Resultados/figs/3-Wp4rVar/0-2D_Grid.png Graphic file (type png)
+<use 2-Resultados/figs/3-Wp4rVar/0-2D_Grid.png>
+Package pdftex.def Info: 2-Resultados/figs/3-Wp4rVar/0-2D_Grid.png  used on inp
+ut line 96.
+(pdftex.def)             Requested size: 341.43306pt x 202.46286pt.
+File: 2-Resultados/figs/0-RBar_v.pdf Graphic file (type pdf)
+<use 2-Resultados/figs/0-RBar_v.pdf>
+Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 97.
+
+(pdftex.def)             Requested size: 29.00848pt x 199.6468pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 LaTeX Info: Redefining \sptext on input line 103.
 LaTeX Info: Redefining \. on input line 103.
 LaTeX Info: Redefining \% on input line 103.
- [56 <./2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_p_Stack.pdf> <./2-Resulta
-dos/figs/2-Wp10ThetaVar/cut_angle_65_s.pdf
+[56 <./2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_p_Stack.pdf> <./2-Resultad
+os/figs/2-Wp10ThetaVar/cut_angle_65_s.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./2-Resultados/figs/2-Wp10ThetaVar/cut_
 angle_65_s.pdf): PDF inclusion: multiple pdfs with page group included in a sin
 gle page
 >]
-<2-Resultados/figs/3-Wp4rVar/0-2D_Grid.png, id=1632, 599.23875pt x 355.3275pt>
-File: 2-Resultados/figs/3-Wp4rVar/0-2D_Grid.png Graphic file (type png)
-<use 2-Resultados/figs/3-Wp4rVar/0-2D_Grid.png>
-Package pdftex.def Info: 2-Resultados/figs/3-Wp4rVar/0-2D_Grid.png  used on inp
-ut line 105.
-(pdftex.def)             Requested size: 341.43306pt x 202.46286pt.
-File: 2-Resultados/figs/0-RBar_v.pdf Graphic file (type pdf)
-<use 2-Resultados/figs/0-RBar_v.pdf>
-Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 106
-.
-(pdftex.def)             Requested size: 29.00848pt x 199.6468pt.
-LaTeX Info: Redefining \sptext on input line 115.
-LaTeX Info: Redefining \. on input line 115.
-LaTeX Info: Redefining \% on input line 115.
- [57 <./2-Resultados/figs/3-Wp4rVar/0-2D_Grid.png>]
-Overfull \hbox (2.75798pt too wide) in paragraph at lines 117--117
+Overfull \hbox (2.75798pt too wide) in paragraph at lines 108--108
 []\T1/cmr/bx/n/6 a)|| 
  []
 
-<2-Resultados/figs/3-Wp4rVar/cut_angle_65_p.pdf, id=1649, 220.81323pt x 166.720
+<2-Resultados/figs/3-Wp4rVar/cut_angle_65_p.pdf, id=1600, 220.81323pt x 166.720
 86pt>
 File: 2-Resultados/figs/3-Wp4rVar/cut_angle_65_p.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/3-Wp4rVar/cut_angle_65_p.pdf>
 Package pdftex.def Info: 2-Resultados/figs/3-Wp4rVar/cut_angle_65_p.pdf  used o
-n input line 119.
+n input line 110.
 (pdftex.def)             Requested size: 220.81268pt x 166.72044pt.
 
-Overfull \hbox (2.04404pt too wide) in paragraph at lines 118--119
+Overfull \hbox (2.04404pt too wide) in paragraph at lines 109--110
 []|  [] 
  []
 
 
-Overfull \hbox (3.32034pt too wide) in paragraph at lines 120--120
+Overfull \hbox (3.32034pt too wide) in paragraph at lines 111--111
 []\T1/cmr/bx/n/6 b)|| 
  []
 
-<2-Resultados/figs/3-Wp4rVar/cut_angle_65_s.pdf, id=1650, 220.81323pt x 166.720
+<2-Resultados/figs/3-Wp4rVar/cut_angle_65_s.pdf, id=1601, 220.81323pt x 166.720
 86pt>
 File: 2-Resultados/figs/3-Wp4rVar/cut_angle_65_s.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/3-Wp4rVar/cut_angle_65_s.pdf>
 Package pdftex.def Info: 2-Resultados/figs/3-Wp4rVar/cut_angle_65_s.pdf  used o
-n input line 122.
+n input line 113.
 (pdftex.def)             Requested size: 220.81268pt x 166.72044pt.
 
-Overfull \hbox (15.95424pt too wide) in paragraph at lines 122--122
+Overfull \hbox (15.95424pt too wide) in paragraph at lines 113--113
  [][] 
- []
-
-
-Overfull \hbox (2.75798pt too wide) in paragraph at lines 144--144
-[]\T1/cmr/bx/n/6 a)|| 
- []
-
-<2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_1.png, id=1655, 460.72125pt x 355.3275
-pt>
-File: 2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_1.png Graphic file (type png)
-<use 2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_1.png>
-Package pdftex.def Info: 2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_1.png  used on
- input line 146.
-(pdftex.def)             Requested size: 299.46526pt x 230.96013pt.
-<2-Resultados/figs/0-IBar_v.pdf, id=1656, 34.1275pt x 233.87375pt>
-File: 2-Resultados/figs/0-IBar_v.pdf Graphic file (type pdf)
-<use 2-Resultados/figs/0-IBar_v.pdf>
-Package pdftex.def Info: 2-Resultados/figs/0-IBar_v.pdf  used on input line 147
-.
-(pdftex.def)             Requested size: 34.1274pt x 238.89189pt.
-
-Overfull \hbox (11.90086pt too wide) in paragraph at lines 145--148
-[]|  [][] 
- []
-
-
-Overfull \hbox (3.32034pt too wide) in paragraph at lines 149--149
-[]\T1/cmr/bx/n/6 b)|| 
- []
-
-<2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_2.png, id=1658, 459.21562pt x 355.3275
-pt>
-File: 2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_2.png Graphic file (type png)
-<use 2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_2.png>
-Package pdftex.def Info: 2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_2.png  used on
- input line 151.
-(pdftex.def)             Requested size: 298.4866pt x 230.96013pt.
-File: 2-Resultados/figs/0-IBar_v.pdf Graphic file (type pdf)
-<use 2-Resultados/figs/0-IBar_v.pdf>
-Package pdftex.def Info: 2-Resultados/figs/0-IBar_v.pdf  used on input line 152
-.
-(pdftex.def)             Requested size: 34.1274pt x 238.89189pt.
-
-Overfull \hbox (13.94453pt too wide) in paragraph at lines 151--153
- [][][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Info: Redefining \sptext on input line 170.
-LaTeX Info: Redefining \. on input line 170.
-LaTeX Info: Redefining \% on input line 170.
+
+Overfull \hbox (2.75798pt too wide) in paragraph at lines 135--135
+[]\T1/cmr/bx/n/6 a)|| 
+ []
+
+<2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_1.png, id=1606, 460.72125pt x 355.3275
+pt>
+File: 2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_1.png Graphic file (type png)
+<use 2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_1.png>
+Package pdftex.def Info: 2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_1.png  used on
+ input line 137.
+(pdftex.def)             Requested size: 299.46526pt x 230.96013pt.
+<2-Resultados/figs/0-IBar_v.pdf, id=1607, 34.1275pt x 233.87375pt>
+File: 2-Resultados/figs/0-IBar_v.pdf Graphic file (type pdf)
+<use 2-Resultados/figs/0-IBar_v.pdf>
+Package pdftex.def Info: 2-Resultados/figs/0-IBar_v.pdf  used on input line 138
+.
+(pdftex.def)             Requested size: 34.1274pt x 238.89189pt.
+
+Overfull \hbox (11.90086pt too wide) in paragraph at lines 136--139
+[]|  [][] 
+ []
+
+
+Overfull \hbox (3.32034pt too wide) in paragraph at lines 140--140
+[]\T1/cmr/bx/n/6 b)|| 
+ []
+
+<2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_2.png, id=1609, 459.21562pt x 355.3275
+pt>
+File: 2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_2.png Graphic file (type png)
+<use 2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_2.png>
+Package pdftex.def Info: 2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_2.png  used on
+ input line 142.
+(pdftex.def)             Requested size: 298.4866pt x 230.96013pt.
+File: 2-Resultados/figs/0-IBar_v.pdf Graphic file (type pdf)
+<use 2-Resultados/figs/0-IBar_v.pdf>
+Package pdftex.def Info: 2-Resultados/figs/0-IBar_v.pdf  used on input line 143
+.
+(pdftex.def)             Requested size: 34.1274pt x 238.89189pt.
+
+Overfull \hbox (13.94453pt too wide) in paragraph at lines 142--144
+ [][][] 
+ []
+
+LaTeX Info: Redefining \sptext on input line 146.
+LaTeX Info: Redefining \. on input line 146.
+LaTeX Info: Redefining \% on input line 146.
+[57 <./2-Resultados/figs/3-Wp4rVar/0-2D_Grid.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (2.75798pt too wide) in paragraph at lines 164--164
+[]\T1/cmr/bx/n/6 a)|| 
+ []
+
+<2-Resultados/figs/5-JCAu/Au_Qexr.pdf, id=1627, 299.44214pt x 228.96478pt>
+File: 2-Resultados/figs/5-JCAu/Au_Qexr.pdf Graphic file (type pdf)
+<use 2-Resultados/figs/5-JCAu/Au_Qexr.pdf>
+Package pdftex.def Info: 2-Resultados/figs/5-JCAu/Au_Qexr.pdf  used on input li
+ne 165.
+(pdftex.def)             Requested size: 224.58104pt x 171.72316pt.
+
+Overfull \hbox (19.7226pt too wide) in paragraph at lines 165--165
+ [][] 
+ []
+
+
+Overfull \hbox (3.32034pt too wide) in paragraph at lines 166--166
+[]\T1/cmr/bx/n/6 b)|| 
+ []
+
+<2-Resultados/figs/6-JCAg/Ag_Qexr.pdf, id=1628, 299.38191pt x 230.82721pt>
+File: 2-Resultados/figs/6-JCAg/Ag_Qexr.pdf Graphic file (type pdf)
+<use 2-Resultados/figs/6-JCAg/Ag_Qexr.pdf>
+Package pdftex.def Info: 2-Resultados/figs/6-JCAg/Ag_Qexr.pdf  used on input li
+ne 167.
+(pdftex.def)             Requested size: 224.53587pt x 173.11998pt.
+
+Overfull \hbox (19.67743pt too wide) in paragraph at lines 167--167
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+LaTeX Info: Redefining \sptext on input line 176.
+LaTeX Info: Redefining \. on input line 176.
+LaTeX Info: Redefining \% on input line 176.
 [58 <./2-Resultados/figs/3-Wp4rVar/cut_angle_65_p.pdf> <./2-Resultados/figs/3-W
 p4rVar/cut_angle_65_s.pdf
 
@@ -3090,91 +3111,60 @@ pdfTeX warning: /usr/bin/pdflatex (file ./2-Resultados/figs/3-Wp4rVar/cut_angle
 _65_s.pdf): PDF inclusion: multiple pdfs with page group included in a single p
 age
 >]
-Overfull \hbox (2.75798pt too wide) in paragraph at lines 173--173
+Overfull \hbox (2.75798pt too wide) in paragraph at lines 178--178
 []\T1/cmr/bx/n/6 a)|| 
  []
 
-<2-Resultados/figs/5-JCAu/Au_Qexr.pdf, id=1698, 299.44214pt x 228.96478pt>
-File: 2-Resultados/figs/5-JCAu/Au_Qexr.pdf Graphic file (type pdf)
-<use 2-Resultados/figs/5-JCAu/Au_Qexr.pdf>
-Package pdftex.def Info: 2-Resultados/figs/5-JCAu/Au_Qexr.pdf  used on input li
-ne 174.
-(pdftex.def)             Requested size: 224.58104pt x 171.72316pt.
+<2-Resultados/figs/5-JCAu/0-2D_Grid.png, id=1663, 1173.38374pt x 809.0225pt>
+File: 2-Resultados/figs/5-JCAu/0-2D_Grid.png Graphic file (type png)
+<use 2-Resultados/figs/5-JCAu/0-2D_Grid.png>
+Package pdftex.def Info: 2-Resultados/figs/5-JCAu/0-2D_Grid.png  used on input 
+line 179.
+(pdftex.def)             Requested size: 194.61488pt x 134.17426pt.
+File: 2-Resultados/figs/0-RBar_v.pdf Graphic file (type pdf)
+<use 2-Resultados/figs/0-RBar_v.pdf>
+Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 179
+.
+(pdftex.def)             Requested size: 20.47664pt x 137.91629pt.
 
-Overfull \hbox (19.7226pt too wide) in paragraph at lines 174--174
- [][] 
+Overfull \hbox (10.23308pt too wide) in paragraph at lines 179--180
+[][][] 
  []
 
 
-Overfull \hbox (3.32034pt too wide) in paragraph at lines 175--175
+Overfull \hbox (3.32034pt too wide) in paragraph at lines 181--181
 []\T1/cmr/bx/n/6 b)|| 
  []
 
-<2-Resultados/figs/6-JCAg/Ag_Qexr.pdf, id=1699, 299.38191pt x 230.82721pt>
-File: 2-Resultados/figs/6-JCAg/Ag_Qexr.pdf Graphic file (type pdf)
-<use 2-Resultados/figs/6-JCAg/Ag_Qexr.pdf>
-Package pdftex.def Info: 2-Resultados/figs/6-JCAg/Ag_Qexr.pdf  used on input li
-ne 176.
-(pdftex.def)             Requested size: 224.53587pt x 173.11998pt.
+<2-Resultados/figs/6-JCAg/0-2D_Grid.png, id=1665, 1171.37625pt x 804.00375pt>
+File: 2-Resultados/figs/6-JCAg/0-2D_Grid.png Graphic file (type png)
+<use 2-Resultados/figs/6-JCAg/0-2D_Grid.png>
+Package pdftex.def Info: 2-Resultados/figs/6-JCAg/0-2D_Grid.png  used on input 
+line 182.
+(pdftex.def)             Requested size: 194.61488pt x 132.7412pt.
+File: 2-Resultados/figs/0-RBar_v.pdf Graphic file (type pdf)
+<use 2-Resultados/figs/0-RBar_v.pdf>
+Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 182
+.
+(pdftex.def)             Requested size: 20.47664pt x 137.91629pt.
 
-Overfull \hbox (19.67743pt too wide) in paragraph at lines 176--176
- [][] 
+Overfull \hbox (10.23308pt too wide) in paragraph at lines 182--182
+ [][][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Info: Redefining \sptext on input line 185.
-LaTeX Info: Redefining \. on input line 185.
-LaTeX Info: Redefining \% on input line 185.
+LaTeX Info: Redefining \sptext on input line 187.
+LaTeX Info: Redefining \. on input line 187.
+LaTeX Info: Redefining \% on input line 187.
 [59 <./2-Resultados/figs/0-IBar_v.pdf> <./2-Resultados/figs/5-RT-Wp4-10/0-2D_Gr
 id_1.png> <./2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_2.png>]
-Overfull \hbox (2.75798pt too wide) in paragraph at lines 187--187
-[]\T1/cmr/bx/n/6 a)|| 
- []
-
-<2-Resultados/figs/5-JCAu/0-2D_Grid.png, id=1719, 1173.38374pt x 809.0225pt>
-File: 2-Resultados/figs/5-JCAu/0-2D_Grid.png Graphic file (type png)
-<use 2-Resultados/figs/5-JCAu/0-2D_Grid.png>
-Package pdftex.def Info: 2-Resultados/figs/5-JCAu/0-2D_Grid.png  used on input 
-line 188.
-(pdftex.def)             Requested size: 194.61488pt x 134.17426pt.
-File: 2-Resultados/figs/0-RBar_v.pdf Graphic file (type pdf)
-<use 2-Resultados/figs/0-RBar_v.pdf>
-Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 188
-.
-(pdftex.def)             Requested size: 20.47664pt x 137.91629pt.
-
-Overfull \hbox (10.23308pt too wide) in paragraph at lines 188--189
-[][][] 
- []
-
-
-Overfull \hbox (3.32034pt too wide) in paragraph at lines 190--190
-[]\T1/cmr/bx/n/6 b)|| 
- []
-
-<2-Resultados/figs/6-JCAg/0-2D_Grid.png, id=1721, 1171.37625pt x 804.00375pt>
-File: 2-Resultados/figs/6-JCAg/0-2D_Grid.png Graphic file (type png)
-<use 2-Resultados/figs/6-JCAg/0-2D_Grid.png>
-Package pdftex.def Info: 2-Resultados/figs/6-JCAg/0-2D_Grid.png  used on input 
-line 191.
-(pdftex.def)             Requested size: 194.61488pt x 132.7412pt.
-File: 2-Resultados/figs/0-RBar_v.pdf Graphic file (type pdf)
-<use 2-Resultados/figs/0-RBar_v.pdf>
-Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 191
-.
-(pdftex.def)             Requested size: 20.47664pt x 137.91629pt.
-
-Overfull \hbox (10.23308pt too wide) in paragraph at lines 191--191
- [][][] 
- []
-
-LaTeX Info: Redefining \sptext on input line 198.
-LaTeX Info: Redefining \. on input line 198.
-LaTeX Info: Redefining \% on input line 198.
-[60 <./2-Resultados/figs/6-JCAg/0-2D_Grid.png> <./2-Resultados/figs/5-JCAu/Au_Q
-exr.pdf> <./2-Resultados/figs/6-JCAg/Ag_Qexr.pdf
+LaTeX Info: Redefining \sptext on input line 189.
+LaTeX Info: Redefining \. on input line 189.
+LaTeX Info: Redefining \% on input line 189.
+ [60 <./2-Resultados/figs/6-JCAg/0-2D_Grid.png> <./2-Resultados/figs/5-JCAu/Au_
+Qexr.pdf> <./2-Resultados/figs/6-JCAg/Ag_Qexr.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./2-Resultados/figs/6-JCAg/Ag_Qexr.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
@@ -3219,61 +3209,39 @@ LaTeX Info: Redefining \% on input line 90.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 90.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 90.
  (./tesis.aux
-
-Package pdfbase Warning: Rerun to get internal references right!
-
 LaTeX Info: Redefining \sptext on input line 35.
 LaTeX Info: Redefining \. on input line 35.
 LaTeX Info: Redefining \% on input line 35.
+
 (./0-4-Introduccion/1-Motivacion-Estructura.aux)
 (./1-Teoria/1-Nociones-Basicas.aux) (./1-Teoria/2-Solucion-de-Mie.aux)
 (./1-Teoria/3-Respuesta-EM-materiales.aux) (./1-Teoria/4-CSM.aux)
 (./2-Resultados/1-Drude.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 90.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 90.
+Package rerunfilecheck Info: File `tesis.out' has not changed.
+(rerunfilecheck)             Checksum: 3DECFEEFA773EF1BD3603321DBE340F2;1555.
 
-
-Package rerunfilecheck Warning: File `tesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `tesis.out':
-(rerunfilecheck)             Before: 483288F9385E3ABA39DC437A314CDE81;1991
-(rerunfilecheck)             After:  3DECFEEFA773EF1BD3603321DBE340F2;1555.
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
-
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                tesis
-(biblatex)                and rerun LaTeX afterwards.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package logreq Info: Writing requests to 'tesis.run.xml'.
 \openout1 = `tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 60324 strings out of 492616
- 1342202 string characters out of 6135178
+ 60271 strings out of 492616
+ 1341134 string characters out of 6135178
  1930542 words of memory out of 5000000
- 62824 multiletter control sequences out of 15000+600000
+ 62809 multiletter control sequences out of 15000+600000
  570478 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,26n,103p,2028b,2973s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.caption.43} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.44} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.41} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.19} has been referenced but does not exis
-t, replaced by a fixed one
+ 70i,26n,103p,2295b,2973s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.19} has been referenced but does not ex
+ist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.18} has been referenced but does not exis
 t, replaced by a fixed one
@@ -3281,23 +3249,11 @@ t, replaced by a fixed one
 pdfTeX warning (dest): name{Hfootnote.17} has been referenced but does not exis
 t, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.23} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{AMS.20} has been referenced but does not exist, rep
-laced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.17} has been referenced but does not
- exist, replaced by a fixed one
-
 pdfTeX warning (dest): name{Hfootnote.16} has been referenced but does not exis
 t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.15} has been referenced but does not exis
 t, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.16} has been referenced but does not
- exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.14} has been referenced but does not exis
 t, replaced by a fixed one
@@ -3341,30 +3297,6 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{section*.49} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter*.47} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.2.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.2.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.3.1} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.3} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter*.5} has been referenced but does not exist,
- replaced by a fixed one
-
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmbx6.pfb></usr/share/texmf-dist/fonts/type1/public/am
@@ -3401,10 +3333,10 @@ f-dist/fonts/type1/public/cm-super/sfti0800.pfb></usr/share/texmf-dist/fonts/ty
 pe1/public/cm-super/sfti0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-s
 uper/sfti1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1095.p
 fb>
-Output written on tesis.pdf (72 pages, 7004916 bytes).
+Output written on tesis.pdf (72 pages, 7002741 bytes).
 PDF statistics:
- 2229 PDF objects out of 2487 (max. 8388607)
- 1855 compressed objects within 19 object streams
- 379 named destinations out of 1000 (max. 500000)
- 668 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2184 PDF objects out of 2487 (max. 8388607)
+ 1810 compressed objects within 19 object streams
+ 364 named destinations out of 1000 (max. 500000)
+ 620 words of extra memory for PDF output out of 10000 (max. 10000000)
 
