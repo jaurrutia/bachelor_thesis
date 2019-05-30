@@ -55,11 +55,11 @@
       <file>blx-compat.def</file>
       <file>blx-bibtex.def</file>
       <file>biblatex.def</file>
-      <file>trad-abbrv.bbx</file>
-      <file>trad-standard.bbx</file>
       <file>standard.bbx</file>
-      <file>trad-abbrv.cbx</file>
+      <file>trad-standard.bbx</file>
+      <file>trad-abbrv.bbx</file>
       <file>numeric.cbx</file>
+      <file>trad-abbrv.cbx</file>
       <file>biblatex.cfg</file>
       <file>spanish.lbx</file>
     </requires>
