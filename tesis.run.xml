@@ -41,7 +41,7 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="0">
+  <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
       <file>tesis.aux</file>
@@ -55,11 +55,11 @@
       <file>blx-compat.def</file>
       <file>blx-bibtex.def</file>
       <file>biblatex.def</file>
-      <file>standard.bbx</file>
-      <file>trad-standard.bbx</file>
       <file>trad-abbrv.bbx</file>
-      <file>numeric.cbx</file>
+      <file>trad-standard.bbx</file>
+      <file>standard.bbx</file>
       <file>trad-abbrv.cbx</file>
+      <file>numeric.cbx</file>
       <file>biblatex.cfg</file>
       <file>spanish.lbx</file>
     </requires>
