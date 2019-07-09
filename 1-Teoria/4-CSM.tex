@@ -1,13 +1,13 @@
 \section{Modelo de esparcimiento coherente}
 
 
-La solución de Mie, en conjunto con la corrección por tamaño de la función dieléctrica para algún material, permite estudiar la respuesta electromagnética (EM) de una nanopartícula (NP) esférica individual, tales como los plasmones localizados de superficies (Localized Surface Plasmons, LSPs), lo cuales son empleados en la espectroscopía \cite{novotny2006principles}, el sensado \cite{jain2008noble}, la litografía \cite{stockman2011nanoplasmonics}. Sin embargo, no siempre es posible emplear la respuesta EM de una partícula individual para la descripción del sistema por lo que se han empleado diversos enfoques entre los que se encuentran la aproximación cuasiestática y las teorías de esparcimiento \cite{pena-gomar2006coherent}. En el caso límite de partícula pequeña, donde el parámetro de tamaño $x=ka= 2\pi n_m$, con $n_m$  el índice de refracción del medio donde se encuentra inmersa NP, es mucho menor que la unidad, es posble emplear  la aproximación cuasiestática, que considera que sólo la excitación dipolar contribuye al campo total. En partícular, para la reflectancia de una monocapa de NPs, la aproximación cuasiestática conduce a una teoría de medio efectivo \cite{pena-gomar2006coherent}. Sin embargo, cuando  el parámetro de tamaño es comparable o mayor a la unidad, una teoría de esparcimiento es necesaria, debido a la inducción de multipolos de ordenes mayores \cite{pena-gomar2006coherent}. El modelo de esparcimiento coeherente (CSM) toma en cuenta la interacción de esparcidores puntuales ante la presencia de un campo eléctrico promedio; este acercamiento además incluye la contribución del esparcimiento múltiple debido a la interacción entre las NPs.
+La solución de Mie, en conjunto con la corrección por tamaño a la función dieléctrica para algún material, permite estudiar la respuesta electromagnética de una NP esférica individual, tales como los plasmones localizados de superficie (Localized Surface Plasmons, LSPs), empleados en la espectroscopía \cite{novotny2006principles}, el sensado \cite{jain2008noble} y la litografía \cite{stockman2011nanoplasmonics}. Sin embargo, no siempre es posible emplear la respuesta EM de una partícula individual para la descripción de un sistema compuesto de muchas partículas, por lo que se han empleado diversos enfoques entre los que se encuentran la aproximación cuasiestática y las teorías de esparcimiento múltiple \cite{pena-gomar2006coherent}. En el caso límite de partícula pequeña, donde el parámetro de tamaño $x=ka$, con $k$ es el número de onda dentro de la matriz donde se encuentran inmersas las NP, suponiéndoles esféricas con un radio $a$, es mucho menor que la unidad, es posible emplear  la aproximación cuasiestática, que considera que sólo la excitación dipolar contribuye al campo total. En partícular, para la reflectancia de una monocapa de NPs, la aproximación cuasiestática conduce a una teoría de medio efectivo \cite{pena-gomar2006coherent,barrera1991optical}. Sin embargo, cuando  el parámetro de tamaño es comparable o mayor a la unidad, una teoría de esparcimiento múltiple es necesaria, debido a la inducción de multipolos de ordenes mayores \cite{pena-gomar2006coherent}. El modelo de esparcimiento coeherente (Coherent Scattering Model, CSM) toma en cuenta la interacción de esparcidores ante la presencia de un campo eléctrico promedio; este acercamiento además incluye la contribución del esparcimiento múltiple debido a la interacción entre las NPs \cite{reyes2018analytical}.
     
-    El cálculo de las expresiones de reflectancia y transmitancia en el formalismo del CSM considera el campo eléctrico total esparcido por una monocapa de NPs. En general, éste puede descomponerse en una componente coherente ---respuesta promedio con una dirección de propagación bien definida--- y una componente difusa ---causada por las fluctuaciones y cuya propagación es en todas las direcciones--- \cite{tsang2000scattering}. Para definir los coeficientes de amplitud de reflexión y transmisión de la manera usual, se toma en cuenta  únicamente la componente coherente al asumir que la difusa es mucho menor que la coherente. Asimismo, primero se calculan los coeficientes de amplitud de reflexión y transmisión de una monocapa de NPs suspendida en el espacio libre (Free Standing Monolayer, FSM), es decir, inmersa en un medio dieléctrico denominado matriz, seguido del efecto de introducir una interfaz con un medio denominado sustrato. La reflectancia del sistema sustrato-matriz-monocapa se resuelve al considerar  multiples reflexiones en la interfaz entre las superficies dadas por la interfaz sutrato-matriz y matriz-monocapa. Este acercamiento evita el  cálculo de la contribución de partículas \emph{imagen} causadas por la  interfaz entre los dieléctricos y es consistente con la aproximación de campo efectivo ---en donde el campo eléctrico local es aproximado por el campo eléctrico promedio--- \cite{reyes2018analytical}.
+    El cálculo de las expresiones para la reflectancia y la transmitancia en el formalismo del CSM considera el campo eléctrico total esparcido por una monocapa de NPs. En general, éste puede descomponerse en una componente coherente ---respuesta promedio con una dirección de propagación bien definida--- y una componente difusa ---causada por las fluctuaciones y cuya propagación es en todas las direcciones--- \cite{tsang2000scattering}, como se muestra en la Fig. \ref{fig:CSM-Slab} en donde un arreglo desordenado de NPs inmersas en una matriz se ilumina por una onda plana en la dirección $\vb{k}^i$, y donde las flechas rojas corresponden a los vectores de onda del campo eléctrico esparcido por NPs en la dirección coeherente, mientras que las rosas corresponden a los vectores de onda del campo eléctrico esparcido difuso. Para definir los coeficientes de amplitud de reflexión y transmisión para una arreglo desordenado de NPs inmersas en una matriz, se toma en cuenta  únicamente la componente coherente al asumir que la difusa es mucho menor \cite{reyes2018analytical}. Asimismo, primero se calculan los coeficientes de amplitud de reflexión y transmisión de una monocapa de NPs suspendida en el espacio libre (Free Standing Monolayer, FSM), es decir, inmersa en un medio dieléctrico denominado matriz, seguido del efecto de introducir una interfaz con un medio denominado sustrato. La reflectancia del sistema sustrato-matriz-monocapa se resuelve al considerar  multiples reflexiones en la interfaz entre las superficies dadas por la interfaz sutrato-matriz y matriz-monocapa. Este acercamiento evita el  cálculo de la contribución de partículas \emph{imagen} causadas por la  interfaz entre los dieléctricos y es consistente con la aproximación de campo efectivo ---en donde el campo eléctrico local es aproximado por el campo eléctrico promedio--- \cite{reyes2018analytical}.
  
 \subsection{Monocapa suspendida en el espacio libre}
  
-Para calcular los coeficientes de amplitud de reflexión y transmisión del CSM se calcula el campo eléctrico promedio esparcido por las NPs dentro de la región del espacio, caracterizado en su totalidad por el índice de refracción real $n_m$, delimitada por  $-d/2<z<d/2$, una placa de longitud $d$ y volumen $V$, en donde se encuentran $N$ NPs esféricas e idénticas y distribuidas espacialmente de forma aleatoria. Si una onda plana $\vb{E}^i = E_0 e^{i\vb{k}^i\cdot\vb{r}}\vu{e}_i$, donde se omite la dependecia temporal, y donde $\vu{e}_i$ es un vector en el plano de polarización de la onda plana y $|\vb{k}^i| = k = 2\pi n_m /\lambda$, incide sobre la placa, el campo eléctrico esparcido  por las NPs dentro de la placa $\vb{E}^s$, al suponer que la densidad $N/V$ es baja, puede calcularse bajo la aproximación de esparcidor individual (Single Scatterer Approximation, SSA), en donde cada NP esparce la luz sin considerar la interacción entre el campo eléctrico esparcido por las otras \cite{barrera2003coherent}. 
+Para calcular los coeficientes de amplitud de reflexión y transmisión del CSM se calcula el campo eléctrico promedio esparcido por las NPs dentro de la región del espacio, caracterizado por un índice de refracción real $n_m$, delimitada por  $-d/2<z<d/2$, una placa de grosor $d$ y volumen $V$, en donde se encuentran $N$ nanopartículas esféricas idénticas y distribuidas espacialmente de forma aleatoria, como se observa en la Fig. \ref{fig:CSM-Slab}. Si una onda plana $\vb{E}^i = E_0 e^{i\vb{k}^i\cdot\vb{r}}\vu{e}_i$, donde se omite la dependecia temporal, y con $\vu{e}_i$ un vector en el plano de polarización de la onda plana y $|\vb{k}^i| = k = 2\pi n_m /\lambda$, incide sobre la placa, el campo eléctrico esparcido  por las NPs dentro de la placa $\vb{E}^s$, al suponer que la densidad $N/V$ es baja, puede calcularse bajo la aproximación de esparcimiento individual (Single Scattering Approximation, SSA), en donde cada NP esparce la luz sin considerar la interacción entre el campo eléctrico esparcido por las otras \cite{barrera2003coherent}. al considerar la interacción del campo eléctrico incidente en la dirección $\vb{k}^i$ con las $N$ nanopartículas dentro de la placa, el campo eléctrico esparcido por todas las partículas tiene componentes espaciales en todas las direcciones, por lo que le campo eléctrico esparcido puede descomponerse en una componente coherente y una difusa, representadas en la Fig. \ref{fig:CSM-Slab} mediante las flechas rojas y rosas, respectivamente.
 
 \begin{figure}[h!]\centering
 	\begin{tikzpicture}[scale=1]
@@ -57,11 +57,10 @@ Para calcular los coeficientes de amplitud de reflexión y transmisión del CSM 
 \draw[ |-|, thick,] (5.5,-\d) node[anchor = north]{$z=-d/2$} -- (5.5,\d) node[anchor = south]{$z=d/2$};
 \node at (-4.5,1) {$\; n_m$};
 \end{tikzpicture}
-	\caption{  Película de grosor $d$ con y volumen $V$ con $N$ partículas esféricas idénticas y una onda incidente en la dirección $\vb{k}^i$. La dirección de los campos esparcidos coeherentes están dadas por $\vb{k}^r_{coh}$ y $\vb{k}^t_{coh}$. Las flechas rojas sólidas representan las componentes coehrentes del campo esparcido mientras que las rosas represetan su componente difusa. }\label{fig:CSM-Slab}
+	\caption{  Película de grosor $d$ y volumen $V$ con $N$ partículas esféricas idénticas y una onda incidente en la dirección $\vb{k}^i$. La dirección de los campos esparcidos coeherentes están dadas por $\vb{k}^r_{coh}$ y $\vb{k}^t_{coh}$. Las flechas rojas sólidas representan las componentes coehrentes del campo esparcido mientras que las rosas represetan su componente difusa. }\label{fig:CSM-Slab}
 	\end{figure}
 
-
-Al considerar la interacción del campo eléctrico incidente con las $N$ NPs dentro de la placa, el campo eléctrico esparcido por todas las partículas tiene componentes espaciales en todas las direcciones, por lo que le campo eléctrico esparcido puede descomponerse en una componente coherente y una difusa. El  campo eléctrico esparcido promedio $\langle \vb{E}^s\rangle$, que corresponde a la componente coherente, se calcula al considerar el promedio espacial de las NPs dentro de la placa al suponer que la posición de una NPs es independiente de la de las demás y que la probabilidad de encontrar el centro de una NPs, punto negro dentro de las NPs en la Fig. \ref{fig:CSM-Slab},  dentro del volumen de la placa es uniforme, por lo que la componente coherente del campo esparcido es  \cite{garcia2012multiple} 
+El  campo eléctrico esparcido promedio $\langle \vb{E}^s\rangle$, que corresponde a la componente coherente, se calcula al considerar el promedio espacial de las NPs dentro de la placa al suponer que la posición de una NPs es independiente de la de las demás y que la probabilidad de encontrar el centro de una NPs (punto negro dentro de las NPs en la Fig. \ref{fig:CSM-Slab}) dentro del volumen de la placa es uniforme, por lo que la componente coherente del campo esparcido es  \cite{garcia2012multiple} 
 	\begin{align}
 	\langle \vb{E}^s\rangle =
 	\begin{dcases} 
@@ -75,49 +74,51 @@ Al considerar la interacción del campo eléctrico incidente con las $N$ NPs den
    \end{dcases}
    	\label{eq:AvErEt}
 	\end{align}
-en donde $k^i_z = k^i\cos\theta$; $\vb{k}^i$ es el vector de onda del campo eléctrico incidente $\vb{E}^i = \vb{E}_0 e^{i\vb{k}^i\cdot\vb{r}}$, polarizado en la dirección $\vu{e}_i$; $\vb{k}^r_{coh}$ es la dirección de propagación de la componente coherente reflejada; $\vb{k}^t_{coh}=\vb{k}^i$, de la componente coherente transmitida; y $\mathbb{F}$ es la diadica de esparcimiento de campo lejano [Ec. \eqref{eq:FarFieldDyadic}] que depende de la dirección de propagación de la onda plana incidente $\vb{k}^i$ y la del campo esparcido $\vb{k}^s$; el término de $\mathbb{F}$ no limita la solución del campo eléctrico esparcido promedio al campo lejano puesto que es un resultado derivado del promediar la respuesta EM \cite{gutierrez2012overview}. En la Fig, \ref{fig:CSM-Slab} se observa que la dirección de propagación de  $\langle \vb{E}^s_{r,SSA}\rangle$ en $d/2<z$ y la de $\langle \vb{E}^s_{t,SSA}\rangle$ en  $z<-d/2$ es de $\theta$ respecto a la dirección normal a la monocapa (sitema coordenado azul). Asimismo, se muestra en rojo claro la componente difusa del campo eléctrico esparcido que, al calcular el campo esparcido promedio, es nula. A diferencia la componente difusa, la componente coherente del campo eléctrico esparcido es distinta de cero ya que los campos eléctricos esparcidos por cada NP en la placa interfieren constructivamente en las direcciones de esparcimiento $\vu{k}^s =\vu{k}^i=\vu{k}^t_{coh}$ y $\vu{k}^s =\vu{k}^r_{coh}$ \cite{garcia2012multiple}. Puesto que las NPs dentro de la placa son esféricas e idénticas, se calcula la expresión de la diadica de esparcimiento $\mathbb{F}(\vu{k}^s,\vu{k}^i)$ al comparar su expresión general [Ec. \eqref{eq:FarFieldDyadic}] con la matriz de esparcimiento de Mie [Ec. \eqref{eq:MieMatrix}], por lo que la diadica de esparcimiento de campo lejano es
+en donde $k^i_z = k^i\cos\theta$; $\vb{k}^i$ es el vector de onda del campo eléctrico incidente $\vb{E}^i = \vb{E}_0 e^{i\vb{k}^i\cdot\vb{r}}$, polarizado en la dirección $\vu{e}_i$; $\vb{k}^r_{coh}$ es la dirección de propagación de la componente coherente reflejada; $\vb{k}^t_{coh}=\vb{k}^i$ es la dirección de propagación de la componente coherente transmitida; y $\mathbb{F}$ es el operador de esparcimiento de campo lejano [Ec. \eqref{eq:FarFieldDyadic}] que depende de la dirección de propagación de la onda plana incidente $\vb{k}^i$ y la del campo esparcido $\vb{k}^s$. El término de $\mathbb{F}$ no limita la solución del campo eléctrico esparcido promedio al campo lejano puesto que es un resultado derivado del promediar la respuesta EM \cite{gutierrez2012overview}.
+
+En la Fig. \ref{fig:CSM-Slab} se observa que la dirección de propagación de  $\langle \vb{E}^s_{r,SSA}\rangle$ en $d/2<z$, dada por el vector de onda $\vb{k}^r_{coh}$ y la de $\langle \vb{E}^s_{t,SSA}\rangle$ en  $z<-d/2$, dada por $\vb{k}^t_{coh}$, crean un ángulo $\theta$ respecto a la dirección normal a la monocapa (sitema coordenado azul). A diferencia la componente difusa (flechas rosas), la componente coherente del campo eléctrico esparcido es distinta de cero al calcular el promedio espacial, ya que los campos eléctricos esparcidos por cada NP en la placa interfieren constructivamente en las direcciones de esparcimiento $\vu{k}^s =\vu{k}^i=\vu{k}^t_{coh}$ y $\vu{k}^s =\vu{k}^r_{coh}$ \cite{garcia2012multiple}. Puesto que las NPs dentro de la placa son esféricas e idénticas, se calcula la expresión del operador de esparcimiento $\mathbb{F}(\vu{k}^s,\vu{k}^i)$ al comparar su expresión general [Ec. \eqref{eq:FarFieldDyadic}] con la matriz de esparcimiento de Mie [Ec. \eqref{eq:MieMatrix}], por lo que el operador de esparcimiento de campo lejano es
 	\begin{align}
 	\mathbb{F}(\vu{k}^s,\vu{k}^i) = \frac{1}{-ik} 
 	 \mqty(S_2(\vartheta) & 0 \\ 0 & S_1(\vartheta)),
 	 \label{eq:FFDydadic-Mie}
 	\end{align}
-en donde ángulo entre la dirección del campo esparcido $\vu{k}^s$ y del campo incidente $\vu{k}^i$, se denota con $\vartheta$ que toma los valores $\vartheta = 0$ para $\vu{k}^s = \vu{k}^t_{coh}$ y $\vartheta = \pi-2\theta$  para $\vu{k}^s = \vu{k}^r_{coh}$ como se observa en la Fig. \ref{fig:CSM-Slab}.
+en donde ángulo entre la dirección del campo esparcido $\vu{k}^s$ y del campo incidente $\vu{k}^i$, se denota con $\vartheta$, con $\vartheta = 0$ para $\vu{k}^s = \vu{k}^t_{coh}$ y $\vartheta = \pi-2\theta$  para $\vu{k}^s = \vu{k}^r_{coh}$, como se observa en la Fig. \ref{fig:CSM-Slab}.
 	
-Al sustituir la Ec. \eqref{eq:FFDydadic-Mie} en la Ec. \eqref{eq:AvErEt} y multiplicar las expresiones resultantes por $(3ka^3)/(3ka^3)$, con $a$ el radio de las NPs y $k = 2\pi n_m /\lambda$, y agrupar términos, se llegan a las expresiones 
+Al sustituir la Ec. \eqref{eq:FFDydadic-Mie} en la Ec. \eqref{eq:AvErEt} y multiplicar las expresiones resultantes por $(3ka^3)/(3ka^3)$, con $a$ el radio de las NPs y $k = 2\pi n_m /\lambda$, y agrupar términos, se obtienen las expresiones 
 	\begin{subequations}\begin{align}
 		\langle \vb{E}^s_{r,SSA}\rangle & = - \frac{E_0}{\cos\theta_i} \frac32  \qty(\frac{N}{V} \frac43\pi a^3)\frac{kd}{(ka)^3}   \frac{\sin(k_z^id)}{k_z^i d}  S_n(\vartheta)\vu{e}_i =
 		-\alpha  \frac{\sin(k_z^id)}{k_z^i d}   S_n(\vartheta) \vb{E}_0,
 		\label{eqs:EsSSAr}\\
 	\langle \vb{E}^s_{t,SSA}\rangle &=  - \frac{E_0}{\cos\theta_i} \frac32
 						 \qty(\frac{N}{V}\frac43\pi a^3  ) \frac{kd}{(ka)^3}  S_n(0) \vu{e}_i  
-						 = - \alpha S(0) \vb{E}_0
+						 = - \alpha S(0) \vb{E}_0,
 		\label{eqs:EsSSAt}
 	\end{align}\label{eq:EsSSA}\end{subequations}
-donde  se emplea $n=1$ para polarización $s$ y $n_2$ para $p$ en las entradas no nulas de la matriz de esparcimiento de Mie $S_n(\vartheta)$ y donde se define $S(0) \equiv S_1(0)=S_2(0)$. Al sustituir con el parámetro de tamaño $x=ka$ se obtiene que  
+donde  se emplea $n=1$ para polarización $s$ y $n=2$ para $p$ en las entradas no nulas de la matriz de esparcimiento de Mie $S_n(\vartheta)$ y donde se define $S(0) \equiv S_1(0)=S_2(0)$. La expresión de $\alpha$ en las Ecs. \eqref{eq:EsMS} en términos del parámetro de tamaño $x=ka$ es
 \begin{align*}
 	\alpha \equiv \frac32 \qty(\frac{N}{V}\frac43 \pi a^3  )\frac{kd}{x^3\cos\theta_i} = \frac32\frac{kd}{ x^3\cos\theta_i} f,
 	\end{align*}
-con $f= N 4\pi a^3/(3V)$ la fracción de llenado que es el cociente entre el neto de las NPs entre el volumen de la placa. Si se considera el límite $d\to 0$, lo que equivale a tener una monocapa de partículas esféricas desordenadas y al asumir que la componente difusa del campo esparcido por las partículas es despreciable en comparación a la componente coherente, es posible definir los coeficientes de amplitud de reflexión y transimisión en la SSA a partir de las Ecs. \eqref{eq:EsSSA} como \vspace*{-.75em}	
+con $f= N 4\pi a^3/(3V)$ la fracción volumétrica de llenado, que es el cociente entre el volumen de todas las NPs de la placa entre el volumen de ésta. Si se considera el límite $d\to 0$, lo que equivale a tener una monocapa de partículas esféricas desordenadas y al asumir que la componente difusa del campo esparcido por las partículas es despreciable en comparación a la componente coherente, es posible definir los coeficientes de amplitud de reflexión y transimisión en la SSA a partir de las Ecs. \eqref{eq:EsSSA} como
 	
 	\begin{subequations}\eqhalf{r_{coh}^{SSA} = -\alpha S_n(\vartheta),}
 	\eqhalf{t_{coh}^{SSA} = 1 - \alpha S(0), }
-	\label{eqs:rtcohSSA}\end{subequations}\vspace*{-.75em}	
+	\label{eqs:rtcohSSA}\end{subequations}\vspace*{-1em}	
 	
-\noindent en donde para el coeficiente de amplitud de transmisión se suma la contribución de la onda plana a la Ec. \eqref{eqs:EsSSAt}, y al considerar que $V = A d$, el coeficiente $\alpha$ se reescribe como
+\noindent considerando para el coeficiente de amplitud de transmisión la contribución de la onda plana incidente en la Ec. \eqref{eqs:EsSSAt}, y al considerar que $V = A d$, el coeficiente $\alpha$ se reescribe como
 	\begin{align}
-	\alpha = \frac{2\Theta}{x^2 \cos\theta_i}
+	\alpha = \frac{2\Theta}{x^2 \cos\theta_i},
 	\label{eq:alpha}
 	\end{align}
-donde $\Theta = N \pi a^2 / A$ es la fracción de cubierta que corresponde al área proyectada por las esferas sobre el área de la placa. La distancia promedio $\langle d \rangle$ entre las NPs de una monocapa se relaciona con su fracción de cubierta $\Theta$ mediante la expresión $\Theta = \pi a^2 / (2a+\langle d \rangle)^2$, como se observa en la Fig. \ref{fig:MeanD}. Entonces, la separación promedio entre las NPs de la monocapa es
+donde $\Theta = N \pi a^2 / A$ es la fracción de cubierta, que corresponde al área proyectada por las esferas sobre el área de la placa. La distancia promedio $\langle d \rangle$ entre las NPs de una monocapa se relaciona con su fracción de cubierta $\Theta$ mediante la expresión $\Theta = \pi a^2 / (2a+\langle d \rangle)^2$, como se observa en la Fig. \ref{fig:MeanD}. Entonces, la separación promedio entre las NPs de la monocapa es
 	\begin{equation}
 	\frac{\langle d \rangle}{a} = \sqrt{\frac{\pi}{\Theta}}-2,
 	\label{eq:MeanD}
 	\end{equation}
-de donde se deduce que el valor máximo de $\Theta$ es $0.78$, cuando $\langle d\rangle=0$, y que cuando $\langle d \rangle = a$ se cumple que $\Theta = \pi/9\approx 0.349$. El cociente entre la distancia promedio entre NPs y su radio se calcula para algunos valores en la Tab. \ref{tab:MeanD}
+de donde se deduce que el valor máximo de $\Theta$ es $0.78$, cuando $\langle d\rangle=0$, y que cuando $\langle d \rangle = a$ se cumple que $\Theta = \pi/9\approx 0.349$. El cociente entre la distancia promedio entre NPs y su radio se calcula para algunos valores en la Tab. \ref{tab:meanD}
 
 \begin{table}[h!] \centering
 	\caption{Cociente entre la distancia promedio $\langle d\rangle$ entre NPs y su radio $a$, para una monocapa de NPs esféricas e idénticas con fracción de cubierta $\Theta$}
-	\label{tab:30nm}\vspace*{-1em}
+	\label{tab:meanD}\vspace*{-1em}
 	\begin{tabular}{c || c c c c c c c c}
 	\hline \hline
 	$\Theta$ & $0.05$ & $0.1$ & $0.2$ & $0.3$ & $0.4$ & $0.5$ & $0.6$ & $0.7$\\
@@ -163,17 +164,17 @@ de donde se deduce que el valor máximo de $\Theta$ es $0.78$, cuando $\langle d
 \node at (\ll+.5, 0){$\langle d \rangle$};
 
 \end{tikzpicture}
-		\caption{  Vista a cero grados de desde la normal de una monocapa de NPs de radio $a$ con fracción de cubierta $\Theta$ sobre un sustrato. La separación promedio entre las NPs es $\langle d \rangle$, por lo que el área total del cuadrado es $2a+\langle d \rangle$, el de una NP es $\pi a^2$ y por tanto $\Theta= \pi a^2 / (2a+\langle d \rangle)^2$.}\label{fig:MeanD}
+		\caption{  Vista a cero grados de desde la normal de una monocapa de NPs de radio $a$ con fracción de cubierta $\Theta$ sobre un sustrato. La separación promedio entre las NPs es $\langle d \rangle$, por lo que el área total del cuadrado es $(2a+\langle d \rangle)^2$, el de una NP es $\pi a^2$ y por tanto $\Theta= \pi a^2 / (2a+\langle d \rangle)^2$.}\label{fig:MeanD}
 	\end{figure}	
 	
-Al analizar  las Ecs. \eqref{eqs:rtcohSSA} y \eqref{eq:alpha}, para ángulos rasantes $\theta\to \pi/2$ se observa que $\alpha\to \infty$, además de que para partículas pequeñas $x\ll 1$ el producto $r_{coh}^{SSA}r_{coh}^{SSA*}$ puede tomar valores mayores a la unidad. Por tanto los coeficientes de amplitud calculadas a partir de la SSA son válidos únicamente para ángulos de incidencia no rasantes y para partículas grandes. 
+Al analizar  las Ecs. \eqref{eqs:rtcohSSA} y \eqref{eq:alpha}, para ángulos rasantes $\theta\to \pi/2$ se observa que $\alpha\to \infty$, además de que para partículas pequeñas $x\ll 1$ el producto $r_{coh}^{SSA}r_{coh}^{SSA*}$ puede tomar valores mayores a la unidad. Por tanto los coeficientes de amplitud calculadas a partir de la SSA son válidos únicamente para ángulos de incidencia no rasantes  \cite{reyes2018analytical}.
 
-Para calcular coeficientes de amplitud a partir de la SSA pero que no estén límitados a ángulos de incidencia bajos ni al tamaño de las partículas que conforman a la monocapa, se deben considerar contribuciones de esparcimiento múltiple (Multiple Scattering, MS) en el cálculo del campo eléctrico $\vb{E}^{exc}$  que excita a las partículas dentro de la placa, el cual se puede descomponer como 
+Para calcular los coeficientes de amplitud para una monocapa de NPs que no estén limitados a ángulos de incidencia bajos, se deben considerar contribuciones de esparcimiento múltiple (Multiple Scattering, MS) en el cálculo del campo eléctrico $\vb{E}^{exc}$  que excita a las partículas dentro de la placa, el cual se puede descomponer como 
 	\begin{align}
 	\vb{E}^{exc} = \vb{E}^{exc}_{t} e^{i\vb{k}^t_{coh}\cdot\vb{r}}+
-					\vb{E}^{exc}_{r} e^{i\vb{k}^r_{coh}\cdot\vb{r}}
+					\vb{E}^{exc}_{r} e^{i\vb{k}^r_{coh}\cdot\vb{r}},
 	\end{align}
-donde  $\vb{E}^{exc}_t$ tiene la misma polarización y dirección de propagación de $\langle \vb{E}^s_{t,SSA}\rangle$  y $\vb{E}^{exc}_{r}$, de $\langle \vb{E}^s_{r,SSA}\rangle$, de las Ecs. \eqref{eq:EsSSA}, como se observa en la Fig. \ref{fig:MScatt-slab-MS}. Entonces, el campo eléctrico esparcido promedio considerando el MS $\vb{E}^s_{MS}$, toma en cuenta  las reflexiones y transmisiones de $\vb{E}^{exc}$ según las Ecs. \eqref{eq:EsSSA} en el límite $d\to 0$ \cite{gutierrez2012overview}, y la contribución del campo eléctrico incidente $\vb{E}^i$, por lo que  \cite{reyes2018analytical}
+donde  $\vb{E}^{exc}_t$ tiene la misma polarización y dirección de propagación de $\langle \vb{E}^s_{t,SSA}\rangle$  y $\vb{E}^{exc}_{r}$, de $\langle \vb{E}^s_{r,SSA}\rangle$ [Ecs. \eqref{eq:EsSSA}], como se observa en la Fig. \ref{fig:MScatt-slab-MS}. Entonces, el campo eléctrico esparcido promedio considerando el MS $\vb{E}^s_{MS}$, toma en cuenta  las reflexiones y transmisiones de $\vb{E}^{exc}$ según las Ecs. \eqref{eq:EsSSA} en el límite $d\to 0$ \cite{gutierrez2012overview}, y la contribución del campo eléctrico incidente $\vb{E}^i$, por lo que  \cite{reyes2018analytical}
 	\begin{subequations}\begin{align}
 		\langle \vb{E}^s_{r,coh}\rangle & =	\langle \vb{E}^s_{r,MS}\rangle
 					= \qty[-\alpha S_n(\vartheta)E^{exc}_t -\alpha S(0)E^{exc}_r
@@ -182,7 +183,7 @@ donde  $\vb{E}^{exc}_t$ tiene la misma polarización y dirección de propagació
 					= \qty[E_0 -\alpha S(0)E^{exc}_t 
 					-\alpha	 S_n(\vartheta)E^{exc}_r
 					]\vu{e}_i e^{i\vb{k}^t_{coh}\cdot\vb{r}}.
-	\end{align} \label{eq:EsMS}\end{subequations}
+	\end{align} \label{eq:EsMS}\end{subequations} \vspace*{-2em}
 
 	\begin{figure}[h!]\centering
 		\begin{tikzpicture}[scale=1]
@@ -227,23 +228,22 @@ donde  $\vb{E}^{exc}_t$ tiene la misma polarización y dirección de propagació
 \draw[- latex, thick, purple](-45:1.5)arc(-45:45:1.5);
 
 %----------------------thickness and slab ---------------------
-\draw[thick, dashed] (-5,-\d) rectangle (5,\d);
-\draw[thick, dashed] (-5, 0) --  (5,0);
-\draw[ |-|, thick,] (5.5,-\d) node[anchor = north]{$z=-d/2$} -- (5.5,\d) node[anchor = south]{$z=d/2$};
+\draw[thick, dashed] (-5,-\d) rectangle (6,\d);
+\draw[thick, dashed] (-5, 0) --  (6,0);
+\draw[ |-|, thick,] (6.5,-\d) node[anchor = north]{$z=-d/2$} -- (6.5,\d) node[anchor = south]{$z=d/2$};
 \node at (-4.5,1) {$\; n_m$};
 \end{tikzpicture}
 		\caption{  Película de grosor $d\to 0$ con y volumen $V$ con $N$ partículas esféricas idénticas y una onda incidente en la dirección $\vb{k}^i$. La dirección de los campos esparcidos coeherentes están dadas por $\vb{k}^r_{coh}$ y $\vb{k}^t_{coh}$. Las flechas rojas sólidas representan las componentes coehrentes del campo esparcido mientras que las rosas represetan su component difusa. }\label{fig:MScatt-slab-MS}
 	\end{figure}	
 	
-	
-Para determinar la expresión del campo eléctrico que excita a las NPs en la placa $\vb{E}^{exc}$ considerando el MS\footnote{El procedimiento descrito en este texto emplea un enfoque heurístico que se publicó en \cite{reyes2018analytical} sin emabargo, un enfoque más riguroso se encuentra en \cite{barrera2003coherent}.}, se divide la placa donde se encuentras las NPs en dos de grosor $d/2$, y se calcula el promedio de  $\vb{E}^{exc}$ en la interfaz entre las dos placas ($z=0$) mediante autoconsistencia, por lo que las NPs en la placa no sólo son iluminadas por el campo eléctrico incidente $\vb{E}^i$, sino también por $\vb{E}^{exc}$ \cite{reyes2018analytical}. La componente de $\vb{E}^{exc}$ que se propaga en la dirección del campo eléctrico incidente $\vb{E}^{exc}_{t}$ se calcula como el campo incidente más los campos esparcidos por las NPs es la placa superior ($0<z<d/2$) que son  igual a la suma del la transmisión del campo $E^{exc}_t$ y a la reflexión del campo $E^{exc}_r$ por la placa superior, es decir,
+Para determinar la expresión del campo eléctrico que excita a las NPs en la placa $\vb{E}^{exc}$ considerando el MS\footnote{El procedimiento descrito en este texto emplea un enfoque heurístico que se publicó en \cite{reyes2018analytical} sin emabargo, un enfoque más riguroso se encuentra en \cite{barrera2003coherent}.}, se divide la placa donde se encuentras las NPs en dos, de grosor $d/2$ cada una, y se calcula el promedio de  $\vb{E}^{exc}$ en la interfaz entre las dos placas ($z=0$) mediante autoconsistencia, por lo que las NPs en la placa no sólo son iluminadas por el campo eléctrico incidente $\vb{E}^i$, sino también por $\vb{E}^{exc}$ \cite{reyes2018analytical}. La componente de $\vb{E}^{exc}$ que se propaga en la dirección del campo eléctrico incidente $\vb{E}^{exc}_{t}$ se calcula como el campo incidente más los campos esparcidos por las NPs en la placa superior ($0<z<d/2$), que son  igual a la suma del la transmisión del campo $E^{exc}_t$ y a la reflexión del campo $E^{exc}_r$ por la placa superior, es decir,
 	\begin{subequations}\begin{align}
 		\vb{E}^{exc}_t  e^{i\vb{k}^i\cdot\vb{r}}  =
 				\qty[E_0  - \frac12 \qty(
 					\alpha S(0)E^{exc}_t + \alpha S_n(\vartheta)E^{exc}_r
-				)] e^{i\vb{k}^t_{coh}\cdot\vb{r}}  \vu{e}_i.
+				)] e^{i\vb{k}^t_{coh}\cdot\vb{r}}  \vu{e}_i,
 	\end{align}
-donde el factor de $1/2$ considera que es la respuesta promedio dentro de la placa. Asimismo, el campo $\vb{E}^{exc}_{r}$ se calcula como la reflexión  del campo $E^{exc}_t$ y a la transmisión del campo $E^{exc}_r$ por la placa inferior ($-d/2<z<0$), por lo que su expresión es	
+donde el factor $1/2$ indica que es la respuesta EM promedio dentro de la placa. Asimismo, el campo $\vb{E}^{exc}_{r}$ se calcula como la reflexión  del campo $E^{exc}_t$ y la transmisión del campo $E^{exc}_r$ por la placa inferior ($-d/2<z<0$), por lo que su expresión es	
 	\begin{align}
 	\vb{E}^{exc}_r  e^{i\vb{k}^r\cdot\vb{r}}  =
 				\qty[- \frac12 \qty(
@@ -294,9 +294,9 @@ En la Fig. \ref{fig:Eexc} se muestra una representación gráfica de las Ecs. \e
 \draw[- latex, thick, purple](-45:1.5)arc(-45:45:1.5);
 
 %----------------------thickness and slab ---------------------
-\draw[thick, dashed] (-5,-\d) rectangle (5,\d);
-\draw[thick, dashed] (-5, 0) --  (5,0);
-\draw[ |-|, thick,] (5.5,-\d) node[anchor = north]{$z=-d/2$} -- (5.5,\d) node[anchor = south]{$z=d/2$};
+\draw[thick, dashed] (-5,-\d) rectangle (6,\d);
+\draw[thick, dashed] (-5, 0) --  (6,0);
+\draw[ |-|, thick,] (6.5,-\d) node[anchor = north]{$z=-d/2$} -- (6.5,\d) node[anchor = south]{$z=d/2$};
 \node at (-4.5,1) {$\; n_m$};
 
 \end{tikzpicture}
@@ -304,28 +304,28 @@ En la Fig. \ref{fig:Eexc} se muestra una representación gráfica de las Ecs. \e
 	\end{figure}	
 	
 
-Al resolver para $E^{exc}_t$ y $E^{exc}_r$ se obtienen las expresiones
-	\begin{align}
+Al resolver las Ecs. \eqref{eq:Eexc} para $E^{exc}_t$ y $E^{exc}_r$ en términos del campo eléctrico incidente $\vb{E}_0$ se obtienen las expresiones
+	\begin{align*}
 	\vb{E}^{exc}_t  &= \frac{\qty[1+\frac12\alpha S(0)]}
 				{1+\alpha S(0) +\frac14\alpha^2\qty[S^2(0)-S_n^2(\vartheta)]}\vb{E}_0,\\
 	\vb{E}^{exc}_r  &= \frac{-\frac12\alpha S_n(\vartheta)}
-				{1+\alpha S(0) +\frac14\alpha^2\qty[S^2(0)-S_n^2(\vartheta)]}\vb{E}_0.
-	\end{align}
-por lo que, al sustituilas en las expresiones de los campos esparcidos promedio reflejados y transmitidos [Ecs. \eqref{eq:EsMS}] se obtienen
+				{1+\alpha S(0) +\frac14\alpha^2\qty[S^2(0)-S_n^2(\vartheta)]}\vb{E}_0,
+	\end{align*}
+por lo que, al sustituirlas en las expresiones de los campos esparcidos promedio reflejados y transmitidos [Ecs. \eqref{eq:EsMS}] se obtienen
 	\begin{align*}
 	\langle \vb{E}^s_{r,coh}\rangle &=
 			\frac{-\alpha S_n(\vartheta)}{1+\alpha S(0)+\frac14 \alpha^2 \left[S^2(0)-S_n^2 (\vartheta) \right]} \vb{E}_0 e^{i\vb{k}^r_{coh}\cdot\vb{r}},\\
 	\langle \vb{E}^s_{r,coh}\rangle &=
 			\frac{1-\frac14\alpha^2\qty[S^2(0)-S_n^2(\vartheta)]}{1+\alpha S(0)+\frac14 \alpha^2 \left[S^2(0)-S_n^2 (\vartheta) \right]} \vb{E}_0 e^{i\vb{k}^t_{coh}\cdot\vb{r}},
 	\end{align*}
-de donde es posible calcular los coeficientes de amplitud del CSM al considerar que $\vartheta = \pi-2\theta$, que el campo eléctrico que excita a las NPs toma en cuenta el esparcimiento múltiple y que la componente coherente del campo esparcido es mucho mayor que la contribución de la componente difusa, dando como resultado \vspace*{-.75em}
+de donde es posible calcular los coeficientes de amplitud para una monocapa de NPs esféricas bajo el formalismo del CSM. Entonces, considerando que el campo eléctrico que excita a las NPs toma en cuenta el esparcimiento múltiple y que la componente coherente del campo esparcido es mucho mayor que la contribución de la componente difusa, así como $\vartheta = \pi-2\theta$, se obtiene que \vspace*{-.75em}
 	\begin{subequations}\begin{tcolorbox}[title = Coeficientes de amplitud del CSM, breakable ]
 	\begin{align}
 	r_{coh}&=\frac{-\alpha S_n(\pi-2\theta)}
 				{1+\alpha S(0)+\frac14 \alpha^2 \left[S^2(0)-S_n^2 (\pi-2\theta) \right]},
 			\label{seq:rcoh}\\
 	t_{coh}&=\frac{1-\frac14\alpha^2\qty[S^2(0)-S_n^2(\pi-2\theta)]}
-				{1+\alpha S(0)+\frac14 \alpha^2 \left[S^2(0)-S_n^2 (\pi-2\theta) \right]}.
+				{1+\alpha S(0)+\frac14 \alpha^2 \left[S^2(0)-S_n^2 (\pi-2\theta) \right]},
 		\label{seq:tcoh}
 	\end{align}
 	con $n=1$ para polarización $s$, $n=2$ para $p$ y $S(0)=S_1(0)=S_2(0)$.
@@ -334,7 +334,7 @@ de donde es posible calcular los coeficientes de amplitud del CSM al considerar 
 
 	 \subsection{Monocapa sobre un sustrato}
 
-Las Ecs. \eqref{eqs:rtcoh} son los coeficientes de amplitud de reflexión y transmisión de una onda plana $\vb{E}^i$ que incide a un ángulo $\theta$ sobre una monocapa de NPs esféricas, idénticas, de radio $a$ e índice de refracción $n_p$ ordenadas de forma aleatoria e inmersa en una matriz con índice de refracción $n_m$. Sin embargo, de forma experimental las NPs no están en un espacio libre, sino que son soportadas por un sustrato, de índice de refracción $n_s$; adicionalmente la incidencia del haz de luz puede ser en configuración externa, como se muestra en la Fig. \ref{figs:CSM-Ext}, o en una configuración en ATR, como se muestra en la Fig. \ref{figs:CSM-ATR}.
+Las Ecs. \eqref{eqs:rtcoh} son los coeficientes de amplitud de reflexión y transmisión de una onda plana $\vb{E}^i$ que incide a un ángulo $\theta$ sobre una monocapa de NPs esféricas, idénticas, de radio $a$ e índice de refracción $n_p$, localizadas de forma aleatoria e inmersa en una matriz con índice de refracción $n_m$. Sin embargo, en la realidad las NPs no pueden estar suspendidas en un espacio libre, sino que están soportadas sobre un sustrato, de índice de refracción $n_s$; adicionalmente la incidencia del haz de luz puede ser tanto en configuración externa, como se muestra en la Fig. \ref{figs:CSM-Ext}, como en interna, es decir ATR, como se muestra en la Fig. \ref{figs:CSM-ATR}.
 
 	\begin{figure}[h!]\centering
 	\begin{subfigure}{.05\textwidth}\vspace{-4.5cm}\caption{}\label{figs:CSM-Ext}\end{subfigure}\hspace*{-2em}
@@ -427,26 +427,26 @@ Las Ecs. \eqref{eqs:rtcoh} son los coeficientes de amplitud de reflexión y tran
 	\caption{Esquema de la reflexión coeherente de una monocapa de NPs esféricas  suspendida en un a matriz con índice de refracción $n_m$ y soportada por un sustrato con índice de refracción $n_s$ en \textbf{a)} incidencia externa  y \textbf{b)} en configuración ATR.  EL sistema coordenado azul es colocado sobre la monocapa y con el eje $z$ normal a ésta; el sistema coordenado morado se alínea,  en su dirección $z$, con la dirección de propagación de la luz al incidir sobre la NP, por lo que es el sistema coordenado empleado en la solución de Mie. }	\label{fig:CSM-Diagrams}	
 	\end{figure}	
 
-En las Fig. \ref{fig:CSM-Diagrams}	 se observa que el ángulo $\theta$ a evaluar $r_{coh}$ y $t_{coh}$ en las Ecs. \eqref{eqs:rtcoh} depende del medio por el que incide el campo eléctrico de la onda plana, con dirección $\vb{k}^i$. En incidencia externa, Fig. \ref{figs:CSM-Ext}, la onda plana incide sobre las NPs a n ángulo $\theta_i$ dado que no interactúa con la interfaz matriz-sustrato y no modifica su trayectoria. De forma contraria, en una configuración ATR, Fig. \ref{figs:CSM-ATR}, la onda plana cruza la interfaz sustrato-matriz, por lo que se refracta a un ángulo $\theta_t$ dado por la ley de Snell, e incide a la monocapa en $\theta=\theta_t$. Además de considerar el ángulo con el que la onda plana ilumina a las NPs, se debe calcular la contribución del sustrato en la reflectancia $R$ y transmitancia $T$ que también depende de medio por donde incida la onda plana.
+En las Fig. \ref{fig:CSM-Diagrams}	 se observa que el ángulo $\theta$ a evaluar $r_{coh}$ y $t_{coh}$ en las Ecs. \eqref{eqs:rtcoh} depende del medio por el que incide el campo eléctrico de la onda plana, con dirección $\vb{k}^i$. En incidencia externa, Fig. \ref{figs:CSM-Ext}, la onda plana incide sobre las NPs a un ángulo $\theta_i$ dado que no interactúa con la interfaz matriz-sustrato y no modifica su trayectoria. De forma contraria, en una configuración ATR, Fig. \ref{figs:CSM-ATR}, la onda plana cruza la interfaz sustrato-matriz, por lo que se refracta a un ángulo $\theta_t$ dado por la ley de Snell, e incide a la monocapa en $\theta=\theta_t$. Además de considerar el ángulo con el que la onda plana ilumina a las NPs, se debe calcular la contribución del sustrato en la reflectancia $R$ y transmitancia $T$, que también depende de medio por donde incida la onda plana.
 
-Para calcular la refelctancia y transmitancia del sistema matriz-monocapa-sustrato, es decir, en incidencia externa, se consideran las múltiples reflexiones del sistema, mostradas en la Fig. \ref{fig:CSM-externa}. Cuando la onda plana con amplitud $E_i$ incide en la monocapa, en $z=2a$, se presenta una primera reflexión dada por el CSM, es decir que la amplitud del campo eléctrico en la primera reflexión es $r_{coh}E_i$. La segunda reflexión se presenta tras dos transmisiones en la monocapa y una reflexión en la interfaz matriz-sustrato, con una diferencia de fase $2\beta=2(2ak_m\cos\theta)$ respecto a la primera reflexión, es decir, que la amplitud de la segunda reflexión es $t_{coh}^2r_{ms}e^{i2\beta}E_i$. En la tercera reflexión hay dos transmisiones en la monocapa, dos reflexiones en la interfaz matriz-sustrato, y una reflexión en la monocapa, al considerar la diferencia de camino óptico con la primera relfexión, la amplitud de la tercera reflexión es $t_{coh}^2r_{coh}r_{ms}^2e^{i4\beta}E_i$. Al considerar el resto de las reflexiones, se obtiene que el coeficiente de amplitud de reflexión del sistema $r$ es
+Para calcular los coeficientes de amplitud del sistema matriz-monocapa-sustrato, es decir, en incidencia externa, se consideran las múltiples reflexiones del sistema, mostradas en la Fig. \ref{fig:CSM-externa}. Cuando la onda plana con amplitud $E_i$ incide en la monocapa, en $z=2a$, se presenta una primera reflexión dada por el CSM, es decir que la amplitud del campo eléctrico en la primera reflexión es $r_{coh}E_i$. La segunda reflexión se presenta tras dos transmisiones en la monocapa y una reflexión en la interfaz matriz-sustrato, con una diferencia de fase $2\beta=2(2ak_m\cos\theta)$ respecto a la primera reflexión, es decir, que la amplitud de la segunda reflexión es $t_{coh}^2r_{ms}e^{i2\beta}E_i$. En la tercera reflexión hay dos transmisiones en la monocapa, dos reflexiones en la interfaz matriz-sustrato, y una reflexión en la monocapa; al considerar la diferencia de camino óptico con la primera relfexión, la amplitud de la tercera reflexión es $t_{coh}^2r_{coh}r_{ms}^2e^{i4\beta}E_i$. Al considerar el resto de las reflexiones, se obtiene que el coeficiente de amplitud de reflexión $r$ del sistema es
 	\begin{align}
 	r = r_{coh} +
 		 t_{coh}^2r_{ms}e^{i2\beta}+
 		 t_{coh}^2r_{coh}r_{ms}^2e^{i4\beta}+
 		 t_{coh}^2r_{coh}^2r_{ms}^3e^{i6\beta}+
 		 t_{coh}^2r_{coh}^3r_{ms}^4e^{i8\beta}+\ldots
-%		 t_{coh}^2r_{coh}^4r_{ms}^5e^{i10\beta}+\ldots
+%		 t_{coh}^2r_{coh}^4r_{ms}^5e^{i10\beta}+\ldots\,.
 	\label{eq:r_ext_span}
 	\end{align}
-Para el cálculo de la transmitancia del sistema $t$ se hace un procedimiento análogo al de $r$: la primera transmisión ocurre después de una transmisión en la monocapa y una en la interfaz matriz-sustrato y una diferencia de fase de $\beta$, por lo que la amplitud de la primera transmisión es $t_{coh}t_{ms}e^{i\beta}$. Para la $m$-ésima transmisión se presentan $m-1$ reflexiones con la monocapa y $m-1$ con el sustrato, además de una fase de $(2m-1)\beta$, es decir,
+Para el cálculo del coeficiente de amplitud de transmisión $t $ del sistema se hace un procedimiento análogo al de $r$: la primera transmisión ocurre después de una transmisión en la monocapa, una transmisión en la interfaz matriz-sustrato y una diferencia de fase de $\beta$, por lo que la amplitud de la primera transmisión es $t_{coh}t_{ms}e^{i\beta}$. Para la $m$-ésima transmisión se presentan $m-1$ reflexiones con la monocapa y $m-1$ con el sustrato, además de una fase de $(2m-1)\beta$, es decir,
 	\begin{align}
 	t = t_{coh}t_{ms}e^{i\beta} +
 		t_{coh}r_{ms}r_{coh}t_{ms}e^{i3\beta}+
 		t_{coh}r_{ms}^2r_{coh}^2t_{ms}e^{i5\beta}+	
 		t_{coh}r_{ms}^3r_{coh}^3t_{ms}e^{i7\beta}+ \ldots					
 %		t_{coh}r_{ms}^4r_{coh}^4t_{ms}e^{i9\beta}+ \ldots				
-%		t_{coh}r_{ms}^5r_{coh}^5t_{ms}e^{i11\beta}+\ldots
+%		t_{coh}r_{ms}^5r_{coh}^5t_{ms}e^{i11\beta}+\ldots\,.
 	\label{eq:t_ext_span}
 	\end{align}
 
@@ -521,13 +521,13 @@ Para el cálculo de la transmitancia del sistema $t$ se hace un procedimiento an
 	\caption{ Esquema de las múltiples reflexiones en incidencia externa del sistema matriz-monocapa-sustrato producidos por una onda plana $\vb{E}^i$ que incide en la interfaz de un sustrato, con índice de refracción $n_s$, que sostiene a una monocapa de NPs esféricas de radio $a$ inmerza en una matriz con $n_m$, a un ángulo $\theta_i$ respecto a la dirección normal a la interfaz. Las reflexiones y transmisionees en la interfaz sustrato-matriz ($z=0$) es descrita por los coeficientes de amplitud de Fresnel [Ecs. \eqref{eq:rs}--\eqref{eq:tp}], mientras que en la intfaz monocapa-matriz ($z=2a$) las reflexiones y transmisiones son descritsd por el CSM [Ecs. \eqref{eqs:rtcoh}]. Los coeficientes de amplitud son evaluados en $\theta_i$ en $z=2a$. En los coeficientes de amplitud  $r_{\alpha\beta}$ y $t_{\alpha\beta}$ el medio de incidencia del haz de luz es $\alpha$ y el de transmisión en $\beta$.}\label{fig:CSM-externa}
 	\end{figure}
 
-Al factorizar $r_{ms}t_{coh}^2e^{2i\beta}$ en la Ec. \eqref{eq:r_ext_span}, a excepción del primer término $r_{coh}$, y factorizar $t_{coh}t_{ms}e^{i\beta}$ en la Ec. \eqref{eq:t_ext_span} se obtienen las expresiones
+Al factorizar $r_{ms}t_{coh}^2e^{2i\beta}$ en la Ec. \eqref{eq:r_ext_span}, a excepción del primer término $r_{coh}$, y factorizar $t_{coh}t_{ms}e^{i\beta}$ en la Ec. \eqref{eq:t_ext_span}, se obtienen las expresiones
 	\begin{align*}
 	r &= r_{coh} + r_{ms}t_{coh}^2e^{2i\beta}\left[1+r_{coh}r_{ms}e^{2i\beta}+\qty(r_{coh}r_{ms}e^{2i\beta})^2+\qty(r_{coh}r_{ms}e^{2i\beta})^3+\ldots,\right.\\
 	t &= t_{coh}t_{ms}e^{i\beta} \left[1+r_{coh}r_{ms}e^{2i\beta}+\qty(r_{coh}r_{ms}e^{2i\beta})^2+\qty(r_{coh}r_{ms}e^{2i\beta})^3+\ldots\right. ,
 	\end{align*}
 y dado que $\norm{r_{coh}r_{ms}e^{2i\beta}}<1$, es posible reescribir los coeficientes de amplitud del sistema como \vspace*{-.75em}\begin{subequations}
-	\begin{tcolorbox}[title = Coeficientes de amplitud de CSM en incidencia externa, breakable ]
+	\begin{tcolorbox}[title = Coeficientes de amplitud dados por el CSM en incidencia externa, breakable ]
 	\eqhalf{r = r_{coh}(\theta_i)+ \frac{r_{ms}(\theta_i)t_{coh}(\theta_i)e^{i2\beta}}
 										{1-r_{coh}(\theta_i)r_{ms}(\theta_i)e^{2i\beta}},
 	\label{seq:rCSMext}}
@@ -538,7 +538,7 @@ y dado que $\norm{r_{coh}r_{ms}e^{2i\beta}}<1$, es posible reescribir los coefic
 	con $\beta = 2a k_0n_m\cos\theta_i$.
 	\end{tcolorbox}\label{eqs:rtCSMext}\end{subequations}\vspace*{-.75em}
 
-Cuando se considera que el haz de luz incide sobre el sistema con un ángulo $\theta_i$ en una confiuración  ATR, el haz de luz se refleja por la interfaz sustrato-matriz ($z=0$) a un ángulo  $\theta_i$ pero se transmite a un ángulo  $\theta_t$. El haz de luz ilumina a las NPs al ángulo $\theta_t$, y a este mismo ángulo se refleja y transmite a través de la monocapa (en $z=2a$), como se observa e la Fig. \ref{fig:CSM-ATR}, donde, por claridad, los subíndices $sm$ corresponden a los coeficientes de Fresnel evaluados en $\theta_i$; mientras que $ms$ y $coh$, en $\theta_t$. De forma análoga al caso de incidencia externa, el coeficiente de amplitud de reflexión y transmisión del sistema son
+Cuando se considera que el haz de luz incide sobre el sistema con un ángulo $\theta_i$ en una confiuración  ATR, el haz de luz se refleja por la interfaz sustrato-matriz ($z=0$) a un ángulo  $\theta_i$ pero se transmite a un ángulo  $\theta_t$. El haz de luz ilumina a las NPs al ángulo $\theta_t$, y a este mismo ángulo se refleja y transmite a través de la monocapa (en $z=2a$), como se observa en la Fig. \ref{fig:CSM-ATR}, donde, por claridad, los subíndices $sm$ corresponden a los coeficientes de Fresnel evaluados en $\theta_i$, mientras que $ms$ y $coh$, en $\theta_t$. De forma análoga al caso de incidencia externa, los coeficientes de amplitud de reflexión y transmisión del sistema son
 	\begin{align}
 	r &= r_{sm}+ 
 		t_{sm}r_{coh}r_{ms}e^{i2\beta}+
@@ -553,7 +553,7 @@ Cuando se considera que el haz de luz incide sobre el sistema con un ángulo $\t
 %		t_{sm}r_{coh}^4r_{ms}^4t_{coh}e^{i9\beta}+\ldots,	
 	\label{eq:t_ATR_span}
 	\end{align}
-donde $\beta = 2ak_m\cos\theta_t$. Al factorizar $t_{sm}r_{coh}t_{ms}e^{2i\beta}$ en la Ec. \eqref{eq:r_ATR_span} y $t_{sm}t_{coh}e^{i\beta}$ en la Ec. \eqref{eq:t_ATR_span}, y considerar que $\norm{r_{coh}r_{ms}e^{i2\beta}}<1$, los coeficientes de amplitud son
+donde $\beta = 2ak_m\cos\theta_t$. Al factorizar $t_{sm}r_{coh}t_{ms}e^{2i\beta}$ en la Ec. \eqref{eq:r_ATR_span} y $t_{sm}t_{coh}e^{i\beta}$ en la Ec. \eqref{eq:t_ATR_span}, y considerar que $\norm{r_{coh}r_{ms}e^{i2\beta}}<1$, los coeficientes de amplitud están dados por \vspace*{-2em}
 
 
 \begin{figure}[t!]\centering
@@ -637,7 +637,7 @@ donde $\beta = 2ak_m\cos\theta_t$. Al factorizar $t_{sm}r_{coh}t_{ms}e^{2i\beta}
 	=\frac{  t_{coh}t_{ms}e^{i\beta} }
 				{1-r_{ms}r_{coh}e^{i2\beta}}.\notag
 	\end{align}
-Es posible reescribir la Ec. \ref{eq:r_ATR_preStokes} empleando las relaciones de Stokes\footnote{Las relaciones de Stokes se deducar a partir de lainvariancia de las ecuaciones de Maxell ante inversiones temporales ($t\to -t$), y relacionan a los coeficientes de amplitud $r$ y $t$ evaluados en $\theta_i$ y $\theta_t$ para una interfaz entre medios no absorbentes. Las relaciones de Stokes son \cite{hecht1998optics,garcia2012multiple} $r_{it}(\theta_i) = -r_{ti}(\theta_t)$, $t_{it}(\theta_i) = 1+r_{it}(\theta_i)$, y $t_{ti}(\theta_t) = 1+r_{it}(\theta_t)$}, por lo que se obtiene \begin{subequations}\vspace*{-.75em}
+Es posible reescribir la Ec. \eqref{eq:r_ATR_preStokes} empleando las relaciones de Stokes\footnote{Las relaciones de Stokes se deducen a partir de la invariancia de las ecuaciones de Maxell ante inversiones temporales ($t\to -t$), y relacionan a los coeficientes de amplitud $r$ y $t$ evaluados en $\theta_i$ y $\theta_t$ para una interfaz entre medios no absorbentes. Las relaciones de Stokes son \cite{hecht1998optics,garcia2012multiple} $r_{it}(\theta_i) = -r_{ti}(\theta_t)$, $t_{it}(\theta_i) = 1+r_{it}(\theta_i)$, y $t_{ti}(\theta_t) = 1+r_{it}(\theta_t)$.}, por lo que se obtiene \begin{subequations}\vspace*{-.75em}
 \begin{tcolorbox}[title = Coeficientes de amplitud de CSM en configuración ATR, breakable ]
 	\eqhalf{r = \frac{r_{sm}(\theta_i)+r_{coh}(\theta_t)e^{i2\beta}}
 					{1+-r_{coh}(\theta_t)r_{sm}(\theta_i)e^{2i\beta}},
