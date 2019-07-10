@@ -8,10 +8,11 @@ Information about the template is found at the end of the README.md file.
   - [ ] Completar el índice analítico
 - [ ] Considerar hacer un índice de abreviaciones
 - [x] Gráficas del ajuste de Drude de Johnson & Christy
-  - [ ] Poner la gráfica correcta
+  - [x] Poner la gráfica correcta
 - [x] Gráficas de la corrección por tamaño para NPs esféricas
 - [x] Explicación de los plasmones
-- [ ] Explicación de las extinciín de luz y su relación con los plasmones
+- [ ] Explicación de las extinción de luz y su relación con los plasmones
+  - [ ] Diagramas de extinción para a = 30 nm con \omega_p= 4.3 eV, 10 eV y oro y plata
 - [x] CSM
 - [ ] Hacer el límite de partícula pequeña de las SPRs con Drude, que no me sale... :(
 - [x] Introducir el sustrato en el CSM
@@ -21,8 +22,10 @@ Information about the template is found at the end of the README.md file.
 - [x] Considerar calcular T de una vez
 - [x] Hacer los cálculos con la corrección por tamaño de J&C
 - [ ] Hacer análisis de los diagramas de esparcimiento de una sola nanopartículas
-- [ ] Introducir información de la distancia promedio entre nanopartículas
+- [x] Introducir información de la distancia promedio entre nanopartículas
 - [ ] Jugar con BEM (URGE)
+- [ ] Programar 3 medios y calcular la sensibilidad de un sersor comercial
+- [ ] Calcular la función de mérito para la monocapa con oro y plata
 
 Thesis template:
 =============
