@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.24)  10 JUL 2019 17:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.24)  15 JUL 2019 18:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4551,12 +4551,16 @@ File: 2-Resultados/figs/2-Wp10ThetaVar/0-2D_Grid.png Graphic file (type png)
 <use 2-Resultados/figs/2-Wp10ThetaVar/0-2D_Grid.png>
 Package pdftex.def Info: 2-Resultados/figs/2-Wp10ThetaVar/0-2D_Grid.png  used o
 n input line 73.
-(pdftex.def)             Requested size: 409.71689pt x 197.5344pt.
+(pdftex.def)             Requested size: 427.93054pt x 206.31238pt.
 File: 2-Resultados/figs/0-RBar_v.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/0-RBar_v.pdf>
 Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 74.
 
-(pdftex.def)             Requested size: 29.00848pt x 199.6468pt.
+(pdftex.def)             Requested size: 30.37335pt x 209.0403pt.
+
+Overfull \hbox (3.05981pt too wide) in paragraph at lines 73--75
+ [][][] 
+ []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -4576,47 +4580,47 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
 pdfTeX warning: pdflatex (file ./2-Resultados/figs/1-Wp4ThetaVar/cut_angle_65_s
 .pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-Overfull \hbox (5.51012pt too wide) in paragraph at lines 84--84
+Overfull \hbox (5.51012pt too wide) in paragraph at lines 83--83
 []\T1/cmr/bx/n/10 a)|| 
  []
 
-<2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_p_Stack.pdf, id=1698, 220.81323p
+<2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_p_Stack.pdf, id=1696, 220.81323p
 t x 166.72035pt>
 File: 2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_p_Stack.pdf Graphic file (t
 ype pdf)
 <use 2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_p_Stack.pdf>
 Package pdftex.def Info: 2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_p_Stack.
-pdf  used on input line 86.
+pdf  used on input line 85.
 (pdftex.def)             Requested size: 220.81268pt x 166.71994pt.
 
-Overfull \hbox (2.04404pt too wide) in paragraph at lines 85--86
+Overfull \hbox (2.04404pt too wide) in paragraph at lines 84--85
 []|  [] 
  []
 
 
-Overfull \hbox (6.30853pt too wide) in paragraph at lines 87--87
+Overfull \hbox (6.30853pt too wide) in paragraph at lines 86--86
 []\T1/cmr/bx/n/10 b)|| 
  []
 
-<2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_s.pdf, id=1699, 220.81323pt x 16
+<2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_s.pdf, id=1697, 220.81323pt x 16
 6.72086pt>
 File: 2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_s.pdf Graphic file (type pd
 f)
 <use 2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_s.pdf>
 Package pdftex.def Info: 2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_s.pdf  u
-sed on input line 89.
+sed on input line 88.
 (pdftex.def)             Requested size: 220.81268pt x 166.72044pt.
 
-Overfull \hbox (15.95424pt too wide) in paragraph at lines 89--89
+Overfull \hbox (15.95424pt too wide) in paragraph at lines 88--88
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Info: Redefining \sptext on input line 94.
-LaTeX Info: Redefining \. on input line 94.
-LaTeX Info: Redefining \% on input line 94.
+LaTeX Info: Redefining \sptext on input line 93.
+LaTeX Info: Redefining \. on input line 93.
+LaTeX Info: Redefining \% on input line 93.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
@@ -4624,9 +4628,9 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [55 <./2-Resultados/figs/2-Wp10ThetaVar/0-2D_Grid.png>]
-LaTeX Info: Redefining \sptext on input line 98.
-LaTeX Info: Redefining \. on input line 98.
-LaTeX Info: Redefining \% on input line 98.
+LaTeX Info: Redefining \sptext on input line 97.
+LaTeX Info: Redefining \. on input line 97.
+LaTeX Info: Redefining \% on input line 97.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -4640,20 +4644,20 @@ os/figs/2-Wp10ThetaVar/cut_angle_65_s.pdf
 pdfTeX warning: pdflatex (file ./2-Resultados/figs/2-Wp10ThetaVar/cut_angle_65_
 s.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<2-Resultados/figs/3-Wp4rVar/0-2D_Grid.png, id=1810, 599.23875pt x 355.3275pt>
+<2-Resultados/figs/3-Wp4rVar/0-2D_Grid.png, id=1808, 599.23875pt x 355.3275pt>
 File: 2-Resultados/figs/3-Wp4rVar/0-2D_Grid.png Graphic file (type png)
 <use 2-Resultados/figs/3-Wp4rVar/0-2D_Grid.png>
 Package pdftex.def Info: 2-Resultados/figs/3-Wp4rVar/0-2D_Grid.png  used on inp
-ut line 100.
-(pdftex.def)             Requested size: 341.43306pt x 202.46286pt.
+ut line 101.
+(pdftex.def)             Requested size: 345.98299pt x 205.15752pt.
 File: 2-Resultados/figs/0-RBar_v.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/0-RBar_v.pdf>
-Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 101
+Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 102
 .
-(pdftex.def)             Requested size: 29.00848pt x 199.6468pt.
-LaTeX Info: Redefining \sptext on input line 110.
-LaTeX Info: Redefining \. on input line 110.
-LaTeX Info: Redefining \% on input line 110.
+(pdftex.def)             Requested size: 30.37335pt x 209.0403pt.
+LaTeX Info: Redefining \sptext on input line 108.
+LaTeX Info: Redefining \. on input line 108.
+LaTeX Info: Redefining \% on input line 108.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -4662,42 +4666,42 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [57 <./2-Resultados/figs/3-Wp4rVar/0-2D_Grid.png>]
-Overfull \hbox (5.51012pt too wide) in paragraph at lines 112--112
+Overfull \hbox (5.51012pt too wide) in paragraph at lines 113--113
 []\T1/cmr/bx/n/10 a)|| 
  []
 
-<2-Resultados/figs/3-Wp4rVar/cut_angle_65_p.pdf, id=1828, 220.81323pt x 166.720
+<2-Resultados/figs/3-Wp4rVar/cut_angle_65_p.pdf, id=1827, 220.81323pt x 166.720
 86pt>
 File: 2-Resultados/figs/3-Wp4rVar/cut_angle_65_p.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/3-Wp4rVar/cut_angle_65_p.pdf>
 Package pdftex.def Info: 2-Resultados/figs/3-Wp4rVar/cut_angle_65_p.pdf  used o
-n input line 114.
+n input line 115.
 (pdftex.def)             Requested size: 220.81268pt x 166.72044pt.
 
-Overfull \hbox (2.04404pt too wide) in paragraph at lines 113--114
+Overfull \hbox (2.04404pt too wide) in paragraph at lines 114--115
 []|  [] 
  []
 
 
-Overfull \hbox (6.30853pt too wide) in paragraph at lines 115--115
+Overfull \hbox (6.30853pt too wide) in paragraph at lines 116--116
 []\T1/cmr/bx/n/10 b)|| 
  []
 
-<2-Resultados/figs/3-Wp4rVar/cut_angle_65_s.pdf, id=1829, 220.81323pt x 166.720
+<2-Resultados/figs/3-Wp4rVar/cut_angle_65_s.pdf, id=1828, 220.81323pt x 166.720
 86pt>
 File: 2-Resultados/figs/3-Wp4rVar/cut_angle_65_s.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/3-Wp4rVar/cut_angle_65_s.pdf>
 Package pdftex.def Info: 2-Resultados/figs/3-Wp4rVar/cut_angle_65_s.pdf  used o
-n input line 117.
+n input line 118.
 (pdftex.def)             Requested size: 220.81268pt x 166.72044pt.
 
-Overfull \hbox (15.95424pt too wide) in paragraph at lines 117--117
+Overfull \hbox (15.95424pt too wide) in paragraph at lines 118--118
  [][] 
  []
 
-LaTeX Info: Redefining \sptext on input line 124.
-LaTeX Info: Redefining \. on input line 124.
-LaTeX Info: Redefining \% on input line 124.
+LaTeX Info: Redefining \sptext on input line 126.
+LaTeX Info: Redefining \. on input line 126.
+LaTeX Info: Redefining \% on input line 126.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
@@ -4710,65 +4714,56 @@ p4rVar/cut_angle_65_s.pdf
 pdfTeX warning: pdflatex (file ./2-Resultados/figs/3-Wp4rVar/cut_angle_65_s.pdf
 ): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-Overfull \hbox (5.51012pt too wide) in paragraph at lines 142--142
+Overfull \hbox (5.51012pt too wide) in paragraph at lines 130--130
 []\T1/cmr/bx/n/10 a)|| 
  []
 
-<2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_1.png, id=1874, 458.46281pt x 355.3275
+<2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_1.png, id=1873, 458.46281pt x 355.3275
 pt>
 File: 2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_1.png Graphic file (type png)
 <use 2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_1.png>
 Package pdftex.def Info: 2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_1.png  used on
- input line 144.
-(pdftex.def)             Requested size: 297.99728pt x 230.96013pt.
-<2-Resultados/figs/0-IBar_v.pdf, id=1875, 34.1275pt x 233.87375pt>
+ input line 132.
+(pdftex.def)             Requested size: 265.90862pt x 206.09007pt.
+<2-Resultados/figs/0-IBar_v.pdf, id=1874, 34.1275pt x 233.87375pt>
 File: 2-Resultados/figs/0-IBar_v.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/0-IBar_v.pdf>
-Package pdftex.def Info: 2-Resultados/figs/0-IBar_v.pdf  used on input line 145
+Package pdftex.def Info: 2-Resultados/figs/0-IBar_v.pdf  used on input line 133
 .
-(pdftex.def)             Requested size: 34.1274pt x 238.89189pt.
+(pdftex.def)             Requested size: 30.37335pt x 212.61363pt.
 
-Overfull \hbox (10.43289pt too wide) in paragraph at lines 143--146
-[]|  [][] 
- []
-
-
-Overfull \hbox (6.30853pt too wide) in paragraph at lines 147--147
+Overfull \hbox (6.30853pt too wide) in paragraph at lines 135--135
 []\T1/cmr/bx/n/10 b)|| 
  []
 
-<2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_2.png, id=1877, 459.21562pt x 355.3275
+<2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_2.png, id=1876, 459.21562pt x 355.3275
 pt>
 File: 2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_2.png Graphic file (type png)
 <use 2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_2.png>
 Package pdftex.def Info: 2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_2.png  used on
- input line 149.
-(pdftex.def)             Requested size: 298.4866pt x 230.96013pt.
+ input line 137.
+(pdftex.def)             Requested size: 266.34525pt x 206.09007pt.
 File: 2-Resultados/figs/0-IBar_v.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/0-IBar_v.pdf>
-Package pdftex.def Info: 2-Resultados/figs/0-IBar_v.pdf  used on input line 150
+Package pdftex.def Info: 2-Resultados/figs/0-IBar_v.pdf  used on input line 138
 .
-(pdftex.def)             Requested size: 34.1274pt x 238.89189pt.
+(pdftex.def)             Requested size: 30.37335pt x 212.61363pt.
 
-Overfull \hbox (13.94453pt too wide) in paragraph at lines 149--151
- [][][] 
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Info: Redefining \sptext on input line 156.
-LaTeX Info: Redefining \. on input line 156.
-LaTeX Info: Redefining \% on input line 156.
+LaTeX Info: Redefining \sptext on input line 146.
+LaTeX Info: Redefining \. on input line 146.
+LaTeX Info: Redefining \% on input line 146.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[59 <./2-Resultados/figs/0-IBar_v.pdf> <./2-Resultados/figs/5-RT-Wp4-10/0-2D_Gr
-id_1.png> <./2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_2.png>])
-(./2-Resultados/2-AuAg.tex
-LaTeX Info: Redefining \sptext on input line 7.
-LaTeX Info: Redefining \. on input line 7.
-LaTeX Info: Redefining \% on input line 7.
+[59]) (./2-Resultados/2-AuAg.tex
+LaTeX Info: Redefining \sptext on input line 5.
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -4776,22 +4771,23 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[60]
-<2-Resultados/figs/6-AuThetaVar/0-2D_Grid.png, id=1915, 599.23875pt x 355.3275p
+[60 <./2-Resultados/figs/0-IBar_v.pdf> <./2-Resultados/figs/5-RT-Wp4-10/0-2D_Gr
+id_1.png> <./2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_2.png>]
+<2-Resultados/figs/6-AuThetaVar/0-2D_Grid.png, id=1912, 599.23875pt x 355.3275p
 t>
 File: 2-Resultados/figs/6-AuThetaVar/0-2D_Grid.png Graphic file (type png)
 <use 2-Resultados/figs/6-AuThetaVar/0-2D_Grid.png>
 Package pdftex.def Info: 2-Resultados/figs/6-AuThetaVar/0-2D_Grid.png  used on 
 input line 9.
-(pdftex.def)             Requested size: 341.43306pt x 202.46286pt.
+(pdftex.def)             Requested size: 345.98299pt x 205.15752pt.
 File: 2-Resultados/figs/0-RBar_v.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/0-RBar_v.pdf>
 Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 10.
 
-(pdftex.def)             Requested size: 29.00848pt x 199.6468pt.
-LaTeX Info: Redefining \sptext on input line 18.
-LaTeX Info: Redefining \. on input line 18.
-LaTeX Info: Redefining \% on input line 18.
+(pdftex.def)             Requested size: 30.37335pt x 209.0403pt.
+LaTeX Info: Redefining \sptext on input line 16.
+LaTeX Info: Redefining \. on input line 16.
+LaTeX Info: Redefining \% on input line 16.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -4800,24 +4796,34 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [61 <./2-Resultados/figs/6-AuThetaVar/0-2D_Grid.png>]
-<2-Resultados/figs/7-AgThetaVar/0-2D_Grid.png, id=1929, 599.99156pt x 355.3275p
+<2-Resultados/figs/7-AgThetaVar/0-2D_Grid.png, id=1928, 599.99156pt x 355.3275p
 t>
 File: 2-Resultados/figs/7-AgThetaVar/0-2D_Grid.png Graphic file (type png)
 <use 2-Resultados/figs/7-AgThetaVar/0-2D_Grid.png>
 Package pdftex.def Info: 2-Resultados/figs/7-AgThetaVar/0-2D_Grid.png  used on 
 input line 20.
-(pdftex.def)             Requested size: 341.43306pt x 202.20804pt.
+(pdftex.def)             Requested size: 398.33856pt x 235.91028pt.
 File: 2-Resultados/figs/0-RBar_v.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/0-RBar_v.pdf>
 Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 21.
 
-(pdftex.def)             Requested size: 29.00848pt x 199.6468pt.
+(pdftex.def)             Requested size: 34.1274pt x 234.8769pt.
+LaTeX Info: Redefining \sptext on input line 27.
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
 
+
+Package Fancyhdr Warning: \headheight is too small (0.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[62 <./2-Resultados/figs/7-AgThetaVar/0-2D_Grid.png>]
 Overfull \hbox (5.51012pt too wide) in paragraph at lines 31--31
 []\T1/cmr/bx/n/10 a)|| 
  []
 
-<2-Resultados/figs/6-AuThetaVar/cut_angle_65_p.pdf, id=1939, 220.81323pt x 166.
+<2-Resultados/figs/6-AuThetaVar/cut_angle_65_p.pdf, id=1945, 220.81323pt x 166.
 72086pt>
 File: 2-Resultados/figs/6-AuThetaVar/cut_angle_65_p.pdf Graphic file (type pdf)
 
@@ -4835,7 +4841,7 @@ Overfull \hbox (6.30853pt too wide) in paragraph at lines 34--34
 []\T1/cmr/bx/n/10 b)|| 
  []
 
-<2-Resultados/figs/6-AuThetaVar/cut_angle_65_s.pdf, id=1940, 220.81323pt x 166.
+<2-Resultados/figs/6-AuThetaVar/cut_angle_65_s.pdf, id=1946, 220.81323pt x 166.
 72086pt>
 File: 2-Resultados/figs/6-AuThetaVar/cut_angle_65_s.pdf Graphic file (type pdf)
 
@@ -4853,7 +4859,7 @@ Overfull \hbox (5.03107pt too wide) in paragraph at lines 38--38
 []\T1/cmr/bx/n/10 c)|| 
  []
 
-<2-Resultados/figs/7-AgThetaVar/cut_angle_65_p.pdf, id=1941, 220.81323pt x 166.
+<2-Resultados/figs/7-AgThetaVar/cut_angle_65_p.pdf, id=1947, 220.81323pt x 166.
 72086pt>
 File: 2-Resultados/figs/7-AgThetaVar/cut_angle_65_p.pdf Graphic file (type pdf)
 
@@ -4871,7 +4877,7 @@ Overfull \hbox (6.30853pt too wide) in paragraph at lines 41--41
 []\T1/cmr/bx/n/10 d)|| 
  []
 
-<2-Resultados/figs/7-AgThetaVar/cut_angle_65_s.pdf, id=1942, 220.81323pt x 166.
+<2-Resultados/figs/7-AgThetaVar/cut_angle_65_s.pdf, id=1948, 220.81323pt x 166.
 72086pt>
 File: 2-Resultados/figs/7-AgThetaVar/cut_angle_65_s.pdf Graphic file (type pdf)
 
@@ -4884,23 +4890,9 @@ Overfull \hbox (15.95424pt too wide) in paragraph at lines 43--43
  [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 LaTeX Info: Redefining \sptext on input line 48.
 LaTeX Info: Redefining \. on input line 48.
 LaTeX Info: Redefining \% on input line 48.
-
-Package Fancyhdr Warning: \headheight is too small (0.5pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[62 <./2-Resultados/figs/7-AgThetaVar/0-2D_Grid.png>]
-LaTeX Info: Redefining \sptext on input line 50.
-LaTeX Info: Redefining \. on input line 50.
-LaTeX Info: Redefining \% on input line 50.
-
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
@@ -4921,20 +4913,9 @@ pdf): PDF inclusion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./2-Resultados/figs/7-AgThetaVar/cut_angle_65_s.
 pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<2-Resultados/figs/8-AurVar/0-2D_Grid.png, id=2005, 599.23875pt x 355.3275pt>
-File: 2-Resultados/figs/8-AurVar/0-2D_Grid.png Graphic file (type png)
-<use 2-Resultados/figs/8-AurVar/0-2D_Grid.png>
-Package pdftex.def Info: 2-Resultados/figs/8-AurVar/0-2D_Grid.png  used on inpu
-t line 54.
-(pdftex.def)             Requested size: 341.43306pt x 202.46286pt.
-File: 2-Resultados/figs/0-RBar_v.pdf Graphic file (type pdf)
-<use 2-Resultados/figs/0-RBar_v.pdf>
-Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 55.
-
-(pdftex.def)             Requested size: 29.00848pt x 199.6468pt.
-LaTeX Info: Redefining \sptext on input line 62.
-LaTeX Info: Redefining \. on input line 62.
-LaTeX Info: Redefining \% on input line 62.
+LaTeX Info: Redefining \sptext on input line 52.
+LaTeX Info: Redefining \. on input line 52.
+LaTeX Info: Redefining \% on input line 52.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -4943,17 +4924,39 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [64]
-<2-Resultados/figs/9-AgrVar/0-2D_Grid.png, id=2015, 603.0028pt x 355.3275pt>
+<2-Resultados/figs/8-AurVar/0-2D_Grid.png, id=2009, 599.23875pt x 355.3275pt>
+File: 2-Resultados/figs/8-AurVar/0-2D_Grid.png Graphic file (type png)
+<use 2-Resultados/figs/8-AurVar/0-2D_Grid.png>
+Package pdftex.def Info: 2-Resultados/figs/8-AurVar/0-2D_Grid.png  used on inpu
+t line 54.
+(pdftex.def)             Requested size: 345.98299pt x 205.15752pt.
+File: 2-Resultados/figs/0-RBar_v.pdf Graphic file (type pdf)
+<use 2-Resultados/figs/0-RBar_v.pdf>
+Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 55.
+
+(pdftex.def)             Requested size: 30.37335pt x 209.0403pt.
+LaTeX Info: Redefining \sptext on input line 63.
+LaTeX Info: Redefining \. on input line 63.
+LaTeX Info: Redefining \% on input line 63.
+
+
+Package Fancyhdr Warning: \headheight is too small (0.5pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[65 <./2-Resultados/figs/8-AurVar/0-2D_Grid.png>]
+<2-Resultados/figs/9-AgrVar/0-2D_Grid.png, id=2021, 603.0028pt x 355.3275pt>
 File: 2-Resultados/figs/9-AgrVar/0-2D_Grid.png Graphic file (type png)
 <use 2-Resultados/figs/9-AgrVar/0-2D_Grid.png>
 Package pdftex.def Info: 2-Resultados/figs/9-AgrVar/0-2D_Grid.png  used on inpu
 t line 65.
-(pdftex.def)             Requested size: 341.43306pt x 201.19415pt.
+(pdftex.def)             Requested size: 345.98299pt x 203.87254pt.
 File: 2-Resultados/figs/0-RBar_v.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/0-RBar_v.pdf>
 Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 66.
 
-(pdftex.def)             Requested size: 29.00848pt x 199.6468pt.
+(pdftex.def)             Requested size: 30.37335pt x 209.0403pt.
 LaTeX Info: Redefining \sptext on input line 74.
 LaTeX Info: Redefining \. on input line 74.
 LaTeX Info: Redefining \% on input line 74.
@@ -4964,12 +4967,12 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[65 <./2-Resultados/figs/8-AurVar/0-2D_Grid.png>]
+[66 <./2-Resultados/figs/9-AgrVar/0-2D_Grid.png>]
 Overfull \hbox (5.51012pt too wide) in paragraph at lines 78--78
 []\T1/cmr/bx/n/10 a)|| 
  []
 
-<2-Resultados/figs/8-AurVar/cut_angle_65_p.pdf, id=2038, 220.81323pt x 166.7208
+<2-Resultados/figs/8-AurVar/cut_angle_65_p.pdf, id=2045, 220.81323pt x 166.7208
 6pt>
 File: 2-Resultados/figs/8-AurVar/cut_angle_65_p.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/8-AurVar/cut_angle_65_p.pdf>
@@ -4986,7 +4989,7 @@ Overfull \hbox (6.30853pt too wide) in paragraph at lines 81--81
 []\T1/cmr/bx/n/10 b)|| 
  []
 
-<2-Resultados/figs/8-AurVar/cut_angle_65_s.pdf, id=2039, 220.81323pt x 166.7208
+<2-Resultados/figs/8-AurVar/cut_angle_65_s.pdf, id=2046, 220.81323pt x 166.7208
 6pt>
 File: 2-Resultados/figs/8-AurVar/cut_angle_65_s.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/8-AurVar/cut_angle_65_s.pdf>
@@ -5003,7 +5006,7 @@ Overfull \hbox (5.03107pt too wide) in paragraph at lines 85--85
 []\T1/cmr/bx/n/10 c)|| 
  []
 
-<2-Resultados/figs/9-AgrVar/cut_angle_65_p.pdf, id=2040, 220.81323pt x 166.7208
+<2-Resultados/figs/9-AgrVar/cut_angle_65_p.pdf, id=2047, 220.81323pt x 166.7208
 6pt>
 File: 2-Resultados/figs/9-AgrVar/cut_angle_65_p.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/9-AgrVar/cut_angle_65_p.pdf>
@@ -5020,7 +5023,7 @@ Overfull \hbox (6.30853pt too wide) in paragraph at lines 88--88
 []\T1/cmr/bx/n/10 d)|| 
  []
 
-<2-Resultados/figs/9-AgrVar/cut_angle_65_s.pdf, id=2041, 220.81323pt x 166.7208
+<2-Resultados/figs/9-AgrVar/cut_angle_65_s.pdf, id=2048, 220.81323pt x 166.7208
 6pt>
 File: 2-Resultados/figs/9-AgrVar/cut_angle_65_s.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/9-AgrVar/cut_angle_65_s.pdf>
@@ -5032,23 +5035,9 @@ Overfull \hbox (15.95424pt too wide) in paragraph at lines 90--90
  [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 LaTeX Info: Redefining \sptext on input line 95.
 LaTeX Info: Redefining \. on input line 95.
 LaTeX Info: Redefining \% on input line 95.
-
-Package Fancyhdr Warning: \headheight is too small (0.5pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[66 <./2-Resultados/figs/9-AgrVar/0-2D_Grid.png>]
-LaTeX Info: Redefining \sptext on input line 97.
-LaTeX Info: Redefining \. on input line 97.
-LaTeX Info: Redefining \% on input line 97.
-
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 13.59999pt.
@@ -5155,15 +5144,19 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'tesis.run.xml'.
 \openout1 = `tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 58515 strings out of 492982
- 1315262 string characters out of 6134895
+ 58518 strings out of 492982
+ 1315318 string characters out of 6134895
  1877203 words of memory out of 5000000
- 60711 multiletter control sequences out of 15000+600000
+ 60714 multiletter control sequences out of 15000+600000
  568407 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,18n,103p,10550b,2796s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -5263,10 +5256,10 @@ er/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb></us
 r/share/texmf/fonts/type1/public/cm-super/sfti0800.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sfti0900.pfb></usr/share/texmf/fonts/type1/public/cm-supe
 r/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on tesis.pdf (78 pages, 7540419 bytes).
+Output written on tesis.pdf (78 pages, 7542815 bytes).
 PDF statistics:
- 2549 PDF objects out of 2984 (max. 8388607)
- 2090 compressed objects within 21 object streams
+ 2550 PDF objects out of 2984 (max. 8388607)
+ 2091 compressed objects within 21 object streams
  376 named destinations out of 1000 (max. 500000)
  666 words of extra memory for PDF output out of 10000 (max. 10000000)
 
