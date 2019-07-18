@@ -26,6 +26,10 @@ Information about the template is found at the end of the README.md file.
 - [ ] Jugar con BEM (URGE)
 - [ ] Programar 3 medios y calcular la sensibilidad de un sersor comercial
 - [ ] Calcular la función de mérito para la monocapa con oro y plata
+   - [x] Calcular el FWHM
+   - [ ] Implementarlo para \Delta n
+   - [ ] Hacerl el cálculo para monocapa
+   - [ ] Hacerl el cálculo para film
 
 Thesis template:
 =============
