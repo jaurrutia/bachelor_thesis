@@ -11,7 +11,7 @@ Information about the template is found at the end of the README.md file.
   - [x] Poner la gráfica correcta
 - [x] Gráficas de la corrección por tamaño para NPs esféricas
 - [x] Explicación de los plasmones
-- [ ] Explicación de las extinción de luz y su relación con los plasmones
+- [x] Explicación de las extinción de luz y su relación con los plasmones
   - [ ] Diagramas de extinción para a = 30 nm con \omega_p= 4.3 eV, 10 eV y oro y plata
 - [x] CSM
 - [ ] Hacer el límite de partícula pequeña de las SPRs con Drude, que no me sale... :(
