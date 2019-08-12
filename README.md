@@ -12,7 +12,7 @@ Information about the template is found at the end of the README.md file.
 - [x] Gráficas de la corrección por tamaño para NPs esféricas
 - [x] Explicación de los plasmones
 - [x] Explicación de las extinción de luz y su relación con los plasmones
-  - [ ] Diagramas de extinción para a = 30 nm con \omega_p= 4.3 eV, 10 eV y oro y plata
+  - [x] Diagramas de extinción para a = 30 nm con \omega_p= 4.3 eV, 10 eV y oro y plata
 - [x] CSM
 - [ ] Hacer el límite de partícula pequeña de las SPRs con Drude, que no me sale... :(
 - [x] Introducir el sustrato en el CSM
@@ -24,12 +24,17 @@ Information about the template is found at the end of the README.md file.
 - [ ] Hacer análisis de los diagramas de esparcimiento de una sola nanopartículas
 - [x] Introducir información de la distancia promedio entre nanopartículas
 - [ ] Jugar con BEM (URGE)
-- [ ] Programar 3 medios y calcular la sensibilidad de un sersor comercial
+- [x] Programar 3 medios y calcular la sensibilidad de un sersor comercial
 - [ ] Calcular la función de mérito para la monocapa con oro y plata
    - [x] Calcular el FWHM
    - [ ] Implementarlo para \Delta n
    - [ ] Hacerl el cálculo para monocapa
    - [ ] Hacerl el cálculo para film
+- [x] Mejorar la resolución de las gráficas png (el dpi a la hora de exportar)
+- [ ] Homegenizar el margen de las Gráficas
+- [ ] Corregir etiquetas en el modelo de Drude (considerar hacer sólo una gráfica)
+- [ ] En las gráficas de R+T corregir: \omega_p -> \hbar\omega_p
+
 
 Thesis template:
 =============

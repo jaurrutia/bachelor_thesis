@@ -193,7 +193,7 @@ Dado que el plasmón de volumen es un modo longitudinal no puede acoplarse a ond
 % Media names
 \node at (-2.75,.3) {Diel\'ectrico $\; \varepsilon_1(\omega)$}; 
 \node at (-3,-.3) {Metal  $\; \varepsilon_2(\omega)$};
-\node at (4.5,0) {$z=0$};
+\node at (3,.3) {$z=0$};
 
 %-------------------------------------------- Laser beam outside
 \draw[fill=red, opacity = 1,red](-2.25,2)--(-1.75,2)-- (0,.3)  %%% outside the metal
@@ -304,12 +304,12 @@ Al elevar al cuadrado los dos miembros de la Ec. \eqref{eq:condP}, sustituir $k_
 	\begin{tcolorbox}[title = Relación de dispersión del SPP, breakable ]
 	\eqhalf{k_x^2 = \frac{k_0^2}{\varepsilon_0} \frac{\varepsilon_1 \varepsilon_2}{\varepsilon_1 + \varepsilon_2},
 	\label{eqs:kx}}
-	\eqhalf{	k_{j,z}^2 = \frac{k_0^2}{\varepsilon_0} \frac{\varepsilon_j^2}{\varepsilon_1 + \varepsilon_2},\label{eqs:kx}}
+	\eqhalf{	k_{j,z}^2 = \frac{k_0^2}{\varepsilon_0} \frac{\varepsilon_j^2}{\varepsilon_1 + \varepsilon_2},\label{eqs:kz}}
 	
 	con $j=1$, el medio dieléctrico; y $j=2$, el medio metálico.
 	\end{tcolorbox}\label{eq:SPPRelDiso}\end{subequations}\vspace*{-.75em}
 \noindent
-Para que se obtenga una onda evanescente en la interfaz (modo ligado) , $k_x$ debe ser una cantidad real y $k_z$ una cantidad imaginaria \cite{novotny2006principles}, por lo que en la Ec. \eqref{eqs:kx} la suma y el producto de las funciones dieléctricas deben ser ambas positivas o ambas negativas y $\varepsilon_1+\varepsilon_2<0$ en la Ec. \eqref{eqs:kz} \cite{novotny2006principles}, dando como resultado que $\varepsilon_1\varepsilon_2<0$. Estas condiciones se satisfacen con la suposición inicial en la que $\varepsilon_1$ corresponde a la respuesta EM de un medio dieléctrico y $\varepsilon_2$ a la de un metal \cite{maier2007plasmonics,novotny2006principles}. La frecuencia de resonancia $\omega$ del SPP se encuentra cuando la Ec. \eqref{eqs:kx} es máxima, es decir, cuando $\varepsilon_1(\omega)+\varepsilon_2(\omega)$ es mínima. Si se emplea el modelo de Drude-Sommerfeld [Ec. \eqref{eq:Drude}] en el límite $\gamma\to 0$, entonces \cite{maier2007plasmonics}  \vspace*{-.75em}
+Para que se obtenga una onda evanescente en la interfaz (modo ligado) , $k_x$ debe ser una cantidad real y $k_z$ una cantidad imaginaria \cite{novotny2006principles}, por lo que en la Ec. \eqref{eqs:kx} la suma y el producto de las funciones dieléctricas deben ser ambas positivas o ambas negativas y $\varepsilon_1+\varepsilon_2<0$ en la Ec. \eqref{eqs:kz} \cite{novotny2006principles}, dando como resultado que $\varepsilon_1\varepsilon_2<0$. Estas condiciones se satisfacen con la suposición inicial en la que $\varepsilon_1$ corresponda a la respuesta EM de un medio dieléctrico y $\varepsilon_2$ a la de un metal \cite{maier2007plasmonics,novotny2006principles}. La frecuencia de resonancia $\omega$ del SPP se encuentra cuando las Ecs. \eqref{eq:SPPRelDiso} son máximas, es decir, cuando $\varepsilon_1(\omega)+\varepsilon_2(\omega)$ es mínima. Si se emplea el modelo de Drude-Sommerfeld [Ec. \eqref{eq:Drude}] en el límite $\gamma\to 0$ para $\varepsilon_2(\omega)$, entonces \cite{maier2007plasmonics}  \vspace*{-.75em}
 	\begin{tcolorbox}[title =Frecuencia de resonancia del SPP, ams align,  breakable ]
 	\omega = \frac{\omega_p}{\sqrt{1+\varepsilon_1/\varepsilon_0}}.
 	\end{tcolorbox}\vspace*{-.75em}\noindent
@@ -334,25 +334,34 @@ La Fig. \ref{fig:Relaciones_de_dispersion} muestra la relación de dispersión c
 \node at (8,-3.){\footnotesize $k_z\to\text{Imaginario}$};
 \end{tikzpicture}
 \vspace*{-1em}
-	\caption{Relación de dispersión en términos de $\omega/\omega_p$ como función de $k_xc/\omega_p$ de una onda plana en vacío (línea sólida negra), del plasmón de volumen (línea sólida roja) y del SPP (línea sólida azul) para materiales con una función dieléctrica tipo Drude en el límite $\gamma\to 0$ y sobre una interfaz con el vacío ($\varepsilon_1 =\varepsilon_0$). El régimen de modos radiativos se encuentra en $\omega_p\leq\omega$ (igualdad denotada por la línea punteada roja), donde $k_x$ y $k_z$ son cantidades reales; el régimen de modos ligados se encuentra en $\omega\leq\omega_p/\sqrt{2}$ (igualdad denotada por la línea punteada azul), donde $k_x$ es una cantidad real pero $k_z$ es una cantidad imaginaria. Para excitar a SPP es necesario cambiar el índice de refracción de la matriz, por ejemplo empleando un prisma para obtener una onda plana viajando en vidrio (línea punteada negra); la región sombreada delimita las frecuencias a las que el SPP puede excitarse.}
+	\caption{Relación de dispersión en términos de $\omega/\omega_p$ como función de $k_xc/\omega_p$ de una onda plana en vacío (línea sólida negra), del plasmón de volumen (línea sólida roja) y del SPP (línea sólida azul) para materiales con una función dieléctrica tipo Drude en el límite $\gamma\to 0$ y sobre una interfaz con el vacío ($\varepsilon_1 =\varepsilon_0$). El régimen de modos radiativos se encuentra en $\omega_p\leq\omega$ (igualdad denotada por la línea discontinua roja), donde $k_x$ y $k_z$ son cantidades reales; el régimen de modos ligados se encuentra en $\omega\leq\omega_p/\sqrt{2}$ (igualdad denotada por la línea discontinua azul), donde $k_x$ es una cantidad real pero $k_z$ es una cantidad imaginaria. Para excitar a SPP es necesario cambiar el índice de refracción de la matriz, por ejemplo empleando un prisma para obtener una onda plana viajando en vidrio (línea punteada negra); la región sombreada delimita las frecuencias a las que el SPP puede excitarse.}
 	\label{fig:Relaciones_de_dispersion}
 	\end{figure}		
 
-La relación dispersión de la onda plana propagándose en el vacío (línea continua negra en la Fig. \ref{fig:Relaciones_de_dispersion})  es igual a la del SPP (línea continua azul) para  $k_x=0$, por lo que no es posible excitar al SPP con este tipo de ondas \cite{trugler2011properties}. Sin embargo, es posible excitar al SPP empleano un tercer medio dieléctrico, con una función dieléctrica mayor al del dieléctrico que forma la interfaz con el medio metálico donde se excitará el SPP \cite{trugler2011properties}. Un método experimental, pero no el único \cite{maier2007plasmonics}, para excitar al SPP sobre la interfaz formada por una placa metálica con una función dieléctrica $\varepsilon_2(\omega)$ y la matriz dieléctrica con $\varepsilon_1(\omega)$, donde se encuentra inmersa la placa, al emplear una configuración de reflexión total atenuada (Atenuatted Total Reflexión, ATR) \cite{kabashin2009plasmonic}, en donde una onda evanescente interactúa con un objeto \cite{hecht1998optics}, como puede ser una segunda interfaz o bien, NPs soportadas sobre el sustrato. En la Fig. \ref{fig:ATR} se muestra una configuración en ATR al colocar la placa metálica inmersa en un dieléctrico sobre un sustrato cuya función dieléctrica $\varepsilon_3(\omega)$ cumpla con $\varepsilon_3(\omega)>\varepsilon_1(\omega)$. Cuando un haz de luz incide sobre la interfaz entre la placa metálica y el sustrato, se produce una onda evanescente que se propaga en la dirección $\vb{k}_x=k_x\vu{e}_x$ y si la longitud de penetración $1/k_x$ es mayor a la altura de la placa metálica, ésta penetra la interfaz entre la matriz y la placa que permite excitar al SPP sobre esta interfaz \cite{trugler2011properties}. 	
-	
-\begin{figure}[h!]\centering
-	\begin{tikzpicture}
-%-------------------------------------------- Incidence media
+La relación dispersión de la onda plana propagándose en el vacío (línea continua negra en la Fig. \ref{fig:Relaciones_de_dispersion})  es igual a la del SPP (línea continua azul) para  $k_x=0$, por lo que no es posible excitar al SPP con este tipo de ondas \cite{trugler2011properties}. Sin embargo, es posible excitar al SPP empleano un tercer medio dieléctrico, con una función dieléctrica mayor al del dieléctrico que forma la interfaz con el medio metálico donde se excitará el SPP \cite{trugler2011properties}. Un método experimental, pero no el único \cite{maier2007plasmonics}, para excitar al SPP sobre la interfaz formada por una placa metálica con una función dieléctrica $\varepsilon_2(\omega)$ y la matriz dieléctrica con $\varepsilon_1(\omega)$, donde se encuentra inmersa la placa, al emplear una configuración de reflexión total atenuada (Atenuatted Total Reflexión, ATR) \cite{kabashin2009plasmonic}, en donde una onda evanescente interactúa con un objeto \cite{hecht1998optics}, como puede ser una segunda interfaz o bien, NPs soportadas sobre el sustrato. En la Fig. \ref{fig:ATR-SPP} se muestra una posible configuración para excitar experimentalmente al SPP mediante la medición de la reflectancia y el cálculo de los valores que se obtendrían en el experimento. El arreglo consiste en una  placa metálica, con una función dielétrica $\varepsilon_2(\omega)$ y altura $d$, inmersa en un dieléctrico $\varepsilon_1(\omega)=\varepsilon_0$ sobre un sustrato cuya función dieléctrica $\varepsilon_3(\omega)$ cumpla con $\varepsilon_3(\omega)>\varepsilon_1(\omega)$; en la Fig. \ref{sfig:ATR} el sustrato empleado es un prisma con $\varepsilon_3(\omega)/\varepsilon_0=1.5^2$. Cuando una onda plana incide sobre la interfaz entre la placa metálica y el sustrato, se produce una onda evanescente que se propaga en la dirección $\vb{k}_x=k_x\vu{e}_x$ y si $1/k_x>d$, la onda evanescente penetra la interfaz entre la matriz y la placa, excitando al SPP sobre esta interfaz \cite{trugler2011properties}, que se representa como la línea naranja en la Fig. \ref{sfig:ATR}. En la Fig. \ref{sfig:SPP-R} se grafica la reflectancia $R$ como función del ángulo de incidencia $\theta_i$, de la longitud de onda $\lambda$ y la energía $\hbar\omega$, cuando una onda plana se propaga a través del prisma, con $\varepsilon_3(\omega)/\varepsilon_0 = 1.5^2$, e incide sobre una placa de oro de altura $d=45$ nm inmersa en una matriz con $\varepsilon_1(\omega)/\varepsilon_0 = 1$. Para $\lambda<500$ nm la reflectancia es cercana a cero pues el oro se comporta como un dieléctrico, mientras que para $\lambda>500$ nm tiene una respuesta metálica por lo que la reflexión de luz aumenta; para $\theta_i>42^\circ$ la luz que incide sobre la placa metálica se refleja totalmente a excepción de una región con forma de parábola (líneas punteadas blancas). La región donde $R\approx 0$ en $\lambda>500$ nm corresponde a las combinaciones de ángulo de incidencia y longitudes de onda --equivalente a valores de $k_x$ y $\omega$, respectivamente-- a los que el SPP se propaga sobre la interfaz entre la placa de oro y el dieléctrico con $\varepsilon_1(\omega)/\varepsilon_0 = 1$.
+			
+	\begin{figure}[h!]\centering
+	\begin{subfigure}{.01\linewidth}\caption{}\label{sfig:ATR}\vspace{5.5cm}\end{subfigure}
+	\begin{subfigure}{.45\linewidth}\hspace*{-1.5em}
+		\begin{tikzpicture}[scale= 1.45]
+	%-------------------------------------------- Incidence media
 \def\a{.3}
 \def\d{.3}
 \def\dd{.2}
 \def\l{2.5}
+\def\ll{.05}
 
 \fill[blue, opacity = .2] (0,-\l)--(\l,-\d)--(-\l,-\d);
 \draw[blue, opacity = .5,thick] (0,-\l)--(\l,-\d)--(-\l,-\d)--(0,-\l);
 
 
-%
+\draw[|-|](-\l-.25,-\d)--(-\l-.25,+\dd);
+\node at (-\l-.4,0) {\small $\;d$};
+\draw[blue, dashed] (0,0)--(0,-\l*.5);
+
+\path (0,0)++(-90-45*.5:\l*.3)node{$\theta_i$};       % Angle
+\draw[<->](-90:\l*.4)arc(-90:-90-45*.89:\l*.4);
+
 %\foreach \x in {-4,-2.9,-1,.1,1.2,2.4,3.8}{
 %\fill[ball color=yellow, opacity=1] (\x,0) circle(\a);}
 
@@ -370,13 +379,16 @@ La relación dispersión de la onda plana propagándose en el vacío (línea con
 \node at (-1.5,-.1) {\small Metal  $\; \varepsilon_2(\omega)$};
 \node at (-1.9,.5) {\small Diel\'ectrico $\; \varepsilon_1(\omega)$}; 
 
-%\draw[thick, dashed] (-4.5,0)--(4.5,0);
-%\draw[thick, dashed] (-4.5,-\d) rectangle (4.5,\d);
 
 \draw[latex -, thick, red, line width = 2](225:.5)--(225:2.5) node[anchor= north]{$\vb{k}^i$};
+\node at (-1.25,-.5) {\color{red} $\omega =\frac{2\pi}{\lambda}c$};
 \draw[- latex, thick, red, line width= 2](-45:.5)--(-45:2.5)node[anchor=north ]{$\vb{k}^r$};
 \draw[- latex, thick,   line width = 1](.5,-\d)--(1.5,-\d) node[anchor= west ]{$\vb{k}_x$};
-\draw[- latex, thick, orange,  line width = 2](.1,\dd)--(2,\dd) node[anchor= south west ]{SPP};
+
+\foreach \i in {0,4,8,12}{
+\draw[thick, orange,line width = 2,] (\i*\ll,\dd) sin (\i*\ll+\ll,\dd*2) cos (\i*\ll+2*\ll,\dd) sin (\i*\ll+3*\ll,0) cos (\i*\ll+4*\ll,\dd);
+}
+\draw[- latex, thick, orange,  line width = 2](15.5*\ll,\dd)--(2,\dd) node[anchor= south west ]{SPP};
 
 
 
@@ -389,10 +401,17 @@ La relación dispersión de la onda plana propagándose en el vacío (línea con
 \draw[fill = red, opacity = .35] (-.1,0-\d) ..controls (.025,.03125-\d) .. (0.15,.09375-\d)
 											..controls (.225,.03125-\d) .. (.4,0-\d);  %4th evanescent wave	
 
+
 \end{tikzpicture}	
-	\caption{ Esquema de la configuración ATR para una placa metálica con una función dieléctrica $\varepsilon_2(\omega)$ inmersa en una matriz dieléctrica con $\varepsilon_1(\omega)$ y sobre un prisma dieléctrico con $\varepsilon_3(\omega)>\varepsilon_1(\omega)$. Cuando un haz de luz con polarización \emph{p} incide sobre la interfaz entre el prisma y la placa de metal a un ángulo mayor al crítico se produce una onda evanescente propagante en la dirección $\vb{k}_x=k_x\vu{e}_x$; si la longitud de penetración $1/k_x$ es mayor a la altura de la placa metálica, es posible excitar al SPP sobre la interfaz entre el medio metálico y el vacío, como se observa en la Fig. \ref{fig:Relaciones_de_dispersion} con el cruce la línea discontinua negra (onda plana viajando en un dieléctrico con $n=1.5$) y la línea continua azul (SPP propagándose en la interfaz entre el vacío y un material descrito por le modelo de Drude-Sommerfeld con $\gamma\to 0$).}
-	\label{fig:ATR}
-	\end{figure}
+\end{subfigure}\hspace*{2em}
+\begin{subfigure}{.01\linewidth}\caption{}\label{sfig:SPP-R}\vspace{5.5cm}\end{subfigure}
+	\begin{subfigure}{.45\linewidth}\hspace*{-1em}
+	\includegraphics[scale=.73]{1-Teoria/figs/SPP.png}%
+	\includegraphics[scale=.73, trim={00 -5 00 00}, clip]{2-Resultados/figs/0-RBar_v}
+	\end{subfigure}\hfill	\vspace*{-.7em}
+	\caption{\textbf{a)} Esquema de una configuración ATR para la medición de la relación de dispersión del SPP mediante la reflectancia $R$ y \textbf{b)}  cálculo de la reflectancia al considerar una placa de oro con una función dieléctrica $\varepsilon_2(\omega)$, dada por los datos experimentales de \cite{johnson1972constants},	inmersa en una matriz dieléctrica con $\varepsilon_1(\omega)\varepsilon_0 = 1$ y sobre un prisma dieléctrico con $\varepsilon_3(\omega)/\varepsilon_0=1.5^2$. Cuando un haz de luz con polarización \emph{p} incide sobre la interfaz entre el prisma y la placa de oro a un ángulo mayor al crítico se produce una onda evanescente propagante en la dirección $\vb{k}_x=k_x\vu{e}_x$; si la longitud de penetración $1/k_x$ es mayor a la altura $d$ de la placa metálica, es posible excitar al SPP sobre la interfaz entre el medio metálico y el segun, como se observa en la Fig. \ref{fig:Relaciones_de_dispersion}. En la Fig. \ref{sfig:SPP} la línea punteada blanca corresponde a la relación de dispersión del SPP propagándoce sobre la interfaz entre el aire y una placa metálica de oro.}\label{fig:ATR-SPP}
+	\end{figure}			
+		
 		
 Los SPPs son ondas electromagnéticas propagantes acopladas a los electrones libres de un metal sobre una interfaz plana e infinita entre el metal y un medio dieléctrico \cite{maier2007plasmonics}. Cuando la interfaz  entre el medio metálico y el dieléctrico tiene una área finita, como sucede con NPs, el resultado de la interacción entre una onda plana incidente y los electrones libres del metal es una excitación no propagante, también causada por el acoplamiento entre la radiación EM y los electrones libres, denominada plasmón de superficie localizado (Localized Surface Plasmon, LSP) \cite{maier2007plasmonics}. La curvatura de las NPs tiene dos efectos en los LSPs: la amplificación de los campos EMs dentro y fuera de la NP (en límite de campo cercano) y la excitación del LSP con iluminación directa, es decir, 
 sin emplear métodos como la iluminación en ATR u otros \cite{maier2007plasmonics}.
@@ -406,7 +425,7 @@ Al considerar que las NPs son esféricas, se puede emplear la solución de Mie p
 		\underbrace{	\frac12 \Re\qty(\vb{E}^i\times\vb{H}^{s*} + \vb{E}^s\times\vb{H}^{i*})}_{\text{\normalsize$\langle\vb{S}^{ext}\rangle_t $}},
 \end{align*}
 %
-en donde $\vb{S}^i$ y $\vb{S}^s$ son los vectores de Poynting correspondientes a la onda plana incidente, con número de onda $k_m$ y cuyo campo eléctrico tiene amplitud $E_0$, y a los campos EMs esparcidos por la NP, respectivamente, y $\vb{S}^{ext}$ corresponde a los productos cruzados de estos. Le energía $W_{abs}$ trasportados por los campos EM que es absorbida por la NPs se calcula al integrar $\langle\vb{S}\rangle_t$ sobre una esfera de radio concéntrica a la NP, cuyo radio sea mayor al radio de la NP, es decir,
+en donde $\vb{S}^i$ y $\vb{S}^s$ son los vectores de Poynting correspondientes a la onda plana incidente, con número de onda $k_m$ y cuyo campo eléctrico tiene amplitud $E_0$, y a los campos EMs esparcidos por la NP, respectivamente, y $\vb{S}^{ext}$ corresponde a los productos cruzados de estos. Le energía $W_{abs}$ trasportados por los campos EM que es absorbida por la NPs se calcula al integrar $\langle\vb{S}\rangle_t$ sobre una esfera de radio $R$ concéntrica a la NP, cuyo radio sea mayor al radio de la NP, es decir,
 %
 \begin{equation}
 W_{abs} = - \int_0^{2\pi}\int_0^{\pi}
@@ -417,13 +436,13 @@ W_{abs} = - \int_0^{2\pi}\int_0^{\pi}
 		 \label{eq:WaAll}
 \end{equation}
 %
-donde $W_i = 0$, pues se asume que la matriz donde se encuentra inmersa la NP no es absorbente \cite{bohren1998absorption}. Como $W_{abs}$ es independiente de $R$, al suponer que tanto la matriz como la NP no son magnéticas, es posible emplear la expresión de $\vb{E}^s$ en el límite asintótico de las funciones de Riccati-Bessel y en el de campo lejano [Ecs. \eqref{eq:EHsFF}] y a partir de ésta calcular $\vb{H}^s$ con ley de Faraday-Lenz [Ec. \eqref{seq:FLArm}], se calcula $W_{sca}$ como \cite{bohren1998absorption}
+donde $W_i = 0$, pues se asume que la matriz donde se encuentra inmersa la NP no es absorbente \cite{bohren1998absorption}. Como $W_{abs}$ es independiente de $R$, al suponer que tanto la matriz como la NP no son magnéticas, es posible emplear la expresión de $\vb{E}^s$ en el de campo lejano dada por las Ecs. \eqref{eq:EHsFF} y a partir de ésta calcular $\vb{H}^s$ con ley de Faraday-Lenz [Ec. \eqref{seq:FLArm}], dando como resultado que $W_{sca}$ se calcula como \cite{bohren1998absorption}
  	\begin{equation}
 W_{sca} = \frac{\pi\norm{E_0}^2}{\omega\mu_0 k_m}
 		\sum_\ell^\infty (2\ell+1)\Re(-i\xi_\ell^*\xi_\ell')\qty(\abs{a_\ell}^2+\abs{b_\ell}^2),
 	\label{eq:WsAll}
 	\end{equation}
-en donde $a_\ell$ y $b_\ell$ son los coeficientes de Mie [Ecs.  \eqref{eq:MieCoef}], $\xi_\ell(\rho) = \rho h_\ell^{(1)}(\rho)$ y donde además se emplearon las propiedades de ortogonalidad de las funciones $\sin\varphi$ y $\cos\varphi$ [Ec. \eqref{eq:ortSinCos}], de $\tau_\ell\pm\pi_\ell$ [Ec. \eqref{eq:ortTauPi}], junto con la relación \cite{bohren1998absorption}
+en donde $a_\ell$ y $b_\ell$ son los coeficientes de Mie [Ecs.  \eqref{eq:MieCoef}], $\xi_\ell(\rho) = \rho h_\ell^{(1)}(\rho)$ una función de Riccati-Bessel, y donde además se emplearon las propiedades de ortogonalidad de las funciones $\sin\varphi$ y $\cos\varphi$ [Ec. \eqref{eq:ortSinCos}], de $\tau_\ell\pm\pi_\ell$ [Ec. \eqref{eq:ortTauPi}], junto con la relación \cite{bohren1998absorption}
 	\begin{equation*}
 	 \int_{-1}^{1}\qty[\pi_\ell(\mu)\pi_{\ell'}(\mu) + \tau_\ell(\mu)\tau_{\ell'}(\mu)]\dd\mu
  			= \delta_{\ell,\ell'} \frac{2\ell^2(\ell+1)^2}{2\ell+1}.
@@ -445,7 +464,7 @@ en donde $I_i = \norm{\langle\vb{S}^i\rangle} = \norm{E_0}^2k_m/2\omega\mu_0$ es
 W_{ext} = I_i \frac{2\pi}{k_m^2}  \sum_\ell^\infty (2\ell+1) \Re(a_\ell + b_\ell).
 \end{equation}
 
-De la Ec. \eqref{eq:WaAll}, empleando las expresiones de $W_{sca}$ y $W_{ext}$ es posible calcular la energía absorbida $W_{abs}$ por la NP. Al despejar $W_{ext}$ de la Ec. \eqref{eq:WaAll} se obtiene que $W_{ext} = W_{abs}+W_{sca}$, razón por la que $W_{ext}$ es la energía que se extinguió  mediante la absorción y esparcimiento de luz por la NP. Dado que tanto $W_{sca}$ y $W_{ext}$ son proporcionales a la irradiencia de la onda plana incidente $I_i$, al normalizar estas cantidades por $I_i$, se obtienen las secciones transversales de extinción $C_{ext}$, absorción  $C_{abs}$ y esparcimiento $C_{sca}$ que se relacionan como \vspace*{-.75em}
+De la Ec. \eqref{eq:WaAll}, empleando las expresiones de $W_{sca}$ y $W_{ext}$ es posible calcular la energía absorbida $W_{abs}$ por la NP. Al despejar $W_{ext}$ de la Ec. \eqref{eq:WaAll} se obtiene que $W_{ext} = W_{abs}+W_{sca}$, razón por la que $W_{ext}$ es la energía que se extinguió  mediante la absorción y esparcimiento de luz por la NP. Al normalizar $W_{sca}$ y $W_{ext}$ por la irradiencia de la onda plana incidente $I_i$, se obtienen cantidades con unidades de área, por lo que se conocen como las secciones transversales de extinción $C_{ext}$, absorción  $C_{abs}$ y esparcimiento $C_{sca}$ que se relacionan como \vspace*{-.75em}
 	\begin{tcolorbox}[title = {Secciones transversales de extinción, absorción y esparcimiento}, breakable ]
 	\begin{equation}
 	C_{ext} = C_{abs} + C_{sca},
@@ -456,23 +475,29 @@ De la Ec. \eqref{eq:WaAll}, empleando las expresiones de $W_{sca}$ y $W_{ext}$ e
 
 	con $a_\ell$ y $b_\ell$, los coeficientes de Mie, dados por la Ec. \eqref{eq:MieCoef}.
 	\end{tcolorbox}\vspace*{-.75em}
+Para poder comparar la cantidad de luz extinta por partículas esféricas, se emplean las eficiencias de absorción $Q_{abs}$, esparcimiento $Q_{sca}$ y extinción $Q_{ext}$, que se calculan a través de las secciones transversales de absorción $C_{abs}$, esparcimiento $C_{sca}$ y extinción $C_{ext}$ al normalizarlas por la sección transversal geométrica de la partícula $C_{geo}=\pi a^2$, dando como resultado
+\begin{equation}
+\frac{C_{ext}}{\pi a^2} = \frac{C_{ext}}{\pi a^2}  + \frac{C_{ext}}{\pi a^2} 
+\;\longrightarrow\; 	Q_{ext} = Q_{abs} + Q_{sca}.
+\end{equation}
 
-Para una NP esférica, la sección transversal de extinción $C_{ext}$, al igual que los campos EMs esparcidos [Ec. \eqref{eq:EHsFF}]  está en términos de de una expansión multipolar modulada por los coeficientes $a_\ell$ y $b_\ell$ [Ecs.  \eqref{eq:MieCoef}], que dependen, entre otros parámetros, de $N$ que es el cociente del índice de refracción de la partícula $n_p(\omega)$ entre el de la matriz $n_m(\omega)$.  De la Ec.  \eqref{eq:Cabs} se observa que, para un multipolo $\ell$ fijo, la contribución de de los campos EMs en la extinción de luz es máxima  cuando $C_{abs}$ tiene un máximo \cite{maier2007plasmonics}, o bien. cuando el denominador de los coeficientes de Mie es mínimo \cite{novotny2006principles}.  Si se considera que la respuesta óptica de la partícula es 	$\varepsilon_p (\omega) = n_p^2 (\omega)$, y se fijan los parámetros $a$, $n_m$ y $\lambda$, entonces a la frecuencia $\omega_\ell = c (2\pi / \lambda_\ell)$, donde el denominador de las Ecs.  \eqref{eq:MieCoef} es mínimo, se le denomina \emph{modo normal} de orden $\ell$ \cite{bohren1998absorption,maciel2017momentum}.  Los modos normales eléctricos ocurren a las frecuencias en las que se cumple la condición 
+Para una NP esférica, la sección transversal de extinción $C_{ext}$, al igual que los campos EMs esparcidos [Ec. \eqref{eq:EHsFF}]  está en términos de de una expansión multipolar modulada por los coeficientes $a_\ell$ y $b_\ell$ [Ecs.  \eqref{eq:MieCoef}], que dependen, entre otros parámetros, de $N$ que es el cociente del índice de refracción de la partícula $n_p(\omega)$ entre el de la matriz $n_m(\omega)$.  De la Ec.  \eqref{eq:Cabs} se observa que, para un multipolo $\ell$ fijo, la contribución de de los campos EMs en la extinción de luz es máxima  cuando $C_{abs}$ tiene un máximo \cite{maier2007plasmonics}, o bien, cuando el denominador de los coeficientes de Mie es mínimo \cite{novotny2006principles}.  Si se considera que la respuesta óptica de la partícula es 	$\varepsilon_p (\omega) = n_p^2 (\omega)$, y se mantienen constantes el radio $a$ de la NP, el índice de refracción $n_m$ de la matriz y la longitud de onda $\lambda$ de la onda plana incidente, entonces a la frecuencia $\omega_\ell = c (2\pi / \lambda_\ell)$, donde el denominador de las Ecs.  \eqref{eq:MieCoef} es mínimo, se le denomina \emph{modo normal} de orden $\ell$ \cite{bohren1998absorption,maciel2017momentum}.  Los modos normales eléctricos ocurren a las frecuencias en las que se cumple la condición 
 	\begin{align}
 	\psi_\ell(Nx)\xi_\ell'(x)-N\xi_\ell(x)\psi_\ell'(Nx) = 0. 
 	\label{eq:an_resonance}
 	\end{align}
-Al considerar el límite de partícula pequeña ($x = k_m a\ll 1$, con $a$ el radio de la NP) para esferas inmersas en vacío ($n_m=1$), haciendo un desarrollo en serie de Taylor de las funciones de Bessel y Hankel alrededor del origen y sustituyéndolas en la Ec.  \eqref{eq:an_resonance}, se obtiene que los modos normales eléctricos cumplen la relación \cite{maciel2017momentum}
+Al considerar el límite de partícula pequeña ($x = k_m a\ll 1$) para esferas inmersas en vacío ($n_m=1$), haciendo un desarrollo en serie de Taylor de las funciones de Bessel y Hankel alrededor del origen y sustituyéndolas en la Ec.  \eqref{eq:an_resonance}, se obtiene que los modos normales eléctricos cumplen la relación \cite{maciel2017momentum}
 	\begin{align}
 	\varepsilon_p(\omega_\ell) = - \frac{\ell+1}{\ell}.  
 	\label{eq:NormalModes}
 	\end{align}
-	
-Si se emplea la función dieléctrica del modelo de Drude-Sommerfeld [Ec.  \eqref{eq:Drude}] para $\omega = \omega_\ell$	y se sustituye en la Ec.  \eqref{eq:NormalModes}, al despejar $\omega_\ell$ tras considerar además el límite $\gamma\to 0$ y de partícula pequeña, la expresión para la frecuencia de resonancia del  modo normal del multipolo $\ell$ es \cite{maciel2017momentum}
-	\begin{align}
+Si se emplea la función dieléctrica del modelo de Drude-Sommerfeld [Ec.  \eqref{eq:Drude}] para $\omega = \omega_\ell$	y se sustituye en la Ec.  \eqref{eq:NormalModes}, al despejar $\omega_\ell$ tras considerar además el límite $\gamma\to 0$ y de partícula pequeña, la expresión para la frecuencia de resonancia del  modo normal del multipolo $\ell$ es \cite{maciel2017momentum}\vspace*{-.75em}
+\begin{tcolorbox}[title =Frecuencia de resonancia del LSP, ams align,  breakable ]
 	\frac{\omega_\ell}{\omega_p} = \sqrt{ \frac{\ell}{2\ell+1}}. \label{eq:PPequeña}
-	\end{align}
-Adicionalmente, si se considera la contribución de todos los órdenes multipolares ($\ell\to \infty$), la mayor frecuencia de resonancia es $\omega_\infty = \omega_p/\sqrt{2}$, que corresponde a la SPR de superfice.	Para partículas esféricas de radio arbitrario $a$ con una función dieléctrica dada por el modelo de Drude-Sommerfeld, la frecuencia de resonancia $\omega_\ell$ sufre un corrimiento al rojo debido al tiempo de acomplamiento $a/c$ entre la interacción EM de la esfera y  la densidad de carga inducida que corresponde al plasmón de superficie \cite{aizpurua1998coupling}.  En la Fig.  \ref{fig:NormalModes} se muestran las frecuencias de resonancia $\omega_\ell$ normalizadas respecto a la frecuancia de plasma $\omega_p$, como función del parámetro adimensional $a\omega_p / c$ para los multipolos $\ell = 1,2,3$ y $4$.  El límite de partícula pequeña [Ec.  \eqref{eq:PPequeña}]	se recupera cuando  $a\to 0$ (lado izquierdo de la gráfica en la Fig.  \ref{fig:NormalModes}).  
+	\end{tcolorbox}\vspace*{-.75em}\noindent
+Adicionalmente, si se considera la contribución de todos los órdenes multipolares ($\ell\to \infty$), la mayor frecuencia de resonancia es $\omega_\infty = \omega_p/\sqrt{2}$, que corresponde a la SPR de superfice.
+
+Para partículas esféricas de radio arbitrario $a$ con una función dieléctrica dada por el modelo de Drude-Sommerfeld, la frecuencia de resonancia $\omega_\ell$ sufre un corrimiento al rojo debido al tiempo de acomplamiento $a/c$ entre la interacción EM de la esfera y  la densidad de carga inducida que corresponde al plasmón de superficie \cite{aizpurua1998coupling}.  En la Fig.  \ref{fig:NormalModes} se muestran las frecuencias de resonancia $\omega_\ell$ normalizadas respecto a la frecuancia de plasma $\omega_p$, como función del parámetro adimensional $a\omega_p / c$ para los multipolos $\ell = 1,\,2,\,3,\,4$ y $5$. El límite de partícula pequeña [Ec.  \eqref{eq:PPequeña}]	se recupera cuando  $a\to 0$ (lado izquierdo de la gráfica en la Fig.  \ref{fig:NormalModes}).  
 
 	\begin{figure}[h!]\centering
 		\includegraphics[scale=1]{1-Teoria/figs/1-4-DrudeMultipoles.pdf}\vspace*{-1em}
@@ -481,4 +506,35 @@ Adicionalmente, si se considera la contribución de todos los órdenes multipola
 	\end{figure}		
 
 
-Para una función dieléctrica arbitraria, los modos normales se calculan como la frecuencia a la que la partícula extingue la mayor cantidad de luz \cite{kreibig1995clusters}. 
+
+
+
+
+Para una partícula esférica con una función dieléctrica arbitraria, los modos normales corresponden a frecuencias en donde la sección transvesal de extinción es máxima para contribución multipolar $\ell$ \cite{kreibig1995clusters}. En la Fig. \ref{fig:QextDrude} se grafica la eficiencia de extinción $Q_{ext}$ (línea continua azul) y la de esparcimiento $Q_{abs}$ (línea punteada azul) como función de la longitud de onda $\lambda$ y la energía $\hbar\omega$ para una partícula esférica de radio $a=30$ nm, inmersa en aire ($n_m=1$), con una función dieléctrica tipo Drude [Ec. \eqref{eq:Drude}] con los parámetros $\hbar\omega_p=4.3$ eV y $\hbar\gamma = 0.15$ eV [ver Fig. \ref{sfig:Qext4-30}] y con $\hbar\omega_p=10$ eV y $\hbar\gamma = 0.15$ eV [ver Fig. \ref{sfig:Qext10-30}].  Para determinar los modos normales del campo eléctrico en la partícula se grafican, adicionalmente, las contribuciones multipolares de las eficiencias de extinción $Q_{ext}^{(\ell)}$ para $\ell = 1,\,2$ y $3$, representadas por las líneas discontinuas verde, rosa y cian, respectivamente, en la escala vertical derecha. Cuando $\hbar\omega_p = 4.3$ eV, los modos normales, en términos de la longitud de onda, se excitan a $\lambda^{(1)}= 526$ nm, $\lambda^{(2)}= 462$ nm y $\lambda^{(3)}= 445 $ nm, mientras que para $\hbar\omega_p = 10$ eV se excitan a $\lambda^{(1)}= 265$ nm $\lambda^{(2)}= 211$ nm $\lambda^{(3)}= 195$ nm.
+
+	\begin{figure}[h!]\centering\hspace*{-1.5em}
+	\begin{subfigure}{.01\linewidth}\caption{}\label{sfig:Qext4-30}\vspace{3.75cm}\end{subfigure}
+	\begin{subfigure}{.45\linewidth}\hspace*{-1.3em}
+	\includegraphics[scale=1]{1-Teoria/figs/1-5-Drude4-ExtSca_30.pdf}
+	\end{subfigure}
+	\begin{subfigure}{.01\linewidth}\caption{}\label{sfig:Qext10-30}\vspace{3.75cm}\end{subfigure}
+	\begin{subfigure}{.45\linewidth}\hspace*{-1em}
+	\includegraphics[scale=1]{1-Teoria/figs/1-5-Drude10-ExtSca_30.pdf}
+	\end{subfigure}\vspace*{-.7em}
+	\caption{Eficiencias de extinción $Q_{ext}$ (línea continua azul) y esparcimiento $Q_{sca}$ (línea punteada azul) como función de la energía $\hbar\omega$ para una partícula esférica con una función dieléctrica tipo Drude con los parámetros \textbf{a)} $\hbar\omega_p=4.3$ eV y $\hbar\gamma = 0.15$ eV y \textbf{b)} $\hbar\omega_p=10$ eV y $\hbar\gamma = 0.15$ eV; los resultados se obtuvieronal considerar la contribución de los primeros seis multipolos garantizando convergencia según el criterio de Wimcombe \cite{wimcombre}. La contribución del multipolo $\ell$ en la eficiencia de extinción $Q_{ext}^{(\ell)}$ se grafica en escala logarítmica (eje vertical derecho) como función de la energía $\hbar\omega$ para localizar los modos normales; se consideraron los modos dipolares ($\ell =1$), cuadrupolares ($\ell = 2$) y octopolares ($\ell = 3$), correspondientes a las líneas verdes, rosas y azules, respectivamente.  Cuando $\hbar\omega_p = 4.3$ eV, los modos normales, en términos de la longitud de onda, se excitan a $\lambda^{(1)}= 526$ nm, $\lambda^{(2)}= 462$ nm y $\lambda^{(3)}= 445 $ nm, mientras que para $\hbar\omega_p = 10$ eV se excitan a $\lambda^{(1)}= 265$ nm $\lambda^{(2)}= 211$ nm $\lambda^{(3)}= 195$ nm.}
+	\label{fig:QextDrude}
+	\end{figure}	
+
+Al considerar el caso con $\hbar\omega_p = 4.3$ eV, la extinción de luz a $2.3$ eV (modo dipolar) se debe no solo al esparcimiento, sino también a la absorción dado que $Q_{ext}>Q_{sca}$; un tercio de la extinción se debe al esparcimiento, y dos tercios a la absorción. De forma distinta, para $\hbar\omega_p = 10$ eV, el esparcimiento de luz predomina en el proceso de extinción de luz a $\hbar\omega= 4.7$ eV (modo dipolar).
+
+
+
+
+
+
+
+
+
+
+
+
