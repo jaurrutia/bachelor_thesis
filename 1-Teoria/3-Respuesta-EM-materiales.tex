@@ -383,7 +383,7 @@ La relación dispersión de la onda plana propagándose en el vacío (línea con
 \draw[latex -, thick, red, line width = 2](225:.5)--(225:2.5) node[anchor= north]{$\vb{k}^i$};
 \node at (-1.25,-.5) {\color{red} $\omega =\frac{2\pi}{\lambda}c$};
 \draw[- latex, thick, red, line width= 2](-45:.5)--(-45:2.5)node[anchor=north ]{$\vb{k}^r$};
-\draw[- latex, thick,   line width = 1](.5,-\d)--(1.5,-\d) node[anchor= west ]{$\vb{k}_x$};
+\draw[- latex, thick,   line width = 1](.5,-\d)--(1.5,-\d) node[anchor= north west ]{$\vb{k}_x$};
 
 \foreach \i in {0,4,8,12}{
 \draw[thick, orange,line width = 2,] (\i*\ll,\dd) sin (\i*\ll+\ll,\dd*2) cos (\i*\ll+2*\ll,\dd) sin (\i*\ll+3*\ll,0) cos (\i*\ll+4*\ll,\dd);
@@ -475,13 +475,13 @@ De la Ec. \eqref{eq:WaAll}, empleando las expresiones de $W_{sca}$ y $W_{ext}$ e
 
 	con $a_\ell$ y $b_\ell$, los coeficientes de Mie, dados por la Ec. \eqref{eq:MieCoef}.
 	\end{tcolorbox}\vspace*{-.75em} \noindent
-Para poder comparar la cantidad de luz extinta por partículas esféricas, se emplean las eficiencias de absorción $Q_{abs}$, esparcimiento $Q_{sca}$ y extinción $Q_{ext}$, que se calculan a través de las secciones transversales de absorción $C_{abs}$, esparcimiento $C_{sca}$ y extinción $C_{ext}$ al normalizarlas por la sección transversal geométrica de la partícula $C_{geo}=\pi a^2$, dando como resultado
+Para poder comparar la cantidad de luz extinta por partículas esféricas de distintos radios, se emplean las eficiencias de absorción $Q_{abs}$, esparcimiento $Q_{sca}$ y extinción $Q_{ext}$, que se calculan a través de las secciones transversales de absorción $C_{abs}$, esparcimiento $C_{sca}$ y extinción $C_{ext}$ al normalizarlas por la sección transversal geométrica de cada partícula $\pi a^2$, dando como resultado
 \begin{equation}
 \frac{C_{ext}}{\pi a^2} = \frac{C_{ext}}{\pi a^2}  + \frac{C_{ext}}{\pi a^2} 
 \;\longrightarrow\; 	Q_{ext} = Q_{abs} + Q_{sca}.
 \end{equation}
 
-Para una NP esférica, la sección transversal de extinción $C_{ext}$, al igual que los campos EMs esparcidos [Ec. \eqref{eq:EHsFF}]  está en términos de de una expansión multipolar modulada por los coeficientes $a_\ell$ y $b_\ell$ [Ecs.  \eqref{eq:MieCoef}], que dependen, entre otros parámetros, de $N$ que es el cociente del índice de refracción de la partícula $n_p(\omega)$ entre el de la matriz $n_m(\omega)$.  De la Ec.  \eqref{eq:Cabs} se observa que, para un multipolo $\ell$ fijo, la contribución de de los campos EMs en la extinción de luz es máxima  cuando $C_{abs}$ tiene un máximo \cite{maier2007plasmonics}, o bien, cuando el denominador de los coeficientes de Mie es mínimo \cite{novotny2006principles}.  Si se considera que la respuesta óptica de la partícula es 	$\varepsilon_p (\omega) = n_p^2 (\omega)$, y se mantienen constantes el radio $a$ de la NP, el índice de refracción $n_m$ de la matriz y la longitud de onda $\lambda$ de la onda plana incidente, entonces a la frecuencia $\omega_\ell = c (2\pi / \lambda_\ell)$, donde el denominador de las Ecs.  \eqref{eq:MieCoef} es mínimo, se le denomina \emph{modo normal} de orden $\ell$ \cite{bohren1998absorption,maciel2017momentum}.  Los modos normales eléctricos ocurren a las frecuencias en las que se cumple la condición 
+Para una NP esférica, la eficiencia de extinción $Q_{ext}$, al igual que los campos EMs esparcidos [Ec. \eqref{eq:EHsFF}],  está en términos de de una expansión multipolar modulada por los coeficientes $a_\ell$ y $b_\ell$ [Ecs.  \eqref{eq:MieCoef}], que dependen, entre otros parámetros, de $N$ que es el cociente del índice de refracción de la partícula $n_p(\omega)$ entre el de la matriz $n_m(\omega)$.  De la Ec.  \eqref{eq:Cabs} se observa que, para un multipolo $\ell$ fijo, la contribución de los campos EMs en la extinción de luz es máxima  cuando $Q_{ext}$ tiene un máximo \cite{maier2007plasmonics}, o bien, cuando el denominador de los coeficientes de Mie es mínimo \cite{novotny2006principles}.  Si se considera que la respuesta óptica de la partícula es 	$\varepsilon_p (\omega) = n_p^2 (\omega)$, y se mantienen constantes el radio $a$ de la NP, el índice de refracción $n_m$ de la matriz y la longitud de onda $\lambda$ de la onda plana incidente, entonces a la frecuencia $\omega_\ell = c (2\pi / \lambda_\ell)$, donde el denominador de las Ecs.  \eqref{eq:MieCoef} es mínimo, se le denomina \emph{modo normal} de orden $\ell$ \cite{bohren1998absorption,maciel2017momentum}.  Los modos normales eléctricos ocurren a las frecuencias en las que se cumple la condición 
 	\begin{align}
 	\psi_\ell(Nx)\xi_\ell'(x)-N\xi_\ell(x)\psi_\ell'(Nx) = 0. 
 	\label{eq:an_resonance}
