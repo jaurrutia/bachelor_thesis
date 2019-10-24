@@ -238,8 +238,27 @@
 
 %: Uncomment this secion for two-sided printing
 % ------------------------------
-\setlength{\oddsidemargin}{1cm}  %antes 1.5   mueve todo a la derecha de estas páginas
-\setlength{\evensidemargin}{0cm}
+%\setlength{\oddsidemargin}{1cm}  %antes 1.5   mueve todo a la derecha de estas páginas
+%\setlength{\evensidemargin}{0cm}
+%\setlength{\topmargin}{-.75cm}  % antes 1mm
+%\setlength{\headheight}{0.cm}		% antes 1.36cm
+%\setlength{\headsep}{1cm}			% antes 1
+%\setlength{\textheight}{22.5cm}   % antes 20.84cm
+%\setlength{\textwidth}{16cm}  		% antes 14.5cm
+%\setlength{\marginparsep}{1mm}
+%\setlength{\marginparwidth}{3cm}		%antes 3
+%%\setlength{\footskip}{2.36cm}
+%\setlength{\footskip}{0.7cm}
+%\setlength{\parskip}{1 em}	
+%\setlength{\parindent}{3em}   %ESTE LO AGREGUE YP
+
+%: Uncomment this secion for one-sided printing
+% taken from the original file, but with the first two lanes modified
+% ------------------------------
+%\setlength{\evensidemargin}{1.9cm} % was 1.96cm in original
+%\setlength{\oddsidemargin}{-0.001cm} % was -0.54cm in original file
+\setlength{\oddsidemargin}{.5cm}  %antes 1.5   mueve todo a la derecha de estas páginas
+\setlength{\evensidemargin}{.5cm}
 \setlength{\topmargin}{-.75cm}  % antes 1mm
 \setlength{\headheight}{0.cm}		% antes 1.36cm
 \setlength{\headsep}{1cm}			% antes 1
@@ -251,20 +270,6 @@
 \setlength{\footskip}{0.7cm}
 \setlength{\parskip}{1 em}	
 \setlength{\parindent}{3em}   %ESTE LO AGREGUE YP
-
-%: Uncomment this secion for one-sided printing
-% taken from the original file, but with the first two lanes modified
-% ------------------------------
-%\setlength{\evensidemargin}{1.9cm} % was 1.96cm in original
-%\setlength{\oddsidemargin}{-0.001cm} % was -0.54cm in original file
-%\setlength{\topmargin}{1mm}
-%\setlength{\headheight}{1.36cm}
-%\setlength{\headsep}{1.00cm}
-%\setlength{\textheight}{20.84cm}
-%\setlength{\textwidth}{14.5cm}
-%\setlength{\marginparsep}{1mm}
-%\setlength{\marginparwidth}{3cm}
-%\setlength{\footskip}{2.36cm}
 
 	%------------------------- Fancy page layout options --------------------------------------
 

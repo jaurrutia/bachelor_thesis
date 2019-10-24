@@ -16,50 +16,58 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 10560 items from 5000.
+Reallocated field_info (elt_size=4) to 11394 items from 5000.
 Database file #1: tesis-blx.bib
 Database file #2: 06-Bibliografia/references.bib
+You're missing a field name---line 416 of file 06-Bibliografia/references.bib
+ : 
+ : %author = {Fan, J H and Hung, W I and Li, W T and Yeh, J M},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "wimcombre"
+Warning--I didn't find a database entry for "INDREF"
 Biblatex version: 3.8
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 40 entries,
+You've used 44 entries,
             6268 wiz_defined-function locations,
-            1436 strings with 16782 characters,
-and the built_in function-call counts, 276070 in all, are:
-= -- 20282
-> -- 5675
-< -- 1539
-+ -- 7119
-- -- 2300
-* -- 20158
-:= -- 27886
+            1466 strings with 17839 characters,
+and the built_in function-call counts, 312880 in all, are:
+= -- 23090
+> -- 6389
+< -- 1694
++ -- 8136
+- -- 2628
+* -- 23155
+:= -- 31931
 add.period$ -- 0
-call.type$ -- 40
-change.case$ -- 908
+call.type$ -- 44
+change.case$ -- 974
 chr.to.int$ -- 46
-cite$ -- 78
-duplicate$ -- 27481
-empty$ -- 24928
-format.name$ -- 3645
-if$ -- 57175
+cite$ -- 86
+duplicate$ -- 30990
+empty$ -- 28137
+format.name$ -- 4162
+if$ -- 64613
 int.to.chr$ -- 0
-int.to.str$ -- 112
+int.to.str$ -- 123
 missing$ -- 0
-newline$ -- 1408
-num.names$ -- 2145
-pop$ -- 14013
+newline$ -- 1592
+num.names$ -- 2341
+pop$ -- 15535
 preamble$ -- 1
-purify$ -- 1247
+purify$ -- 1367
 quote$ -- 0
-skip$ -- 8545
+skip$ -- 9445
 stack$ -- 0
-substring$ -- 36137
-swap$ -- 6370
-text.length$ -- 1078
+substring$ -- 41561
+swap$ -- 7126
+text.length$ -- 1216
 text.prefix$ -- 10
 top$ -- 1
-type$ -- 1345
+type$ -- 1481
 warning$ -- 0
-while$ -- 3029
+while$ -- 3457
 width$ -- 0
-write$ -- 1369
+write$ -- 1549
+(There was 1 error message)

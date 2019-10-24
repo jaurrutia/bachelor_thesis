@@ -1,0 +1,58 @@
+\section{Análisis de sensibilidad}
+\label{section:sensLambda}
+
+En las secciones anteriores se estudió la respuesta EM de una monocapa desordenada de NPs esféricas e idénticas, soportada por un sustrato que simula a un vidrio BK7 e inmersas en un medio acuoso. Cuando las NPs se iluminan en un configuración ATR, se observa un modo colectivo el cual puede sintonizarse al seleccionar el radio $a$ de las NPs, la fracción de cubierta $\Theta$ de la monocapa y el material de las NPs. En la Fig. \ref{fig:RT-AuAg} se muestran los resultados de la reflectancia de la monocapa de NPs de oro y la de NPs de plata, con los parámetros escogidos aptos para el biosensado. Para esto se buscó que el modo colectivo se excitara dentro del espectro visible, que la reflectancia a las longitudes de onda del modo colectivo sea mínima para un ángulo de incidencia menor a $80^\circ$ y que el ancho del modo colectivo sea el menor posible.
+
+Los biosensores plasmónicos miden cambios en el índice de refracción y su rendimiento puede expresarse mediante la sensibilidad de bulto $S_B$ \cite{estevez2014trends,svedendahl2009refractometric}, que es la dependencia del corrimiento al rojo $\Delta \lambda$ de la excitación ante cambios en el índice de refracción de la matriz $\Delta n_m$, es decir
+	\begin{equation}
+	S_B = \frac{\Delta \lambda}{\Delta n_m}.
+	\end{equation}
+Otro parámetro que caracteriza el rendimiento del biosensado es el FWHM $\Gamma$, por lo que se combina éste junto con la sensibilidad de bulto $S_B$, construyendo así la \emph{figura de mérito} (Figure of Merit, $FOM_B$) dada por la expresión
+	\begin{equation}
+	FOM_B = \frac{1}{\Gamma}\frac{\Delta \lambda}{\Delta n_m}.
+	\end{equation}
+El empleo de la $FOM_B$ permite comparar no sólo la sensibilidad del biosensor, sino también la desviación del modo, además, de ser un parámetro que permite calificar la calidad de biosensores ópticos con diferentes estructuras \cite{svedendahl2009refractometric}, como puede ser la comparación entre sensores comerciales, basados en el plasmón-polaritón de superficie (Surface Plasmon Polariton, SPP), el modo colectivo observado en los cálculos de la reflectancia bajo el formalismo el CSM y las PSLR observadas en \cite{kabashin2009plasmonic,danilov2018ultra}.
+
+En la Fig. \ref{fig:SPPCSM} se muestran los cálculos de la reflectancia en configuración ATR para una placa delgada de oro y una de plata ---donde se observa el SPP---, ambas de grosor $d=45$ nm, y para una monocapa de NPs esféricas de oro (con $a=30$ nm y $\Theta=0.125$) y una de NPs de plata (con $a=40$ nm y $\Theta=0.1$) ---donde se observa el modo colectivo---; en todos los casos se tiene un sustrato con índice de refracción $n_s=1.5$ y una matriz de $n_m=1.33$. En los paneles izquierdos, las líneas punteadas blancas corresponden al SPP, los cuales corresponden a un mínimo en la reflectancia. Como se mencionó en las secciones pasadas, las líneas punteadas verticales verdes y rosas corresponden a las SP-SPR dipolar y cuadrupolar, respectivamente, y los puntos amarillos al modo colectivo predicho por el CSM.
+
+\begin{figure}[h!]\centering
+\begin{tikzpicture}
+\node[inner sep=0pt] (graf) at (.05,0){\includegraphics[width =.705\linewidth]{2-Resultados/figs/11-SPPCSM/0-2D_Grid.png}};
+\node[right, inner sep=0pt] (legend) at (5.6,.05) {\includegraphics[scale=.96, trim={00 00 00 00}, clip]{2-Resultados/figs/0-IBar_v}};
+\node[above, inner sep=0pt] (r) at (5.9,3.75) { $R$};
+\end{tikzpicture}
+\caption{Gráficas de reflectancia $R$ en configuración ATR, considerando un sustrato con $n_m=1.5$ y una matriz acuosa $n=1.33$, como función del ángulo de incidencia $\theta_i$ y de la longitud de onda $\lambda$ (escala inferior) así como de la energía en unidades de $\hbar\omega$ (escala superior), para una película delgada de $45$ nm de grosor (columna izquierda), y una monocapa de NPs esféricas iluminada por una onda plana en polarización \emph{p} (columna central) y en polarización \emph{s} (columna derecha); los paneles superiores corresponden a una película y NPs de oro con $a=30$ nm y $\Theta=0.125$, mientras que para los inferiores corresponden a una película y NPs de plata de con $a=40$ nm y $\Theta=0.1$.  Las líneas punteadas blancas (columna izquierda) corresponde a los mínimos en la reflectancia debido a la excitación del SPP y lo puntos amarillos (columna central y columna derecha) corresponden a los mínimos en $R$ causados por el modo colectivo predicho por el CSM. Las líneas verticales punteadas verdes corresponden a la SP-SPRs dipolar ($531$ nm y $444$ nm para las NPs empleadas de oro y plata, respectivamente), y las rosas a la SP-SPR cuadrupolar ($514$ nm y $383$ nm para las NPs de oro y de plata, respectivamente).}
+\label{fig:SPPCSM}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
