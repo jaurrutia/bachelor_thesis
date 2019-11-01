@@ -2,6 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: tesis.aux
 The style file: biblatex.bst
+A level-1 auxiliary file: 05-Conclusiones/1-Conclusiones.aux
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
@@ -16,10 +17,14 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 11394 items from 5000.
+Reallocated field_info (elt_size=4) to 11672 items from 5000.
 Database file #1: tesis-blx.bib
 Database file #2: 06-Bibliografia/references.bib
-You're missing a field name---line 416 of file 06-Bibliografia/references.bib
+"{" immediately follows a field name---line 138 of file 06-Bibliografia/references.bib
+ : @article
+ :         {Cahill1997surface,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 448 of file 06-Bibliografia/references.bib
  : 
  : %author = {Fan, J H and Hung, W I and Li, W T and Yeh, J M},
 (Error may have been on previous line)
@@ -29,45 +34,45 @@ Warning--I didn't find a database entry for "INDREF"
 Biblatex version: 3.8
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 44 entries,
+You've used 46 entries,
             6268 wiz_defined-function locations,
-            1466 strings with 17839 characters,
-and the built_in function-call counts, 312880 in all, are:
-= -- 23090
+            1474 strings with 18051 characters,
+and the built_in function-call counts, 315797 in all, are:
+= -- 23162
 > -- 6389
-< -- 1694
-+ -- 8136
-- -- 2628
-* -- 23155
-:= -- 31931
+< -- 1710
++ -- 8138
+- -- 2630
+* -- 23257
+:= -- 31983
 add.period$ -- 0
-call.type$ -- 44
-change.case$ -- 974
+call.type$ -- 46
+change.case$ -- 977
 chr.to.int$ -- 46
-cite$ -- 86
-duplicate$ -- 30990
-empty$ -- 28137
+cite$ -- 90
+duplicate$ -- 31396
+empty$ -- 28638
 format.name$ -- 4162
-if$ -- 64613
+if$ -- 65316
 int.to.chr$ -- 0
-int.to.str$ -- 123
+int.to.str$ -- 125
 missing$ -- 0
-newline$ -- 1592
+newline$ -- 1610
 num.names$ -- 2341
-pop$ -- 15535
+pop$ -- 16179
 preamble$ -- 1
-purify$ -- 1367
+purify$ -- 1370
 quote$ -- 0
-skip$ -- 9445
+skip$ -- 9575
 stack$ -- 0
-substring$ -- 41561
-swap$ -- 7126
-text.length$ -- 1216
+substring$ -- 41583
+swap$ -- 7255
+text.length$ -- 1232
 text.prefix$ -- 10
 top$ -- 1
-type$ -- 1481
+type$ -- 1549
 warning$ -- 0
-while$ -- 3457
+while$ -- 3461
 width$ -- 0
-write$ -- 1549
-(There was 1 error message)
+write$ -- 1565
+(There were 2 error messages)

@@ -693,6 +693,69 @@
     \field{year}{1998}
   \endentry
 
+  \entry{svedendahl2009refractometric}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SM}{%
+         family={Svedendahl},
+         familyi={S\bibinitperiod},
+         given={Mikael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Si},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Dmitriev},
+         familyi={D\bibinitperiod},
+         given={Alexandre},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={K{\"{a}}ll},
+         familyi={K\bibinitperiod},
+         given={Mikael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SMCSDAKM1}
+    \strng{fullhash}{SMCSDAKM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1021/nl902721z
+    \endverb
+    \field{issn}{15306984}
+    \field{number}{12}
+    \field{pages}{4428\bibrangedash 4433}
+    \field{title}{{Refractometric sensing using propagating versus localized
+  surface plasmons: A direct comparison}}
+    \field{volume}{9}
+    \field{journaltitle}{Nano Letters}
+    \field{year}{2009}
+  \endentry
+
+  \entry{brian2009sensitivity}{article}{}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1364/oe.17.002015
+    \endverb
+    \field{isbn}{1180611810}
+    \field{issn}{1094-4087}
+    \field{number}{3}
+    \field{pages}{2015}
+    \field{title}{{Sensitivity enhancement of nanoplasmonic sensors in low
+  refractive index substrates}}
+    \field{volume}{17}
+    \field{journaltitle}{Optics Express}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Cahill1997surface}{article}{}
+  \endentry
+
   \entry{johnson1972constants}{article}{}
     \name{author}{2}{}{%
       {{hash=JPB}{%
@@ -1574,50 +1637,6 @@
     \field{volume}{23}
     \field{journaltitle}{Biomaterials}
     \field{year}{2002}
-  \endentry
-
-  \entry{svedendahl2009refractometric}{article}{}
-    \name{author}{4}{}{%
-      {{hash=SM}{%
-         family={Svedendahl},
-         familyi={S\bibinitperiod},
-         given={Mikael},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=CS}{%
-         family={Chen},
-         familyi={C\bibinitperiod},
-         given={Si},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=DA}{%
-         family={Dmitriev},
-         familyi={D\bibinitperiod},
-         given={Alexandre},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=KM}{%
-         family={K{\"{a}}ll},
-         familyi={K\bibinitperiod},
-         given={Mikael},
-         giveni={M\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{SMCSDAKM1}
-    \strng{fullhash}{SMCSDAKM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \verb{doi}
-    \verb 10.1021/nl902721z
-    \endverb
-    \field{issn}{15306984}
-    \field{number}{12}
-    \field{pages}{4428\bibrangedash 4433}
-    \field{title}{{Refractometric sensing using propagating versus localized
-  surface plasmons: A direct comparison}}
-    \field{volume}{9}
-    \field{journaltitle}{Nano Letters}
-    \field{year}{2009}
   \endentry
 \enddatalist
 \endinput

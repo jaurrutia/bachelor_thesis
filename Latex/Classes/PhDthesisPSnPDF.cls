@@ -57,7 +57,7 @@
 		\usepackage{wrapfig}                    			% to include figure with text wrapping around it
 
 	%--------------------- Color/equations -related stuff
-		\usepackage{xcolor}
+		\usepackage[dvipsnames]{xcolor}
 			% TLOZ: BOW color palette 
 			\definecolor{bone}{RGB}{253,255,224}  	% bone
 			\definecolor{lgreen}{RGB}{146,197,130} 	% light green,
@@ -68,7 +68,10 @@
 			%UNAM color palette
 			\definecolor{UNAMblue}{RGB}{0,60,113}		% Blue pantone  541 (C)
 			\definecolor{UNAMgold}{RGB}{234,221,150}		% Gold pantone  460  (C) ??
-
+			\newcommand\myshade{85}
+			\colorlet{mylinkcolor}{violet}
+			\colorlet{mycitecolor}{YellowOrange}
+			\colorlet{myurlcolor}{Aquamarine}
 		\usepackage{empheq}
 		\usepackage[most]{tcolorbox}
 			\tcbset{colback=lgreen,   colbacktitle = dgreen, frame hidden , % colframe= lgray,
@@ -185,11 +188,11 @@
                  linktocpage,
 %                 pagebackref,
                  colorlinks = true,
-                 linkcolor = blue,
-                 urlcolor  = blue,
-                 citecolor = lgray,
+                 linkcolor =  mylinkcolor,%!\myshade!black,%blue,
+                 urlcolor  = magenta,%!\myshade!black,%magenta,
+                 citecolor = blue,%!\myshade!black,%green,%lgray,
                  anchorcolor = dgreen,
-				hyperfootnotes = true,
+				hyperfootnotes = false,%rue,
                  hyperindex = true,
                  hyperfigures
                  ]{hyperref} 
@@ -208,8 +211,8 @@
 %                 pagebackref,
                  colorlinks = true,
                  linkcolor = blue,
-                 urlcolor  = blue,
-                 citecolor = lgray,
+                 urlcolor  = magenta,%blue,
+                 citecolor = green,%lgray,
                  anchorcolor = dgreen,
                  hyperindex = true,
                  hyperfigures
@@ -416,7 +419,7 @@
 	{\Large \scshape {\@degree}}\\[20mm]
 	PRESENTA:\\
 	{\Large \scshape {\@author}}\\[18mm]
-	TUTOR PRINCIPAL\\
+	DIRECTOR DE TESIS\\
 	{\Large \scshape {\@director}}\\
 	\ifcomite
 		COMITÉ TUTOR\\
@@ -453,7 +456,7 @@
 	\vspace{15mm}
 
 	\begin{center}
-	TUTOR DE TESIS:\\[4mm]
+	DIRECTOR DE TESIS:\\[4mm]
 	{\@director}\\[20mm]
 	---------------------------------------------------------\\
 	\end{center}
@@ -524,7 +527,7 @@
 			 \vspace{1.5cm}
 
 		%-------------------------Tutor
-			{\small TUTOR:\\ {\@director}}
+			{\small DIRECTOR DE TESIS:\\ {\@director}}
 			\vspace{0.5cm}
 			%{\small CODIRECTOR DE TESIS:\\ en caso de que aplique}
 			\vspace{1cm}

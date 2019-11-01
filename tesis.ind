@@ -2,194 +2,194 @@
 
   \item \IeC {\'A}ngulo
     \subitem cr\IeC {\'\i }tico, 
-		\hyperindexformat{\see {Incidencia interna}}{10}, 
-		\hyperpage{10}
-    \subitem de Brewster, \hyperpage{9}
+		\hyperindexformat{\see {Incidencia interna}}{12}, 
+		\hyperpage{12}
+    \subitem de Brewster, \hyperpage{11}
   \item \IeC {\'I}ndice de refracci\IeC {\'o}n, 
-		\hyperindexformat{\seealso{Funci\IeC {\'o}n diel\IeC {\'e}ctrica}}{6}, 
-		\hyperpage{6}
+		\hyperindexformat{\seealso{Funci\IeC {\'o}n diel\IeC {\'e}ctrica}}{8}, 
+		\hyperpage{8}
 
   \indexspace
 
   \item Arm\IeC {\'o}nicos esf\IeC {\'e}ricos vectoriales
-    \subitem $\vb{M}$ y $\vb{N}$, \hyperpage{18}
-    \subitem $\vb{M}^{(1)}$ y $\vb{N}^{(1)}$, \hyperpage{20}
-    \subitem $\vb{M}^{(3)}$ y $\vb{N}^{(3)}$, \hyperpage{21}
+    \subitem $\vb{M}$ y $\vb{N}$, \hyperpage{20}
+    \subitem $\vb{M}^{(1)}$ y $\vb{N}^{(1)}$, \hyperpage{22}
+    \subitem $\vb{M}^{(3)}$ y $\vb{N}^{(3)}$, \hyperpage{23}
     \subitem expansi\IeC {\'o}n de una onda plana en la base de los, 
-		\hyperpage{20}
+		\hyperpage{22}
     \subitem funci\IeC {\'o}n generadora
-      \subsubitem soluci\IeC {\'o}n azimutal de la, \hyperpage{16}
-      \subsubitem soluci\IeC {\'o}n general, \hyperpage{18}
-      \subsubitem soluci\IeC {\'o}n polar de la, \hyperpage{17}
-      \subsubitem soluci\IeC {\'o}n radial de la, \hyperpage{17}
-    \subitem funci\IeC {\'o}n generadora de los, \hyperpage{16}
-    \subitem relaciones de ortogonalidad de los, \hyperpage{19}
-  \item Arm\IeC {\'o}nicos vectoriales, \hyperpage{15}
-    \subitem funci\IeC {\'o}n generadora de los, \hyperpage{15}
+      \subsubitem soluci\IeC {\'o}n azimutal de la, \hyperpage{18}
+      \subsubitem soluci\IeC {\'o}n general, \hyperpage{20}
+      \subsubitem soluci\IeC {\'o}n polar de la, \hyperpage{19}
+      \subsubitem soluci\IeC {\'o}n radial de la, \hyperpage{19}
+    \subitem funci\IeC {\'o}n generadora de los, \hyperpage{18}
+    \subitem relaciones de ortogonalidad de los, \hyperpage{21}
+  \item Arm\IeC {\'o}nicos vectoriales, \hyperpage{17}
+    \subitem funci\IeC {\'o}n generadora de los, \hyperpage{17}
 
   \indexspace
 
   \item Bessel
-    \subitem ecuaci\IeC {\'o}n esf\IeC {\'e}rica de, \hyperpage{17}
-    \subitem funciones de Ricatti-Bessel, \hyperpage{22}
-    \subitem funciones esf\IeC {\'e}ricas de, \hyperpage{17}
-      \subsubitem relaciones de recurrencia de las, \hyperpage{18}
+    \subitem ecuaci\IeC {\'o}n esf\IeC {\'e}rica de, \hyperpage{19}
+    \subitem funciones de Ricatti-Bessel, \hyperpage{24}
+    \subitem funciones esf\IeC {\'e}ricas de, \hyperpage{19}
+      \subsubitem relaciones de recurrencia de las, \hyperpage{20}
   \item Brewster
-    \subitem \IeC {\'a}ngulo de, \hyperpage{9}
+    \subitem \IeC {\'a}ngulo de, \hyperpage{11}
 
   \indexspace
 
   \item Drude-Sommerfeld
-    \subitem modelo de, \hyperpage{24, 25}
+    \subitem modelo de, \hyperpage{26, 27}
       \subsubitem constante fenomenol\IeC {\'o}gica de amortiguamiento de bulto $\gamma_\infty$, 
-		\hyperpage{25}
+		\hyperpage{27}
       \subsubitem constante fenomenol\IeC {\'o}gica para esferas ($\gamma_a$), 
-		\hyperpage{26}
-      \subsubitem ecuaci\IeC {\'o}n de movimiento, \hyperpage{25}
-      \subsubitem frecuencia de plasma $\omega_p$, \hyperpage{25}
+		\hyperpage{28}
+      \subsubitem ecuaci\IeC {\'o}n de movimiento, \hyperpage{27}
+      \subsubitem frecuencia de plasma $\omega_p$, \hyperpage{27}
 
   \indexspace
 
   \item Ecuaci\IeC {\'o}n
-    \subitem asociada de Legendre, \hyperpage{17}
-    \subitem de Helmholtz, \hyperpage{6}, \hyperpage{14}
+    \subitem asociada de Legendre, \hyperpage{19}
+    \subitem de Helmholtz, \hyperpage{8}, \hyperpage{16}
     \subitem de movimiento de un electr\IeC {\'o}n libre, 
-		\hyperindexformat{\seealso{Drude-Sommerfeld}}{25}, 
-		\hyperpage{25}
-    \subitem de onda, \hyperpage{6}
-    \subitem esf\IeC {\'e}rica de Bessel, \hyperpage{17}
+		\hyperindexformat{\seealso{Drude-Sommerfeld}}{27}, 
+		\hyperpage{27}
+    \subitem de onda, \hyperpage{8}
+    \subitem esf\IeC {\'e}rica de Bessel, \hyperpage{19}
   \item Electr\IeC {\'o}n
-    \subitem libre, \hyperpage{25}
-    \subitem masa ef\IeC {\'e}ctica del, \hyperpage{25}
+    \subitem libre, \hyperpage{27}
+    \subitem masa ef\IeC {\'e}ctica del, \hyperpage{27}
   \item Electromagn\IeC {\'e}ticos
     \subitem campos
-      \subsubitem condiciones a la frontera de los, \hyperpage{7}
+      \subsubitem condiciones a la frontera de los, \hyperpage{9}
       \subsubitem condiciones ala frontera de una esfera de los, 
-		\hyperpage{20, 21}
-      \subsubitem diadica de campo lejano, \hyperpage{14}
-      \subsubitem lejano, \hyperpage{14}, \hyperpage{22}
+		\hyperpage{22, 23}
+      \subsubitem diadica de campo lejano, \hyperpage{16}
+      \subsubitem lejano, \hyperpage{16}, \hyperpage{24}
   \item Esparcimiento
-    \subitem  de luz, \hyperindexformat{\see{Mie}}{12}
-    \subitem de Mie, matriz de, \hyperpage{23}
-    \subitem matriz de, \hyperpage{14}
+    \subitem  de luz, \hyperindexformat{\see{Mie}}{14}
+    \subitem de Mie, matriz de, \hyperpage{25}
+    \subitem matriz de, \hyperpage{16}
 
   \indexspace
 
   \item Fermi
-    \subitem velocidad de, \hyperpage{25, 26}
+    \subitem velocidad de, \hyperpage{27, 28}
   \item Fourier
-    \subitem transformada de, \hyperpage{6}
+    \subitem transformada de, \hyperpage{8}
   \item Fresnel
-    \subitem amplitud, coeficientes de ($r,t$), \hyperpage{8}
-      \subsubitem $p$, \hyperpage{9}
-      \subsubitem $s$, \hyperpage{9}
-    \subitem ecuaciones de, \hyperpage{8}
-    \subitem Reflectancia ($R$), \hyperpage{11}
-    \subitem Transmitancia ($T$), \hyperpage{11}
-  \item Funci\IeC {\'o}n diel\IeC {\'e}ctrica, \hyperpage{6}, 
-		\hyperpage{24}
-    \subitem Absorci\IeC {\'o}n, \hyperpage{12}
-    \subitem interbanda, \hyperpage{24}
-    \subitem intrabanda, \hyperpage{24}
-    \subitem para part\IeC {\'\i }culas esf\IeC {\'e}ricas,correcci\IeC {\'o}n por tama\IeC {\~n}o de la, 
+    \subitem amplitud, coeficientes de ($r,t$), \hyperpage{10}
+      \subsubitem $p$, \hyperpage{11}
+      \subsubitem $s$, \hyperpage{11}
+    \subitem ecuaciones de, \hyperpage{10}
+    \subitem Reflectancia ($R$), \hyperpage{13}
+    \subitem Transmitancia ($T$), \hyperpage{13}
+  \item Funci\IeC {\'o}n diel\IeC {\'e}ctrica, \hyperpage{8}, 
 		\hyperpage{26}
-    \subitem tipo Drude, \hyperpage{25}
+    \subitem Absorci\IeC {\'o}n, \hyperpage{14}
+    \subitem interbanda, \hyperpage{26}
+    \subitem intrabanda, \hyperpage{26}
+    \subitem para part\IeC {\'\i }culas esf\IeC {\'e}ricas,correcci\IeC {\'o}n por tama\IeC {\~n}o de la, 
+		\hyperpage{28}
+    \subitem tipo Drude, \hyperpage{27}
 
   \indexspace
 
-  \item Hankel, \hyperindexformat{\see{Bessel}}{18}
-    \subitem funciones de Ricatti-Bessel, \hyperpage{22}
-    \subitem funciones esf\IeC {\'e}ricas de, \hyperpage{18}
-      \subsubitem l\IeC {\'\i }mite asint\IeC {\'o}tico, \hyperpage{20}
+  \item Hankel, \hyperindexformat{\see{Bessel}}{20}
+    \subitem funciones de Ricatti-Bessel, \hyperpage{24}
+    \subitem funciones esf\IeC {\'e}ricas de, \hyperpage{20}
+      \subsubitem l\IeC {\'\i }mite asint\IeC {\'o}tico, \hyperpage{22}
       \subsubitem l\IeC {\'\i }mite asint\IeC {\'o}tico de las, 
-		\hyperpage{22}
+		\hyperpage{24}
 
   \indexspace
 
   \item Incidencia
-    \subitem externa, \hyperpage{9}
-    \subitem interna, \hyperpage{9}
+    \subitem externa, \hyperpage{11}
+    \subitem interna, \hyperpage{11}
 
   \indexspace
 
   \item Legendre
-    \subitem ecuaci\IeC {\'o}n asociada de, \hyperpage{17}
-    \subitem funciones asociadas de, \hyperpage{17}
-      \subsubitem funciones $\pi_\ell$ y $\tau_\ell$, \hyperpage{21}
+    \subitem ecuaci\IeC {\'o}n asociada de, \hyperpage{19}
+    \subitem funciones asociadas de, \hyperpage{19}
+      \subsubitem funciones $\pi_\ell$ y $\tau_\ell$, \hyperpage{23}
       \subsubitem funciones $\pi_\ell$ y $\tau_\ell$, ortogonalidad, 
-		\hyperpage{21}
-      \subsubitem relaciones de ortogonalidad de las, \hyperpage{17}
-      \subsubitem relaciones de recurrencia de las, \hyperpage{21}
-    \subitem polinomios de, \hyperpage{17}
+		\hyperpage{23}
+      \subsubitem relaciones de ortogonalidad de las, \hyperpage{19}
+      \subsubitem relaciones de recurrencia de las, \hyperpage{23}
+    \subitem polinomios de, \hyperpage{19}
   \item Ley
-    \subitem de la reflexi\IeC {\'o}n, \hyperpage{7}
-    \subitem de Snell, \hyperpage{7}
+    \subitem de la reflexi\IeC {\'o}n, \hyperpage{9}
+    \subitem de Snell, \hyperpage{9}
 
   \indexspace
 
   \item Maxwell
-    \subitem ecuaciones de, \hyperpage{5}
+    \subitem ecuaciones de, \hyperpage{7}
       \subsubitem soluci\IeC {\'o}n de ondas planas a las, 
-		\hyperpage{6}
-      \subsubitem transformada de Fourier de las, \hyperpage{14}
+		\hyperpage{8}
+      \subsubitem transformada de Fourier de las, \hyperpage{16}
   \item Mie
-    \subitem coeficientes de, \hyperpage{22}
-    \subitem expanci\IeC {\'o}n multipolar, \hyperpage{22}
-    \subitem matriz de esparcimiento de, \hyperpage{23}
-    \subitem soluci\IeC {\'o}n de, \hyperpage{12}, \hyperpage{24}
+    \subitem coeficientes de, \hyperpage{24}
+    \subitem expanci\IeC {\'o}n multipolar, \hyperpage{24}
+    \subitem matriz de esparcimiento de, \hyperpage{25}
+    \subitem soluci\IeC {\'o}n de, \hyperpage{14}, \hyperpage{26}
       \subsubitem campos electromagn\IeC {\'e}ticos dentro de una part\IeC {\'\i }cula esf\IeC {\'e}rica, 
-		\hyperpage{20}, \hyperpage{22}
+		\hyperpage{22}, \hyperpage{24}
       \subsubitem campos electromagn\IeC {\'e}ticos esparcidos por una part\IeC {\'\i }cula esf\IeC {\'e}rica, 
-		\hyperpage{21, 22}
+		\hyperpage{23, 24}
 
   \indexspace
 
   \item Onda
-    \subitem esf\IeC {\'e}rica, \hyperpage{20}
-    \subitem evanescente, \hyperpage{25}
-    \subitem plana, \hyperpage{6}
+    \subitem esf\IeC {\'e}rica, \hyperpage{22}
+    \subitem evanescente, \hyperpage{27}
+    \subitem plana, \hyperpage{8}
       \subsubitem en la base cartesiana can\IeC {\'o}nica, 
-		\hyperpage{6}
+		\hyperpage{8}
       \subsubitem en la base de los arm\IeC {\'o}nicos esf\IeC {\'e}ricos vectoriales, 
-		\hyperpage{20}
+		\hyperpage{22}
       \subsubitem en la base esf\IeC {\'e}rica can\IeC {\'o}nica, 
-		\hyperpage{19}
+		\hyperpage{21}
   \item Ortogonalidad
     \subitem arm\IeC {\'o}nicos esf\IeC {\'e}ricos vectoriales, relaciones de, 
-		\hyperpage{19}
-    \subitem funciones $\pi_\ell$ y $\tau_\ell$, relaciones de, 
 		\hyperpage{21}
+    \subitem funciones $\pi_\ell$ y $\tau_\ell$, relaciones de, 
+		\hyperpage{23}
     \subitem funciones asociadas de Legrende, relaciones de, 
-		\hyperpage{17}
-    \subitem seno y coseno, relaciones de, \hyperpage{17}
+		\hyperpage{19}
+    \subitem seno y coseno, relaciones de, \hyperpage{19}
 
   \indexspace
 
   \item Plano
-    \subitem de esparcimiento, \hyperpage{13}
-    \subitem de incidencia, \hyperpage{8}
+    \subitem de esparcimiento, \hyperpage{15}
+    \subitem de incidencia, \hyperpage{10}
   \item Polarizaci\IeC {\'o}n
-    \subitem de una onda plana, \hyperpage{8}
-    \subitem respecto al plano de esparcimiento, \hyperpage{13}
-      \subsubitem paralela ($\parallel$), \hyperpage{13}
-      \subsubitem perpendicular ($\perp$), \hyperpage{13}
+    \subitem de una onda plana, \hyperpage{10}
+    \subitem respecto al plano de esparcimiento, \hyperpage{15}
+      \subsubitem paralela ($\parallel$), \hyperpage{15}
+      \subsubitem perpendicular ($\perp$), \hyperpage{15}
     \subitem respecto al plano de incidencia
-      \subsubitem paralela (\emph{p}), \hyperpage{8}
-      \subsubitem perpendicular (\emph{s}), \hyperpage{8}
+      \subsubitem paralela (\emph{p}), \hyperpage{10}
+      \subsubitem perpendicular (\emph{s}), \hyperpage{10}
   \item Poynting
-    \subitem vector de, \hyperpage{7}
-      \subsubitem promedio temporal del, \hyperpage{10}
+    \subitem vector de, \hyperpage{9}
+      \subsubitem promedio temporal del, \hyperpage{12}
 
   \indexspace
 
   \item Reflexi\IeC {\'o}n total
-    \subitem atenuada, \hyperpage{49}
-    \subitem interna, \hyperpage{10}
-  \item Relaci\IeC {\'o}n de dispersi\IeC {\'o}n, \hyperpage{6}
-    \subitem de una onda plana, \hyperpage{6}
+    \subitem atenuada, \hyperpage{51}
+    \subitem interna, \hyperpage{12}
+  \item Relaci\IeC {\'o}n de dispersi\IeC {\'o}n, \hyperpage{8}
+    \subitem de una onda plana, \hyperpage{8}
   \item Ricatti-Bessel
-    \subitem funciones de, \hyperpage{22}
+    \subitem funciones de, \hyperpage{24}
       \subsubitem l\IeC {\'\i }mite asint\IeC {\'o}tico de las, 
-		\hyperpage{22}
+		\hyperpage{24}
 
 \end{theindex}
