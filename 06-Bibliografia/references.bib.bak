@@ -119,6 +119,21 @@
 }  
 
 %-------------------------------------------------------------
+@article{raja2019dielectric,
+author = {Raja, Archana and Waldecker, Lutz and Zipfel, Jonas and Cho, Yeongsu and Brem, Samuel and Ziegler, Jonas D and Kulig, Marvin and Taniguchi, Takashi and Watanabe, Kenji and Malic, Ermin and Heinz, Tony F and Berkelbach, Timothy C and Chernikov, Alexey},
+doi = {10.1038/s41565-019-0520-0},
+isbn = {4156501905200},
+issn = {1748-3395},
+journal = {Nature Nanotechnology},
+number = {September},
+publisher = {Springer US},
+title = {{Dielectric disorder in two-dimensional materials}},
+url = {http://dx.doi.org/10.1038/s41565-019-0520-0},
+volume = {14},
+year = {2019}
+}
+
+
 @article{brian2009sensitivity,
 doi = {10.1364/oe.17.002015},
 isbn = {1180611810},

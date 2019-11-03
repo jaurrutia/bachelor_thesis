@@ -1,6 +1,6 @@
 This is makeindex, version 2.15 [TeX Live 2017] (kpathsea + Thai support).
-Scanning input file tesis.idx....done (116 entries accepted, 0 rejected).
-Sorting entries....done (839 comparisons).
+Scanning input file tesis.idx....done (118 entries accepted, 0 rejected).
+Sorting entries....done (873 comparisons).
 Generating output file tesis.ind....
 ## Warning (input = tesis.idx, line = 30; output = tesis.ind, line = 5):
    -- Conflicting entries: multiple encaps for the same page under same key.
@@ -8,8 +8,8 @@ Generating output file tesis.ind....
 ## Warning (input = tesis.idx, line = 7; output = tesis.ind, line = 9):
    -- Conflicting entries: multiple encaps for the same page under same key.
 
-## Warning (input = tesis.idx, line = 104; output = tesis.ind, line = 57):
+## Warning (input = tesis.idx, line = 106; output = tesis.ind, line = 56):
    -- Conflicting entries: multiple encaps for the same page under same key.
-done (195 lines written, 3 warnings).
+done (199 lines written, 3 warnings).
 Output written in tesis.ind.
 Transcript written in tesis.ilg.

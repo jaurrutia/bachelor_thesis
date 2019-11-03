@@ -188,10 +188,10 @@
                  linktocpage,
 %                 pagebackref,
                  colorlinks = true,
-                 linkcolor =  mylinkcolor,%!\myshade!black,%blue,
+                 linkcolor =  blue,%!\myshade!black,%blue,
                  urlcolor  = magenta,%!\myshade!black,%magenta,
-                 citecolor = blue,%!\myshade!black,%green,%lgray,
-                 anchorcolor = dgreen,
+                 citecolor = red,%!\myshade!black,%green,%lgray,
+                 anchorcolor = green,
 				hyperfootnotes = false,%rue,
                  hyperindex = true,
                  hyperfigures

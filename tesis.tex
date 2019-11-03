@@ -1,8 +1,11 @@
 \documentclass[11pt]{Latex/Classes/PhDthesisPSnPDF} %twoside
 %         PUEDEN INCLUIR EN ESTE ESPACIO LOS PAQUETES EXTRA, O BIEN, EN EL ARCHIVO "PhDthesisPSnPDF.cls" EN "./Latex/Classes/"
-
 \usepackage{blindtext}   
 \usepackage{diagbox}
+\usepackage{mathrsfs}
+
+\usepackage{nomencl}
+\makenomenclature
 
                 % Para insertar texto dummy, de 
 \include{Latex/Comandos}           % Archivo con funciones útiles
@@ -72,7 +75,7 @@
 	\input{2-Resultados/2-AuAg}
 	\input{2-Resultados/3-SensLambda}
 %\include{3-ComparacionSPP/1-SensLambda}
-\include{05-Conclusiones/1-Conclusiones}         
+%\include{05-Conclusiones/1-Conclusiones}         
 %-------------------------------------------------------------------------------
 %                                   References                                   |
 %-------------------------------------------------------------------------------
@@ -85,6 +88,7 @@
 \setlength\bibitemsep{.1\itemsep}
 \printbibliography
 
+\printnomenclature
 \printindex
 %-------------------------------------------------------------------------------
 %                                   Appendix                                   |

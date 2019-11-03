@@ -11,21 +11,20 @@
 
   \indexspace
 
-  \item Arm\IeC {\'o}nicos esf\IeC {\'e}ricos vectoriales
+  \item Arm\IeC {\'o}nicos esf\IeC {\'e}ricos vectoriales, 
+		\hyperpage{17}
     \subitem $\vb{M}$ y $\vb{N}$, \hyperpage{20}
     \subitem $\vb{M}^{(1)}$ y $\vb{N}^{(1)}$, \hyperpage{22}
     \subitem $\vb{M}^{(3)}$ y $\vb{N}^{(3)}$, \hyperpage{23}
     \subitem expansi\IeC {\'o}n de una onda plana en la base de los, 
 		\hyperpage{22}
     \subitem funci\IeC {\'o}n generadora
-      \subsubitem soluci\IeC {\'o}n azimutal de la, \hyperpage{18}
+      \subsubitem soluci\IeC {\'o}n azimutal de la, \hyperpage{19}
       \subsubitem soluci\IeC {\'o}n general, \hyperpage{20}
       \subsubitem soluci\IeC {\'o}n polar de la, \hyperpage{19}
       \subsubitem soluci\IeC {\'o}n radial de la, \hyperpage{19}
-    \subitem funci\IeC {\'o}n generadora de los, \hyperpage{18}
+    \subitem funci\IeC {\'o}n generadora de los, \hyperpage{17, 18}
     \subitem relaciones de ortogonalidad de los, \hyperpage{21}
-  \item Arm\IeC {\'o}nicos vectoriales, \hyperpage{17}
-    \subitem funci\IeC {\'o}n generadora de los, \hyperpage{17}
 
   \indexspace
 
@@ -44,7 +43,7 @@
       \subsubitem constante fenomenol\IeC {\'o}gica de amortiguamiento de bulto $\gamma_\infty$, 
 		\hyperpage{27}
       \subsubitem constante fenomenol\IeC {\'o}gica para esferas ($\gamma_a$), 
-		\hyperpage{28}
+		\hyperpage{29}
       \subsubitem ecuaci\IeC {\'o}n de movimiento, \hyperpage{27}
       \subsubitem frecuencia de plasma $\omega_p$, \hyperpage{27}
 
@@ -92,7 +91,7 @@
     \subitem interbanda, \hyperpage{26}
     \subitem intrabanda, \hyperpage{26}
     \subitem para part\IeC {\'\i }culas esf\IeC {\'e}ricas,correcci\IeC {\'o}n por tama\IeC {\~n}o de la, 
-		\hyperpage{28}
+		\hyperpage{29}
     \subitem tipo Drude, \hyperpage{27}
 
   \indexspace
@@ -109,6 +108,11 @@
   \item Incidencia
     \subitem externa, \hyperpage{11}
     \subitem interna, \hyperpage{11}
+
+  \indexspace
+
+  \item Kronecker
+    \subitem delta de, \hyperpage{17}, \hyperpage{19}
 
   \indexspace
 
@@ -146,7 +150,7 @@
 
   \item Onda
     \subitem esf\IeC {\'e}rica, \hyperpage{22}
-    \subitem evanescente, \hyperpage{27}
+    \subitem evanescente, \hyperpage{28}
     \subitem plana, \hyperpage{8}
       \subsubitem en la base cartesiana can\IeC {\'o}nica, 
 		\hyperpage{8}
