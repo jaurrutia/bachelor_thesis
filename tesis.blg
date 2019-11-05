@@ -2,7 +2,6 @@ This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: tesis.aux
 The style file: biblatex.bst
-A level-1 auxiliary file: 05-Conclusiones/1-Conclusiones.aux
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
@@ -20,59 +19,58 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated field_info (elt_size=4) to 11672 items from 5000.
 Database file #1: tesis-blx.bib
 Database file #2: 06-Bibliografia/references.bib
-"{" immediately follows a field name---line 138 of file 06-Bibliografia/references.bib
+"{" immediately follows a field name---line 153 of file 06-Bibliografia/references.bib
  : @article
  :         {Cahill1997surface,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 448 of file 06-Bibliografia/references.bib
+You're missing a field name---line 463 of file 06-Bibliografia/references.bib
  : 
  : %author = {Fan, J H and Hung, W I and Li, W T and Yeh, J M},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "wimcombre"
 Warning--I didn't find a database entry for "INDREF"
 Biblatex version: 3.8
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 46 entries,
+You've used 47 entries,
             6268 wiz_defined-function locations,
-            1474 strings with 18051 characters,
-and the built_in function-call counts, 315797 in all, are:
-= -- 23162
-> -- 6389
-< -- 1710
-+ -- 8138
-- -- 2630
-* -- 23257
-:= -- 31983
+            1482 strings with 18457 characters,
+and the built_in function-call counts, 334965 in all, are:
+= -- 24673
+> -- 6799
+< -- 1782
++ -- 8842
+- -- 2853
+* -- 24909
+:= -- 34372
 add.period$ -- 0
-call.type$ -- 46
-change.case$ -- 977
+call.type$ -- 47
+change.case$ -- 996
 chr.to.int$ -- 46
-cite$ -- 90
-duplicate$ -- 31396
-empty$ -- 28638
-format.name$ -- 4162
-if$ -- 65316
+cite$ -- 92
+duplicate$ -- 33365
+empty$ -- 30060
+format.name$ -- 4481
+if$ -- 68983
 int.to.chr$ -- 0
-int.to.str$ -- 125
+int.to.str$ -- 128
 missing$ -- 0
-newline$ -- 1610
-num.names$ -- 2341
-pop$ -- 16179
+newline$ -- 1713
+num.names$ -- 2393
+pop$ -- 16686
 preamble$ -- 1
-purify$ -- 1370
+purify$ -- 1428
 quote$ -- 0
-skip$ -- 9575
+skip$ -- 9943
 stack$ -- 0
-substring$ -- 41583
-swap$ -- 7255
-text.length$ -- 1232
+substring$ -- 44454
+swap$ -- 7614
+text.length$ -- 1306
 text.prefix$ -- 10
 top$ -- 1
-type$ -- 1549
+type$ -- 1583
 warning$ -- 0
-while$ -- 3461
+while$ -- 3738
 width$ -- 0
-write$ -- 1565
+write$ -- 1667
 (There were 2 error messages)

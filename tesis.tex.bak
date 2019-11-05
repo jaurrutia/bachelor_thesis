@@ -4,9 +4,6 @@
 \usepackage{diagbox}
 \usepackage{mathrsfs}
 
-\usepackage{nomencl}
-\makenomenclature
-
                 % Para insertar texto dummy, de 
 \include{Latex/Comandos}           % Archivo con funciones útiles
 
@@ -73,7 +70,7 @@
 	\input{1-Teoria/4-CSM}
 \input{2-Resultados/1-Drude}          
 	\input{2-Resultados/2-AuAg}
-	\input{2-Resultados/3-SensLambda}
+%	\input{2-Resultados/3-SensLambda}
 %\include{3-ComparacionSPP/1-SensLambda}
 %\include{05-Conclusiones/1-Conclusiones}         
 %-------------------------------------------------------------------------------
@@ -88,7 +85,6 @@
 \setlength\bibitemsep{.1\itemsep}
 \printbibliography
 
-\printnomenclature
 \printindex
 %-------------------------------------------------------------------------------
 %                                   Appendix                                   |

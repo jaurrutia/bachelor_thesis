@@ -162,7 +162,7 @@ Las ecuaciones de Maxwell, al considerar una región del espacio sin fuentes y c
 	\end{subequations} \vspace*{-1em}
 	
 \noindent	
-en donde $\vb{H} = \vb{B}/\mu$ es el campo H, y la función dieléctrica $\varepsilon(\omega)$ y la permeabilidad magnética $\mu$ del material son funciones continuas. Al desacoplar las ecuaciones de Maxwell, se concluye que los campos EMs son soluciones a la ecuación de Helmholz vectorial\cite{jackson1999electrodynamics}\index{Ecuación!de Helmholtz}
+en donde $\vb{H} = \vb{B}/\mu$ es el campo H, y la función dieléctrica $\varepsilon(\omega)$ y la permeabilidad magnética $\mu$ del material son funciones continuas. Al desacoplar las ecuaciones de Maxwell, se concluye que los campos EMs son soluciones a la ecuación de Helmholz vectorial   \cite{jackson1999electrodynamics}\index{Ecuación!de Helmholtz}
 
 	\begin{subequations}
 	\eqhalf{\nabla^2 \vb{E}- k^2 \vb{E} = \vb{0},}
@@ -287,7 +287,7 @@ Al resolver la Ec. \eqref{eq:AEV_psi} es posible construir un conjunto de funcio
 		\caption{ Esfera de radio $a$ e ínidce de refracción $n_p$, inmersa en una matriz con índice $n_m$. La esfera es iluminada por una onda plana monocromática con vector de onda $\vb{k}_i$, que se propaga en la dirección $\hat{e}_z$.}\label{fig:EsferaA}
 	\end{figure}	
 	
-Para resolver la Ec. \eqref{eq:AEV_psi} se emplea el método de separación de variables, proponiendo como solución $\psi= R(r)\Theta(\theta) \Phi(\varphi)$. Para que $\psi$ sea solución a la Ec.  \eqref{eq:AEV_psi}, las funciones $R(r),\, \Theta(\theta), \mbox{ y } \Phi(\varphi)$ deben cumplir las siguientes ecuaciones
+Para resolver la Ec. \eqref{eq:AEV_psi} se emplea el método de separación de variables, proponiendo como solución $\psi= R(r)\Theta(\theta) \Phi(\varphi)$. Para que $\psi$ sea solución a la Ec.  \eqref{eq:AEV_psi}, las funciones $R(r),\, \Theta(\theta), \mbox{ y } \Phi(\varphi)$ deben cumplir las siguientes ecuaciones diferenciales
 	\begin{align}
 	\frac{1}{\Phi}\dv[2]{\psi}{\varphi} &+ m^2 \Phi =0, \label{eq:Phi}\\
 	\frac{1}{\sin\theta}\dv{\theta}\qty(\sin\theta\dv{\Theta}{\theta}) &+ 	\qty[\ell(\ell+1)- \frac{m^2}{\sin^2\theta}]\Theta =0,\label{eq:Theta}\\
@@ -428,7 +428,7 @@ Al considerar una onda plana monocromática con longitud de onda $\lambda$, pola
 	 =& \sum_{m=0}^\infty\sum_{\ell=m}^\infty \qty[ B_{em\ell}\vb{M}_{em\ell} 
 	 	+ B_{om\ell}\vb{M}_{om\ell} +A_{em\ell}\vb{N}_{em\ell} + A_{om\ell}\vb{N}_{om\ell}],
 	\end{align*}
-donde se omite la dependencia temporal $e^{-i\omega t}$. El término $E_0$ es la magnitud del campo eléctrico, \mbox{$k_m=2\pi n_m/\lambda$} es el número de onda,  y  $B_{em\ell},\, B_{om\ell},\, A_{em\ell}$ y $ A_{om\ell}$ son los coeficientes en la expansión de armónicos esféricos vectoriales de la onda plana, que se determinan a partir de las Ecs. \eqref{eq:MM} y \eqref{eq:NN}. Los únicos elementos de los armónicos esféricos vectoriales con componente radial son $\vb{N}_{em\ell}$ y $\vb{N}_{om\ell}$; dado que la componente radial de la onda plana es proporcional a $\cos\varphi$ en la base canónica, los únicos términos de $\vb{N}_{em\ell}$ y $\vb{N}_{om\ell}$ que contribuyen al valor de $\vb{E}^i$ son los términos pares y con $m=1$, es decir que $A_{om\ell}=0$ y $A_{em\ell}=0$ para $\ell\neq 1$. Asimismo, por la dependencia con $\sin\varphi$ en la componente  $\vu{e}_\varphi$, $B_{em\ell}=0$ pues $\vb{M}_{em\ell}$ es proporcional a $\cos\varphi$ en dicha entrada. Puesto que la onda plana es finita en todo el espacio, se elige $z_\ell = j_\ell$\footnote{La función esférica de Bessel $y_\ell(\rho)$ diverge cuando $\rho = 0$, por lo que los campos EMs en el origen, que se escoge como el centro de la partícula, divergirían.}, denotado en los armónicos esféricos vectoriales con el superíndice $(1)$.\index{Armónicos esféricos vectoriales!$\vb{M}^{(1)}$ y $\vb{N}^{(1)}$} Entonces, la onda plana en la base de los armónicos esféricos vectoriales se escribe como 
+donde se omite la dependencia temporal $e^{-i\omega t}$. El término $E_0$ es la magnitud del campo eléctrico, \mbox{$k_m=2\pi n_m/\lambda$} es el número de onda,  y  $B_{em\ell},\, B_{om\ell},\, A_{em\ell}$ y $ A_{om\ell}$ son los coeficientes en la expansión de armónicos esféricos vectoriales de la onda plana, que se determinan a partir de las Ecs. \eqref{eq:MM} y \eqref{eq:NN}. Los únicos elementos de los armónicos esféricos vectoriales con componente radial son $\vb{N}_{em\ell}$ y $\vb{N}_{om\ell}$; dado que la componente radial de la onda plana es proporcional a $\cos\varphi$ en la base canónica, los únicos términos de $\vb{N}_{em\ell}$ y $\vb{N}_{om\ell}$ que contribuyen al valor de $\vb{E}^i$ son los términos pares y con $m=1$, es decir que $A_{om\ell}=0$ para todo $\ell$, y $A_{em\ell}=0$ para $\ell\neq 1$. Asimismo, por la dependencia con $\sin\varphi$ en la componente  $\vu{e}_\varphi$, $B_{em\ell}=0$ pues $\vb{M}_{em\ell}$ es proporcional a $\cos\varphi$ en dicha entrada. Puesto que la onda plana es finita en todo el espacio, se elige $z_\ell = j_\ell$\footnote{La función esférica de Bessel $y_\ell(\rho)$ diverge cuando $\rho = 0$, por lo que los campos EMs en el origen, que se escoge como el centro de la partícula, divergirían.}, denotado en los armónicos esféricos vectoriales con el superíndice $(1)$.\index{Armónicos esféricos vectoriales!$\vb{M}^{(1)}$ y $\vb{N}^{(1)}$} Entonces, la onda plana en la base de los armónicos esféricos vectoriales se escribe como 
 	\begin{align*}
 	\vb{E}^i = \sum_{\ell=1}^\infty \qty[B_{o1\ell}\vb{M}_{o1\ell}^{(1)} + A_{e1\ell}\vb{N}_{e1\ell}^{(1)}],
 	\end{align*}
@@ -457,7 +457,7 @@ De las Ecs. \eqref{eq:EHiAEV} y de las condiciones a la frontera [Ec. \eqref{eq:
 	\end{subequations}
 
 \vspace*{-1em}\noindent
-Para los campos esparcidos ($\vb{E}^s,\,\vb{H}^s$) ---definidos fuera de la partícula--- las funciones $j_\ell$ y $y_\ell$ no tienen puntos indeterminados, por lo que se emplean para la parte radial las funciones esféricas de Hankel $h_\ell^{(1)}$ y $h_\ell^{(2)}$, que en su límite asintótico ($\ell^2\ll kr$), son \cite{bohren1998absorption}\index{Hankel!funciones esféricas de!límite asintótico}\index{Onda!esférica}
+Para los campos esparcidos ($\vb{E}^s,\,\vb{H}^s$) ---definidos fuera de la partícula--- las funciones $j_\ell$ y $y_\ell$ no tienen puntos indeterminados, por lo que se emplean para la parte radial las funciones esféricas de Hankel $h_\ell^{(1)}$ y $h_\ell^{(2)}$, que en su límite asintótico ($\ell^2\ll kr$), son \cite{bohren1998absorption}\index{Hankel!funciones esféricas de!límite asintótico de las}\index{Onda!esférica}
 
 	\eqhalf{h_\ell^{(1)}(k_m r) \approx -i^\ell \frac{e^{ik_m r}}{ik_m r},\notag}
 	\eqhalf{h_\ell^{(2)}(k_m r) \approx -i^\ell \frac{e^{-ik_m r}}{ik_m r},\notag}	
@@ -473,17 +473,17 @@ por lo que $h_\ell^{(1)}$ corresponde a una onda esférica saliente y $h_\ell^{(
 	\end{subequations}
 		
 \noindent
-en donde se denota mediante el superíndice $(3)$ que se emplea $h_\ell^{(1)}$ para la solución radial\index{Armónicos esféricos vectoriales!$\vb{M}^{(3)}$ y $\vb{N}^{(3)}$}. Como únicamente contribuyen los términos con $m=1$ de los armónicos esféricos vectoriales a las expresiones de los campos EMs incidente, esparcido y dentro de la partícula, se definen las funciones   $\pi_\ell$ y $\tau_\ell$ como  \index{Legendre!funciones asociadas de!funciones $\pi_\ell$ y $\tau_\ell$} \vspace*{-.5em}
+en donde se denota mediante el superíndice $(3)$ que se emplean las funciones esféricas de Hankel $h_\ell^{(1)}$ para la solución radial\index{Armónicos esféricos vectoriales!$\vb{M}^{(3)}$ y $\vb{N}^{(3)}$}. Para expresar la dependencia angular polar en los armónicos esféricos vectoriales [Ecs. \eqref{eq:AEV}], se definen las funciones   $\pi_\ell$ y $\tau_\ell$ como  \index{Legendre!funciones asociadas de!funciones $\pi_\ell$ y $\tau_\ell$} \vspace*{-.5em}
 
 	\begin{subequations}
 	\eqhalf{\pi_\ell(\cos\theta)= \frac{P_\ell^1(\cos\theta)}{\sin\theta},
 		\label{eqs:pi}}
-	\eqhalf{\tau_\ell(\cos\theta) = \dv{P_\ell^1(\cos\theta)}{\theta},
+	\eqhalf{\tau_\ell(\cos\theta) = \dv{P_\ell^1(\cos\theta)}{\theta}.
 		\label{eqs:tau}}	
 	\label{eq:pitau}		
 	\end{subequations}\vspace*{-1em}
 
-\noindent para expresar la dependencia angular polar en los armónicos esféricos vectoriales [Ecs. \eqref{eq:AEV}]. Las relaciones de recurrencia de las funciones asociadas de Legendre \cite{arfken2001methods} permiten expresar a  $\pi_\ell$ y $\tau_\ell$ como  \cite{bohren1998absorption}  \index{Legendre!funciones asociadas de!relaciones de recurrencia de las} \vspace*{-.5em}
+\noindent Las relaciones de recurrencia de las funciones asociadas de Legendre \cite{arfken2001methods} permiten expresar a  $\pi_\ell$ y $\tau_\ell$ como  \cite{bohren1998absorption}  \index{Legendre!funciones asociadas de!relaciones de recurrencia de las} \vspace*{-.5em}
 
 	\eqhalf{\pi_\ell(\mu) = \frac{2\ell-1}{\ell-1} \mu \pi_{\ell-1}(\mu) - \frac{\ell}{\ell-1}\pi_{\ell-2}(\mu),
 		\notag}
@@ -506,13 +506,16 @@ Para determinar los coeficientes $a_\ell,b_\ell,c_\ell$ y $d_\ell$ de las Ecs. \
 	\eqhalf{H_\varphi^i + H_\varphi^s = H_\varphi^p,\notag}\vspace*{-1em}
 
 \noindent en $r =a$, que es la superficie de la partícula esférica. Al emplear la ortogonalidad de las funciones $\sin\varphi$ y $\cos\varphi$ [Ec. \eqref{eq:ortSinCos}], reescribir los armónicos esféricos vectoriales [Ecs. \eqref{eq:AEV}] en términos de $\pi_\ell$ y $\tau_\ell$ y emplear la ortogonalidad de $\tau_\ell\pm\pi_\ell$ [Ec. \eqref{eq:ortTauPi}], junto con las expresiones de los campos EMs de la onda plana incidente [Ecs. \eqref{eq:EHiAEV}], de los campos EMs dentro de la partícula [Ecs. \eqref{eq:EHpAEV}] y los campos EMs esparcidos [Ecs. \eqref{eq:EHsAEV}], se obtiene el siguiente sistema de ecuaciones
+%
 	\begin{align*}
 	j_\ell(Nx)c_\ell + h_\ell^{(1)}(x)b_\ell &= j_\ell(x),\\
 	\mu_m\qty[Nj_\ell(Nx)]'c_\ell + \mu_p [xh_\ell^{(1)}(x)]'b_\ell &= \mu_p [xj_\ell(x)]',\\
 	\mu_m N j_\ell(Nx)d_\ell +\mu_p h_\ell^{(1)}(x)a_\ell &=\mu_p j_\ell(x),\\
 	\qty[Nj_\ell(Nx)]'d_\ell + N [xh_\ell^{(1)}(x)]'a_\ell &= N [xj_\ell(x)]',
 	\end{align*}
+%
 en donde $'$ denota la derivada respecto al argumento de las funciones de Bessel, $x = k_m a = 2 \pi n_m a /\lambda$ es el parámetro de tamaño y $N = n_p / n_m$ es el índice de refracción relativo entre la partícula y la matriz. Al determinar los coeficientes $a_\ell$ y $b_\ell$, se obtiene una expresión analítica para los campos EMs esparcidos, por lo que es posible determinar las componentes de la matriz de esparcimiento $\mathbb{S}$ en la Ec. \eqref{eq:MEsparcimientoGral}. La solución para los coeficientes $a_\ell$ y $b_\ell$, los coeficientes de los campos EMs esparcidos\footnote{Las expresiones de los coeficientes para los campos EMs dentro de la partícula esférica [Ecs. \eqref{eq:EHpAEV}] son \index{Mie!solución de!campos electromagnéticos dentro de una partícula esférica}
+%
 	\begin{align*}
 	c_\ell = \frac{\mu_p j_\ell(x)[xh_\ell^{(1)}(x)]' - \mu_p h_\ell^{(1)}(x) [xj_\ell(x)]'}
 				{\mu_pj_\ell(Nx) [xh_\ell^{(1)}(x)]'-\mu_m h_\ell^{(1)}(x) [N x j_\ell(Nx)]' },
@@ -528,7 +531,9 @@ en donde $'$ denota la derivada respecto al argumento de las funciones de Bessel
 				{\mu_p j_\ell(Nx) [xh_\ell^{(1)}(x)]'-\mu_m h_\ell^{(1)}(x) [N x j_\ell(Nx)]' },
 	\label{eq:b_ellFULL}			
 	\end{align}\label{eq:MieCoefScattFULL}\end{subequations}
+%
 sin embargo, para el caso en el que la partícula esférica no es magnéntica, $n_p = \sqrt{\varepsilon_p/\varepsilon_0}$, y tampoco lo es la matriz $n_m =\sqrt{\varepsilon_m/\varepsilon_0}$, las Ecs. \eqref{eq:MieCoefScattFULL} se reducen a \index{Mie!coeficientes de}\begin{subequations}\vspace*{-.75em}
+%
 	\begin{tcolorbox}[title = Coeficientes de Mie, ams align, breakable ]
 	a_\ell &= \frac{N\psi_\ell(Nx)\psi_\ell'(x)-\psi_\ell(x)\psi_\ell' (Nx)}
 				{N\psi_\ell(Nx)\xi_\ell'(x)-\xi_\ell(x)\psi_\ell'(Nx)},
@@ -537,7 +542,8 @@ sin embargo, para el caso en el que la partícula esférica no es magnéntica, $
 			{\psi_\ell(Nx)\xi_\ell'(x)-N\xi_\ell(x)\psi_\ell'(Nx)},
 			 \label{eqs:b_ell}	 
 	\end{tcolorbox}\label{eq:MieCoef}	\end{subequations}\vspace*{-.75em}\noindent
-en donde $\psi_\ell(\rho) = \rho j_\ell(\rho)$ y $\xi_\ell(\rho) = \rho h_\ell^{(1)}(\rho)$  son las funciones de Riccati-Bessel \cite{bohren1998absorption,arfken2001methods}\index{Bessel!funciones de Ricatti-Bessel}\index{Hankel!funciones de Ricatti-Bessel}\index{Ricatti-Bessel!funciones de} y la prima $'$ denota la derivada de las funciones respecto a su argumento. Los armónicos esféricos vectoriales representan una expansión multipolar del campo eléctrico esparcido por una partícula esférica y los coeficientes de Mie [Ec.  \eqref{eq:MieCoef}] modulan la contribución al campo total esparcido de cada término:  $a_\ell$, los multipolos eléctricos; $b_\ell$, los magnéticos \cite{kreibig1995clusters}\index{Mie!expanción multipolar}. En la Fig. \ref{fig:Multipolos} se muestran las primeras cuatro contribuciones multipolares del campo eléctrico esparcido\footnote{En el artículo original de Mie (ref. \cite{mie1908metallosung}) se les denomina a la contribuciones multipolares como ondas parciales.} $\vb{E}^s$ [Ec. \eqref{eqs:EsAEV}], considerando únicamente las componentes transversales a una  superficie esférica y concéntrica a la partícula esparcidora. 
+%
+en donde $\psi_\ell(\rho) = \rho j_\ell(\rho)$ y $\xi_\ell(\rho) = \rho h_\ell^{(1)}(\rho)$  son las funciones de Riccati-Bessel \cite{bohren1998absorption,arfken2001methods}\index{Bessel!funciones de Riccati-Bessel}\index{Hankel!funciones de Riccati-Bessel}\index{Riccati-Bessel!funciones de} y la prima $'$ denota la derivada de las funciones respecto a su argumento. Los armónicos esféricos vectoriales representan una expansión multipolar del campo eléctrico esparcido por una partícula esférica y los coeficientes de Mie [Ec.  \eqref{eq:MieCoef}] modulan la contribución al campo total esparcido de cada término:  $a_\ell$, los multipolos eléctricos; $b_\ell$, los magnéticos \cite{kreibig1995clusters}\index{Mie!expanción multipolar}. En la Fig. \ref{fig:Multipolos} se muestran las primeras cuatro contribuciones multipolares del campo eléctrico esparcido\footnote{En el artículo original de Mie (ref. \cite{mie1908metallosung}) se les denomina a la contribuciones multipolares como ondas parciales.} $\vb{E}^s$ [Ec. \eqref{eqs:EsAEV}], considerando únicamente las componentes transversales a una  superficie esférica y concéntrica a la partícula esparcidora. 
 %	\begin{figure}[h]\centering
 %		\includegraphics[scale=.85]{1-Teoria/figs/EsNorm.pdf}\\
 %		\hspace{-4em}
@@ -561,31 +567,55 @@ en donde $\psi_\ell(\rho) = \rho j_\ell(\rho)$ y $\xi_\ell(\rho) = \rho h_\ell^{
 %		\caption{Contribuciones multipolares \textbf{a)} eléctricas $a_\ell$ y \textbf{b)} magnéticas $b_\ell$ de orden $\ell = 1,2,3$ y $4$ del campo esparcido $\vb{E}^s$ por una partícula esférica, evaluadas en una superficie matemática esférica y concéntrica a la partícula que radía los campos EMs, en donde el plano de la página corresponde al plano de oscilación del campo eléctrico incidente $\vb{E}^i$. En las gráficas presentadas, el color rojo corresponde a los valores máximos del campo eléctrico, mientras que los azules son los puntos menos intensos, donde se presentan los nodos en la superficie esférica.}
 %		\label{fig:Multipolos}
 %	\end{figure}
+%	\begin{figure}[h!]\centering
+%		\includegraphics[scale=.85]{1-Teoria/figs/EsNorm.pdf}\\
+%		\hspace{-4em}
+%		\begin{subfigure}{.05\linewidth}\vspace{-3.25cm}\label{figs:ElectricMultipoles} \caption{ } \end{subfigure}
+%		\hspace{-3em}
+%		\begin{subfigure}{.9\linewidth}
+%			\includegraphics[scale=.25]{1-Teoria/figs/Ne11_static_crop.png}%
+%			\includegraphics[scale=.25]{1-Teoria/figs/Ne12_static_crop.png}%
+%			\includegraphics[scale=.25]{1-Teoria/figs/Ne13_static_crop.png}%
+%			\includegraphics[scale=.25]{1-Teoria/figs/Ne14_static_crop.png}%
+%		\end{subfigure}\\
+%		\hspace{-4em}	
+%		\begin{subfigure}{.05\linewidth}\vspace{-3.25cm}\label{figs:MagneticMultipoles} \caption{ } \end{subfigure}
+%		\hspace{-3em}
+%		\begin{subfigure}{.9\linewidth}			
+%		\includegraphics[scale=.25]{1-Teoria/figs/Mo11_static_crop.png}%
+%		\includegraphics[scale=.25]{1-Teoria/figs/Mo12_static_crop.png}%
+%		\includegraphics[scale=.25]{1-Teoria/figs/Mo13_static_crop.png}%
+%		\includegraphics[scale=.25]{1-Teoria/figs/Mo14_static_crop.png}%
+%		\end{subfigure}
+%		\caption{Contribuciones multipolares \textbf{a)} eléctricas $a_\ell$ y \textbf{b)} magnéticas $b_\ell$ de orden $\ell = 1,2,3$ y $4$ del campo esparcido $\vb{E}^s$ por una partícula esférica, evaluadas en una superficie matemática esférica y concéntrica a la partícula que radia los campos EMs, en donde el plano de la página corresponde al plano de oscilación del campo eléctrico incidente $\vb{E}^i$. En las gráficas presentadas, el color rojo corresponde a los valores máximos del campo eléctrico, mientras que los azules son los puntos menos intensos, donde se presentan los nodos ($\vb{E}^s\approx \vb{0}$) en la superficie esférica.}
+%		\label{fig:Multipolos}
+%	\end{figure}
 	\begin{figure}[h!]\centering
 		\includegraphics[scale=.85]{1-Teoria/figs/EsNorm.pdf}\\
-		\hspace{-4em}
+		\hspace{-3em}
 		\begin{subfigure}{.05\linewidth}\vspace{-3.25cm}\label{figs:ElectricMultipoles} \caption{ } \end{subfigure}
 		\hspace{-3em}
 		\begin{subfigure}{.9\linewidth}
-			\includegraphics[scale=.25]{1-Teoria/figs/Ne11_static_crop.png}%
-			\includegraphics[scale=.25]{1-Teoria/figs/Ne12_static_crop.png}%
-			\includegraphics[scale=.25]{1-Teoria/figs/Ne13_static_crop.png}%
-			\includegraphics[scale=.25]{1-Teoria/figs/Ne14_static_crop.png}%
+			\includegraphics[scale=.25, trim={00 00 80 00}, clip]{1-Teoria/figs/Ne11_static.png}%
+			\includegraphics[scale=.25, trim={00 00 80 00}, clip]{1-Teoria/figs/Ne12_static.png}%
+			\includegraphics[scale=.25, trim={00 00 80 00}, clip]{1-Teoria/figs/Ne13_static.png}%
+			\includegraphics[scale=.25, trim={00 00 80 00}, clip]{1-Teoria/figs/Ne14_static.png}%
 		\end{subfigure}\\
-		\hspace{-4em}	
+		\hspace{-3em}	
 		\begin{subfigure}{.05\linewidth}\vspace{-3.25cm}\label{figs:MagneticMultipoles} \caption{ } \end{subfigure}
 		\hspace{-3em}
 		\begin{subfigure}{.9\linewidth}			
-		\includegraphics[scale=.25]{1-Teoria/figs/Mo11_static_crop.png}%
-		\includegraphics[scale=.25]{1-Teoria/figs/Mo12_static_crop.png}%
-		\includegraphics[scale=.25]{1-Teoria/figs/Mo13_static_crop.png}%
-		\includegraphics[scale=.25]{1-Teoria/figs/Mo14_static_crop.png}%
+		\includegraphics[scale=.25,trim={00 00 80 00}, clip]{1-Teoria/figs/Mo11_static.png}%
+		\includegraphics[scale=.25,trim={00 00 80 00}, clip]{1-Teoria/figs/Mo12_static.png}%
+		\includegraphics[scale=.25,trim={00 00 80 00}, clip]{1-Teoria/figs/Mo13_static.png}%
+		\includegraphics[scale=.25,trim={00 00 80 00}, clip]{1-Teoria/figs/Mo14_static.png}%
 		\end{subfigure}
 		\caption{Contribuciones multipolares \textbf{a)} eléctricas $a_\ell$ y \textbf{b)} magnéticas $b_\ell$ de orden $\ell = 1,2,3$ y $4$ del campo esparcido $\vb{E}^s$ por una partícula esférica, evaluadas en una superficie matemática esférica y concéntrica a la partícula que radia los campos EMs, en donde el plano de la página corresponde al plano de oscilación del campo eléctrico incidente $\vb{E}^i$. En las gráficas presentadas, el color rojo corresponde a los valores máximos del campo eléctrico, mientras que los azules son los puntos menos intensos, donde se presentan los nodos ($\vb{E}^s\approx \vb{0}$) en la superficie esférica.}
 		\label{fig:Multipolos}
 	\end{figure}
 
-Los campos EMs esparcidos [Ecs. \eqref{eq:EHsAEV}] se calcularon al considerar una onda plana monocromática incidente $\vb{E}^i$ polarizada en la dirección $\vu{e}_x$. Sin embargo, debido a la simetría de la esfera, una onda plana polarizada en la dirección $\vu{e}_y$ se describe mediante la transformación $\varphi\to\varphi+\pi/2$, por lo que los campos EMs esparcidos y dentro de la esfera se calculan mediante el mismo procedimiento \cite{bohren1998absorption}. Entonces, cualquier cantidad relacionada con la absorción y esparcimiento de una esfera se puede calcular únicamente mediante lo coeficientes de Mie [Ecs. \eqref{eq:MieCoef}]. En particular, para determinar la matriz de esparcimiento $\mathbb{S}$ se relaciona el campo eléctrico esparcido en el límite de campo lejano\index{Electromagnéticos!campos!lejano}, en donde al emplear las funciones de Riccati-Bessel, y sus derivadas, en el límite asintótico\footnote{\index{Ricatti-Bessel!funciones de!límite asintótico de las}\index{Hankel!funciones esféricas de!límite asintótico de las}En el límite $\ell^2 \ll \rho$, se cumple que $h_\ell^{(1)}(\rho)\approx (-i)^\ell e^{i\rho}/i\rho$ y $\dv*{h_\ell^{(1)}}{\rho} = (-i)^\ell e^{i\rho}/\rho$. Por lo tanto,  $\xi(\rho)\approx (-i)^\ell e^{i\rho}/i$ y $\dv*{\xi}{\rho} = (-i)^\ell e^{i\rho}(1/i\rho + 1)$.} $\ell^2 \ll kr$, las componentes radiales de los campos EMs decaen como $(k_mr)^{-2}$, por lo que son despreciables. Al escribir los armónicos esféricos vectoriales [Ecs. \eqref{eq:AEV}] en términos de $\pi_\ell$, $\tau_\ell$ y de las funciones de Riccati--Bessel $\psi$ y $\xi$ en el límite asintótico, despreciando los términos proporcionales a $(k_mr)^{-1}$, el campo eléctrico esparcido en la componente paralela y perpendicular al plano de esparcimiento (ver Fig. \ref{fig:PlanoEsparcimiento}) es
+Los campos EMs esparcidos [Ecs. \eqref{eq:EHsAEV}] se calcularon al considerar una onda plana monocromática incidente $\vb{E}^i$ polarizada en la dirección $\vu{e}_x$. Sin embargo, debido a la simetría de la esfera, una onda plana polarizada en la dirección $\vu{e}_y$ se describe mediante la transformación $\varphi\to\varphi+\pi/2$, por lo que los campos EMs esparcidos y dentro de la esfera se calculan mediante el mismo procedimiento \cite{bohren1998absorption}. Entonces, cualquier cantidad relacionada con la absorción y esparcimiento de una esfera se puede calcular mediante los coeficientes de Mie [Ecs. \eqref{eq:MieCoef}]. En particular, para determinar la matriz de esparcimiento $\mathbb{S}$ se relaciona el campo eléctrico esparcido en el límite de campo lejano\index{Electromagnéticos!campos!lejano}, en donde al emplear las funciones de Riccati-Bessel, y sus derivadas, en el límite asintótico\footnote{\index{Riccati-Bessel!funciones de!límite asintótico de las}\index{Hankel!funciones esféricas de!límite asintótico de las}En el límite $\ell^2 \ll \rho$, se cumple que $h_\ell^{(1)}(\rho)\approx (-i)^\ell e^{i\rho}/i\rho$ y $\dv*{h_\ell^{(1)}}{\rho} = (-i)^\ell e^{i\rho}/\rho$. Por lo tanto,  $\xi(\rho)\approx (-i)^\ell e^{i\rho}/i$ y $\dv*{\xi}{\rho} = (-i)^\ell e^{i\rho}(1/i\rho + 1)$.} $\ell^2 \ll kr$, las componentes radiales de los campos EMs decaen como $(k_mr)^{-2}$, por lo que son despreciables. Al escribir los armónicos esféricos vectoriales [Ecs. \eqref{eq:AEV}] en términos de $\pi_\ell$, $\tau_\ell$ y de las funciones de Riccati--Bessel $\psi$ y $\xi$ en el límite asintótico, despreciando los términos proporcionales a $(k_mr)^{-1}$, el campo eléctrico esparcido en la componente paralela y perpendicular al plano de esparcimiento (ver Fig. \ref{fig:PlanoEsparcimiento}) es
+%
 	\begin{subequations}
 	\begin{align}
 	E_\theta^s \vu{e}_\parallel^s &=\frac{\cos\varphi}{k_mr}
@@ -600,8 +630,10 @@ Los campos EMs esparcidos [Ecs. \eqref{eq:EHsAEV}] se calcularon al considerar u
 			&\approx E_0\sin\varphi\frac{e^{ik_mr}}{-ik_mr}\sum_\ell^\infty\frac{2\ell+1}{\ell(\ell+1)}
 			(a_\ell\pi_\ell+b_\ell\tau_\ell)(-\vu{e}_\varphi), \label{seq:HsFF}
 	\end{align}\label{eq:EHsFF}
-	\end{subequations}
-\! donde $\vu{e}_\parallel^s =\vu{e}_\theta$ y $\vu{e}_\perp^s=-\vu{e}_\varphi$. Al emplear la Ec. \eqref{eq:EIncidente} para reescribir a la onda plana incidente $\vb{E}^i$ [Ec. \eqref{eqs:EiAEV}] en la base de $\{\vu{e}_\parallel^i,\vu{e}_\perp^i\}$ [Ec. \eqref{eqs:vecInc}], se determina la forma explícita de la matriz de esparcimiento para una partícula esférica:\vspace*{-.75em} \index{Mie!matriz de esparcimiento de}\index{Esparcimiento!de Mie, matriz de}
+	\end{subequations}\noindent
+%
+\hspace*{-.675em} donde $\vu{e}_\parallel^s =\vu{e}_\theta$ y $\vu{e}_\perp^s=-\vu{e}_\varphi$. Al emplear la Ec. \eqref{eq:EIncidente} para reescribir a la onda plana incidente $\vb{E}^i$ [Ec. \eqref{eqs:EiAEV}] en la base de $\{\vu{e}_\parallel^i,\vu{e}_\perp^i\}$ [Ec. \eqref{eqs:vecInc}], se determina la forma explícita de la matriz de esparcimiento para una partícula esférica:\vspace*{-.75em} \index{Mie!matriz de esparcimiento de}\index{Esparcimiento!de Mie, matriz de}
+%
 	\begin{tcolorbox}[title = Matriz de esparcimiento de Mie,  breakable ]
 	\begin{align}
 	\mqty(E_{\parallel}^s\\E_{\perp}^s)  =  

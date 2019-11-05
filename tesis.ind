@@ -30,7 +30,7 @@
 
   \item Bessel
     \subitem ecuaci\IeC {\'o}n esf\IeC {\'e}rica de, \hyperpage{19}
-    \subitem funciones de Ricatti-Bessel, \hyperpage{24}
+    \subitem funciones de Riccati-Bessel, \hyperpage{24}
     \subitem funciones esf\IeC {\'e}ricas de, \hyperpage{19}
       \subsubitem relaciones de recurrencia de las, \hyperpage{20}
   \item Brewster
@@ -40,10 +40,10 @@
 
   \item Drude-Sommerfeld
     \subitem modelo de, \hyperpage{26, 27}
-      \subsubitem constante fenomenol\IeC {\'o}gica de amortiguamiento de bulto $\gamma_\infty$, 
+      \subsubitem constante fenomenol\IeC {\'o}gica de amortiguamiento de bulto ($\gamma_B$), 
 		\hyperpage{27}
-      \subsubitem constante fenomenol\IeC {\'o}gica para esferas ($\gamma_a$), 
-		\hyperpage{29}
+      \subsubitem constante fenomenol\IeC {\'o}gica de amortiguamiento para esferas ($\gamma_a$), 
+		\hyperpage{28}
       \subsubitem ecuaci\IeC {\'o}n de movimiento, \hyperpage{27}
       \subsubitem frecuencia de plasma $\omega_p$, \hyperpage{27}
 
@@ -57,19 +57,33 @@
 		\hyperpage{27}
     \subitem de onda, \hyperpage{8}
     \subitem esf\IeC {\'e}rica de Bessel, \hyperpage{19}
+  \item Eficiencia, 
+		\hyperindexformat{\seealso{Secci\IeC {\'o}n transversal}}{38}
+    \subitem de absorci\IeC {\'o}n, \hyperpage{38}
+    \subitem de esparcimiento, \hyperpage{38}
+    \subitem de extinci\IeC {\'o}n, \hyperpage{38}
   \item Electr\IeC {\'o}n
     \subitem libre, \hyperpage{27}
-    \subitem masa ef\IeC {\'e}ctica del, \hyperpage{27}
+    \subitem masa efectiva del, \hyperpage{27}
   \item Electromagn\IeC {\'e}ticos
     \subitem campos
       \subsubitem condiciones a la frontera de los, \hyperpage{9}
       \subsubitem condiciones ala frontera de una esfera de los, 
 		\hyperpage{22, 23}
-      \subsubitem diadica de campo lejano, \hyperpage{16}
       \subsubitem lejano, \hyperpage{16}, \hyperpage{24}
+      \subsubitem operador de campo lejano, \hyperpage{16}, 
+		\hyperpage{42}
   \item Esparcimiento
     \subitem  de luz, \hyperindexformat{\see{Mie}}{14}
-    \subitem de Mie, matriz de, \hyperpage{25}
+    \subitem Coherente, Modelo de (CSM), \hyperpage{41}
+    \subitem de Mie, matriz de, \hyperpage{25}, \hyperpage{43}
+    \subitem Individual, Aproximaci\IeC {\'o}n de (SSA), \hyperpage{42}
+      \subsubitem campo el\IeC {\'e}ctrico esparcido promedio, 
+		\hyperpage{42}
+      \subsubitem coeficientes de amplitud, \hyperpage{43}
+    \subitem M\IeC {\'u}ltiple (MS), \hyperpage{40}
+      \subsubitem campo el\IeC {\'e}ctrico esparcido promedio, 
+		\hyperpage{44}
     \subitem matriz de, \hyperpage{16}
 
   \indexspace
@@ -79,29 +93,30 @@
   \item Fourier
     \subitem transformada de, \hyperpage{8}
   \item Fresnel
-    \subitem amplitud, coeficientes de ($r,t$), \hyperpage{10}
-      \subsubitem $p$, \hyperpage{11}
-      \subsubitem $s$, \hyperpage{11}
+    \subitem coeficientes de amplitud de ($r,t$), \hyperpage{10}, 
+		\hyperpage{48}
+      \subsubitem relaciones de Stokes, \hyperpage{49}
     \subitem ecuaciones de, \hyperpage{10}
     \subitem Reflectancia ($R$), \hyperpage{13}
     \subitem Transmitancia ($T$), \hyperpage{13}
   \item Funci\IeC {\'o}n diel\IeC {\'e}ctrica, \hyperpage{8}, 
 		\hyperpage{26}
     \subitem Absorci\IeC {\'o}n, \hyperpage{14}
+    \subitem de la plata, \hyperpage{30}
+    \subitem del oro, \hyperpage{30}
     \subitem interbanda, \hyperpage{26}
     \subitem intrabanda, \hyperpage{26}
-    \subitem para part\IeC {\'\i }culas esf\IeC {\'e}ricas,correcci\IeC {\'o}n por tama\IeC {\~n}o de la, 
+    \subitem para part\IeC {\'\i }culas esf\IeC {\'e}ricas, correcci\IeC {\'o}n por tama\IeC {\~n}o de la, 
 		\hyperpage{29}
     \subitem tipo Drude, \hyperpage{27}
 
   \indexspace
 
   \item Hankel, \hyperindexformat{\see{Bessel}}{20}
-    \subitem funciones de Ricatti-Bessel, \hyperpage{24}
+    \subitem funciones de Riccati-Bessel, \hyperpage{24}
     \subitem funciones esf\IeC {\'e}ricas de, \hyperpage{20}
-      \subsubitem l\IeC {\'\i }mite asint\IeC {\'o}tico, \hyperpage{22}
       \subsubitem l\IeC {\'\i }mite asint\IeC {\'o}tico de las, 
-		\hyperpage{24}
+		\hyperpage{22}, \hyperpage{24}
 
   \indexspace
 
@@ -137,9 +152,10 @@
 		\hyperpage{8}
       \subsubitem transformada de Fourier de las, \hyperpage{16}
   \item Mie
-    \subitem coeficientes de, \hyperpage{24}
+    \subitem coeficientes de, \hyperpage{24}, \hyperpage{38}
     \subitem expanci\IeC {\'o}n multipolar, \hyperpage{24}
-    \subitem matriz de esparcimiento de, \hyperpage{25}
+    \subitem matriz de esparcimiento de, \hyperpage{25}, \hyperpage{42}
+      \subsubitem elementos de la [$S_j(\theta)$], \hyperpage{43}
     \subitem soluci\IeC {\'o}n de, \hyperpage{14}, \hyperpage{26}
       \subsubitem campos electromagn\IeC {\'e}ticos dentro de una part\IeC {\'\i }cula esf\IeC {\'e}rica, 
 		\hyperpage{22}, \hyperpage{24}
@@ -150,7 +166,7 @@
 
   \item Onda
     \subitem esf\IeC {\'e}rica, \hyperpage{22}
-    \subitem evanescente, \hyperpage{28}
+    \subitem evanescente, \hyperpage{28}, \hyperpage{32}
     \subitem plana, \hyperpage{8}
       \subsubitem en la base cartesiana can\IeC {\'o}nica, 
 		\hyperpage{8}
@@ -172,6 +188,13 @@
   \item Plano
     \subitem de esparcimiento, \hyperpage{15}
     \subitem de incidencia, \hyperpage{10}
+  \item Plasm\IeC {\'o}n, \hyperpage{30}
+    \subitem  de volumen, \hyperpage{32}
+    \subitem de Superficie Localizado (LSP), \hyperpage{36}
+      \subsubitem modos normales del, \hyperpage{39}
+      \subsubitem Resonancia de (LSPR), \hyperpage{30}, \hyperpage{40}
+    \subitem Polarit\IeC {\'o}n de Superficie (SPP), \hyperpage{30}, 
+		\hyperpage{34}
   \item Polarizaci\IeC {\'o}n
     \subitem de una onda plana, \hyperpage{10}
     \subitem respecto al plano de esparcimiento, \hyperpage{15}
@@ -187,13 +210,24 @@
   \indexspace
 
   \item Reflexi\IeC {\'o}n total
-    \subitem atenuada, \hyperpage{51}
+    \subitem atenuada, \hyperpage{35}, \hyperpage{51}
     \subitem interna, \hyperpage{12}
-  \item Relaci\IeC {\'o}n de dispersi\IeC {\'o}n, \hyperpage{8}
+  \item Relaci\IeC {\'o}n de dispersi\IeC {\'o}n, \hyperpage{8}, 
+		\hyperpage{32}, \hyperpage{35}
     \subitem de una onda plana, \hyperpage{8}
-  \item Ricatti-Bessel
-    \subitem funciones de, \hyperpage{24}
+    \subitem del plasm\IeC {\'o}n de volumen, \hyperpage{32}
+    \subitem del SPP, \hyperindexformat{\see {Plasm\IeC {\'o}n}}{34}
+  \item Riccati-Bessel
+    \subitem funciones de, \hyperpage{24}, \hyperpage{37}
       \subsubitem l\IeC {\'\i }mite asint\IeC {\'o}tico de las, 
 		\hyperpage{24}
+
+  \indexspace
+
+  \item Secci\IeC {\'o}n transversal, 
+		\hyperindexformat{\seealso{Eficiencia}}{38}
+    \subitem de absorci\IeC {\'o}n, \hyperpage{38}
+    \subitem de esparcimiento, \hyperpage{38}
+    \subitem de extinci\IeC {\'o}n, \hyperpage{38}
 
 \end{theindex}

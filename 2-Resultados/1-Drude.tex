@@ -16,10 +16,22 @@ Para estudiar la respuesta electromagnética (EM) de una monocapa de nanopartíc
 Para el cálculo de la reflectancia mediante el CSM de una FSM suspendida en una matriz con $n_m=1.33$, modelando al agua en el espectro visible \cite{INDREF}. Se empleó la Ec.  \eqref{eq:R} con el coeficiente de amplitud de reflexión coherente $r_{coh}$ [Ec.  \eqref{seq:rcoh}].  En la Fig.  \ref{fig:R-FSM} se muestran los resultados de la reflectancia $R$ en función del ángulo de incidencia $\theta_i$ y tanto de la longitud de onda $\lambda$ del haz incidente (escala inferior), como de la energía del haz incidente en unidades de $\hbar\omega = h c /\lambda$ (escala superior).  La frecuencia de plasma empleada para la función dieléctrica tipo Drude fue $\hbar\omega_p = 4. 3$ eV y la constante fenomenológica de amortiguamiento $\hbar\gamma = 0. 15$ eV (que corresponden a $288. 5$ nm  y $8,270$ nm, respectivamente). Se consideraron NPs de radio $a=30$ nm y fracciones de cubierta $\Theta$: $0. 05$, $0. 1$, $0. 2$, $0. 3$ y $0. 4$. En el renglón superior de la Fig. \ref{fig:R-FSM}, gráficas de $\mathbf{i)}$ a $\mathbf{v)}$, se muestra la reflectancia para polarización \emph{p}, mientras que en el renglón inferior se presentan las gráficas para polarización \emph{s}, $\mathbf{vi)}$ -- $\mathbf{x)}$. La línea punteada vertical verde  en $\lambda \approx 658$ nm corresponde a la SP-SPR dipolar ($\ell = 1$), mientras que la línea vertical rosa punteada en $\lambda \approx 561$ nm corresponde a la excitación del modo cuadrupolar ($\ell=2$).
 					
 	\begin{figure}[h!]\centering
-	\begin{tikzpicture}
-\node[inner sep=0pt] (graf) at (-.15,0){\includegraphics[width = .9\linewidth]{2-Resultados/figs/4-Wp4FSMThetaVar/0-2D_Grid.png}};
-\node[right, inner sep=0pt] (legend) at (7,.1) {\includegraphics[scale=.77, trim={00 00 00 00}, clip]{2-Resultados/figs/0-IBar_v}};
-\node[above, inner sep=0pt] (r) at (7.15,3.2) {$R$};
+	\hspace*{-.5em}\begin{tikzpicture}
+\node[inner sep=0pt] (graf) at (-.15,0){\includegraphics[scale=1]{2-Resultados/figs/4-Wp4FSMThetaVar/0-2D_Grid.png}};
+\node[right, inner sep=0pt] (legend) at (7.05,.05) {\includegraphics[scale=1, trim={00 -15 00 00}, clip]{2-Resultados/figs/0-RBar_v}};
+
+\def\y{4.2}
+	\node at(-5.2,\y){\Large $\Theta = 0.05 $};
+	\node at(-2.4,\y){\Large $\Theta = 0.1 $};
+	\node at(0.4,\y) {\Large $\Theta = 0.2$};
+	\node at(3.2,\y) {\Large $\Theta = 0.3 $};
+	\node at(6.0,\y) {\Large $\Theta = 0.4 $};
+
+\def\xR{7}
+\def\yR{2.5}	
+	\node at(\xR,\yR){$R_p $};
+	\node at(\xR,\yR-2.8){$R_s$};
+	
 \end{tikzpicture}\vspace*{-.5em}
 	\caption{Gráficas de la reflectancia para una FSM como función del ángulo de incidencia $\theta_i$ y tanto de la longitud de onda $\lambda$ (escala inferior), como de la energía del haz incidente en unidades de $\hbar\omega$ (escala superior), para una función dieléctrica tipo Drude con $\hbar\omega_p=4. 3$ eV  y  $\hbar\gamma=0. 15$ eV.  Las gráficas   en el renglón superior [$\mathbf{i)-v)}$]  muestran los resultados de reflectancia para  polarización \emph{p} y las del renglón inferior  [$\mathbf{i)-v)}$] para polarización  \emph{s}, donde se consideraron NPs de radio $a=30$ nm y distintas fracciones de cubierta $\Theta$: $0. 05$, $0. 1$, $0. 2$, $0. 3$ y $0. 4$. Las líneas verticales punteadas verdes y rosas corresponden a las SP-SPRs dipolar ($658$ nm) y cuadrupolar ($561$ nm), respectivamente.}	\label{fig:R-FSM}	
 	\end{figure}		
