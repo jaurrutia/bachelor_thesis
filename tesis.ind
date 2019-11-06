@@ -11,6 +11,7 @@
 
   \indexspace
 
+  \item Anchura a media altura (FWHM) ($\Gamma)$, \hyperpage{59}
   \item Arm\IeC {\'o}nicos esf\IeC {\'e}ricos vectoriales, 
 		\hyperpage{17}
     \subitem $\vb{M}$ y $\vb{N}$, \hyperpage{20}
@@ -121,8 +122,8 @@
   \indexspace
 
   \item Incidencia
-    \subitem externa, \hyperpage{11}
-    \subitem interna, \hyperpage{11}
+    \subitem externa, \hyperpage{11}, \hyperpage{53}
+    \subitem interna, \hyperpage{11}, \hyperpage{53}
 
   \indexspace
 
@@ -166,7 +167,8 @@
 
   \item Onda
     \subitem esf\IeC {\'e}rica, \hyperpage{22}
-    \subitem evanescente, \hyperpage{28}, \hyperpage{32}
+    \subitem evanescente, \hyperpage{28}, \hyperpage{32}, 
+		\hyperpage{53}
     \subitem plana, \hyperpage{8}
       \subsubitem en la base cartesiana can\IeC {\'o}nica, 
 		\hyperpage{8}

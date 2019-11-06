@@ -7,8 +7,8 @@ Scanning input file tesis.idx....
    -- Extra `!' at position 66 of first argument.
 !! Input index error (file = tesis.idx, line = 155):
    -- Extra `!' at position 66 of first argument.
-done (154 entries accepted, 3 rejected).
-Sorting entries....done (1225 comparisons).
+done (158 entries accepted, 3 rejected).
+Sorting entries....done (1239 comparisons).
 Generating output file tesis.ind....
 ## Warning (input = tesis.idx, line = 28; output = tesis.ind, line = 5):
    -- Conflicting entries: multiple encaps for the same page under same key.
@@ -16,8 +16,8 @@ Generating output file tesis.ind....
 ## Warning (input = tesis.idx, line = 7; output = tesis.ind, line = 9):
    -- Conflicting entries: multiple encaps for the same page under same key.
 
-## Warning (input = tesis.idx, line = 104; output = tesis.ind, line = 56):
+## Warning (input = tesis.idx, line = 104; output = tesis.ind, line = 57):
    -- Conflicting entries: multiple encaps for the same page under same key.
-done (233 lines written, 3 warnings).
+done (235 lines written, 3 warnings).
 Output written in tesis.ind.
 Transcript written in tesis.ilg.
