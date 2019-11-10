@@ -84,7 +84,7 @@
 		\spanishdecimal{.}
 %		\usepackage[ square, comma, sort&compress, numbers]{natbib}
 		\usepackage[style = trad-abbrv, backend = bibtex, sorting = none, backref=true]{biblatex} %style = trad-abbrv
-		\addbibresource{06-Bibliografia/references.bib}
+		\addbibresource{04-Bibliografia/references.bib}
 		%\usepackage[style = trad-abbrv, backend = bibtex]{biblatex}
 		 % The settings for the hyperref package are found below in the PDF/PS set up section 
 		\addto\captionsspanish{\renewcommand{\figurename}{Fig.}}

@@ -1,72 +1,27 @@
 %--------------------Cambiar captio de las subfiguras -------------------
-\renewcommand*{\thesubfigure}{\alph{subfigure})}
+\renewcommand*{\thesubfigure}{\alph{subfigure})}   %Cambia caption y también el \ref{   }  
+
+	\newcommand{\beqhalf}{\noindent \begin{minipage}[c]{.5\linewidth} \begin{equation}}
+	\newcommand{\eeqhalf}{\end{equation} \end{minipage} }
+	\newcommand{\eqhalf}[1]{\beqhalf #1 \eeqhalf}	
 
 
+\usepackage{animate}  %pARA EL GIF
 
 
-%--------------------ABREVIACION DE NOTACION RECURRENTE ---------------------
-\providecommand{\e}[1]{\ensuremath{\times 10^{#1}}}			%-- *10^x ---
-\providecommand{\rt}{\ensuremath{(\Vec{r},t)}}				%-- (r,t) ---
-\providecommand{\epO}{\ensuremath{\varepsilon_0}}			%-- Epsilon0-
-\providecommand{\eps}{\ensuremath{\varepsilon}}				%-- Epsilon -
-\providecommand{\muO}{\ensuremath{\mu_0}}					%-- Mu0 -----
-
-%--------------------OPERADORES DIFERENCIALES -------------------------------
-
-	%------------------------- OPERADORES VECTORIALES ---------------------
-	\providecommand{\lap}{\ensuremath{\nabla^2}}				%-- laplaciano -
-	\providecommand{\rot}{\ensuremath{\nabla\times}}			%-- rotacional -
-	\providecommand{\dive}{\ensuremath{\nabla\cdot}}			%-- divergencia-
-	\providecommand{\grad}{\ensuremath{\nabla}}					%-- gradiente --
-	\providecommand{\ecOnda}[2]{\ensuremath{\lap #1 
-							- #2 \dparcial{^2 #1}{t^2}}}	%-- ec. de onda -
-	\providecommand{\ecHelm}[2]{\ensuremath{\lap #1 - #2^2 #1}} %-- ec. de Helmholz
-
-	%------------------------------ OPERADORES ESCALARES ----------------------
-	\providecommand{\dparcial}[2]{\ensuremath{\frac{
-								\partial #1}{\partial #2}}} %-- Der. parcial
-	\providecommand{\dtotal}[2]{\ensuremath{\frac{d #1}{d #2}}}	%-- Der. total
-
-%--------------------OPERADORACIONES BINARIAS -------------------------------
-	
-	% ------------------------------ OPERACIONES VECTORIALES ---------------------
-	\providecommand{\inner}[2]{\ensuremath{\vec{#1} \cdot \vec{#2}}} 
-	\providecommand{\inneru}[2]{\ensuremath{\vec{#1} \cdot \hat{#2}}} 
-	\providecommand{\cross}[2]{\ensuremath{\vec{#1} \times \vec{#2}}}
-	\providecommand{\crossu}[2]{\ensuremath{\vec{#1} \times \hat{#2}}}
+%
+%%--------------------ABREVIACION DE NOTACION RECURRENTE ---------------------
+%\providecommand{\e}[1]{\ensuremath{\times 10^{#1}}}			%-- *10^x ---
+%\providecommand{\rt}{\ensuremath{(\Vec{r},t)}}				%-- (r,t) ---
+%\providecommand{\epO}{\ensuremath{\varepsilon_0}}			%-- Epsilon0-
+%\providecommand{\eps}{\ensuremath{\varepsilon}}				%-- Epsilon -
+%\providecommand{\muO}{\ensuremath{\mu_0}}					%-- Mu0 -----
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%          Comando para derivadas            %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\derivada}[3][]{\ensuremath{\dfrac{\mbox{d}^{#1}#2}{\mbox{d}#3^{#1}}}} 
-%primer argumento(opcional): orden de la derivada
-%segundo argumento: función a derivar
-%tercer argumento: variable respecto a la que se deriva
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%       Comando para la exponencial          %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%primer argumento(opcional): exponente de la exponencial
 
 
 

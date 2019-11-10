@@ -64,7 +64,7 @@
       <file>spanish.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="0">
+  <external package="biblatex" priority="5" active="1">
     <generic>bibtex</generic>
     <cmdline>
       <binary>bibtex</binary>
@@ -85,7 +85,7 @@
       <file>tesis-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>06-Bibliografia/references.bib</file>
+      <file>04-Bibliografia/references.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

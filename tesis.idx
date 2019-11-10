@@ -1,3 +1,5 @@
+\indexentry{Biosensor|hyperpage}{1}
+\indexentry{Biosensor!comercial|hyperindexformat{\seealso{Plasm\IeC {\'o}n polarit\IeC {\'o}n de superficie (SPP)}}}{1}
 \indexentry{Maxwell!ecuaciones de|hyperpage}{7}
 \indexentry{Ecuaci\IeC {\'o}n!de onda|hyperpage}{8}
 \indexentry{Ecuaci\IeC {\'o}n!de Helmholtz|hyperpage}{8}
@@ -105,12 +107,13 @@
 \indexentry{Ecuaci\IeC {\'o}n!de movimiento de un electr\IeC {\'o}n libre|hyperindexformat{\seealso{Drude-Sommerfeld}}}{27}
 \indexentry{Electr\IeC {\'o}n!masa efectiva del|hyperpage}{27}
 \indexentry{Drude-Sommerfeld!modelo de|hyperpage}{27}
-\indexentry{Drude-Sommerfeld!modelo de!frecuencia de plasma $\omega_p$|hyperpage}{27}
+\indexentry{Drude-Sommerfeld!modelo de!frecuencia de plasma ($\omega_p$)|hyperpage}{27}
 \indexentry{Funci\IeC {\'o}n diel\IeC {\'e}ctrica!tipo Drude|hyperpage}{27}
-\indexentry{Drude-Sommerfeld!modelo de!constante fenomenol\IeC {\'o}gica de amortiguamiento de bulto ($\gamma_B$)|hyperpage}{27}
+\indexentry{Drude-Sommerfeld!modelo de!constante fenomenol\IeC {\'o}gica de amortiguamiento ($\gamma$)|hyperpage}{27}
+\indexentry{Drude-Sommerfeld!modelo de!constante fenomenol\IeC {\'o}gica de amortiguamiento ($\gamma$)!de bulto ($\gamma_B$)|hyperpage}{27}
 \indexentry{Fermi!velocidad de|hyperpage}{27}
 \indexentry{Onda!evanescente|hyperpage}{28}
-\indexentry{Drude-Sommerfeld!modelo de!constante fenomenol\IeC {\'o}gica de amortiguamiento para esferas ($\gamma_a$)|hyperpage}{28}
+\indexentry{Drude-Sommerfeld!modelo de!constante fenomenol\IeC {\'o}gica de amortiguamiento ($\gamma$)!para esferas ($\gamma_a$)|hyperpage}{28}
 \indexentry{Fermi!velocidad de|hyperpage}{28}
 \indexentry{Funci\IeC {\'o}n diel\IeC {\'e}ctrica!para part\IeC {\'\i }culas esf\IeC {\'e}ricas, correcci\IeC {\'o}n por tama\IeC {\~n}o de la|hyperpage}{29}
 \indexentry{Funci\IeC {\'o}n diel\IeC {\'e}ctrica!del oro|hyperpage}{30}
@@ -144,7 +147,7 @@
 \indexentry{Esparcimiento!Individual, Aproximaci\IeC {\'o}n de (SSA)|hyperpage}{42}
 \indexentry{Esparcimiento!Individual, Aproximaci\IeC {\'o}n de (SSA)!campo el\IeC {\'e}ctrico esparcido promedio|hyperpage}{42}
 \indexentry{Electromagn\IeC {\'e}ticos!campos!operador de campo lejano|hyperpage}{42}
-\indexentry{Mie!matriz de esparcimiento de|hyperpage}{42}
+\indexentry{Mie!matriz de esparcimiento de|hyperpage}{43}
 \indexentry{Mie!matriz de esparcimiento de!elementos de la [$S_j(\theta)$]|hyperpage}{43}
 \indexentry{Esparcimiento!de Mie, matriz de|hyperpage}{43}
 \indexentry{Esparcimiento!Individual, Aproximaci\IeC {\'o}n de (SSA)!coeficientes de amplitud|hyperpage}{43}
@@ -152,10 +155,15 @@
 \indexentry{Esparcimiento!Coherente, Modelo de (CSM)!coeficientes de amplitud! para una monocapa en espacio libre|hyperpage}{46}
 \indexentry{Fresnel!coeficientes de amplitud de ($r,t$)|hyperpage}{48}
 \indexentry{Esparcimiento!Coherente, Modelo de (CSM)!coeficientes de amplitud!incidencia externa)|hyperpage}{49}
-\indexentry{Esparcimiento!Coherente, Modelo de (CSM)!coeficientes de amplitud!incidencia interna|hyperpage}{49}
-\indexentry{Fresnel!coeficientes de amplitud de ($r,t$)!relaciones de Stokes|hyperpage}{49}
+\indexentry{Esparcimiento!Coherente, Modelo de (CSM)!coeficientes de amplitud!incidencia interna|hyperpage}{50}
+\indexentry{Fresnel!coeficientes de amplitud de ($r,t$)!relaciones de Stokes|hyperpage}{50}
 \indexentry{Reflexi\IeC {\'o}n total!atenuada|hyperpage}{51}
+\indexentry{Drude-Sommerfeld!modelo de!frecuencia de plasma ($\omega_p$)|hyperpage}{51}
+\indexentry{Drude-Sommerfeld!modelo de!constante fenomenol\IeC {\'o}gica de amortiguamiento ($\gamma$)|hyperpage}{51}
 \indexentry{Incidencia!externa|hyperpage}{53}
 \indexentry{Onda!evanescente|hyperpage}{53}
 \indexentry{Incidencia!interna|hyperpage}{53}
-\indexentry{Anchura a media altura (FWHM) ($\Gamma)$|hyperpage}{59}
+\indexentry{Anchura a media altura (FWHM) ($\Gamma$)|hyperpage}{58}
+\indexentry{\IeC {\'I}ndice de refacci\IeC {\'o}n!Unidades de \IeC {\'\i }ndice de refracci\IeC {\'o}n RIU|hyperpage}{76}
+\indexentry{Anchura a media altura (FWHM) ($\Gamma$)|hyperpage}{76}
+\indexentry{Biosensor!Figura de M\IeC {\'e}rito ($\textit{FoM}_B$)|hyperpage}{76}

@@ -5,13 +5,17 @@
 		\hyperindexformat{\see {Incidencia interna}}{12}, 
 		\hyperpage{12}
     \subitem de Brewster, \hyperpage{11}
+  \item \IeC {\'I}ndice de refacci\IeC {\'o}n
+    \subitem Unidades de \IeC {\'\i }ndice de refracci\IeC {\'o}n RIU, 
+		\hyperpage{76}
   \item \IeC {\'I}ndice de refracci\IeC {\'o}n, 
 		\hyperindexformat{\seealso{Funci\IeC {\'o}n diel\IeC {\'e}ctrica}}{8}, 
 		\hyperpage{8}
 
   \indexspace
 
-  \item Anchura a media altura (FWHM) ($\Gamma)$, \hyperpage{59}
+  \item Anchura a media altura (FWHM) ($\Gamma$), \hyperpage{58}, 
+		\hyperpage{76}
   \item Arm\IeC {\'o}nicos esf\IeC {\'e}ricos vectoriales, 
 		\hyperpage{17}
     \subitem $\vb{M}$ y $\vb{N}$, \hyperpage{20}
@@ -34,6 +38,11 @@
     \subitem funciones de Riccati-Bessel, \hyperpage{24}
     \subitem funciones esf\IeC {\'e}ricas de, \hyperpage{19}
       \subsubitem relaciones de recurrencia de las, \hyperpage{20}
+  \item Biosensor, \hyperpage{1}
+    \subitem comercial, 
+		\hyperindexformat{\seealso{Plasm\IeC {\'o}n polarit\IeC {\'o}n de superficie (SPP)}}{1}
+    \subitem Figura de M\IeC {\'e}rito ($\textit{FoM}_B$), 
+		\hyperpage{76}
   \item Brewster
     \subitem \IeC {\'a}ngulo de, \hyperpage{11}
 
@@ -41,12 +50,11 @@
 
   \item Drude-Sommerfeld
     \subitem modelo de, \hyperpage{26, 27}
-      \subsubitem constante fenomenol\IeC {\'o}gica de amortiguamiento de bulto ($\gamma_B$), 
-		\hyperpage{27}
-      \subsubitem constante fenomenol\IeC {\'o}gica de amortiguamiento para esferas ($\gamma_a$), 
-		\hyperpage{28}
+      \subsubitem constante fenomenol\IeC {\'o}gica de amortiguamiento ($\gamma$), 
+		\hyperpage{27}, \hyperpage{51}
       \subsubitem ecuaci\IeC {\'o}n de movimiento, \hyperpage{27}
-      \subsubitem frecuencia de plasma $\omega_p$, \hyperpage{27}
+      \subsubitem frecuencia de plasma ($\omega_p$), \hyperpage{27}, 
+		\hyperpage{51}
 
   \indexspace
 
@@ -96,7 +104,7 @@
   \item Fresnel
     \subitem coeficientes de amplitud de ($r,t$), \hyperpage{10}, 
 		\hyperpage{48}
-      \subsubitem relaciones de Stokes, \hyperpage{49}
+      \subsubitem relaciones de Stokes, \hyperpage{50}
     \subitem ecuaciones de, \hyperpage{10}
     \subitem Reflectancia ($R$), \hyperpage{13}
     \subitem Transmitancia ($T$), \hyperpage{13}
@@ -155,7 +163,7 @@
   \item Mie
     \subitem coeficientes de, \hyperpage{24}, \hyperpage{38}
     \subitem expanci\IeC {\'o}n multipolar, \hyperpage{24}
-    \subitem matriz de esparcimiento de, \hyperpage{25}, \hyperpage{42}
+    \subitem matriz de esparcimiento de, \hyperpage{25}, \hyperpage{43}
       \subsubitem elementos de la [$S_j(\theta)$], \hyperpage{43}
     \subitem soluci\IeC {\'o}n de, \hyperpage{14}, \hyperpage{26}
       \subsubitem campos electromagn\IeC {\'e}ticos dentro de una part\IeC {\'\i }cula esf\IeC {\'e}rica, 
