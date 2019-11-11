@@ -753,7 +753,7 @@
     \field{year}{2009}
   \endentry
 
-  \entry{Cahill1997surface}{article}{}
+  \entry{cahill1997surface}{article}{}
   \endentry
 
   \entry{johnson1972constants}{article}{}
@@ -1404,37 +1404,6 @@
     \field{year}{1998}
   \endentry
 
-  \entry{barrera2003coherent}{article}{}
-    \name{author}{2}{}{%
-      {{hash=BRG}{%
-         family={Barrera},
-         familyi={B\bibinitperiod},
-         given={Rub{\'{e}}n\bibnamedelima G},
-         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
-      }}%
-      {{hash=GVA}{%
-         family={Garc{\'{i}}a-Valenzuela},
-         familyi={G\bibinitperiod-V\bibinitperiod},
-         given={Augusto},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Optical Society of America}%
-    }
-    \strng{namehash}{BRGGVA1}
-    \strng{fullhash}{BRGGVA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{2}
-    \field{pages}{296\bibrangedash 311}
-    \field{title}{Coherent reflectance in a system of random Mie scatterers and
-  its relation to the effective-medium approach}
-    \field{volume}{20}
-    \field{journaltitle}{JOSA A}
-    \field{year}{2003}
-  \endentry
-
   \entry{pena-gomar2006coherent}{article}{}
     \name{author}{5}{}{%
       {{hash=PGMC}{%
@@ -1482,43 +1451,6 @@
     \field{volume}{45}
     \field{journaltitle}{Applied optics}
     \field{year}{2006}
-  \endentry
-
-  \entry{garcia2012multiple}{article}{}
-    \name{author}{3}{}{%
-      {{hash=GVA}{%
-         family={Garc{\'{i}}a-Valenzuela},
-         familyi={G\bibinitperiod-V\bibinitperiod},
-         given={Augusto},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=GRE}{%
-         family={Guti{\'{e}}rrez-Reyes},
-         familyi={G\bibinitperiod-R\bibinitperiod},
-         given={Edah{\'{i}}},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=BRG}{%
-         family={Barrera},
-         familyi={B\bibinitperiod},
-         given={Rub{\'{e}}n\bibnamedelima G},
-         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Optical Society of America}%
-    }
-    \strng{namehash}{GVAGREBRG1}
-    \strng{fullhash}{GVAGREBRG1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{6}
-    \field{pages}{1161\bibrangedash 1179}
-    \field{title}{Multiple-scattering model for the coherent reflection and
-  transmission of light from a disordered monolayer of particles}
-    \field{volume}{29}
-    \field{journaltitle}{JOSA A}
-    \field{year}{2012}
   \endentry
 
   \entry{barrera1991optical}{article}{}
@@ -1574,6 +1506,74 @@
     \endverb
     \field{journaltitle}{Phys. Rev. B}
     \field{year}{1991}
+  \endentry
+
+  \entry{garcia2012multiple}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GVA}{%
+         family={Garc{\'{i}}a-Valenzuela},
+         familyi={G\bibinitperiod-V\bibinitperiod},
+         given={Augusto},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GRE}{%
+         family={Guti{\'{e}}rrez-Reyes},
+         familyi={G\bibinitperiod-R\bibinitperiod},
+         given={Edah{\'{i}}},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=BRG}{%
+         family={Barrera},
+         familyi={B\bibinitperiod},
+         given={Rub{\'{e}}n\bibnamedelima G},
+         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Optical Society of America}%
+    }
+    \strng{namehash}{GVAGREBRG1}
+    \strng{fullhash}{GVAGREBRG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{6}
+    \field{pages}{1161\bibrangedash 1179}
+    \field{title}{Multiple-scattering model for the coherent reflection and
+  transmission of light from a disordered monolayer of particles}
+    \field{volume}{29}
+    \field{journaltitle}{JOSA A}
+    \field{year}{2012}
+  \endentry
+
+  \entry{barrera2003coherent}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BRG}{%
+         family={Barrera},
+         familyi={B\bibinitperiod},
+         given={Rub{\'{e}}n\bibnamedelima G},
+         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=GVA}{%
+         family={Garc{\'{i}}a-Valenzuela},
+         familyi={G\bibinitperiod-V\bibinitperiod},
+         given={Augusto},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Optical Society of America}%
+    }
+    \strng{namehash}{BRGGVA1}
+    \strng{fullhash}{BRGGVA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{296\bibrangedash 311}
+    \field{title}{Coherent reflectance in a system of random Mie scatterers and
+  its relation to the effective-medium approach}
+    \field{volume}{20}
+    \field{journaltitle}{JOSA A}
+    \field{year}{2003}
   \endentry
 
   \entry{gutierrez2012overview}{article}{}

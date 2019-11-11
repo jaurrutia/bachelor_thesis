@@ -85,6 +85,7 @@
 %		\usepackage[ square, comma, sort&compress, numbers]{natbib}
 		\usepackage[style = trad-abbrv, backend = bibtex, sorting = none, backref=true]{biblatex} %style = trad-abbrv
 		\addbibresource{04-Bibliografia/references.bib}
+	%	\usepackage{cite}
 		%\usepackage[style = trad-abbrv, backend = bibtex]{biblatex}
 		 % The settings for the hyperref package are found below in the PDF/PS set up section 
 		\addto\captionsspanish{\renewcommand{\figurename}{Fig.}}
@@ -283,7 +284,7 @@
 		\fancyhf{}
 		%\fancyhead[RO]{\bfseries\rightmark}
 		%\fancyhead[LE]{\bfseries\leftmark}
-		\fancyhead[RO]{\rightmark}
+		\fancyhead[LO]{\rightmark}
 		\fancyhead[LE]{\leftmark}
 		\fancyfoot[LE, RO]{\thepage }
 		\renewcommand{\headrulewidth}{0.5pt}
@@ -580,7 +581,7 @@
 		\pagestyle{empty}
 		\begin{alwayssingle}
 			\vspace*{1.5cm}
-			{\chapter*{Reconocimientos}}
+			{\chapter*{Agradecimientos}}
 			\vspace{0.5cm}
 		}
 		{\end{alwayssingle}}

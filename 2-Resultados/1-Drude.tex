@@ -32,7 +32,7 @@ Para el cálculo de la reflectancia mediante el CSM de una FSM suspendida en una
 	\node at(\xR,\yR){$R_p $};
 	\node at(\xR,\yR-2.8){$R_s$};
 	
-\end{tikzpicture}\vspace*{-.5em}
+\end{tikzpicture}\vspace*{-.75em}
 	\caption{Gráficas de la reflectancia para una FSM como función del ángulo de incidencia $\theta_i$ y tanto de la longitud de onda $\lambda$ de la onda plana incidente (escala inferior) como de la energía  unidades de $\hbar\omega$ (escala superior), para una función dieléctrica tipo Drude con $\hbar\omega_p=4. 3$ eV  y  $\hbar\gamma=0. 15$ eV.  Las gráficas   en el renglón superior [$\mathbf{i)-v)}$]  muestran los resultados de reflectancia para  polarización \emph{p} y las del renglón inferior  [$\mathbf{i)-v)}$] para polarización  \emph{s}, donde se consideraron NPs de radio $a=30$ nm y distintas fracciones de cubierta $\Theta$: $0. 05$, $0. 1$, $0. 2$, $0. 3$ y $0. 4$. Las líneas verticales punteadas verdes y rosas corresponden a las SP-SPRs dipolar ($658$ nm) y cuadrupolar ($561$ nm), respectivamente.}	\label{fig:R-FSM}	
 	\end{figure}		
 					
@@ -63,7 +63,7 @@ La respuesta EM de una monocapa de NPs suspendida en una matriz con índice de r
 	\begin{figure}[h!]\centering
 \hspace*{-.5em}\begin{tikzpicture}[scale=1]
 \node[inner sep=0pt] (graf) at (-.15,0){\includegraphics[scale=1]{2-Resultados/figs/1-Wp4ThetaVar/0-2D_Grid}};
-\node[right, inner sep=0pt] (legend) at (7.1,.15) {\includegraphics[scale=1, trim={00 -15 00 00}, clip]{2-Resultados/figs/0-RBar_v}};
+\node[right, inner sep=0pt] (legend) at (7.1,.075) {\includegraphics[scale=1, trim={00 -15 00 00}, clip]{2-Resultados/figs/0-RBar_v}};
 
 \def\y{4.2}
 	\node at(-5.2,\y){\normalsize $\Theta = 0.05 $};
@@ -105,7 +105,7 @@ no son apreciables en la Fig. \ref{fig:R-ATR4-Cuts}. Sin embargo, al escoger val
 \begin{figure}[b!]\centering
 \hspace*{-.5em}\begin{tikzpicture}[scale=1]
 \node[inner sep=0pt] (graf) at (-.15,0){\includegraphics[scale=1]{2-Resultados/figs/2-Wp10ThetaVar/0-2D_Grid}};
-\node[right, inner sep=0pt] (legend) at (7.1,.15) {\includegraphics[scale=1, trim={00 -15 00 00}, clip]{2-Resultados/figs/0-RBar_v}};
+\node[right, inner sep=0pt] (legend) at (7.1,.085) {\includegraphics[scale=1, trim={00 -15 00 00}, clip]{2-Resultados/figs/0-RBar_v}};
 
 \def\y{4.2}
 	\node at(-5.2,\y){\normalsize $\Theta = 0.05 $};
@@ -145,7 +145,7 @@ En la Fig. \ref{fig:R-ATR10-Cuts} ($\hbar\omega_p=10$ eV), los mínimos de refle
 \begin{figure}[b!]\centering
 \hspace*{-.5em}\begin{tikzpicture}[scale=1]
 \node[inner sep=0pt] (graf) at (-.15,0){\includegraphics[scale=1]{2-Resultados/figs/3-Wp4rVar/0-2D_Grid}};
-\node[right, inner sep=0pt] (legend) at (5.65,.15) {\includegraphics[scale=1, trim={00 -15 00 00}, clip]{2-Resultados/figs/0-RBar_v}};
+\node[right, inner sep=0pt] (legend) at (5.65,.075) {\includegraphics[scale=1, trim={00 -15 00 00}, clip]{2-Resultados/figs/0-RBar_v}};
 
 \def\y{4.2}
 	\node at(-3.85,\y){\normalsize $a = 3 $ nm};
@@ -185,31 +185,39 @@ La respuesta óptica de la monocapa correspondiente al supuesto modo colectivo p
 
  Dado que el supuesto modo colectivo se presenta a energías menores a la de las SP-SPRs, ésta no es una excitación plasmónica, de forma semejante que el \emph{modo guiado} y las PSLRs reportadas en  \cite{kabashin2009plasmonic} y \cite{danilov2018ultra}, respectivamente. Sin embargo, las PSLRs son una excitación colectiva que se presenta en un arreglo ordenado de nanocilindros \cite{kabashin2009plasmonic} y \cite{danilov2018ultra} que, además, cuenta con las características de un modo guiado, es decir, que la energía transportada por estas excitaciones se propaga a través de la monocapa de nanocilindros \cite{kabashin2009plasmonic}. El supuesto modo colectivo  para sistemas desordenados de NPs esféricas idénticas (puntos amarillos en las Figs. \ref{fig:R-ATR4}, \ref{fig:R-ATR10} y \ref{fig:R-RVar}) se caracterizó mediante los mínimos en la reflectancia a las  longitudes de onda de excitación $\lambda^{exc}$. Si la transmitancia $T$ de la monocapa, evaluada en $\lambda^{exc}$ para $\theta_i>\theta_c$, no es máxima ---es decir, la luz que no se refleja tampoco se transmite---, entonces el modo colectivo presenta características de un modo guiado, si no se presenta absorción por las NPs de la monocapa.
 
-\begin{figure}[h!]\centering\noindent
+\begin{figure}[h!]\centering\noindent\hspace*{-5em}
 	\begin{subfigure}{.01\linewidth}\caption{}\label{sfig:RT-4}\vspace{5.5cm}\end{subfigure}
 	\begin{subfigure}{.7\linewidth}\hspace*{-.5em}
 	\begin{tikzpicture}[scale=1]
 \node[inner sep=0pt] (graf) at (0.05,0){\includegraphics[scale=1]{2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_1.png}};
-\node[right, inner sep=0pt] (legend) at (4.4,.15) {\includegraphics[scale=1, trim={00 -15 00 00}, clip]{2-Resultados/figs/0-RBar_v}};
+\node[right, inner sep=0pt] (legend) at (4.45,.15) {\includegraphics[scale=1, trim={00 -15 00 00}, clip]{2-Resultados/figs/0-RBar_v}};
 
 \def\x{7.5}
-	\node at(\x,1){\normalsize $\hbar\omega_p=4.3$ eV};
-	\node at(\x,0) {\normalsize $\Theta = 0.2$};
-	\node at(\x,-1) {\normalsize $a=25$ nm};
-	
+	\node at(\x,1){\small $\hbar\omega_p=4.3$ eV};
+	\node at(\x,0) {\small $\Theta = 0.2$};
+	\node at(\x,-1) {\small $a=25$ nm};
+
+\def\xR{4.2}
+\def\yR{2.5}	
+	\node at(\xR,\yR){$R_p $};
+	\node at(\xR,\yR-2.8){$R_s$};
 \end{tikzpicture}	
-	\end{subfigure}\\
+	\end{subfigure}\\ \noindent \hspace*{-4em}
 	\begin{subfigure}{.01\linewidth}\caption{}\label{sfig:RT-10}\vspace{5.5cm}\end{subfigure}\hspace*{-.5em}
-	\begin{subfigure}{.7\linewidth}
+	\begin{subfigure}{.7\linewidth}\hspace*{-.5em}
 	\begin{tikzpicture}[scale=1]
 \node[inner sep=0pt] (graf) at (.05,0){\includegraphics[scale=1]{2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_2.png}};
 \node[right, inner sep=0pt] (legend) at (4.4,.15) {\includegraphics[scale=1, trim={00 -15 00 00}, clip]{2-Resultados/figs/0-RBar_v}};
 
 \def\x{7.5}
-	\node at(\x,1){\normalsize $\hbar\omega_p=10$ eV};
-	\node at(\x,0) {\normalsize $\Theta = 0.3$};
-	\node at(\x,-1) {\normalsize $a=30$ nm};
+	\node at(\x,1){\small $\hbar\omega_p=10$ eV};
+	\node at(\x,0) {\small $\Theta = 0.3$};
+	\node at(\x,-1) {\small $a=30$ nm};
 
+\def\xR{4.2}
+\def\yR{2.5}	
+	\node at(\xR,\yR){$R_p $};
+	\node at(\xR,\yR-2.8){$R_s$};
 \end{tikzpicture}
 		\end{subfigure}\vspace*{-.5em}
 	\caption{Gráficas de reflectancia $R$, transmitancia $T$ y su suma $R+T$ en configuración ATR de una monocapa de NPs esféricas como función del ángulo de incidencia $\theta_i$ y de la longitud de onda $\lambda$ (escala inferior) así como de la energía $\hbar\omega$ (escala superior) de la onda plana incidente, considerando NPs con una función dieléctrica tipo Drude con \textbf{a)} $\hbar\omega_p=4. 3$ eV  y  $\hbar\gamma=0. 15$ eV y \textbf{b)} $\hbar\omega_p = 10$ eV y $\hbar\gamma = 0.15$ eV.  Las gráficas   en el renglón superior [$\mathbf{i)-ii)}$]  muestran los resultados de reflectancia para  polarización \emph{p} y las del renglón inferior  [$\mathbf{iv)-vi)}$] para polarización  \emph{s}, donde se consideraron NPs de radio $a=30$ nm. Las líneas verticales punteadas verdes corresponden a la SP-SPRs dipolar ($658$ nm y $342$ nm para $\hbar\omega_p=4.3$ eV y $\hbar\omega_p = 10$ eV, respectivamente), y las rosas a la SP-SPR cuadrupolar ($561$ nm y $262$ nm para $\hbar\omega_p=4.3$ eV y $\hbar\omega_p = 10$ eV, respectivamente). Los puntos amarillos corresponden a los mínimos en $R$, y $R+T$ para ángulos mayores a $\theta_c\approx 62.5^\circ$ y longitudes de onda mayores a la SP-SPRs dipolar. }\label{fig:RT-Omegas}

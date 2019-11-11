@@ -1,4 +1,4 @@
-\section{Reflectancia y transmitancia de una monocapa de nanopartículas de materiales reales: Au y Ag}
+\section{Reflectancia y transmitancia de una monocapa de nanopartículas de materiales reales: oro y plata}
 \label{section:AuAg}
 
 Con la finalidad de presentar la respuesta óptica de una monocapa de NPs esféricas hechas con materiales realista, se emplea en esta sección la función dieléctrica con corrección por tamaño para NPs esféricas de oro [Fig. \ref{sfig:sizeAu}] y de plata [Fig. \ref{sfig:sizeAg}]. La elección de NPs de oro y plata surge a partir de su uso en el biosensado \cite{jain2008noble,estevez2014trends}, así como por su biocompatibilidad \cite{fan2009bio,bosetti2002silver}. Se realizaron cálculos de la reflectancia en configuración ATR para monocapas de NPs esféricas de oro y monocapas de NPs esféricas de plata dado que en este esquema, para NPs con una función dieléctrica descrita por el modelo de Drude [Ec. \eqref{eq:Drude}], se identificó un supuesto modo colectivo el cual, si se presenta también en materiales realistas, puede emplearse como biosensor. De forma análoga a la sección \ref{ssection:DrudeATR}, se presentan cálculos de la reflectancia, considerando monocapas conformadas por NPs tanto de oro como de plata, variando los parámetros $a$ (radio de las NPs) y $\Theta$ (fracción de llenado) para identificar y caracterizar al supuesto modo colectivo, así como para optimizar estos parámetros para el biosensado. Adicionalmente, se calcula la transmitancia de las monocapas de NPs de oro y de plata para corroborar que el supuesto modo colectivo presenta características de un modo guiado, como se observó para una monocapa de NPs con una función dieléctrica tipo Drude.
@@ -148,23 +148,39 @@ Cuando se varió el parámetro $\Theta$ manteniendo el radio de las NPs fijo (Fi
 Para la monocapa de NPs de plata, el comportamiento es análogo al observado para la monocapa de NPs de oro. La reflectancia a longitudes de onda menores a la SP-SPR cuadrupolar, la cual puede observase como mínimos en $R$ alrededor de la región sombreada rosa, es mayor a $0.6$ para ambas polarizaciones, sin embargo a las longitudes de onda del supuesto modo colectivo $\lambda^{exc}$ la reflectancia para las NPs de plata es cercana a cero. Por ejemplo, para polarización \emph{p} (panel superior derecho) para $a=40$ nm, $45$ nm y $50$ nm, el supuesto modo colectivo se localiza a $500$ nm, $530$ y $540$ nm, respectivamente, y para estos tres casos $R_p\approx 0$. Asimismo, para polarización \emph{s} (panel inferior derecho) para $a=30$ nm, $35$ nm y $40$ nm, el supuesto modo colectivo se excita a $\lambda^{exc}=460$ nm, $470$ nm y $480$ nm, respectivamente e, igualmente, $R_s\approx 0$. Para las combinaciones de radios y polarización no mencionadas, la reflectancia a las longitudes de ondas del supuesto modo colectivo es menor a $0.02$. Los valores de la FWHM $\Gamma$ del supuesto modo colectivo presente en la monocapa de NPs de plata y para los casos donde $R_s\approx R_p \approx 0$, son, para polarización \emph{p} de $80$ nm para $a=40$ nm (línea amarilla en el panel superior derecho) y $140$ nm para $a=50$ nm (línea turquesa en el panel superior derecho), mientras que para polarización \emph{s}, $\Gamma$ está en un rango entre $60$ nm, para $a=30$ nm (línea negra en el panel inferior derecho), y $80$ nm, para $a=40$ nm (línea amarilla en el panel inferior derecho). Al igual que con la monocapa de NPs de oro, empleando NPs de plata, el supuesto modo colectivo puede emplearse en el biosensado al considerar $\Theta=0.1$ y radios de NPs entre $35$ nm y $40$ nm, pues a $\theta_i=75^\circ$, la reflectancia (para ambas polarizaciones) a las longitudes de onda  $\lambda^{exc}$ que excitan al supuesto modo colectivo es cercana a cero y son un mínimo global.
 
 Con base en las Figs. \ref{fig:AuAg-Cuts-75} y \ref{fig:AuAg-Cuts-Rad-75}, se propone que, para emplear una una monocapa desordenada de NPs esféricas como biosensor basado en el supuesto modo colectivo, se escojan los parámetros $\Theta=0.125$ y radio $a=30$ nm con NPs de oro, y $\Theta=0.1$ y $a=40$ nm con NPs de plata. Estos parámetros garantizan el límite diluido, por lo que las condiciones del CSM se cumplen. Finalmente, para corrobar que el supuesto modo colectivo en materiales reales tiene propiedades de un modo guiado, como las LSPR reportadas en \cite{kabashin2009plasmonic} o como se observó con el CSM al considerar una monocapa de NPs cuyo índice de refracción era descrito por el modelo de Drude-Sommerfeld, se  muestran en la Fig. \ref{fig:RT-AuAg}  los cálculos de la reflectancia $R$, la transmitancia $T$ y la suma de éstas ($R+T$) de una monocapa de NPs inmersa en un medio con índice de refracción $n_m=1.33$ y soportada por un sustrato con índice de refracción $n_s=1.5$, en función del ángulo de incidencia $\theta_i$, así como de la longitud de onda $\lambda$ (escala inferior) y de la energía  $\hbar\omega$ (escala superior) de la onda plana incidente, tanto para polarización \emph{p}  [\textbf{i)}--\textbf{iii)}] como para \emph{s} [\textbf{iv)}--\textbf{vi)}]. La Fig. \ref{sfig:RT-Au} corresponde a los cálculos al considerar una monocapa de NPs de oro de radio de $30$ nm y con $\Theta=0.125$, y la  Fig. \ref{sfig:RT-Ag} a los de una monocapa de NPs de plata con radios de $40$ nm y $\Theta=0.1$, es decir, los óptimos para emplear el supuesto modo colectivo en el biosensado considerando $\theta_i<80^\circ$.
-
-
-\begin{figure}[h!]\centering\noindent
-	\begin{subfigure}{.01\linewidth}\caption{}\label{sfig:RT-Au}\vspace{6.5cm}\end{subfigure}
+\begin{figure}[h!]\centering\noindent\hspace*{-5em}
+	\begin{subfigure}{.01\linewidth}\caption{}\label{sfig:RT-4}\vspace{5.5cm}\end{subfigure}
 	\begin{subfigure}{.7\linewidth}\hspace*{-.5em}
-	\begin{tikzpicture}
-\node[inner sep=0pt] (graf) at (0.05,0){\includegraphics[width = \linewidth]{2-Resultados/figs/10-RT-AuAg/0-2D_Grid_1.png}};
-\node[right, inner sep=0pt] (legend) at (5.6,0) {\includegraphics[scale=.975, trim={00 00 00 00}, clip]{2-Resultados/figs/0-IBar_v}};
-\node[above, inner sep=0pt] (r) at (5.9,3.75) { $I/I_0$};
+	\begin{tikzpicture}[scale=1]
+\node[inner sep=0pt] (graf) at (0.05,0){\includegraphics[scale=1]{2-Resultados/figs/10-RT-AuAg/0-2D_Grid_1.png}};
+\node[right, inner sep=0pt] (legend) at (4.45,.15) {\includegraphics[scale=1, trim={00 -15 00 00}, clip]{2-Resultados/figs/0-RBar_v}};
+
+\def\x{7.5}
+	\node at(\x,1){\small$\hbar\omega_p=4.3$ eV};
+	\node at(\x,0) {\small $\Theta = 0.2$};
+	\node at(\x,-1) {\small $a=25$ nm};
+
+\def\xR{4.2}
+\def\yR{2.5}	
+	\node at(\xR,\yR){$R_p $};
+	\node at(\xR,\yR-2.8){$R_s$};
 \end{tikzpicture}	
-	\end{subfigure}\\
-	\begin{subfigure}{.01\linewidth}\caption{}\label{sfig:RT-Ag}\vspace{6.5cm}\end{subfigure}\hspace*{-.5em}
-	\begin{subfigure}{.7\linewidth}
-	\begin{tikzpicture}
-\node[inner sep=0pt] (graf) at (.05,0){\includegraphics[width =\linewidth]{2-Resultados/figs/10-RT-AuAg/0-2D_Grid_2.png}};
-\node[right, inner sep=0pt] (legend) at (5.6,0) {\includegraphics[scale=.96, trim={00 00 00 00}, clip]{2-Resultados/figs/0-IBar_v}};
-\node[above, inner sep=0pt] (r) at (5.9,3.75) { $I/I_0$};
+	\end{subfigure}\\ \noindent \hspace*{-4em}
+	\begin{subfigure}{.01\linewidth}\caption{}\label{sfig:RT-10}\vspace{5.5cm}\end{subfigure}\hspace*{-.5em}
+	\begin{subfigure}{.7\linewidth}\hspace*{-.5em}
+	\begin{tikzpicture}[scale=1]
+\node[inner sep=0pt] (graf) at (.05,0){\includegraphics[scale=1]{2-Resultados/figs/10-RT-AuAg/0-2D_Grid_2.png}};
+\node[right, inner sep=0pt] (legend) at (4.4,.15) {\includegraphics[scale=1, trim={00 -15 00 00}, clip]{2-Resultados/figs/0-RBar_v}};
+
+\def\x{7.5}
+	\node at(\x,1){\small $\hbar\omega_p=10$ eV};
+	\node at(\x,0) {\small $\Theta = 0.3$};
+	\node at(\x,-1) {\small $a=30$ nm};
+
+\def\xR{4.2}
+\def\yR{2.5}	
+	\node at(\xR,\yR){$R_p $};
+	\node at(\xR,\yR-2.8){$R_s$};
 \end{tikzpicture}
 		\end{subfigure}\vspace*{-.5em}
 	\caption{Gráficas de reflectancia $R$, transmitancia $T$ y la suma de éstas $R+T$   en configuración ATR de una monocapa de NPs esféricas como función del ángulo de incidencia $\theta_i$ y de la longitud de onda $\lambda$ (escala inferior) así como de la energía de la onda plana incidente en unidades de $\hbar\omega$ (escala superior), considerando \textbf{a)} NPs de oro de radio $a=30$ nm y fracción de cubierta $\Theta$ de $0.125$, y \textbf{b)} NPs de plata de radio $a=40$ nm y $\Theta=0.1$.  Las gráficas   en el renglón superior [$\mathbf{i)-ii)}$]  muestran los resultados de reflectancia para  polarización \emph{p} y las del renglón inferior  [$\mathbf{iv)-vi)}$] para polarización  \emph{s}. Las líneas verticales punteadas verdes corresponden a la SP-SPRs dipolar ($531$ nm y $444$ nm para las NPs empleadas de oro y plata, respectivamente), y las rosas a la SP-SPR cuadrupolar ($514$ nm y $383$ nm para las NPs de oro y de plata, respectivamente). Los puntos amarillos corresponden a los mínimos en $R$, y $R+T$ para ángulos mayores a $\theta_c\approx 62.5^\circ$ y longitudes de onda mayores a la SP-SPRs dipolar. }\label{fig:RT-AuAg}
