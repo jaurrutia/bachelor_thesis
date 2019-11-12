@@ -2,6 +2,10 @@ This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: tesis.aux
 The style file: biblatex.bst
+A level-1 auxiliary file: 0-1-Agradecimientos/1-Dedicatoria.aux
+A level-1 auxiliary file: 0-1-Agradecimientos/2-Agradecimientos.aux
+A level-1 auxiliary file: 0-3-Resumen/1-Resumen.aux
+A level-1 auxiliary file: 3-Conclusiones/1-Conclusiones.aux
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
@@ -16,60 +20,57 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 11533 items from 5000.
+Reallocated field_info (elt_size=4) to 11672 items from 5000.
 Database file #1: tesis-blx.bib
 Database file #2: 04-Bibliografia/references.bib
-"{" immediately follows a field name---line 153 of file 04-Bibliografia/references.bib
- : @article
- :         {Cahill1997surface,
-I'm skipping whatever remains of this entry
-You're missing a field name---line 463 of file 04-Bibliografia/references.bib
+You're missing a field name---line 461 of file 04-Bibliografia/references.bib
  : 
  : %author = {Fan, J H and Hung, W I and Li, W T and Yeh, J M},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "svedenhal2009refractrometric"
 Biblatex version: 3.8
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 47 entries,
             6268 wiz_defined-function locations,
-            1479 strings with 18428 characters,
-and the built_in function-call counts, 334965 in all, are:
-= -- 24673
-> -- 6799
-< -- 1782
-+ -- 8842
-- -- 2853
-* -- 24909
-:= -- 34372
+            1492 strings with 18836 characters,
+and the built_in function-call counts, 340794 in all, are:
+= -- 25160
+> -- 6926
+< -- 1798
++ -- 9007
+- -- 2910
+* -- 25490
+:= -- 35102
 add.period$ -- 0
 call.type$ -- 47
-change.case$ -- 996
+change.case$ -- 1003
 chr.to.int$ -- 46
 cite$ -- 92
-duplicate$ -- 33365
-empty$ -- 30060
-format.name$ -- 4481
-if$ -- 68983
+duplicate$ -- 33842
+empty$ -- 30509
+format.name$ -- 4575
+if$ -- 70115
 int.to.chr$ -- 0
-int.to.str$ -- 128
+int.to.str$ -- 129
 missing$ -- 0
-newline$ -- 1713
-num.names$ -- 2393
-pop$ -- 16686
+newline$ -- 1748
+num.names$ -- 2431
+pop$ -- 16705
 preamble$ -- 1
-purify$ -- 1428
+purify$ -- 1444
 quote$ -- 0
-skip$ -- 9943
+skip$ -- 10050
 stack$ -- 0
-substring$ -- 44454
-swap$ -- 7614
-text.length$ -- 1306
+substring$ -- 45488
+swap$ -- 7741
+text.length$ -- 1325
 text.prefix$ -- 10
 top$ -- 1
 type$ -- 1583
 warning$ -- 0
-while$ -- 3738
+while$ -- 3814
 width$ -- 0
-write$ -- 1667
-(There were 2 error messages)
+write$ -- 1702
+(There was 1 error message)

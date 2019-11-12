@@ -15,7 +15,7 @@
   \indexspace
 
   \item Anchura a media altura (FWHM) ($\Gamma$), \hyperpage{58}, 
-		\hyperpage{76}
+		\hyperpage{77}
   \item Arm\IeC {\'o}nicos esf\IeC {\'e}ricos vectoriales, 
 		\hyperpage{17}
     \subitem $\vb{M}$ y $\vb{N}$, \hyperpage{20}
@@ -41,8 +41,8 @@
   \item Biosensor, \hyperpage{1}
     \subitem comercial, 
 		\hyperindexformat{\seealso{Plasm\IeC {\'o}n polarit\IeC {\'o}n de superficie (SPP)}}{1}
-    \subitem Figura de M\IeC {\'e}rito (FoM), \hyperpage{76}
-      \subsubitem de bulto ($\textit{FoM}_B$), \hyperpage{76}
+    \subitem Figura de M\IeC {\'e}rito (FoM), \hyperpage{77}
+      \subsubitem de bulto ($\textit{FoM}_B$), \hyperpage{77}
   \item Brewster
     \subitem \IeC {\'a}ngulo de, \hyperpage{11}
 
@@ -131,7 +131,7 @@
 
   \item Incidencia
     \subitem externa, \hyperpage{11}, \hyperpage{53}
-    \subitem interna, \hyperpage{11}, \hyperpage{53}
+    \subitem interna, \hyperpage{11}, \hyperpage{54}
 
   \indexspace
 
@@ -176,7 +176,7 @@
   \item Onda
     \subitem esf\IeC {\'e}rica, \hyperpage{22}
     \subitem evanescente, \hyperpage{28}, \hyperpage{32}, 
-		\hyperpage{53}
+		\hyperpage{54}
     \subitem plana, \hyperpage{8}
       \subsubitem en la base cartesiana can\IeC {\'o}nica, 
 		\hyperpage{8}

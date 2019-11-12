@@ -754,6 +754,42 @@
   \endentry
 
   \entry{cahill1997surface}{article}{}
+    \name{author}{3}{}{%
+      {{hash=CCP}{%
+         family={Cahill},
+         familyi={C\bibinitperiod},
+         given={Colin\bibnamedelima P.},
+         giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=JKS}{%
+         family={Johnston},
+         familyi={J\bibinitperiod},
+         given={Kyle\bibnamedelima S.},
+         giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=YSS}{%
+         family={Yee},
+         familyi={Y\bibinitperiod},
+         given={Sinclair\bibnamedelima S.},
+         giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \keyw{Optical,SPR,Sensor,Surface plasmon}
+    \strng{namehash}{CCPJKSYSS1}
+    \strng{fullhash}{CCPJKSYSS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/S0925-4005(97)00290-6
+    \endverb
+    \field{issn}{09254005}
+    \field{number}{2}
+    \field{pages}{161\bibrangedash 166}
+    \field{title}{{A surface plasmon resonance sensor probe based on
+  retro-reflection}}
+    \field{volume}{45}
+    \field{journaltitle}{Sensors and Actuators, B: Chemical}
+    \field{year}{1997}
   \endentry
 
   \entry{johnson1972constants}{article}{}
