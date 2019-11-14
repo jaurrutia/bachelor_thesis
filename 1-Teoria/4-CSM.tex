@@ -1,4 +1,5 @@
 \section{Modelo de esparcimiento coherente}
+\label{section:CSM}
 
 La solución de Mie en conjunto con la corrección por tamaño a la función dieléctrica para algún material, permite estudiar la respuesta electromagnética de una NP esférica individual y calcular las frecuencias de resonancia de los plasmones localizados de superficie (Localized Surface Plasmons Resonances, LSPRs), empleados por ejemplo en la espectroscopía \cite{novotny2006principles}, el sensado \cite{jain2008noble} y la litografía \cite{stockman2011nanoplasmonics}\index{Plasmón!de Superficie Localizado (LSP)!Resonancia de (LSPR)}. Sin embargo, no siempre es posible emplear la respuesta EM de una partícula individual para la descripción de un sistema compuesto de muchas partículas ---como una monocapa de NPs---, por lo que se han empleado diversos enfoques entre los que se encuentran la aproximación cuasiestática y las teorías de esparcimiento múltiple \cite{reyes2018analytical,pena-gomar2006coherent,barrera1991optical,garcia2012multiple}\index{Esparcimiento!Múltiple (MS)}. En el caso límite de partícula pequeña, donde el parámetro de tamaño $x=ka\ll 1$, con $k$ el número de onda dentro de la matriz donde se encuentran inmersas las NPs, suponiéndolas esféricas con un radio $a$, es posible emplear  la aproximación cuasiestática, que considera que sólo la excitación dipolar contribuye al campo total \cite{reyes2018analytical}. En particular,  bajo la aproximación cuasiestática, es posible desarrollar una teroía de medio efectivo para calcular la reflectancia de una monocapa de NPs \cite{pena-gomar2006coherent,barrera1991optical}. Sin embargo, cuando  el parámetro de tamaño es comparable o mayor a la unidad, una teoría de esparcimiento múltiple es necesaria, debido a la excitación de multipolos de ordenes mayores \cite{pena-gomar2006coherent}. El modelo de esparcimiento coherente (Coherent Scattering Model, CSM)\index{Esparcimiento!Coherente, Modelo de (CSM)} toma en cuenta la interacción de esparcidores ante la presencia de un campo eléctrico promedio; este enfoque además incluye la contribución del esparcimiento múltiple debido a la interacción entre las NPs \cite{reyes2018analytical}.
     
@@ -40,11 +41,13 @@ La solución de Mie en conjunto con la corrección por tamaño a la función die
 \draw[- latex, thick, blue](90:1.5)arc(90:135:1.5);
 
 ----------------------Mie system--------------
-\draw[- latex, thick, black] (0,0)--(-45:1.75) node[anchor =  west]{$z'$};
-\draw[- latex, thick, black] (0,0)--(-135:1.75) node[anchor =  east]{$y'$};
+\draw[- latex, thick, black] (0,0)--(-45:1.75);%node[anchor=south west]{$z'$};
+\draw[- latex, thick, black] (0,0)--(-135:1.75);%node[anchor =  east]{$y'$};
 \path (0,0)++(30:1.5)node[anchor=south west, black]{$\vartheta$}; 
 \path (0,0)++(30:1.5)node[anchor=south west, blue]{$\;\;\; =  \pi - 2\theta$}; 
 \draw[latex - latex, thick, black](-45:1.5)arc(-45:45:1.5);
+\node at (-1.5,-1.) {$y'$};
+\node at (1.5,-1.) {$z'$};
 
 %----------------------thickness and slab-------------
 \draw[thick, dashed] (-5,-\d) rectangle (5,\d);
@@ -52,10 +55,11 @@ La solución de Mie en conjunto con la corrección por tamaño a la función die
 \draw[ |-|, thick,] (5.5,-\d) node[anchor = north]{$z=-d/2$} -- (5.5,\d) node[anchor = south]{$z=d/2$};
 \node at (-4.5,1) {$\; n_m$};
 \end{tikzpicture}
-	\caption{Placa de grosor $d$ y volumen $V$ con $N$ partículas esféricas  idénticas, localizadas al azar e iluminadas con una onda plana monocromática con vector de onda $\vb{k}^i$. La dirección de los campos esparcidos coherentes se denotan por $\vb{k}^r_{coh}$ y $\vb{k}^t_{coh}$. Las flechas rojas sólidas representan las componentes cohrentes del campo esparcido mientras que las rosas representan la componente difusa. }\label{fig:CSM-Slab}
+	\caption{Placa de grosor $d$ y volumen $V$ con $N$ partículas esféricas  idénticas, localizadas al azar e iluminadas con una onda plana monocromática con vector de onda $\vb{k}^i$. La dirección de los campos esparcidos coherentes se denotan por $\vb{k}^r_{coh}$ y $\vb{k}^t_{coh}$. Las flechas rojas sólidas representan las componentes coherentes del campo esparcido mientras que las rosas representan la componente difusa. }\label{fig:CSM-Slab}
 	\end{figure} 
  
 \subsection{Monocapa suspendida en el espacio libre}
+\label{ssection:FSM} 
  
 Para calcular los coeficientes de amplitud de reflexión y transmisión del CSM se calcula el campo eléctrico promedio esparcido por las NPs dentro de la región del espacio, caracterizado por un índice de refracción real $n_m$, delimitada por  $-d/2<z<d/2$, una placa de grosor $d$ y volumen $V$, en donde se encuentran $N$ nanopartículas esféricas idénticas, con índice de refracción $n_p$, y distribuidas espacialmente de forma aleatoria, como se observa en la Fig. \ref{fig:CSM-Slab}. Si una onda plana $\vb{E}^i = E_0 e^{i\vb{k}^i\cdot\vb{r}}\vu{e}_i$ (por simplicidad se omite la dependecia temporal), con $\vu{e}_i$ un vector en el plano de polarización de la onda plana y $|\vb{k}^i| = k = 2\pi n_m /\lambda$, incide sobre la placa, el campo eléctrico esparcido  por las NPs dentro de la placa $\vb{E}^s$ (asumiendo una densidad $N/V$ baja), puede calcularse bajo la aproximación de esparcimiento individual (Single Scattering Approximation, SSA)\index{Esparcimiento!Individual, Aproximación de (SSA)}, en donde cada NP esparce la luz sin considerar la interacción entre el campo eléctrico esparcido por las otras NPs \cite{barrera2003coherent}. Al considerar la interacción del campo eléctrico incidente con las $N$ nanopartículas dentro de la placa, el campo eléctrico esparcido por todas las partículas tiene componentes espaciales en todas las direcciones, por lo que el campo eléctrico esparcido puede descomponerse en una componente coherente y una difusa, representadas en la Fig. \ref{fig:CSM-Slab} mediante las flechas rojas y rosas, respectivamente.
 
@@ -126,7 +130,7 @@ donde $\Theta = N \pi a^2 / A$ es la fracción de cubierta, que corresponde al �
 	\label{eq:MeanD}
 	\end{equation}
 %
-de donde se deduce que el valor máximo de $\Theta$ es $0.78$, cuando $\langle\mathscr{D}_{min}\rangle=0$, y que cuando $\langle\mathscr{D}_{min}\rangle= a$ se cumple que $\Theta = \pi/9\approx 0.349$. El cociente entre la distancia mínima promedio entre NPs y su radio se calcula para algunos valores en la Tabla  \ref{tab:meanD}.
+de donde se deduce que el valor máximo de $\Theta$ es $0.78$, cuando $\langle\mathscr{D}_{min}\rangle=0$, y que cuando $\langle\mathscr{D}_{min}\rangle= a$ se cumple que $\Theta = \pi/9\approx 0.349$. El cociente entre la distancia mínima promedio entre NPs y su radio se calcula para algunos valores en la tabla  \ref{tab:meanD}.
 
 \begin{table}[h!] \centering
 	\caption{Cociente entre la distancia promedio $\langle\mathscr{D}_{min}\rangle$ entre NPs y su radio $a$, para una monocapa de NPs esféricas e idénticas con fracción de cubierta $\Theta$.}
@@ -234,11 +238,13 @@ donde  $\vb{E}^{exc}_t$ es la componente del campo eléctrico que excita a las N
 \draw[- latex, thick, blue](90:1.5)arc(90:135:1.5);
 
 %----------------------Mie system---------------------
-\draw[- latex, thick, black] (0,0)--(-45:1.75) node[anchor = south west]{$z'$};
-\draw[- latex, thick, black] (0,0)--(-135:1.75) node[anchor = east]{$y'$};
+\draw[- latex, thick, black] (0,0)--(-45:1.75);%node[anchor=south west]{$z'$};
+\draw[- latex, thick, black] (0,0)--(-135:1.75);%node[anchor =  east]{$y'$};
 \path (0,0)++(30:1.5)node[anchor=south west, black]{$\vartheta$}; 
 \path (0,0)++(30:1.5)node[anchor=south west, blue]{$\;\;\; =  \pi - 2\theta$}; 
-\draw[- latex, thick, black](-45:1.5)arc(-45:45:1.5);
+\draw[latex - latex, thick, black](-45:1.5)arc(-45:45:1.5);
+\node at (-1.5,-1.) {$y'$};
+\node at (1.5,-1.) {$z'$};
 
 %----------------------thickness and slab ---------------------
 \draw[thick, dashed] (-5,-\d) rectangle (6,\d);
@@ -249,7 +255,7 @@ donde  $\vb{E}^{exc}_t$ es la componente del campo eléctrico que excita a las N
 		\caption{ Película de grosor $d$ y volumen $V$ con $N$ partículas esféricas idénticas excitada por una onda plana monocromática incidente en la dirección $\vb{k}^i$. El campo eléctrico que excita a las NPs dentro de la película $\vb{E}^{exc}$ se divide en una componente reflejada $ \vb{E}^{exc}_r$ y una transmitida $ \vb{E}^{exc}_t$, considerando así el esparcimiento múltiple por las NPs. Los campos eléctricos esparcidos promedio reflejado $\langle \vb{E}^s_{r,coh}\rangle$ y transmitido $\langle \vb{E}^s_{r,coh}\rangle$ corresponden a la suma  de las Ecs. \eqref{eqs:rtcohSSA} aplicadas a $\vb{E}^{exc}_t$ y a $\vb{E}^{exc}_r$ como se representa en la figura y en las Ecs. \eqref{eqs:EsMS}. Las flechas rojas corresponden a la onda plana incidente y los campos esparcidos promedios mientras que las flechas naranjas corresponden al campo que excita a las NPs. }\label{fig:MScatt-slab-MS}
 	\end{figure}	
 	
-Para determinar la expresión del campo eléctrico que excita a las NPs en la placa $\vb{E}^{exc}$ considerando el MS\footnote{El procedimiento descrito emplea un enfoque heurístico que se publicó en \cite{reyes2018analytical} sin emabargo, un enfoque más riguroso se encuentra en \cite{barrera2003coherent}.}, se divide la placa donde se encuentran las NPs en dos (de grosor $d/2$ cada una) y se calcula el promedio de  $\vb{E}^{exc}$ en la interfaz entre las dos placas ($z=0$) de forma autoconsistente, por lo que las NPs en la placa no sólo son iluminadas por el campo eléctrico incidente $\vb{E}^i$, sino también por $\vb{E}^{exc}$ \cite{reyes2018analytical}. El campo $\vb{E}^{exc}$ se puede descomponer en una componente transmitida $\vb{E}^{exc}_{t}$ y una reflejada, $\vb{E}^{exc}_{t}$. Para calcular $\vb{E}^{exc}_{t}$ de forma autoconsistente se considera que $\vb{E}^{exc}_{t}$ es igual a la suma del campo eléctrico incidente más el promedio de la transmisión del campo $E^{exc}_t$ y a la reflexión del campo $E^{exc}_r$ ---que corresponden a la suma de los campos esparcidos por las NPs en la placa superior ($0<z<d/2$)--- , es decir,
+Para determinar la expresión del campo eléctrico que excita a las NPs en la placa $\vb{E}^{exc}$ considerando el MS\footnote{El procedimiento descrito emplea un enfoque heurístico que se publicó en \cite{reyes2018analytical} sin emabargo, un enfoque más riguroso se encuentra en \cite{barrera2003coherent}.}, se divide la placa donde se encuentran las NPs en dos (de grosor $d/2$ cada una) y se calcula el promedio de  $\vb{E}^{exc}$ en la interfaz entre las dos placas ($z=0$) de forma autoconsistente, por lo que las NPs en la placa no sólo son iluminadas por el campo eléctrico incidente $\vb{E}^i$, sino también por $\vb{E}^{exc}$ \cite{reyes2018analytical}. El campo $\vb{E}^{exc}$ se puede descomponer en una componente transmitida $\vb{E}^{exc}_{t}$ y una reflejada, $\vb{E}^{exc}_{r}$. Para calcular $\vb{E}^{exc}_{t}$ de forma autoconsistente se considera que $\vb{E}^{exc}_{t}$ es igual a la suma del campo eléctrico incidente más el promedio de la transmisión del campo $E^{exc}_t$ y a la reflexión del campo $E^{exc}_r$ ---que corresponden a la suma de los campos esparcidos por las NPs en la placa superior ($0<z<d/2$)--- , es decir,
 %
 	\begin{subequations}\begin{align}
 		\vb{E}^{exc}_t  e^{i\vb{k}^i\cdot\vb{r}}  =
@@ -304,12 +310,13 @@ En la Fig. \ref{fig:Eexc} se muestra una representación gráfica de las Ecs. \e
 \draw[- latex, thick, blue](90:1.5)arc(90:135:1.5);
 
 %----------------------Mie system---------------------
-\draw[- latex, thick, black] (0,0)--(-45:1.75) node[anchor = south west]{$z'$};
-\draw[- latex, thick, black] (0,0)--(-135:1.75) node[anchor = east]{$y'$};
+\draw[- latex, thick, black] (0,0)--(-45:1.75);%node[anchor=south west]{$z'$};
+\draw[- latex, thick, black] (0,0)--(-135:1.75);%node[anchor =  east]{$y'$};
 \path (0,0)++(30:1.5)node[anchor=south west, black]{$\vartheta$}; 
 \path (0,0)++(30:1.5)node[anchor=south west, blue]{$\;\;\; =  \pi - 2\theta$}; 
-\draw[- latex, thick, black](-45:1.5)arc(-45:45:1.5);
-
+\draw[latex - latex, thick, black](-45:1.5)arc(-45:45:1.5);
+\node at (-1.5,-1.) {$y'$};
+\node at (1.5,-1.) {$z'$};
 %----------------------thickness and slab ---------------------
 \draw[thick, dashed] (-5,-\d) rectangle (6,\d);
 \draw[thick, dashed] (-5, 0) --  (6,0);
@@ -353,6 +360,7 @@ de donde es posible calcular los coeficientes de amplitud de reflexión y transm
 	\end{tcolorbox}\label{eqs:rtcoh}\end{subequations}\vspace*{-.75em}\noindent
 
 	 \subsection{Monocapa soportada sobre un sustrato}
+\label{ssection:CSMATR}
 
 Las Ecs. \eqref{eqs:rtcoh} corresponden a los coeficientes de amplitud de reflexión y transmisión de una onda plana $\vb{E}^i$ que incide a un ángulo $\theta$ sobre una monocapa de NPs esféricas, idénticas, de radio $a$ e índice de refracción $n_p$, localizadas de forma aleatoria e inmersa en una matriz con índice de refracción $n_m$, sin ser soportada de alguna forma. Sin embargo, en la realidad las NPs no pueden estar embebida en un espacio libre, sino que están soportadas sobre un sustrato, de índice de refracción $n_s$; adicionalmente la incidencia del haz de luz puede ser tanto en configuración externa, como se muestra en la Fig. \ref{figs:CSM-Ext}, como en interna, es decir ATR, como se muestra en la Fig. \ref{figs:CSM-ATR}.
 
@@ -444,7 +452,7 @@ Las Ecs. \eqref{eqs:rtcoh} corresponden a los coeficientes de amplitud de reflex
 \node at (-3.5,-1) {Sustrato};	
 \end{tikzpicture}
 	\vspace*{-.35em}\end{subfigure}
-	\caption{Esquema de la reflexión coherente de una monocapa de NPs esféricas, con índice de refracción $n_p$,  suspendida en una matriz con índice de refracción $n_m$ y soportada por un sustrato con índice de refracción $n_s$, iluminada en un esquema de \textbf{a)} incidencia externa  y \textbf{b)} en configuración ATR. El sistema coordenado azul, con el eje $z$ paralelo a la dirección normal a la monocapa, define los ángulos de incidencia $\theta_i$, de reflexión y de transmisión $\theta_t$ mediante la ley de la reflexión y la ley de Snell. El sistema coordenado negro, con el eje $z$ paralelo a $\vb{k}^i$ en \textbf{a)} y paralelo a $\vb{k}^t_{coh}$ en \textbf{b)}, se emplea para determinar el ángulo $\vartheta$ (donde se evalúan los elmentos de la matriz de esparcimiento de Mie) en términos de $\theta_i$ o $\theta_t$.}	\label{fig:CSM-Diagrams}	
+	\caption{Esquema de la reflexión coherente de una monocapa de NPs esféricas, con índice de refracción $n_p$,  embebida en una matriz con índice de refracción $n_m$ y soportada por un sustrato con índice de refracción $n_s$, iluminada en un esquema de \textbf{a)} incidencia externa  y \textbf{b)} en configuración ATR. El sistema coordenado azul, con el eje $z$ paralelo a la dirección normal a la monocapa, define los ángulos de incidencia $\theta_i$, de reflexión y de transmisión $\theta_t$ mediante la ley de la reflexión y la ley de Snell. El sistema coordenado negro, con el eje $z$ paralelo a $\vb{k}^i$ en \textbf{a)} y paralelo a $\vb{k}^t_{coh}$ en \textbf{b)}, se emplea para determinar el ángulo $\vartheta$ (donde se evalúan los elmentos de la matriz de esparcimiento de Mie) en términos de $\theta_i$ o $\theta_t$.}	\label{fig:CSM-Diagrams}	
 	\end{figure}	
 
 En la Fig. \ref{fig:CSM-Diagrams}	 se observa que el ángulo $\theta$ a evaluar $r_{coh}$ y $t_{coh}$ en las Ecs. \eqref{eqs:rtcoh} depende del medio por el que incide el campo eléctrico de la onda plana, con dirección $\vb{k}^i$. En incidencia externa, Fig. \ref{figs:CSM-Ext}, la onda plana incide sobre las NPs a un ángulo $\theta_i$ dado que no interactúa con la interfaz matriz-sustrato y no modifica su trayectoria. Por otro lado, en una configuración ATR, Fig. \ref{figs:CSM-ATR}, la onda plana cruza la interfaz sustrato-matriz, por lo que se refracta a un ángulo $\theta_t$ dado por la ley de Snell, e incide a la monocapa en $\theta=\theta_t$. Además de considerar el ángulo con el que la onda plana ilumina a las NPs, se debe calcular la contribución del sustrato en la reflectancia $R$ y transmitancia $T$, que también depende del medio por donde incide la onda plana.

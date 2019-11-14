@@ -1,8 +1,10 @@
 \chapter{Teoría}
+\label{chapter:Teoria}
 
 En este capítulo se estudia la interacción de la luz con la materia, caracterizada por una función dieléctrica dependiente de la frecuencia, que se modifica según el tamaño del objeto. En la primera sección se presentan la  solución de ondas planas a las ecuaciones de Maxwell y las condiciones que se imponen a los campos electromagnéticos (EMs) al propagarse a través de un medio homogéneo, lineal e isótropo, y al cruzar una interfaz arbitraria a otro medio con las mismas características, así como el caso particular de la reflexión y transmisión de una onda plana al cruzar una interfaz plana, que deviene en las fórmulas de Fresnel. En la segunda sección se presenta la solución de Mie, que consiste en la solución al problema de absorción y esparcimiento de luz debido a una partícula esférica de tamaño y material arbitrario al ser iluminada por una onda plana y monocromática, dando como resultado los campos EMs esparcidos por la partícula. En la tercera sección se presenta el modelo de Drude-Sommerfeld como respuesta EM de materiales plasmónicos mediante la función dieléctrica, así como un método para ajustar las mediciones experimentales de la función dieléctrica y poder hacer la corrección de tamaño para partículas esféricas \emph{pequeñas}; asimismo se definen los plasmones ---acoplamiento de la luz con los electrones libres de un material--- al considerar materiales cuya respuesta EM es descrita por el modelo de Drude-Sommerfeld, así como el caso para materiales más realistas (oro y plata). Finalmente, en la cuarta sección, se presenta la respuesta EM de una monocapa de partículas esféricas idénticas, descrita por el modelo de esparcimiento coherente (Coherent Scattering Model, CSM) en donde se calculan los coeficientes de amplitud de reflexión y transmisión para un sistema monocapa de NPs esféricas idénticas, inmersa en un medio dieléctrico (denominado matriz) y soportada por un sustrato dieléctrico.
 
 \section{Ecuaciones de Maxwell y fórmulas de Fresnel}
+\label{section:NocionesBasicas}
 
 Las ecuaciones de Maxwell en su forma diferencial están dadas por las expresiones   \cite{griffiths2013electrodynamics}  \index{Maxwell!ecuaciones de} \vspace*{-.75em}
 %
@@ -189,7 +191,7 @@ donde $\perp$ corresponde a la componente perpendicular a la interfaz y $\parall
 Cuando una onda plana [Ec. \eqref{eqs:ondasPlanas}] incide sobre la interfaz entre dos medios lineales, homogéneos e isótropos, ésta se descompone en una onda plana reflejada y una transmitida. Al describir el medio de incidencia y de transmisión por su índice de refracción $n_i$ y $n_t$, respectivamente, e imponer las condiciones a la frontera del los campos EMs [Ecs. \eqref{eqs:CFrontera}], válidas para todo tiempo y todo punto en la interfaz, las fases de las tres ondas son iguales, por lo que se cumple: \vspace*{-.75em} \index{Ley!de la reflexión}\index{Ley!de Snell}
 %
 	\begin{tcolorbox}[title = Ley de reflexión y ley de Snell ]
-	\eqhalf{\theta_i = \theta_r  \label{eq:LeyReflexion}}
+	\eqhalf{\theta_i = \theta_r,  \label{eq:LeyReflexion}}
 	\eqhalf{ n_i \sin\theta_i = n_t \sin\theta_t,\label{eq:LeySnell}}
 	\end{tcolorbox}	 \vspace*{-.75em}\noindent
 %
@@ -389,7 +391,7 @@ tanto para incidencia externa [Fig. \ref{sfig:coefExt}], donde $\theta_B \approx
 	\label{eq:Criticp}
 	\end{align}
 %
-Adicionalmente, al sustituir la Ec. \eqref{eq:Criticp} en la ley de Snell [Ec. \eqref{eq:LeySnell}] se obtiene que $\theta_t = 90^\circ$, por lo que para $\theta_i>\theta_c$ toda la luz se refleja (nada se transmite), es decir, se está en el régimen de \emph{reflexión total interna}\index{Reflexión total!interna}. En la Fig. \ref{sfig:coefInt} se observa que los coeficientes de amplitud son máximos en $\theta_c \approx 41^\circ$ sin embargo, para $\theta_i>\theta_c$, los coeficientes de amplitud  [Ecs. \eqref{eq:rs}--\eqref{eq:tp}] son cantidades complejas, lo que indica que los campos eléctricos reflejado y transmitido tienen un desfase, distinto de $\pi$ radianes, respecto al campo eléctrico incidente.  
+Al sustituir la Ec. \eqref{eq:Criticp} en la ley de Snell [Ec. \eqref{eq:LeySnell}] se obtiene que $\theta_t = 90^\circ$, por lo que para $\theta_i>\theta_c$ toda la luz se refleja (nada se transmite), es decir, se está en el régimen de \emph{reflexión total interna}\index{Reflexión total!interna}. En la Fig. \ref{sfig:coefInt} se observa que los coeficientes de amplitud son máximos en $\theta_c \approx 41^\circ$ sin embargo, para $\theta_i>\theta_c$, los coeficientes de amplitud  [Ecs. \eqref{eq:rs}--\eqref{eq:tp}] son cantidades complejas, lo que indica que los campos eléctricos reflejado y transmitido tienen un desfase, distinto de $\pi$ radianes, respecto al campo eléctrico incidente.  
 
 \begin{figure}[t!]\centering\hspace*{-1.5em}
 	\begin{subfigure}{.05\textwidth}\vspace{-4.5cm}\caption{}\label{sfig:coefExt}\end{subfigure}
@@ -472,7 +474,7 @@ en donde $r$ es el coeficiente de amplitud de reflexión y $t$ el de transmisió
 \fill[lgreen, opacity= .5,  rotate = 29.2, shift = {(.5,-3.6)}](0,0) circle (1.675 and .3);
 
 \end{tikzpicture}
-	\caption{Sección transversal de un haz de luz incidiendo en una interfaz entre dos medio lineales, homogéneos e isótropos con índices de refracción $n_i$ y $n_t$. El haz incide sobre la interfaz a un ángulo de $\theta_i$, se refleja con un ángulo $\theta_r$ y se transmite a un ángulo $\theta_t$, calculados mediante las leyes de la reflexión y de Snell, respectivamente. El área del haz sobre la interfaz es $A$, mientras que en los haces, al propagarse, es $A\cos\theta$, en donde $\theta$ es el ángulo de propagación respectivo para cada haz.} \label{fig:hazcircular}
+	\caption{Sección transversal de un haz de luz incidiendo en una interfaz entre dos medio lineales, homogéneos e isótropos con índices de refracción $n_i$ y $n_t$. El haz incide sobre la interfaz a un ángulo de $\theta_i$, se refleja con un ángulo $\theta_r$ y se transmite a un ángulo $\theta_t$, calculados mediante las leyes de reflexión y de Snell, respectivamente. El área del haz sobre la interfaz es $A$, mientras que en los haces, al propagarse, es $A\cos\theta$, en donde $\theta$ es el ángulo de propagación respectivo para cada haz.} \label{fig:hazcircular}
 	\end{figure}
 
 En la Fig. \ref{fig:frsnel} se grafican la reflectancia (líneas continuas) y transmitancia (líneas discontinuas) en función del ángulo de incidencia $\theta_i$, para polarización \emph{s} (en azul) y \emph{p} (en rojo), de un haz de luz que incide en la interfaz entre aire ($n=1$) y un medio con índice de refracción $n=1.5$, para una configuración de incidencia externa [Fig. \ref{sfig:frsnelExt}] e incidencia interna [Fig. \ref{sfig:frsenlInt}]. En la Fig. \ref{fig:frsnel} se observa que $R_p=0$ para el ángulo de Brewster, tanto para incidencia interna como externa. Asimismo, se aprecia que la relación $R+T=1$ se cumple para todo ángulo de incidencia y en particular para $\theta_i>\theta_c$ se cumple que $R_p = R_s = 1$ y que $T_s = T_p = 0$. La relación $R+T=1$ es válida ya que se consideraron medios materiales sin absorción. En general, la función dieléctrica ($\sqrt{\epsilon}=n^2$ para medios no magnéticos) es compleja, donde la parte imaginaria   $\Im[\varepsilon]$ se asocia con la absorción de energía por el material \cite{ibach2003solid}. Cuando la luz se propaga a través de algún medio absorbente, se cumple en general 

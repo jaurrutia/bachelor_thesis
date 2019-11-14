@@ -1,4 +1,5 @@
 \section{Respuesta electromagnética de materiales plasmónicos}
+\label{section:RespuestaEM}
 
 En el artículo original de Mie \cite{mie1908metallosung} se emplea la solución a los campos EMs esparcidos para describir las propiedad ópticas de suspensiones coloidales de partículas esféricas de oro\index{Mie!solución de}. En sus cálculos, Mie asumió que la  respuesta electromagnética del oro en bulto, dada por los datos experimentales de la función dieléctrica $\varepsilon(\omega)$,\index{Función dieléctrica} era válida también para nanopartículas (NPs) cuyo radio fuera un orden de magnitud menor al de la longitud de onda de la luz que ilumina a la NP \cite{horvath2009historic}. A pesar de que la suposición de Mie es válida para los cálculos que publicó \cite{horvath2009historic}, en general la respuesta electromagnética de los materiales depende de sus dimensiones y a la nanoescala los efectos de superficie cobran relevancia respecto a los de bulto\footnote{Una diferencia en la respuesta EM de bulto respecto a la de NPs ocurre cuando el camino libre medio de los electrones libres de algún metal es mayor que las dimensiones de la NP \cite{noguez2007surface}.} \cite{noguez2007surface,mendoza2014determination}, por lo que la función dieléctrica de bulto debe corregirse para NPs. Para su corrección, se asume que a la función dieléctrica contribuye tanto la respuesta de los electrones de conducción del material mediante  $\varepsilon^{intra}(\omega) $, correspondiente a las transiciones electrónicas intrabanda, como la de los electrones ligados mediante $\varepsilon^{inter}(\omega) $, correspondiente a las transiciones electrónicas interbanda\index{Función dieléctrica!interbanda}\index{Función dieléctrica!intrabanda} \cite{noguez2007surface}, es decir
 %
@@ -9,6 +10,7 @@ En el artículo original de Mie \cite{mie1908metallosung} se emplea la solución
 en donde $\varepsilon^B_{exp}(\omega)$ es la función dieléctrica de bulto, que se determina de forma experimental \cite{johnson1972constants}. Es posible considerar los efectos de tamaño en $\varepsilon^{intra}(\omega)$ empleando el modelo de Drude-Sommerfeld, el cual describe la función dieléctrica de un material en bulto con electrones de conducción a partir de asumir un gas de electrones libres \cite{gross2014festkorperphysik}. Al corregir el modelo de Drude-Sommerferd considerando los efectos de tamaño de la NP e introducir esta corrección en los datos experimentales del bulto, se construye una función dieléctrica apta para NPs y el cálculo de sus propiedades ópticas mediante la solución de Mie.\index{Drude-Sommerfeld!modelo de}
 
 \subsection{Modelo de Drude-Sommerfeld}
+\label{ssection:Drude}
 
  Para describir la contribución de los electrones de conducción en la respuesta EM del material $\varepsilon^{intra}(\omega)$ se emplea el modelo de Drude-Sommerfeld que, desde un enfoque clásico, es la solución a la ecuación de movimiento de los electrones libres en un material ante la presencia de un campo eléctrico externo oscilante \cite{gross2014festkorperphysik}. El efecto de un campo eléctrico externo $\vb{E}$ sobre los electrones libres de un material es un cambio en su posición, por lo que aparecen momentos dipolares $\vb{p}=q_e\vb{r}$; con $q_e$ la carga del electrón y $\vb{r}$ su desplazamiento.  El efecto neto en el material es una polarización $\vb{P} = n_v \vb{p}$, donde $n_v$ es la densidad volumétrica electrónica \cite{novotny2006principles}.  La respuesta óptica del material dada por el modelo de Drude-Sommerfeld, caracterizada por la función dieléctrica $\varepsilon_D(\omega)$, depende de $\vb{E}$ y $\vb{P}$ como \index{Electrón!libre}
 %
@@ -46,9 +48,9 @@ La frecuencia de plasma $\omega_p$ en el modelo de Drude-Sommerfeld delimita reg
 
 	\begin{figure}[h!]\centering\hspace*{-1.5em}
 	\begin{subfigure}{.01\linewidth}\caption{}\label{sfig:Drude4eV}\vspace{3.75cm}\end{subfigure}
-	\begin{subfigure}{.45\linewidth}\hspace*{-1.3em}
+	\begin{subfigure}{.45\linewidth}\hspace*{-1em}
 	\includegraphics[scale=1]{1-Teoria/figs/1-4-varepsn4eV.pdf}
-	\end{subfigure}
+	\end{subfigure}\hspace*{.5em}
 	\begin{subfigure}{.01\linewidth}\caption{}\label{sfig:Drude10eV}\vspace{3.75cm}\end{subfigure}
 	\begin{subfigure}{.45\linewidth}\hspace*{-1em}
 	\includegraphics[scale=1 ]{1-Teoria/figs/1-4-varepsn10eV.pdf}
@@ -57,6 +59,7 @@ La frecuencia de plasma $\omega_p$ en el modelo de Drude-Sommerfeld delimita reg
 	\end{figure}	
 
 \subsection{Corrección por tamaño para partículas esféricas}
+\label{ssection:CorreccionTamano}
 
 La corrección de la función dieléctrica para NPs esféricas a partir de la función dieléctrica de bulto $\varepsilon_B^{exp}(\omega)$, obtenida mediante métodos experimentales, consiste en la modificación de la constante fenomenológica de amortiguamiento en el modelo de Drude-Sommerfeld\footnote{También es posible hacer una corrección de tamaño en la contribución interbanda de la función dieléctrica considerando la densidad de estados. Sin embargo, para los datos experimentales de \cite{johnson1972constants}, esta corrección para partículas esféricas es apreciable para NPs con radios menores a $2$ nm \cite{mendoza2014determination}.}, dado que ésta depende del camino libre medio de los electrones $L$ y debe modificarse cuando el radio de las NPs $a$ es menor a $L$ \cite{kreibig1995clusters}. Por ejemplo, para metales típicos  como el oro y la plata, a frecuencias del espectro visible y a una temperatura de $273$ K, el camino libre medio de los electrones libres para el oro y la plata es  de $56$ nm  y $42$ nm, respectivamente\footnote{Cálculos a partir de los datos obtenidos de las tablas 1.3 y 2.1 de \cite{ashcroft1976solid}, donde $v_F^{Au} = 1.40\times 10^{15}$ nm s$^{-1}$ y $v_F^{Ag}=1.39\times 10^{15}$ nm s$^{-1}$.\index{Fermi!velocidad de}}, por lo que para NPs de oro o plata con radios menores a $60$ nm se hace una corrección de la constante fenomenológica para materiales de bulto. La corrección de $\gamma_B $ para una partícula esférica de radio $a$ se calcula al considerar el camino libre medio efectivo de los electrones, proporcional al radio de la partícula, obteniedo así un término de amortiguamiento adicional al de bulto y que es aditivo a éste \cite{kreibig1995clusters}, es decir,\index{Drude-Sommerfeld!modelo de!constante fenomenológica de amortiguamiento ($\gamma$)!para esferas ($\gamma_a$)}
 %
@@ -75,9 +78,9 @@ donde $A$ es un parámetro del orden de la unidad \cite{noguez2007surface,mendoz
 %
 en donde se resta la contribución del material de bulto  a la función dieléctrica experimental $ \varepsilon_B^{exp}(\omega)$ y se introduce la función dieléctrica con la corrección $\gamma = \gamma_B+\gamma_a$. Para realizar este proceso se calculan los parámetros $\omega_p$ y $\gamma_B$ que mejor ajusten al modelo de Drude, sin embargo, la función dieléctrica experimental del material $\varepsilon_B^{exp}(\omega)$ depende del método de fabricación de la muestra y del sustrato sobre el que está depositada \cite{svetovoy2008optical,raja2019dielectric}. En el cálculo de $\omega_p$ y $\gamma_B$ se debe considerar que el comportamiento tipo Drude es válido para el límite $\omega\to 0$ (caso estático), por lo que el ajuste debe hacerse hasta una cierta frecuencia de corte en la que el modelo de Drude aún sea válido \cite{mendoza2014determination}, y la elección de la frecuencia de corte para el ajuste modifica el resultado de los parámetros de Drude.
 
-Para determinar los parámetros $\omega_p$ y $\gamma$ del modelo de Drude [Ec. \eqref{eq:Drude}] se emplea el método propuesto en \cite{mendoza2014determination}, donde se construyen dos relaciones lineales entre $\varepsilon'(\omega) = \Re[\varepsilon_D(\omega)/\varepsilon_0]$ y $\varepsilon''(\omega)=\Im[\varepsilon_D(\omega)/\varepsilon_0]$. Las partes real e imaginaria de la Ec. \eqref{eq:Drude} son \vspace*{-1em}\begin{subequations}
+Para determinar los parámetros $\omega_p$ y $\gamma$ del modelo de Drude [Ec. \eqref{eq:Drude}] se emplea el método propuesto en \cite{mendoza2014determination}, donde se construyen dos relaciones lineales entre $\varepsilon'(\omega) = \Re[\varepsilon_D(\omega)/\varepsilon_0]$ y $\varepsilon''(\omega)=\Im[\varepsilon_D(\omega)/\varepsilon_0]$. Las partes real e imaginaria de la Ec. \eqref{eq:Drude} son%  \vspace*{-1em}
 
-	\eqhalf{\varepsilon' =
+	\begin{subequations}\eqhalf{\varepsilon' =
 		 1 - \frac{\omega_p^2 \omega^2}{\omega^4 + (\omega\gamma)^2},
 		 \label{eqs:ReDrude}}
 	\eqhalf{\varepsilon'' =
@@ -168,6 +171,7 @@ En la Fig.  \ref{fig:sizeCorrection} se muestra la correción por tamaño de la 
 	\end{figure}	
 
 \subsection{Plasmones}
+\label{ssection:Plasmones}
 
 En la deducción de la función dieléctrica del modelo de Drude [Ec. \eqref{eq:Drude}] se resolvió la ecuación de movimiento de los electrones libres en un material ante la  presencia de un campo eléctrico oscilante en el tiempo. A las oscilaciones colectivas (modos propios) de los electrones libres debido al acoplamiento con la radiación EM se les denominan  plasmones, que pueden ocurrir en el bulto \cite{stockman2011nanoplasmonics}, o bien, sobre una superficie. A diferencia del plasmón de volumen, las resonancias plasmónicas de superficie (Surface Plasmon Resonances, SPRs) pueden clasificarse en modos propagantes y localizados. Cuando un plasmón se propaga a lo largo de una interfaz plana entre un medio diel\'ectrico y uno met\'alico, se le denomina  \emph{plasm\'on-polarit\'on de superficie} (Surface Plasmon Polariton, SPP) \cite{maier2007plasmonics}.  Si el plasmón, en cambio, se encuentra en la superficie de una partícula  met\'alica, de tamaño finito, se le conoce como \emph{resonancia de plasm\'on de superficie localizado} (Localized Surface Plasmon Resonance, LSPR) \cite{maier2007plasmonics}.\index{Plasmón}\index{Plasmón!Polaritón de Superficie (SPP)}\index{Plasmón!de Superficie Localizado (LSP)!Resonancia de (LSPR)}
 
@@ -558,7 +562,7 @@ Adicionalmente, si se considera la contribución de todos los órdenes multipola
 Para partículas esféricas de radio arbitrario $a$ con una función dieléctrica dada por el modelo de Drude-Sommerfeld, la frecuencia de resonancia $\omega_\ell$ sufre un corrimiento al rojo debido al tiempo de acomplamiento $a/c$ entre la interacción EM de la esfera y  la densidad de carga inducida que corresponde al plasmón de superficie \cite{aizpurua1998coupling}.  En la Fig.  \ref{fig:NormalModes} se muestran las frecuencias de resonancia $\omega_\ell$ normalizadas respecto a la frecuencia de plasma $\omega_p$, como función del parámetro adimensional $a\omega_p / c$ para los multipolos $\ell = 1,\,2,\,3,\,4$ y $5$. El límite de partícula pequeña [Ec.  \eqref{eq:PPequeña}]	se recupera cuando  $a\to 0$ (lado izquierdo de la gráfica en la Fig.  \ref{fig:NormalModes}).  
 
 	\begin{figure}[h!]\centering
-		\includegraphics[scale=1]{1-Teoria/figs/1-4-DrudeMultipoles.pdf}\vspace*{-1em}
+		\includegraphics[scale=1.15]{1-Teoria/figs/1-4-DrudeMultipoles.pdf}\vspace*{-1em}
 	\caption{Frecuencias de resonancia $\omega_\ell/\omega_p$ para una esfera con una función dieléctrica tipo Drude, como función del parámetro adimensional  $\omega_p a / c$, para los multipolos $\ell = 1,\,2,\,3,\,4$ y $5$. }
 	\label{fig:NormalModes}
 	\end{figure}		
@@ -569,7 +573,7 @@ Para una partícula esférica con una función dieléctrica arbitraria, los modo
 	\begin{subfigure}{.01\linewidth}\caption{}\label{sfig:Qext4-30}\vspace{3.75cm}\end{subfigure}
 	\begin{subfigure}{.45\linewidth}\hspace*{-1.3em}
 	\includegraphics[scale=1]{1-Teoria/figs/1-5-Drude4-ExtSca_30.pdf}
-	\end{subfigure}
+	\end{subfigure}\hspace*{.5em}
 	\begin{subfigure}{.01\linewidth}\caption{}\label{sfig:Qext10-30}\vspace{3.75cm}\end{subfigure}
 	\begin{subfigure}{.45\linewidth}\hspace*{-1em}
 	\includegraphics[scale=1]{1-Teoria/figs/1-5-Drude10-ExtSca_30.pdf}

@@ -82,8 +82,14 @@
 		\usepackage[T1]{fontenc}			 		% 8-bits fonts
 		\usepackage[utf8]{inputenc}           			% Complete latin alfabet: Accents and so on
 		\spanishdecimal{.}
+		\usepackage{microtype}
 %		\usepackage[ square, comma, sort&compress, numbers]{natbib}
-		\usepackage[style = trad-abbrv, backend = bibtex, sorting = none, backref=true]{biblatex} %style = trad-abbrv
+		\usepackage[bibstyle = trad-abbrv, 
+					citestyle = numeric-comp,
+					backend = bibtex,
+					sorting = none,
+					backref=true]{biblatex} %style = trad-abbrv
+		\DeclareFieldFormat[article]{volume}{\mkbibbold{#1}}
 		\addbibresource{04-Bibliografia/references.bib}
 	%	\usepackage{cite}
 		%\usepackage[style = trad-abbrv, backend = bibtex]{biblatex}

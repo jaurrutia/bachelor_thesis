@@ -7,14 +7,14 @@
     \subitem de Brewster, \hyperpage{11}
   \item \IeC {\'I}ndice de refacci\IeC {\'o}n
     \subitem Unidades de \IeC {\'\i }ndice de refracci\IeC {\'o}n RIU, 
-		\hyperpage{76}
+		\hyperpage{77}
   \item \IeC {\'I}ndice de refracci\IeC {\'o}n, 
 		\hyperindexformat{\seealso{Funci\IeC {\'o}n diel\IeC {\'e}ctrica}}{8}, 
 		\hyperpage{8}
 
   \indexspace
 
-  \item Anchura a media altura (FWHM) ($\Gamma$), \hyperpage{58}, 
+  \item Anchura a media altura (FWHM) ($\Gamma$), \hyperpage{59}, 
 		\hyperpage{77}
   \item Arm\IeC {\'o}nicos esf\IeC {\'e}ricos vectoriales, 
 		\hyperpage{17}
@@ -104,7 +104,7 @@
   \item Fresnel
     \subitem coeficientes de amplitud de ($r,t$), \hyperpage{10}, 
 		\hyperpage{48}
-      \subsubitem relaciones de Stokes, \hyperpage{50}
+      \subsubitem relaciones de Stokes, \hyperpage{49}
     \subitem ecuaciones de, \hyperpage{10}
     \subitem Reflectancia ($R$), \hyperpage{13}
     \subitem Transmitancia ($T$), \hyperpage{13}

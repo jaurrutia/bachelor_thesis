@@ -83,7 +83,11 @@
 		\usepackage[utf8]{inputenc}           			% Complete latin alfabet: Accents and so on
 		\spanishdecimal{.}
 %		\usepackage[ square, comma, sort&compress, numbers]{natbib}
-		\usepackage[style = trad-abbrv, backend = bibtex, sorting = none, backref=true]{biblatex} %style = trad-abbrv
+		\usepackage[bibstyle = trad-abbrv, 
+					citestyle = numeric-comp,
+					backend = bibtex,
+					sorting = none,
+					backref=true]{biblatex} %style = trad-abbrv
 		\addbibresource{04-Bibliografia/references.bib}
 	%	\usepackage{cite}
 		%\usepackage[style = trad-abbrv, backend = bibtex]{biblatex}
@@ -284,8 +288,8 @@
 		\fancyhf{}
 		%\fancyhead[RO]{\bfseries\rightmark}
 		%\fancyhead[LE]{\bfseries\leftmark}
-		\fancyhead[RO]{\rightmark}
-		\fancyhead[LE]{\rightmark}%{\leftmark}
+		\fancyhead[LO]{\rightmark}
+		\fancyhead[LE]{\leftmark}
 		\fancyfoot[LE, RO]{\thepage }
 		\renewcommand{\headrulewidth}{0.5pt}
 		\renewcommand{\footrulewidth}{0.1pt}

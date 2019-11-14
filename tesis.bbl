@@ -792,36 +792,6 @@
     \field{year}{1997}
   \endentry
 
-  \entry{johnson1972constants}{article}{}
-    \name{author}{2}{}{%
-      {{hash=JPB}{%
-         family={Johnson},
-         familyi={J\bibinitperiod},
-         given={Peter\bibnamedelima B},
-         giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
-      }}%
-      {{hash=CRW}{%
-         family={Christy},
-         familyi={C\bibinitperiod},
-         given={R\bibnamedelima W},
-         giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {APS}%
-    }
-    \strng{namehash}{JPBCRW1}
-    \strng{fullhash}{JPBCRW1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{number}{12}
-    \field{pages}{4370}
-    \field{title}{Optical constants of the noble metals}
-    \field{volume}{6}
-    \field{journaltitle}{Physical review B}
-    \field{year}{1972}
-  \endentry
-
   \entry{griffiths2013electrodynamics}{book}{}
     \name{author}{1}{}{%
       {{hash=GDJ}{%
@@ -1149,12 +1119,43 @@
     \endverb
     \field{issn}{10897550}
     \field{number}{23}
+    \field{pages}{233105}
     \field{title}{{Determination of plasma frequency, damping constant, and
   size distribution from the complex dielectric function of noble metal
   nanoparticles}}
     \field{volume}{116}
     \field{journaltitle}{Journal of Applied Physics}
     \field{year}{2014}
+  \endentry
+
+  \entry{johnson1972constants}{article}{}
+    \name{author}{2}{}{%
+      {{hash=JPB}{%
+         family={Johnson},
+         familyi={J\bibinitperiod},
+         given={Peter\bibnamedelima B},
+         giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=CRW}{%
+         family={Christy},
+         familyi={C\bibinitperiod},
+         given={R\bibnamedelima W},
+         giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {APS}%
+    }
+    \strng{namehash}{JPBCRW1}
+    \strng{fullhash}{JPBCRW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{12}
+    \field{pages}{4370}
+    \field{title}{Optical constants of the noble metals}
+    \field{volume}{6}
+    \field{journaltitle}{Physical review B}
+    \field{year}{1972}
   \endentry
 
   \entry{gross2014festkorperphysik}{book}{}
@@ -1217,8 +1218,8 @@
       {{hash=TA}{%
          family={Tr\"ugler},
          familyi={T\bibinitperiod},
-         given={A},
-         giveni={A},
+         given={A.},
+         giveni={A\bibinitperiod},
       }}%
     }
     \strng{namehash}{TA1}
@@ -1420,8 +1421,8 @@
       {{hash=AJ}{%
          family={Aizpurua},
          familyi={A\bibinitperiod},
-         given={J},
-         giveni={J},
+         given={J.},
+         giveni={J\bibinitperiod},
       }}%
     }
     \strng{namehash}{AJ1}
@@ -1657,6 +1658,38 @@
     \endverb
     \field{journaltitle}{Physica Status Solidi (B) Basic Research}
     \field{year}{2012}
+  \endentry
+
+  \entry{hale973optical}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HGM}{%
+         family={Hale},
+         familyi={H\bibinitperiod},
+         given={George\bibnamedelima M.},
+         giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=QMR}{%
+         family={Querry},
+         familyi={Q\bibinitperiod},
+         given={Marvin\bibnamedelima R.},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HGMQMR1}
+    \strng{fullhash}{HGMQMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1364/ao.12.000555
+    \endverb
+    \field{issn}{0003-6935}
+    \field{number}{3}
+    \field{pages}{555}
+    \field{title}{{Optical Constants of Water in the 200-nm to 200-$\mu$m
+  Wavelength Region}}
+    \field{volume}{12}
+    \field{journaltitle}{Applied Optics}
+    \field{year}{1973}
   \endentry
 
   \entry{schott2019datasheet}{manual}{}
