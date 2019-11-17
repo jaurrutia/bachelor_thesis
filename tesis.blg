@@ -23,7 +23,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated field_info (elt_size=4) to 11672 items from 5000.
 Database file #1: tesis-blx.bib
 Database file #2: 04-Bibliografia/references.bib
-You're missing a field name---line 475 of file 04-Bibliografia/references.bib
+You're missing a field name---line 477 of file 04-Bibliografia/references.bib
  : 
  : %author = {Fan, J H and Hung, W I and Li, W T and Yeh, J M},
 (Error may have been on previous line)
@@ -33,43 +33,43 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 48 entries,
             6268 wiz_defined-function locations,
-            1499 strings with 18982 characters,
-and the built_in function-call counts, 346380 in all, are:
-= -- 25542
-> -- 7025
-< -- 1818
-+ -- 9120
-- -- 2948
-* -- 25940
-:= -- 35649
+            1500 strings with 19102 characters,
+and the built_in function-call counts, 353930 in all, are:
+= -- 26177
+> -- 7208
+< -- 1842
++ -- 9390
+- -- 3034
+* -- 26633
+:= -- 36660
 add.period$ -- 0
 call.type$ -- 48
-change.case$ -- 1010
+change.case$ -- 1014
 chr.to.int$ -- 46
 cite$ -- 94
-duplicate$ -- 34376
-empty$ -- 31075
-format.name$ -- 4646
-if$ -- 71277
+duplicate$ -- 35070
+empty$ -- 31591
+format.name$ -- 4786
+if$ -- 72712
 int.to.chr$ -- 0
-int.to.str$ -- 131
+int.to.str$ -- 132
 missing$ -- 0
-newline$ -- 1780
-num.names$ -- 2469
-pop$ -- 17041
+newline$ -- 1816
+num.names$ -- 2507
+pop$ -- 17114
 preamble$ -- 1
-purify$ -- 1457
+purify$ -- 1476
 quote$ -- 0
-skip$ -- 10207
+skip$ -- 10350
 stack$ -- 0
-substring$ -- 46216
-swap$ -- 7889
-text.length$ -- 1345
-text.prefix$ -- 8
+substring$ -- 47479
+swap$ -- 8003
+text.length$ -- 1371
+text.prefix$ -- 5
 top$ -- 1
 type$ -- 1617
 warning$ -- 0
-while$ -- 3871
+while$ -- 3984
 width$ -- 0
-write$ -- 1733
+write$ -- 1769
 (There was 1 error message)

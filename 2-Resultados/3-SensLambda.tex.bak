@@ -10,7 +10,7 @@ Los biosensores plasmónicos comerciales miden cambios en el índice de refracci
 	\label{eq:SBulk}
 	\end{equation}
 %
-Otro parámetro que caracteriza el rendimiento del biosensor es la anchura a media altura (Full Width at Half Maximum, FWHM) $\Gamma$\index{Anchura a media altura (FWHM) ($\Gamma$)}. Para considerar tanto la sensibilidad de bulto como la FWHM en el rendimiento del biosensor, se define la \emph{figura de mérito} (Figure of Merit, FoM) de bulto  $\textit{FoM}_B$ dada por la expresión\index{Biosensor!Figura de Mérito (FoM)}\index{Biosensor!Figura de Mérito (FoM)!de bulto ($\textit{FoM}_B$)}
+Otro parámetro que caracteriza el rendimiento del biosensor es la anchura a media altura (Full Width at Half Maximum, FWHM) $\Gamma$\index{Anchura a media altura (FWHM) ($\Gamma$)}. Para considerar tanto la sensibilidad de bulto como la FWHM en el rendimiento del biosensor, se define la \emph{figura de mérito} (Figure of Merit, FOM) de bulto  $\textit{FoM}_B$ dada por la expresión\index{Biosensor!Figura de Mérito (FoM)}\index{Biosensor!Figura de Mérito (FoM)!de bulto ($\textit{FoM}_B$)}
 %
 	\begin{equation}
 	\textit{FoM}_B = \frac{S_B}{\Gamma}
@@ -126,7 +126,7 @@ La sensibilidad del SPP [Fig. \ref{sfig:FoMSPP}] sólo se reporta para $\theta_i
 
 A diferencia del SPP, el supuesto modo  plasmónico colectivo predicho por el CSM sí puede excitarse en el espectro visible para ángulos cercanos al ángulo crítico y, es en estos valores cuando el supuesto modo  plasmónico colectivo es más sensible, además de presentar un corrimiento al azul, en lugar de un corrimiento al rojo, como se observa en las Figs. \ref{sfig:FoMCSMp} y de la Fig. \ref{sfig:FoMCSMs}, para polarización \emph{p} y \emph{s}, respectivamente. El corrimiento al azul se observa para polarización \emph{p} para $\theta_i=65^\circ$ y, para este ángulo de incidencia, la monocapa de NPs de oro (línas continuas) es mayor que para la monocapa de NPs de plata (líneas discontinuas). Al considerar polarización \emph{s}, el corrimiento al azul se presenta para $\theta_i=65^\circ$ para ambos materiales sin embargo, para $\theta_i=70^\circ$ hay un corrimiento al azul para la moncapa de NPs de oro y un corrimiento al rojo para las NPs de plata. Para ambos materiales considerados y para las dos polarizaciones, cuando $\theta_i\geq 75^\circ$ el supuesto modo  plasmónico colectivo se corre al rojo y la sensibilidad de la monocapa de NPs de plata es mayor que para las de oro (ver líneas continuas y discontinuas del mismo color). A diferencia del SPP, la sensibilidad del supuesto modo  plasmónico colectivo se maximiza en dos casos: para ángulos de incidencia lo más cercanos al crítico (como también ocurre para el SPP)  y considerando ángulo de incidencia alrededor de $80^\circ$.   En las Figs. \ref{sfig:FoMCSMp} y \ref{sfig:FoMCSMs} se observa que el mayor corrimiento al rojo para el supuesto modo  plasmónico colectivo predicho por el CSM en polarización \emph{p} y \emph{s} es $\delta\lambda^{exc} \approx -1.5$ nm considerando $\theta_i=65^\circ$.
 
-Con base en las Figs. \ref{fig:SPPCSM} y \ref{fig:FoMSPPCSM} se calcula la $\textit{FoM}_B$ para el SPP y el supuesto modo  plasmónico colectivo, presentadas en la tabla \ref{tab:FOM}. La FoM de bulto del SPP para el oro, para los ángulos de incidencia considerados, toma valores entre $48$ RIU$^{-1}$  y $70$ RIU$^{-1}$  mientras que para la plata la figura de mérito del SPP es menor, con valores entre $8$ RIU$^{-1}$ y $30$ RIU$^{-1}$. La $\textit{FoM}_B$ del supuesto modo  plasmónico colectivo para los cuatro ángulos de incidencia consideraros no es mayor a $5$ RIU$^{-1}$, considerando tanto el corrimiento al rojo como al azul. En la tabla \ref{tab:FOM}, se observa que a $\theta_i=65^\circ$ y a ambas polarizaciones, la $\textit{FoM}_B$ del supuesto modo  plasmónico colectivo presente en una monocapa de NPs de oro es menor que a $\theta_i=80^\circ$ a pesar de que la sensibilidad fue mayor para $65^\circ$ que para $80^\circ$, como se observa en las Figs. \ref{sfig:FoMCSMp} y \ref{sfig:FoMCSMs}. Esto se debe a la FWHM del supuesto modo  plasmónico colectivo aumenta cuando $\theta_i\approx\theta_c$, como se muestra en la Fig. \ref{fig:SensRpRs}; lo análogo sucede para la monocapa de NPs de plata. 
+Con base en las Figs. \ref{fig:SPPCSM} y \ref{fig:FoMSPPCSM} se calcula la $\textit{FoM}_B$ para el SPP y el supuesto modo  plasmónico colectivo, presentadas en la tabla \ref{tab:FOM}. La FOM de bulto del SPP para el oro, para los ángulos de incidencia considerados, toma valores entre $48$ RIU$^{-1}$  y $70$ RIU$^{-1}$  mientras que para la plata la figura de mérito del SPP es menor, con valores entre $8$ RIU$^{-1}$ y $30$ RIU$^{-1}$. La $\textit{FoM}_B$ del supuesto modo  plasmónico colectivo para los cuatro ángulos de incidencia consideraros no es mayor a $5$ RIU$^{-1}$, considerando tanto el corrimiento al rojo como al azul. En la tabla \ref{tab:FOM}, se observa que a $\theta_i=65^\circ$ y a ambas polarizaciones, la $\textit{FoM}_B$ del supuesto modo  plasmónico colectivo presente en una monocapa de NPs de oro es menor que a $\theta_i=80^\circ$ a pesar de que la sensibilidad fue mayor para $65^\circ$ que para $80^\circ$, como se observa en las Figs. \ref{sfig:FoMCSMp} y \ref{sfig:FoMCSMs}. Esto se debe a la FWHM del supuesto modo  plasmónico colectivo aumenta cuando $\theta_i\approx\theta_c$, como se muestra en la Fig. \ref{fig:SensRpRs}; lo análogo sucede para la monocapa de NPs de plata. 
 
 \begin{table}[h!]
 \centering
@@ -142,11 +142,11 @@ $75^\circ$ & $48.5$ &	$2.47$ & $3.19$\\
 $80^\circ$ & $69.7$ &	$4.03$ & $4.37$\\
 \hline \hline
 Ag & SPP  & CSM \emph{p}-Pol. 	& CSM \emph{s}-Pol. \\ 
-$\theta_i$ &  $\textit{FoM}_B$ [$\pm 0.2$ RIU$^{-1}$]	  &  $\textit{FoM}_B$ [$\pm 0.05$ RIU$^{-1}$]		&  $\textit{FoM}_B$  [$\pm 0.05$ RIU$^{-1}$]\\ \hline
+$\theta_i$ &  $\textit{FoM}_B$ [$\pm 0.2$ RIU$^{-1}$]	  &  $\textit{FoM}_B$ [$\pm 1.1$ RIU$^{-1}$]		&  $\textit{FoM}_B$  [$\pm 0.05$ RIU$^{-1}$]\\ \hline
 $65^\circ$ & -- 			  &	$-3.66$ & $-2.08$\\
-$70^\circ$ & $27.2$ &	$-0.82$ & $0.42$\\
-$75^\circ$ & $12.7$ &	$1.47$  & $2.28$\\
-$80^\circ$ & $8.51$ &	$3.31$  & $3.09$
+$70^\circ$ & $90.2$ &	$-0.82$ & $0.42$\\
+$75^\circ$ & $64.7$ &	$1.47$  & $2.28$\\
+$80^\circ$ & $66.7$ &	$3.31$  & $3.09$
 \end{tabular}
 \end{table}
 
@@ -159,6 +159,6 @@ Para caracterizar cambios locales del índice de refracción de la matriz, se em
 S_s=  \frac{\delta \lambda^{exc}}{\delta d},
 \end{equation}
 %
-en donde $\delta \lambda^{exc}$ es el corrimeinto al rojo de la longitud de onda que excita al modo empleado para el sensado y $\delta d$ el grosor de una capa  adsorbida uniformemente alrededor de la nanoestructura considerando el índice de refracción de la capa igual a la del material biológico que se desee identificar  \cite{estevez2014trends}. A partir de la $S_s$ se puede construir una FoM de superficie, la cual considera la calidad del sensado a partir de la distribución de campo cercano \cite{estevez2014trends,svedendahl2009refractometric}. Para determinar completamente si el supuesto modo  plasmónico colectivo, presente en una monocapa desordenada de NPs esféricas, es apto para el biosensado, se propone realizar un análisis de la  sensibilidad de superficie.
+en donde $\delta \lambda^{exc}$ es el corrimeinto al rojo de la longitud de onda que excita al modo empleado para el sensado y $\delta d$ el grosor de una capa  adsorbida uniformemente alrededor de la nanoestructura considerando el índice de refracción de la capa igual a la del material biológico que se desee identificar  \cite{estevez2014trends}. A partir de la $S_s$ se puede construir una FOM de superficie, la cual considera la calidad del sensado a partir de la distribución de campo cercano \cite{estevez2014trends,svedendahl2009refractometric}. Para determinar completamente si el supuesto modo  plasmónico colectivo, presente en una monocapa desordenada de NPs esféricas, es apto para el biosensado, se propone realizar un análisis de la  sensibilidad de superficie.
 
 

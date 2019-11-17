@@ -4,13 +4,15 @@
 \usepackage{diagbox}
 \usepackage{mathrsfs}
 
+
+
                 % Para insertar texto dummy, de 
 \include{Latex/Comandos}           % Archivo con funciones útiles
 
 \usepackage{setspace}
 
 %%-------------------------------------------------------------------------------
-%                                   DATOS                                      |
+%                                   DATOS                                  
 %-------------------------------------------------------------------------------
 \title{Estudio del modo plasm\'onico colectivo en sistemas monocapa desordenados formados por nanopart\'iculas esf\'ericas y su an\'alisis para biosensado}
 \author{Jonathan Alexis Urrutia Anguiano}        
@@ -18,25 +20,27 @@
 \director{Dr. Alejandro Reyes Coronado}       % Asesor
 \degreedate{YYYY}                           	% Año de la fecha del examen
 \lugar{Cd. Universitaria, Cd. de México}          		% Lugar
-\portadatrue 
+\portadatrue
 
-
-
-
-
-
-
+% ----------------------------- Datos del jurado
+\student{Urrutia\\ Anguiano\\ Jonathan Alexis\\ 55 44 44 60 93\\ Universidad Nacional Autónoma de México\\ Facultad de Ciencias\\ Física\\ 414011025}
+\secretario{Dr \\ Alejandro \\ Reyes \\Coronado}
+\presidente{Dr \\ Rubén \\ Gerardo \\ Barrera \\ y Pérez}
+\vocal{Dra \\ Citlali\\ Sánchez\\ Aké}
+\supuno{Dr\\ Guseppe \\Pirruccio}
+\supdos{Dra\\ Celia \\Angelina\\ Sánchez\\ Pérez}
+\pags{103p}
 
 \keywords{tesis,autor,tutor,etc}            % Palablas clave para los metadatos del PDF
 \subject{tema_1,tema_2}                     % Tema para metadatos del PDF  
 %-------------------------------------------------------------------------------
-%                                   PORTADA                                    |
+%                                   PORTADA                                   
 %-------------------------------------------------------------------------------
 \begin{document}
 
 \maketitle									
 %-------------------------------------------------------------------------------
-%                                   Prologo                                    |
+%                                   Prologo                                
 %-------------------------------------------------------------------------------
 \frontmatter
 
@@ -46,7 +50,7 @@
 \include{0-3-Resumen/1-Resumen}                  
 
 %-------------------------------------------------------------------------------
-%                                   Índices                                    |
+%                                Índices                                    |
 %-------------------------------------------------------------------------------
 %Esta sección genera el índice
 \setcounter{secnumdepth}{3} % organisational level that receives a numbers
@@ -62,13 +66,13 @@
 
 
 %-------------------------------------------------------------------------------
-%                                   Contents                                   |
+%                                Contents                                   |
 %-------------------------------------------------------------------------------
 % the main text starts here with the introduction, 1st chapter,...
 \mainmatter
 
 \def\baselinestretch{1}                   % Interlineado
-%
+
 \input{0-4-Introduccion/1-Motivacion-Estructura}            
 \input{1-Teoria/1-Nociones-Basicas}
 	\input{1-Teoria/2-Solucion-de-Mie}
@@ -79,11 +83,11 @@
 	\input{2-Resultados/3-SensLambda}
 \include{3-Conclusiones/1-Conclusiones}        
 
- 
 %-------------------------------------------------------------------------------
-%                                   References                                   |
+%                               References                                   |
 %-------------------------------------------------------------------------------
-\appendix
+
+%\appendix
 %\include{07-Apendice/1-Teoria_Mie}  
 
 %\bibliographystyle{unsrt} % otros estilos pueden ser abbrv, acm, alpha, 
@@ -94,7 +98,7 @@
 
 \printindex
 %-------------------------------------------------------------------------------
-%                                   Appendix                                   |
+%                              Appendix                                   |
 %-------------------------------------------------------------------------------
 
 

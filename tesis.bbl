@@ -738,6 +738,41 @@
   \endentry
 
   \entry{brian2009sensitivity}{article}{}
+    \name{author}{5}{}{%
+      {{hash=BB}{%
+         family={Brian},
+         familyi={B\bibinitperiod},
+         given={Bj{\"{o}}rn},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Sep{\'{u}}lveda},
+         familyi={S\bibinitperiod},
+         given={Borja},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=AY}{%
+         family={Alaverdyan},
+         familyi={A\bibinitperiod},
+         given={Yury},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LLM}{%
+         family={Lechuga},
+         familyi={L\bibinitperiod},
+         given={Laura\bibnamedelima M.},
+         giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={K{\"{a}}ll},
+         familyi={K\bibinitperiod},
+         given={Mikael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BBSBAYLLMKM1}
+    \strng{fullhash}{BBSBAYLLMKM1}
+    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \verb{doi}
     \verb 10.1364/oe.17.002015
@@ -808,6 +843,7 @@
     \strng{fullhash}{GDJ1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{edition}{4$^\circ$}
     \field{title}{Introduction to electrodynamics}
     \field{year}{2013}
   \endentry
@@ -828,7 +864,7 @@
     \strng{fullhash}{HE1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{edition}{4th Ed.}
+    \field{edition}{4$^\circ$}
     \field{title}{Optics}
     \field{year}{1998}
   \endentry
@@ -849,7 +885,7 @@
     \strng{fullhash}{JJD1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{edition}{3rd Ed.}
+    \field{edition}{3$^\circ$}
     \field{title}{Classical electrodynamics}
     \field{year}{1999}
   \endentry
@@ -1503,20 +1539,20 @@
          prefixi={d\bibinitperiod},
          family={Castillo-Mussot},
          familyi={C\bibinitperiod-M\bibinitperiod},
-         given={M},
-         giveni={M},
+         given={M.},
+         giveni={M\bibinitperiod},
       }}%
       {{hash=MG}{%
          family={Monsivais},
          familyi={M\bibinitperiod},
-         given={G},
-         giveni={G},
+         given={G.},
+         giveni={G\bibinitperiod},
       }}%
       {{hash=VP}{%
          family={Villase{\~{n}}or},
          familyi={V\bibinitperiod},
-         given={P},
-         giveni={P},
+         given={P.},
+         giveni={P\bibinitperiod},
       }}%
       {{hash=MWL}{%
          family={Moch{\'{a}}n},
@@ -1606,8 +1642,8 @@
     \field{labeltitlesource}{title}
     \field{number}{2}
     \field{pages}{296\bibrangedash 311}
-    \field{title}{Coherent reflectance in a system of random Mie scatterers and
-  its relation to the effective-medium approach}
+    \field{title}{Coherent reflectance in a system of random {Mie} scatterers
+  and its relation to the effective-medium approach}
     \field{volume}{20}
     \field{journaltitle}{JOSA A}
     \field{year}{2003}

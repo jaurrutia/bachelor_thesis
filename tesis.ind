@@ -5,12 +5,11 @@
 		\hyperindexformat{\see {Incidencia interna}}{12}, 
 		\hyperpage{12}
     \subitem de Brewster, \hyperpage{11}
-  \item \IeC {\'I}ndice de refacci\IeC {\'o}n
-    \subitem Unidades de \IeC {\'\i }ndice de refracci\IeC {\'o}n RIU, 
-		\hyperpage{77}
   \item \IeC {\'I}ndice de refracci\IeC {\'o}n, 
 		\hyperindexformat{\seealso{Funci\IeC {\'o}n diel\IeC {\'e}ctrica}}{8}, 
 		\hyperpage{8}
+    \subitem Unidades de \IeC {\'\i }ndice de refracci\IeC {\'o}n RIU, 
+		\hyperpage{77}
 
   \indexspace
 
@@ -25,10 +24,11 @@
 		\hyperpage{22}
     \subitem funci\IeC {\'o}n generadora
       \subsubitem soluci\IeC {\'o}n azimutal de la, \hyperpage{19}
+    \subitem funci\IeC {\'o}n generadora de los, \hyperpage{17, 18}
+    \subitem funci\IeC {\'o}n generadora, de los
       \subsubitem soluci\IeC {\'o}n general, \hyperpage{20}
       \subsubitem soluci\IeC {\'o}n polar de la, \hyperpage{19}
       \subsubitem soluci\IeC {\'o}n radial de la, \hyperpage{19}
-    \subitem funci\IeC {\'o}n generadora de los, \hyperpage{17, 18}
     \subitem relaciones de ortogonalidad de los, \hyperpage{21}
 
   \indexspace
@@ -77,7 +77,7 @@
   \item Electromagn\IeC {\'e}ticos
     \subitem campos
       \subsubitem condiciones a la frontera de los, \hyperpage{9}
-      \subsubitem condiciones ala frontera de una esfera de los, 
+      \subsubitem condiciones a la frontera de una esfera de los, 
 		\hyperpage{22, 23}
       \subsubitem lejano, \hyperpage{16}, \hyperpage{24}
       \subsubitem operador de campo lejano, \hyperpage{16}, 
@@ -162,8 +162,8 @@
       \subsubitem transformada de Fourier de las, \hyperpage{16}
   \item Mie
     \subitem coeficientes de, \hyperpage{24}, \hyperpage{38}
-    \subitem expanci\IeC {\'o}n multipolar, \hyperpage{24}
-    \subitem matriz de esparcimiento de, \hyperpage{25}, \hyperpage{43}
+    \subitem expansi\IeC {\'o}n multipolar, \hyperpage{24}
+    \subitem matriz de esparcimiento de, \hyperpage{25}, \hyperpage{42}
       \subsubitem elementos de la [$S_j(\theta)$], \hyperpage{43}
     \subitem soluci\IeC {\'o}n de, \hyperpage{14}, \hyperpage{26}
       \subsubitem campos electromagn\IeC {\'e}ticos dentro de una part\IeC {\'\i }cula esf\IeC {\'e}rica, 
@@ -200,9 +200,9 @@
     \subitem de incidencia, \hyperpage{10}
   \item Plasm\IeC {\'o}n, \hyperpage{30}
     \subitem  de volumen, \hyperpage{32}
-    \subitem de Superficie Localizado (LSP), \hyperpage{36}
-      \subsubitem modos normales del, \hyperpage{39}
-      \subsubitem Resonancia de (LSPR), \hyperpage{30}, \hyperpage{40}
+    \subitem de Superficie Localizado, Resonancia de (LSPR), 
+		\hyperpage{30}, \hyperpage{40}
+      \subsubitem modos normales, \hyperpage{39}
     \subitem Polarit\IeC {\'o}n de Superficie (SPP), \hyperpage{30}, 
 		\hyperpage{34}
   \item Polarizaci\IeC {\'o}n

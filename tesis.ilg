@@ -6,20 +6,20 @@ Scanning input file tesis.idx....
 !! Input index error (file = tesis.idx, line = 116):
    -- Extra `!' at position 91 of first argument.
 
-!! Input index error (file = tesis.idx, line = 155):
+!! Input index error (file = tesis.idx, line = 154):
    -- Extra `!' at position 66 of first argument.
 
+!! Input index error (file = tesis.idx, line = 156):
+   -- Extra `!' at position 66 of first argument.
 !! Input index error (file = tesis.idx, line = 157):
    -- Extra `!' at position 66 of first argument.
-!! Input index error (file = tesis.idx, line = 158):
-   -- Extra `!' at position 66 of first argument.
-done (165 entries accepted, 5 rejected).
-Sorting entries....done (1305 comparisons).
+done (164 entries accepted, 5 rejected).
+Sorting entries....done (1325 comparisons).
 Generating output file tesis.ind....
 ## Warning (input = tesis.idx, line = 30; output = tesis.ind, line = 5):
    -- Conflicting entries: multiple encaps for the same page under same key.
 
-## Warning (input = tesis.idx, line = 9; output = tesis.ind, line = 12):
+## Warning (input = tesis.idx, line = 9; output = tesis.ind, line = 9):
    -- Conflicting entries: multiple encaps for the same page under same key.
 
 ## Warning (input = tesis.idx, line = 106; output = tesis.ind, line = 65):

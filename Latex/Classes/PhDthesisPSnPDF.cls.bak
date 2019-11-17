@@ -82,12 +82,14 @@
 		\usepackage[T1]{fontenc}			 		% 8-bits fonts
 		\usepackage[utf8]{inputenc}           			% Complete latin alfabet: Accents and so on
 		\spanishdecimal{.}
+		\usepackage{microtype}
 %		\usepackage[ square, comma, sort&compress, numbers]{natbib}
 		\usepackage[bibstyle = trad-abbrv, 
 					citestyle = numeric-comp,
 					backend = bibtex,
 					sorting = none,
 					backref=true]{biblatex} %style = trad-abbrv
+		\DeclareFieldFormat[article]{volume}{\mkbibbold{#1}}
 		\addbibresource{04-Bibliografia/references.bib}
 	%	\usepackage{cite}
 		%\usepackage[style = trad-abbrv, backend = bibtex]{biblatex}
@@ -351,22 +353,28 @@
 				\newcommand{\ctutordos}[1]{\renewcommand{\@ctutordos}{#1}}
 
 				\newcommand{\@presidente}{}
-				\newcommand{\presidente}[1]{\renewcommand{\@presidente}{#1}}
+				\newcommand{\presidente}[1]{\renewcommand{\@presidente}{#1}}														
 
 				\newcommand{\@vocal}{}
 				\newcommand{\vocal}[1]{\renewcommand{\@vocal}{#1}}
 
-				\newcommand{\@supuno}{}
-				\newcommand{\supuno}[1]{\renewcommand{\@supuno}{#1}}
-
-				\newcommand{\@supdos}{}
-				\newcommand{\supdos}[1]{\renewcommand{\@supdos}{#1}}
-
 				\newcommand{\@secretario}{}
 				\newcommand{\secretario}[1]{\renewcommand{\@secretario}{#1}}
+								
+				\newcommand{\@supuno}{}
+				\newcommand{\supuno}[1]{\renewcommand{\@supuno}{#1}}												
 
+				\newcommand{\@supdos}{}
+				\newcommand{\supdos}[1]{\renewcommand{\@supdos}{#1}}										
+	
 				\newcommand{\@institucion}{}
 				\newcommand{\institucion}[1]{\renewcommand{\@institucion}{#1}}
+				
+				\newcommand{\@pags}{}
+				\newcommand{\pags}[1]{\renewcommand{\@pags}{#1}}
+				
+				\newcommand{\@student}{}
+				\newcommand{\student}[1]{\renewcommand{\@student}{#1}}							
 
 				\newcommand{\@programa}{}
 				\newcommand{\programa}[1]{\renewcommand{\@programa}{#1}}
@@ -437,7 +445,7 @@
 	\fi	
 	\end{center}
 	\end{alwayssingle}
-	
+
 	\newpage
 	\thispagestyle{empty}~
 	
@@ -482,6 +490,8 @@
 			\ifportada
 				\includegraphics[height=2.6cm]{Latex/Classes/Escudos/UNAM_crest_blue}\\[10pt]
 				\hskip2pt
+%				\colorvrule{UNAMgold}{1pt}{13cm}
+%				\hskip -0.4mm
 				\colorvrule{UNAMblue}{2.5pt}{13cm}
 				\hskip -0.4mm
 				\colorvrule{UNAMgold}{1pt}{13cm}\\[10pt]
@@ -504,6 +514,8 @@
     			\vspace{.3cm}
 			\ifportada
 				%\hrule height2.5pt
+%				\colorhrule{UNAMgold}{1pt}
+%				\vspace{.1cm}				
 				\colorhrule{UNAMblue}{2.5pt}
 				\vspace{.1cm}
 				%\hrule height1pt
@@ -546,7 +558,27 @@
 	\end{center}
 	\null\vfill
 	\end{alwayssingle}
-	\fi
+
+	\newpage
+	\thispagestyle{empty}~
+	
+	\newpage
+	\begin{alwayssingle}
+	\thispagestyle{empty}
+	\vspace{30mm}
+
+	\noindent 1. Datos del alumno\\ \@student \\[1em]
+	\noindent 2. Datos del tutor \\ \@secretario \\[1em]
+	\noindent 3. Datos del sinodal 1\\ \@presidente \\[1em]
+	\noindent 4. Datos del sinodal 2 \\ \@vocal \\[1em]
+	\noindent 5. Datos del sinodal 3\\ \@supuno \\[1em]
+	\noindent 6. Datos del sinodal 4 \\ \@supdos \\[1em]	
+	\noindent 7. Datos del trabajo escrito \\ \@title \\ \@pags \\ \@degreedate \\[1em]		
+	
+	\vfill
+	\end{alwayssingle}
+
+\fi
 }
 	
 
