@@ -124,6 +124,7 @@
 \indexentry{Relaci\IeC {\'o}n de dispersi\IeC {\'o}n|hyperpage}{32}
 \indexentry{Relaci\IeC {\'o}n de dispersi\IeC {\'o}n!del plasm\IeC {\'o}n de volumen|hyperpage}{32}
 \indexentry{Plasm\IeC {\'o}n! de volumen|hyperpage}{32}
+\indexentry{Plasm\IeC {\'o}n!Polarit\IeC {\'o}n de Superficie (SPP)!longitud de penetraci\IeC {\'o}n ($\xi$)|hyperpage}{32}
 \indexentry{Onda!evanescente|hyperpage}{32}
 \indexentry{Plasm\IeC {\'o}n!Polarit\IeC {\'o}n de Superficie (SPP)|hyperpage}{34}
 \indexentry{Relaci\IeC {\'o}n de dispersi\IeC {\'o}n!del SPP|hyperindexformat{\see {Plasm\IeC {\'o}n}}}{34}
@@ -146,7 +147,7 @@
 \indexentry{Esparcimiento!Individual, Aproximaci\IeC {\'o}n de (SSA)|hyperpage}{42}
 \indexentry{Esparcimiento!Individual, Aproximaci\IeC {\'o}n de (SSA)!campo el\IeC {\'e}ctrico esparcido promedio|hyperpage}{42}
 \indexentry{Electromagn\IeC {\'e}ticos!campos!operador de campo lejano|hyperpage}{42}
-\indexentry{Mie!matriz de esparcimiento de|hyperpage}{42}
+\indexentry{Mie!matriz de esparcimiento de|hyperpage}{43}
 \indexentry{Mie!matriz de esparcimiento de!elementos de la [$S_j(\theta)$]|hyperpage}{43}
 \indexentry{Esparcimiento!de Mie, matriz de|hyperpage}{43}
 \indexentry{Esparcimiento!Individual, Aproximaci\IeC {\'o}n de (SSA)!coeficientes de amplitud|hyperpage}{43}
@@ -167,3 +168,5 @@
 \indexentry{Anchura a media altura (FWHM) ($\Gamma$)|hyperpage}{77}
 \indexentry{Biosensor!Figura de M\IeC {\'e}rito (FoM)|hyperpage}{77}
 \indexentry{Biosensor!Figura de M\IeC {\'e}rito (FoM)!de bulto ($\textit{FoM}_B$)|hyperpage}{77}
+\indexentry{Plasm\IeC {\'o}n!Polarit\IeC {\'o}n de Superficie (SPP)!longitud de penetraci\IeC {\'o}n ($\xi$)|hyperpage}{82}
+\indexentry{Biosensor!Figura de M\IeC {\'e}rito (FoM)!de superficie ($\textit{FoM}_S$)|hyperpage}{84}

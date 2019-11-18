@@ -2,7 +2,7 @@
 %\pagenumbering{Roman}
 
 \begin{acknowledgements}
-
+\addcontentsline{toc}{chapter}{\protect\numberline{}Agradecimientos}
 También quisiera reconocer a ... por ...CONACYT,  PAPIIT / etc.
 %\blindtext % Dummy text
 \end{acknowledgements}

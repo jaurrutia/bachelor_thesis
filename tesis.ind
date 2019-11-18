@@ -43,6 +43,7 @@
 		\hyperindexformat{\seealso{Plasm\IeC {\'o}n polarit\IeC {\'o}n de superficie (SPP)}}{1}
     \subitem Figura de M\IeC {\'e}rito (FoM), \hyperpage{77}
       \subsubitem de bulto ($\textit{FoM}_B$), \hyperpage{77}
+      \subsubitem de superficie ($\textit{FoM}_S$), \hyperpage{84}
   \item Brewster
     \subitem \IeC {\'a}ngulo de, \hyperpage{11}
 
@@ -163,7 +164,7 @@
   \item Mie
     \subitem coeficientes de, \hyperpage{24}, \hyperpage{38}
     \subitem expansi\IeC {\'o}n multipolar, \hyperpage{24}
-    \subitem matriz de esparcimiento de, \hyperpage{25}, \hyperpage{42}
+    \subitem matriz de esparcimiento de, \hyperpage{25}, \hyperpage{43}
       \subsubitem elementos de la [$S_j(\theta)$], \hyperpage{43}
     \subitem soluci\IeC {\'o}n de, \hyperpage{14}, \hyperpage{26}
       \subsubitem campos electromagn\IeC {\'e}ticos dentro de una part\IeC {\'\i }cula esf\IeC {\'e}rica, 
@@ -205,6 +206,8 @@
       \subsubitem modos normales, \hyperpage{39}
     \subitem Polarit\IeC {\'o}n de Superficie (SPP), \hyperpage{30}, 
 		\hyperpage{34}
+      \subsubitem longitud de penetraci\IeC {\'o}n ($\xi$), 
+		\hyperpage{32}, \hyperpage{82}
   \item Polarizaci\IeC {\'o}n
     \subitem de una onda plana, \hyperpage{10}
     \subitem respecto al plano de esparcimiento, \hyperpage{15}

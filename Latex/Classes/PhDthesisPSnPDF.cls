@@ -40,7 +40,10 @@
 \usepackage{titlesec}
 \usepackage{imakeidx}%for indexes
 \makeindex[intoc]
-
+\usepackage{tocloft}
+ 
+\setlength\cftparskip{.75em}
+\setlength\cftbeforechapskip{0pt}
 	%---------------------- Figures ----------------------------
 		\usepackage[margin=10pt,font=scriptsize,labelfont=bf, ]{caption}  
 		\usepackage[labelformat=simple]{subcaption} % labelformat=simple   O brace
@@ -652,7 +655,7 @@
 			\pagestyle{empty}
 			 \begin{center}
 		  		\vspace*{1.5cm}
-				{\chapter*{Resumen}}
+				{\chapter*{Resumen/Abstract}}
 			  \end{center}
 			  \vspace{0.5cm}
 		}
