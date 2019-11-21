@@ -9,12 +9,12 @@
 		\hyperindexformat{\seealso{Funci\IeC {\'o}n diel\IeC {\'e}ctrica}}{8}, 
 		\hyperpage{8}
     \subitem Unidades de \IeC {\'\i }ndice de refracci\IeC {\'o}n RIU, 
-		\hyperpage{77}
+		\hyperpage{76}
 
   \indexspace
 
-  \item Anchura a media altura (FWHM) ($\Gamma$), \hyperpage{59}, 
-		\hyperpage{77}
+  \item Anchura a media altura (FWHM) ($\Gamma$), \hyperpage{58}, 
+		\hyperpage{76}
   \item Arm\IeC {\'o}nicos esf\IeC {\'e}ricos vectoriales, 
 		\hyperpage{17}
     \subitem $\vb{M}$ y $\vb{N}$, \hyperpage{20}
@@ -41,9 +41,8 @@
   \item Biosensor, \hyperpage{1}
     \subitem comercial, 
 		\hyperindexformat{\seealso{Plasm\IeC {\'o}n polarit\IeC {\'o}n de superficie (SPP)}}{1}
-    \subitem Figura de M\IeC {\'e}rito (FoM), \hyperpage{77}
-      \subsubitem de bulto ($\textit{FoM}_B$), \hyperpage{77}
-      \subsubitem de superficie ($\textit{FoM}_S$), \hyperpage{84}
+    \subitem Figura de M\IeC {\'e}rito (FoM), \hyperpage{76}
+      \subsubitem de bulto ($\textit{FoM}_B$), \hyperpage{76}
   \item Brewster
     \subitem \IeC {\'a}ngulo de, \hyperpage{11}
 
@@ -204,10 +203,12 @@
     \subitem de Superficie Localizado, Resonancia de (LSPR), 
 		\hyperpage{30}, \hyperpage{40}
       \subsubitem modos normales, \hyperpage{39}
+    \subitem de superficie localizado, resonancia de (LSPR), 
+		\hyperpage{36}
     \subitem Polarit\IeC {\'o}n de Superficie (SPP), \hyperpage{30}, 
 		\hyperpage{34}
       \subsubitem longitud de penetraci\IeC {\'o}n ($\xi$), 
-		\hyperpage{32}, \hyperpage{82}
+		\hyperpage{32}
   \item Polarizaci\IeC {\'o}n
     \subitem de una onda plana, \hyperpage{10}
     \subitem respecto al plano de esparcimiento, \hyperpage{15}

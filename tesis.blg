@@ -2,10 +2,9 @@ This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: tesis.aux
 The style file: biblatex.bst
-A level-1 auxiliary file: 0-1-Agradecimientos/1-Dedicatoria.aux
 A level-1 auxiliary file: 0-1-Agradecimientos/2-Agradecimientos.aux
 A level-1 auxiliary file: 0-3-Resumen/1-Resumen.aux
-A level-1 auxiliary file: 3-Conclusiones/1-Conclusiones.aux
+A level-1 auxiliary file: 0-1-Agradecimientos/1-Dedicatoria.aux
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
@@ -23,53 +22,52 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated field_info (elt_size=4) to 11672 items from 5000.
 Database file #1: tesis-blx.bib
 Database file #2: 04-Bibliografia/references.bib
-You're missing a field name---line 477 of file 04-Bibliografia/references.bib
- : 
- : %author = {Fan, J H and Hung, W I and Li, W T and Yeh, J M},
-(Error may have been on previous line)
+Repeated entry---line 486 of file 04-Bibliografia/references.bib
+ : %@inproceedings{fan2009bio
+ :                           ,
 I'm skipping whatever remains of this entry
 Biblatex version: 3.8
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 48 entries,
             6268 wiz_defined-function locations,
-            1500 strings with 19102 characters,
-and the built_in function-call counts, 353930 in all, are:
-= -- 26177
-> -- 7208
-< -- 1842
-+ -- 9390
-- -- 3034
-* -- 26633
-:= -- 36660
+            1496 strings with 19077 characters,
+and the built_in function-call counts, 349439 in all, are:
+= -- 25673
+> -- 7188
+< -- 1803
++ -- 9313
+- -- 3046
+* -- 26320
+:= -- 36254
 add.period$ -- 0
 call.type$ -- 48
-change.case$ -- 1014
+change.case$ -- 969
 chr.to.int$ -- 46
 cite$ -- 94
-duplicate$ -- 35070
-empty$ -- 31591
-format.name$ -- 4786
-if$ -- 72712
+duplicate$ -- 34800
+empty$ -- 31187
+format.name$ -- 4792
+if$ -- 71717
 int.to.chr$ -- 0
-int.to.str$ -- 132
+int.to.str$ -- 129
 missing$ -- 0
-newline$ -- 1816
-num.names$ -- 2507
-pop$ -- 17114
+newline$ -- 1802
+num.names$ -- 2456
+pop$ -- 17113
 preamble$ -- 1
-purify$ -- 1476
+purify$ -- 1432
 quote$ -- 0
-skip$ -- 10350
+skip$ -- 10231
 stack$ -- 0
-substring$ -- 47479
-swap$ -- 8003
+substring$ -- 46388
+swap$ -- 7930
 text.length$ -- 1371
-text.prefix$ -- 5
+text.prefix$ -- 2
 top$ -- 1
 type$ -- 1617
 warning$ -- 0
-while$ -- 3984
+while$ -- 3961
 width$ -- 0
-write$ -- 1769
+write$ -- 1755
 (There was 1 error message)

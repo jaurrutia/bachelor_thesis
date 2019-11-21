@@ -10,6 +10,20 @@
 
 
 
+%\makeatletter
+%\newenvironment{taggedsubequations}[1]
+% {%
+%  % \end{subequations} will advance `equation`
+%  \addtocounter{equation}{-1}%
+%  \begin{subequations}%
+%  % set the current label
+%  \def\@currentlabel{#1 \emph{bis}}%
+%  % redefine \theequation
+%  \renewcommand{\theequation}{#1\alph{equation} \emph{bis}}%
+% }
+% {\end{subequations}}
+%\makeatother %not \makeatletter
+
 \makeatletter
 \newenvironment{taggedsubequations}[1]
  {%
@@ -17,14 +31,12 @@
   \addtocounter{equation}{-1}%
   \begin{subequations}%
   % set the current label
-  \def\@currentlabel{#1 \emph{bis}}%
+  \def\@currentlabel{#1}%
   % redefine \theequation
-  \renewcommand{\theequation}{#1\alph{equation} \emph{bis}}%
+  \renewcommand{\theequation}{#1\alph{equation}}%
  }
  {\end{subequations}}
 \makeatother %not \makeatletter
-
-
 
 
 

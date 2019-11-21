@@ -42,7 +42,7 @@
 \makeindex[intoc]
 \usepackage{tocloft}
  
-\setlength\cftparskip{.75em}
+\setlength\cftparskip{.5em}
 \setlength\cftbeforechapskip{0pt}
 	%---------------------- Figures ----------------------------
 		\usepackage[margin=10pt,font=scriptsize,labelfont=bf, ]{caption}  

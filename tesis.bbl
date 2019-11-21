@@ -349,20 +349,20 @@
       {{hash=EP}{%
          family={Evans},
          familyi={E\bibinitperiod},
-         given={P},
-         giveni={P},
+         given={P.},
+         giveni={P\bibinitperiod},
       }}%
       {{hash=PS}{%
          family={Pastkovsky},
          familyi={P\bibinitperiod},
-         given={S},
-         giveni={S},
+         given={S.},
+         giveni={S\bibinitperiod},
       }}%
       {{hash=HW}{%
          family={Hendren},
          familyi={H\bibinitperiod},
-         given={W},
-         giveni={W},
+         given={W.},
+         giveni={W\bibinitperiod},
       }}%
       {{hash=WGA}{%
          family={Wurtz},
@@ -373,8 +373,8 @@
       {{hash=AR}{%
          family={Atkinson},
          familyi={A\bibinitperiod},
-         given={R},
-         giveni={R},
+         given={R.},
+         giveni={R\bibinitperiod},
       }}%
       {{hash=PR}{%
          family={Pollard},
@@ -477,7 +477,7 @@
   \endentry
 
   \entry{vakevainen2013plasmonic}{article}{}
-    \name{author}{6}{}{%
+    \name{author}{7}{}{%
       {{hash=VAI}{%
          family={V{\"a}kev{\"a}inen},
          familyi={V\bibinitperiod},
@@ -496,12 +496,15 @@
          given={H\bibnamedelima T},
          giveni={H\bibinitperiod\bibinitdelim T\bibinitperiod},
       }}%
-      {{hash=EJPAPaM}{%
+      {{hash=EAP}{%
          family={Eskelinen},
          familyi={E\bibinitperiod},
-         suffix={A\bibnamedelima P an\bibnamedelima Martikainen},
-         suffixi={A\bibinitperiod\bibinitdelim P\bibinitperiod
-  a\bibinitperiod\bibinitdelim M\bibinitperiod},
+         given={A\bibnamedelima P},
+         giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=MJP}{%
+         family={Martikainen},
+         familyi={M\bibinitperiod},
          given={J\bibnamedelima P},
          giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
       }}%
@@ -511,16 +514,18 @@
          given={D\bibnamedelima H},
          giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
-      {{hash=T}{%
+      {{hash=TP}{%
          family={T{\"o}rm{\"a}},
          familyi={T\bibinitperiod},
+         given={P},
+         giveni={P},
       }}%
     }
     \list{publisher}{1}{%
       {ACS Publications}%
     }
-    \strng{namehash}{VAIMRJRHTEAPaMJPKDHT1}
-    \strng{fullhash}{VAIMRJRHTEAPaMJPKDHT1}
+    \strng{namehash}{VAIMRJRHTEAPMJPKDHTP1}
+    \strng{fullhash}{VAIMRJRHTEAPMJPKDHTP1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{number}{4}
@@ -1743,62 +1748,43 @@
     \field{year}{2019}
   \endentry
 
-  \entry{fan2009bio}{inproceedings}{}
+  \entry{fan2009bio}{article}{}
     \name{author}{4}{}{%
       {{hash=FJH}{%
          family={Fan},
          familyi={F\bibinitperiod},
-         given={J.\bibnamedelima H.},
+         given={J\bibnamedelima H},
          giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
       {{hash=HWI}{%
          family={Hung},
          familyi={H\bibinitperiod},
-         given={W.\bibnamedelima I.},
+         given={W\bibnamedelima I},
          giveni={W\bibinitperiod\bibinitdelim I\bibinitperiod},
       }}%
       {{hash=LWT}{%
          family={Li},
          familyi={L\bibinitperiod},
-         given={W.\bibnamedelima T.},
+         given={W\bibnamedelima T},
          giveni={W\bibinitperiod\bibinitdelim T\bibinitperiod},
       }}%
       {{hash=YJM}{%
          family={Yeh},
          familyi={Y\bibinitperiod},
-         given={J.\bibnamedelima M.},
+         given={J\bibnamedelima M},
          giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
       }}%
     }
-    \name{editor}{2}{}{%
-      {{hash=LCT}{%
-         family={Lim},
-         familyi={L\bibinitperiod},
-         given={Chwee\bibnamedelima Teck},
-         giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod},
-      }}%
-      {{hash=GJCH}{%
-         family={Goh},
-         familyi={G\bibinitperiod},
-         given={James C.\bibnamedelima H.},
-         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
-  H\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Springer Berlin Heidelberg}%
-    }
+    \keyw{biocompatibility,differen-,gold nanoparticle,huh-7,mesenchymal stem
+  cell,tiation}
     \strng{namehash}{FJHHWILWTYJM1}
     \strng{fullhash}{FJHHWILWTYJM1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{booktitle}{13th International Conference on Biomedical Engineering}
     \field{isbn}{978-3-540-92841-6}
     \field{pages}{870\bibrangedash 873}
-    \field{title}{Biocompatibility Study of Gold Nanoparticles to Human Cells}
-    \list{location}{1}{%
-      {Berlin, Heidelberg}%
-    }
+    \field{title}{{Biocompatibility Study of Gold Nanoparticles to Human Cells
+  BT - 13th International Conference on Biomedical Engineering}}
     \field{year}{2009}
   \endentry
 

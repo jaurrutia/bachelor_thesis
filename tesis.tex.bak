@@ -32,7 +32,7 @@
 \vocal{Grado \\ Nombre  \\ Apellido paterno \\ Apellido materno}
 \supuno{Grado \\ Nombre   \\ Apellido paterno \\ Apellido materno}
 \supdos{Grado \\ Nombre   \\ Apellido paterno \\ Apellido materno}
-\pags{106 pp}
+\pags{105 pp}
 
 \keywords{tesis,autor,tutor,etc}            % Palablas clave para los metadatos del PDF
 \subject{tema_1,tema_2}                     % Tema para metadatos del PDF  
@@ -81,14 +81,14 @@
 \input{2-Resultados/1-Drude}          
 	\input{2-Resultados/2-AuAg}
 	\input{2-Resultados/3-SensLambda}
-\include{3-Conclusiones/1-Conclusiones}        
+\input{3-Conclusiones/1-Conclusiones}        
 
 %-------------------------------------------------------------------------------
 %                               References                                   |
 %-------------------------------------------------------------------------------
 
-%\appendix
-%\include{07-Apendice/1-Teoria_Mie}  
+\appendix
+\input{07-Apendice/2-ComparacionSPP_CSM.tex}  
 
 %\bibliographystyle{unsrt} % otros estilos pueden ser abbrv, acm, alpha, 
 %\bibliographystyle{abbrv}
