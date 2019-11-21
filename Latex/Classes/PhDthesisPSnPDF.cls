@@ -44,7 +44,7 @@
  
 \setlength\cftparskip{.5em}
 \setlength\cftbeforechapskip{0pt}
-	%---------------------- Figures ----------------------------
+	%---------------------- Figurbackref change legend latex bibtexes ----------------------------
 		\usepackage[margin=10pt,font=scriptsize,labelfont=bf, ]{caption}  
 		\usepackage[labelformat=simple]{subcaption} % labelformat=simple   O brace
 %		\usepackage{subcaption}
@@ -93,6 +93,11 @@
 					sorting = none,
 					backref=true]{biblatex} %style = trad-abbrv
 		\DeclareFieldFormat[article]{volume}{\mkbibbold{#1}}
+
+\DefineBibliographyStrings{spanish}{%
+  backrefpage = {citado en la pág.},% originally "cited on page"
+  backrefpages = {citado en las págs.},% originally "cited on pages"
+}		
 		\addbibresource{04-Bibliografia/references.bib}
 	%	\usepackage{cite}
 		%\usepackage[style = trad-abbrv, backend = bibtex]{biblatex}

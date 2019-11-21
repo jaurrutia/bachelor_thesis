@@ -23,16 +23,16 @@
 % ----------------------------- Datos del jurado
 \student{Urrutia\\ Anguiano\\ Jonathan Alexis\\ 55 44 44 60 93\\ Universidad Nacional Autónoma de México\\ Facultad de Ciencias\\ Física\\ 414011025}
 \secretario{Dr \\ Alejandro \\ Reyes \\Coronado}
-%\presidente{Dr \\ Rubén \\ Gerardo \\ Barrera \\ y Pérez}
-%\vocal{Dra \\ Citlali\\ Sánchez\\ Aké}
-%\supuno{Dr\\ Guseppe \\Pirruccio}
-%\supdos{Dra\\ Celia \\Angelina\\ Sánchez\\ Pérez}
-%\pags{103p}
-\presidente{Grado \\ Nombre  \\ Apellido paterno \\ Apellido materno}
-\vocal{Grado \\ Nombre  \\ Apellido paterno \\ Apellido materno}
-\supuno{Grado \\ Nombre   \\ Apellido paterno \\ Apellido materno}
-\supdos{Grado \\ Nombre   \\ Apellido paterno \\ Apellido materno}
-\pags{105 pp}
+\presidente{Dr \\ Rubén \\ Gerardo \\ Barrera \\ y Pérez}
+\vocal{Dra \\ Citlali\\ Sánchez\\ Aké}
+\supuno{Dr\\ Guseppe \\Pirruccio}
+\supdos{Dra\\ Celia \\Angelina\\ Sánchez\\ Pérez}
+\pags{107p}
+%\presidente{Grado \\ Nombre  \\ Apellido paterno \\ Apellido materno}
+%\vocal{Grado \\ Nombre  \\ Apellido paterno \\ Apellido materno}
+%\supuno{Grado \\ Nombre   \\ Apellido paterno \\ Apellido materno}
+%\supdos{Grado \\ Nombre   \\ Apellido paterno \\ Apellido materno}
+%\pags{105 pp}
 
 \keywords{tesis,autor,tutor,etc}            % Palablas clave para los metadatos del PDF
 \subject{tema_1,tema_2}                     % Tema para metadatos del PDF  
