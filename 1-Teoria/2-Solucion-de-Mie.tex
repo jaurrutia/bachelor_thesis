@@ -1,3 +1,5 @@
+% !TeX root = ../tesis.tex
+
 \section{Solución de Mie}
 \label{section:Mie}
 
@@ -163,12 +165,11 @@ Las ecuaciones de Maxwell, al considerar una región del espacio sin fuentes y c
 	\end{subequations} \vspace*{-1em}
 	
 \noindent	
-en donde $\vb{H} = \vb{B}/\mu$ es el campo H, y tanto la función dieléctrica $\varepsilon(\omega)$ como la permeabilidad magnética $\mu$ del material son funciones continuas. Al desacoplar las ecuaciones de Maxwell, se concluye que los campos EMs son soluciones a la ecuación de Helmholtz vectorial   \cite{jackson1999electrodynamics}\index{Ecuación!de Helmholtz}
+en donde $\vb{H} = \vb{B}/\mu$ es el campo H, y tanto la función dieléctrica $\varepsilon(\omega)$ como la permeabilidad magnética $\mu$ del material son funciones continuas. Al desacoplar las ecuaciones de Maxwell, se concluye que los campos EMs son soluciones a la ecuación de Helmholtz vectorial  [Ecs. \eqref{eq:Helmholtz}] \cite{jackson1999electrodynamics}\index{Ecuación!de Helmholtz}
 
-	\begin{taggedsubequations}{\ref{eq:Helmholtz}}\label{eq:Helmholtz2}
-	\eqhalf{\nabla^2 \vb{E}+ k^2 \vb{E} = \vb{0},}
-	\eqhalf{\nabla^2 \vb{H}+ k^2 \vb{H} = \vb{0},}
-	\end{taggedsubequations} \vspace*{-1em}
+	\eqhalf{\nabla^2 \vb{E}+ k^2 \vb{E} = \vb{0}, \notag}
+	\eqhalf{\nabla^2 \vb{H}+ k^2 \vb{H} = \vb{0},\notag}
+	 \vspace*{-1em}
 
 \noindent	
 en donde $k = n k_0$ es la magnitud del vector de onda, $n$ es el índice de refracción en la región del espacio donde se evalúan los campos EMs [Ec. \eqref{eq:indice}] y $k_0 = \omega / c$ es la relación de dispersión en el vacío [Ec. \eqref{eq:dispersion}].
@@ -198,7 +199,7 @@ cuyo laplaciano es $\nabla^2 \vb{N} = \nabla^2( \nabla\times \vb{M} /k) =  \nabl
 		 = \frac{1}{k} \nabla\times \left( \nabla^2 \vb{M} + k^2  \vb{M} \right).
 	\end{align*}\noindent
 %
-Los campos $\vb{M}$ y $\vb{N}$ cumplen con la  ecuación de Helmholtz vectorial [Ec. \eqref{eq:Helmholtz2}] si, y sólo si, la función escalar $\psi$ cumple con la ecuación de Helmholtz escalar $\nabla^2 \psi + k^2 \psi = 0$. Si este es el caso, entonces, el rotacional de $\vb{N}$ está dado por
+Los campos $\vb{M}$ y $\vb{N}$ cumplen con la  ecuación de Helmholtz vectorial [Ecs. \eqref{eq:Helmholtz}] si, y sólo si, la función escalar $\psi$ cumple con la ecuación de Helmholtz escalar $\nabla^2 \psi + k^2 \psi = 0$. Si este es el caso, entonces, el rotacional de $\vb{N}$ está dado por
 %
 	\begin{align}
 	\nabla\times \vb{N} &= \nabla\times \qty(\frac{\nabla\times \vb{M}}{k})  
