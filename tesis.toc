@@ -43,6 +43,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {}Conclusiones}{81}{chapter*.54}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Comparaci\IeC {\'o}n de una pel\IeC {\'\i }cula continua y de una monocapa de nanopart\IeC {\'\i }culas como biosensores}{83}{appendix.Alph1}
+\contentsline {chapter}{\numberline {A}Comparaci\IeC {\'o}n de la sensibilidad de una pel\IeC {\'\i }cula continua y de una monocapa de nanopart\IeC {\'\i }culas}{83}{appendix.Alph1}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\'{I}ndice alfab\'{e}tico}{93}{section*.59}

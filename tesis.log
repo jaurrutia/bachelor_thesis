@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.24)  28 NOV 2019 10:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.24)  28 NOV 2019 11:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5374,9 +5374,15 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [77 <./2-Resultados/figs/11-SPPCSM/1_comparacionAugtEye.pdf>]
-LaTeX Info: Redefining \sptext on input line 61.
-LaTeX Info: Redefining \. on input line 61.
-LaTeX Info: Redefining \% on input line 61.
+<2-Resultados/figs/11-SPPCSM/2-RpRs.pdf, id=52168, 562.44662pt x 276.0391pt>
+File: 2-Resultados/figs/11-SPPCSM/2-RpRs.pdf Graphic file (type pdf)
+<use 2-Resultados/figs/11-SPPCSM/2-RpRs.pdf>
+Package pdftex.def Info: 2-Resultados/figs/11-SPPCSM/2-RpRs.pdf  used on input 
+line 36.
+(pdftex.def)             Requested size: 455.24408pt x 223.42616pt.
+LaTeX Info: Redefining \sptext on input line 42.
+LaTeX Info: Redefining \. on input line 42.
+LaTeX Info: Redefining \% on input line 42.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -5384,16 +5390,10 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[78]
-<2-Resultados/figs/11-SPPCSM/2-RpRs.pdf, id=52193, 562.44662pt x 276.0391pt>
-File: 2-Resultados/figs/11-SPPCSM/2-RpRs.pdf Graphic file (type pdf)
-<use 2-Resultados/figs/11-SPPCSM/2-RpRs.pdf>
-Package pdftex.def Info: 2-Resultados/figs/11-SPPCSM/2-RpRs.pdf  used on input 
-line 65.
-(pdftex.def)             Requested size: 455.24408pt x 223.42616pt.
-LaTeX Info: Redefining \sptext on input line 71.
-LaTeX Info: Redefining \. on input line 71.
-LaTeX Info: Redefining \% on input line 71.
+[78 <./2-Resultados/figs/11-SPPCSM/2-RpRs.pdf>]
+LaTeX Info: Redefining \sptext on input line 74.
+LaTeX Info: Redefining \. on input line 74.
+LaTeX Info: Redefining \% on input line 74.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -5401,8 +5401,7 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[79 <./2-Resultados/figs/11-SPPCSM/2-RpRs.pdf>])
-(./3-Conclusiones/1-Conclusiones.tex
+[79]) (./3-Conclusiones/1-Conclusiones.tex
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -5433,11 +5432,11 @@ Ap\'{e}ndice A.
 File: 2-Resultados/figs/11-SPPCSM/3-2D_Grid.png Graphic file (type png)
 <use 2-Resultados/figs/11-SPPCSM/3-2D_Grid.png>
 Package pdftex.def Info: 2-Resultados/figs/11-SPPCSM/3-2D_Grid.png  used on inp
-ut line 11.
+ut line 9.
 (pdftex.def)             Requested size: 276.63547pt x 223.03137pt.
 File: 2-Resultados/figs/0-RBar_v.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/0-RBar_v.pdf>
-Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 12.
+Package pdftex.def Info: 2-Resultados/figs/0-RBar_v.pdf  used on input line 10.
 
 (pdftex.def)             Requested size: 40.14989pt x 205.76826pt.
 
@@ -5446,13 +5445,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [83
 
 ]
+LaTeX Info: Redefining \sptext on input line 51.
+LaTeX Info: Redefining \. on input line 51.
+LaTeX Info: Redefining \% on input line 51.
 
-LaTeX Warning: Reference `eq:penetraci\IeC {\'o}n' on page 84 undefined on inpu
-t line 46.
-
-LaTeX Info: Redefining \sptext on input line 53.
-LaTeX Info: Redefining \. on input line 53.
-LaTeX Info: Redefining \% on input line 53.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 27.07053pt.
@@ -5460,53 +5456,53 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [84 <./2-Resultados/figs/11-SPPCSM/3-2D_Grid.png>]
-Overfull \hbox (5.51012pt too wide) in paragraph at lines 57--57
+Overfull \hbox (5.51012pt too wide) in paragraph at lines 55--55
 []\T1/cmr/bx/n/10 a)|| 
  []
 
-<2-Resultados/figs/11-SPPCSM/4_Sens_h20-SPP.pdf, id=60796, 216.7606pt x 141.795
+<2-Resultados/figs/11-SPPCSM/4_Sens_h20-SPP.pdf, id=60797, 216.7606pt x 141.795
 pt>
 File: 2-Resultados/figs/11-SPPCSM/4_Sens_h20-SPP.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/11-SPPCSM/4_Sens_h20-SPP.pdf>
 Package pdftex.def Info: 2-Resultados/figs/11-SPPCSM/4_Sens_h20-SPP.pdf  used o
-n input line 59.
+n input line 57.
 (pdftex.def)             Requested size: 216.76006pt x 141.79465pt.
 
-Overfull \hbox (8.87929pt too wide) in paragraph at lines 58--59
+Overfull \hbox (8.87929pt too wide) in paragraph at lines 56--57
 []|  [] 
  []
 
 
-Overfull \hbox (6.30853pt too wide) in paragraph at lines 61--61
+Overfull \hbox (6.30853pt too wide) in paragraph at lines 59--59
 []\T1/cmr/bx/n/10 b)|| 
  []
 
-<2-Resultados/figs/11-SPPCSM/5_Sens_h20_CSMP.pdf, id=60797, 216.48795pt x 136.4
+<2-Resultados/figs/11-SPPCSM/5_Sens_h20_CSMP.pdf, id=60798, 216.48795pt x 136.4
 666pt>
 File: 2-Resultados/figs/11-SPPCSM/5_Sens_h20_CSMP.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/11-SPPCSM/5_Sens_h20_CSMP.pdf>
 Package pdftex.def Info: 2-Resultados/figs/11-SPPCSM/5_Sens_h20_CSMP.pdf  used 
-on input line 63.
+on input line 61.
 (pdftex.def)             Requested size: 216.48741pt x 136.46625pt.
 
-Overfull \hbox (5.88467pt too wide) in paragraph at lines 62--63
+Overfull \hbox (5.88467pt too wide) in paragraph at lines 60--61
 []|  [] 
  []
 
 
-Overfull \hbox (5.03107pt too wide) in paragraph at lines 64--64
+Overfull \hbox (5.03107pt too wide) in paragraph at lines 62--62
 []\T1/cmr/bx/n/10 c)|| 
  []
 
-<2-Resultados/figs/11-SPPCSM/6_Sens_h20_CSMS.pdf, id=60798, 217.25984pt x 136.9
+<2-Resultados/figs/11-SPPCSM/6_Sens_h20_CSMS.pdf, id=60799, 217.25984pt x 136.9
 505pt>
 File: 2-Resultados/figs/11-SPPCSM/6_Sens_h20_CSMS.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/11-SPPCSM/6_Sens_h20_CSMS.pdf>
 Package pdftex.def Info: 2-Resultados/figs/11-SPPCSM/6_Sens_h20_CSMS.pdf  used 
-on input line 66.
+on input line 64.
 (pdftex.def)             Requested size: 217.25931pt x 136.95016pt.
 
-Overfull \hbox (12.40086pt too wide) in paragraph at lines 66--66
+Overfull \hbox (12.40086pt too wide) in paragraph at lines 64--64
  [][] 
  []
 
@@ -5627,24 +5623,21 @@ LaTeX Info: Redefining \% on input line 35.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 106.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 106.
 Package rerunfilecheck Info: File `tesis.out' has not changed.
-(rerunfilecheck)             Checksum: 0AA07C2B8C9203B655EBC5469CBA4345;2135.
+(rerunfilecheck)             Checksum: 3BA6859CD93D92A28EFA833211AD0734;2137.
 
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package logreq Info: Writing requests to 'tesis.run.xml'.
 \openout1 = `tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 61817 strings out of 492982
- 1368989 string characters out of 6134895
+ 61819 strings out of 492982
+ 1369021 string characters out of 6134895
  1955839 words of memory out of 5000000
  63519 multiletter control sequences out of 15000+600000
- 585036 words of font info for 299 fonts, out of 8000000 for 9000
+ 585157 words of font info for 300 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,19n,103p,10570b,2793s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
@@ -5691,10 +5684,10 @@ onts/type1/public/cm-super/sfti0900.pfb></usr/share/texmf/fonts/type1/public/cm
 -super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
 </usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf/fo
 nts/type1/public/cm-super/sfxc1095.pfb>
-Output written on tesis.pdf (107 pages, 32838206 bytes).
+Output written on tesis.pdf (107 pages, 32836831 bytes).
 PDF statistics:
- 61451 PDF objects out of 66169 (max. 8388607)
- 33044 compressed objects within 331 object streams
+ 61453 PDF objects out of 66169 (max. 8388607)
+ 33046 compressed objects within 331 object streams
  417 named destinations out of 1000 (max. 500000)
  47435 words of extra memory for PDF output out of 51595 (max. 10000000)
 
