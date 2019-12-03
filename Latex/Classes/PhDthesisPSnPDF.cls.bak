@@ -42,7 +42,7 @@
 \makeindex[intoc]
 \usepackage{tocloft}
  
-\setlength\cftparskip{.5em}
+\setlength\cftparskip{.6em}
 \setlength\cftbeforechapskip{0pt}
 	%---------------------- Figurbackref change legend latex bibtexes ----------------------------
 		\usepackage[margin=10pt,font=scriptsize,labelfont=bf, ]{caption}  

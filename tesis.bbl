@@ -379,8 +379,8 @@
       {{hash=PR}{%
          family={Pollard},
          familyi={P\bibinitperiod},
-         given={R},
-         giveni={R},
+         given={R.},
+         giveni={R\bibinitperiod},
       }}%
       {{hash=PVA}{%
          family={Podolskiy},
@@ -517,8 +517,8 @@
       {{hash=TP}{%
          family={T{\"o}rm{\"a}},
          familyi={T\bibinitperiod},
-         given={P},
-         giveni={P},
+         given={P.},
+         giveni={P\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
@@ -925,7 +925,7 @@
     \field{labeltitlesource}{title}
     \field{number}{4}
     \field{pages}{64}
-    \field{title}{Who really discovered Snell's law?}
+    \field{title}{Who really discovered {Snell's} law?}
     \field{volume}{15}
     \field{journaltitle}{Physics World}
     \field{year}{2002}
@@ -1749,43 +1749,6 @@
   \endentry
 
   \entry{fan2009bio}{article}{}
-    \name{author}{4}{}{%
-      {{hash=FJH}{%
-         family={Fan},
-         familyi={F\bibinitperiod},
-         given={J\bibnamedelima H},
-         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-      {{hash=HWI}{%
-         family={Hung},
-         familyi={H\bibinitperiod},
-         given={W\bibnamedelima I},
-         giveni={W\bibinitperiod\bibinitdelim I\bibinitperiod},
-      }}%
-      {{hash=LWT}{%
-         family={Li},
-         familyi={L\bibinitperiod},
-         given={W\bibnamedelima T},
-         giveni={W\bibinitperiod\bibinitdelim T\bibinitperiod},
-      }}%
-      {{hash=YJM}{%
-         family={Yeh},
-         familyi={Y\bibinitperiod},
-         given={J\bibnamedelima M},
-         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-    }
-    \keyw{biocompatibility,differen-,gold nanoparticle,huh-7,mesenchymal stem
-  cell,tiation}
-    \strng{namehash}{FJHHWILWTYJM1}
-    \strng{fullhash}{FJHHWILWTYJM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{isbn}{978-3-540-92841-6}
-    \field{pages}{870\bibrangedash 873}
-    \field{title}{{Biocompatibility Study of Gold Nanoparticles to Human Cells
-  BT - 13th International Conference on Biomedical Engineering}}
-    \field{year}{2009}
   \endentry
 
   \entry{bosetti2002silver}{article}{}
@@ -1831,6 +1794,92 @@
     \field{volume}{23}
     \field{journaltitle}{Biomaterials}
     \field{year}{2002}
+  \endentry
+
+  \entry{wuithschick2015turkevich}{article}{}
+    \name{author}{10}{}{%
+      {{hash=WM}{%
+         family={Wuithschick},
+         familyi={W\bibinitperiod},
+         given={Maria},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Birnbaum},
+         familyi={B\bibinitperiod},
+         given={Alexander},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Witte},
+         familyi={W\bibinitperiod},
+         given={Steffen},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Sztucki},
+         familyi={S\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=VU}{%
+         family={Vainio},
+         familyi={V\bibinitperiod},
+         given={Ulla},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=PN}{%
+         family={Pinna},
+         familyi={P\bibinitperiod},
+         given={Nicola},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=RK}{%
+         family={Rademann},
+         familyi={R\bibinitperiod},
+         given={Klaus},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=EF}{%
+         family={Emmerling},
+         familyi={E\bibinitperiod},
+         given={Franziska},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=KR}{%
+         family={Kraehnert},
+         familyi={K\bibinitperiod},
+         given={Ralph},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={Polte},
+         familyi={P\bibinitperiod},
+         given={J{\"{o}}rg},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{SAXS,Turkevich,gold nanoparticles,growth mechanism,size
+  control,tetrachloroauric acid}
+    \strng{namehash}{WMBAWSSMVUPNRKEFKRPJ1}
+    \strng{fullhash}{WMBAWSSMVUPNRKEFKRPJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1021/acsnano.5b01579
+    \endverb
+    \field{issn}{1936086X}
+    \field{number}{7}
+    \field{pages}{7052\bibrangedash 7071}
+    \field{title}{{Turkevich in New Robes: Key Questions Answered for the Most
+  Common Gold Nanoparticle Synthesis}}
+    \field{volume}{9}
+    \verb{file}
+    \verb :mnt/ACEC99E0EC99A55C/Users/Jonathan/Documents/Libros/Articles/TurkMe
+    \verb thod Wuithschick 2015.pdf:pdf
+    \endverb
+    \field{journaltitle}{ACS Nano}
+    \field{year}{2015}
   \endentry
 \enddatalist
 \endinput

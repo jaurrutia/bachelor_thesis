@@ -1,9 +1,28 @@
-%\chapter*{}
-%\pagenumbering{Roman}
-
+% !TeX root = ../tesis.tex
 \begin{acknowledgements}
 \addcontentsline{toc}{chapter}{\protect\numberline{}Agradecimientos}
-También quisiera reconocer a ... por ...CONACYT,  PAPIIT / etc.
+\small
+
+En estas líneas agradezco a quienes me brindaron apoyo y me guiaron durante mis estudios profesionales en la Universidad Nacional Autónoma de México (UNAM). Primeramente, en el ámbito académico, agradezco al Dr. Alejandro Reyes Coronado por sus consejos a lo largo de varios años de trabajo junto a él; a la Dra. Citlali Sánchez Aké por permitirme acercarme al trabajo experimental en su laboratorio; al Dr. Rubén Gerardo Barrera y Pérez no sólo por sus enseñanzas en la física, sino por mostrarme que la vida hay que disfrutarla; y al Dr. Guiseppe Pirruccio por sus valiosos comentarios y críticas al trabajo. Asimismo, agradezco al proyecto  DGAPA-UNAM PAPIIT IN114919 por el apoyo económico que me otorgó a lo largo de un año para desarrollar mi trabajo de tesis de licenciatura y al programa de movilidad estudiantil de la Dirección General de Cooperación e Internacionalización por corroborar que la formación que me dio la UNAM compite con la de cualquier lado del mundo.
+
+También quiero reconocer el esfuerzo de mi familia: a mi mamá, quien, entre muchas otras cosas, me enseñó que lo que uno hace por los demás no es una molestia sino una muestra de cariño; a mi papá, por desarrollar un interés en lo que me apasiona y conocerme a través de ello; a mis hermanas, Abby y Dianis, por aconsejarme desde la experiencia y el entendimiento en la que fue una nueva etapa; y a Mamá Bola y a Tío Beto, por todo lo que fueron para mí.
+
+Igualmente, le doy las gracias a quienes me siguen acompañando desde hace varios ayeres: a Ximena LP, David de Aragón, Adrián AJ y Bryan ChH, por amistades eternas basadas en discutir, en escuchar, en descubrir y en reconocer, respectivamente, y que con el paso del tiempo sólo ganan fortaleza y significado para mí; y a Karla GB, por forjar conmigo una relación que, pese a nuestro reniegue por el otro, ha sido de las más valiosas.
+
+Finalmente, les ofrezco (en orden cronológico) mis más sinceras palabras de gratitud por una camaradería siempre creciente: a Leo GP, por brindarme una  amistad que me costó el último bocado de chilaquiles, el cual cedería de nuevo; a Clau GR, por las intermitentes, pero siempre gratificantes, pláticas rondando por la ciudad; a JA Polanco, por tus habilidades culinarias y por encarnar la fidelidad con los amigos; a EA Conde, por su sinceridad perpetua y clases de baile; a Jorge BD, por compartir conmigo \emph{el juego} de la ayudantía, la tesis y los propes; a Diana PV, por el asilo en su cubo y la confianza que nos dimos; a Mariana dBF, por enseñarme nuevas formas de aprender y el mensaje de Moby Dick: ser tú mismo; a Juan José BM, por ser las Prispas en medio de las Pringles (en varios sentidos); \textit{Karen LM, für die schöne Piñata und die unerwartete Freundschaft}; \textit{den faulen Veronika Z, Darko Z und C Ying, die meine Familie waren und mit denen ich nur Abenteuer erlebt}; al gran JC, por las clases de mecánica y termo, pero también por mostrar determinación en lo que se quiere; y (nuevamente) a Clau GR por permitirme conocernos de nuevo, aprender del otro y crecer juntos.
+
+
+
+
+
+
+
+
+
+
+
+
+
 %\blindtext % Dummy text
 \end{acknowledgements}
 
