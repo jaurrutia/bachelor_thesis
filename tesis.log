@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.24)  3 DEC 2019 12:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.24)  16 JAN 2020 18:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3175,20 +3175,20 @@ LaTeX Info: Redefining \% on input line 35.
 (./0-3-Resumen/1-Resumen.aux) (./0-1-Agradecimientos/1-Dedicatoria.aux))
 \openout1 = `tesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
 \c@lstlisting=\count500
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
@@ -3226,10 +3226,10 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-LaTeX Info: Redefining \sptext on input line 42.
-LaTeX Info: Redefining \. on input line 42.
-LaTeX Info: Redefining \% on input line 42.
-LaTeX Info: Redefining \microtypecontext on input line 42.
+LaTeX Info: Redefining \sptext on input line 37.
+LaTeX Info: Redefining \. on input line 37.
+LaTeX Info: Redefining \% on input line 37.
+LaTeX Info: Redefining \microtypecontext on input line 37.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -3255,17 +3255,17 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'tesis.bbl' found.
  (./tesis.bbl)
-Package biblatex Info: Reference section=0 on input line 42.
-Package biblatex Info: Reference segment=0 on input line 42.
+Package biblatex Info: Reference section=0 on input line 37.
+Package biblatex Info: Reference segment=0 on input line 37.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.15} into 
 your preamble.
- on input line 42.
+ on input line 37.
 
 \AtBeginShipoutBox=\box131
-Package hyperref Info: Link coloring ON on input line 42.
+Package hyperref Info: Link coloring ON on input line 37.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -3274,9 +3274,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count507
 )
-LaTeX Info: Redefining \ref on input line 42.
-LaTeX Info: Redefining \pageref on input line 42.
-LaTeX Info: Redefining \nameref on input line 42.
+LaTeX Info: Redefining \ref on input line 37.
+LaTeX Info: Redefining \pageref on input line 37.
+LaTeX Info: Redefining \nameref on input line 37.
 
 (./tesis.out) (./tesis.out)
 \@outlinefile=\write9
@@ -3286,15 +3286,15 @@ LaTeX Info: Redefining \nameref on input line 42.
 File: Latex/Classes/Escudos/UNAM_crest_blue.pdf Graphic file (type pdf)
 <use Latex/Classes/Escudos/UNAM_crest_blue.pdf>
 Package pdftex.def Info: Latex/Classes/Escudos/UNAM_crest_blue.pdf  used on inp
-ut line 44.
+ut line 39.
 (pdftex.def)             Requested size: 65.79741pt x 73.97733pt.
 <Latex/Classes/Escudos/FC_crest_blue.pdf, id=136, 1860.9525pt x 2071.74pt>
 File: Latex/Classes/Escudos/FC_crest_blue.pdf Graphic file (type pdf)
 <use Latex/Classes/Escudos/FC_crest_blue.pdf>
 Package pdftex.def Info: Latex/Classes/Escudos/FC_crest_blue.pdf  used on input
- line 44.
+ line 39.
 (pdftex.def)             Requested size: 66.4462pt x 73.97733pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 44.
+LaTeX Font Info:    Try loading font information for U+msa on input line 39.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -3302,7 +3302,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 44.
+LaTeX Font Info:    Try loading font information for U+msb on input line 39.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -3310,21 +3310,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 44.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 39.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Overfull \vbox (255.31291pt too high) detected at line 44
+Overfull \vbox (255.31291pt too high) detected at line 39
  []
 
 
-Underfull \hbox (badness 10000) detected at line 44
+Underfull \hbox (badness 10000) detected at line 39
 \T1/cmr/m/n/24.88 T E S I S
  []
 
 
-Overfull \vbox (243.48212pt too high) detected at line 44
+Overfull \vbox (243.48212pt too high) detected at line 39
  []
 
 [1
@@ -3333,7 +3333,7 @@ Overfull \vbox (243.48212pt too high) detected at line 44
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Latex/Classes/Escudos/UN
 AM_crest_blue.pdf> <./Latex/Classes/Escudos/FC_crest_blue.pdf>] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 
  []
 
@@ -3361,7 +3361,7 @@ l.2 \begin{acknowledgements}
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.27 \end{acknowledgements}
+l.28 \end{acknowledgements}
                             [3])
 \openout2 = `0-3-Resumen/1-Resumen.aux'.
 
@@ -3971,11 +3971,11 @@ gnored
                                                   
 l.536 	\begin{subequations}\begin{align}
                                         ]
-<1-Teoria/figs/EsNorm.pdf, id=911, 501.875pt x 53.19875pt>
+<1-Teoria/figs/EsNorm.pdf, id=911, 501.875pt x 52.195pt>
 File: 1-Teoria/figs/EsNorm.pdf Graphic file (type pdf)
 <use 1-Teoria/figs/EsNorm.pdf>
 Package pdftex.def Info: 1-Teoria/figs/EsNorm.pdf  used on input line 604.
-(pdftex.def)             Requested size: 426.59575pt x 45.21913pt.
+(pdftex.def)             Requested size: 426.59575pt x 44.36595pt.
 <1-Teoria/figs/Ne11_static.png, id=912, 513.5988pt x 448.074pt>
 File: 1-Teoria/figs/Ne11_static.png Graphic file (type png)
 <use 1-Teoria/figs/Ne11_static.png>
@@ -5013,12 +5013,12 @@ Package pdftex.def Info: 2-Resultados/figs/0-IBar_v.pdf  used on input line 199
 .
 (pdftex.def)             Requested size: 40.14989pt x 205.76826pt.
 
-Overfull \hbox (61.06883pt too wide) in paragraph at lines 196--211
+Overfull \hbox (61.06883pt too wide) in paragraph at lines 196--215
 []|  [] 
  []
 
 
-Overfull \hbox (6.30853pt too wide) in paragraph at lines 212--212
+Overfull \hbox (6.30853pt too wide) in paragraph at lines 216--216
 []\T1/cmr/bx/n/10 b)|| 
  []
 
@@ -5027,24 +5027,24 @@ Overfull \hbox (6.30853pt too wide) in paragraph at lines 212--212
 File: 2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_2.png Graphic file (type png)
 <use 2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_2.png>
 Package pdftex.def Info: 2-Resultados/figs/5-RT-Wp4-10/0-2D_Grid_2.png  used on
- input line 215.
+ input line 219.
 (pdftex.def)             Requested size: 273.76381pt x 222.79205pt.
 File: 2-Resultados/figs/0-IBar_v.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/0-IBar_v.pdf>
-Package pdftex.def Info: 2-Resultados/figs/0-IBar_v.pdf  used on input line 216
+Package pdftex.def Info: 2-Resultados/figs/0-IBar_v.pdf  used on input line 220
 .
 (pdftex.def)             Requested size: 40.14989pt x 205.76826pt.
 
-Overfull \hbox (57.80377pt too wide) in paragraph at lines 213--228
+Overfull \hbox (57.80377pt too wide) in paragraph at lines 217--236
 []|  [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Info: Redefining \sptext on input line 235.
-LaTeX Info: Redefining \. on input line 235.
-LaTeX Info: Redefining \% on input line 235.
+LaTeX Info: Redefining \sptext on input line 243.
+LaTeX Info: Redefining \. on input line 243.
+LaTeX Info: Redefining \% on input line 243.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 27.07053pt.
@@ -5284,12 +5284,12 @@ Package pdftex.def Info: 2-Resultados/figs/0-IBar_v.pdf  used on input line 154
 .
 (pdftex.def)             Requested size: 40.14989pt x 205.76826pt.
 
-Overfull \hbox (54.86389pt too wide) in paragraph at lines 151--166
+Overfull \hbox (54.86389pt too wide) in paragraph at lines 151--170
 []|  [] 
  []
 
 
-Overfull \hbox (6.30853pt too wide) in paragraph at lines 167--167
+Overfull \hbox (6.30853pt too wide) in paragraph at lines 171--171
 []\T1/cmr/bx/n/10 b)|| 
  []
 
@@ -5298,21 +5298,21 @@ t>
 File: 2-Resultados/figs/10-RT-AuAg/0-2D_Grid_2.png Graphic file (type png)
 <use 2-Resultados/figs/10-RT-AuAg/0-2D_Grid_2.png>
 Package pdftex.def Info: 2-Resultados/figs/10-RT-AuAg/0-2D_Grid_2.png  used on 
-input line 170.
+input line 174.
 (pdftex.def)             Requested size: 275.348pt x 222.83195pt.
 File: 2-Resultados/figs/0-IBar_v.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/0-IBar_v.pdf>
-Package pdftex.def Info: 2-Resultados/figs/0-IBar_v.pdf  used on input line 171
+Package pdftex.def Info: 2-Resultados/figs/0-IBar_v.pdf  used on input line 175
 .
 (pdftex.def)             Requested size: 40.14989pt x 205.76826pt.
 
-Overfull \hbox (54.50253pt too wide) in paragraph at lines 168--183
+Overfull \hbox (54.50253pt too wide) in paragraph at lines 172--191
 []|  [] 
  []
 
-LaTeX Info: Redefining \sptext on input line 188.
-LaTeX Info: Redefining \. on input line 188.
-LaTeX Info: Redefining \% on input line 188.
+LaTeX Info: Redefining \sptext on input line 196.
+LaTeX Info: Redefining \. on input line 196.
+LaTeX Info: Redefining \% on input line 196.
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
  Make it at least 25.22153pt.
@@ -5320,9 +5320,9 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [73 <./2-Resultados/figs/8-AurVar/0-cut75_Au_Aug.pdf>]
-LaTeX Info: Redefining \sptext on input line 188.
-LaTeX Info: Redefining \. on input line 188.
-LaTeX Info: Redefining \% on input line 188.
+LaTeX Info: Redefining \sptext on input line 196.
+LaTeX Info: Redefining \. on input line 196.
+LaTeX Info: Redefining \% on input line 196.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -5373,15 +5373,21 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [77 <./2-Resultados/figs/11-SPPCSM/1_comparacionAugtEye.pdf>]
-<2-Resultados/figs/11-SPPCSM/2-RpRs.pdf, id=52168, 562.44662pt x 276.0391pt>
+<2-Resultados/figs/0-nmBar_h.pdf, id=52168, 501.875pt x 35.13126pt>
+File: 2-Resultados/figs/0-nmBar_h.pdf Graphic file (type pdf)
+<use 2-Resultados/figs/0-nmBar_h.pdf>
+Package pdftex.def Info: 2-Resultados/figs/0-nmBar_h.pdf  used on input line 36
+.
+(pdftex.def)             Requested size: 455.24408pt x 31.86868pt.
+<2-Resultados/figs/11-SPPCSM/2-RpRs.pdf, id=52169, 562.44662pt x 276.0391pt>
 File: 2-Resultados/figs/11-SPPCSM/2-RpRs.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/11-SPPCSM/2-RpRs.pdf>
 Package pdftex.def Info: 2-Resultados/figs/11-SPPCSM/2-RpRs.pdf  used on input 
-line 36.
+line 37.
 (pdftex.def)             Requested size: 455.24408pt x 223.42616pt.
-LaTeX Info: Redefining \sptext on input line 44.
-LaTeX Info: Redefining \. on input line 44.
-LaTeX Info: Redefining \% on input line 44.
+LaTeX Info: Redefining \sptext on input line 45.
+LaTeX Info: Redefining \. on input line 45.
+LaTeX Info: Redefining \% on input line 45.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -5389,10 +5395,15 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[78 <./2-Resultados/figs/11-SPPCSM/2-RpRs.pdf>]
-LaTeX Info: Redefining \sptext on input line 77.
-LaTeX Info: Redefining \. on input line 77.
-LaTeX Info: Redefining \% on input line 77.
+[78 <./2-Resultados/figs/0-nmBar_h.pdf> <./2-Resultados/figs/11-SPPCSM/2-RpRs.p
+df
+
+pdfTeX warning: pdflatex (file ./2-Resultados/figs/11-SPPCSM/2-RpRs.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>]
+LaTeX Info: Redefining \sptext on input line 78.
+LaTeX Info: Redefining \. on input line 78.
+LaTeX Info: Redefining \% on input line 78.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -5426,7 +5437,7 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
 
 [82]
 Ap\'{e}ndice A.
-<2-Resultados/figs/11-SPPCSM/3-2D_Grid.png, id=60780, 276.63615pt x 223.03192pt
+<2-Resultados/figs/11-SPPCSM/3-2D_Grid.png, id=91805, 276.63615pt x 223.03192pt
 >
 File: 2-Resultados/figs/11-SPPCSM/3-2D_Grid.png Graphic file (type png)
 <use 2-Resultados/figs/11-SPPCSM/3-2D_Grid.png>
@@ -5459,7 +5470,7 @@ Overfull \hbox (5.51012pt too wide) in paragraph at lines 55--55
 []\T1/cmr/bx/n/10 a)|| 
  []
 
-<2-Resultados/figs/11-SPPCSM/4_Sens_h20-SPP.pdf, id=60800, 216.7606pt x 141.795
+<2-Resultados/figs/11-SPPCSM/4_Sens_h20-SPP.pdf, id=91825, 216.7606pt x 141.795
 pt>
 File: 2-Resultados/figs/11-SPPCSM/4_Sens_h20-SPP.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/11-SPPCSM/4_Sens_h20-SPP.pdf>
@@ -5476,7 +5487,7 @@ Overfull \hbox (6.30853pt too wide) in paragraph at lines 59--59
 []\T1/cmr/bx/n/10 b)|| 
  []
 
-<2-Resultados/figs/11-SPPCSM/5_Sens_h20_CSMP.pdf, id=60801, 216.48795pt x 136.4
+<2-Resultados/figs/11-SPPCSM/5_Sens_h20_CSMP.pdf, id=91826, 216.48795pt x 136.4
 666pt>
 File: 2-Resultados/figs/11-SPPCSM/5_Sens_h20_CSMP.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/11-SPPCSM/5_Sens_h20_CSMP.pdf>
@@ -5493,7 +5504,7 @@ Overfull \hbox (5.03107pt too wide) in paragraph at lines 62--62
 []\T1/cmr/bx/n/10 c)|| 
  []
 
-<2-Resultados/figs/11-SPPCSM/6_Sens_h20_CSMS.pdf, id=60802, 217.25984pt x 136.9
+<2-Resultados/figs/11-SPPCSM/6_Sens_h20_CSMS.pdf, id=91827, 217.25984pt x 136.9
 505pt>
 File: 2-Resultados/figs/11-SPPCSM/6_Sens_h20_CSMS.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/11-SPPCSM/6_Sens_h20_CSMS.pdf>
@@ -5521,9 +5532,9 @@ f): PDF inclusion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./2-Resultados/figs/11-SPPCSM/6_Sens_h20_CSMS.pd
 f): PDF inclusion: multiple pdfs with page group included in a single page
 >])
-LaTeX Info: Redefining \sptext on input line 92.
-LaTeX Info: Redefining \. on input line 92.
-LaTeX Info: Redefining \% on input line 92.
+LaTeX Info: Redefining \sptext on input line 87.
+LaTeX Info: Redefining \. on input line 87.
+LaTeX Info: Redefining \% on input line 87.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -5541,7 +5552,7 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
 [87] [88
 
 ]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 97.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 89.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -5550,9 +5561,9 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  [89]
-LaTeX Info: Redefining \sptext on input line 97.
-LaTeX Info: Redefining \. on input line 97.
-LaTeX Info: Redefining \% on input line 97.
+LaTeX Info: Redefining \sptext on input line 89.
+LaTeX Info: Redefining \. on input line 89.
+LaTeX Info: Redefining \% on input line 89.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -5561,9 +5572,9 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [90]
-LaTeX Info: Redefining \sptext on input line 97.
-LaTeX Info: Redefining \. on input line 97.
-LaTeX Info: Redefining \% on input line 97.
+LaTeX Info: Redefining \sptext on input line 89.
+LaTeX Info: Redefining \. on input line 89.
+LaTeX Info: Redefining \% on input line 89.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -5572,9 +5583,9 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [91]
-LaTeX Info: Redefining \sptext on input line 103.
-LaTeX Info: Redefining \. on input line 103.
-LaTeX Info: Redefining \% on input line 103.
+LaTeX Info: Redefining \sptext on input line 95.
+LaTeX Info: Redefining \. on input line 95.
+LaTeX Info: Redefining \% on input line 95.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -5600,9 +5611,9 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [94])
-LaTeX Info: Redefining \sptext on input line 106.
-LaTeX Info: Redefining \. on input line 106.
-LaTeX Info: Redefining \% on input line 106.
+LaTeX Info: Redefining \sptext on input line 98.
+LaTeX Info: Redefining \. on input line 98.
+LaTeX Info: Redefining \% on input line 98.
 
 
 Package Fancyhdr Warning: \headheight is too small (0.5pt): 
@@ -5611,16 +5622,16 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [95]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 106.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 106.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
  (./tesis.aux
 LaTeX Info: Redefining \sptext on input line 35.
 LaTeX Info: Redefining \. on input line 35.
 LaTeX Info: Redefining \% on input line 35.
  (./0-1-Agradecimientos/2-Agradecimientos.aux)
 (./0-3-Resumen/1-Resumen.aux) (./0-1-Agradecimientos/1-Dedicatoria.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 106.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 106.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 98.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 98.
 Package rerunfilecheck Info: File `tesis.out' has not changed.
 (rerunfilecheck)             Checksum: 3BA6859CD93D92A28EFA833211AD0734;2137.
 
@@ -5632,11 +5643,11 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 61888 strings out of 492982
- 1369898 string characters out of 6134895
+ 61889 strings out of 492982
+ 1370066 string characters out of 6134895
  1955839 words of memory out of 5000000
- 63523 multiletter control sequences out of 15000+600000
- 587473 words of font info for 332 fonts, out of 8000000 for 9000
+ 63531 multiletter control sequences out of 15000+600000
+ 587128 words of font info for 328 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,19n,103p,10570b,2793s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
@@ -5683,10 +5694,10 @@ onts/type1/public/cm-super/sfti0900.pfb></usr/share/texmf/fonts/type1/public/cm
 -super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
 </usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf/fo
 nts/type1/public/cm-super/sfxc1095.pfb>
-Output written on tesis.pdf (107 pages, 32813643 bytes).
+Output written on tesis.pdf (107 pages, 38176639 bytes).
 PDF statistics:
- 61455 PDF objects out of 66169 (max. 8388607)
- 33048 compressed objects within 331 object streams
+ 92480 PDF objects out of 95282 (max. 8388607)
+ 50189 compressed objects within 502 object streams
  418 named destinations out of 1000 (max. 500000)
- 47435 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 47440 words of extra memory for PDF output out of 51595 (max. 10000000)
 

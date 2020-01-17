@@ -2,7 +2,7 @@
 
 \chapter{Respuesta óptica de una monocapa desordenada de nanopartículas esféricas}
 \label{chapter:Resultados}
-
+\vspace*{5em}
 
 Para calcular la reflectancia $R$ y transmistancia $T$  de una monocapa de nanopartículas (NPs) esféricas inmersa en un medio dieléctrico, denominado matriz, y soportada sobre un sustrato dieléctrico, se emplea el modelo de esparcimiento coherente (Coherent Scattering Model, CSM) \cite{reyes2018analytical,garcia2012multiple}. El CSM proporciona expresiones analíticas sencillas para los coeficientes de amplitud de reflexión $r$ y de transmisión $t$ de la monocapa cuando está suspendida en el espacio libre (Free Standing Monolayer, FSM) [Ecs. \eqref{eqs:rtcoh}], y para el sistema matriz-monocapa-sustrato tanto en incidencia externa [Ecs. \eqref{eqs:rtCSMext}] como interna, o bien en una configuración de reflexión total atenuada \index{Reflexión total!atenuada} (Attenuated Total Reflection, ATR) [Ecs. \eqref{eqs:rtCSMATR}]. En la primera sección de este capítulo se calcula la respuesta electromagnética (EM) de una moncapa de NPs esféricas considerando que la función dieléctrica de las NPs está dada por el modelo de Drude-Sommerfeld [Ec. \eqref{eq:Drude}],\index{Drude-Sommerfeld!modelo de!frecuencia de plasma ($\omega_p$)}\index{Drude-Sommerfeld!modelo de!constante fenomenológica de amortiguamiento ($\gamma$)} que depende de dos parámetros: la frecuencia de plasma $\omega_p$, que sintoniza las frecuencias de resonancia plasmónicas de superficie (Surface Plasmon Resonances, SPRs), y la constante fenomenológica de amortiguamiento $\gamma$, que ajusta el ancho de cada SPR. Como se muestra a continuación, la reflectancia y transmitancia de una monocapa de NPs presenta excitaciones distintas a las  SPRs de partículas individuales (Single Particle SPRs, SP-SPRs), como el \emph{modo guiado} reportado en \cite{kabashin2009plasmonic} y \cite{danilov2018ultra}, también denominado resonancia de red de superficie plasmónica (Plasmonic Surface Lattice Resonance, PSLR). Asimismo, se mostrará que la elección de $\omega_p$ y $\gamma$ evita el traslape entre las excitaciones en la monocapa y las SP-SPR, lo que facilita la identificación de cada tipo de modo. En la segunda sección se emplean las correcciones por tamaño de las funciones dieléctricas del oro y de la plata para NPs esféricas, para identificar si un modo semejante al modo guiado se encuentra presente en monocapas formadas con NPs de materiales reales, así como las  características de la monocapa para que pueda ser empleada como biosensor. Finalmente, en la tercera sección, se hace un análisis de la sensibilidad ante cambios del índice de refracción del modo excitado en la monocapa distinto de las SP-SPRs  y se compara con la sensibilidad de un biosensor comercial, que consiste en una película continua de oro donde se excita al plasmón-polaritón de superficie (Surface Plasmon Polariton, SPP), así como con arreglos nanoestructurados que se han propuesto en la literatura para el biosensado.
 
@@ -121,7 +121,7 @@ Para caracterizar el supuesto modo plasmónico colectivo se repitieron los cálc
 \def\xR{7}
 \def\yR{2.5}	
 	\node at(\xR,\yR){$R_p $};
-	\node at(\xR,\yR-2.8){$R_s$};
+	\node at(\xR-.75,\yR-2.8){$R_s$};
 \end{tikzpicture}\vspace*{-.5em}
 	\caption{Gráficas de la reflectancia en configuración ATR de una monocapa como función del ángulo de incidencia $\theta_i$ y de la longitud de onda $\lambda$ (escala inferior), así como de la energía de la onda plana incidente en unidades de $\hbar\omega$ (escala superior), para una función dieléctrica tipo Drude con $\hbar\omega_p=10$ eV  y  $\hbar\gamma=0. 15$ eV.  Las gráficas   en el renglón superior [\textbf{i)--v)}] muestran los resultados  para  polarización \emph{p} y las del renglón inferior  [\textbf{vi)}--\textbf{x)}] para polarización  \emph{s}, donde se consideraron NPs de radio $a=30$ nm y distintas fracciones de cubierta $\Theta$: $0. 05$, $0. 1$, $0. 2$, $0. 3$ y $0. 4$. Las líneas verticales punteadas verdes y rosas corresponden a las SP-SPRs dipolar ($342$ nm) y cuadrupolar ($262$ nm), respectivamente.  Los puntos amarillos corresponden a los mínimos en $R$ para ángulos mayores a $\theta_c\approx 62.5^\circ$ y longitudes de onda mayores a la SP-SPRs dipolar. }	\label{fig:R-ATR10}	
 	\end{figure}		
@@ -147,7 +147,7 @@ Ya que el supuesto modo plasmónico colectivo sufre un corrimiento al rojo al au
 \begin{figure}[h!]\centering
 \hspace*{-.5em}\begin{tikzpicture}[scale=1]
 \node[inner sep=0pt] (graf) at (-.15,0){\includegraphics[scale=1]{2-Resultados/figs/3-Wp4rVar/0-2D_Grid}};
-\node[right, inner sep=0pt] (legend) at (5.65,.075) {\includegraphics[scale=1, trim={00 -15 00 00}, clip]{2-Resultados/figs/0-RBar_v}};
+\node[right, inner sep=0pt] (legend) at (5.75,.0775) {\includegraphics[scale=1, trim={00 -15 00 00}, clip]{2-Resultados/figs/0-RBar_v}};
 
 \def\y{4.2}
 	\node at(-3.85,\y){\normalsize $a = 3 $ nm};
@@ -204,9 +204,13 @@ En la Fig. \ref{fig:RT-Omegas} se muestran los cálculos de la reflectancia $R$,
 	\node at(\x,-1) {\small $a=30$ nm};
 
 \def\xR{4.2}
-\def\yR{2.5}	
-	\node at(\xR,\yR){$R_p $};
-	\node at(\xR,\yR-2.8){$R_s$};
+\def\yR{.5}	
+	\node at(\xR-5.525,\yR){$R_p $};
+	\node at(\xR-5.525,\yR-2.8){$R_s$};
+		\node at(\xR-2.75,\yR){$T_p $};
+		\node at(\xR-2.75,\yR-2.8){$T_s$};
+			\node at(\xR-.325,\yR){$R_p+T_p $};
+			\node at(\xR-.325,\yR-2.8){$R_s+T_s$};
 \end{tikzpicture}	
 	\end{subfigure}\\ \noindent \hspace*{-4em}
 	\begin{subfigure}{.01\linewidth}\caption{}\label{sfig:RT-10}\vspace{5.5cm}\end{subfigure}\hspace*{-.5em}
@@ -221,9 +225,13 @@ En la Fig. \ref{fig:RT-Omegas} se muestran los cálculos de la reflectancia $R$,
 	\node at(\x,-1) {\small $a=30$ nm};
 
 \def\xR{4.2}
-\def\yR{2.5}	
-	\node at(\xR,\yR){$R_p $};
-	\node at(\xR,\yR-2.8){$R_s$};
+\def\yR{1.}	
+	\node at(\xR-5.525,\yR){$R_p $};
+	\node at(\xR-5.525,\yR-2.8){$R_s$};
+		\node at(\xR-2.75,\yR){$T_p $};
+		\node at(\xR-2.75,\yR-2.8){$T_s$};
+			\node at(\xR-.325,\yR){$R_p+T_p $};
+			\node at(\xR-.325,\yR-2.8){$R_s+T_s$};
 \end{tikzpicture}
 		\end{subfigure}\vspace*{-.5em}
 	\caption{Gráficas de la reflectancia $R$, transmitancia $T$ y su suma $R+T$ en configuración ATR de una monocapa de NPs esféricas como función del ángulo de incidencia $\theta_i$ y de la longitud de onda $\lambda$ (escala inferior) así como de la energía $\hbar\omega$ (escala superior) de la onda plana incidente, considerando NPs con una función dieléctrica tipo Drude con \textbf{a)} $\hbar\omega_p=4. 3$ eV,  $\hbar\gamma=0. 15$ eV y un radio de $a=30$ nm y fracción de cubierta $\Theta=0.2$, y \textbf{b)} $\hbar\omega_p = 10$ eV y $\hbar\gamma = 0.15$ eV con $a=30$ nm y $\Theta=0.3$.  Las gráficas   en el renglón superior [\textbf{i)--iii)}]  muestran los resultados de la reflectancia para  polarización \emph{p} y las del renglón inferior  [\textbf{iv)--vi)}] para polarización  \emph{s}. Las líneas verticales punteadas verdes corresponden a la SP-SPR dipolar ($658$ nm y $342$ nm para $\hbar\omega_p=4.3$ eV y $\hbar\omega_p = 10$ eV, respectivamente), y las rosas a la SP-SPR cuadrupolar ($561$ nm y $262$ nm para $\hbar\omega_p=4.3$ eV y $\hbar\omega_p = 10$ eV, respectivamente). Los puntos amarillos corresponden a los mínimos en $R$, y $R+T$ para ángulos mayores a $\theta_c\approx 62.5^\circ$ y longitudes de onda mayores a la SP-SPRs dipolar. }\label{fig:RT-Omegas}

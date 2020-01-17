@@ -159,9 +159,13 @@ Para la monocapa de NPs de plata (paneles derechos de la Fig. \ref{fig:AuAg-Cuts
 	\node at(\x,-1) {\small $a=30$ nm};
 
 \def\xR{4.2}
-\def\yR{2.5}	
-	\node at(\xR,\yR){$R_p $};
-	\node at(\xR,\yR-2.8){$R_s$};
+\def\yR{1.}	
+	\node at(\xR-5.525,\yR){$R_p $};
+	\node at(\xR-5.525,\yR-2.8){$R_s$};
+		\node at(\xR-2.75,\yR){$T_p $};
+		\node at(\xR-2.75,\yR-2.8){$T_s$};
+			\node at(\xR-.325,\yR){$R_p+T_p $};
+			\node at(\xR-.325,\yR-2.8){$R_s+T_s$};
 \end{tikzpicture}	
 	\end{subfigure}\\ \noindent \hspace*{-4em}
 	\begin{subfigure}{.01\linewidth}\caption{}\label{sfig:RT-Ag}\vspace{5.5cm}\end{subfigure}\hspace*{-.5em}
@@ -176,9 +180,13 @@ Para la monocapa de NPs de plata (paneles derechos de la Fig. \ref{fig:AuAg-Cuts
 	\node at(\x,-1) {\small $a=40$ nm};
 
 \def\xR{4.2}
-\def\yR{2.5}	
-	\node at(\xR,\yR){$R_p $};
-	\node at(\xR,\yR-2.8){$R_s$};
+\def\yR{1.}	
+	\node at(\xR-5.525,\yR){$R_p $};
+	\node at(\xR-5.525,\yR-2.8){$R_s$};
+		\node at(\xR-2.75,\yR){$T_p $};
+		\node at(\xR-2.75,\yR-2.8){$T_s$};
+			\node at(\xR-.325,\yR){$R_p+T_p $};
+			\node at(\xR-.325,\yR-2.8){$R_s+T_s$};
 \end{tikzpicture}
 		\end{subfigure}\vspace*{-.5em}
 	\caption{Gráficas de la reflectancia $R$, transmitancia $T$ y la suma $R+T$   en configuración ATR de una monocapa de NPs esféricas como función del ángulo de incidencia $\theta_i$ y de la longitud de onda $\lambda$ (escala inferior) así como de la energía de la onda plana incidente en unidades de $\hbar\omega$ (escala superior), considerando \textbf{a)} NPs de oro de radio $a=30$ nm y fracción de cubierta $\Theta$ de $0.125$, y \textbf{b)} NPs de plata de radio $a=40$ nm y $\Theta=0.1$.  Las gráficas   en el renglón superior [\textbf{i)--iii)}]  muestran los resultados de la reflectancia para  polarización \emph{p} y las del renglón inferior  [\textbf{iv)--vi)}] para polarización  \emph{s}. Las líneas verticales punteadas verdes corresponden a la SP-SPRs dipolares ($\lambda\approx 531$ nm y $\lambda\approx 444$ nm para las NPs empleadas de oro y plata, respectivamente), y las rosas a la SP-SPR cuadrupolar ($\lambda\approx 514$ nm y $\lambda\approx 383$ nm para las NPs de oro y de plata, respectivamente). Los puntos amarillos corresponden a los mínimos en $R$, y $R+T$ para ángulos mayores a $\theta_c\approx 62.5^\circ$ y longitudes de onda mayores a la SP-SPRs dipolares. }\label{fig:RT-AuAg}
