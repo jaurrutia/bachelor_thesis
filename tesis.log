@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.24)  16 JAN 2020 18:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.24)  23 JAN 2020 16:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5151,7 +5151,7 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [67 <./2-Resultados/figs/6-AuThetaVar/0-cut65_Au_Aug.pdf>]
-<2-Resultados/figs/6-AuThetaVar/0-cut75_Au_Aug.pdf, id=51782, 416.20067pt x 287
+<2-Resultados/figs/6-AuThetaVar/0-cut75_Au_Aug.pdf, id=51797, 416.20067pt x 287
 .27452pt>
 File: 2-Resultados/figs/6-AuThetaVar/0-cut75_Au_Aug.pdf Graphic file (type pdf)
 
@@ -5170,7 +5170,7 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [68 <./2-Resultados/figs/6-AuThetaVar/0-cut75_Au_Aug.pdf>]
-<2-Resultados/figs/8-AurVar/0-2D_Grid.png, id=51838, 435.7881pt x 222.8325pt>
+<2-Resultados/figs/8-AurVar/0-2D_Grid.png, id=51853, 435.7881pt x 222.8325pt>
 File: 2-Resultados/figs/8-AurVar/0-2D_Grid.png Graphic file (type png)
 <use 2-Resultados/figs/8-AurVar/0-2D_Grid.png>
 Package pdftex.def Info: 2-Resultados/figs/8-AurVar/0-2D_Grid.png  used on inpu
@@ -5196,7 +5196,7 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [69 <./2-Resultados/figs/8-AurVar/0-2D_Grid.png>]
-<2-Resultados/figs/9-AgrVar/0-2D_Grid.png, id=51860, 436.029pt x 222.8325pt>
+<2-Resultados/figs/9-AgrVar/0-2D_Grid.png, id=51875, 436.029pt x 222.8325pt>
 File: 2-Resultados/figs/9-AgrVar/0-2D_Grid.png Graphic file (type png)
 <use 2-Resultados/figs/9-AgrVar/0-2D_Grid.png>
 Package pdftex.def Info: 2-Resultados/figs/9-AgrVar/0-2D_Grid.png  used on inpu
@@ -5215,7 +5215,7 @@ Overfull \hbox (3.95819pt too wide) in paragraph at lines 110--127
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<2-Resultados/figs/8-AurVar/0-cut65_Au_Aug.pdf, id=51863, 416.20067pt x 287.274
+<2-Resultados/figs/8-AurVar/0-cut65_Au_Aug.pdf, id=51878, 416.20067pt x 287.274
 52pt>
 File: 2-Resultados/figs/8-AurVar/0-cut65_Au_Aug.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/8-AurVar/0-cut65_Au_Aug.pdf>
@@ -5246,7 +5246,7 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [71 <./2-Resultados/figs/9-AgrVar/0-2D_Grid.png>]
-<2-Resultados/figs/8-AurVar/0-cut75_Au_Aug.pdf, id=51886, 416.20067pt x 287.274
+<2-Resultados/figs/8-AurVar/0-cut75_Au_Aug.pdf, id=51902, 416.20067pt x 287.274
 52pt>
 File: 2-Resultados/figs/8-AurVar/0-cut75_Au_Aug.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/8-AurVar/0-cut75_Au_Aug.pdf>
@@ -5271,7 +5271,7 @@ Overfull \hbox (5.51012pt too wide) in paragraph at lines 150--150
 []\T1/cmr/bx/n/10 a)|| 
  []
 
-<2-Resultados/figs/10-RT-AuAg/0-2D_Grid_1.png, id=51945, 276.0714pt x 222.8325p
+<2-Resultados/figs/10-RT-AuAg/0-2D_Grid_1.png, id=51960, 276.0714pt x 222.8325p
 t>
 File: 2-Resultados/figs/10-RT-AuAg/0-2D_Grid_1.png Graphic file (type png)
 <use 2-Resultados/figs/10-RT-AuAg/0-2D_Grid_1.png>
@@ -5293,7 +5293,7 @@ Overfull \hbox (6.30853pt too wide) in paragraph at lines 171--171
 []\T1/cmr/bx/n/10 b)|| 
  []
 
-<2-Resultados/figs/10-RT-AuAg/0-2D_Grid_2.png, id=51947, 275.3487pt x 222.8325p
+<2-Resultados/figs/10-RT-AuAg/0-2D_Grid_2.png, id=51962, 275.3487pt x 222.8325p
 t>
 File: 2-Resultados/figs/10-RT-AuAg/0-2D_Grid_2.png Graphic file (type png)
 <use 2-Resultados/figs/10-RT-AuAg/0-2D_Grid_2.png>
@@ -5343,7 +5343,7 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [75]
-<2-Resultados/figs/11-SPPCSM/1_comparacionAugtEye.pdf, id=52006, 531.10725pt x 
+<2-Resultados/figs/11-SPPCSM/1_comparacionAugtEye.pdf, id=52055, 531.10725pt x 
 353.50171pt>
 File: 2-Resultados/figs/11-SPPCSM/1_comparacionAugtEye.pdf Graphic file (type p
 df)
@@ -5373,13 +5373,13 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [77 <./2-Resultados/figs/11-SPPCSM/1_comparacionAugtEye.pdf>]
-<2-Resultados/figs/0-nmBar_h.pdf, id=52168, 501.875pt x 35.13126pt>
+<2-Resultados/figs/0-nmBar_h.pdf, id=52217, 501.875pt x 35.13126pt>
 File: 2-Resultados/figs/0-nmBar_h.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/0-nmBar_h.pdf>
 Package pdftex.def Info: 2-Resultados/figs/0-nmBar_h.pdf  used on input line 36
 .
 (pdftex.def)             Requested size: 455.24408pt x 31.86868pt.
-<2-Resultados/figs/11-SPPCSM/2-RpRs.pdf, id=52169, 562.44662pt x 276.0391pt>
+<2-Resultados/figs/11-SPPCSM/2-RpRs.pdf, id=52218, 562.44662pt x 276.0391pt>
 File: 2-Resultados/figs/11-SPPCSM/2-RpRs.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/11-SPPCSM/2-RpRs.pdf>
 Package pdftex.def Info: 2-Resultados/figs/11-SPPCSM/2-RpRs.pdf  used on input 
@@ -5437,7 +5437,7 @@ Package Fancyhdr Warning: \headheight is too small (0.5pt):
 
 [82]
 Ap\'{e}ndice A.
-<2-Resultados/figs/11-SPPCSM/3-2D_Grid.png, id=91805, 276.63615pt x 223.03192pt
+<2-Resultados/figs/11-SPPCSM/3-2D_Grid.png, id=91853, 276.63615pt x 223.03192pt
 >
 File: 2-Resultados/figs/11-SPPCSM/3-2D_Grid.png Graphic file (type png)
 <use 2-Resultados/figs/11-SPPCSM/3-2D_Grid.png>
@@ -5470,7 +5470,7 @@ Overfull \hbox (5.51012pt too wide) in paragraph at lines 55--55
 []\T1/cmr/bx/n/10 a)|| 
  []
 
-<2-Resultados/figs/11-SPPCSM/4_Sens_h20-SPP.pdf, id=91825, 216.7606pt x 141.795
+<2-Resultados/figs/11-SPPCSM/4_Sens_h20-SPP.pdf, id=91873, 216.7606pt x 141.795
 pt>
 File: 2-Resultados/figs/11-SPPCSM/4_Sens_h20-SPP.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/11-SPPCSM/4_Sens_h20-SPP.pdf>
@@ -5487,7 +5487,7 @@ Overfull \hbox (6.30853pt too wide) in paragraph at lines 59--59
 []\T1/cmr/bx/n/10 b)|| 
  []
 
-<2-Resultados/figs/11-SPPCSM/5_Sens_h20_CSMP.pdf, id=91826, 216.48795pt x 136.4
+<2-Resultados/figs/11-SPPCSM/5_Sens_h20_CSMP.pdf, id=91874, 216.48795pt x 136.4
 666pt>
 File: 2-Resultados/figs/11-SPPCSM/5_Sens_h20_CSMP.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/11-SPPCSM/5_Sens_h20_CSMP.pdf>
@@ -5504,7 +5504,7 @@ Overfull \hbox (5.03107pt too wide) in paragraph at lines 62--62
 []\T1/cmr/bx/n/10 c)|| 
  []
 
-<2-Resultados/figs/11-SPPCSM/6_Sens_h20_CSMS.pdf, id=91827, 217.25984pt x 136.9
+<2-Resultados/figs/11-SPPCSM/6_Sens_h20_CSMS.pdf, id=91875, 217.25984pt x 136.9
 505pt>
 File: 2-Resultados/figs/11-SPPCSM/6_Sens_h20_CSMS.pdf Graphic file (type pdf)
 <use 2-Resultados/figs/11-SPPCSM/6_Sens_h20_CSMS.pdf>
@@ -5643,10 +5643,10 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 61889 strings out of 492982
- 1370066 string characters out of 6134895
+ 61890 strings out of 492982
+ 1370087 string characters out of 6134895
  1955839 words of memory out of 5000000
- 63531 multiletter control sequences out of 15000+600000
+ 63532 multiletter control sequences out of 15000+600000
  587128 words of font info for 328 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,19n,103p,10570b,2793s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -5694,10 +5694,10 @@ onts/type1/public/cm-super/sfti0900.pfb></usr/share/texmf/fonts/type1/public/cm
 -super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
 </usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf/fo
 nts/type1/public/cm-super/sfxc1095.pfb>
-Output written on tesis.pdf (107 pages, 38176639 bytes).
+Output written on tesis.pdf (107 pages, 38183289 bytes).
 PDF statistics:
- 92480 PDF objects out of 95282 (max. 8388607)
- 50189 compressed objects within 502 object streams
+ 92529 PDF objects out of 95282 (max. 8388607)
+ 50221 compressed objects within 503 object streams
  418 named destinations out of 1000 (max. 500000)
  47440 words of extra memory for PDF output out of 51595 (max. 10000000)
 

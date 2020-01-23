@@ -211,7 +211,7 @@
                  hyperindex = true,
                  hyperfigures
                  ]{hyperref} 
-%	\hypersetup{ hidelinks = true, }		% For Printing. Uncomment if colors og the hyperlinks are needed.                
+%	\hypersetup{ hidelinks = true, }		% For Printing. Uncomment if colors on the hyperlinks are needed.                
     \usepackage{graphicx}   %Used this insetad of  \usepackage[pdftex]{graphicx} 'cause it wasn't debugging. Don't know why
     \DeclareGraphicsExtensions{.png, .jpg, .pdf}
 
@@ -255,8 +255,8 @@
 \setlength{\hoffset}{0.00cm}
 \setlength{\voffset}{0.00cm}
 
-%: Uncomment this secion for two-sided printing
-% ------------------------------
+%%: Uncomment this secion for two-sided printing
+%% ------------------------------
 %\setlength{\oddsidemargin}{1cm}  %antes 1.5   mueve todo a la derecha de estas páginas
 %\setlength{\evensidemargin}{-.5cm} %antes 0cm
 %\setlength{\topmargin}{-.75cm}  % antes 1mm

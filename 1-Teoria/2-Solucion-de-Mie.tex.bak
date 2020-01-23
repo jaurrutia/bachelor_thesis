@@ -1,3 +1,5 @@
+% !TeX root = ../tesis.tex
+
 \section{Solución de Mie}
 \label{section:Mie}
 
@@ -163,7 +165,7 @@ Las ecuaciones de Maxwell, al considerar una región del espacio sin fuentes y c
 	\end{subequations} \vspace*{-1em}
 	
 \noindent	
-en donde $\vb{H} = \vb{B}/\mu$ es el campo H, y tanto la función dieléctrica $\varepsilon(\omega)$ como la permeabilidad magnética $\mu$ del material son funciones continuas. Al desacoplar las ecuaciones de Maxwell, se concluye que los campos EMs son soluciones a la ecuación de Helmholtz vectorial   (Ecs. \eqref{eq:Helmholtz}) \cite{jackson1999electrodynamics}\index{Ecuación!de Helmholtz}
+en donde $\vb{H} = \vb{B}/\mu$ es el campo H, y tanto la función dieléctrica $\varepsilon(\omega)$ como la permeabilidad magnética $\mu$ del material son funciones continuas. Al desacoplar las ecuaciones de Maxwell, se concluye que los campos EMs son soluciones a la ecuación de Helmholtz vectorial  [Ecs. \eqref{eq:Helmholtz}] \cite{jackson1999electrodynamics}\index{Ecuación!de Helmholtz}
 
 	\eqhalf{\nabla^2 \vb{E}+ k^2 \vb{E} = \vb{0}, \notag}
 	\eqhalf{\nabla^2 \vb{H}+ k^2 \vb{H} = \vb{0},\notag}
