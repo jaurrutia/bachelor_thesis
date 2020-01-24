@@ -1,42 +1,12 @@
-# Tesis de licenciatura
-## Respuesta electromagnética de sistema bidimensionales desordenados de nanopartículas plasmónicas y su uso en el biosensado
+# Bachelor thesis:
+## Estudio del modo plasmónico colectivo en sistemas monocapa desordenados formados por nanopartículas esféricas y su análisis para biosensado
+### by Jonathan Alexis Urrutia Anguiano
+### directed by Dr. Alejandro Reyes Coronado (http://sistemas.fciencias.unam.mx/~coronado/)
 
-Information about the template is found at the end of the README.md file.
+#### Abstract:
+Commercial plasmonic biosensors use traditionally surface plasmon-polaritons excited on a continuous gold film. Periodic and disordered nanostructured arrays have been recently proposed for biosensing by employing plasmonic surface lattice resonances and localized surface plasmon resonances. However their production is generally expensive and time consuming due to their fabrication techniques such as hole-mask colloidal lithography or sputtering deposition followed by pore formation. As an alternative, in this bachelor thesis it is studied the possibility to use disordered monolayers of gold and silver spherical nanoparticles as a biosensor, by analyzing theoretically their reflectance and transmittance by means of the coherent scattering model. This model predicts a collective-like plasmonic mode, excited in an internal reflectance configuration and for both polarizations, which can be tuned by choosing the radius ($a$) of the nanoparticles in the monolayer and its cover fraction $\Theta$. The obtained results show that a monolayer of gold nanoparticles with $ a = 30 $ nm and $ \Theta = 0.125 $  could be used for biosensing, as well as a monolayer of silver nanoparticles with $a=40$ nm and $\Theta=0.1$. The performed comparison for the bulk sensitivity between the collective-like plasmonic mode and both the plasmonic surface lattice resonances and the localized surface plasmon resonance shows it is similar for angles of incidence close to the critical angle. In addition, the sensitivity of the collective-like plasmonic mode and the surface plasmon-polariton were compared, showing that under particular conditions the sensitivity of a monolayer formed by gold nanoparticles is comparable to that of a thin gold film; this result is also observed when silver is used.
 
-### Cosas por hacer
-- [x] Revisar el índice analítico
-  - [ ] Completar el índice analítico
-- [ ] Considerar hacer un índice de abreviaciones
-- [x] Gráficas del ajuste de Drude de Johnson & Christy
-  - [x] Poner la gráfica correcta
-- [x] Gráficas de la corrección por tamaño para NPs esféricas
-- [x] Explicación de los plasmones
-- [x] Explicación de las extinción de luz y su relación con los plasmones
-  - [x] Diagramas de extinción para a = 30 nm con \omega_p= 4.3 eV, 10 eV y oro y plata
-- [x] CSM
-- [ ] Hacer el límite de partícula pequeña de las SPRs con Drude, que no me sale... :(
-- [x] Introducir el sustrato en el CSM
-- [x] Integrar cálculos con Drude
-- [x] Realizar cálculos con la corrección de tamaño
-- [x] Rehacer las figuras de los cálculos con Drude para que queden bien en el documento
-- [x] Considerar calcular T de una vez
-- [x] Hacer los cálculos con la corrección por tamaño de J&C
-- [ ] Hacer análisis de los diagramas de esparcimiento de una sola nanopartículas
-- [x] Introducir información de la distancia promedio entre nanopartículas
-- [ ] Jugar con BEM (URGE)
-- [x] Programar 3 medios y calcular la sensibilidad de un sersor comercial
-- [ ] Calcular la función de mérito para la monocapa con oro y plata
-   - [x] Calcular el FWHM
-   - [ ] Implementarlo para \Delta n
-   - [ ] Hacerl el cálculo para monocapa
-   - [ ] Hacerl el cálculo para film
-- [x] Mejorar la resolución de las gráficas png (el dpi a la hora de exportar)
-- [ ] Homegenizar el margen de las Gráficas
-- [ ] Corregir etiquetas en el modelo de Drude (considerar hacer sólo una gráfica)
-- [ ] En las gráficas de R+T corregir: \omega_p -> \hbar\omega_p
-
-
-Thesis template:
+# Thesis template information:
 =============
 Modification, of a modification from a LaTeX template (not longer aviable in Overleaf) aimed for the a UNAM's College of Engineering Thesis.
 
@@ -46,7 +16,6 @@ and made available through OpenWetWare.org - the free biology wiki
 . Adapted to FI-UNAM by Jesús Velázquez & Marco Ruiz.
 . Adapted to FC-UNAM by Jonathan Urrutia
 
-
 What to modify if you want to use this template
 -----------------
 
@@ -54,7 +23,7 @@ All packages, as well as the file properties can be found in
 
     Latex/Classes/PhDthesisPSnPDF.cls
 
-there, all the packages info is commentes. Additional to the FI-UNAM template, the bibtex package can be used, as well as the imakeidx package. Also the footnote space is now well integrated to the text pages and the margin of the text were diminished.
+there, all the packages info is comments. Additional to the FI-UNAM template, the bibtex package can be used, as well as the imakeidx package. Also the footnote space is now well integrated to the text pages and the margin of the text were diminished.
 
 Compilación
 -----------
@@ -90,6 +59,5 @@ As well as the jury
 
 Warnings
 --------
-If used in spanish, the  \blindtext will show errors sinces it is aimed for inglish-based texts. After removal the blind text-related issued should disappear.
-
+If used in spanish, the  \blindtext will show errors since it is aimed for inglish-based texts. After removal the blind text-related issued should disappear.
 The outside of the margin-warnings are due the cover.
