@@ -11,11 +11,10 @@ Commercial plasmonic biosensors use traditionally surface plasmon-polaritons exc
 
 ## Thesis template information:
 =============
-Modification, of a modification from a LaTeX template (not longer aviable in Overleaf) aimed for the a UNAM's College of Engineering Thesis.
+A empty version or template can be found in Overleaf (https://www.overleaf.com/latex/templates/unam-bachelor-thesis/fgyrpdgqyxyy)
 
-Based on Harish Bhanderi's PhD/MPhil template, then Uni Cambridge (http://www-h.eng.cam.ac.uk/help/tpl/textprocessing/ThesisStyle/).
-Corrected and extended in 2007 by Jakob Suckale, then MPI-iCBG PhD programme
-and made available through OpenWetWare.org - the free biology wiki. Adapted to FI-UNAM by Jesús Velázquez & Marco Ruiz. Adapted to FC-UNAM by Jonathan Urrutia.
+It is based on Harish Bhanderi's PhD/MPhil template, then Uni Cambridge (http://www-h.eng.cam.ac.uk/help/tpl/textprocessing/ThesisStylIte/).
+Corrected and extended in 2007 by Jakob Suckale, then MPI-iCBG PhD programme and made available through OpenWetWare.org - the free biology wiki. Adapted to FI-UNAM by Jesús Velázquez & Marco Ruiz. Adapted to FC-UNAM by Jonathan Urrutia.
 
 What to modify if you want to use this template
 -----------------

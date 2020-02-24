@@ -211,7 +211,7 @@
                  hyperindex = true,
                  hyperfigures
                  ]{hyperref} 
-	\hypersetup{ hidelinks = true, }		% For Printing. Uncomment if colors og the hyperlinks are needed.                
+%	\hypersetup{ hidelinks = true, }		% For Printing. Uncomment if colors on the hyperlinks are needed.                
     \usepackage{graphicx}   %Used this insetad of  \usepackage[pdftex]{graphicx} 'cause it wasn't debugging. Don't know why
     \DeclareGraphicsExtensions{.png, .jpg, .pdf}
 
@@ -255,29 +255,10 @@
 \setlength{\hoffset}{0.00cm}
 \setlength{\voffset}{0.00cm}
 
-%: Uncomment this secion for two-sided printing
-% ------------------------------
-\setlength{\oddsidemargin}{1cm}  %antes 1.5   mueve todo a la derecha de estas páginas
-\setlength{\evensidemargin}{-.5cm} %antes 0cm
-\setlength{\topmargin}{-.75cm}  % antes 1mm
-\setlength{\headheight}{0.cm}		% antes 1.36cm
-\setlength{\headsep}{1cm}			% antes 1
-\setlength{\textheight}{22.5cm}   % antes 20.84cm
-\setlength{\textwidth}{16cm}  		% antes 14.5cm
-\setlength{\marginparsep}{1mm}
-\setlength{\marginparwidth}{3cm}		%antes 3
-%\setlength{\footskip}{2.36cm}
-\setlength{\footskip}{0.7cm}
-\setlength{\parskip}{1 em}	
-\setlength{\parindent}{3em}   %ESTE LO AGREGUE YP
-
-%%: Uncomment this secion for one-sided printing
-%% taken from the original file, but with the first two lanes modified
+%%: Uncomment this secion for two-sided printing
 %% ------------------------------
-%%\setlength{\evensidemargin}{1.9cm} % was 1.96cm in original
-%%\setlength{\oddsidemargin}{-0.001cm} % was -0.54cm in original file
-%\setlength{\oddsidemargin}{.5cm}  %antes 1.5   mueve todo a la derecha de estas páginas
-%\setlength{\evensidemargin}{.5cm}
+%\setlength{\oddsidemargin}{1cm}  %antes 1.5   mueve todo a la derecha de estas páginas
+%\setlength{\evensidemargin}{-.5cm} %antes 0cm
 %\setlength{\topmargin}{-.75cm}  % antes 1mm
 %\setlength{\headheight}{0.cm}		% antes 1.36cm
 %\setlength{\headsep}{1cm}			% antes 1
@@ -288,6 +269,25 @@
 %%\setlength{\footskip}{2.36cm}
 %\setlength{\footskip}{0.7cm}
 %\setlength{\parskip}{1 em}	
+%\setlength{\parindent}{3em}   %ESTE LO AGREGUE YP
+
+%: Uncomment this secion for one-sided printing
+% taken from the original file, but with the first two lanes modified
+% ------------------------------
+%\setlength{\evensidemargin}{1.9cm} % was 1.96cm in original
+%\setlength{\oddsidemargin}{-0.001cm} % was -0.54cm in original file
+\setlength{\oddsidemargin}{.5cm}  %antes 1.5   mueve todo a la derecha de estas páginas
+\setlength{\evensidemargin}{.5cm}
+\setlength{\topmargin}{-.75cm}  % antes 1mm
+\setlength{\headheight}{0.cm}		% antes 1.36cm
+\setlength{\headsep}{1cm}			% antes 1
+\setlength{\textheight}{22.5cm}   % antes 20.84cm
+\setlength{\textwidth}{16cm}  		% antes 14.5cm
+\setlength{\marginparsep}{1mm}
+\setlength{\marginparwidth}{3cm}		%antes 3
+%\setlength{\footskip}{2.36cm}
+\setlength{\footskip}{0.7cm}
+\setlength{\parskip}{1 em}	
 \setlength{\parindent}{3em}   %ESTE LO AGREGUE YP
 
 	%------------------------- Fancy page layout options --------------------------------------
